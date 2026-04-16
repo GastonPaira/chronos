@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="38" fill="#09090f"/>
+  <!-- Hourglass outline -->
+  <polygon points="40,28 152,28 96,96 152,164 40,164 96,96" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linejoin="round"/>
+  <!-- Sand top half -->
+  <polygon points="52,40 140,40 96,88" fill="#f59e0b" opacity="0.85"/>
+  <!-- Sand bottom trickle -->
+  <polygon points="78,108 114,108 96,128" fill="#f59e0b" opacity="0.6"/>
+  <!-- Sand bottom pile -->
+  <polygon points="52,152 140,152 114,120 78,120" fill="#f59e0b" opacity="0.85"/>
+  <!-- Center dot -->
+  <circle cx="96" cy="96" r="5" fill="#f59e0b"/>
+</svg>

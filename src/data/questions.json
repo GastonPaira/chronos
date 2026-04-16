@@ -1,0 +1,462 @@
+[
+  {
+    "id": "eg-001",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which pharaoh ordered the construction of the Great Pyramid of Giza?",
+      "es": "¿Qué faraón ordenó la construcción de la Gran Pirámide de Giza?"
+    },
+    "options": [
+      { "en": "Pharaoh Khufu (Cheops)", "es": "Faraón Keops (Khufu)" },
+      { "en": "Pharaoh Ramesses II", "es": "Faraón Ramsés II" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Great Pyramid was built around 2560 BCE under Pharaoh Khufu of the Fourth Dynasty. It stood as the tallest man-made structure on Earth for over 3,800 years. An estimated 20,000 workers labored for approximately 20 years to complete it using limestone blocks averaging 2.5 tonnes each.",
+      "es": "La Gran Pirámide fue construida alrededor del 2560 a.C. bajo el faraón Keops de la Cuarta Dinastía. Fue la estructura más alta construida por el ser humano durante más de 3.800 años. Unos 20.000 trabajadores laboraron durante aproximadamente 20 años usando bloques de caliza de 2,5 toneladas en promedio."
+    },
+    "reflection": {
+      "en": "Building the pyramid required coordinating tens of thousands of workers across two decades — an organizational feat without computers, electricity, or modern tools. What does this tell us about human potential when purpose and collective will align?",
+      "es": "Construir la pirámide requirió coordinar decenas de miles de trabajadores durante dos décadas, sin computadoras, electricidad ni herramientas modernas. ¿Qué nos dice esto sobre el potencial humano cuando el propósito y la voluntad colectiva se alinean?"
+    }
+  },
+  {
+    "id": "eg-002",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the primary purpose of mummification in ancient Egypt?",
+      "es": "¿Cuál era el propósito principal de la momificación en el Antiguo Egipto?"
+    },
+    "options": [
+      { "en": "To preserve the body for the afterlife", "es": "Preservar el cuerpo para la vida después de la muerte" },
+      { "en": "To prevent the spread of disease", "es": "Prevenir la propagación de enfermedades" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Ancient Egyptians believed the soul (ka) needed to return to the body after death. Mummification — a 70-day process involving removal of organs, desiccation with natron salt, and wrapping in linen — preserved the body so the soul could reside in it for eternity.",
+      "es": "Los egipcios creían que el alma (ka) necesitaba regresar al cuerpo tras la muerte. La momificación —un proceso de 70 días que incluía extracción de órganos, desecación con sal de natrón y envoltura en lino— preservaba el cuerpo para que el alma pudiera habitarlo eternamente."
+    },
+    "reflection": {
+      "en": "Ancient Egyptians invested enormous resources in preparing for death. Modern societies largely push death out of sight. Which approach allows us to live more meaningfully — confronting mortality or setting it aside?",
+      "es": "Los egipcios invirtieron enormes recursos en prepararse para la muerte. Las sociedades modernas la mantienen fuera de la vista. ¿Qué enfoque nos permite vivir con más sentido: enfrentar la mortalidad o apartarla?"
+    }
+  },
+  {
+    "id": "eg-003",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which famous female pharaoh ruled Egypt and led it to great prosperity?",
+      "es": "¿Qué famosa faraona gobernó Egipto y lo llevó a una gran prosperidad?"
+    },
+    "options": [
+      { "en": "Hatshepsut", "es": "Hatshepsut" },
+      { "en": "Nefertiti", "es": "Nefertiti" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Hatshepsut (1507–1458 BCE) was one of Egypt's most successful pharaohs, reigning for about 22 years. She expanded trade networks, commissioned monumental building projects, and presented herself in male pharaonic regalia. After her death, her successor tried to erase her from history.",
+      "es": "Hatshepsut (1507–1458 a.C.) fue una de las faraonos más exitosas de Egipto. Gobernó unos 22 años, expandió redes comerciales, encargó monumentales obras y se presentó con atributos masculinos del faraón. Tras su muerte, su sucesor intentó borrarla de la historia."
+    },
+    "reflection": {
+      "en": "Hatshepsut had to adopt a male identity to be accepted as ruler. After her death, her very existence was suppressed. How do institutions today still erase or diminish the achievements of those who challenge existing power structures?",
+      "es": "Hatshepsut debió adoptar una identidad masculina para ser aceptada como gobernante y fue borrada de la historia tras su muerte. ¿Cómo borran o minimizan hoy las instituciones los logros de quienes desafían las estructuras de poder existentes?"
+    }
+  },
+  {
+    "id": "eg-004",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the Rosetta Stone crucial for unlocking?",
+      "es": "¿Para qué fue crucial la Piedra de Rosetta?"
+    },
+    "options": [
+      { "en": "Deciphering ancient Egyptian hieroglyphics", "es": "Descifrar los jeroglíficos egipcios antiguos" },
+      { "en": "Mapping the course of the Nile River", "es": "Trazar el curso del río Nilo" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Discovered in 1799 by French soldiers, the Rosetta Stone contains the same priestly decree written in hieroglyphics, Demotic script, and Ancient Greek. By 1822, Jean-François Champollion used it to crack the hieroglyphic code, unlocking 3,000 years of Egyptian written history.",
+      "es": "Descubierta en 1799 por soldados franceses, la Piedra de Rosetta contiene el mismo decreto sacerdotal en jeroglíficos, demótico y griego antiguo. En 1822, Jean-François Champollion la usó para descifrar el código jeroglífico, revelando 3.000 años de historia escrita egipcia."
+    },
+    "reflection": {
+      "en": "A single object — found by chance — unlocked the understanding of an entire civilization. What hidden 'Rosetta Stones' might exist today that could reshape our understanding of the ancient world, or even of ourselves?",
+      "es": "Un solo objeto encontrado por casualidad desbloqueó la comprensión de toda una civilización. ¿Qué 'Piedras de Rosetta' ocultas podrían existir hoy que remodelaran nuestra comprensión del mundo antiguo, o incluso de nosotros mismos?"
+    }
+  },
+  {
+    "id": "eg-005",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "hard",
+    "question": {
+      "en": "What was Cleopatra VII's actual native language?",
+      "es": "¿Cuál era el idioma nativo real de Cleopatra VII?"
+    },
+    "options": [
+      { "en": "Greek — she was of Macedonian descent", "es": "Griego, era de descendencia macedónica" },
+      { "en": "Ancient Egyptian", "es": "Egipcio antiguo" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cleopatra VII (69–30 BCE) was of Macedonian Greek descent — her family, the Ptolemaic dynasty, had ruled Egypt since 305 BCE but spoke Greek. Remarkably, she was the first of her dynasty to actually learn Egyptian, along with several other languages including Latin.",
+      "es": "Cleopatra VII (69–30 a.C.) era de descendencia griega macedónica. Su familia, la dinastía ptolemaica, gobernó Egipto desde 305 a.C. pero hablaba griego. Notablemente, fue la primera de su dinastía en aprender egipcio, además de otros idiomas como el latín."
+    },
+    "reflection": {
+      "en": "Cleopatra was the first in her dynasty to learn the language of the people she governed. How does a leader's willingness — or refusal — to understand the culture and language of those they govern shape their legitimacy and effectiveness?",
+      "es": "Cleopatra fue la primera de su dinastía en aprender el idioma del pueblo que gobernaba. ¿Cómo moldea la legitimidad y eficacia de un líder su disposición —o negativa— a comprender la cultura e idioma de quienes gobierna?"
+    }
+  },
+  {
+    "id": "eg-006",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which god was considered the ruler of the Egyptian underworld?",
+      "es": "¿Qué dios era considerado el gobernante del inframundo egipcio?"
+    },
+    "options": [
+      { "en": "Osiris", "es": "Osiris" },
+      { "en": "Ra", "es": "Ra" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Osiris was the god of the afterlife, death, and resurrection. His myth — betrayed and killed by his brother Set, then resurrected by his wife Isis — became one of the most influential religious narratives in history, influencing later beliefs about death, judgment, and rebirth across Mediterranean cultures.",
+      "es": "Osiris era el dios del más allá, la muerte y la resurrección. Su mito —traicionado y asesinado por su hermano Set, luego resucitado por su esposa Isis— se convirtió en una de las narrativas religiosas más influyentes de la historia, influyendo en creencias sobre la muerte, el juicio y el renacimiento."
+    },
+    "reflection": {
+      "en": "Osiris's story of death and resurrection appears in remarkably similar forms across many unconnected cultures. Why do humans across all times and places construct stories about life after death — what universal need does this serve?",
+      "es": "La historia de muerte y resurrección de Osiris aparece en formas notablemente similares en culturas muy distintas. ¿Por qué los seres humanos de todos los tiempos y lugares construyen relatos sobre la vida después de la muerte? ¿Qué necesidad universal satisfacen?"
+    }
+  },
+  {
+    "id": "eg-007",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which river was the absolute lifeline of Egyptian civilization?",
+      "es": "¿Qué río fue el sustento absoluto de la civilización egipcia?"
+    },
+    "options": [
+      { "en": "The Nile", "es": "El Nilo" },
+      { "en": "The Euphrates", "es": "El Éufrates" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Nile — the world's longest river — provided Egypt with annual floods that deposited rich silt on its banks, creating strips of fertile land in an otherwise barren desert. Without the Nile, Egypt could not have sustained agriculture, population, or civilization. The historian Herodotus called Egypt 'the gift of the Nile.'",
+      "es": "El Nilo —el río más largo del mundo— dotó a Egipto de inundaciones anuales que depositaban limo fértil en sus orillas, creando franjas de tierra cultivable en un desierto árido. Sin el Nilo, Egipto no hubiera podido sostener agricultura, población ni civilización. Heródoto lo llamó 'el regalo del Nilo.'"
+    },
+    "reflection": {
+      "en": "The Nile shaped the worldview, religion, calendar, and economy of an entire civilization for millennia. How do natural resources continue to define national identities and geopolitical conflicts today — and are we as aware of that dependency as the Egyptians were?",
+      "es": "El Nilo moldeó la cosmovisión, religión, calendario y economía de toda una civilización durante milenios. ¿Cómo continúan los recursos naturales definiendo identidades nacionales y conflictos geopolíticos hoy, y somos tan conscientes de esa dependencia como los egipcios?"
+    }
+  },
+  {
+    "id": "eg-008",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "hard",
+    "question": {
+      "en": "The Great Sphinx of Giza is believed to represent which pharaoh?",
+      "es": "Se cree que la Gran Esfinge de Giza representa a qué faraón?"
+    },
+    "options": [
+      { "en": "Khafre", "es": "Kefrén" },
+      { "en": "Tutankhamun", "es": "Tutankamón" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Most Egyptologists believe the Great Sphinx was built during Khafre's reign (c. 2558–2532 BCE). Its face is thought to be a portrait of Khafre, and it sits near his pyramid on the Giza plateau. The Sphinx is carved from a single mass of limestone bedrock and is about 4,500 years old.",
+      "es": "La mayoría de los egiptólogos cree que la Gran Esfinge fue construida durante el reinado de Kefrén (c. 2558–2532 a.C.). Se cree que su rostro es un retrato de Kefrén, y se encuentra cerca de su pirámide en la meseta de Giza. Está tallada en un afloramiento de caliza y tiene unos 4.500 años."
+    },
+    "reflection": {
+      "en": "The Sphinx has watched civilizations rise and fall for 4,500 years. What monuments of our own era do you think will endure that long — and what will they say about us to whoever is there to see them?",
+      "es": "La Esfinge ha observado el surgimiento y caída de civilizaciones durante 4.500 años. ¿Qué monumentos de nuestra era crees que perdurarán tanto tiempo, y qué dirán de nosotros a quienes estén allí para verlos?"
+    }
+  },
+  {
+    "id": "eg-009",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "easy",
+    "question": {
+      "en": "What writing material did ancient Egyptians develop from a river plant?",
+      "es": "¿Qué material de escritura desarrollaron los egipcios a partir de una planta del río?"
+    },
+    "options": [
+      { "en": "Papyrus", "es": "Papiro" },
+      { "en": "Parchment", "es": "Pergamino" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Papyrus was made by slicing the stems of the papyrus plant (abundant along the Nile), layering the strips crosswise, and pressing them together. It was far lighter and easier to produce than clay tablets, enabling Egypt to create portable libraries of medical, religious, and legal texts.",
+      "es": "El papiro se fabricaba cortando los tallos de la planta de papiro (abundante junto al Nilo), superponiendo las tiras en cruz y prenSándolas. Era mucho más ligero y fácil de producir que las tablillas de arcilla, lo que permitió a Egipto crear bibliotecas portátiles de textos médicos, religiosos y legales."
+    },
+    "reflection": {
+      "en": "Papyrus enabled knowledge to travel — texts could be copied, carried, and shared across distances. Today, digital media allows information to spread at unimaginable speed. Has the speed of information transmission improved the quality of what we actually know?",
+      "es": "El papiro permitió que el conocimiento viajara: los textos podían copiarse, transportarse y compartirse. Hoy, los medios digitales permiten que la información se propague a velocidad inimaginable. ¿Ha mejorado la velocidad de transmisión de información la calidad de lo que realmente sabemos?"
+    }
+  },
+  {
+    "id": "eg-010",
+    "category": "ancient-egypt",
+    "category_label": { "en": "Ancient Egypt", "es": "Egipto Antiguo" },
+    "difficulty": "hard",
+    "question": {
+      "en": "Egyptian pharaohs were considered what in relation to the gods?",
+      "es": "Los faraones egipcios eran considerados ¿qué en relación con los dioses?"
+    },
+    "options": [
+      { "en": "Living gods on Earth", "es": "Dioses vivientes en la Tierra" },
+      { "en": "High priests chosen by the gods", "es": "Sumos sacerdotes elegidos por los dioses" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Egyptian pharaohs were believed to be literal incarnations of the god Horus while living, and became the god Osiris upon death. This divine status gave them absolute political, religious, and judicial authority — they were not merely rulers but gods walking among humans, responsible for maintaining Ma'at (cosmic order).",
+      "es": "Se creía que los faraones egipcios eran encarnaciones literales del dios Horus en vida, y se convertían en el dios Osiris al morir. Este estatus divino les otorgaba autoridad política, religiosa y judicial absoluta: no eran solo gobernantes, sino dioses que caminaban entre humanos, responsables de mantener Ma'at (el orden cósmico)."
+    },
+    "reflection": {
+      "en": "Merging religious authority with political power gave pharaohs extraordinary control — but also made every royal decision a divine decree. In what ways do modern leaders still draw on sacred or moral language to legitimize their power?",
+      "es": "Fusionar autoridad religiosa y poder político otorgó a los faraones un control extraordinario, pero también convirtió cada decisión real en un decreto divino. ¿De qué maneras los líderes modernos aún recurren al lenguaje sagrado o moral para legitimar su poder?"
+    }
+  },
+  {
+    "id": "gr-001",
+    "category": "ancient-greece",
+    "category_label": { "en": "Ancient Greece", "es": "Grecia Antigua" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Who introduced the democratic reforms that are the foundation of Western democracy?",
+      "es": "¿Quién introdujo las reformas democráticas que son la base de la democracia occidental?"
+    },
+    "options": [
+      { "en": "Cleisthenes of Athens", "es": "Clístenes de Atenas" },
+      { "en": "Alexander the Great", "es": "Alejandro Magno" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cleisthenes (570–508 BCE) reorganized Athenian government around demes (local communities) and created the Council of 500, giving citizens direct political participation. His reforms in 508–507 BCE are considered the birth of democracy, though it excluded women, slaves, and foreigners — roughly 80% of the population.",
+      "es": "Clístenes (570–508 a.C.) reorganizó el gobierno ateniense en torno a los demos (comunidades locales) y creó el Consejo de los 500, dando participación política directa a los ciudadanos. Sus reformas del 508–507 a.C. se consideran el nacimiento de la democracia, aunque excluía a mujeres, esclavos y extranjeros: cerca del 80% de la población."
+    },
+    "reflection": {
+      "en": "Athenian democracy excluded women, enslaved people, and foreigners from its start. As we celebrate democracy's Greek origins, who is still excluded — formally or informally — from full participation in today's democracies?",
+      "es": "La democracia ateniense excluyó desde su inicio a mujeres, esclavos y extranjeros. Mientras celebramos el origen griego de la democracia, ¿quiénes siguen excluidos, formal o informalmente, de la participación plena en las democracias actuales?"
+    }
+  },
+  {
+    "id": "gr-002",
+    "category": "ancient-greece",
+    "category_label": { "en": "Ancient Greece", "es": "Grecia Antigua" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which philosopher was sentenced to death by Athens for 'corrupting the youth'?",
+      "es": "¿Qué filósofo fue condenado a muerte por Atenas por 'corromper a la juventud'?"
+    },
+    "options": [
+      { "en": "Socrates", "es": "Sócrates" },
+      { "en": "Aristotle", "es": "Aristóteles" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Socrates (470–399 BCE) was tried by an Athenian jury of 500 citizens and condemned to death by drinking hemlock. His 'crime' was questioning traditional values and encouraging citizens to think critically. He refused to flee, accepting the verdict as part of his commitment to Athenian law.",
+      "es": "Sócrates (470–399 a.C.) fue juzgado por un jurado ateniense de 500 ciudadanos y condenado a muerte mediante cicuta. Su 'crimen' fue cuestionar los valores tradicionales y alentar el pensamiento crítico. Se negó a huir, aceptando el veredicto como parte de su compromiso con la ley ateniense."
+    },
+    "reflection": {
+      "en": "Athens — the birthplace of democracy and free thought — executed its greatest philosopher for asking questions. What ideas or questions today are considered too dangerous or destabilizing for those in power to tolerate?",
+      "es": "Atenas —cuna de la democracia y el pensamiento libre— ejecutó a su mayor filósofo por hacer preguntas. ¿Qué ideas o preguntas se consideran hoy demasiado peligrosas o desestabilizadoras para quienes ostentan el poder?"
+    }
+  },
+  {
+    "id": "gr-003",
+    "category": "ancient-greece",
+    "category_label": { "en": "Ancient Greece", "es": "Grecia Antigua" },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the primary purpose of the Oracle at Delphi?",
+      "es": "¿Cuál era el propósito principal del Oráculo de Delfos?"
+    },
+    "options": [
+      { "en": "To deliver divine prophecies to those seeking guidance", "es": "Entregar profecías divinas a quienes buscaban guía" },
+      { "en": "To train philosophers and mathematicians", "es": "Formar filósofos y matemáticos" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Oracle at Delphi (active c. 800–390 BCE) was the most prestigious religious institution in the ancient Greek world. The Pythia (priestess) would enter a trance state — possibly induced by geological vapors — and deliver cryptic prophecies. Kings and city-states consulted her before wars, colonizations, and major decisions.",
+      "es": "El Oráculo de Delfos (activo c. 800–390 a.C.) era la institución religiosa más prestigiosa del mundo griego antiguo. La Pitia (sacerdotisa) entraba en trance —posiblemente inducido por vapores geológicos— y emitía profecías crípticas. Reyes y ciudades-estado la consultaban antes de guerras, colonizaciones y decisiones importantes."
+    },
+    "reflection": {
+      "en": "Ancient Greek leaders traveled hundreds of miles to consult the Oracle before major decisions. Where do modern leaders and individuals turn for guidance when facing uncertain futures — and how much do we trust those sources?",
+      "es": "Los líderes griegos viajaban cientos de kilómetros para consultar al Oráculo antes de decisiones importantes. ¿Adónde acuden hoy los líderes y las personas en busca de guía ante futuros inciertos, y cuánto confiamos en esas fuentes?"
+    }
+  },
+  {
+    "id": "gr-004",
+    "category": "ancient-greece",
+    "category_label": { "en": "Ancient Greece", "es": "Grecia Antigua" },
+    "difficulty": "easy",
+    "question": {
+      "en": "The ancient Olympic Games were dedicated to which god?",
+      "es": "Los Juegos Olímpicos antiguos estaban dedicados a qué dios?"
+    },
+    "options": [
+      { "en": "Zeus, king of the gods", "es": "Zeus, rey de los dioses" },
+      { "en": "Ares, god of war", "es": "Ares, dios de la guerra" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The ancient Olympic Games began in 776 BCE in Olympia, a sanctuary dedicated to Zeus. Athletes competed in honor of the king of the gods. Crucially, the Games were accompanied by a sacred truce (ekecheiria) — all wars between city-states were suspended for the duration of the festival.",
+      "es": "Los Juegos Olímpicos antiguos comenzaron en 776 a.C. en Olimpia, un santuario dedicado a Zeus. Los atletas competían en honor al rey de los dioses. Los Juegos iban acompañados de una tregua sagrada (ekecheiria): todas las guerras entre ciudades-estado se suspendían durante el festival."
+    },
+    "reflection": {
+      "en": "The original Olympics served as a sacred truce — wars paused so athletes could compete. Today's Olympic Games aspire to a similar ideal, but politics and conflicts still intrude. Can sport ever truly function as a bridge between divided peoples?",
+      "es": "Los Juegos Olímpicos originales eran una tregua sagrada: las guerras se pausaban para que los atletas compitieran. Los Juegos actuales aspiran a un ideal similar, pero la política y los conflictos siguen interfiriendo. ¿Puede el deporte funcionar realmente como puente entre pueblos divididos?"
+    }
+  },
+  {
+    "id": "gr-005",
+    "category": "ancient-greece",
+    "category_label": { "en": "Ancient Greece", "es": "Grecia Antigua" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which city-state was governed by a system of radical military training for all male citizens?",
+      "es": "¿Qué ciudad-estado se regía por un sistema de entrenamiento militar radical para todos los ciudadanos varones?"
+    },
+    "options": [
+      { "en": "Sparta", "es": "Esparta" },
+      { "en": "Corinth", "es": "Corinto" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Sparta's agoge was a compulsory state education and training program that began at age 7. Boys were removed from their families and subjected to years of intense physical training, hardship, and communal living. The result was arguably the most feared military force in the ancient world — but at enormous social cost.",
+      "es": "La agogé espartana era un programa estatal de educación y entrenamiento obligatorio que comenzaba a los 7 años. Los niños eran separados de sus familias y sometidos a años de intenso entrenamiento físico, privaciones y vida comunitaria. El resultado fue, posiblemente, la fuerza militar más temida del mundo antiguo, aunque a enorme costo social."
+    },
+    "reflection": {
+      "en": "Sparta achieved extraordinary military strength by subordinating individual lives entirely to the state from childhood. Athens achieved cultural brilliance by fostering individual thought. Which model better serves a civilization's long-term survival — and does the answer change depending on the threat?",
+      "es": "Esparta logró una fortaleza militar extraordinaria subordinando completamente las vidas individuales al Estado desde la infancia. Atenas alcanzó el esplendor cultural fomentando el pensamiento individual. ¿Qué modelo sirve mejor a la supervivencia a largo plazo de una civilización, y cambia la respuesta según la amenaza?"
+    }
+  },
+  {
+    "id": "ro-001",
+    "category": "roman-empire",
+    "category_label": { "en": "Roman Empire", "es": "Imperio Romano" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Who was Julius Caesar's closest ally who later participated in his assassination?",
+      "es": "¿Quién fue el aliado más cercano de Julio César que luego participó en su asesinato?"
+    },
+    "options": [
+      { "en": "Marcus Brutus", "es": "Marco Bruto" },
+      { "en": "Mark Antony", "es": "Marco Antonio" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Marcus Junius Brutus (85–42 BCE) was one of Caesar's most trusted friends and a leading senator. On the Ides of March (March 15, 44 BCE), he joined 22 other senators in stabbing Caesar 23 times. Brutus believed he was saving the Republic from tyranny — but the assassination triggered a civil war that ended the Republic forever.",
+      "es": "Marco Junio Bruto (85–42 a.C.) era uno de los amigos más confiables de César y senador prominente. En los Idus de Marzo (15 de marzo del 44 a.C.), se unió a otros 22 senadores para apuñalar a César 23 veces. Bruto creía salvar la República de la tiranía, pero el asesinato desencadenó la guerra civil que acabó con ella para siempre."
+    },
+    "reflection": {
+      "en": "Brutus believed he was saving democracy by killing Caesar — but his act triggered the autocracy he feared. How often do well-intentioned political acts produce the exact opposite of their intended effects, and what does this tell us about political violence?",
+      "es": "Bruto creyó salvar la democracia matando a César, pero su acto desencadenó la autocracia que temía. ¿Con qué frecuencia los actos políticos bienintencionados producen exactamente lo contrario de lo pretendido, y qué nos dice esto sobre la violencia política?"
+    }
+  },
+  {
+    "id": "ro-002",
+    "category": "roman-empire",
+    "category_label": { "en": "Roman Empire", "es": "Imperio Romano" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which Roman emperor issued the Edict of Milan, legalizing Christianity?",
+      "es": "¿Qué emperador romano emitió el Edicto de Milán, legalizando el cristianismo?"
+    },
+    "options": [
+      { "en": "Constantine I", "es": "Constantino I" },
+      { "en": "Nero", "es": "Nerón" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Emperor Constantine I (reigned 306–337 CE) issued the Edict of Milan in 313 CE, granting religious tolerance throughout the empire and ending the persecution of Christians. Constantine also convened the First Council of Nicaea (325 CE), which defined Christian orthodoxy — decisions that shaped the next 2,000 years of Western history.",
+      "es": "El emperador Constantino I (reinó 306–337 d.C.) emitió el Edicto de Milán en 313 d.C., concediendo tolerancia religiosa en todo el Imperio y poniendo fin a la persecución de los cristianos. Constantino también convocó el Primer Concilio de Nicea (325 d.C.), que definió la ortodoxia cristiana, moldearando los siguientes 2.000 años de historia occidental."
+    },
+    "reflection": {
+      "en": "Constantine's personal conversion changed the trajectory of Western civilization. How does the religious belief — or lack thereof — of a single leader continue to shape societies for centuries after their death? Can one person's faith truly alter the course of history?",
+      "es": "La conversión personal de Constantino cambió la trayectoria de la civilización occidental. ¿Cómo moldean la fe religiosa —o su ausencia— de un solo líder a las sociedades durante siglos tras su muerte? ¿Puede la fe de una persona realmente alterar el curso de la historia?"
+    }
+  },
+  {
+    "id": "ro-003",
+    "category": "roman-empire",
+    "category_label": { "en": "Roman Empire", "es": "Imperio Romano" },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was 'Pax Romana'?",
+      "es": "¿Qué fue la 'Pax Romana'?"
+    },
+    "options": [
+      { "en": "A roughly 200-year period of relative peace across the Roman Empire", "es": "Un período de aproximadamente 200 años de paz relativa en el Imperio Romano" },
+      { "en": "The peace treaty Rome signed with Carthage after the Punic Wars", "es": "El tratado de paz que Roma firmó con Cartago tras las Guerras Púnicas" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Pax Romana ('Roman Peace', 27 BCE – 180 CE) was a period of relative stability and minimal military expansion. Under this umbrella, trade flourished, infrastructure expanded (including 400,000 km of roads), and diverse cultures were united under Roman law. However, it also meant Roman domination over conquered peoples who had no say in the matter.",
+      "es": "La Pax Romana ('Paz romana', 27 a.C. – 180 d.C.) fue un período de estabilidad relativa y mínima expansión militar. Bajo ella, el comercio floreció, la infraestructura se expandió (incluyendo 400.000 km de calzadas) y culturas diversas se unificaron bajo la ley romana. Sin embargo, también significó dominación romana sobre pueblos conquistados sin voz en el asunto."
+    },
+    "reflection": {
+      "en": "The Pax Romana brought stability, law, and prosperity — but also enforced Roman dominance over peoples who had no choice. Can enforced peace truly be called peace? What is the difference between peace and submission?",
+      "es": "La Pax Romana trajo estabilidad, ley y prosperidad, pero también impuso la dominación romana sobre pueblos que no tuvieron elección. ¿Puede la paz impuesta llamarse realmente paz? ¿Cuál es la diferencia entre paz y sometimiento?"
+    }
+  },
+  {
+    "id": "ro-004",
+    "category": "roman-empire",
+    "category_label": { "en": "Roman Empire", "es": "Imperio Romano" },
+    "difficulty": "easy",
+    "question": {
+      "en": "What was the Roman Colosseum primarily built for?",
+      "es": "¿Para qué fue construido principalmente el Coliseo romano?"
+    },
+    "options": [
+      { "en": "Gladiatorial combat and public spectacles", "es": "Combates de gladiadores y espectáculos públicos" },
+      { "en": "Religious ceremonies and imperial worship", "es": "Ceremonias religiosas y culto imperial" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Colosseum (completed 80 CE under Emperor Titus) could hold 50,000–80,000 spectators. It hosted gladiatorial combats, animal hunts (venationes), public executions, and even mock sea battles. Admission was free — Roman emperors used these spectacles as political tools to gain popular favor.",
+      "es": "El Coliseo (completado en el 80 d.C. bajo el emperador Tito) podía albergar entre 50.000 y 80.000 espectadores. Albergaba combates de gladiadores, cacerías de animales (venationes), ejecuciones públicas e incluso batallas navales simuladas. La entrada era gratuita: los emperadores usaban estos espectáculos como herramientas políticas."
+    },
+    "reflection": {
+      "en": "Roman rulers kept citizens entertained with violent spectacle — 'bread and circuses' — as a political tool. In what ways do modern governments and media use entertainment and spectacle to shape public attention and keep citizens from focusing on pressing political questions?",
+      "es": "Los gobernantes romanos entretenían a los ciudadanos con espectáculos violentos —'pan y circo'— como herramienta política. ¿De qué maneras usan hoy los gobiernos y los medios el entretenimiento y el espectáculo para moldear la atención pública y distraer de cuestiones políticas urgentes?"
+    }
+  },
+  {
+    "id": "ro-005",
+    "category": "roman-empire",
+    "category_label": { "en": "Roman Empire", "es": "Imperio Romano" },
+    "difficulty": "hard",
+    "question": {
+      "en": "What language survived as the official language of European scholarship and the Church for over 1,000 years after Rome's fall?",
+      "es": "¿Qué idioma sobrevivió como lengua oficial de la erudición europea y la Iglesia durante más de 1.000 años tras la caída de Roma?"
+    },
+    "options": [
+      { "en": "Latin", "es": "Latín" },
+      { "en": "Greek", "es": "Griego" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Latin died as a spoken vernacular language by around 700 CE, but survived for over a millennium as the language of the Church, law, science, medicine, and philosophy across Europe. Newton wrote in Latin. The Catholic Church used Latin in its liturgy until 1965. Modern scientific nomenclature still relies on Latin today.",
+      "es": "El latín murió como lengua vernácula hablada hacia el 700 d.C., pero sobrevivió durante más de un milenio como idioma de la Iglesia, el derecho, la ciencia, la medicina y la filosofía en Europa. Newton escribía en latín. La Iglesia católica usó el latín en la liturgia hasta 1965. La nomenclatura científica moderna sigue basándose en el latín."
+    },
+    "reflection": {
+      "en": "Latin outlived the civilization that created it by more than a thousand years. Today, hundreds of languages face extinction within this century. What do we lose when a language dies — not just words, but ways of seeing, thinking, and being in the world?",
+      "es": "El latín sobrevivió a la civilización que lo creó durante más de mil años. Hoy, cientos de idiomas se enfrentan a la extinción en este siglo. ¿Qué perdemos cuando muere un idioma: no solo palabras, sino formas de ver, pensar y estar en el mundo?"
+    }
+  }
+]

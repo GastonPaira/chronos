@@ -1,0 +1,48 @@
+{
+  "home": {
+    "tagline": "Journey through the ages",
+    "subtitle": "Historical Trivia",
+    "playButton": "Play",
+    "languageLabel": "Language"
+  },
+  "categories": {
+    "title": "Choose a Category",
+    "questions": "questions",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    }
+  },
+  "game": {
+    "score": "Score",
+    "question": "Question",
+    "of": "of",
+    "correct": "Correct!",
+    "incorrect": "Not quite...",
+    "option_a": "A",
+    "option_b": "B"
+  },
+  "reflection": {
+    "title": "Historical Context",
+    "reflectionTitle": "Reflect on this…",
+    "continue": "Next Question",
+    "finish": "See Results"
+  },
+  "results": {
+    "title": "Final Score",
+    "perfect": "Perfect score!",
+    "playAgain": "Play Again",
+    "chooseCategory": "Choose Category",
+    "messages": {
+      "low": "Keep exploring! Every journey begins with curiosity.",
+      "medium": "Good effort! History reveals itself to those who seek it.",
+      "high": "Excellent! You're a true student of history.",
+      "perfect": "Flawless! The chronicles of time bow to you."
+    }
+  },
+  "nav": {
+    "back": "Back",
+    "home": "Home"
+  }
+}

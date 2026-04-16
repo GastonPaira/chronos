@@ -1,0 +1,48 @@
+{
+  "home": {
+    "tagline": "Viaja a través de los siglos",
+    "subtitle": "Trivia Histórica",
+    "playButton": "Jugar",
+    "languageLabel": "Idioma"
+  },
+  "categories": {
+    "title": "Elige una Categoría",
+    "questions": "preguntas",
+    "difficulty": {
+      "easy": "Fácil",
+      "medium": "Media",
+      "hard": "Difícil"
+    }
+  },
+  "game": {
+    "score": "Puntaje",
+    "question": "Pregunta",
+    "of": "de",
+    "correct": "¡Correcto!",
+    "incorrect": "No exactamente…",
+    "option_a": "A",
+    "option_b": "B"
+  },
+  "reflection": {
+    "title": "Contexto Histórico",
+    "reflectionTitle": "Reflexiona sobre esto…",
+    "continue": "Siguiente Pregunta",
+    "finish": "Ver Resultados"
+  },
+  "results": {
+    "title": "Puntaje Final",
+    "perfect": "¡Puntaje perfecto!",
+    "playAgain": "Jugar de Nuevo",
+    "chooseCategory": "Elegir Categoría",
+    "messages": {
+      "low": "¡Sigue explorando! Todo viaje comienza con curiosidad.",
+      "medium": "¡Buen esfuerzo! La historia se revela a quienes la buscan.",
+      "high": "¡Excelente! Eres un verdadero estudiante de la historia.",
+      "perfect": "¡Perfecto! Los anales del tiempo te rinden homenaje."
+    }
+  },
+  "nav": {
+    "back": "Volver",
+    "home": "Inicio"
+  }
+}
