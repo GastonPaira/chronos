@@ -41,6 +41,10 @@
       "perfect": "¡Perfecto! Los anales del tiempo te rinden homenaje."
     }
   },
+  "audio": {
+    "read": "Leer en voz alta",
+    "stop": "Detener lectura"
+  },
   "nav": {
     "back": "Volver",
     "home": "Inicio"

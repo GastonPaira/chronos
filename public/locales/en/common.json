@@ -41,6 +41,10 @@
       "perfect": "Flawless! The chronicles of time bow to you."
     }
   },
+  "audio": {
+    "read": "Read aloud",
+    "stop": "Stop reading"
+  },
   "nav": {
     "back": "Back",
     "home": "Home"
