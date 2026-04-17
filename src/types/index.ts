@@ -14,6 +14,7 @@ export interface Question {
   options: [LocalizedString, LocalizedString];
   correctIndex: 0 | 1;
   explanation: LocalizedString;
+  meanwhile: LocalizedString;
   reflection: LocalizedString;
 }
 

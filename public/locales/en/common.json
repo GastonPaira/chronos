@@ -55,6 +55,7 @@
   },
   "reflection": {
     "title": "Historical Context",
+    "meanwhileTitle": "Meanwhile...",
     "reflectionTitle": "Reflect on this…",
     "continue": "Next Question",
     "finish": "See Results"

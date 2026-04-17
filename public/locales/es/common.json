@@ -55,6 +55,7 @@
   },
   "reflection": {
     "title": "Contexto Histórico",
+    "meanwhileTitle": "Mientras Tanto...",
     "reflectionTitle": "Reflexiona sobre esto…",
     "continue": "Siguiente Pregunta",
     "finish": "Ver Resultados"

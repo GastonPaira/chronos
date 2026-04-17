@@ -17,9 +17,13 @@
       "en": "The Great Pyramid was built around 2560 BCE under Pharaoh Khufu of the Fourth Dynasty. It stood as the tallest man-made structure on Earth for over 3,800 years. An estimated 20,000 workers labored for approximately 20 years to complete it using limestone blocks averaging 2.5 tonnes each.",
       "es": "La Gran Pirámide fue construida alrededor del 2560 a.C. bajo el faraón Keops de la Cuarta Dinastía. Fue la estructura más alta construida por el ser humano durante más de 3.800 años. Unos 20.000 trabajadores laboraron durante aproximadamente 20 años usando bloques de caliza de 2,5 toneladas en promedio."
     },
+    "meanwhile": {
+      "en": "In Mesopotamia, around 2560 BCE, Sargon of Akkad was forging the world's first multi-ethnic empire — coordinating armies, scribes, and governors across a vast territory using clay tablets instead of stone blocks.",
+      "es": "En Mesopotamia, hacia el 2560 a.C., Sargón de Acad estaba forjando el primer imperio multiétnico del mundo: coordinando ejércitos, escribas y gobernadores a lo largo de un vasto territorio, usando tablillas de arcilla en lugar de bloques de piedra."
+    },
     "reflection": {
-      "en": "Building the pyramid required coordinating tens of thousands of workers across two decades — an organizational feat without computers, electricity, or modern tools. What does this tell us about human potential when purpose and collective will align?",
-      "es": "Construir la pirámide requirió coordinar decenas de miles de trabajadores durante dos décadas, sin computadoras, electricidad ni herramientas modernas. ¿Qué nos dice esto sobre el potencial humano cuando el propósito y la voluntad colectiva se alinean?"
+      "en": "Twenty thousand people built the tallest structure on Earth without computers or machinery — driven only by collective purpose. What would you be capable of if you committed everything to a single goal?",
+      "es": "Veinte mil personas construyeron la estructura más alta de la Tierra sin computadoras ni maquinaria, guiados solo por un propósito colectivo. ¿De qué serías capaz si lo apostaras todo a un único objetivo?"
     }
   },
   {
@@ -40,9 +44,13 @@
       "en": "Ancient Egyptians believed the soul (ka) needed to return to the body after death. Mummification — a 70-day process involving removal of organs, desiccation with natron salt, and wrapping in linen — preserved the body so the soul could reside in it for eternity.",
       "es": "Los egipcios creían que el alma (ka) necesitaba regresar al cuerpo tras la muerte. La momificación —un proceso de 70 días que incluía extracción de órganos, desecación con sal de natrón y envoltura en lino— preservaba el cuerpo para que el alma pudiera habitarlo eternamente."
     },
+    "meanwhile": {
+      "en": "Around 1300 BCE, on the other side of the world, China's Shang Dynasty was inscribing questions for the dead on oracle bones and burning them to receive divine answers — another civilization building elaborate rituals to communicate with the afterlife.",
+      "es": "Alrededor del 1300 a.C., al otro lado del mundo, la dinastía Shang de China inscribía preguntas para los muertos en huesos oraculares y los quemaba para recibir respuestas divinas: otra civilización construyendo rituales elaborados para comunicarse con el más allá."
+    },
     "reflection": {
-      "en": "Ancient Egyptians invested enormous resources in preparing for death. Modern societies largely push death out of sight. Which approach allows us to live more meaningfully — confronting mortality or setting it aside?",
-      "es": "Los egipcios invirtieron enormes recursos en prepararse para la muerte. Las sociedades modernas la mantienen fuera de la vista. ¿Qué enfoque nos permite vivir con más sentido: enfrentar la mortalidad o apartarla?"
+      "en": "Egyptians spent 70 days preparing a body for eternity. We almost never think about death. Does confronting your own mortality change the way you want to spend your time?",
+      "es": "Los egipcios dedicaban 70 días a preparar un cuerpo para la eternidad. Casi nunca pensamos en la muerte. ¿Enfrentar tu propia mortalidad cambia la manera en que quieres usar tu tiempo?"
     }
   },
   {
@@ -63,9 +71,13 @@
       "en": "Hatshepsut (1507–1458 BCE) was one of Egypt's most successful pharaohs, reigning for about 22 years. She expanded trade networks, commissioned monumental building projects, and presented herself in male pharaonic regalia. After her death, her successor tried to erase her from history.",
       "es": "Hatshepsut (1507–1458 a.C.) fue una de las faraonos más exitosas de Egipto. Gobernó unos 22 años, expandió redes comerciales, encargó monumentales obras y se presentó con atributos masculinos del faraón. Tras su muerte, su sucesor intentó borrarla de la historia."
     },
+    "meanwhile": {
+      "en": "Around 1470 BCE, in Greece, the Minoan civilization on Crete was approaching its mysterious collapse — a powerful culture that also featured prominent female figures in its religion and art, about to vanish from history as Hatshepsut reached her peak.",
+      "es": "Hacia el 1470 a.C., en Grecia, la civilización minoica de Creta se acercaba a su misterioso colapso: una cultura poderosa que también tenía figuras femeninas prominentes en su religión y arte, a punto de desaparecer de la historia mientras Hatshepsut alcanzaba su apogeo."
+    },
     "reflection": {
-      "en": "Hatshepsut had to adopt a male identity to be accepted as ruler. After her death, her very existence was suppressed. How do institutions today still erase or diminish the achievements of those who challenge existing power structures?",
-      "es": "Hatshepsut debió adoptar una identidad masculina para ser aceptada como gobernante y fue borrada de la historia tras su muerte. ¿Cómo borran o minimizan hoy las instituciones los logros de quienes desafían las estructuras de poder existentes?"
+      "en": "Hatshepsut ruled successfully for 22 years and was then erased from history. Whose achievements go unrecognized in your world today — and what would change if their story were finally told?",
+      "es": "Hatshepsut gobernó con éxito durante 22 años y luego fue borrada de la historia. ¿Qué logros pasan desapercibidos en tu mundo hoy, y qué cambiaría si esa historia finalmente se contara?"
     }
   },
   {
@@ -86,9 +98,13 @@
       "en": "Discovered in 1799 by French soldiers, the Rosetta Stone contains the same priestly decree written in hieroglyphics, Demotic script, and Ancient Greek. By 1822, Jean-François Champollion used it to crack the hieroglyphic code, unlocking 3,000 years of Egyptian written history.",
       "es": "Descubierta en 1799 por soldados franceses, la Piedra de Rosetta contiene el mismo decreto sacerdotal en jeroglíficos, demótico y griego antiguo. En 1822, Jean-François Champollion la usó para descifrar el código jeroglífico, revelando 3.000 años de historia escrita egipcia."
     },
+    "meanwhile": {
+      "en": "In 1799, while French soldiers unearthed the Rosetta Stone in Egypt, Napoleon was losing his Egyptian campaign and retreating to Europe — where he would soon seize power in France and redraw the continent's borders for a generation.",
+      "es": "En 1799, mientras soldados franceses desenterraban la Piedra de Rosetta en Egipto, Napoleón perdía su campaña egipcia y retrocedía hacia Europa, donde pronto tomaría el poder en Francia y rediseñaría las fronteras del continente por una generación."
+    },
     "reflection": {
-      "en": "A single object — found by chance — unlocked the understanding of an entire civilization. What hidden 'Rosetta Stones' might exist today that could reshape our understanding of the ancient world, or even of ourselves?",
-      "es": "Un solo objeto encontrado por casualidad desbloqueó la comprensión de toda una civilización. ¿Qué 'Piedras de Rosetta' ocultas podrían existir hoy que remodelaran nuestra comprensión del mundo antiguo, o incluso de nosotros mismos?"
+      "en": "A single stone found by accident unlocked 3,000 years of human writing. What object or encounter in your own life has unexpectedly opened a door to understanding something much larger?",
+      "es": "Una sola piedra encontrada por accidente desbloqueó 3.000 años de escritura humana. ¿Qué objeto o encuentro en tu propia vida abrió inesperadamente una puerta hacia algo mucho más grande?"
     }
   },
   {
@@ -109,9 +125,13 @@
       "en": "Cleopatra VII (69–30 BCE) was of Macedonian Greek descent — her family, the Ptolemaic dynasty, had ruled Egypt since 305 BCE but spoke Greek. Remarkably, she was the first of her dynasty to actually learn Egyptian, along with several other languages including Latin.",
       "es": "Cleopatra VII (69–30 a.C.) era de descendencia griega macedónica. Su familia, la dinastía ptolemaica, gobernó Egipto desde 305 a.C. pero hablaba griego. Notablemente, fue la primera de su dinastía en aprender egipcio, además de otros idiomas como el latín."
     },
+    "meanwhile": {
+      "en": "Around 50 BCE, in Rome, Julius Caesar and Pompey were tearing the Republic apart in civil war — the same conflict that brought Caesar to Egypt, where he met Cleopatra and altered the fate of two civilizations in a single encounter.",
+      "es": "Hacia el 50 a.C., en Roma, Julio César y Pompeyo desgarraban la República en una guerra civil: el mismo conflicto que llevó a César a Egipto, donde conoció a Cleopatra y alteró el destino de dos civilizaciones en un solo encuentro."
+    },
     "reflection": {
-      "en": "Cleopatra was the first in her dynasty to learn the language of the people she governed. How does a leader's willingness — or refusal — to understand the culture and language of those they govern shape their legitimacy and effectiveness?",
-      "es": "Cleopatra fue la primera de su dinastía en aprender el idioma del pueblo que gobernaba. ¿Cómo moldea la legitimidad y eficacia de un líder su disposición —o negativa— a comprender la cultura e idioma de quienes gobierna?"
+      "en": "Cleopatra was the first of her dynasty to speak the language of the people she governed. When has learning someone else's perspective — their language, literally or figuratively — changed how you understood a situation?",
+      "es": "Cleopatra fue la primera de su dinastía en hablar el idioma del pueblo que gobernaba. ¿Cuándo aprender la perspectiva de otra persona —su idioma, literal o figuradamente— cambió tu forma de entender una situación?"
     }
   },
   {
@@ -132,9 +152,13 @@
       "en": "Osiris was the god of the afterlife, death, and resurrection. His myth — betrayed and killed by his brother Set, then resurrected by his wife Isis — became one of the most influential religious narratives in history, influencing later beliefs about death, judgment, and rebirth across Mediterranean cultures.",
       "es": "Osiris era el dios del más allá, la muerte y la resurrección. Su mito —traicionado y asesinado por su hermano Set, luego resucitado por su esposa Isis— se convirtió en una de las narrativas religiosas más influyentes de la historia, influyendo en creencias sobre la muerte, el juicio y el renacimiento."
     },
+    "meanwhile": {
+      "en": "Around 1200 BCE, the Bronze Age world was collapsing in a mysterious catastrophe — civilizations from Greece to Mesopotamia crumbled within decades. Egypt, anchored by its belief in Osiris and the cycle of death and rebirth, was one of the very few to survive.",
+      "es": "Hacia el 1200 a.C., el mundo de la Edad del Bronce se derrumbaba en una misteriosa catástrofe: civilizaciones desde Grecia hasta Mesopotamia colapsaron en pocas décadas. Egipto, anclado en su fe en Osiris y el ciclo de muerte y renacimiento, fue uno de los pocos que sobrevivió."
+    },
     "reflection": {
-      "en": "Osiris's story of death and resurrection appears in remarkably similar forms across many unconnected cultures. Why do humans across all times and places construct stories about life after death — what universal need does this serve?",
-      "es": "La historia de muerte y resurrección de Osiris aparece en formas notablemente similares en culturas muy distintas. ¿Por qué los seres humanos de todos los tiempos y lugares construyen relatos sobre la vida después de la muerte? ¿Qué necesidad universal satisfacen?"
+      "en": "Stories of death and resurrection appear across dozens of unconnected cultures throughout history. Which story or belief helps you make sense of loss or endings in your own life?",
+      "es": "Las historias de muerte y resurrección aparecen en decenas de culturas desconectadas a lo largo de la historia. ¿Qué relato o creencia te ayuda a encontrarle sentido a las pérdidas o los finales en tu propia vida?"
     }
   },
   {
@@ -155,9 +179,13 @@
       "en": "The Nile — the world's longest river — provided Egypt with annual floods that deposited rich silt on its banks, creating strips of fertile land in an otherwise barren desert. Without the Nile, Egypt could not have sustained agriculture, population, or civilization. The historian Herodotus called Egypt 'the gift of the Nile.'",
       "es": "El Nilo —el río más largo del mundo— dotó a Egipto de inundaciones anuales que depositaban limo fértil en sus orillas, creando franjas de tierra cultivable en un desierto árido. Sin el Nilo, Egipto no hubiera podido sostener agricultura, población ni civilización. Heródoto lo llamó 'el regalo del Nilo.'"
     },
+    "meanwhile": {
+      "en": "Around 3000 BCE, in Mesopotamia, Sumerian cities were rising along the Tigris and Euphrates for the same reason — river floods that fertilized the land each year. Two great civilizations born from the identical gift of water, with no knowledge of each other.",
+      "es": "Hacia el 3000 a.C., en Mesopotamia, las ciudades sumerias surgían a orillas del Tigris y el Éufrates por la misma razón: inundaciones fluviales que fertilizaban la tierra cada año. Dos grandes civilizaciones nacidas del mismo regalo del agua, sin conocerse entre sí."
+    },
     "reflection": {
-      "en": "The Nile shaped the worldview, religion, calendar, and economy of an entire civilization for millennia. How do natural resources continue to define national identities and geopolitical conflicts today — and are we as aware of that dependency as the Egyptians were?",
-      "es": "El Nilo moldeó la cosmovisión, religión, calendario y economía de toda una civilización durante milenios. ¿Cómo continúan los recursos naturales definiendo identidades nacionales y conflictos geopolíticos hoy, y somos tan conscientes de esa dependencia como los egipcios?"
+      "en": "An entire civilization depended on a single river for everything — food, religion, time itself. What resource, relationship, or habit is your life most dependent on, and have you ever stopped to consider what would happen if it disappeared?",
+      "es": "Una civilización entera dependía de un solo río para todo: alimento, religión, hasta el tiempo mismo. ¿De qué recurso, relación o hábito depende más tu vida, y alguna vez te detuviste a pensar qué pasaría si desapareciera?"
     }
   },
   {
@@ -178,9 +206,13 @@
       "en": "Most Egyptologists believe the Great Sphinx was built during Khafre's reign (c. 2558–2532 BCE). Its face is thought to be a portrait of Khafre, and it sits near his pyramid on the Giza plateau. The Sphinx is carved from a single mass of limestone bedrock and is about 4,500 years old.",
       "es": "La mayoría de los egiptólogos cree que la Gran Esfinge fue construida durante el reinado de Kefrén (c. 2558–2532 a.C.). Se cree que su rostro es un retrato de Kefrén, y se encuentra cerca de su pirámide en la meseta de Giza. Está tallada en un afloramiento de caliza y tiene unos 4.500 años."
     },
+    "meanwhile": {
+      "en": "Around 2530 BCE, in the Indus Valley (present-day Pakistan), the cities of Harappa and Mohenjo-daro were thriving — with sophisticated sewage systems, standardized weights, and urban planning that wouldn't be matched in Europe for thousands of years.",
+      "es": "Hacia el 2530 a.C., en el Valle del Indo (actual Pakistán), las ciudades de Harappa y Mohenjo-daro prosperaban con sofisticados sistemas de alcantarillado, pesos estandarizados y planificación urbana que Europa no alcanzaría por miles de años."
+    },
     "reflection": {
-      "en": "The Sphinx has watched civilizations rise and fall for 4,500 years. What monuments of our own era do you think will endure that long — and what will they say about us to whoever is there to see them?",
-      "es": "La Esfinge ha observado el surgimiento y caída de civilizaciones durante 4.500 años. ¿Qué monumentos de nuestra era crees que perdurarán tanto tiempo, y qué dirán de nosotros a quienes estén allí para verlos?"
+      "en": "The Sphinx has watched civilizations rise and fall for 4,500 years. If one monument of our era were still standing in the year 6500, what would you want it to be — and what would it say about us?",
+      "es": "La Esfinge ha observado el surgimiento y caída de civilizaciones durante 4.500 años. Si un monumento de nuestra era siguiera en pie en el año 6500, ¿cuál querrías que fuera, y qué diría de nosotros?"
     }
   },
   {
@@ -201,9 +233,13 @@
       "en": "Papyrus was made by slicing the stems of the papyrus plant (abundant along the Nile), layering the strips crosswise, and pressing them together. It was far lighter and easier to produce than clay tablets, enabling Egypt to create portable libraries of medical, religious, and legal texts.",
       "es": "El papiro se fabricaba cortando los tallos de la planta de papiro (abundante junto al Nilo), superponiendo las tiras en cruz y prenSándolas. Era mucho más ligero y fácil de producir que las tablillas de arcilla, lo que permitió a Egipto crear bibliotecas portátiles de textos médicos, religiosos y legales."
     },
+    "meanwhile": {
+      "en": "Around 3000 BCE, the Sumerians of Mesopotamia were simultaneously inventing cuneiform writing on clay tablets — two entirely different solutions to the same human need: preserving thought across time and carrying it beyond the people who had it.",
+      "es": "Hacia el 3000 a.C., los sumerios de Mesopotamia inventaban simultáneamente la escritura cuneiforme en tablillas de arcilla: dos soluciones completamente distintas para la misma necesidad humana, preservar el pensamiento a través del tiempo y llevarlo más allá de quienes lo tuvieron."
+    },
     "reflection": {
-      "en": "Papyrus enabled knowledge to travel — texts could be copied, carried, and shared across distances. Today, digital media allows information to spread at unimaginable speed. Has the speed of information transmission improved the quality of what we actually know?",
-      "es": "El papiro permitió que el conocimiento viajara: los textos podían copiarse, transportarse y compartirse. Hoy, los medios digitales permiten que la información se propague a velocidad inimaginable. ¿Ha mejorado la velocidad de transmisión de información la calidad de lo que realmente sabemos?"
+      "en": "Papyrus let ideas travel beyond the people who had them. Which book, text, or idea has traveled farthest to reach you — and changed the way you see yourself or the world?",
+      "es": "El papiro permitió que las ideas viajaran más allá de quienes las tuvieron. ¿Qué libro, texto o idea viajó más lejos para llegar a vos, y cambió la manera en que te ves a ti mismo o al mundo?"
     }
   },
   {
@@ -224,9 +260,13 @@
       "en": "Egyptian pharaohs were believed to be literal incarnations of the god Horus while living, and became the god Osiris upon death. This divine status gave them absolute political, religious, and judicial authority — they were not merely rulers but gods walking among humans, responsible for maintaining Ma'at (cosmic order).",
       "es": "Se creía que los faraones egipcios eran encarnaciones literales del dios Horus en vida, y se convertían en el dios Osiris al morir. Este estatus divino les otorgaba autoridad política, religiosa y judicial absoluta: no eran solo gobernantes, sino dioses que caminaban entre humanos, responsables de mantener Ma'at (el orden cósmico)."
     },
+    "meanwhile": {
+      "en": "Around 600 BCE, in Persia, Cyrus the Great built one of history's largest empires on a radically different philosophy — he declared himself king, not god, and issued what is considered the world's first charter of human rights.",
+      "es": "Hacia el 600 a.C., en Persia, Ciro el Grande construyó uno de los imperios más grandes de la historia sobre una filosofía radicalmente diferente: se declaró rey, no dios, y emitió lo que se considera la primera carta de derechos humanos del mundo."
+    },
     "reflection": {
-      "en": "Merging religious authority with political power gave pharaohs extraordinary control — but also made every royal decision a divine decree. In what ways do modern leaders still draw on sacred or moral language to legitimize their power?",
-      "es": "Fusionar autoridad religiosa y poder político otorgó a los faraones un control extraordinario, pero también convirtió cada decisión real en un decreto divino. ¿De qué maneras los líderes modernos aún recurren al lenguaje sagrado o moral para legitimar su poder?"
+      "en": "Pharaohs fused divine authority with political power, making every decree feel beyond question. Think of a leader today who uses moral or sacred language to legitimize their decisions. Does that language make you more or less likely to question them?",
+      "es": "Los faraones fusionaron autoridad divina con poder político, haciendo que cada decreto pareciera incuestionable. Piensa en un líder actual que use lenguaje moral o sagrado para legitimar sus decisiones. ¿Ese lenguaje te hace más o menos propenso a cuestionarlos?"
     }
   },
   {
@@ -247,9 +287,13 @@
       "en": "Cleisthenes (570–508 BCE) reorganized Athenian government around demes (local communities) and created the Council of 500, giving citizens direct political participation. His reforms in 508–507 BCE are considered the birth of democracy, though it excluded women, slaves, and foreigners — roughly 80% of the population.",
       "es": "Clístenes (570–508 a.C.) reorganizó el gobierno ateniense en torno a los demos (comunidades locales) y creó el Consejo de los 500, dando participación política directa a los ciudadanos. Sus reformas del 508–507 a.C. se consideran el nacimiento de la democracia, aunque excluía a mujeres, esclavos y extranjeros: cerca del 80% de la población."
     },
+    "meanwhile": {
+      "en": "In 508 BCE, in Persia, King Darius I was centralizing one of history's largest empires under absolute monarchy — the polar opposite of the democratic experiment beginning just across the Aegean in Athens.",
+      "es": "En 508 a.C., en Persia, el rey Darío I centralizaba uno de los imperios más grandes de la historia bajo una monarquía absoluta: el polo opuesto del experimento democrático que comenzaba justo al otro lado del Egeo, en Atenas."
+    },
     "reflection": {
-      "en": "Athenian democracy excluded women, enslaved people, and foreigners from its start. As we celebrate democracy's Greek origins, who is still excluded — formally or informally — from full participation in today's democracies?",
-      "es": "La democracia ateniense excluyó desde su inicio a mujeres, esclavos y extranjeros. Mientras celebramos el origen griego de la democracia, ¿quiénes siguen excluidos, formal o informalmente, de la participación plena en las democracias actuales?"
+      "en": "Athens invented democracy while excluding 80% of its population. Think about who is excluded from decisions that affect your life today — and whether you'd know it if you were the one left out.",
+      "es": "Atenas inventó la democracia excluyendo al 80% de su población. Piensa en quién queda excluido de las decisiones que afectan tu vida hoy, y si sabrías reconocerlo si fueras tú el excluido."
     }
   },
   {
@@ -270,9 +314,13 @@
       "en": "Socrates (470–399 BCE) was tried by an Athenian jury of 500 citizens and condemned to death by drinking hemlock. His 'crime' was questioning traditional values and encouraging citizens to think critically. He refused to flee, accepting the verdict as part of his commitment to Athenian law.",
       "es": "Sócrates (470–399 a.C.) fue juzgado por un jurado ateniense de 500 ciudadanos y condenado a muerte mediante cicuta. Su 'crimen' fue cuestionar los valores tradicionales y alentar el pensamiento crítico. Se negó a huir, aceptando el veredicto como parte de su compromiso con la ley ateniense."
     },
+    "meanwhile": {
+      "en": "Around 399 BCE, in China, the Warring States period was producing an explosion of philosophy — Confucius had recently died, and thinkers like Mozi and Laozi were asking the same urgent questions about justice and good governance that Socrates posed in Athens.",
+      "es": "Hacia el 399 a.C., en China, el período de los Reinos Combatientes producía una explosión filosófica: Confucio había muerto hacía poco, y pensadores como Mozi y Laozi formulaban las mismas preguntas urgentes sobre justicia y buen gobierno que Sócrates planteaba en Atenas."
+    },
     "reflection": {
-      "en": "Athens — the birthplace of democracy and free thought — executed its greatest philosopher for asking questions. What ideas or questions today are considered too dangerous or destabilizing for those in power to tolerate?",
-      "es": "Atenas —cuna de la democracia y el pensamiento libre— ejecutó a su mayor filósofo por hacer preguntas. ¿Qué ideas o preguntas se consideran hoy demasiado peligrosas o desestabilizadoras para quienes ostentan el poder?"
+      "en": "Athens — the birthplace of free thought — executed its greatest philosopher for asking uncomfortable questions. What question feels too dangerous or unsettling to ask openly in your own life?",
+      "es": "Atenas —cuna del pensamiento libre— ejecutó a su mayor filósofo por hacer preguntas incómodas. ¿Qué pregunta te parece demasiado peligrosa o perturbadora para hacerla abiertamente en tu propia vida?"
     }
   },
   {
@@ -293,9 +341,13 @@
       "en": "The Oracle at Delphi (active c. 800–390 BCE) was the most prestigious religious institution in the ancient Greek world. The Pythia (priestess) would enter a trance state — possibly induced by geological vapors — and deliver cryptic prophecies. Kings and city-states consulted her before wars, colonizations, and major decisions.",
       "es": "El Oráculo de Delfos (activo c. 800–390 a.C.) era la institución religiosa más prestigiosa del mundo griego antiguo. La Pitia (sacerdotisa) entraba en trance —posiblemente inducido por vapores geológicos— y emitía profecías crípticas. Reyes y ciudades-estado la consultaban antes de guerras, colonizaciones y decisiones importantes."
     },
+    "meanwhile": {
+      "en": "Around 500 BCE, in India, Siddhartha Gautama — the Buddha — was teaching that the path to wisdom was inward, not through divine prophecy, but through self-examination. A radically different answer to the same ancient question: how do we know what to do?",
+      "es": "Hacia el 500 a.C., en India, Siddhartha Gautama —el Buda— enseñaba que el camino hacia la sabiduría era interior, no a través de profecías divinas, sino mediante el autoexamen. Una respuesta radicalmente diferente a la misma pregunta antigua: ¿cómo sabemos qué hacer?"
+    },
     "reflection": {
-      "en": "Ancient Greek leaders traveled hundreds of miles to consult the Oracle before major decisions. Where do modern leaders and individuals turn for guidance when facing uncertain futures — and how much do we trust those sources?",
-      "es": "Los líderes griegos viajaban cientos de kilómetros para consultar al Oráculo antes de decisiones importantes. ¿Adónde acuden hoy los líderes y las personas en busca de guía ante futuros inciertos, y cuánto confiamos en esas fuentes?"
+      "en": "Kings traveled hundreds of miles to ask the Oracle what the future held. When you face a decision too big to make alone, who do you turn to — and how do you know whether to trust them?",
+      "es": "Los reyes viajaban cientos de kilómetros para preguntarle al Oráculo qué deparaba el futuro. Cuando enfrentás una decisión demasiado grande para tomar solo, ¿a quién acudís, y cómo sabés si confiar en esa persona?"
     }
   },
   {
@@ -316,9 +368,13 @@
       "en": "The ancient Olympic Games began in 776 BCE in Olympia, a sanctuary dedicated to Zeus. Athletes competed in honor of the king of the gods. Crucially, the Games were accompanied by a sacred truce (ekecheiria) — all wars between city-states were suspended for the duration of the festival.",
       "es": "Los Juegos Olímpicos antiguos comenzaron en 776 a.C. en Olimpia, un santuario dedicado a Zeus. Los atletas competían en honor al rey de los dioses. Los Juegos iban acompañados de una tregua sagrada (ekecheiria): todas las guerras entre ciudades-estado se suspendían durante el festival."
     },
+    "meanwhile": {
+      "en": "Around 776 BCE, the Assyrian Empire was at its brutal peak — conquering neighboring peoples with organized military terror — while Greeks were instituting a sacred truce to suspend all wars for athletic competition. Two radically different visions of human greatness, at the same moment in time.",
+      "es": "Hacia el 776 a.C., el Imperio Asirio estaba en su brutal apogeo, conquistando pueblos vecinos con terror militar organizado, mientras los griegos instituían una tregua sagrada para suspender todas las guerras en favor de la competencia atlética. Dos visiones radicalmente distintas de la grandeza humana, en el mismo momento."
+    },
     "reflection": {
-      "en": "The original Olympics served as a sacred truce — wars paused so athletes could compete. Today's Olympic Games aspire to a similar ideal, but politics and conflicts still intrude. Can sport ever truly function as a bridge between divided peoples?",
-      "es": "Los Juegos Olímpicos originales eran una tregua sagrada: las guerras se pausaban para que los atletas compitieran. Los Juegos actuales aspiran a un ideal similar, pero la política y los conflictos siguen interfiriendo. ¿Puede el deporte funcionar realmente como puente entre pueblos divididos?"
+      "en": "Wars paused for the ancient Olympics. Is there anything in your world today that could genuinely bring opposing sides to stop a conflict, even briefly? What would that thing need to be?",
+      "es": "Las guerras se pausaban para los Juegos Olímpicos. ¿Existe algo en tu mundo actual que pudiera genuinamente llevar a bandos opuestos a detener un conflicto, aunque sea por un momento? ¿Qué tendría que ser?"
     }
   },
   {
@@ -339,9 +395,13 @@
       "en": "Sparta's agoge was a compulsory state education and training program that began at age 7. Boys were removed from their families and subjected to years of intense physical training, hardship, and communal living. The result was arguably the most feared military force in the ancient world — but at enormous social cost.",
       "es": "La agogé espartana era un programa estatal de educación y entrenamiento obligatorio que comenzaba a los 7 años. Los niños eran separados de sus familias y sometidos a años de intenso entrenamiento físico, privaciones y vida comunitaria. El resultado fue, posiblemente, la fuerza militar más temida del mundo antiguo, aunque a enorme costo social."
     },
+    "meanwhile": {
+      "en": "Around 500 BCE, in Athens — just 220 kilometers away — Pericles was funding the Parthenon and making his city the cultural capital of the ancient world. Two radically different civilizations, thriving simultaneously, close enough to see each other's fires at night.",
+      "es": "Hacia el 500 a.C., en Atenas —a solo 220 kilómetros— Pericles financiaba el Partenón y convertía su ciudad en la capital cultural del mundo antiguo. Dos civilizaciones radicalmente distintas, floreciendo simultáneamente, lo suficientemente cerca como para ver las fogatas de la otra por la noche."
+    },
     "reflection": {
-      "en": "Sparta achieved extraordinary military strength by subordinating individual lives entirely to the state from childhood. Athens achieved cultural brilliance by fostering individual thought. Which model better serves a civilization's long-term survival — and does the answer change depending on the threat?",
-      "es": "Esparta logró una fortaleza militar extraordinaria subordinando completamente las vidas individuales al Estado desde la infancia. Atenas alcanzó el esplendor cultural fomentando el pensamiento individual. ¿Qué modelo sirve mejor a la supervivencia a largo plazo de una civilización, y cambia la respuesta según la amenaza?"
+      "en": "Sparta took children from their families at age 7 to build the perfect soldier. Athens invested in art, philosophy, and debate. Which model better describes the society you grew up in — and would you choose it if you could?",
+      "es": "Esparta separaba a los niños de sus familias a los 7 años para construir al soldado perfecto. Atenas invertía en arte, filosofía y debate. ¿Cuál modelo describe mejor la sociedad en la que creciste, y lo elegirías si pudieras?"
     }
   },
   {
@@ -362,9 +422,13 @@
       "en": "Marcus Junius Brutus (85–42 BCE) was one of Caesar's most trusted friends and a leading senator. On the Ides of March (March 15, 44 BCE), he joined 22 other senators in stabbing Caesar 23 times. Brutus believed he was saving the Republic from tyranny — but the assassination triggered a civil war that ended the Republic forever.",
       "es": "Marco Junio Bruto (85–42 a.C.) era uno de los amigos más confiables de César y senador prominente. En los Idus de Marzo (15 de marzo del 44 a.C.), se unió a otros 22 senadores para apuñalar a César 23 veces. Bruto creía salvar la República de la tiranía, pero el asesinato desencadenó la guerra civil que acabó con ella para siempre."
     },
+    "meanwhile": {
+      "en": "On March 15, 44 BCE, in China, the Han Dynasty under Emperor Wu was governing 60 million people through a powerful imperial bureaucracy — the very kind of centralized system that Caesar's assassins feared Rome was about to become.",
+      "es": "El 15 de marzo del 44 a.C., en China, la dinastía Han bajo el emperador Wu gobernaba a 60 millones de personas a través de una poderosa burocracia imperial: exactamente el tipo de sistema centralizado que los asesinos de César temían que Roma estuviera a punto de convertirse."
+    },
     "reflection": {
-      "en": "Brutus believed he was saving democracy by killing Caesar — but his act triggered the autocracy he feared. How often do well-intentioned political acts produce the exact opposite of their intended effects, and what does this tell us about political violence?",
-      "es": "Bruto creyó salvar la democracia matando a César, pero su acto desencadenó la autocracia que temía. ¿Con qué frecuencia los actos políticos bienintencionados producen exactamente lo contrario de lo pretendido, y qué nos dice esto sobre la violencia política?"
+      "en": "Brutus killed Caesar to save the Republic — and instead destroyed it. Think of a time when a well-intentioned action produced the opposite of what you hoped. What did that experience teach you?",
+      "es": "Bruto mató a César para salvar la República, y en cambio la destruyó. Piensa en un momento en que una acción bien intencionada produjo lo contrario de lo que esperabas. ¿Qué te enseñó esa experiencia?"
     }
   },
   {
@@ -385,9 +449,13 @@
       "en": "Emperor Constantine I (reigned 306–337 CE) issued the Edict of Milan in 313 CE, granting religious tolerance throughout the empire and ending the persecution of Christians. Constantine also convened the First Council of Nicaea (325 CE), which defined Christian orthodoxy — decisions that shaped the next 2,000 years of Western history.",
       "es": "El emperador Constantino I (reinó 306–337 d.C.) emitió el Edicto de Milán en 313 d.C., concediendo tolerancia religiosa en todo el Imperio y poniendo fin a la persecución de los cristianos. Constantino también convocó el Primer Concilio de Nicea (325 d.C.), que definió la ortodoxia cristiana, moldearando los siguientes 2.000 años de historia occidental."
     },
+    "meanwhile": {
+      "en": "In 313 CE, in India, the Gupta Empire was beginning its golden age — producing extraordinary advances in mathematics, astronomy, and art — while, on the other side of the world, Constantine was reshaping the spiritual foundations of the Western world.",
+      "es": "En 313 d.C., en India, el Imperio Gupta comenzaba su edad de oro, produciendo avances extraordinarios en matemáticas, astronomía y arte, mientras que, al otro lado del mundo, Constantino reformulaba los cimientos espirituales de Occidente."
+    },
     "reflection": {
-      "en": "Constantine's personal conversion changed the trajectory of Western civilization. How does the religious belief — or lack thereof — of a single leader continue to shape societies for centuries after their death? Can one person's faith truly alter the course of history?",
-      "es": "La conversión personal de Constantino cambió la trayectoria de la civilización occidental. ¿Cómo moldean la fe religiosa —o su ausencia— de un solo líder a las sociedades durante siglos tras su muerte? ¿Puede la fe de una persona realmente alterar el curso de la historia?"
+      "en": "One emperor's personal conversion reshaped Western civilization for 2,000 years. Whose faith, beliefs, or worldview has shaped your own life most — even if you never chose to adopt it?",
+      "es": "La conversión personal de un solo emperador reformuló la civilización occidental durante 2.000 años. ¿La fe, las creencias o la visión del mundo de quién ha moldeado más tu propia vida, aunque nunca hayas elegido adoptarla?"
     }
   },
   {
@@ -408,9 +476,13 @@
       "en": "The Pax Romana ('Roman Peace', 27 BCE – 180 CE) was a period of relative stability and minimal military expansion. Under this umbrella, trade flourished, infrastructure expanded (including 400,000 km of roads), and diverse cultures were united under Roman law. However, it also meant Roman domination over conquered peoples who had no say in the matter.",
       "es": "La Pax Romana ('Paz romana', 27 a.C. – 180 d.C.) fue un período de estabilidad relativa y mínima expansión militar. Bajo ella, el comercio floreció, la infraestructura se expandió (incluyendo 400.000 km de calzadas) y culturas diversas se unificaron bajo la ley romana. Sin embargo, también significó dominación romana sobre pueblos conquistados sin voz en el asunto."
     },
+    "meanwhile": {
+      "en": "Around 100 CE, in China, the Han Dynasty was experiencing its own 'Pax Sinica' — a parallel era of imperial stability, expanding trade, and cultural prosperity on the other side of the Silk Road, almost entirely unknown to Rome.",
+      "es": "Hacia el 100 d.C., en China, la dinastía Han vivía su propia 'Pax Sinica': una era paralela de estabilidad imperial, comercio en expansión y prosperidad cultural al otro lado de la Ruta de la Seda, casi completamente desconocida para Roma."
+    },
     "reflection": {
-      "en": "The Pax Romana brought stability, law, and prosperity — but also enforced Roman dominance over peoples who had no choice. Can enforced peace truly be called peace? What is the difference between peace and submission?",
-      "es": "La Pax Romana trajo estabilidad, ley y prosperidad, pero también impuso la dominación romana sobre pueblos que no tuvieron elección. ¿Puede la paz impuesta llamarse realmente paz? ¿Cuál es la diferencia entre paz y sometimiento?"
+      "en": "Two hundred years of Roman 'peace' rested on peoples who had no say in it. Think of a stability or comfort in your own life that might depend on someone else's lack of choice. Does that awareness change anything for you?",
+      "es": "Doscientos años de 'paz' romana descansaban sobre pueblos que no tuvieron voz en ello. Piensa en una estabilidad o comodidad en tu propia vida que pueda depender de la falta de elección de otra persona. ¿Ese reconocimiento cambia algo en vos?"
     }
   },
   {
@@ -431,9 +503,13 @@
       "en": "The Colosseum (completed 80 CE under Emperor Titus) could hold 50,000–80,000 spectators. It hosted gladiatorial combats, animal hunts (venationes), public executions, and even mock sea battles. Admission was free — Roman emperors used these spectacles as political tools to gain popular favor.",
       "es": "El Coliseo (completado en el 80 d.C. bajo el emperador Tito) podía albergar entre 50.000 y 80.000 espectadores. Albergaba combates de gladiadores, cacerías de animales (venationes), ejecuciones públicas e incluso batallas navales simuladas. La entrada era gratuita: los emperadores usaban estos espectáculos como herramientas políticas."
     },
+    "meanwhile": {
+      "en": "Around 80 CE, in Mesoamerica, the Maya were building Tikal — a city of 100,000 people with monumental pyramids, astronomical observatories, and sophisticated writing — entirely unknown to the Romans who filled the Colosseum each week.",
+      "es": "Hacia el 80 d.C., en Mesoamérica, los mayas construían Tikal: una ciudad de 100.000 habitantes con pirámides monumentales, observatorios astronómicos y escritura sofisticada, completamente desconocida para los romanos que llenaban el Coliseo cada semana."
+    },
     "reflection": {
-      "en": "Roman rulers kept citizens entertained with violent spectacle — 'bread and circuses' — as a political tool. In what ways do modern governments and media use entertainment and spectacle to shape public attention and keep citizens from focusing on pressing political questions?",
-      "es": "Los gobernantes romanos entretenían a los ciudadanos con espectáculos violentos —'pan y circo'— como herramienta política. ¿De qué maneras usan hoy los gobiernos y los medios el entretenimiento y el espectáculo para moldear la atención pública y distraer de cuestiones políticas urgentes?"
+      "en": "Roman emperors gave citizens free bread and violent spectacle to keep them satisfied and distracted. Think about what you consume most for entertainment — what does it make you less likely to notice or question?",
+      "es": "Los emperadores romanos daban a los ciudadanos pan gratis y espectáculos violentos para mantenerlos satisfechos y distraídos. Piensa en lo que más consumís como entretenimiento: ¿qué te hace menos propenso a notar o cuestionar?"
     }
   },
   {
@@ -454,9 +530,13 @@
       "en": "Latin died as a spoken vernacular language by around 700 CE, but survived for over a millennium as the language of the Church, law, science, medicine, and philosophy across Europe. Newton wrote in Latin. The Catholic Church used Latin in its liturgy until 1965. Modern scientific nomenclature still relies on Latin today.",
       "es": "El latín murió como lengua vernácula hablada hacia el 700 d.C., pero sobrevivió durante más de un milenio como idioma de la Iglesia, el derecho, la ciencia, la medicina y la filosofía en Europa. Newton escribía en latín. La Iglesia católica usó el latín en la liturgia hasta 1965. La nomenclatura científica moderna sigue basándose en el latín."
     },
+    "meanwhile": {
+      "en": "As Latin faded as a spoken language around 700 CE, Arabic was spreading explosively with Islam across Arabia, Persia, and North Africa — about to become the dominant global language of science, medicine, and philosophy for the next five centuries.",
+      "es": "Mientras el latín se extinguía como lengua hablada hacia el 700 d.C., el árabe se expandía explosivamente con el islam por Arabia, Persia y el norte de África, a punto de convertirse en el idioma global dominante de la ciencia, la medicina y la filosofía durante los siguientes cinco siglos."
+    },
     "reflection": {
-      "en": "Latin outlived the civilization that created it by more than a thousand years. Today, hundreds of languages face extinction within this century. What do we lose when a language dies — not just words, but ways of seeing, thinking, and being in the world?",
-      "es": "El latín sobrevivió a la civilización que lo creó durante más de mil años. Hoy, cientos de idiomas se enfrentan a la extinción en este siglo. ¿Qué perdemos cuando muere un idioma: no solo palabras, sino formas de ver, pensar y estar en el mundo?"
+      "en": "Latin outlived the civilization that created it by more than a thousand years. What idea, tradition, or way of seeing the world in your own life has survived far longer than the context that originally created it?",
+      "es": "El latín sobrevivió a la civilización que lo creó por más de mil años. ¿Qué idea, tradición o forma de ver el mundo en tu propia vida ha sobrevivido mucho más tiempo que el contexto que originalmente la creó?"
     }
   }
 ]

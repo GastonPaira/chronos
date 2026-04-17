@@ -43,6 +43,29 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
         </p>
       </div>
 
+      {/* Meanwhile */}
+      <div className="rounded-2xl border border-chronos-border bg-chronos-card p-5 sm:p-6">
+        <div className="flex items-center gap-2 mb-3">
+          <span className="text-chronos-gold text-sm">🌍</span>
+          <h3 className="text-xs font-semibold uppercase tracking-widest text-chronos-gold">
+            {t('reflection.meanwhileTitle')}
+          </h3>
+          <button
+            onClick={() => speak(question.meanwhile[locale], 'meanwhile')}
+            className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-border transition-colors duration-150"
+            aria-label={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
+            title={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
+          >
+            <span className="text-base leading-none">
+              {speakingId === 'meanwhile' ? '⏹' : '🔊'}
+            </span>
+          </button>
+        </div>
+        <p className="text-chronos-text leading-relaxed text-sm sm:text-base">
+          {question.meanwhile[locale]}
+        </p>
+      </div>
+
       {/* Reflective question */}
       <div className="rounded-2xl border border-chronos-gold/20 bg-chronos-gold/5 p-5 sm:p-6">
         <div className="flex items-center gap-2 mb-3">
