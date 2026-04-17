@@ -42,7 +42,7 @@ export default function Home() {
 
         {/* Play button */}
         <button
-          onClick={() => router.push('/categories')}
+          onClick={() => router.push('/eras')}
           className="group w-full rounded-2xl bg-chronos-gold px-8 py-5 text-chronos-bg font-bold text-lg tracking-widest uppercase transition-all duration-200 hover:bg-chronos-gold-light hover:shadow-lg hover:shadow-chronos-gold/20 active:scale-[0.97]"
         >
           <span className="flex items-center justify-center gap-3">

@@ -9,6 +9,13 @@ import LanguageSelector from '@/components/LanguageSelector';
 import CategoryCard from '@/components/CategoryCard';
 import ChronosLogo from '@/components/ChronosLogo';
 
+const ERA_CATEGORIES: Record<string, string[]> = {
+  'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
+  'middle-ages':  [],
+  'early-modern': [],
+  'modern-era':   [],
+};
+
 function buildCategories(questions: Question[]): Category[] {
   const map = new Map<string, Category>();
   for (const q of questions) {
@@ -32,18 +39,21 @@ export default function Categories() {
   const { t, i18n } = useTranslation('common');
   const router = useRouter();
   const locale = (i18n.language as Locale) ?? 'en';
+  const eraId = router.isReady ? (router.query.era as string | undefined) : undefined;
 
-  const categories = useMemo(
-    () => buildCategories(questionsData as Question[]),
-    []
-  );
+  const categories = useMemo(() => {
+    const all = buildCategories(questionsData as Question[]);
+    if (!eraId || !ERA_CATEGORIES[eraId]) return all;
+    const allowed = ERA_CATEGORIES[eraId];
+    return all.filter(cat => allowed.includes(cat.id));
+  }, [eraId]);
 
   return (
     <div className="min-h-screen bg-chronos-bg px-4 py-8 sm:px-6 sm:py-12">
       {/* Header */}
-      <header className="flex items-center justify-between max-w-2xl mx-auto mb-10">
+      <header className="flex items-center justify-between max-w-2xl mx-auto mb-8">
         <button
-          onClick={() => router.push('/')}
+          onClick={() => router.push(eraId ? '/eras' : '/')}
           className="flex items-center gap-1.5 text-sm text-chronos-muted hover:text-chronos-text transition-colors"
         >
           ← {t('nav.back')}
@@ -51,6 +61,29 @@ export default function Categories() {
         <ChronosLogo size="sm" />
         <LanguageSelector />
       </header>
+
+      {/* Step indicator (only when navigating from era selection) */}
+      {eraId && (
+        <div className="max-w-2xl mx-auto mb-8 flex items-center gap-3 animate-fade-in">
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 rounded-full border border-chronos-gold/40 text-chronos-gold/60 text-xs font-bold flex items-center justify-center flex-shrink-0">
+              ✓
+            </div>
+            <span className="text-xs text-chronos-muted uppercase tracking-wider">
+              {t('eras.stepEra')}
+            </span>
+          </div>
+          <div className="flex-1 h-px bg-chronos-gold/30" />
+          <div className="flex items-center gap-2">
+            <div className="w-6 h-6 rounded-full bg-chronos-gold text-chronos-bg text-xs font-bold flex items-center justify-center flex-shrink-0">
+              2
+            </div>
+            <span className="text-xs text-chronos-gold font-medium uppercase tracking-wider">
+              {t('eras.stepCategory')}
+            </span>
+          </div>
+        </div>
+      )}
 
       {/* Title */}
       <div className="max-w-2xl mx-auto mb-8 animate-fade-in">

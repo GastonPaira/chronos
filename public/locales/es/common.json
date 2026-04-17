@@ -5,6 +5,36 @@
     "playButton": "Jugar",
     "languageLabel": "Idioma"
   },
+  "eras": {
+    "title": "Elige una Era",
+    "stepEra": "Era",
+    "stepCategory": "Categoría",
+    "continue": "Continuar",
+    "questions": "preguntas",
+    "noQuestions": "Sin preguntas aún",
+    "soon": "Pronto",
+    "comingSoonDesc": "Las preguntas de esta era llegarán pronto. ¡Sigue curioso!",
+    "ancient-age": {
+      "name": "Edad Antigua",
+      "years": "Hasta 500 d.C.",
+      "description": "Pirámides, filósofos e imperios forjaron los cimientos de la civilización."
+    },
+    "middle-ages": {
+      "name": "Edad Media",
+      "years": "500 – 1500 d.C.",
+      "description": "Reinos, cruzadas y catedrales definieron mil años de historia."
+    },
+    "early-modern": {
+      "name": "Edad Moderna",
+      "years": "1500 – 1800 d.C.",
+      "description": "El Renacimiento, la exploración y las revoluciones transformaron el mundo."
+    },
+    "modern-era": {
+      "name": "Edad Contemporánea",
+      "years": "1800 – Hoy",
+      "description": "La industria, las guerras y la tecnología moldearon el mundo contemporáneo."
+    }
+  },
   "categories": {
     "title": "Elige una Categoría",
     "questions": "preguntas",

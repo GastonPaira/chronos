@@ -5,6 +5,36 @@
     "playButton": "Play",
     "languageLabel": "Language"
   },
+  "eras": {
+    "title": "Choose an Era",
+    "stepEra": "Era",
+    "stepCategory": "Category",
+    "continue": "Continue",
+    "questions": "questions",
+    "noQuestions": "No questions yet",
+    "soon": "Soon",
+    "comingSoonDesc": "Questions for this era are coming soon. Stay curious!",
+    "ancient-age": {
+      "name": "Ancient Age",
+      "years": "Up to 500 AD",
+      "description": "Pyramids, philosophers, and emperors shaped the foundations of civilization."
+    },
+    "middle-ages": {
+      "name": "Middle Ages",
+      "years": "500 – 1500 AD",
+      "description": "Kingdoms, crusades, and cathedrals defined a thousand years of history."
+    },
+    "early-modern": {
+      "name": "Early Modern",
+      "years": "1500 – 1800 AD",
+      "description": "Renaissance, exploration, and revolution transformed the world."
+    },
+    "modern-era": {
+      "name": "Modern Era",
+      "years": "1800 – Present",
+      "description": "Industry, wars, and technology shaped the contemporary world."
+    }
+  },
   "categories": {
     "title": "Choose a Category",
     "questions": "questions",
