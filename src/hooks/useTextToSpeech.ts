@@ -38,7 +38,13 @@ function loadVoices(): Promise<SpeechSynthesisVoice[]> {
   });
 }
 
+function isAndroid(): boolean {
+  if (typeof navigator === 'undefined') return false;
+  return /android/i.test(navigator.userAgent);
+}
+
 export function useTextToSpeech(locale: Locale) {
+  const android = isAndroid();
   const [speakingId, setSpeakingId] = useState<string | null>(null);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
@@ -90,5 +96,5 @@ export function useTextToSpeech(locale: Locale) {
     return () => stop();
   }, [stop]);
 
-  return { speak, stop, speakingId };
+  return { speak, stop, speakingId, isSupported: !android };
 }

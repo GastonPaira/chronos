@@ -12,7 +12,7 @@ interface Props {
 
 export default function ReflectionPanel({ question, locale, isLast, onContinue }: Props) {
   const { t } = useTranslation('common');
-  const { speak, stop, speakingId } = useTextToSpeech(locale);
+  const { speak, stop, speakingId, isSupported } = useTextToSpeech(locale);
 
   useEffect(() => {
     return () => stop();
@@ -27,16 +27,18 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
           <h3 className="text-xs font-semibold uppercase tracking-widest text-chronos-gold">
             {t('reflection.title')}
           </h3>
-          <button
-            onClick={() => speak(question.explanation[locale], 'explanation')}
-            className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-border transition-colors duration-150"
-            aria-label={speakingId === 'explanation' ? t('audio.stop') : t('audio.read')}
-            title={speakingId === 'explanation' ? t('audio.stop') : t('audio.read')}
-          >
-            <span className="text-base leading-none">
-              {speakingId === 'explanation' ? '⏹' : '🔊'}
-            </span>
-          </button>
+          {isSupported && (
+            <button
+              onClick={() => speak(question.explanation[locale], 'explanation')}
+              className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-border transition-colors duration-150"
+              aria-label={speakingId === 'explanation' ? t('audio.stop') : t('audio.read')}
+              title={speakingId === 'explanation' ? t('audio.stop') : t('audio.read')}
+            >
+              <span className="text-base leading-none">
+                {speakingId === 'explanation' ? '⏹' : '🔊'}
+              </span>
+            </button>
+          )}
         </div>
         <p className="text-chronos-text leading-relaxed text-sm sm:text-base">
           {question.explanation[locale]}
@@ -50,16 +52,18 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
           <h3 className="text-xs font-semibold uppercase tracking-widest text-chronos-gold">
             {t('reflection.meanwhileTitle')}
           </h3>
-          <button
-            onClick={() => speak(question.meanwhile[locale], 'meanwhile')}
-            className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-border transition-colors duration-150"
-            aria-label={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
-            title={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
-          >
-            <span className="text-base leading-none">
-              {speakingId === 'meanwhile' ? '⏹' : '🔊'}
-            </span>
-          </button>
+          {isSupported && (
+            <button
+              onClick={() => speak(question.meanwhile[locale], 'meanwhile')}
+              className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-border transition-colors duration-150"
+              aria-label={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
+              title={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
+            >
+              <span className="text-base leading-none">
+                {speakingId === 'meanwhile' ? '⏹' : '🔊'}
+              </span>
+            </button>
+          )}
         </div>
         <p className="text-chronos-text leading-relaxed text-sm sm:text-base">
           {question.meanwhile[locale]}
@@ -73,16 +77,18 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
           <h3 className="text-xs font-semibold uppercase tracking-widest text-chronos-gold">
             {t('reflection.reflectionTitle')}
           </h3>
-          <button
-            onClick={() => speak(question.reflection[locale], 'reflection')}
-            className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-gold/10 transition-colors duration-150"
-            aria-label={speakingId === 'reflection' ? t('audio.stop') : t('audio.read')}
-            title={speakingId === 'reflection' ? t('audio.stop') : t('audio.read')}
-          >
-            <span className="text-base leading-none">
-              {speakingId === 'reflection' ? '⏹' : '🔊'}
-            </span>
-          </button>
+          {isSupported && (
+            <button
+              onClick={() => speak(question.reflection[locale], 'reflection')}
+              className="ml-auto p-1.5 rounded-lg text-chronos-muted hover:text-chronos-gold hover:bg-chronos-gold/10 transition-colors duration-150"
+              aria-label={speakingId === 'reflection' ? t('audio.stop') : t('audio.read')}
+              title={speakingId === 'reflection' ? t('audio.stop') : t('audio.read')}
+            >
+              <span className="text-base leading-none">
+                {speakingId === 'reflection' ? '⏹' : '🔊'}
+              </span>
+            </button>
+          )}
         </div>
         <p className="text-chronos-text leading-relaxed text-sm sm:text-base italic">
           {question.reflection[locale]}
