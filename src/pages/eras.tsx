@@ -48,7 +48,6 @@ export default function EraSelection() {
   const { t, i18n } = useTranslation('common');
   const router = useRouter();
   const locale = (i18n.language as Locale) ?? 'en';
-  const [selectedEraId, setSelectedEraId] = useState<string | null>(null);
   const [showComingSoon, setShowComingSoon] = useState(false);
 
   const eras = useMemo(() => {
@@ -63,14 +62,12 @@ export default function EraSelection() {
     });
   }, []);
 
-  function handleContinue() {
-    if (!selectedEraId) return;
-    const era = eras.find(e => e.id === selectedEraId);
-    if (!era || era.questionCount === 0) {
+  function handleEraClick(eraId: string, isEmpty: boolean) {
+    if (isEmpty) {
       setShowComingSoon(true);
       return;
     }
-    router.push(`/categories?era=${selectedEraId}`);
+    router.push(`/categories?era=${eraId}`);
   }
 
   return (
@@ -120,33 +117,19 @@ export default function EraSelection() {
       <main className="max-w-2xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-slide-up">
           {eras.map((era) => {
-            const isSelected = era.id === selectedEraId;
             const isEmpty = era.questionCount === 0;
             return (
               <button
                 key={era.id}
-                onClick={() => {
-                  setSelectedEraId(era.id);
-                  setShowComingSoon(false);
-                }}
-                className={`group flex flex-col items-start gap-3 rounded-2xl border p-5 text-left transition-all duration-200 w-full active:scale-[0.97] ${
-                  isSelected
-                    ? 'border-chronos-gold bg-chronos-surface ring-1 ring-chronos-gold/30'
-                    : 'border-chronos-border bg-chronos-card hover:border-chronos-gold/40 hover:bg-chronos-surface'
-                }`}
+                onClick={() => handleEraClick(era.id, isEmpty)}
+                className="group flex flex-col items-start gap-3 rounded-2xl border p-5 text-left transition-all duration-200 w-full active:scale-[0.97] border-chronos-border bg-chronos-card hover:border-chronos-gold/40 hover:bg-chronos-surface"
               >
                 {/* Icon */}
                 <span className="text-3xl">{era.icon}</span>
 
                 {/* Name + years + description */}
                 <div className="flex-1 w-full">
-                  <h3
-                    className={`font-semibold text-base leading-tight transition-colors ${
-                      isSelected
-                        ? 'text-chronos-gold'
-                        : 'text-chronos-text group-hover:text-chronos-gold'
-                    }`}
-                  >
+                  <h3 className="font-semibold text-base leading-tight transition-colors text-chronos-text group-hover:text-chronos-gold">
                     {t(`eras.${era.id}.name`)}
                   </h3>
                   <p className="text-xs text-chronos-gold/60 mt-0.5 font-medium">
@@ -200,19 +183,6 @@ export default function EraSelection() {
           </div>
         )}
 
-        {/* Continue button */}
-        <div className="mt-8">
-          <button
-            onClick={handleContinue}
-            disabled={!selectedEraId}
-            className="group w-full rounded-2xl bg-chronos-gold px-8 py-4 text-chronos-bg font-bold text-base tracking-widest uppercase transition-all duration-200 hover:bg-chronos-gold-light hover:shadow-lg hover:shadow-chronos-gold/20 active:scale-[0.97] disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:bg-chronos-gold disabled:hover:shadow-none"
-          >
-            <span className="flex items-center justify-center gap-3">
-              {t('eras.continue')}
-              <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
-            </span>
-          </button>
-        </div>
       </main>
     </div>
   );
