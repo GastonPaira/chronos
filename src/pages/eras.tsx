@@ -23,7 +23,7 @@ const ERA_DEFS: EraDef[] = [
   {
     id: 'middle-ages',
     icon: '⚜️',
-    categoryIds: [],
+    categoryIds: ['byzantine-empire', 'crusades-chivalry', 'vikings'],
   },
   {
     id: 'early-modern',

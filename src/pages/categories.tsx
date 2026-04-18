@@ -11,7 +11,7 @@ import ChronosLogo from '@/components/ChronosLogo';
 
 const ERA_CATEGORIES: Record<string, string[]> = {
   'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
-  'middle-ages':  [],
+  'middle-ages':  ['byzantine-empire', 'crusades-chivalry', 'vikings'],
   'early-modern': [],
   'modern-era':   [],
 };
