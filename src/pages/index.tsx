@@ -4,6 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import ChronosLogo from '@/components/ChronosLogo';
 import LanguageSelector from '@/components/LanguageSelector';
+import StreakDisplay from '@/components/StreakDisplay';
 
 export default function Home() {
   const { t } = useTranslation('common');
@@ -50,6 +51,8 @@ export default function Home() {
             <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
           </span>
         </button>
+
+        <StreakDisplay context="home" />
       </div>
 
       {/* Bottom tagline */}

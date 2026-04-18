@@ -79,5 +79,21 @@
   "nav": {
     "back": "Volver",
     "home": "Inicio"
+  },
+  "streak": {
+    "dayCount_one": "{{count}} día",
+    "dayCount_other": "{{count}} días",
+    "home": {
+      "activeToday": "¡Racha de {{count}} día(s)! Vuelve mañana para mantenerla.",
+      "activeYesterday": "¡Racha de {{count}} día(s)! Juega hoy para mantenerla.",
+      "lost": "Tu racha terminó. ¡Comienza una nueva hoy!"
+    },
+    "gameEnd": {
+      "firstTime": "¡Empezaste una racha! Volvé mañana para que crezca.",
+      "firstStreak": "¡Tu racha comienza — día 1!",
+      "incremented": "¡Racha extendida! {{count}} días y contando.",
+      "newRecord": "¡Nuevo récord! ¡{{count}} días!",
+      "alreadyToday": "Ya jugaste hoy. ¡Vuelve mañana!"
+    }
   }
 }

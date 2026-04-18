@@ -79,5 +79,21 @@
   "nav": {
     "back": "Back",
     "home": "Home"
+  },
+  "streak": {
+    "dayCount_one": "{{count}} day",
+    "dayCount_other": "{{count}} days",
+    "home": {
+      "activeToday": "{{count}}-day streak! Come back tomorrow to keep it going.",
+      "activeYesterday": "{{count}}-day streak! Play today to keep it going.",
+      "lost": "Your streak ended. Start a new one today!"
+    },
+    "gameEnd": {
+      "firstTime": "You started a streak! Come back tomorrow to keep it going.",
+      "firstStreak": "Your streak begins — day 1!",
+      "incremented": "Streak extended! {{count}} days and counting.",
+      "newRecord": "New record! {{count}} days!",
+      "alreadyToday": "Already played today. Come back tomorrow!"
+    }
   }
 }

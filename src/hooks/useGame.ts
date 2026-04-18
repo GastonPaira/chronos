@@ -1,5 +1,6 @@
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import type { Question, GameState, GamePhase } from '@/types';
+import { useStreak, type PlayResult } from './useStreak';
 
 const QUESTIONS_PER_ROUND = 10;
 
@@ -13,6 +14,10 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function useGame(allQuestions: Question[]) {
+  const { registerPlay } = useStreak();
+  const [playResult, setPlayResult] = useState<PlayResult | null>(null);
+  const hasRegistered = useRef(false);
+
   const roundQuestions = useMemo(
     () => shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND),
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -31,6 +36,13 @@ export function useGame(allQuestions: Question[]) {
   const total = state.questions.length;
   const currentQuestion = state.questions[state.currentIndex] ?? null;
   const isLastQuestion = state.currentIndex === total - 1;
+
+  useEffect(() => {
+    if (state.phase === 'finished' && !hasRegistered.current) {
+      hasRegistered.current = true;
+      setPlayResult(registerPlay());
+    }
+  }, [state.phase, registerPlay]);
 
   const selectAnswer = useCallback((answerIndex: number) => {
     setState((prev) => {
@@ -75,5 +87,6 @@ export function useGame(allQuestions: Question[]) {
     selectAnswer,
     nextQuestion,
     finishGame,
+    playResult,
   };
 }

@@ -11,6 +11,7 @@ import ReflectionPanel from '@/components/ReflectionPanel';
 import ResultScreen from '@/components/ResultScreen';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
+import StreakDisplay from '@/components/StreakDisplay';
 
 interface Props {
   categoryQuestions: Question[];
@@ -33,6 +34,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
     selectAnswer,
     nextQuestion,
     finishGame,
+    playResult,
   } = useGame(categoryQuestions);
 
   if (!currentQuestion && phase !== 'finished') {
@@ -60,7 +62,10 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
       {/* Main content */}
       <main className="flex-1 flex flex-col max-w-2xl mx-auto w-full">
         {phase === 'finished' ? (
-          <ResultScreen score={score} total={total} category={categoryId} />
+          <div className="flex flex-col items-center gap-6 animate-fade-in">
+            <StreakDisplay context="game_end" playResult={playResult ?? undefined} />
+            <ResultScreen score={score} total={total} category={categoryId} />
+          </div>
         ) : (
           <>
             {/* Score bar */}
