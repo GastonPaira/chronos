@@ -52,6 +52,14 @@ export default function Home() {
           </span>
         </button>
 
+        {/* View Stats button */}
+        <button
+          onClick={() => router.push('/stats')}
+          className="w-full rounded-2xl border border-chronos-border bg-transparent px-8 py-3 text-chronos-muted text-sm font-medium tracking-widest uppercase transition-all duration-200 hover:border-chronos-gold/40 hover:text-chronos-text active:scale-[0.97]"
+        >
+          {t('stats.viewStats')}
+        </button>
+
         <StreakDisplay context="home" />
       </div>
 

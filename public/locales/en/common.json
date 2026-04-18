@@ -80,6 +80,35 @@
     "back": "Back",
     "home": "Home"
   },
+  "stats": {
+    "title": "Your Statistics",
+    "viewStats": "View Stats",
+    "answered": "Answered",
+    "accuracy": "Accuracy",
+    "sessions": "Sessions",
+    "perfectSessions": "Perfect 10/10",
+    "correct": "Correct",
+    "wrong": "Wrong",
+    "byCategory": "By Category",
+    "byDifficulty": "By Difficulty",
+    "answeredCount": "{{count}} answered",
+    "currentStats": "Current Stats",
+    "yourStrength": "Your Strength",
+    "strengthMessage": "You shine in {{category}} with {{accuracy}}% accuracy. Want to challenge yourself in {{weak}}?",
+    "notEnoughData": "Keep playing to discover your strengths",
+    "empty": {
+      "title": "No statistics yet",
+      "subtitle": "Play your first session to start tracking your progress",
+      "cta": "Start Playing"
+    },
+    "reset": "Reset Statistics",
+    "resetConfirm": {
+      "title": "Are you sure?",
+      "text": "This will permanently delete all your statistics. This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Yes, reset"
+    }
+  },
   "streak": {
     "dayCount_one": "{{count}} day",
     "dayCount_other": "{{count}} days",

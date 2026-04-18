@@ -1,6 +1,7 @@
 import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
 import type { Question, GameState, GamePhase } from '@/types';
 import { useStreak, type PlayResult } from './useStreak';
+import { useStats } from './useStats';
 
 const QUESTIONS_PER_ROUND = 10;
 
@@ -15,8 +16,10 @@ function shuffle<T>(arr: T[]): T[] {
 
 export function useGame(allQuestions: Question[]) {
   const { registerPlay } = useStreak();
+  const { recordAnswer, recordSessionEnd } = useStats();
   const [playResult, setPlayResult] = useState<PlayResult | null>(null);
   const hasRegistered = useRef(false);
+  const lastRecordedIndex = useRef(-1);
 
   const roundQuestions = useMemo(
     () => shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND),
@@ -38,11 +41,30 @@ export function useGame(allQuestions: Question[]) {
   const isLastQuestion = state.currentIndex === total - 1;
 
   useEffect(() => {
+    if (
+      state.phase === 'reflecting' &&
+      state.isCorrect !== null &&
+      state.currentIndex !== lastRecordedIndex.current
+    ) {
+      const q = state.questions[state.currentIndex];
+      if (q) {
+        lastRecordedIndex.current = state.currentIndex;
+        recordAnswer({
+          categoryId: q.category,
+          difficulty: q.difficulty,
+          isCorrect: state.isCorrect,
+        });
+      }
+    }
+  }, [state.phase, state.currentIndex, state.isCorrect, state.questions, recordAnswer]);
+
+  useEffect(() => {
     if (state.phase === 'finished' && !hasRegistered.current) {
       hasRegistered.current = true;
       setPlayResult(registerPlay());
+      recordSessionEnd({ score: state.score, total: state.questions.length });
     }
-  }, [state.phase, registerPlay]);
+  }, [state.phase, registerPlay, recordSessionEnd, state.score, state.questions.length]);
 
   const selectAnswer = useCallback((answerIndex: number) => {
     setState((prev) => {

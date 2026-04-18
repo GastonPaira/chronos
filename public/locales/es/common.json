@@ -80,6 +80,35 @@
     "back": "Volver",
     "home": "Inicio"
   },
+  "stats": {
+    "title": "Tus Estadísticas",
+    "viewStats": "Ver Estadísticas",
+    "answered": "Respondidas",
+    "accuracy": "Aciertos",
+    "sessions": "Sesiones",
+    "perfectSessions": "Perfectas 10/10",
+    "correct": "Correctas",
+    "wrong": "Incorrectas",
+    "byCategory": "Por Categoría",
+    "byDifficulty": "Por Dificultad",
+    "answeredCount": "{{count}} respondidas",
+    "currentStats": "Estadísticas Actuales",
+    "yourStrength": "Tu Fortaleza",
+    "strengthMessage": "Brillás en {{category}} con {{accuracy}}% de aciertos. ¿Querés desafiarte en {{weak}}?",
+    "notEnoughData": "Sigue jugando para descubrir tus fortalezas",
+    "empty": {
+      "title": "Aún no hay estadísticas",
+      "subtitle": "Juega tu primera sesión para empezar a registrar tu progreso",
+      "cta": "Empezar a Jugar"
+    },
+    "reset": "Reiniciar Estadísticas",
+    "resetConfirm": {
+      "title": "¿Estás seguro?",
+      "text": "Esto borrará permanentemente todas tus estadísticas. Esta acción no se puede deshacer.",
+      "cancel": "Cancelar",
+      "confirm": "Sí, reiniciar"
+    }
+  },
   "streak": {
     "dayCount_one": "{{count}} día",
     "dayCount_other": "{{count}} días",
