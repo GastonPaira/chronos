@@ -109,6 +109,24 @@
       "confirm": "Sí, reiniciar"
     }
   },
+  "install": {
+    "banner": {
+      "title": "Instalá Chronos en tu celu",
+      "cta": "Instalar"
+    },
+    "whatsapp": {
+      "message": "Para instalar Chronos, abrí este link en Chrome",
+      "cta": "Abrir en Chrome"
+    },
+    "help": {
+      "link": "¿Cómo instalar la app?",
+      "title": "Instalar Chronos",
+      "step1": "Tocá el menú ⋮ arriba a la derecha",
+      "step2": "Tocá 'Instalar app' o 'Añadir a pantalla de inicio'",
+      "step3": "Confirmá la instalación",
+      "close": "Entendido"
+    }
+  },
   "streak": {
     "dayCount_one": "{{count}} día",
     "dayCount_other": "{{count}} días",

@@ -3,6 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import ChronosLogo from '@/components/ChronosLogo';
+import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakDisplay from '@/components/StreakDisplay';
 
@@ -40,6 +41,8 @@ export default function Home() {
           <span className="text-chronos-gold/40 text-xs">✦</span>
           <div className="flex-1 h-px bg-gradient-to-l from-transparent to-chronos-border" />
         </div>
+
+        <InstallBanner />
 
         {/* Play button */}
         <button

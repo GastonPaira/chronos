@@ -109,6 +109,24 @@
       "confirm": "Yes, reset"
     }
   },
+  "install": {
+    "banner": {
+      "title": "Install Chronos on your phone",
+      "cta": "Install"
+    },
+    "whatsapp": {
+      "message": "To install Chronos, open this link in Chrome",
+      "cta": "Open in Chrome"
+    },
+    "help": {
+      "link": "How to install the app?",
+      "title": "Install Chronos",
+      "step1": "Tap the menu ⋮ at the top right",
+      "step2": "Tap 'Install app' or 'Add to home screen'",
+      "step3": "Confirm the installation",
+      "close": "Got it"
+    }
+  },
   "streak": {
     "dayCount_one": "{{count}} day",
     "dayCount_other": "{{count}} days",
