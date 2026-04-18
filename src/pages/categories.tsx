@@ -8,6 +8,7 @@ import questionsData from '@/data/questions.json';
 import LanguageSelector from '@/components/LanguageSelector';
 import CategoryCard from '@/components/CategoryCard';
 import ChronosLogo from '@/components/ChronosLogo';
+import StreakBadge from '@/components/StreakBadge';
 
 const ERA_CATEGORIES: Record<string, string[]> = {
   'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
@@ -59,7 +60,10 @@ export default function Categories() {
           ← {t('nav.back')}
         </button>
         <ChronosLogo size="sm" />
-        <LanguageSelector />
+        <div className="flex items-center gap-3">
+          <StreakBadge />
+          <LanguageSelector />
+        </div>
       </header>
 
       {/* Step indicator (only when navigating from era selection) */}

@@ -7,6 +7,7 @@ import type { Locale, Question } from '@/types';
 import questionsData from '@/data/questions.json';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
+import StreakBadge from '@/components/StreakBadge';
 
 interface EraDef {
   id: string;
@@ -81,7 +82,10 @@ export default function EraSelection() {
           ← {t('nav.back')}
         </button>
         <ChronosLogo size="sm" />
-        <LanguageSelector />
+        <div className="flex items-center gap-3">
+          <StreakBadge />
+          <LanguageSelector />
+        </div>
       </header>
 
       {/* Step indicator */}
