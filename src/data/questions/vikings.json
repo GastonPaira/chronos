@@ -1,0 +1,362 @@
+[
+  {
+    "id": "vk-001",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Leif Erikson is believed to have established the first European settlement in North America around 1000 CE. Where was it located?",
+      "es": "Se cree que Leif Erikson estableció el primer asentamiento europeo en América del Norte hacia el año 1000 d.C. ¿Dónde estaba ubicado?"
+    },
+    "options": [
+      {
+        "en": "Vinland, confirmed archaeologically in present-day Newfoundland, Canada",
+        "es": "Vinland, confirmado arqueológicamente en la actual Terranova, Canadá"
+      },
+      {
+        "en": "Iceland, which he also discovered on the same voyage",
+        "es": "Islandia, que también descubrió en el mismo viaje"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Around 1000 CE, Leif Erikson sailed from Greenland to a place the Norse called 'Vinland' (Wineland) for its wild grapes. Archaeological excavations at L'Anse aux Meadows in Newfoundland — the only confirmed Norse site in North America — prove Europeans reached the Americas 492 years before Columbus. The settlement was abandoned after conflicts with indigenous peoples the Norse called 'Skraelings.'",
+      "es": "Hacia el año 1000 d.C., Leif Erikson navegó desde Groenlandia hasta un lugar que los nórdicos llamaban 'Vinland' (Tierra del Vino) por sus uvas silvestres. Las excavaciones arqueológicas en L'Anse aux Meadows en Terranova, el único sitio nórdico confirmado en América del Norte, demuestran que los europeos llegaron a las Américas 492 años antes que Colón. El asentamiento fue abandonado tras conflictos con los pueblos indígenas a quienes los nórdicos llamaban 'Skraelings'."
+    },
+    "meanwhile": {
+      "en": "Around 1000 CE, in Mesoamerica, the city of Chichén Itzá was at its peak — a sophisticated urban center with advanced astronomy and a calendar more accurate than the European one. Indigenous Americans were building civilizations of great sophistication at the exact moment Norse explorers were setting foot on the far edge of their continent.",
+      "es": "Hacia el año 1000 d.C., en Mesoamérica, la ciudad de Chichén Itzá estaba en su apogeo: un sofisticado centro urbano con astronomía avanzada y un calendario más preciso que el europeo. Los americanos indígenas construían civilizaciones de gran sofisticación en el preciso momento en que los exploradores nórdicos pisaban el extremo lejano de su continente."
+    },
+    "reflection": {
+      "en": "Leif Erikson reached America 492 years before Columbus, and the Norse settlement vanished without lasting trace. Columbus arrived and changed everything. What does that difference tell you about the relationship between discovery and impact — and what it actually takes for a moment to become a turning point?",
+      "es": "Leif Erikson llegó a América 492 años antes que Colón, y el asentamiento nórdico desapareció sin dejar huella duradera. Colón llegó y lo cambió todo. ¿Qué te dice esa diferencia sobre la relación entre el descubrimiento y el impacto, y lo que realmente se necesita para que un momento se convierta en un punto de inflexión?"
+    }
+  },
+  {
+    "id": "vk-002",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "The raid on which English monastery in 793 CE is traditionally considered the beginning of the Viking Age?",
+      "es": "El ataque a qué monasterio inglés en 793 d.C. se considera tradicionalmente el inicio de la Era Vikinga?"
+    },
+    "options": [
+      {
+        "en": "Lindisfarne (Holy Island)",
+        "es": "Lindisfarne (Isla Santa)"
+      },
+      {
+        "en": "Canterbury Cathedral",
+        "es": "La Catedral de Canterbury"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "On June 8, 793 CE, Norse raiders attacked the monastery at Lindisfarne off the northeast coast of England, killing monks, stealing its treasures, and taking others as slaves. The raid shocked a Christian Europe that had considered monasteries sacred, untouchable spaces. The Lindisfarne chronicler wrote: 'Never before has such terror appeared in Britain.' It marked the beginning of 250 years of Viking raids across Europe.",
+      "es": "El 8 de junio de 793 d.C., los incursores nórdicos atacaron el monasterio de Lindisfarne frente a la costa noreste de Inglaterra, matando a monjes, robando sus tesoros y llevándose a otros como esclavos. El ataque conmocionó a una Europa cristiana que consideraba los monasterios espacios sagrados e intocables. El cronista de Lindisfarne escribió: 'Nunca antes había aparecido tal terror en Bretaña.' Marcó el inicio de 250 años de incursiones vikingas por toda Europa."
+    },
+    "meanwhile": {
+      "en": "In 793 CE, in Baghdad, the Abbasid Caliph Harun al-Rashid — the ruler who would inspire the tales of One Thousand and One Nights — was presiding over the Islamic Golden Age's peak, funding scholars, poets, and scientists in a city of one million people, the intellectual capital of the world.",
+      "es": "En 793 d.C., en Bagdad, el califa abasí Harún al-Rashid —el gobernante que inspiraría los cuentos de Las Mil y Una Noches— presidía el apogeo de la Edad de Oro del Islam, financiando a eruditos, poetas y científicos en una ciudad de un millón de habitantes, la capital intelectual del mundo."
+    },
+    "reflection": {
+      "en": "The raid at Lindisfarne 'came out of nowhere' to people who had no concept that it was possible. What in your life feels safe from disruption simply because it always has been — and what would it take for you to honestly assess that security?",
+      "es": "El ataque a Lindisfarne 'llegó de la nada' para personas que no concebían que fuera posible. ¿Qué en tu vida se siente protegido de la disrupción simplemente porque siempre lo ha estado, y qué se necesitaría para que evalúes honestamente esa seguridad?"
+    }
+  },
+  {
+    "id": "vk-003",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Erik the Red founded the first Norse settlement in Greenland around 985 CE. Why was he seeking new lands?",
+      "es": "Erik el Rojo fundó el primer asentamiento nórdico en Groenlandia hacia el 985 d.C. ¿Por qué buscaba nuevas tierras?"
+    },
+    "options": [
+      {
+        "en": "He had been exiled from Iceland for three years after killing a man in a feud",
+        "es": "Había sido desterrado de Islandia durante tres años por matar a un hombre en una disputa"
+      },
+      {
+        "en": "He was commissioned by the Norwegian king to find new territory for colonization",
+        "es": "Fue encomendado por el rey noruego para encontrar nuevos territorios para colonizar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Erik Thorvaldsson (Erik the Red) was banished from Iceland after killing two men in a feud. During his three-year exile he explored the vast icy island to the west, deliberately naming it 'Greenland' — a marketing strategy to attract settlers. His optimistic branding worked: he returned to Iceland and recruited colonists who established two settlements that survived for nearly 500 years before mysteriously disappearing around 1408.",
+      "es": "Erik Thorvaldsson (Erik el Rojo) fue desterrado de Islandia por matar a dos hombres en una disputa. Durante su exilio de tres años exploró la vasta isla helada al oeste, a la que deliberadamente llamó 'Groenlandia' (Tierra Verde), una estrategia de marketing para atraer colonos. Su optimista denominación funcionó: regresó a Islandia, reclutó colonos y estableció dos asentamientos que sobrevivieron casi 500 años antes de desaparecer misteriosamente hacia 1408."
+    },
+    "meanwhile": {
+      "en": "Around 985 CE, the Song Dynasty in China had just been founded, beginning one of history's most economically and technologically advanced eras — inventing paper money, moveable type printing, and gunpowder weapons — while Norse exiles were settling a desolate island by giving it a deliberately misleading name.",
+      "es": "Hacia el 985 d.C., la dinastía Song en China acababa de fundarse, iniciando una de las eras más avanzadas económica y tecnológicamente de la historia, inventando el dinero de papel, la imprenta de tipos móviles y armas de pólvora, mientras desterrados nórdicos colonizaban una isla desolada dándole un nombre deliberadamente engañoso."
+    },
+    "reflection": {
+      "en": "Erik the Red turned exile — a punishment meant to exclude him — into the founding of a new civilization. When have you transformed a rejection, setback, or enforced change of direction into something you wouldn't have found otherwise?",
+      "es": "Erik el Rojo convirtió el destierro —un castigo destinado a excluirlo— en la fundación de una nueva civilización. ¿Cuándo transformaste un rechazo, un revés o un cambio de dirección forzado en algo que no habrías encontrado de otro modo?"
+    }
+  },
+  {
+    "id": "vk-004",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What key design feature of Viking longships made them effective for both ocean crossings and river raids deep inland?",
+      "es": "¿Qué característica de diseño clave de los drakkars vikingos los hacía eficaces tanto para cruzar océanos como para incursionar por ríos en el interior?"
+    },
+    "options": [
+      {
+        "en": "Their extremely shallow draft allowed them to navigate both open oceans and rivers less than a meter deep",
+        "es": "Su calado extremadamente poco profundo les permitía navegar tanto en océanos abiertos como en ríos de menos de un metro de profundidad"
+      },
+      {
+        "en": "Their reinforced iron bow was designed to ram and sink enemy vessels in open water",
+        "es": "Su proa reforzada de hierro estaba diseñada para embestir y hundir barcos enemigos en aguas abiertas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Viking longship (drakkar) was engineered with a remarkably shallow hull — often less than a meter deep — enabling the same vessel to cross the North Atlantic and sail up shallow rivers far inland. This allowed Vikings to raid Paris (845 CE), reach Constantinople and Baghdad's trade routes, and establish settlements from Newfoundland to the Caspian Sea. The longship was arguably the most flexible military vehicle of the medieval world.",
+      "es": "El drakkar vikingo fue diseñado con un casco notablemente poco profundo —a menudo menos de un metro—, lo que le permitía cruzar el Atlántico Norte y navegar por ríos poco profundos muy adentro del continente. Esto permitió a los vikingos saquear París (845 d.C.), llegar a las rutas comerciales de Constantinopla y Bagdad, y establecer asentamientos desde Terranova hasta el Mar Caspio. El drakkar fue posiblemente el vehículo militar más versátil del mundo medieval."
+    },
+    "meanwhile": {
+      "en": "Around 800–900 CE, Arab dhow traders were conducting the most sophisticated long-distance maritime trade network on Earth, connecting East Africa, Arabia, India, and Southeast Asia with monsoon-driven seasonal routes. Two entirely different approaches to mastering the sea: Norse brute-force exploration versus Arab seasonal precision trade.",
+      "es": "Entre los años 800 y 900 d.C., los comerciantes árabes de dhow realizaban la red comercial marítima de larga distancia más sofisticada del mundo, conectando África Oriental, Arabia, India y el Sudeste Asiático mediante rutas estacionales guiadas por el monzón. Dos enfoques completamente distintos para dominar el mar: la exploración a fuerza bruta de los nórdicos frente al comercio árabe de precisión estacional."
+    },
+    "reflection": {
+      "en": "The longship's shallow draft was its superpower — it could go where other ships couldn't. Think of a quality in yourself that might seem like a limitation but actually gives you access to places or situations others can't reach. What's your version of a shallow draft?",
+      "es": "El calado poco profundo del drakkar era su superpoder: podía ir donde otros barcos no podían. Piensa en una cualidad tuya que pueda parecer una limitación pero que en realidad te da acceso a lugares o situaciones a los que otros no pueden llegar. ¿Cuál es tu versión del calado poco profundo?"
+    }
+  },
+  {
+    "id": "vk-005",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "The Norse 'Thing' (þing) was a form of assembly that served what function in Viking society?",
+      "es": "El 'Thing' (þing) nórdico era una forma de asamblea que cumplía qué función en la sociedad vikinga?"
+    },
+    "options": [
+      {
+        "en": "A democratic assembly of free men who voted on laws, settled disputes, and chose leaders",
+        "es": "Una asamblea democrática de hombres libres que votaban leyes, resolvían disputas y elegían líderes"
+      },
+      {
+        "en": "A religious ritual where chieftains made offerings to the gods before raiding expeditions",
+        "es": "Un ritual religioso donde los jefes hacían ofrendas a los dioses antes de las expediciones de saqueo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Thing was an open-air assembly of free men — possibly the oldest form of parliamentary democracy in Europe — where laws were debated and voted on, disputes settled, and leaders chosen. Iceland's Althing (established 930 CE) is considered the world's oldest continuously operating parliament. Norse women, slaves, and the landless were excluded — but free men had genuine political voice at a time when most of the world was governed by hereditary monarchy.",
+      "es": "El Thing era una asamblea al aire libre de hombres libres —posiblemente la forma más antigua de democracia parlamentaria en Europa— donde se debatían y votaban leyes, se resolvían disputas y se elegían líderes. El Althing de Islandia (establecido en 930 d.C.) es considerado el parlamento en funcionamiento continuo más antiguo del mundo. Las mujeres, los esclavos y los sin tierra estaban excluidos, pero los hombres libres tenían voz política genuina cuando la mayor parte del mundo era gobernada por monarquías hereditarias."
+    },
+    "meanwhile": {
+      "en": "In 930 CE, in West Africa, the Ghana Empire was at its height — governing through a sophisticated system of tributary kingdoms and long-distance gold-salt trade routes across the Sahara. On the same day Icelandic farmers gathered on a volcanic plain to vote on laws, African traders were conducting complex negotiations that moved wealth across an entire continent.",
+      "es": "En 930 d.C., en África Occidental, el Imperio de Ghana estaba en su apogeo, gobernando mediante un sofisticado sistema de reinos tributarios y rutas comerciales de oro y sal a larga distancia a través del Sahara. El mismo día en que los agricultores islandeses se reunían en una llanura volcánica para votar leyes, los comerciantes africanos realizaban complejas negociaciones que movían riqueza a través de un continente entero."
+    },
+    "reflection": {
+      "en": "A group of Norse farmers invented participatory democracy on a volcanic island in the North Atlantic. What conditions — geography, necessity, shared values — made that possible? And what conditions in your own community might enable something remarkable that doesn't yet exist?",
+      "es": "Un grupo de agricultores nórdicos inventó la democracia participativa en una isla volcánica en el Atlántico Norte. ¿Qué condiciones —geografía, necesidad, valores compartidos— lo hicieron posible? ¿Y qué condiciones en tu propia comunidad podrían permitir algo notable que todavía no existe?"
+    }
+  },
+  {
+    "id": "vk-006",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "Norse chieftain Rurik is traditionally credited with founding what major medieval state around 862 CE?",
+      "es": "El jefe nórdico Rurik es considerado tradicionalmente el fundador de qué gran estado medieval hacia el 862 d.C.?"
+    },
+    "options": [
+      {
+        "en": "Kievan Rus, the predecessor state of modern Russia, Ukraine, and Belarus",
+        "es": "La Rus de Kiev, el estado predecesor de la Rusia, Ucrania y Bielorrusia modernas"
+      },
+      {
+        "en": "The Kingdom of Poland, established under Norse influence in eastern Europe",
+        "es": "El Reino de Polonia, establecido bajo influencia nórdica en Europa del Este"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "According to the Russian Primary Chronicle, Rurik was invited — or conquered his way — to rule Novgorod around 862 CE. His descendants, the Rurikid dynasty, expanded southward to Kiev and built Kievan Rus, the first East Slavic state. The Rurikid dynasty ruled for 736 years — the longest dynastic rule in Russian history — and is the common dynastic origin of the modern states of Russia, Ukraine, and Belarus.",
+      "es": "Según la Crónica Primaria Rusa, Rurik fue invitado —o se impuso por conquista— para gobernar Nóvgorod hacia el 862 d.C. Sus descendientes, la dinastía Rúrikida, se expandieron hacia el sur hasta Kiev y construyeron la Rus de Kiev, el primer estado eslavo oriental. La dinastía Rúrikida gobernó durante 736 años —el reinado dinástico más largo de la historia rusa— y es el origen dinástico común de los estados modernos de Rusia, Ucrania y Bielorrusia."
+    },
+    "meanwhile": {
+      "en": "Around 862 CE, in Japan, the Fujiwara clan was consolidating control over the imperial court in Heian-kyō (Kyoto), establishing a cultural golden age that would eventually produce Lady Murasaki's 'The Tale of Genji' — considered the world's first novel. A Norse warrior was founding a dynasty in the East Slavic forests as Japan's aristocracy was beginning the cultural flourishing that would birth world literature.",
+      "es": "Hacia el 862 d.C., en Japón, el clan Fujiwara consolidaba su control sobre la corte imperial en Heian-kyō (Kioto), iniciando una edad de oro cultural que eventualmente produciría 'La historia de Genji' de la señora Murasaki, considerada la primera novela del mundo. Un guerrero nórdico fundaba una dinastía en los bosques eslavos orientales mientras la aristocracia japonesa comenzaba el florecimiento cultural que daría origen a la literatura universal."
+    },
+    "reflection": {
+      "en": "Rurik's descendants ruled Russia for 736 years from a founding that historians still debate was either an invitation or a conquest. How much does the story of how something began shape how we understand what it becomes? What origin story shapes how you see yourself?",
+      "es": "Los descendientes de Rurik gobernaron Rusia durante 736 años a partir de una fundación que los historiadores aún debaten si fue una invitación o una conquista. ¿Cuánto moldea la historia de cómo comenzó algo nuestra comprensión de lo que se convierte? ¿Qué historia de origen moldea la manera en que te ves a ti mismo?"
+    }
+  },
+  {
+    "id": "vk-007",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "In Norse mythology, what was Valhalla?",
+      "es": "En la mitología nórdica, ¿qué era el Valhalla?"
+    },
+    "options": [
+      {
+        "en": "The great hall where warriors slain in battle feasted with Odin and prepared for the final battle at the end of time",
+        "es": "El gran salón donde los guerreros caídos en batalla festejaban con Odín y se preparaban para la batalla final al fin de los tiempos"
+      },
+      {
+        "en": "The realm of the dead where all souls went regardless of how they died",
+        "es": "El reino de los muertos adonde iban todas las almas sin importar cómo habían muerto"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Valhalla ('Hall of the Slain') was a majestic hall in Asgard ruled by Odin, where warriors who died heroically in battle were brought by the Valkyries. There they feasted, fought, and prepared to stand alongside Odin at Ragnarok — the final battle at the end of time. This belief gave Norse warriors theological motivation to seek death in battle rather than avoid it, fundamentally shaping their approach to warfare and raiding.",
+      "es": "El Valhalla ('Salón de los Caídos') era un majestuoso salón en Asgard gobernado por Odín, adonde las Valquirias llevaban a los guerreros que morían heroicamente en batalla. Allí festejaban, combatían y se preparaban para luchar junto a Odín en el Ragnarök, la batalla final al fin de los tiempos. Esta creencia daba a los guerreros nórdicos motivación teológica para buscar la muerte en batalla en lugar de evitarla, moldeando fundamentalmente su enfoque de la guerra y el saqueo."
+    },
+    "meanwhile": {
+      "en": "Around 800 CE, in Tibet, Padmasambhava was spreading Tantric Buddhism across the Himalayan world — with its own detailed cosmology of afterlife realms and liberation through meditation. Two radically different answers to death: one celebrating violent valor as the path to paradise, one seeking release from all violence through inner stillness.",
+      "es": "Hacia el 800 d.C., en el Tíbet, Padmasambhava difundía el budismo tántrico por el mundo himalayo, con su propia cosmología detallada de reinos del más allá y liberación a través de la meditación. Dos respuestas radicalmente distintas a la muerte: una que celebra el valor violento como camino al paraíso, otra que busca la liberación de toda violencia a través de la quietud interior."
+    },
+    "reflection": {
+      "en": "Valhalla was designed so that death in battle became desirable — it turned the thing warriors most feared into the thing they most hoped for. What story do you tell yourself about an inevitable difficulty in your life that shapes whether you approach it with dread or purpose?",
+      "es": "El Valhalla fue diseñado para que la muerte en batalla fuera deseable: convirtió lo que los guerreros más temían en lo que más esperaban. ¿Qué historia te cuentas sobre una dificultad inevitable en tu vida que moldea si la enfrentas con temor o con propósito?"
+    }
+  },
+  {
+    "id": "vk-008",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Norse chieftain Rollo was given the territory of Normandy by the French king in 911 CE in exchange for what?",
+      "es": "El jefe nórdico Rollón recibió el territorio de Normandía del rey francés en 911 d.C. a cambio de qué?"
+    },
+    "options": [
+      {
+        "en": "Converting to Christianity and defending the French coast against other Viking raids",
+        "es": "Convertirse al cristianismo y defender la costa francesa de otros ataques vikingos"
+      },
+      {
+        "en": "Agreeing never to raid England or the English Channel again",
+        "es": "Comprometerse a no atacar nunca más Inglaterra ni el Canal de la Mancha"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After repeated Viking raids and sieges of Paris, King Charles the Simple negotiated a remarkable deal: Rollo received Normandy ('Land of the Northmen') in exchange for converting to Christianity, swearing fealty, and defending the coast against other Vikings. Within two generations, Rollo's descendants had become thoroughly French in language and culture — and his great-great-great-grandson, William the Conqueror, invaded England in 1066, permanently reshaping English history.",
+      "es": "Tras repetidas incursiones vikingas y asedios de París, el rey Carlos el Simple negoció un acuerdo notable: Rollón recibió Normandía ('Tierra de los Hombres del Norte') a cambio de convertirse al cristianismo, jurar lealtad y defender la costa de otros vikingos. En dos generaciones, los descendientes de Rollón se habían vuelto completamente franceses en lengua y cultura, y su tataratataranieto, Guillermo el Conquistador, invadió Inglaterra en 1066, transformando permanentemente la historia inglesa."
+    },
+    "meanwhile": {
+      "en": "In 911 CE, the Tang Dynasty of China — which had governed one of the most sophisticated civilizations on Earth for nearly 300 years — collapsed in catastrophic civil war, fragmenting China into the 'Five Dynasties and Ten Kingdoms' period of chaos. An empire of 80 million people falling apart on the same day a Norse chieftain was baptized in a small French river.",
+      "es": "En 911 d.C., la dinastía Tang de China —que había gobernado una de las civilizaciones más sofisticadas de la Tierra durante casi 300 años— colapsó en una catastrófica guerra civil, fragmentando China en el período de caos de 'Las Cinco Dinastías y los Diez Reinos'. Un imperio de 80 millones de personas desmoronándose el mismo día en que un jefe nórdico era bautizado en un pequeño río francés."
+    },
+    "reflection": {
+      "en": "Rollo's descendants became so thoroughly French within two generations that they invaded England speaking French. Identity can transform completely within a lifetime or two. What inherited identities do you carry — cultural, religious, familial — that were once foreign acquisitions that became simply 'who you are'?",
+      "es": "Los descendientes de Rollón se volvieron tan completamente franceses en dos generaciones que invadieron Inglaterra hablando francés. La identidad puede transformarse por completo en una o dos generaciones. ¿Qué identidades heredadas llevas —culturales, religiosas, familiares— que alguna vez fueron adquisiciones foráneas y que simplemente se convirtieron en 'quién eres'?"
+    }
+  },
+  {
+    "id": "vk-009",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "The Varangian Guard was an elite unit that served as the Byzantine Emperor's personal bodyguard. What was unusual about them?",
+      "es": "La Guardia Varega era una unidad de élite que servía como guardia personal del Emperador bizantino. ¿Qué tenía de inusual?"
+    },
+    "options": [
+      {
+        "en": "They were Norse and later Anglo-Saxon mercenaries, valued precisely because their foreign origins meant they had no local political loyalties",
+        "es": "Eran mercenarios nórdicos y más tarde anglosajones, valorados precisamente porque su origen extranjero significaba que no tenían lealtades políticas locales"
+      },
+      {
+        "en": "They were all former prisoners of war from different nations, converted to Christianity as a condition of service",
+        "es": "Eran todos prisioneros de guerra de distintas naciones, convertidos al cristianismo como condición de servicio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "From around 988 CE, Norse and later Anglo-Saxon warriors served Byzantine Emperors as the Varangian Guard — elite mercenaries renowned for loyalty born of having no local political ties to divide them. After the Norman Conquest of England in 1066, many Anglo-Saxon nobles who refused Norman rule made the extraordinary journey to Constantinople to join the Guard. Harald Hardrada himself had served as a Varangian before attempting to conquer England.",
+      "es": "Desde aproximadamente el 988 d.C., guerreros nórdicos y más tarde anglosajones sirvieron a los emperadores bizantinos como la Guardia Varega, mercenarios de élite célebres por una lealtad nacida de no tener vínculos políticos locales que los dividieran. Tras la conquista normanda de Inglaterra en 1066, muchos nobles anglosajones que se negaron al dominio normando hicieron el extraordinario viaje a Constantinopla para unirse a la Guardia. El propio Harald Hardrada había servido como varego antes de intentar conquistar Inglaterra."
+    },
+    "meanwhile": {
+      "en": "Around 1000 CE, the Chola Dynasty of South India launched a massive naval expedition across the Bay of Bengal, conquering parts of Southeast Asia and establishing a maritime trading empire. Norse warriors were sailing from Scandinavia to Constantinople while Indian ships were crossing the Indian Ocean — two naval civilizations at their peaks on opposite ends of the known world.",
+      "es": "Hacia el año 1000 d.C., la dinastía Chola del sur de India lanzó una masiva expedición naval a través del Golfo de Bengala, conquistando partes del Sudeste Asiático y estableciendo un imperio comercial marítimo. Los guerreros nórdicos navegaban de Escandinavia a Constantinopla mientras los barcos indios cruzaban el Océano Índico: dos civilizaciones navales en su apogeo en extremos opuestos del mundo conocido."
+    },
+    "reflection": {
+      "en": "The Varangian Guard's value came precisely from having no local ties — their foreignness was their most trustworthy quality. When have you found that being an outsider gave you access, credibility, or freedom that insiders simply didn't have?",
+      "es": "El valor de la Guardia Varega provenía precisamente de no tener vínculos locales: su condición de extranjeros era su cualidad más confiable. ¿Cuándo descubriste que ser un forastero te daba acceso, credibilidad o libertad que los de adentro simplemente no tenían?"
+    }
+  },
+  {
+    "id": "vk-010",
+    "category": "vikings",
+    "category_label": {
+      "en": "Vikings",
+      "es": "Vikingos"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "Harald Hardrada's failed invasion of England at Stamford Bridge in 1066 had what pivotal — and ironic — historic consequence?",
+      "es": "La fallida invasión de Inglaterra por Harald Hardrada en Stamford Bridge en 1066 tuvo qué consecuencia histórica crucial e irónica?"
+    },
+    "options": [
+      {
+        "en": "It forced King Harold to march his army north and back south in rapid succession, exhausting it just before William the Conqueror's invasion — meaning a Norse failure may have caused a Norman success",
+        "es": "Obligó al rey Harold a marchar su ejército hacia el norte y de regreso al sur en rápida sucesión, agotándolo justo antes de la invasión de Guillermo el Conquistador, lo que significa que un fracaso nórdico pudo haber causado un éxito normando"
+      },
+      {
+        "en": "It permanently ended Norse influence in the British Isles by destroying the last major Viking fleet",
+        "es": "Puso fin permanentemente a la influencia nórdica en las Islas Británicas al destruir la última gran flota vikinga"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Harald Hardrada invaded northern England in September 1066 and was defeated and killed at Stamford Bridge by King Harold Godwinson, who had force-marched his army 300 km north in four days. Harold then received news of William's landing in the south, marched his exhausted army 400 km south, and fought the Battle of Hastings 19 days later — possibly too tired to win. The Norse invasion that failed may have determined the Norman invasion that succeeded, permanently changing the English language and identity.",
+      "es": "Harald Hardrada invadió el norte de Inglaterra en septiembre de 1066 y fue derrotado y muerto en Stamford Bridge por el rey Harold Godwinson, quien había marchado forzadamente a su ejército 300 km al norte en cuatro días. Harold recibió entonces la noticia del desembarco de Guillermo en el sur, marchó su ejército agotado 400 km al sur y combatió en la batalla de Hastings 19 días después, posiblemente demasiado cansado para ganar. La invasión nórdica que fracasó pudo haber determinado la invasión normanda que triunfó, cambiando permanentemente el idioma y la identidad inglesa."
+    },
+    "meanwhile": {
+      "en": "In the same weeks as Stamford Bridge and Hastings (September–October 1066), the Song Dynasty's great reformer Wang Anshi was preparing sweeping social and economic reforms aimed at restructuring Chinese society from the ground up. While England's entire identity was being reshaped by conquest, China's most ambitious reformer was attempting something equally transformative through policy rather than war.",
+      "es": "En las mismas semanas de Stamford Bridge y Hastings (septiembre–octubre de 1066), el gran reformador de la dinastía Song Wang Anshi preparaba reformas sociales y económicas que buscaban reestructurar la sociedad china desde sus cimientos. Mientras toda la identidad de Inglaterra era remodelada por la conquista, el reformador más ambicioso de China intentaba algo igualmente transformador mediante la política en lugar de la guerra."
+    },
+    "reflection": {
+      "en": "Harald Hardrada's failed invasion may have caused William's successful one — by exhausting the one army that could have stopped it. Think of a failure in your life that created the conditions for someone else's — or your own — unexpected success. How interconnected are our outcomes, really?",
+      "es": "La invasión fallida de Harald Hardrada pudo haber causado la exitosa de Guillermo, al agotar al único ejército que podría haberla detenido. Piensa en un fracaso en tu vida que creó las condiciones para el éxito inesperado de alguien más, o el tuyo propio. ¿Qué tan interconectados están nuestros resultados, en realidad?"
+    }
+  }
+]

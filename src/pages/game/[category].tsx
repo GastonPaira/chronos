@@ -3,7 +3,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import type { Locale, Question } from '@/types';
-import questionsData from '@/data/questions.json';
+import questionsData from '@/data/questions';
 import { useGame } from '@/hooks/useGame';
 import ScoreDisplay from '@/components/ScoreDisplay';
 import QuestionCard from '@/components/QuestionCard';

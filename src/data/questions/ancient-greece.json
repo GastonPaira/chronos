@@ -1,0 +1,182 @@
+[
+  {
+    "id": "gr-001",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Grecia Antigua"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Who introduced the democratic reforms that are the foundation of Western democracy?",
+      "es": "¿Quién introdujo las reformas democráticas que son la base de la democracia occidental?"
+    },
+    "options": [
+      {
+        "en": "Cleisthenes of Athens",
+        "es": "Clístenes de Atenas"
+      },
+      {
+        "en": "Alexander the Great",
+        "es": "Alejandro Magno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cleisthenes (570–508 BCE) reorganized Athenian government around demes (local communities) and created the Council of 500, giving citizens direct political participation. His reforms in 508–507 BCE are considered the birth of democracy, though it excluded women, slaves, and foreigners — roughly 80% of the population.",
+      "es": "Clístenes (570–508 a.C.) reorganizó el gobierno ateniense en torno a los demos (comunidades locales) y creó el Consejo de los 500, dando participación política directa a los ciudadanos. Sus reformas del 508–507 a.C. se consideran el nacimiento de la democracia, aunque excluía a mujeres, esclavos y extranjeros: cerca del 80% de la población."
+    },
+    "meanwhile": {
+      "en": "In 508 BCE, in Persia, King Darius I was centralizing one of history's largest empires under absolute monarchy — the polar opposite of the democratic experiment beginning just across the Aegean in Athens.",
+      "es": "En 508 a.C., en Persia, el rey Darío I centralizaba uno de los imperios más grandes de la historia bajo una monarquía absoluta: el polo opuesto del experimento democrático que comenzaba justo al otro lado del Egeo, en Atenas."
+    },
+    "reflection": {
+      "en": "Athens invented democracy while excluding 80% of its population. Think about who is excluded from decisions that affect your life today — and whether you'd know it if you were the one left out.",
+      "es": "Atenas inventó la democracia excluyendo al 80% de su población. Piensa en quién queda excluido de las decisiones que afectan tu vida hoy, y si sabrías reconocerlo si fueras tú el excluido."
+    }
+  },
+  {
+    "id": "gr-002",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Grecia Antigua"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which philosopher was sentenced to death by Athens for 'corrupting the youth'?",
+      "es": "¿Qué filósofo fue condenado a muerte por Atenas por 'corromper a la juventud'?"
+    },
+    "options": [
+      {
+        "en": "Socrates",
+        "es": "Sócrates"
+      },
+      {
+        "en": "Aristotle",
+        "es": "Aristóteles"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Socrates (470–399 BCE) was tried by an Athenian jury of 500 citizens and condemned to death by drinking hemlock. His 'crime' was questioning traditional values and encouraging citizens to think critically. He refused to flee, accepting the verdict as part of his commitment to Athenian law.",
+      "es": "Sócrates (470–399 a.C.) fue juzgado por un jurado ateniense de 500 ciudadanos y condenado a muerte mediante cicuta. Su 'crimen' fue cuestionar los valores tradicionales y alentar el pensamiento crítico. Se negó a huir, aceptando el veredicto como parte de su compromiso con la ley ateniense."
+    },
+    "meanwhile": {
+      "en": "Around 399 BCE, in China, the Warring States period was producing an explosion of philosophy — Confucius had recently died, and thinkers like Mozi and Laozi were asking the same urgent questions about justice and good governance that Socrates posed in Athens.",
+      "es": "Hacia el 399 a.C., en China, el período de los Reinos Combatientes producía una explosión filosófica: Confucio había muerto hacía poco, y pensadores como Mozi y Laozi formulaban las mismas preguntas urgentes sobre justicia y buen gobierno que Sócrates planteaba en Atenas."
+    },
+    "reflection": {
+      "en": "Athens — the birthplace of free thought — executed its greatest philosopher for asking uncomfortable questions. What question feels too dangerous or unsettling to ask openly in your own life?",
+      "es": "Atenas —cuna del pensamiento libre— ejecutó a su mayor filósofo por hacer preguntas incómodas. ¿Qué pregunta te parece demasiado peligrosa o perturbadora para hacerla abiertamente en tu propia vida?"
+    }
+  },
+  {
+    "id": "gr-003",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Grecia Antigua"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the primary purpose of the Oracle at Delphi?",
+      "es": "¿Cuál era el propósito principal del Oráculo de Delfos?"
+    },
+    "options": [
+      {
+        "en": "To deliver divine prophecies to those seeking guidance",
+        "es": "Entregar profecías divinas a quienes buscaban guía"
+      },
+      {
+        "en": "To train philosophers and mathematicians",
+        "es": "Formar filósofos y matemáticos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Oracle at Delphi (active c. 800–390 BCE) was the most prestigious religious institution in the ancient Greek world. The Pythia (priestess) would enter a trance state — possibly induced by geological vapors — and deliver cryptic prophecies. Kings and city-states consulted her before wars, colonizations, and major decisions.",
+      "es": "El Oráculo de Delfos (activo c. 800–390 a.C.) era la institución religiosa más prestigiosa del mundo griego antiguo. La Pitia (sacerdotisa) entraba en trance —posiblemente inducido por vapores geológicos— y emitía profecías crípticas. Reyes y ciudades-estado la consultaban antes de guerras, colonizaciones y decisiones importantes."
+    },
+    "meanwhile": {
+      "en": "Around 500 BCE, in India, Siddhartha Gautama — the Buddha — was teaching that the path to wisdom was inward, not through divine prophecy, but through self-examination. A radically different answer to the same ancient question: how do we know what to do?",
+      "es": "Hacia el 500 a.C., en India, Siddhartha Gautama —el Buda— enseñaba que el camino hacia la sabiduría era interior, no a través de profecías divinas, sino mediante el autoexamen. Una respuesta radicalmente diferente a la misma pregunta antigua: ¿cómo sabemos qué hacer?"
+    },
+    "reflection": {
+      "en": "Kings traveled hundreds of miles to ask the Oracle what the future held. When you face a decision too big to make alone, who do you turn to — and how do you know whether to trust them?",
+      "es": "Los reyes viajaban cientos de kilómetros para preguntarle al Oráculo qué deparaba el futuro. Cuando enfrentás una decisión demasiado grande para tomar solo, ¿a quién acudís, y cómo sabés si confiar en esa persona?"
+    }
+  },
+  {
+    "id": "gr-004",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Grecia Antigua"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "The ancient Olympic Games were dedicated to which god?",
+      "es": "Los Juegos Olímpicos antiguos estaban dedicados a qué dios?"
+    },
+    "options": [
+      {
+        "en": "Zeus, king of the gods",
+        "es": "Zeus, rey de los dioses"
+      },
+      {
+        "en": "Ares, god of war",
+        "es": "Ares, dios de la guerra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The ancient Olympic Games began in 776 BCE in Olympia, a sanctuary dedicated to Zeus. Athletes competed in honor of the king of the gods. Crucially, the Games were accompanied by a sacred truce (ekecheiria) — all wars between city-states were suspended for the duration of the festival.",
+      "es": "Los Juegos Olímpicos antiguos comenzaron en 776 a.C. en Olimpia, un santuario dedicado a Zeus. Los atletas competían en honor al rey de los dioses. Los Juegos iban acompañados de una tregua sagrada (ekecheiria): todas las guerras entre ciudades-estado se suspendían durante el festival."
+    },
+    "meanwhile": {
+      "en": "Around 776 BCE, the Assyrian Empire was at its brutal peak — conquering neighboring peoples with organized military terror — while Greeks were instituting a sacred truce to suspend all wars for athletic competition. Two radically different visions of human greatness, at the same moment in time.",
+      "es": "Hacia el 776 a.C., el Imperio Asirio estaba en su brutal apogeo, conquistando pueblos vecinos con terror militar organizado, mientras los griegos instituían una tregua sagrada para suspender todas las guerras en favor de la competencia atlética. Dos visiones radicalmente distintas de la grandeza humana, en el mismo momento."
+    },
+    "reflection": {
+      "en": "Wars paused for the ancient Olympics. Is there anything in your world today that could genuinely bring opposing sides to stop a conflict, even briefly? What would that thing need to be?",
+      "es": "Las guerras se pausaban para los Juegos Olímpicos. ¿Existe algo en tu mundo actual que pudiera genuinamente llevar a bandos opuestos a detener un conflicto, aunque sea por un momento? ¿Qué tendría que ser?"
+    }
+  },
+  {
+    "id": "gr-005",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Grecia Antigua"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which city-state was governed by a system of radical military training for all male citizens?",
+      "es": "¿Qué ciudad-estado se regía por un sistema de entrenamiento militar radical para todos los ciudadanos varones?"
+    },
+    "options": [
+      {
+        "en": "Sparta",
+        "es": "Esparta"
+      },
+      {
+        "en": "Corinth",
+        "es": "Corinto"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Sparta's agoge was a compulsory state education and training program that began at age 7. Boys were removed from their families and subjected to years of intense physical training, hardship, and communal living. The result was arguably the most feared military force in the ancient world — but at enormous social cost.",
+      "es": "La agogé espartana era un programa estatal de educación y entrenamiento obligatorio que comenzaba a los 7 años. Los niños eran separados de sus familias y sometidos a años de intenso entrenamiento físico, privaciones y vida comunitaria. El resultado fue, posiblemente, la fuerza militar más temida del mundo antiguo, aunque a enorme costo social."
+    },
+    "meanwhile": {
+      "en": "Around 500 BCE, in Athens — just 220 kilometers away — Pericles was funding the Parthenon and making his city the cultural capital of the ancient world. Two radically different civilizations, thriving simultaneously, close enough to see each other's fires at night.",
+      "es": "Hacia el 500 a.C., en Atenas —a solo 220 kilómetros— Pericles financiaba el Partenón y convertía su ciudad en la capital cultural del mundo antiguo. Dos civilizaciones radicalmente distintas, floreciendo simultáneamente, lo suficientemente cerca como para ver las fogatas de la otra por la noche."
+    },
+    "reflection": {
+      "en": "Sparta took children from their families at age 7 to build the perfect soldier. Athens invested in art, philosophy, and debate. Which model better describes the society you grew up in — and would you choose it if you could?",
+      "es": "Esparta separaba a los niños de sus familias a los 7 años para construir al soldado perfecto. Atenas invertía en arte, filosofía y debate. ¿Cuál modelo describe mejor la sociedad en la que creciste, y lo elegirías si pudieras?"
+    }
+  }
+]

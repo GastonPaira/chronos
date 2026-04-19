@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ro-001",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Who was Julius Caesar's closest ally who later participated in his assassination?",
+      "es": "¿Quién fue el aliado más cercano de Julio César que luego participó en su asesinato?"
+    },
+    "options": [
+      {
+        "en": "Marcus Brutus",
+        "es": "Marco Bruto"
+      },
+      {
+        "en": "Mark Antony",
+        "es": "Marco Antonio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Marcus Junius Brutus (85–42 BCE) was one of Caesar's most trusted friends and a leading senator. On the Ides of March (March 15, 44 BCE), he joined 22 other senators in stabbing Caesar 23 times. Brutus believed he was saving the Republic from tyranny — but the assassination triggered a civil war that ended the Republic forever.",
+      "es": "Marco Junio Bruto (85–42 a.C.) era uno de los amigos más confiables de César y senador prominente. En los Idus de Marzo (15 de marzo del 44 a.C.), se unió a otros 22 senadores para apuñalar a César 23 veces. Bruto creía salvar la República de la tiranía, pero el asesinato desencadenó la guerra civil que acabó con ella para siempre."
+    },
+    "meanwhile": {
+      "en": "On March 15, 44 BCE, in China, the Han Dynasty under Emperor Wu was governing 60 million people through a powerful imperial bureaucracy — the very kind of centralized system that Caesar's assassins feared Rome was about to become.",
+      "es": "El 15 de marzo del 44 a.C., en China, la dinastía Han bajo el emperador Wu gobernaba a 60 millones de personas a través de una poderosa burocracia imperial: exactamente el tipo de sistema centralizado que los asesinos de César temían que Roma estuviera a punto de convertirse."
+    },
+    "reflection": {
+      "en": "Brutus killed Caesar to save the Republic — and instead destroyed it. Think of a time when a well-intentioned action produced the opposite of what you hoped. What did that experience teach you?",
+      "es": "Bruto mató a César para salvar la República, y en cambio la destruyó. Piensa en un momento en que una acción bien intencionada produjo lo contrario de lo que esperabas. ¿Qué te enseñó esa experiencia?"
+    }
+  },
+  {
+    "id": "ro-002",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which Roman emperor issued the Edict of Milan, legalizing Christianity?",
+      "es": "¿Qué emperador romano emitió el Edicto de Milán, legalizando el cristianismo?"
+    },
+    "options": [
+      {
+        "en": "Constantine I",
+        "es": "Constantino I"
+      },
+      {
+        "en": "Nero",
+        "es": "Nerón"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Emperor Constantine I (reigned 306–337 CE) issued the Edict of Milan in 313 CE, granting religious tolerance throughout the empire and ending the persecution of Christians. Constantine also convened the First Council of Nicaea (325 CE), which defined Christian orthodoxy — decisions that shaped the next 2,000 years of Western history.",
+      "es": "El emperador Constantino I (reinó 306–337 d.C.) emitió el Edicto de Milán en 313 d.C., concediendo tolerancia religiosa en todo el Imperio y poniendo fin a la persecución de los cristianos. Constantino también convocó el Primer Concilio de Nicea (325 d.C.), que definió la ortodoxia cristiana, moldearando los siguientes 2.000 años de historia occidental."
+    },
+    "meanwhile": {
+      "en": "In 313 CE, in India, the Gupta Empire was beginning its golden age — producing extraordinary advances in mathematics, astronomy, and art — while, on the other side of the world, Constantine was reshaping the spiritual foundations of the Western world.",
+      "es": "En 313 d.C., en India, el Imperio Gupta comenzaba su edad de oro, produciendo avances extraordinarios en matemáticas, astronomía y arte, mientras que, al otro lado del mundo, Constantino reformulaba los cimientos espirituales de Occidente."
+    },
+    "reflection": {
+      "en": "One emperor's personal conversion reshaped Western civilization for 2,000 years. Whose faith, beliefs, or worldview has shaped your own life most — even if you never chose to adopt it?",
+      "es": "La conversión personal de un solo emperador reformuló la civilización occidental durante 2.000 años. ¿La fe, las creencias o la visión del mundo de quién ha moldeado más tu propia vida, aunque nunca hayas elegido adoptarla?"
+    }
+  },
+  {
+    "id": "ro-003",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was 'Pax Romana'?",
+      "es": "¿Qué fue la 'Pax Romana'?"
+    },
+    "options": [
+      {
+        "en": "A roughly 200-year period of relative peace across the Roman Empire",
+        "es": "Un período de aproximadamente 200 años de paz relativa en el Imperio Romano"
+      },
+      {
+        "en": "The peace treaty Rome signed with Carthage after the Punic Wars",
+        "es": "El tratado de paz que Roma firmó con Cartago tras las Guerras Púnicas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Pax Romana ('Roman Peace', 27 BCE – 180 CE) was a period of relative stability and minimal military expansion. Under this umbrella, trade flourished, infrastructure expanded (including 400,000 km of roads), and diverse cultures were united under Roman law. However, it also meant Roman domination over conquered peoples who had no say in the matter.",
+      "es": "La Pax Romana ('Paz romana', 27 a.C. – 180 d.C.) fue un período de estabilidad relativa y mínima expansión militar. Bajo ella, el comercio floreció, la infraestructura se expandió (incluyendo 400.000 km de calzadas) y culturas diversas se unificaron bajo la ley romana. Sin embargo, también significó dominación romana sobre pueblos conquistados sin voz en el asunto."
+    },
+    "meanwhile": {
+      "en": "Around 100 CE, in China, the Han Dynasty was experiencing its own 'Pax Sinica' — a parallel era of imperial stability, expanding trade, and cultural prosperity on the other side of the Silk Road, almost entirely unknown to Rome.",
+      "es": "Hacia el 100 d.C., en China, la dinastía Han vivía su propia 'Pax Sinica': una era paralela de estabilidad imperial, comercio en expansión y prosperidad cultural al otro lado de la Ruta de la Seda, casi completamente desconocida para Roma."
+    },
+    "reflection": {
+      "en": "Two hundred years of Roman 'peace' rested on peoples who had no say in it. Think of a stability or comfort in your own life that might depend on someone else's lack of choice. Does that awareness change anything for you?",
+      "es": "Doscientos años de 'paz' romana descansaban sobre pueblos que no tuvieron voz en ello. Piensa en una estabilidad o comodidad en tu propia vida que pueda depender de la falta de elección de otra persona. ¿Ese reconocimiento cambia algo en vos?"
+    }
+  },
+  {
+    "id": "ro-004",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What was the Roman Colosseum primarily built for?",
+      "es": "¿Para qué fue construido principalmente el Coliseo romano?"
+    },
+    "options": [
+      {
+        "en": "Gladiatorial combat and public spectacles",
+        "es": "Combates de gladiadores y espectáculos públicos"
+      },
+      {
+        "en": "Religious ceremonies and imperial worship",
+        "es": "Ceremonias religiosas y culto imperial"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Colosseum (completed 80 CE under Emperor Titus) could hold 50,000–80,000 spectators. It hosted gladiatorial combats, animal hunts (venationes), public executions, and even mock sea battles. Admission was free — Roman emperors used these spectacles as political tools to gain popular favor.",
+      "es": "El Coliseo (completado en el 80 d.C. bajo el emperador Tito) podía albergar entre 50.000 y 80.000 espectadores. Albergaba combates de gladiadores, cacerías de animales (venationes), ejecuciones públicas e incluso batallas navales simuladas. La entrada era gratuita: los emperadores usaban estos espectáculos como herramientas políticas."
+    },
+    "meanwhile": {
+      "en": "Around 80 CE, in Mesoamerica, the Maya were building Tikal — a city of 100,000 people with monumental pyramids, astronomical observatories, and sophisticated writing — entirely unknown to the Romans who filled the Colosseum each week.",
+      "es": "Hacia el 80 d.C., en Mesoamérica, los mayas construían Tikal: una ciudad de 100.000 habitantes con pirámides monumentales, observatorios astronómicos y escritura sofisticada, completamente desconocida para los romanos que llenaban el Coliseo cada semana."
+    },
+    "reflection": {
+      "en": "Roman emperors gave citizens free bread and violent spectacle to keep them satisfied and distracted. Think about what you consume most for entertainment — what does it make you less likely to notice or question?",
+      "es": "Los emperadores romanos daban a los ciudadanos pan gratis y espectáculos violentos para mantenerlos satisfechos y distraídos. Piensa en lo que más consumís como entretenimiento: ¿qué te hace menos propenso a notar o cuestionar?"
+    }
+  },
+  {
+    "id": "ro-005",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What language survived as the official language of European scholarship and the Church for over 1,000 years after Rome's fall?",
+      "es": "¿Qué idioma sobrevivió como lengua oficial de la erudición europea y la Iglesia durante más de 1.000 años tras la caída de Roma?"
+    },
+    "options": [
+      {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      {
+        "en": "Greek",
+        "es": "Griego"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Latin died as a spoken vernacular language by around 700 CE, but survived for over a millennium as the language of the Church, law, science, medicine, and philosophy across Europe. Newton wrote in Latin. The Catholic Church used Latin in its liturgy until 1965. Modern scientific nomenclature still relies on Latin today.",
+      "es": "El latín murió como lengua vernácula hablada hacia el 700 d.C., pero sobrevivió durante más de un milenio como idioma de la Iglesia, el derecho, la ciencia, la medicina y la filosofía en Europa. Newton escribía en latín. La Iglesia católica usó el latín en la liturgia hasta 1965. La nomenclatura científica moderna sigue basándose en el latín."
+    },
+    "meanwhile": {
+      "en": "As Latin faded as a spoken language around 700 CE, Arabic was spreading explosively with Islam across Arabia, Persia, and North Africa — about to become the dominant global language of science, medicine, and philosophy for the next five centuries.",
+      "es": "Mientras el latín se extinguía como lengua hablada hacia el 700 d.C., el árabe se expandía explosivamente con el islam por Arabia, Persia y el norte de África, a punto de convertirse en el idioma global dominante de la ciencia, la medicina y la filosofía durante los siguientes cinco siglos."
+    },
+    "reflection": {
+      "en": "Latin outlived the civilization that created it by more than a thousand years. What idea, tradition, or way of seeing the world in your own life has survived far longer than the context that originally created it?",
+      "es": "El latín sobrevivió a la civilización que lo creó por más de mil años. ¿Qué idea, tradición o forma de ver el mundo en tu propia vida ha sobrevivido mucho más tiempo que el contexto que originalmente la creó?"
+    }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "cr-001",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Pope Urban II launched the First Crusade in 1095 with a speech that promised what to those who fought?",
+      "es": "El Papa Urbano II lanzó la Primera Cruzada en 1095 con un discurso que prometía qué a quienes combatieran?"
+    },
+    "options": [
+      {
+        "en": "Full remission of sins and guaranteed salvation for all who died in the effort",
+        "es": "Plena remisión de los pecados y salvación garantizada para quienes murieran en el empeño"
+      },
+      {
+        "en": "Political control of the Holy Land distributed among the Christian kingdoms of Europe",
+        "es": "Control político de Tierra Santa repartido entre los reinos cristianos de Europa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At the Council of Clermont (1095), Pope Urban II called for a military expedition to reclaim Jerusalem from Muslim control, promising full remission of sins to all who died in the effort — effectively a guaranteed place in heaven. The crowd responded with chants of 'God wills it!' (Deus vult). The speech launched three years of mobilization across Europe and began two centuries of Crusading.",
+      "es": "En el Concilio de Clermont (1095), el Papa Urbano II convocó una expedición militar para recuperar Jerusalén del control musulmán, prometiendo la remisión plena de los pecados a quienes murieran en el empeño, equivalente a un lugar garantizado en el cielo. La multitud respondió con el grito '¡Dios lo quiere!' (Deus vult). El discurso desencadenó tres años de movilización en toda Europa e inició dos siglos de cruzadas."
+    },
+    "meanwhile": {
+      "en": "In 1095 CE, in China, the Northern Song Dynasty was engaged in a sophisticated bureaucratic debate between reformers and conservatives over economic and military policy — governance by argument and precedent — while Europe's Pope was mobilizing peasants and knights to march thousands of kilometers to die for faith.",
+      "es": "En 1095 d.C., en China, la dinastía Song del Norte sostenía un sofisticado debate burocrático entre reformistas y conservadores sobre política económica y militar — gobernanza por argumento y precedente — mientras el Papa de Europa movilizaba campesinos y caballeros para marchar miles de kilómetros a morir por la fe."
+    },
+    "reflection": {
+      "en": "A speech promising eternal salvation mobilized hundreds of thousands of people to abandon their lives and march across a continent. Think of a message — political, religious, or personal — that convinced you to act in a way that cost you significantly. What made that message powerful enough to override caution?",
+      "es": "Un discurso que prometía salvación eterna movilizó a cientos de miles a abandonar sus vidas y marchar por un continente. Piensa en un mensaje —político, religioso o personal— que te convenció de actuar de una manera que te costó mucho. ¿Qué hizo que ese mensaje fuera lo suficientemente poderoso como para imponerse a la cautela?"
+    }
+  },
+  {
+    "id": "cr-002",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which Muslim leader recaptured Jerusalem from the Crusaders in 1187, ending nearly 90 years of Christian rule?",
+      "es": "¿Qué líder musulmán reconquistó Jerusalén de los cruzados en 1187, poniendo fin a casi 90 años de dominio cristiano?"
+    },
+    "options": [
+      {
+        "en": "Saladin (Salah ad-Din)",
+        "es": "Saladino (Salah ad-Din)"
+      },
+      {
+        "en": "Mehmed II",
+        "es": "Mehmed II"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Saladin (1137–1193), Sultan of Egypt and Syria, defeated the Crusader army at the Battle of Hattin in July 1187, then took Jerusalem in October. In sharp contrast to the First Crusade's massacre in 1099, Saladin allowed Christians and Jews to leave safely and prohibited reprisals — a restraint that made him, paradoxically, one of the most admired figures in medieval Europe despite being their adversary.",
+      "es": "Saladino (1137–1193), sultán de Egipto y Siria, derrotó al ejército cruzado en la batalla de los Cuernos de Hattin en julio de 1187 y tomó Jerusalén en octubre. En marcado contraste con la masacre de la Primera Cruzada en 1099, Saladino permitió que los cristianos y judíos se marcharan con seguridad y prohibió las represalias, lo que lo convirtió paradójicamente en una de las figuras más admiradas en la Europa medieval, a pesar de ser su adversario."
+    },
+    "meanwhile": {
+      "en": "In 1187 CE, in Mesoamerica, the Aztec migration legend says their nomadic ancestors were still wandering in search of a divine sign — an eagle perched on a cactus. The city that would become Tenochtitlan, one of the world's largest cities, wouldn't be founded for another 138 years.",
+      "es": "En 1187 d.C., en Mesoamérica, la leyenda de la migración azteca dice que sus antepasados nómadas aún vagaban en busca de una señal divina: un águila posada en un nopal. La ciudad que sería Tenochtitlán, una de las más grandes del mundo, no se fundaría hasta 138 años después."
+    },
+    "reflection": {
+      "en": "Saladin showed mercy to a defeated enemy and became more admired by his enemies than many of their own heroes. When has someone's unexpected restraint or generosity toward you — or toward someone you considered an opponent — changed how you understood them?",
+      "es": "Saladino mostró misericordia hacia un enemigo derrotado y fue más admirado por sus enemigos que muchos de sus propios héroes. ¿Cuándo la inesperada moderación o generosidad de alguien hacia ti —o hacia alguien a quien considerabas adversario— cambió tu manera de comprenderlo?"
+    }
+  },
+  {
+    "id": "cr-003",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "The Knights Templar were founded primarily to serve what function?",
+      "es": "Los Caballeros Templarios fueron fundados principalmente para cumplir qué función?"
+    },
+    "options": [
+      {
+        "en": "To protect Christian pilgrims traveling to Jerusalem",
+        "es": "Proteger a los peregrinos cristianos que viajaban a Jerusalén"
+      },
+      {
+        "en": "To serve as the Pope's personal military bodyguard",
+        "es": "Servir como guardia personal militar del Papa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Knights Templar (founded c. 1119) began as a small group pledging to protect pilgrimage routes to Jerusalem. They grew into a multinational military and financial organization — effectively inventing an early form of banking where travelers could deposit money in Europe and withdraw it in the Holy Land using coded receipts. At their peak they owned property across Europe and answered only to the Pope. Philip IV of France had them arrested and disbanded in 1307 to cancel his debts to them.",
+      "es": "Los Caballeros Templarios (fundados c. 1119) comenzaron como un pequeño grupo comprometido a proteger las rutas de peregrinación a Jerusalén. Crecieron hasta convertirse en una organización militar y financiera multinacional, inventando en la práctica una forma temprana de banca en la que los viajeros podían depositar dinero en Europa y retirarlo en Tierra Santa mediante recibos cifrados. En su apogeo poseían propiedades en toda Europa y respondían únicamente ante el Papa. Felipe IV de Francia los mandó arrestar y disolver en 1307 para cancelar sus deudas con ellos."
+    },
+    "meanwhile": {
+      "en": "Around 1100–1200 CE, Angkor Wat in Cambodia was being constructed — the largest religious monument ever built, by the Khmer Empire at its peak. This Buddhist-Hindu temple of staggering ambition rose while the Templars were building their own network of fortresses and banks across Christendom — two global civilizations at their creative peaks, completely unknown to each other.",
+      "es": "Entre 1100 y 1200 d.C., Angkor Wat en Camboya estaba siendo construido: el monumento religioso más grande jamás erigido, obra del Imperio Jemer en su apogeo. Este templo budista-hindú de ambición asombrosa se levantaba mientras los Templarios construían su propia red de fortalezas y bancos por toda la Cristiandad: dos civilizaciones en sus cimas creativas, completamente desconocidas entre sí."
+    },
+    "reflection": {
+      "en": "The Templars were destroyed not because they failed, but because they became too powerful to ignore and too wealthy for a king who owed them money. Can you think of a time when someone's success made them a target? What does that reveal about the relationship between power and safety?",
+      "es": "Los Templarios fueron destruidos no porque fracasaran, sino porque se volvieron demasiado poderosos para ignorarlos y demasiado ricos para un rey que les debía dinero. ¿Puedes pensar en una ocasión en que el éxito de alguien lo convirtió en un blanco? ¿Qué revela eso sobre la relación entre poder y seguridad?"
+    }
+  },
+  {
+    "id": "cr-004",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Richard I of England earned his nickname 'the Lionheart' primarily through his leadership in which Crusade?",
+      "es": "Ricardo I de Inglaterra ganó su apodo 'Corazón de León' principalmente por su liderazgo en qué Cruzada?"
+    },
+    "options": [
+      {
+        "en": "The Third Crusade (1189–1192)",
+        "es": "La Tercera Cruzada (1189–1192)"
+      },
+      {
+        "en": "The Second Crusade (1147–1149)",
+        "es": "La Segunda Cruzada (1147–1149)"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Richard I led the Third Crusade to recapture Jerusalem after Saladin's conquest. Although he never retook the city, he won crucial victories at Arsuf and Jaffa, and negotiated a treaty with Saladin securing access for Christian pilgrims. Remarkably, Richard spent only about 6 months of his 10-year reign actually in England — seeing his kingdom largely as a revenue source for his wars — yet he became England's most celebrated medieval king.",
+      "es": "Ricardo I lideró la Tercera Cruzada para recuperar Jerusalén tras la conquista de Saladino. Aunque nunca retomó la ciudad, ganó victorias cruciales en Arsuf y Jaffa, y negoció un tratado con Saladino que garantizó el acceso a los peregrinos cristianos. Llamativamente, Ricardo pasó solo unos 6 meses de su reinado de 10 años en Inglaterra, viendo su reino básicamente como una fuente de ingresos para sus guerras, y aun así se convirtió en el rey medieval más celebrado de Inglaterra."
+    },
+    "meanwhile": {
+      "en": "While Richard was on Crusade (1190–1192), Minamoto no Yoritomo was establishing Japan's first shogunate at Kamakura — creating a warrior government that would define Japanese governance for 700 years. Two warrior cultures on opposite ends of Eurasia simultaneously institutionalizing martial rule.",
+      "es": "Mientras Ricardo estaba en Cruzada (1190–1192), Minamoto no Yoritomo establecía el primer shogunato de Japón en Kamakura, creando un gobierno guerrero que definiría la gobernanza japonesa durante 700 años. Dos culturas guerreras en extremos opuestos de Eurasia institucionalizando simultáneamente el gobierno marcial."
+    },
+    "reflection": {
+      "en": "Richard was away from England for most of his reign yet became its most celebrated medieval king. We often judge leaders — and people — more by their story than by their actual presence or impact. Who in your own life carries a reputation that may not match their real contribution?",
+      "es": "Ricardo estuvo ausente de Inglaterra la mayor parte de su reinado y sin embargo se convirtió en el rey medieval más celebrado. A menudo juzgamos a los líderes —y a las personas— más por su historia que por su presencia o impacto real. ¿Quién en tu propia vida tiene una reputación que puede no coincidir con su contribución real?"
+    }
+  },
+  {
+    "id": "cr-005",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "The 'Children's Crusade' of 1212 ended without reaching the Holy Land. What reportedly happened to most participants?",
+      "es": "La 'Cruzada de los Niños' de 1212 terminó sin llegar a Tierra Santa. ¿Qué les ocurrió según los relatos a la mayoría de los participantes?"
+    },
+    "options": [
+      {
+        "en": "The French group was sold into slavery in North Africa; the German group mostly turned back in the Alps with thousands dying of cold and starvation",
+        "es": "El grupo francés fue vendido como esclavo en el norte de África; el grupo alemán regresó en su mayoría desde los Alpes con miles de muertes por frío y hambre"
+      },
+      {
+        "en": "They were stopped by a Papal decree before reaching the Mediterranean coast",
+        "es": "Fueron detenidos por un decreto papal antes de llegar a la costa mediterránea"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1212, two movements emerged — one in France led by a shepherd named Stephen, one in Germany led by Nicholas of Cologne — both claiming divine visions calling children to reclaim Jerusalem. The French group reached Marseilles where merchants promised free passage but reportedly delivered them to slave traders in North Africa. The German group mostly collapsed in the Alps. The events reveal how medieval religious fervor could mobilize even the most vulnerable.",
+      "es": "En 1212 surgieron dos movimientos: uno en Francia liderado por un pastor llamado Esteban, y otro en Alemania liderado por Nicolás de Colonia, ambos afirmando visiones divinas que llamaban a los niños a recuperar Jerusalén. El grupo francés llegó a Marsella, donde unos comerciantes prometieron pasaje gratuito pero supuestamente los entregaron a tratantes de esclavos en el norte de África. El grupo alemán colapsó en gran parte en los Alpes. Los hechos revelan cómo el fervor religioso medieval podía movilizar incluso a los más vulnerables."
+    },
+    "meanwhile": {
+      "en": "In 1212 CE, Genghis Khan was at the height of his campaigns, having united the Mongol tribes and begun the conquest of northern China. While European children marched toward a doomed crusade, the most devastating military force in history was assembling on the steppes — and would, within a generation, reach Poland and Hungary.",
+      "es": "En 1212 d.C., Gengis Kan estaba en el apogeo de sus campañas, habiendo unificado las tribus mongolas y comenzado la conquista del norte de China. Mientras los niños europeos marchaban hacia una cruzada condenada, la fuerza militar más devastadora de la historia se congregaba en las estepas, y en una generación llegaría a Polonia y Hungría."
+    },
+    "reflection": {
+      "en": "Thousands of children abandoned their homes because they believed in a vision that promised divine results. When have you committed fully to something based on belief or inspiration alone — and what happened when reality didn't match the vision?",
+      "es": "Miles de niños abandonaron sus hogares porque creyeron en una visión que prometía resultados divinos. ¿Cuándo te comprometiste plenamente con algo basándote únicamente en la fe o la inspiración, y qué ocurrió cuando la realidad no coincidió con la visión?"
+    }
+  },
+  {
+    "id": "cr-006",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "The medieval Code of Chivalry required knights to combine which three core commitments?",
+      "es": "El Código de Caballería medieval exigía a los caballeros combinar qué tres compromisos fundamentales?"
+    },
+    "options": [
+      {
+        "en": "Military prowess, Christian faith, and protection of the weak",
+        "es": "Destreza militar, fe cristiana y protección de los débiles"
+      },
+      {
+        "en": "Personal honor, absolute loyalty to the king, and accumulation of wealth through conquest",
+        "es": "Honor personal, lealtad absoluta al rey y acumulación de riqueza mediante la conquista"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The chivalric code — formalized in the 12th–13th centuries through texts like Ramon Llull's 'Book of the Order of Chivalry' — demanded that knights be brave warriors, devoted Christians, and protectors of women, the poor, and the weak. In practice frequently violated, the code nevertheless created a cultural ideal that placed service and restraint above brute force — an ideal that shaped Western notions of masculine conduct for centuries.",
+      "es": "El código caballeresco —formalizado en los siglos XII–XIII a través de textos como el 'Libro de la Orden de Caballería' de Ramon Llull— exigía a los caballeros ser guerreros valientes, cristianos devotos y protectores de las mujeres, los pobres y los débiles. Aunque frecuentemente violado en la práctica, el código creó no obstante un ideal cultural que colocaba el servicio y la moderación por encima de la fuerza bruta, un ideal que moldeó las nociones occidentales de conducta masculina durante siglos."
+    },
+    "meanwhile": {
+      "en": "Around 1200 CE, in Japan, the samurai warrior class was developing its own code — bushido — with strikingly similar demands: martial excellence, absolute loyalty, and dignified restraint. Two warrior cultures on opposite ends of Eurasia independently developed almost identical ethical frameworks for governing the use of violence.",
+      "es": "Hacia 1200 d.C., en Japón, la clase guerrera samurái desarrollaba su propio código —el bushido— con exigencias llamativamente similares: excelencia marcial, lealtad absoluta y moderación digna. Dos culturas guerreras en extremos opuestos de Eurasia desarrollaron de forma independiente marcos éticos casi idénticos para gobernar el uso de la violencia."
+    },
+    "reflection": {
+      "en": "Chivalry and bushido both tried to give warriors a moral framework — to make violence serve a purpose beyond itself. Do you have a personal code that shapes how you pursue your ambitions? What would your version of a 'knight's oath' include?",
+      "es": "La caballería y el bushido intentaban dar a los guerreros un marco moral: hacer que la violencia sirviera a un propósito más allá de sí misma. ¿Tienes un código personal que guíe cómo persigues tus ambiciones? ¿Qué incluiría tu versión de un 'juramento caballeresco'?"
+    }
+  },
+  {
+    "id": "cr-007",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "The Fourth Crusade (1202–1204) is infamous for never reaching the Holy Land. What did the Crusaders do instead?",
+      "es": "La Cuarta Cruzada (1202–1204) es infame por no haber llegado a Tierra Santa. ¿Qué hicieron en cambio los cruzados?"
+    },
+    "options": [
+      {
+        "en": "They sacked and looted Constantinople — a Christian city — killing thousands and stealing its greatest treasures",
+        "es": "Saquearon y saquearon Constantinopla —una ciudad cristiana— matando a miles y robando sus mayores tesoros"
+      },
+      {
+        "en": "They turned back after a crushing naval defeat near Cyprus",
+        "es": "Regresaron tras una aplastante derrota naval cerca de Chipre"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Diverted by Venetian financial interests and Byzantine political intrigue, the Fourth Crusade ended with Crusaders sacking Constantinople in April 1204. The Venetians looted its extraordinary art treasures — the famous bronze horses now at St. Mark's Basilica came from Constantinople's Hippodrome. The atrocities committed by Christian armies against a Christian city fatally weakened Byzantium and contributed directly to its vulnerability to the Ottomans 250 years later.",
+      "es": "Desviada por intereses financieros venecianos e intrigas políticas bizantinas, la Cuarta Cruzada terminó con el saqueo de Constantinopla en abril de 1204. Los venecianos robaron sus extraordinarios tesoros artísticos: los famosos caballos de bronce que hoy se encuentran en la Basílica de San Marcos proceden del Hipódromo de Constantinopla. Las atrocidades cometidas por ejércitos cristianos contra una ciudad cristiana debilitaron fatalmente a Bizancio y contribuyeron directamente a su vulnerabilidad ante los otomanos 250 años después."
+    },
+    "meanwhile": {
+      "en": "In 1204 CE, in West Africa, the Ghana Empire had recently collapsed and the Mali Empire was beginning its rise under the Keita dynasty. Within a century, under Mansa Musa, Mali would become the wealthiest kingdom on Earth — while European knights were busy destroying the greatest Christian city in the world.",
+      "es": "En 1204 d.C., en África Occidental, el Imperio de Ghana había colapsado recientemente y el Imperio de Malí comenzaba su ascenso bajo la dinastía Keita. En un siglo, bajo Mansa Musa, Malí se convertiría en el reino más rico de la Tierra, mientras los caballeros europeos se ocupaban de destruir la mayor ciudad cristiana del mundo."
+    },
+    "reflection": {
+      "en": "Men who marched under the banner of Christianity to protect holy cities ended up destroying the greatest Christian city in the world. Think of a time when you caused the very thing you set out to prevent. How did you make sense of that afterward?",
+      "es": "Hombres que marcharon bajo el estandarte del cristianismo para proteger ciudades sagradas terminaron destruyendo la mayor ciudad cristiana del mundo. Piensa en un momento en que provocaste exactamente lo que intentabas prevenir. ¿Cómo lo interpretaste después?"
+    }
+  },
+  {
+    "id": "cr-008",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "The Magna Carta (1215) was revolutionary because it established what principle for the first time in English history?",
+      "es": "La Carta Magna (1215) fue revolucionaria porque estableció qué principio por primera vez en la historia inglesa?"
+    },
+    "options": [
+      {
+        "en": "That even the king was subject to the law and could not arbitrarily imprison free men",
+        "es": "Que incluso el rey estaba sujeto a la ley y no podía encarcelar arbitrariamente a hombres libres"
+      },
+      {
+        "en": "That commoners could elect representatives to a parliament with binding authority",
+        "es": "Que los hombres del pueblo podían elegir representantes a un parlamento con autoridad vinculante"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "King John of England was forced by his barons to sign the Magna Carta ('Great Charter') in June 1215. Its key principle — that the king could not arbitrarily imprison or punish free men without due process of law — was revolutionary. While it originally protected only nobles, its language was later interpreted to protect all citizens. The U.S. Constitution and most modern democratic legal systems trace their lineage directly to this document.",
+      "es": "El rey Juan de Inglaterra fue obligado por sus barones a firmar la Carta Magna ('Gran Carta') en junio de 1215. Su principio clave —que el rey no podía encarcelar ni castigar arbitrariamente a hombres libres sin el debido proceso legal— fue revolucionario. Aunque inicialmente protegía solo a los nobles, su texto fue luego interpretado para proteger a todos los ciudadanos. La Constitución estadounidense y la mayoría de los sistemas legales democráticos modernos trazan su linaje directamente a este documento."
+    },
+    "meanwhile": {
+      "en": "In 1215 CE, Genghis Khan was conquering Zhongdu (modern Beijing) — one of the largest cities on Earth. While English barons forced a king to submit to law in a meadow outside London, the Mongol leader was demonstrating, on the other side of the world, what power without legal constraint looked like.",
+      "es": "En 1215 d.C., Gengis Kan conquistaba Zhongdu (la actual Pekín), una de las ciudades más grandes de la Tierra. Mientras los barones ingleses obligaban a un rey a someterse a la ley en una pradera a las afueras de Londres, el líder mongol demostraba, al otro lado del mundo, cómo era el poder sin restricciones legales."
+    },
+    "reflection": {
+      "en": "The Magna Carta didn't end tyranny — it established the idea that no one is above the law, which has had to be reasserted ever since. What principle in your own life are you committed to defending even when it's inconvenient — especially when it's inconvenient?",
+      "es": "La Carta Magna no acabó con la tiranía: estableció la idea de que nadie está por encima de la ley, algo que ha tenido que reafirmarse continuamente. ¿Qué principio en tu propia vida estás comprometido a defender aunque sea inconveniente, especialmente cuando lo es?"
+    }
+  },
+  {
+    "id": "cr-009",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "The Reconquista was the centuries-long effort by Christian kingdoms to reclaim which territory from Muslim rule?",
+      "es": "La Reconquista fue el esfuerzo de siglos de los reinos cristianos por recuperar qué territorio del dominio musulmán?"
+    },
+    "options": [
+      {
+        "en": "The Iberian Peninsula (modern Spain and Portugal)",
+        "es": "La Península Ibérica (la actual España y Portugal)"
+      },
+      {
+        "en": "Southern Italy and Sicily",
+        "es": "El sur de Italia y Sicilia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Reconquista began when Muslim forces conquered most of the Iberian Peninsula in 711 CE, and ended when the last Muslim kingdom of Granada fell to Ferdinand and Isabella in 1492 — the same year Columbus sailed. The 781-year process produced a uniquely multicultural medieval society: at its height, Muslim-controlled Al-Andalus was Europe's most sophisticated civilization, where Arabic, Jewish, and Christian scholars jointly preserved and advanced ancient Greek knowledge.",
+      "es": "La Reconquista comenzó cuando las fuerzas musulmanas conquistaron la mayor parte de la Península Ibérica en 711 d.C. y terminó cuando el último reino musulmán de Granada cayó ante Fernando e Isabel en 1492, el mismo año que Colón zarpó. El proceso de 781 años produjo una sociedad medieval excepcionalmente multicultural: en su apogeo, Al-Ándalus bajo dominio musulmán era la civilización más sofisticada de Europa, donde eruditos árabes, judíos y cristianos preservaron y avanzaron conjuntamente el conocimiento griego antiguo."
+    },
+    "meanwhile": {
+      "en": "Around 1000 CE, in Zimbabwe, the Kingdom of Great Zimbabwe was building its massive stone enclosures — sophisticated urban construction in sub-Saharan Africa. At the same moment, Al-Andalus in Spain was the most educated society in Europe, and both went largely unknown to each other.",
+      "es": "Hacia el año 1000 d.C., en Zimbabwe, el Reino del Gran Zimbabwe construía sus imponentes recintos de piedra: construcción urbana sofisticada en el África subsahariana. En ese mismo momento, Al-Ándalus en España era la sociedad más educada de Europa, y ambas se ignoraban mutuamente."
+    },
+    "reflection": {
+      "en": "Al-Andalus — a Muslim-ruled civilization in Europe — preserved and advanced knowledge that Christian Europe had lost, contributing directly to the Renaissance. What do you owe, intellectually or culturally, to a tradition or people you might be conditioned to see as 'other'?",
+      "es": "Al-Ándalus —una civilización gobernada por musulmanes en Europa— preservó y avanzó el conocimiento que la Europa cristiana había perdido, contribuyendo directamente al Renacimiento. ¿Qué le debes, intelectual o culturalmente, a una tradición o a un pueblo que podrías estar condicionado a ver como 'el otro'?"
+    }
+  },
+  {
+    "id": "cr-010",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "The fall of Acre in 1291 marked what turning point in the history of the Crusades?",
+      "es": "La caída de Acre en 1291 marcó qué punto de inflexión en la historia de las Cruzadas?"
+    },
+    "options": [
+      {
+        "en": "The end of the Crusader States — the last Christian military foothold in the Holy Land",
+        "es": "El fin de los Estados Cruzados: el último punto de apoyo militar cristiano en Tierra Santa"
+      },
+      {
+        "en": "The final military defeat of the Knights Templar in open battle",
+        "es": "La derrota militar definitiva de los Caballeros Templarios en batalla abierta"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Acre was the last major Crusader stronghold. When it fell to Mamluk forces on May 18, 1291, after a brutal siege, the remaining Crusader population was massacred or enslaved. The fall ended nearly 200 years of Crusader presence in the Levant. Military orders retreated to Cyprus and Malta, and no serious effort to retake the Holy Land was ever mounted again.",
+      "es": "Acre era el último gran bastión cruzado. Cuando cayó ante las fuerzas mamelucas el 18 de mayo de 1291 tras un brutal asedio, la población cruzada restante fue masacrada o esclavizada. La caída puso fin a casi 200 años de presencia cruzada en el Levante. Las órdenes militares se retiraron a Chipre y Malta, y nunca más se emprendió un esfuerzo serio por retomar Tierra Santa."
+    },
+    "meanwhile": {
+      "en": "In 1291 CE, Marco Polo was returning to Venice after his 24-year journey to China and the court of Kublai Khan. At the exact moment the Crusades ended in military failure, Europeans were receiving their first detailed glimpse of how vast, wealthy, and sophisticated the world beyond their horizon truly was.",
+      "es": "En 1291 d.C., Marco Polo regresaba a Venecia tras su viaje de 24 años a China y la corte de Kublai Kan. En el preciso momento en que las Cruzadas terminaban en fracaso militar, los europeos recibían su primera visión detallada de cuán vasto, rico y sofisticado era el mundo más allá de su horizonte."
+    },
+    "reflection": {
+      "en": "The Crusaders spent 200 years trying to control a place through force and ultimately failed. Meanwhile, a single traveler's journey opened more doors than all the armies combined. What have you discovered through curiosity and openness that pressure or force never could have gotten you?",
+      "es": "Los cruzados pasaron 200 años intentando controlar un lugar mediante la fuerza y finalmente fracasaron. Mientras tanto, el viaje de un solo explorador abrió más puertas que todos los ejércitos juntos. ¿Qué has descubierto mediante la curiosidad y la apertura que la presión o la fuerza nunca te habrían dado?"
+    }
+  }
+]

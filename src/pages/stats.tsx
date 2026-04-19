@@ -4,7 +4,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import type { Locale, Question } from '@/types';
-import questionsData from '@/data/questions.json';
+import questionsData from '@/data/questions';
 import ChronosLogo from '@/components/ChronosLogo';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakBadge from '@/components/StreakBadge';

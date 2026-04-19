@@ -4,7 +4,7 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { useMemo, useState } from 'react';
 import type { Locale, Question } from '@/types';
-import questionsData from '@/data/questions.json';
+import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakBadge from '@/components/StreakBadge';

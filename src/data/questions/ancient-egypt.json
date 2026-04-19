@@ -1,0 +1,362 @@
+[
+  {
+    "id": "eg-001",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which pharaoh ordered the construction of the Great Pyramid of Giza?",
+      "es": "¿Qué faraón ordenó la construcción de la Gran Pirámide de Giza?"
+    },
+    "options": [
+      {
+        "en": "Pharaoh Khufu (Cheops)",
+        "es": "Faraón Keops (Khufu)"
+      },
+      {
+        "en": "Pharaoh Ramesses II",
+        "es": "Faraón Ramsés II"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Great Pyramid was built around 2560 BCE under Pharaoh Khufu of the Fourth Dynasty. It stood as the tallest man-made structure on Earth for over 3,800 years. An estimated 20,000 workers labored for approximately 20 years to complete it using limestone blocks averaging 2.5 tonnes each.",
+      "es": "La Gran Pirámide fue construida alrededor del 2560 a.C. bajo el faraón Keops de la Cuarta Dinastía. Fue la estructura más alta construida por el ser humano durante más de 3.800 años. Unos 20.000 trabajadores laboraron durante aproximadamente 20 años usando bloques de caliza de 2,5 toneladas en promedio."
+    },
+    "meanwhile": {
+      "en": "In Mesopotamia, around 2560 BCE, Sargon of Akkad was forging the world's first multi-ethnic empire — coordinating armies, scribes, and governors across a vast territory using clay tablets instead of stone blocks.",
+      "es": "En Mesopotamia, hacia el 2560 a.C., Sargón de Acad estaba forjando el primer imperio multiétnico del mundo: coordinando ejércitos, escribas y gobernadores a lo largo de un vasto territorio, usando tablillas de arcilla en lugar de bloques de piedra."
+    },
+    "reflection": {
+      "en": "Twenty thousand people built the tallest structure on Earth without computers or machinery — driven only by collective purpose. What would you be capable of if you committed everything to a single goal?",
+      "es": "Veinte mil personas construyeron la estructura más alta de la Tierra sin computadoras ni maquinaria, guiados solo por un propósito colectivo. ¿De qué serías capaz si lo apostaras todo a un único objetivo?"
+    }
+  },
+  {
+    "id": "eg-002",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the primary purpose of mummification in ancient Egypt?",
+      "es": "¿Cuál era el propósito principal de la momificación en el Antiguo Egipto?"
+    },
+    "options": [
+      {
+        "en": "To preserve the body for the afterlife",
+        "es": "Preservar el cuerpo para la vida después de la muerte"
+      },
+      {
+        "en": "To prevent the spread of disease",
+        "es": "Prevenir la propagación de enfermedades"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Ancient Egyptians believed the soul (ka) needed to return to the body after death. Mummification — a 70-day process involving removal of organs, desiccation with natron salt, and wrapping in linen — preserved the body so the soul could reside in it for eternity.",
+      "es": "Los egipcios creían que el alma (ka) necesitaba regresar al cuerpo tras la muerte. La momificación —un proceso de 70 días que incluía extracción de órganos, desecación con sal de natrón y envoltura en lino— preservaba el cuerpo para que el alma pudiera habitarlo eternamente."
+    },
+    "meanwhile": {
+      "en": "Around 1300 BCE, on the other side of the world, China's Shang Dynasty was inscribing questions for the dead on oracle bones and burning them to receive divine answers — another civilization building elaborate rituals to communicate with the afterlife.",
+      "es": "Alrededor del 1300 a.C., al otro lado del mundo, la dinastía Shang de China inscribía preguntas para los muertos en huesos oraculares y los quemaba para recibir respuestas divinas: otra civilización construyendo rituales elaborados para comunicarse con el más allá."
+    },
+    "reflection": {
+      "en": "Egyptians spent 70 days preparing a body for eternity. We almost never think about death. Does confronting your own mortality change the way you want to spend your time?",
+      "es": "Los egipcios dedicaban 70 días a preparar un cuerpo para la eternidad. Casi nunca pensamos en la muerte. ¿Enfrentar tu propia mortalidad cambia la manera en que quieres usar tu tiempo?"
+    }
+  },
+  {
+    "id": "eg-003",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which famous female pharaoh ruled Egypt and led it to great prosperity?",
+      "es": "¿Qué famosa faraona gobernó Egipto y lo llevó a una gran prosperidad?"
+    },
+    "options": [
+      {
+        "en": "Hatshepsut",
+        "es": "Hatshepsut"
+      },
+      {
+        "en": "Nefertiti",
+        "es": "Nefertiti"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Hatshepsut (1507–1458 BCE) was one of Egypt's most successful pharaohs, reigning for about 22 years. She expanded trade networks, commissioned monumental building projects, and presented herself in male pharaonic regalia. After her death, her successor tried to erase her from history.",
+      "es": "Hatshepsut (1507–1458 a.C.) fue una de las faraonos más exitosas de Egipto. Gobernó unos 22 años, expandió redes comerciales, encargó monumentales obras y se presentó con atributos masculinos del faraón. Tras su muerte, su sucesor intentó borrarla de la historia."
+    },
+    "meanwhile": {
+      "en": "Around 1470 BCE, in Greece, the Minoan civilization on Crete was approaching its mysterious collapse — a powerful culture that also featured prominent female figures in its religion and art, about to vanish from history as Hatshepsut reached her peak.",
+      "es": "Hacia el 1470 a.C., en Grecia, la civilización minoica de Creta se acercaba a su misterioso colapso: una cultura poderosa que también tenía figuras femeninas prominentes en su religión y arte, a punto de desaparecer de la historia mientras Hatshepsut alcanzaba su apogeo."
+    },
+    "reflection": {
+      "en": "Hatshepsut ruled successfully for 22 years and was then erased from history. Whose achievements go unrecognized in your world today — and what would change if their story were finally told?",
+      "es": "Hatshepsut gobernó con éxito durante 22 años y luego fue borrada de la historia. ¿Qué logros pasan desapercibidos en tu mundo hoy, y qué cambiaría si esa historia finalmente se contara?"
+    }
+  },
+  {
+    "id": "eg-004",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the Rosetta Stone crucial for unlocking?",
+      "es": "¿Para qué fue crucial la Piedra de Rosetta?"
+    },
+    "options": [
+      {
+        "en": "Deciphering ancient Egyptian hieroglyphics",
+        "es": "Descifrar los jeroglíficos egipcios antiguos"
+      },
+      {
+        "en": "Mapping the course of the Nile River",
+        "es": "Trazar el curso del río Nilo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Discovered in 1799 by French soldiers, the Rosetta Stone contains the same priestly decree written in hieroglyphics, Demotic script, and Ancient Greek. By 1822, Jean-François Champollion used it to crack the hieroglyphic code, unlocking 3,000 years of Egyptian written history.",
+      "es": "Descubierta en 1799 por soldados franceses, la Piedra de Rosetta contiene el mismo decreto sacerdotal en jeroglíficos, demótico y griego antiguo. En 1822, Jean-François Champollion la usó para descifrar el código jeroglífico, revelando 3.000 años de historia escrita egipcia."
+    },
+    "meanwhile": {
+      "en": "In 1799, while French soldiers unearthed the Rosetta Stone in Egypt, Napoleon was losing his Egyptian campaign and retreating to Europe — where he would soon seize power in France and redraw the continent's borders for a generation.",
+      "es": "En 1799, mientras soldados franceses desenterraban la Piedra de Rosetta en Egipto, Napoleón perdía su campaña egipcia y retrocedía hacia Europa, donde pronto tomaría el poder en Francia y rediseñaría las fronteras del continente por una generación."
+    },
+    "reflection": {
+      "en": "A single stone found by accident unlocked 3,000 years of human writing. What object or encounter in your own life has unexpectedly opened a door to understanding something much larger?",
+      "es": "Una sola piedra encontrada por accidente desbloqueó 3.000 años de escritura humana. ¿Qué objeto o encuentro en tu propia vida abrió inesperadamente una puerta hacia algo mucho más grande?"
+    }
+  },
+  {
+    "id": "eg-005",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "What was Cleopatra VII's actual native language?",
+      "es": "¿Cuál era el idioma nativo real de Cleopatra VII?"
+    },
+    "options": [
+      {
+        "en": "Greek — she was of Macedonian descent",
+        "es": "Griego, era de descendencia macedónica"
+      },
+      {
+        "en": "Ancient Egyptian",
+        "es": "Egipcio antiguo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cleopatra VII (69–30 BCE) was of Macedonian Greek descent — her family, the Ptolemaic dynasty, had ruled Egypt since 305 BCE but spoke Greek. Remarkably, she was the first of her dynasty to actually learn Egyptian, along with several other languages including Latin.",
+      "es": "Cleopatra VII (69–30 a.C.) era de descendencia griega macedónica. Su familia, la dinastía ptolemaica, gobernó Egipto desde 305 a.C. pero hablaba griego. Notablemente, fue la primera de su dinastía en aprender egipcio, además de otros idiomas como el latín."
+    },
+    "meanwhile": {
+      "en": "Around 50 BCE, in Rome, Julius Caesar and Pompey were tearing the Republic apart in civil war — the same conflict that brought Caesar to Egypt, where he met Cleopatra and altered the fate of two civilizations in a single encounter.",
+      "es": "Hacia el 50 a.C., en Roma, Julio César y Pompeyo desgarraban la República en una guerra civil: el mismo conflicto que llevó a César a Egipto, donde conoció a Cleopatra y alteró el destino de dos civilizaciones en un solo encuentro."
+    },
+    "reflection": {
+      "en": "Cleopatra was the first of her dynasty to speak the language of the people she governed. When has learning someone else's perspective — their language, literally or figuratively — changed how you understood a situation?",
+      "es": "Cleopatra fue la primera de su dinastía en hablar el idioma del pueblo que gobernaba. ¿Cuándo aprender la perspectiva de otra persona —su idioma, literal o figuradamente— cambió tu forma de entender una situación?"
+    }
+  },
+  {
+    "id": "eg-006",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "question": {
+      "en": "Which god was considered the ruler of the Egyptian underworld?",
+      "es": "¿Qué dios era considerado el gobernante del inframundo egipcio?"
+    },
+    "options": [
+      {
+        "en": "Osiris",
+        "es": "Osiris"
+      },
+      {
+        "en": "Ra",
+        "es": "Ra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Osiris was the god of the afterlife, death, and resurrection. His myth — betrayed and killed by his brother Set, then resurrected by his wife Isis — became one of the most influential religious narratives in history, influencing later beliefs about death, judgment, and rebirth across Mediterranean cultures.",
+      "es": "Osiris era el dios del más allá, la muerte y la resurrección. Su mito —traicionado y asesinado por su hermano Set, luego resucitado por su esposa Isis— se convirtió en una de las narrativas religiosas más influyentes de la historia, influyendo en creencias sobre la muerte, el juicio y el renacimiento."
+    },
+    "meanwhile": {
+      "en": "Around 1200 BCE, the Bronze Age world was collapsing in a mysterious catastrophe — civilizations from Greece to Mesopotamia crumbled within decades. Egypt, anchored by its belief in Osiris and the cycle of death and rebirth, was one of the very few to survive.",
+      "es": "Hacia el 1200 a.C., el mundo de la Edad del Bronce se derrumbaba en una misteriosa catástrofe: civilizaciones desde Grecia hasta Mesopotamia colapsaron en pocas décadas. Egipto, anclado en su fe en Osiris y el ciclo de muerte y renacimiento, fue uno de los pocos que sobrevivió."
+    },
+    "reflection": {
+      "en": "Stories of death and resurrection appear across dozens of unconnected cultures throughout history. Which story or belief helps you make sense of loss or endings in your own life?",
+      "es": "Las historias de muerte y resurrección aparecen en decenas de culturas desconectadas a lo largo de la historia. ¿Qué relato o creencia te ayuda a encontrarle sentido a las pérdidas o los finales en tu propia vida?"
+    }
+  },
+  {
+    "id": "eg-007",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "Which river was the absolute lifeline of Egyptian civilization?",
+      "es": "¿Qué río fue el sustento absoluto de la civilización egipcia?"
+    },
+    "options": [
+      {
+        "en": "The Nile",
+        "es": "El Nilo"
+      },
+      {
+        "en": "The Euphrates",
+        "es": "El Éufrates"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Nile — the world's longest river — provided Egypt with annual floods that deposited rich silt on its banks, creating strips of fertile land in an otherwise barren desert. Without the Nile, Egypt could not have sustained agriculture, population, or civilization. The historian Herodotus called Egypt 'the gift of the Nile.'",
+      "es": "El Nilo —el río más largo del mundo— dotó a Egipto de inundaciones anuales que depositaban limo fértil en sus orillas, creando franjas de tierra cultivable en un desierto árido. Sin el Nilo, Egipto no hubiera podido sostener agricultura, población ni civilización. Heródoto lo llamó 'el regalo del Nilo.'"
+    },
+    "meanwhile": {
+      "en": "Around 3000 BCE, in Mesopotamia, Sumerian cities were rising along the Tigris and Euphrates for the same reason — river floods that fertilized the land each year. Two great civilizations born from the identical gift of water, with no knowledge of each other.",
+      "es": "Hacia el 3000 a.C., en Mesopotamia, las ciudades sumerias surgían a orillas del Tigris y el Éufrates por la misma razón: inundaciones fluviales que fertilizaban la tierra cada año. Dos grandes civilizaciones nacidas del mismo regalo del agua, sin conocerse entre sí."
+    },
+    "reflection": {
+      "en": "An entire civilization depended on a single river for everything — food, religion, time itself. What resource, relationship, or habit is your life most dependent on, and have you ever stopped to consider what would happen if it disappeared?",
+      "es": "Una civilización entera dependía de un solo río para todo: alimento, religión, hasta el tiempo mismo. ¿De qué recurso, relación o hábito depende más tu vida, y alguna vez te detuviste a pensar qué pasaría si desapareciera?"
+    }
+  },
+  {
+    "id": "eg-008",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "The Great Sphinx of Giza is believed to represent which pharaoh?",
+      "es": "Se cree que la Gran Esfinge de Giza representa a qué faraón?"
+    },
+    "options": [
+      {
+        "en": "Khafre",
+        "es": "Kefrén"
+      },
+      {
+        "en": "Tutankhamun",
+        "es": "Tutankamón"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Most Egyptologists believe the Great Sphinx was built during Khafre's reign (c. 2558–2532 BCE). Its face is thought to be a portrait of Khafre, and it sits near his pyramid on the Giza plateau. The Sphinx is carved from a single mass of limestone bedrock and is about 4,500 years old.",
+      "es": "La mayoría de los egiptólogos cree que la Gran Esfinge fue construida durante el reinado de Kefrén (c. 2558–2532 a.C.). Se cree que su rostro es un retrato de Kefrén, y se encuentra cerca de su pirámide en la meseta de Giza. Está tallada en un afloramiento de caliza y tiene unos 4.500 años."
+    },
+    "meanwhile": {
+      "en": "Around 2530 BCE, in the Indus Valley (present-day Pakistan), the cities of Harappa and Mohenjo-daro were thriving — with sophisticated sewage systems, standardized weights, and urban planning that wouldn't be matched in Europe for thousands of years.",
+      "es": "Hacia el 2530 a.C., en el Valle del Indo (actual Pakistán), las ciudades de Harappa y Mohenjo-daro prosperaban con sofisticados sistemas de alcantarillado, pesos estandarizados y planificación urbana que Europa no alcanzaría por miles de años."
+    },
+    "reflection": {
+      "en": "The Sphinx has watched civilizations rise and fall for 4,500 years. If one monument of our era were still standing in the year 6500, what would you want it to be — and what would it say about us?",
+      "es": "La Esfinge ha observado el surgimiento y caída de civilizaciones durante 4.500 años. Si un monumento de nuestra era siguiera en pie en el año 6500, ¿cuál querrías que fuera, y qué diría de nosotros?"
+    }
+  },
+  {
+    "id": "eg-009",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "question": {
+      "en": "What writing material did ancient Egyptians develop from a river plant?",
+      "es": "¿Qué material de escritura desarrollaron los egipcios a partir de una planta del río?"
+    },
+    "options": [
+      {
+        "en": "Papyrus",
+        "es": "Papiro"
+      },
+      {
+        "en": "Parchment",
+        "es": "Pergamino"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Papyrus was made by slicing the stems of the papyrus plant (abundant along the Nile), layering the strips crosswise, and pressing them together. It was far lighter and easier to produce than clay tablets, enabling Egypt to create portable libraries of medical, religious, and legal texts.",
+      "es": "El papiro se fabricaba cortando los tallos de la planta de papiro (abundante junto al Nilo), superponiendo las tiras en cruz y prenSándolas. Era mucho más ligero y fácil de producir que las tablillas de arcilla, lo que permitió a Egipto crear bibliotecas portátiles de textos médicos, religiosos y legales."
+    },
+    "meanwhile": {
+      "en": "Around 3000 BCE, the Sumerians of Mesopotamia were simultaneously inventing cuneiform writing on clay tablets — two entirely different solutions to the same human need: preserving thought across time and carrying it beyond the people who had it.",
+      "es": "Hacia el 3000 a.C., los sumerios de Mesopotamia inventaban simultáneamente la escritura cuneiforme en tablillas de arcilla: dos soluciones completamente distintas para la misma necesidad humana, preservar el pensamiento a través del tiempo y llevarlo más allá de quienes lo tuvieron."
+    },
+    "reflection": {
+      "en": "Papyrus let ideas travel beyond the people who had them. Which book, text, or idea has traveled farthest to reach you — and changed the way you see yourself or the world?",
+      "es": "El papiro permitió que las ideas viajaran más allá de quienes las tuvieron. ¿Qué libro, texto o idea viajó más lejos para llegar a vos, y cambió la manera en que te ves a ti mismo o al mundo?"
+    }
+  },
+  {
+    "id": "eg-010",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "question": {
+      "en": "Egyptian pharaohs were considered what in relation to the gods?",
+      "es": "Los faraones egipcios eran considerados ¿qué en relación con los dioses?"
+    },
+    "options": [
+      {
+        "en": "Living gods on Earth",
+        "es": "Dioses vivientes en la Tierra"
+      },
+      {
+        "en": "High priests chosen by the gods",
+        "es": "Sumos sacerdotes elegidos por los dioses"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Egyptian pharaohs were believed to be literal incarnations of the god Horus while living, and became the god Osiris upon death. This divine status gave them absolute political, religious, and judicial authority — they were not merely rulers but gods walking among humans, responsible for maintaining Ma'at (cosmic order).",
+      "es": "Se creía que los faraones egipcios eran encarnaciones literales del dios Horus en vida, y se convertían en el dios Osiris al morir. Este estatus divino les otorgaba autoridad política, religiosa y judicial absoluta: no eran solo gobernantes, sino dioses que caminaban entre humanos, responsables de mantener Ma'at (el orden cósmico)."
+    },
+    "meanwhile": {
+      "en": "Around 600 BCE, in Persia, Cyrus the Great built one of history's largest empires on a radically different philosophy — he declared himself king, not god, and issued what is considered the world's first charter of human rights.",
+      "es": "Hacia el 600 a.C., en Persia, Ciro el Grande construyó uno de los imperios más grandes de la historia sobre una filosofía radicalmente diferente: se declaró rey, no dios, y emitió lo que se considera la primera carta de derechos humanos del mundo."
+    },
+    "reflection": {
+      "en": "Pharaohs fused divine authority with political power, making every decree feel beyond question. Think of a leader today who uses moral or sacred language to legitimize their decisions. Does that language make you more or less likely to question them?",
+      "es": "Los faraones fusionaron autoridad divina con poder político, haciendo que cada decreto pareciera incuestionable. Piensa en un líder actual que use lenguaje moral o sagrado para legitimar sus decisiones. ¿Ese lenguaje te hace más o menos propenso a cuestionarlos?"
+    }
+  }
+]
