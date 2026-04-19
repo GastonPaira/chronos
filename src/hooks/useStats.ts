@@ -1,6 +1,5 @@
-import { useState, useCallback, useEffect } from 'react';
-
-const STORAGE_KEY = 'chronos_stats';
+import { useState, useCallback, useEffect, useRef } from 'react';
+import { supabase, getDeviceId } from '@/lib/supabase';
 
 interface CategoryStats {
   answered: number;
@@ -36,32 +35,37 @@ function makeEmptyStats(): Stats {
   };
 }
 
-function readStorage(): Stats {
-  if (typeof window === 'undefined') return makeEmptyStats();
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return makeEmptyStats();
-    return JSON.parse(raw) as Stats;
-  } catch {
-    return makeEmptyStats();
-  }
-}
-
-function writeStorage(data: Stats): void {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-  } catch {
-    // ignore write errors (e.g. private browsing quota)
-  }
-}
-
 export function useStats() {
   const [mounted, setMounted] = useState(false);
   const [stats, setStats] = useState<Stats | null>(null);
+  const statsRef = useRef<Stats>(makeEmptyStats());
 
   useEffect(() => {
     setMounted(true);
-    setStats(readStorage());
+    const deviceId = getDeviceId();
+    if (!deviceId) { setStats(makeEmptyStats()); return; }
+
+    supabase
+      .from('user_stats')
+      .select('data')
+      .eq('device_id', deviceId)
+      .maybeSingle()
+      .then(({ data }) => {
+        const loaded = (data?.data as Stats | undefined) ?? makeEmptyStats();
+        statsRef.current = loaded;
+        setStats(loaded);
+      });
+  }, []);
+
+  const persist = useCallback((updated: Stats) => {
+    statsRef.current = updated;
+    setStats(updated);
+    const deviceId = getDeviceId();
+    if (!deviceId) return;
+    supabase
+      .from('user_stats')
+      .upsert({ device_id: deviceId, data: updated, updated_at: new Date().toISOString() })
+      .then();
   }, []);
 
   const recordAnswer = useCallback((params: {
@@ -69,11 +73,11 @@ export function useStats() {
     difficulty: 'easy' | 'medium' | 'hard';
     isCorrect: boolean;
   }) => {
-    const current = readStorage();
+    const current = statsRef.current;
     const today = new Date().toISOString().split('T')[0];
     const prev = current.byCategory[params.categoryId] ?? { answered: 0, correct: 0, lastPlayed: today };
 
-    const updated: Stats = {
+    persist({
       ...current,
       global: {
         ...current.global,
@@ -95,15 +99,12 @@ export function useStats() {
           correct: current.byDifficulty[params.difficulty].correct + (params.isCorrect ? 1 : 0),
         },
       },
-    };
-
-    writeStorage(updated);
-    setStats(updated);
-  }, []);
+    });
+  }, [persist]);
 
   const recordSessionEnd = useCallback((params: { score: number; total: number }) => {
-    const current = readStorage();
-    const updated: Stats = {
+    const current = statsRef.current;
+    persist({
       ...current,
       global: {
         ...current.global,
@@ -111,48 +112,40 @@ export function useStats() {
         perfectSessions: current.global.perfectSessions + (params.score === params.total ? 1 : 0),
         bestScore: Math.max(current.global.bestScore, params.score),
       },
-    };
-    writeStorage(updated);
-    setStats(updated);
-  }, []);
+    });
+  }, [persist]);
 
   const resetStats = useCallback(() => {
-    const empty = makeEmptyStats();
-    writeStorage(empty);
-    setStats(empty);
-  }, []);
+    persist(makeEmptyStats());
+  }, [persist]);
 
   const getAccuracy = useCallback((): number => {
-    const s = readStorage();
+    const s = statsRef.current;
     if (!s.global.totalAnswered) return 0;
     return Math.round((s.global.totalCorrect / s.global.totalAnswered) * 100);
   }, []);
 
   const getCategoryAccuracy = useCallback((id: string): number => {
-    const s = readStorage();
-    const cat = s.byCategory[id];
+    const cat = statsRef.current.byCategory[id];
     if (!cat?.answered) return 0;
     return Math.round((cat.correct / cat.answered) * 100);
   }, []);
 
   const getDifficultyAccuracy = useCallback((d: string): number => {
-    const s = readStorage();
-    const diff = s.byDifficulty[d as 'easy' | 'medium' | 'hard'];
+    const diff = statsRef.current.byDifficulty[d as 'easy' | 'medium' | 'hard'];
     if (!diff?.answered) return 0;
     return Math.round((diff.correct / diff.answered) * 100);
   }, []);
 
   const getStrongestCategory = useCallback((): string | null => {
-    const s = readStorage();
-    const sorted = Object.entries(s.byCategory)
+    const sorted = Object.entries(statsRef.current.byCategory)
       .filter(([, v]) => v.answered >= 5)
       .sort((a, b) => (b[1].correct / b[1].answered) - (a[1].correct / a[1].answered));
     return sorted[0]?.[0] ?? null;
   }, []);
 
   const getWeakestCategory = useCallback((): string | null => {
-    const s = readStorage();
-    const sorted = Object.entries(s.byCategory)
+    const sorted = Object.entries(statsRef.current.byCategory)
       .filter(([, v]) => v.answered >= 5)
       .sort((a, b) => (a[1].correct / a[1].answered) - (b[1].correct / b[1].answered));
     return sorted[0]?.[0] ?? null;

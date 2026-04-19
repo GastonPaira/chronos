@@ -1,6 +1,5 @@
-import { useState, useCallback } from 'react';
-
-const STORAGE_KEY = 'chronos_streak';
+import { useState, useCallback, useEffect, useRef } from 'react';
+import { supabase, getDeviceId } from '@/lib/supabase';
 
 interface StreakData {
   lastPlayedDate: string | null;
@@ -25,34 +24,54 @@ function getYesterdayString(): string {
   return d.toISOString().split('T')[0];
 }
 
-function readStorage(): StreakData {
-  if (typeof window === 'undefined') {
-    return { lastPlayedDate: null, currentStreak: 0, longestStreak: 0 };
-  }
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { lastPlayedDate: null, currentStreak: 0, longestStreak: 0 };
-    return JSON.parse(raw) as StreakData;
-  } catch {
-    return { lastPlayedDate: null, currentStreak: 0, longestStreak: 0 };
-  }
-}
-
-function writeStorage(data: StreakData): void {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-  } catch {
-    // ignore write errors (e.g. private browsing quota)
-  }
-}
+const EMPTY: StreakData = { lastPlayedDate: null, currentStreak: 0, longestStreak: 0 };
 
 export function useStreak() {
-  const [streakData, setStreakData] = useState<StreakData>(() => readStorage());
+  const [streakData, setStreakData] = useState<StreakData>(EMPTY);
+  const dataRef = useRef<StreakData>(EMPTY);
+
+  useEffect(() => {
+    const deviceId = getDeviceId();
+    if (!deviceId) return;
+
+    supabase
+      .from('user_streak')
+      .select('last_played_date, current_streak, longest_streak')
+      .eq('device_id', deviceId)
+      .maybeSingle()
+      .then(({ data }) => {
+        if (!data) return;
+        const loaded: StreakData = {
+          lastPlayedDate: data.last_played_date,
+          currentStreak: data.current_streak,
+          longestStreak: data.longest_streak,
+        };
+        dataRef.current = loaded;
+        setStreakData(loaded);
+      });
+  }, []);
+
+  const persist = useCallback((updated: StreakData) => {
+    dataRef.current = updated;
+    setStreakData(updated);
+    const deviceId = getDeviceId();
+    if (!deviceId) return;
+    supabase
+      .from('user_streak')
+      .upsert({
+        device_id: deviceId,
+        last_played_date: updated.lastPlayedDate,
+        current_streak: updated.currentStreak,
+        longest_streak: updated.longestStreak,
+        updated_at: new Date().toISOString(),
+      })
+      .then();
+  }, []);
 
   const registerPlay = useCallback((): PlayResult => {
     const today = getTodayString();
     const yesterday = getYesterdayString();
-    const current = readStorage();
+    const current = dataRef.current;
 
     if (current.lastPlayedDate === today) {
       return { result: 'already_today', isNewRecord: false };
@@ -73,20 +92,17 @@ export function useStreak() {
     }
 
     const isNewRecord = newStreak > 1 && newStreak > current.longestStreak;
-    const updated: StreakData = {
+    persist({
       lastPlayedDate: today,
       currentStreak: newStreak,
       longestStreak: Math.max(current.longestStreak, newStreak),
-    };
-
-    writeStorage(updated);
-    setStreakData(updated);
+    });
 
     return { result, isNewRecord };
-  }, []);
+  }, [persist]);
 
   const getStreakStatus = useCallback((): StreakStatus => {
-    const data = readStorage();
+    const data = dataRef.current;
     if (!data.lastPlayedDate) return 'never_played';
     const today = getTodayString();
     const yesterday = getYesterdayString();
