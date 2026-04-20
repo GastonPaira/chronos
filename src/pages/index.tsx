@@ -6,13 +6,27 @@ import ChronosLogo from '@/components/ChronosLogo';
 import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakDisplay from '@/components/StreakDisplay';
+import { useUnsplashImage } from '@/hooks/useUnsplashImage';
 
 export default function Home() {
   const { t } = useTranslation('common');
   const router = useRouter();
+  const bgImage = useUnsplashImage('ancient roman colosseum sunset epic historical panoramic');
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">
+      {/* Background image */}
+      {bgImage && (
+        <div
+          className="pointer-events-none absolute inset-0 bg-cover bg-center transition-opacity duration-700"
+          style={{ backgroundImage: `url(${bgImage})` }}
+        />
+      )}
+      {/* Dark overlay — keeps text legible over any image */}
+      <div
+        className="pointer-events-none absolute inset-0"
+        style={{ background: 'linear-gradient(to bottom, rgba(9,9,15,0.72) 0%, rgba(9,9,15,0.60) 40%, rgba(9,9,15,0.88) 100%)' }}
+      />
       {/* Subtle radial glow */}
       <div
         className="pointer-events-none absolute inset-0"
@@ -23,7 +37,7 @@ export default function Home() {
       />
 
       {/* Language selector */}
-      <div className="absolute top-6 right-6">
+      <div className="absolute top-6 right-6 z-10">
         <LanguageSelector />
       </div>
 
@@ -67,7 +81,7 @@ export default function Home() {
       </div>
 
       {/* Bottom tagline */}
-      <p className="absolute bottom-6 text-xs text-chronos-border tracking-widest uppercase">
+      <p className="absolute bottom-6 z-10 text-xs text-chronos-border tracking-widest uppercase">
         Historical Trivia · Trivia Histórica
       </p>
     </div>

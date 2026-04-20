@@ -3,11 +3,12 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { useMemo, useState } from 'react';
-import type { Locale, Question } from '@/types';
+import type { Question } from '@/types';
 import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakBadge from '@/components/StreakBadge';
+import { useUnsplashImage } from '@/hooks/useUnsplashImage';
 
 interface EraDef {
   id: string;
@@ -38,6 +39,13 @@ const ERA_DEFS: EraDef[] = [
   },
 ];
 
+const ERA_IMAGE_QUERIES: Record<string, string> = {
+  'ancient-age':   'ancient rome pantheon',
+  'middle-ages':   'medieval castle cathedral gothic europe',
+  'early-modern':  'old antique map caravel ship age of discovery',
+  'modern-era':    'industrial revolution steam engine factory',
+};
+
 function getDominantDifficulty(difficulties: string[]): string {
   if (!difficulties.length) return '';
   const counts: Record<string, number> = {};
@@ -45,10 +53,98 @@ function getDominantDifficulty(difficulties: string[]): string {
   return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'medium';
 }
 
+interface EraData extends EraDef {
+  questionCount: number;
+  dominantDifficulty: string;
+}
+
+interface EraCardProps {
+  era: EraData;
+  onClick: () => void;
+}
+
+function EraCard({ era, onClick }: EraCardProps) {
+  const { t } = useTranslation('common');
+  const imageUrl = useUnsplashImage(ERA_IMAGE_QUERIES[era.id] ?? '');
+  const isEmpty = era.questionCount === 0;
+
+  return (
+    <button
+      onClick={onClick}
+      className="group relative flex flex-col items-start gap-3 rounded-2xl border overflow-hidden text-left transition-all duration-200 w-full active:scale-[0.97] border-chronos-border hover:border-chronos-gold/50 min-h-[200px]"
+    >
+      {/* Background image */}
+      {imageUrl && (
+        <div
+          className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+          style={{ backgroundImage: `url(${imageUrl})` }}
+        />
+      )}
+      {/* Overlay — dark gradient from bottom, light at top */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background: imageUrl
+            ? 'linear-gradient(to top, rgba(9,9,15,0.95) 0%, rgba(9,9,15,0.70) 50%, rgba(9,9,15,0.45) 100%)'
+            : 'var(--color-chronos-card, #111118)',
+        }}
+      />
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-start gap-3 p-5 w-full h-full flex-1">
+        {/* Icon */}
+        <span className="text-3xl drop-shadow">{era.icon}</span>
+
+        {/* Name + years + description */}
+        <div className="flex-1 w-full">
+          <h3 className="font-semibold text-base leading-tight transition-colors text-chronos-text group-hover:text-chronos-gold drop-shadow">
+            {t(`eras.${era.id}.name`)}
+          </h3>
+          <p className="text-xs text-chronos-gold/70 mt-0.5 font-medium drop-shadow">
+            {t(`eras.${era.id}.years`)}
+          </p>
+          <p className="text-xs text-chronos-muted mt-1.5 leading-relaxed">
+            {t(`eras.${era.id}.description`)}
+          </p>
+        </div>
+
+        {/* Footer: question count + badge */}
+        <div className="flex items-center justify-between w-full mt-1">
+          <p className="text-xs text-chronos-muted">
+            {isEmpty ? (
+              <span className="text-chronos-muted/60 italic">
+                {t('eras.noQuestions')}
+              </span>
+            ) : (
+              <>{era.questionCount} {t('eras.questions')}</>
+            )}
+          </p>
+          {!isEmpty && era.dominantDifficulty ? (
+            <span
+              className={`text-xs font-medium uppercase tracking-wide px-2 py-0.5 rounded-full border ${
+                era.dominantDifficulty === 'easy'
+                  ? 'border-emerald-800 text-emerald-400 bg-emerald-950/80'
+                  : era.dominantDifficulty === 'medium'
+                  ? 'border-amber-800 text-amber-400 bg-amber-950/80'
+                  : 'border-red-800 text-red-400 bg-red-950/80'
+              }`}
+            >
+              {t(`categories.difficulty.${era.dominantDifficulty}`)}
+            </span>
+          ) : isEmpty ? (
+            <span className="text-xs font-medium uppercase tracking-wide px-2 py-0.5 rounded-full border border-chronos-border text-chronos-muted/60">
+              {t('eras.soon')}
+            </span>
+          ) : null}
+        </div>
+      </div>
+    </button>
+  );
+}
+
 export default function EraSelection() {
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const router = useRouter();
-  const locale = (i18n.language as Locale) ?? 'en';
   const [showComingSoon, setShowComingSoon] = useState(false);
 
   const eras = useMemo(() => {
@@ -120,62 +216,13 @@ export default function EraSelection() {
       {/* Era grid */}
       <main className="max-w-2xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-slide-up">
-          {eras.map((era) => {
-            const isEmpty = era.questionCount === 0;
-            return (
-              <button
-                key={era.id}
-                onClick={() => handleEraClick(era.id, isEmpty)}
-                className="group flex flex-col items-start gap-3 rounded-2xl border p-5 text-left transition-all duration-200 w-full active:scale-[0.97] border-chronos-border bg-chronos-card hover:border-chronos-gold/40 hover:bg-chronos-surface"
-              >
-                {/* Icon */}
-                <span className="text-3xl">{era.icon}</span>
-
-                {/* Name + years + description */}
-                <div className="flex-1 w-full">
-                  <h3 className="font-semibold text-base leading-tight transition-colors text-chronos-text group-hover:text-chronos-gold">
-                    {t(`eras.${era.id}.name`)}
-                  </h3>
-                  <p className="text-xs text-chronos-gold/60 mt-0.5 font-medium">
-                    {t(`eras.${era.id}.years`)}
-                  </p>
-                  <p className="text-xs text-chronos-muted mt-1.5 leading-relaxed">
-                    {t(`eras.${era.id}.description`)}
-                  </p>
-                </div>
-
-                {/* Footer: question count + badge */}
-                <div className="flex items-center justify-between w-full mt-1">
-                  <p className="text-xs text-chronos-muted">
-                    {isEmpty ? (
-                      <span className="text-chronos-muted/60 italic">
-                        {t('eras.noQuestions')}
-                      </span>
-                    ) : (
-                      <>{era.questionCount} {t('eras.questions')}</>
-                    )}
-                  </p>
-                  {!isEmpty && era.dominantDifficulty ? (
-                    <span
-                      className={`text-xs font-medium uppercase tracking-wide px-2 py-0.5 rounded-full border ${
-                        era.dominantDifficulty === 'easy'
-                          ? 'border-emerald-800 text-emerald-400 bg-emerald-950'
-                          : era.dominantDifficulty === 'medium'
-                          ? 'border-amber-800 text-amber-400 bg-amber-950'
-                          : 'border-red-800 text-red-400 bg-red-950'
-                      }`}
-                    >
-                      {t(`categories.difficulty.${era.dominantDifficulty}`)}
-                    </span>
-                  ) : isEmpty ? (
-                    <span className="text-xs font-medium uppercase tracking-wide px-2 py-0.5 rounded-full border border-chronos-border text-chronos-muted/60">
-                      {t('eras.soon')}
-                    </span>
-                  ) : null}
-                </div>
-              </button>
-            );
-          })}
+          {eras.map((era) => (
+            <EraCard
+              key={era.id}
+              era={era}
+              onClick={() => handleEraClick(era.id, era.questionCount === 0)}
+            />
+          ))}
         </div>
 
         {/* Coming soon notice */}
@@ -186,7 +233,6 @@ export default function EraSelection() {
             </p>
           </div>
         )}
-
       </main>
     </div>
   );
