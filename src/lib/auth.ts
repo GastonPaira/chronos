@@ -5,8 +5,8 @@ export async function signInWithGoogle() {
     provider: 'google',
     options: {
       redirectTo: typeof window !== 'undefined'
-        ? `${window.location.origin}/`
-        : '/',
+        ? `${window.location.origin}/auth/callback`
+        : '/auth/callback',
     },
   });
 }
