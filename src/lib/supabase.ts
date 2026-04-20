@@ -3,6 +3,11 @@ import { createClient } from '@supabase/supabase-js';
 export const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+  {
+    auth: {
+      flowType: 'implicit',
+    }
+  }
 );
 
 const DEVICE_ID_KEY = 'chronos_device_id';

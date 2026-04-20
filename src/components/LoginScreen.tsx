@@ -1,10 +1,7 @@
-import { useTranslation } from 'next-i18next';
 import ChronosLogo from '@/components/ChronosLogo';
 import { signInWithGoogle } from '@/lib/auth';
 
 export function LoginScreen() {
-  const { t } = useTranslation('common');
-
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">
       {/* Background image */}
@@ -27,7 +24,7 @@ export function LoginScreen() {
         <ChronosLogo size="lg" />
 
         <p className="text-chronos-muted text-center text-base tracking-wide">
-          {t('auth.tagline')}
+          Sign in to save your progress and streak
         </p>
 
         {/* Decorative divider */}
@@ -47,7 +44,7 @@ export function LoginScreen() {
             <path fill="#4CAF50" d="M24 44c5.2 0 9.9-1.9 13.5-5l-6.2-5.2C29.5 35.6 26.9 36 24 36c-5.2 0-9.6-2.9-11.3-7.1l-6.6 5C9.6 39.6 16.4 44 24 44z"/>
             <path fill="#1976D2" d="M43.6 20H24v8h11.3c-.9 2.5-2.6 4.6-4.8 6l6.2 5.2C40.5 35.5 44 30.2 44 24c0-1.3-.1-2.7-.4-4z"/>
           </svg>
-          {t('auth.signIn')}
+          Sign in with Google
         </button>
       </div>
 
