@@ -6,6 +6,7 @@ interface Props {
   score: number;
   total: number;
   category: string;
+  onPlayAgain?: () => void;
 }
 
 function getMessage(score: number, total: number, t: (key: string) => string): string {
@@ -32,7 +33,7 @@ const STARS = (score: number, total: number) => {
   return 0;
 };
 
-export default function ResultScreen({ score, total, category }: Props) {
+export default function ResultScreen({ score, total, category, onPlayAgain }: Props) {
   const { t } = useTranslation('common');
   const router = useRouter();
   const stars = STARS(score, total);
@@ -82,7 +83,7 @@ export default function ResultScreen({ score, total, category }: Props) {
       {/* Actions */}
       <div className="flex flex-col sm:flex-row gap-3 w-full max-w-xs">
         <button
-          onClick={() => router.push(`/game/${category}`)}
+          onClick={() => onPlayAgain ? onPlayAgain() : router.push(`/game/${category}`)}
           className="flex-1 rounded-xl bg-chronos-gold px-5 py-3.5 text-chronos-bg font-semibold hover:bg-chronos-gold-light transition-all duration-200 active:scale-[0.98]"
         >
           {t('results.playAgain')}

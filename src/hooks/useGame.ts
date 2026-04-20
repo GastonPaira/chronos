@@ -101,6 +101,20 @@ export function useGame(allQuestions: Question[]) {
     setState((prev) => ({ ...prev, phase: 'finished' }));
   }, []);
 
+  const resetGame = useCallback(() => {
+    hasRegistered.current = false;
+    lastRecordedIndex.current = -1;
+    setPlayResult(null);
+    setState({
+      questions: shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND),
+      currentIndex: 0,
+      score: 0,
+      phase: 'playing',
+      selectedAnswer: null,
+      isCorrect: null,
+    });
+  }, [allQuestions]);
+
   return {
     ...state,
     currentQuestion,
@@ -109,6 +123,7 @@ export function useGame(allQuestions: Question[]) {
     selectAnswer,
     nextQuestion,
     finishGame,
+    resetGame,
     playResult,
   };
 }

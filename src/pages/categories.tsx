@@ -105,7 +105,7 @@ export default function Categories() {
               key={cat.id}
               category={cat}
               locale={locale}
-              onClick={() => router.push(`/game/${cat.id}`)}
+              onClick={() => router.push(eraId ? `/game/${cat.id}?era=${eraId}` : `/game/${cat.id}`)}
             />
           ))}
         </div>

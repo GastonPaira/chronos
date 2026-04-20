@@ -34,6 +34,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
     selectAnswer,
     nextQuestion,
     finishGame,
+    resetGame,
     playResult,
   } = useGame(categoryQuestions);
 
@@ -50,7 +51,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
       {/* Header */}
       <header className="flex items-center justify-between max-w-2xl mx-auto w-full mb-8">
         <button
-          onClick={() => router.push('/categories')}
+          onClick={() => router.push(router.query.era ? `/categories?era=${router.query.era}` : '/categories')}
           className="flex items-center gap-1.5 text-sm text-chronos-muted hover:text-chronos-text transition-colors"
         >
           ← {t('nav.back')}
@@ -64,7 +65,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
         {phase === 'finished' ? (
           <div className="flex flex-col items-center gap-6 animate-fade-in">
             <StreakDisplay context="game_end" playResult={playResult ?? undefined} />
-            <ResultScreen score={score} total={total} category={categoryId} />
+            <ResultScreen score={score} total={total} category={categoryId} onPlayAgain={resetGame} />
           </div>
         ) : (
           <>
