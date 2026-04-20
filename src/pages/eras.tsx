@@ -8,6 +8,7 @@ import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakBadge from '@/components/StreakBadge';
+import { AuthButton } from '@/components/AuthButton';
 interface EraDef {
   id: string;
   icon: string;
@@ -177,6 +178,7 @@ export default function EraSelection() {
         <div className="flex items-center gap-3">
           <StreakBadge />
           <LanguageSelector />
+          <AuthButton />
         </div>
       </header>
 

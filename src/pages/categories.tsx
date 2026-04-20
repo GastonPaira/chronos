@@ -9,6 +9,7 @@ import LanguageSelector from '@/components/LanguageSelector';
 import CategoryCard from '@/components/CategoryCard';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakBadge from '@/components/StreakBadge';
+import { AuthButton } from '@/components/AuthButton';
 
 const ERA_CATEGORIES: Record<string, string[]> = {
   'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
@@ -63,6 +64,7 @@ export default function Categories() {
         <div className="flex items-center gap-3">
           <StreakBadge />
           <LanguageSelector />
+          <AuthButton />
         </div>
       </header>
 

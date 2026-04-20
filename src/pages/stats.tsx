@@ -8,6 +8,7 @@ import questionsData from '@/data/questions';
 import ChronosLogo from '@/components/ChronosLogo';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakBadge from '@/components/StreakBadge';
+import { AuthButton } from '@/components/AuthButton';
 import { useStats } from '@/hooks/useStats';
 import { useStreak } from '@/hooks/useStreak';
 
@@ -79,6 +80,7 @@ export default function StatsPage() {
           <div className="flex items-center gap-3">
             <StreakBadge />
             <LanguageSelector />
+            <AuthButton />
           </div>
         </header>
 
@@ -112,6 +114,7 @@ export default function StatsPage() {
           <div className="flex items-center gap-3">
             <StreakBadge />
             <LanguageSelector />
+            <AuthButton />
           </div>
         </header>
       </div>

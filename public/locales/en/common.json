@@ -127,6 +127,11 @@
       "close": "Got it"
     }
   },
+  "auth": {
+    "signIn": "Sign in with Google",
+    "signOut": "Sign out",
+    "tagline": "Sign in to save your progress and streak"
+  },
   "streak": {
     "dayCount_one": "{{count}} day",
     "dayCount_other": "{{count}} days",

@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { supabase, getDeviceId } from '@/lib/supabase';
+import { useAuth } from '@/context/AuthContext';
 
 interface StreakData {
   lastPlayedDate: string | null;
@@ -27,46 +28,65 @@ function getYesterdayString(): string {
 const EMPTY: StreakData = { lastPlayedDate: null, currentStreak: 0, longestStreak: 0 };
 
 export function useStreak() {
+  const { user } = useAuth();
   const [streakData, setStreakData] = useState<StreakData>(EMPTY);
   const dataRef = useRef<StreakData>(EMPTY);
 
+  // Recarga el streak cuando cambia el usuario (login/logout)
   useEffect(() => {
-    const deviceId = getDeviceId();
-    if (!deviceId) return;
+    async function load() {
+      let query = supabase
+        .from('user_streak')
+        .select('last_played_date, current_streak, longest_streak');
 
-    supabase
-      .from('user_streak')
-      .select('last_played_date, current_streak, longest_streak')
-      .eq('device_id', deviceId)
-      .maybeSingle()
-      .then(({ data }) => {
-        if (!data) return;
-        const loaded: StreakData = {
-          lastPlayedDate: data.last_played_date,
-          currentStreak: data.current_streak,
-          longestStreak: data.longest_streak,
-        };
-        dataRef.current = loaded;
-        setStreakData(loaded);
-      });
-  }, []);
+      if (user) {
+        query = query.eq('user_id', user.id);
+      } else {
+        const deviceId = getDeviceId();
+        if (!deviceId) return;
+        query = query.eq('device_id', deviceId);
+      }
+
+      const { data } = await query.maybeSingle();
+      if (!data) return;
+
+      const loaded: StreakData = {
+        lastPlayedDate: data.last_played_date,
+        currentStreak: data.current_streak,
+        longestStreak: data.longest_streak,
+      };
+      dataRef.current = loaded;
+      setStreakData(loaded);
+    }
+
+    load();
+  }, [user]);
 
   const persist = useCallback((updated: StreakData) => {
     dataRef.current = updated;
     setStreakData(updated);
-    const deviceId = getDeviceId();
-    if (!deviceId) return;
-    supabase
-      .from('user_streak')
-      .upsert({
-        device_id: deviceId,
-        last_played_date: updated.lastPlayedDate,
-        current_streak: updated.currentStreak,
-        longest_streak: updated.longestStreak,
-        updated_at: new Date().toISOString(),
-      })
-      .then();
-  }, []);
+
+    const row = {
+      last_played_date: updated.lastPlayedDate,
+      current_streak: updated.currentStreak,
+      longest_streak: updated.longestStreak,
+      updated_at: new Date().toISOString(),
+    };
+
+    if (user) {
+      supabase
+        .from('user_streak')
+        .upsert({ ...row, user_id: user.id }, { onConflict: 'user_id' })
+        .then();
+    } else {
+      const deviceId = getDeviceId();
+      if (!deviceId) return;
+      supabase
+        .from('user_streak')
+        .upsert({ ...row, device_id: deviceId }, { onConflict: 'device_id' })
+        .then();
+    }
+  }, [user]);
 
   const registerPlay = useCallback((): PlayResult => {
     const today = getTodayString();

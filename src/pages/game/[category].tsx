@@ -12,6 +12,7 @@ import ResultScreen from '@/components/ResultScreen';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakDisplay from '@/components/StreakDisplay';
+import { AuthButton } from '@/components/AuthButton';
 
 const CATEGORY_IMAGES: Record<string, string> = {
   'ancient-egypt':    '/images/ancient-egypt.jpg',
@@ -66,7 +67,10 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
           ← {t('nav.back')}
         </button>
         <ChronosLogo size="sm" />
-        <LanguageSelector />
+        <div className="flex items-center gap-3">
+          <AuthButton />
+          <LanguageSelector />
+        </div>
       </header>
 
       {/* Main content */}

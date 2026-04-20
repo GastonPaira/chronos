@@ -1,5 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { supabase, getDeviceId } from '@/lib/supabase';
+import { useAuth } from '@/context/AuthContext';
 
 interface CategoryStats {
   answered: number;
@@ -36,37 +37,53 @@ function makeEmptyStats(): Stats {
 }
 
 export function useStats() {
+  const { user } = useAuth();
   const [mounted, setMounted] = useState(false);
   const [stats, setStats] = useState<Stats | null>(null);
   const statsRef = useRef<Stats>(makeEmptyStats());
 
+  // Carga stats cuando cambia el usuario (login/logout)
   useEffect(() => {
     setMounted(true);
-    const deviceId = getDeviceId();
-    if (!deviceId) { setStats(makeEmptyStats()); return; }
 
-    supabase
-      .from('user_stats')
-      .select('data')
-      .eq('device_id', deviceId)
-      .maybeSingle()
-      .then(({ data }) => {
-        const loaded = (data?.data as Stats | undefined) ?? makeEmptyStats();
-        statsRef.current = loaded;
-        setStats(loaded);
-      });
-  }, []);
+    async function load() {
+      let query = supabase.from('user_stats').select('data');
+
+      if (user) {
+        query = query.eq('user_id', user.id);
+      } else {
+        const deviceId = getDeviceId();
+        if (!deviceId) { setStats(makeEmptyStats()); return; }
+        query = query.eq('device_id', deviceId);
+      }
+
+      const { data } = await query.maybeSingle();
+      const loaded = (data?.data as Stats | undefined) ?? makeEmptyStats();
+      statsRef.current = loaded;
+      setStats(loaded);
+    }
+
+    load();
+  }, [user]);
 
   const persist = useCallback((updated: Stats) => {
     statsRef.current = updated;
     setStats(updated);
-    const deviceId = getDeviceId();
-    if (!deviceId) return;
-    supabase
-      .from('user_stats')
-      .upsert({ device_id: deviceId, data: updated, updated_at: new Date().toISOString() })
-      .then();
-  }, []);
+
+    if (user) {
+      supabase
+        .from('user_stats')
+        .upsert({ user_id: user.id, data: updated, updated_at: new Date().toISOString() }, { onConflict: 'user_id' })
+        .then();
+    } else {
+      const deviceId = getDeviceId();
+      if (!deviceId) return;
+      supabase
+        .from('user_stats')
+        .upsert({ device_id: deviceId, data: updated, updated_at: new Date().toISOString() }, { onConflict: 'device_id' })
+        .then();
+    }
+  }, [user]);
 
   const recordAnswer = useCallback((params: {
     categoryId: string;
@@ -115,9 +132,7 @@ export function useStats() {
     });
   }, [persist]);
 
-  const resetStats = useCallback(() => {
-    persist(makeEmptyStats());
-  }, [persist]);
+  const resetStats = useCallback(() => persist(makeEmptyStats()), [persist]);
 
   const getAccuracy = useCallback((): number => {
     const s = statsRef.current;

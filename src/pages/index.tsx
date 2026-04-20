@@ -6,6 +6,7 @@ import ChronosLogo from '@/components/ChronosLogo';
 import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakDisplay from '@/components/StreakDisplay';
+import { AuthButton } from '@/components/AuthButton';
 export default function Home() {
   const { t } = useTranslation('common');
   const router = useRouter();
@@ -31,8 +32,9 @@ export default function Home() {
         }}
       />
 
-      {/* Language selector */}
-      <div className="absolute top-6 right-6 z-10">
+      {/* Top bar */}
+      <div className="absolute top-6 left-6 right-6 z-10 flex items-center justify-between">
+        <AuthButton />
         <LanguageSelector />
       </div>
 

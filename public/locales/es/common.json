@@ -127,6 +127,11 @@
       "close": "Entendido"
     }
   },
+  "auth": {
+    "signIn": "Iniciar sesión con Google",
+    "signOut": "Cerrar sesión",
+    "tagline": "Iniciá sesión para guardar tu progreso y racha"
+  },
   "streak": {
     "dayCount_one": "{{count}} día",
     "dayCount_other": "{{count}} días",
