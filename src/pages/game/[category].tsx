@@ -13,6 +13,15 @@ import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakDisplay from '@/components/StreakDisplay';
 
+const CATEGORY_IMAGES: Record<string, string> = {
+  'ancient-egypt':    '/images/ancient-egypt.jpg',
+  'ancient-greece':   '/images/ancient-greece.jpg',
+  'roman-empire':     '/images/roman-empire.jpg',
+  'byzantine-empire': '/images/byzantine-empire.jpg',
+  'crusades-chivalry':'/images/crusades-chivalry.jpg',
+  'vikings':          '/images/vikings.jpg',
+};
+
 interface Props {
   categoryQuestions: Question[];
   categoryId: string;
@@ -89,35 +98,54 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
                 />
               )}
 
-              {phase === 'reflecting' && currentQuestion && (
-                <>
-                  {/* Compact answered question recap */}
-                  <div className="mb-4 p-4 rounded-xl border border-chronos-border bg-chronos-surface">
-                    <p className="text-sm text-chronos-muted mb-2 font-medium">
-                      {currentQuestion.question[locale]}
-                    </p>
-                    <p
-                      className={`text-sm font-semibold ${
-                        selectedAnswer === currentQuestion.correctIndex
-                          ? 'text-emerald-400'
-                          : 'text-red-400'
-                      }`}
-                    >
-                      {selectedAnswer === currentQuestion.correctIndex
-                        ? `✓ ${t('game.correct')}`
-                        : `✗ ${t('game.incorrect')}`}{' '}
-                      — {currentQuestion.options[currentQuestion.correctIndex][locale]}
-                    </p>
-                  </div>
+              {phase === 'reflecting' && currentQuestion && (() => {
+                const bgImage = CATEGORY_IMAGES[currentQuestion.category];
+                return (
+                  <div className="relative rounded-2xl overflow-hidden flex flex-col gap-4">
+                    {/* Category background image — same as QuestionCard */}
+                    {bgImage && (
+                      <div
+                        className="pointer-events-none absolute inset-0 bg-cover bg-center"
+                        style={{ backgroundImage: `url(${bgImage})` }}
+                      />
+                    )}
+                    {bgImage && (
+                      <div
+                        className="pointer-events-none absolute inset-0"
+                        style={{ background: 'rgba(9,9,15,0.88)' }}
+                      />
+                    )}
 
-                  <ReflectionPanel
-                    question={currentQuestion}
-                    locale={locale}
-                    isLast={isLastQuestion}
-                    onContinue={isLastQuestion ? finishGame : nextQuestion}
-                  />
-                </>
-              )}
+                    {/* Compact answered question recap */}
+                    <div className="relative z-10 p-4 rounded-xl border border-chronos-border bg-chronos-surface/60">
+                      <p className="text-sm text-chronos-muted mb-2 font-medium">
+                        {currentQuestion.question[locale]}
+                      </p>
+                      <p
+                        className={`text-sm font-semibold ${
+                          selectedAnswer === currentQuestion.correctIndex
+                            ? 'text-emerald-400'
+                            : 'text-red-400'
+                        }`}
+                      >
+                        {selectedAnswer === currentQuestion.correctIndex
+                          ? `✓ ${t('game.correct')}`
+                          : `✗ ${t('game.incorrect')}`}{' '}
+                        — {currentQuestion.options[currentQuestion.correctIndex][locale]}
+                      </p>
+                    </div>
+
+                    <div className="relative z-10 p-4 pt-0">
+                      <ReflectionPanel
+                        question={currentQuestion}
+                        locale={locale}
+                        isLast={isLastQuestion}
+                        onContinue={isLastQuestion ? finishGame : nextQuestion}
+                      />
+                    </div>
+                  </div>
+                );
+              })()}
             </div>
           </>
         )}

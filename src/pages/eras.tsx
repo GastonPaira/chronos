@@ -8,8 +8,6 @@ import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import ChronosLogo from '@/components/ChronosLogo';
 import StreakBadge from '@/components/StreakBadge';
-import { useUnsplashImage } from '@/hooks/useUnsplashImage';
-
 interface EraDef {
   id: string;
   icon: string;
@@ -39,11 +37,11 @@ const ERA_DEFS: EraDef[] = [
   },
 ];
 
-const ERA_IMAGE_QUERIES: Record<string, string> = {
-  'ancient-age':   'ancient rome pantheon',
-  'middle-ages':   'medieval castle cathedral gothic europe',
-  'early-modern':  'old antique map caravel ship age of discovery',
-  'modern-era':    'industrial revolution steam engine factory',
+const ERA_IMAGES: Record<string, string> = {
+  'ancient-age':  '/images/ancient-age.jpg',
+  'middle-ages':  '/images/middle-ages.jpg',
+  'early-modern': '/images/early-modern.jpg',
+  'modern-era':   '/images/modern-era.jpg',
 };
 
 function getDominantDifficulty(difficulties: string[]): string {
@@ -65,7 +63,7 @@ interface EraCardProps {
 
 function EraCard({ era, onClick }: EraCardProps) {
   const { t } = useTranslation('common');
-  const imageUrl = useUnsplashImage(ERA_IMAGE_QUERIES[era.id] ?? '');
+  const imageUrl = ERA_IMAGES[era.id];
   const isEmpty = era.questionCount === 0;
 
   return (
@@ -84,9 +82,7 @@ function EraCard({ era, onClick }: EraCardProps) {
       <div
         className="absolute inset-0"
         style={{
-          background: imageUrl
-            ? 'linear-gradient(to top, rgba(9,9,15,0.95) 0%, rgba(9,9,15,0.70) 50%, rgba(9,9,15,0.45) 100%)'
-            : 'var(--color-chronos-card, #111118)',
+          background: 'linear-gradient(to top, rgba(9,9,15,0.95) 0%, rgba(9,9,15,0.70) 50%, rgba(9,9,15,0.45) 100%)',
         }}
       />
 

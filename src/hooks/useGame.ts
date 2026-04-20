@@ -14,6 +14,15 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+function shuffleOptions(q: Question): Question {
+  if (Math.random() < 0.5) return q;
+  return {
+    ...q,
+    options: [q.options[1], q.options[0]],
+    correctIndex: q.correctIndex === 0 ? 1 : 0,
+  };
+}
+
 export function useGame(allQuestions: Question[]) {
   const { registerPlay } = useStreak();
   const { recordAnswer, recordSessionEnd } = useStats();
@@ -22,7 +31,7 @@ export function useGame(allQuestions: Question[]) {
   const lastRecordedIndex = useRef(-1);
 
   const roundQuestions = useMemo(
-    () => shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND),
+    () => shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND).map(shuffleOptions),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     []
   );
@@ -106,7 +115,7 @@ export function useGame(allQuestions: Question[]) {
     lastRecordedIndex.current = -1;
     setPlayResult(null);
     setState({
-      questions: shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND),
+      questions: shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND).map(shuffleOptions),
       currentIndex: 0,
       score: 0,
       phase: 'playing',

@@ -11,12 +11,38 @@ interface Props {
 
 const OPTION_LABELS = ['A', 'B'];
 
+const CATEGORY_IMAGES: Record<string, string> = {
+  'ancient-egypt':    '/images/ancient-egypt.jpg',
+  'ancient-greece':   '/images/ancient-greece.jpg',
+  'roman-empire':     '/images/roman-empire.jpg',
+  'byzantine-empire': '/images/byzantine-empire.jpg',
+  'crusades-chivalry':'/images/crusades-chivalry.jpg',
+  'vikings':          '/images/vikings.jpg',
+};
+
 export default function QuestionCard({ question, locale, selectedAnswer, onAnswer }: Props) {
   const { t } = useTranslation('common');
   const answered = selectedAnswer !== null;
+  const bgImage = CATEGORY_IMAGES[question.category];
 
   return (
-    <div className="flex flex-col gap-6 animate-slide-up w-full">
+    <div className="relative flex flex-col gap-6 animate-slide-up w-full rounded-2xl overflow-hidden">
+      {/* Category background image */}
+      {bgImage && (
+        <div
+          className="pointer-events-none absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: `url(${bgImage})` }}
+        />
+      )}
+      {/* Strong dark overlay for readability */}
+      {bgImage && (
+        <div
+          className="pointer-events-none absolute inset-0"
+          style={{ background: 'rgba(9,9,15,0.88)' }}
+        />
+      )}
+      {/* Inner content above overlay */}
+      <div className="relative z-10 flex flex-col gap-6 p-4">
       {/* Difficulty badge */}
       <div className="flex items-center gap-2">
         <span
@@ -103,6 +129,7 @@ export default function QuestionCard({ question, locale, selectedAnswer, onAnswe
           {selectedAnswer === question.correctIndex ? t('game.correct') : t('game.incorrect')}
         </div>
       )}
+      </div>
     </div>
   );
 }

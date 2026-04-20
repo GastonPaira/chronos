@@ -6,22 +6,17 @@ import ChronosLogo from '@/components/ChronosLogo';
 import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakDisplay from '@/components/StreakDisplay';
-import { useUnsplashImage } from '@/hooks/useUnsplashImage';
-
 export default function Home() {
   const { t } = useTranslation('common');
   const router = useRouter();
-  const bgImage = useUnsplashImage('ancient roman colosseum sunset epic historical panoramic');
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">
       {/* Background image */}
-      {bgImage && (
-        <div
-          className="pointer-events-none absolute inset-0 bg-cover bg-center transition-opacity duration-700"
-          style={{ backgroundImage: `url(${bgImage})` }}
-        />
-      )}
+      <div
+        className="pointer-events-none absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: 'url(/images/home-bg.jpg)' }}
+      />
       {/* Dark overlay — keeps text legible over any image */}
       <div
         className="pointer-events-none absolute inset-0"

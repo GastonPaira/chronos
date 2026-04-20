@@ -1,7 +1,5 @@
 import { useTranslation } from 'next-i18next';
 import type { Category, Locale } from '@/types';
-import { useUnsplashImage } from '@/hooks/useUnsplashImage';
-
 interface Props {
   category: Category;
   locale: Locale;
@@ -20,13 +18,13 @@ const CATEGORY_ICONS: Record<string, string> = {
   'space-race':       '🚀',
 };
 
-const CATEGORY_IMAGE_QUERIES: Record<string, string> = {
-  'ancient-egypt':    'sphinx pyramids egypt ancient desert',
-  'ancient-greece':   'parthenon athens greece ancient temple',
-  'roman-empire':     'colosseum rome roman ancient empire',
-  'byzantine-empire': 'hagia sophia istanbul byzantine mosaic',
-  'crusades-chivalry':'crusader knight medieval castle siege',
-  'vikings':          'viking ship fjord scandinavia norse',
+const CATEGORY_IMAGES: Record<string, string> = {
+  'ancient-egypt':    '/images/ancient-egypt.jpg',
+  'ancient-greece':   '/images/ancient-greece.jpg',
+  'roman-empire':     '/images/roman-empire.jpg',
+  'byzantine-empire': '/images/byzantine-empire.jpg',
+  'crusades-chivalry':'/images/crusades-chivalry.jpg',
+  'vikings':          '/images/vikings.jpg',
 };
 
 const DOMINANT_DIFFICULTY = (difficulties: string[]): string => {
@@ -39,7 +37,7 @@ export default function CategoryCard({ category, locale, onClick }: Props) {
   const { t } = useTranslation('common');
   const icon = CATEGORY_ICONS[category.id] ?? '📜';
   const dominant = DOMINANT_DIFFICULTY(category.difficulties);
-  const imageUrl = useUnsplashImage(CATEGORY_IMAGE_QUERIES[category.id] ?? '');
+  const imageUrl = CATEGORY_IMAGES[category.id];
 
   return (
     <button
@@ -57,9 +55,7 @@ export default function CategoryCard({ category, locale, onClick }: Props) {
       <div
         className="absolute inset-0"
         style={{
-          background: imageUrl
-            ? 'linear-gradient(to top, rgba(9,9,15,0.95) 0%, rgba(9,9,15,0.65) 55%, rgba(9,9,15,0.40) 100%)'
-            : 'var(--color-chronos-card, #111118)',
+          background: 'linear-gradient(to top, rgba(9,9,15,0.95) 0%, rgba(9,9,15,0.65) 55%, rgba(9,9,15,0.40) 100%)',
         }}
       />
 
