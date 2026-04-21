@@ -3,19 +3,18 @@ interface Props {
 }
 
 const sizes = {
-  sm: { icon: 28, title: 'text-xl', subtitle: 'text-xs' },
-  md: { icon: 44, title: 'text-3xl', subtitle: 'text-sm' },
-  lg: { icon: 72, title: 'text-5xl', subtitle: 'text-base' },
+  sm: { iconW: 11, iconH: 15, title: 'text-xs', row: true },
+  md: { iconW: 44, iconH: 44, title: 'text-3xl', row: false },
+  lg: { iconW: 72, iconH: 72, title: 'text-5xl', row: false },
 };
 
 export default function ChronosLogo({ size = 'md' }: Props) {
   const s = sizes[size];
   return (
-    <div className="flex flex-col items-center gap-2">
-      {/* Hourglass icon */}
+    <div className={`flex items-center ${s.row ? 'flex-row gap-1.5' : 'flex-col gap-2'}`}>
       <svg
-        width={s.icon}
-        height={s.icon}
+        width={s.iconW}
+        height={s.iconH}
         viewBox="0 0 48 48"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -34,8 +33,7 @@ export default function ChronosLogo({ size = 'md' }: Props) {
         <circle cx="24" cy="24" r="2" fill="#f59e0b" />
       </svg>
 
-      {/* Title */}
-      <div className="text-center leading-none">
+      <div className="leading-none">
         <h1
           className={`${s.title} font-bold tracking-[0.2em] text-chronos-gold uppercase`}
           style={{ fontFamily: 'Georgia, serif', letterSpacing: '0.25em' }}

@@ -59,17 +59,18 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
   return (
     <div className="min-h-screen bg-chronos-bg px-4 py-6 sm:px-6 sm:py-10 flex flex-col">
       {/* Header */}
-      <header className="flex items-center justify-between max-w-2xl mx-auto w-full mb-8">
+      <header className="flex items-center px-2 h-12 relative bg-[#09090f] border-b border-white/5 mb-8 w-full">
         <button
           onClick={() => router.push(router.query.era ? `/categories?era=${router.query.era}` : '/categories')}
-          className="flex items-center gap-1.5 text-sm text-chronos-muted hover:text-chronos-text transition-colors"
+          className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors flex-shrink-0"
         >
-          ← {t('nav.back')}
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="9,2 4,7 9,12" />
+          </svg>
         </button>
-        <ChronosLogo size="sm" />
-        <div className="flex items-center gap-3">
-          <AuthButton />
+        <div className="flex items-center gap-1.5 ml-auto">
           <LanguageSelector />
+          <AuthButton />
         </div>
       </header>
 

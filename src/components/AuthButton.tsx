@@ -1,6 +1,7 @@
 import { useTranslation } from 'next-i18next';
 import { useAuth } from '@/context/AuthContext';
 import { signInWithGoogle, signOut } from '@/lib/auth';
+import UserMenu from '@/components/UserMenu';
 
 export function AuthButton() {
   const { t } = useTranslation('common');
@@ -9,21 +10,10 @@ export function AuthButton() {
   if (loading) return null;
 
   if (user) {
-    return (
-      <div className="flex items-center gap-3">
-        <img
-          src={user.user_metadata.avatar_url}
-          alt="avatar"
-          className="w-8 h-8 rounded-full border border-chronos-border"
-        />
-        <button
-          onClick={signOut}
-          className="text-sm text-chronos-muted hover:text-chronos-text transition-colors"
-        >
-          {t('auth.signOut')}
-        </button>
-      </div>
-    );
+    const fullName: string = user.user_metadata?.full_name ?? user.user_metadata?.name ?? '';
+    const name = fullName.split(' ')[0] || fullName;
+    const email: string = user.email ?? '';
+    return <UserMenu name={name} fullName={fullName} email={email} onSignOut={signOut} />;
   }
 
   return (

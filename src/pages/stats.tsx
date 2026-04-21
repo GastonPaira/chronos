@@ -5,9 +5,7 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import type { Locale, Question } from '@/types';
 import questionsData from '@/data/questions';
-import ChronosLogo from '@/components/ChronosLogo';
 import LanguageSelector from '@/components/LanguageSelector';
-import StreakBadge from '@/components/StreakBadge';
 import { AuthButton } from '@/components/AuthButton';
 import { useStats } from '@/hooks/useStats';
 import { useStreak } from '@/hooks/useStreak';
@@ -69,16 +67,16 @@ export default function StatsPage() {
   if (stats !== null && stats.global.totalAnswered === 0) {
     return (
       <div className="min-h-screen bg-chronos-bg px-4 py-8 sm:px-6 sm:py-12">
-        <header className="flex items-center justify-between max-w-2xl mx-auto mb-8">
+        <header className="flex items-center px-2 h-12 relative bg-[#09090f] border-b border-white/5 mb-8 w-full">
           <button
             onClick={() => router.push('/')}
-            className="flex items-center gap-1.5 text-sm text-chronos-muted hover:text-chronos-text transition-colors"
+            className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors flex-shrink-0"
           >
-            ← {t('nav.back')}
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="9,2 4,7 9,12" />
+            </svg>
           </button>
-          <ChronosLogo size="sm" />
-          <div className="flex items-center gap-3">
-            <StreakBadge />
+          <div className="flex items-center gap-1.5 ml-auto">
             <LanguageSelector />
             <AuthButton />
           </div>
@@ -103,16 +101,16 @@ export default function StatsPage() {
   if (stats === null) {
     return (
       <div className="min-h-screen bg-chronos-bg px-4 py-8 sm:px-6 sm:py-12">
-        <header className="flex items-center justify-between max-w-2xl mx-auto mb-8">
+        <header className="flex items-center px-2 h-12 relative bg-[#09090f] border-b border-white/5 mb-8 w-full">
           <button
             onClick={() => router.push('/')}
-            className="flex items-center gap-1.5 text-sm text-chronos-muted hover:text-chronos-text transition-colors"
+            className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors flex-shrink-0"
           >
-            ← {t('nav.back')}
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="9,2 4,7 9,12" />
+            </svg>
           </button>
-          <ChronosLogo size="sm" />
-          <div className="flex items-center gap-3">
-            <StreakBadge />
+          <div className="flex items-center gap-1.5 ml-auto">
             <LanguageSelector />
             <AuthButton />
           </div>
@@ -143,17 +141,25 @@ export default function StatsPage() {
     <div className="min-h-screen bg-chronos-bg px-4 py-8 sm:px-6 sm:py-12">
 
       {/* Header */}
-      <header className="flex items-center justify-between max-w-2xl mx-auto mb-8">
+      <header className="flex items-center px-2 h-12 relative bg-[#09090f] border-b border-white/5 mb-8 w-full">
         <button
           onClick={() => router.push('/')}
-          className="flex items-center gap-1.5 text-sm text-chronos-muted hover:text-chronos-text transition-colors"
+          className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors flex-shrink-0"
         >
-          ← {t('nav.back')}
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="#9ca3af" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="9,2 4,7 9,12" />
+          </svg>
         </button>
-        <ChronosLogo size="sm" />
-        <div className="flex items-center gap-3">
-          <StreakBadge />
+        <div className="absolute left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10">
+          <svg width="18" height="24" viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="2" width="16" height="28" rx="2" stroke="#f5a623" strokeWidth="1.5"/>
+            <path d="M4 12 Q12 18 20 12" stroke="#f5a623" strokeWidth="1.2" fill="none"/>
+            <path d="M4 20 Q12 14 20 20" stroke="#f5a623" strokeWidth="1.2" fill="none"/>
+          </svg>
+        </div>
+        <div className="flex items-center gap-1.5 ml-auto">
           <LanguageSelector />
+          <AuthButton />
         </div>
       </header>
 
