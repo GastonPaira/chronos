@@ -27,6 +27,41 @@ export interface Category {
 
 export type GamePhase = 'playing' | 'reflecting' | 'finished';
 
+export type MatchStatus = 'waiting' | 'playing' | 'finished';
+
+export interface Profile {
+  id: string;
+  display_name: string | null;
+  avatar_url: string | null;
+}
+
+export interface Match {
+  id: string;
+  category_id: string;
+  question_ids: string[];
+  created_by: string;
+  status: MatchStatus;
+  created_at: string;
+}
+
+export interface MatchPlayer {
+  match_id: string;
+  user_id: string;
+  score: number;
+  finished: boolean;
+  played_at: string | null;
+  profile?: Profile | null;
+}
+
+export interface MatchAnswer {
+  match_id: string;
+  user_id: string;
+  question_id: string;
+  selected_index: number;
+  is_correct: boolean;
+  answered_at: string;
+}
+
 export interface GameState {
   questions: Question[];
   currentIndex: number;

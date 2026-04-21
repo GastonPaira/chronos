@@ -2,12 +2,15 @@ import type { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { Locale, Category, Question } from '@/types';
 import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import CategoryCard from '@/components/CategoryCard';
 import { AuthButton } from '@/components/AuthButton';
+import { useAuth } from '@/context/AuthContext';
+import { useMatch } from '@/hooks/useMatch';
+import { supabase } from '@/lib/supabase';
 
 const ERA_CATEGORIES: Record<string, string[]> = {
   'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
@@ -35,11 +38,35 @@ function buildCategories(questions: Question[]): Category[] {
   return Array.from(map.values());
 }
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+interface ChallengeModal {
+  visible: boolean;
+  matchId: string;
+  link: string;
+  copied: boolean;
+}
+
+const CHALLENGE_MODAL_CLOSED: ChallengeModal = { visible: false, matchId: '', link: '', copied: false };
+
 export default function Categories() {
   const { t, i18n } = useTranslation('common');
   const router = useRouter();
   const locale = (i18n.language as Locale) ?? 'en';
   const eraId = router.isReady ? (router.query.era as string | undefined) : undefined;
+
+  const { user } = useAuth();
+  const { createMatch } = useMatch(user?.id);
+
+  const [challengeModal, setChallengeModal] = useState<ChallengeModal>(CHALLENGE_MODAL_CLOSED);
+  const [challengeLoading, setChallengeLoading] = useState<string | null>(null);
 
   const categories = useMemo(() => {
     const all = buildCategories(questionsData as Question[]);
@@ -47,6 +74,40 @@ export default function Categories() {
     const allowed = ERA_CATEGORIES[eraId];
     return all.filter(cat => allowed.includes(cat.id));
   }, [eraId]);
+
+  async function handleChallenge(cat: Category) {
+    if (!user) {
+      await supabase.auth.signInWithOAuth({
+        provider: 'google',
+        options: { redirectTo: typeof window !== 'undefined' ? window.location.href : undefined },
+      });
+      return;
+    }
+
+    setChallengeLoading(cat.id);
+    try {
+      const allCatQuestions = (questionsData as Question[]).filter(q => q.category === cat.id);
+      const questionIds = shuffle(allCatQuestions).slice(0, 10).map(q => q.id);
+      const matchId = await createMatch(cat.id, questionIds);
+      const link = `${window.location.origin}/vs/${matchId}`;
+      setChallengeModal({ visible: true, matchId, link, copied: false });
+    } catch (err) {
+      console.error('Failed to create match:', err);
+    } finally {
+      setChallengeLoading(null);
+    }
+  }
+
+  function closeModal() {
+    setChallengeModal(CHALLENGE_MODAL_CLOSED);
+  }
+
+  function copyLink() {
+    navigator.clipboard.writeText(challengeModal.link).then(() => {
+      setChallengeModal(m => ({ ...m, copied: true }));
+      setTimeout(() => setChallengeModal(m => ({ ...m, copied: false })), 2000);
+    });
+  }
 
   return (
     <div className="min-h-screen bg-chronos-bg px-4 py-8 sm:px-6 sm:py-12">
@@ -101,15 +162,80 @@ export default function Categories() {
       <main className="max-w-2xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 animate-slide-up">
           {categories.map((cat) => (
-            <CategoryCard
-              key={cat.id}
-              category={cat}
-              locale={locale}
-              onClick={() => router.push(eraId ? `/game/${cat.id}?era=${eraId}` : `/game/${cat.id}`)}
-            />
+            <div key={cat.id} className="flex flex-col gap-2">
+              <CategoryCard
+                category={cat}
+                locale={locale}
+                onClick={() => router.push(eraId ? `/game/${cat.id}?era=${eraId}` : `/game/${cat.id}`)}
+              />
+              <button
+                onClick={() => handleChallenge(cat)}
+                disabled={challengeLoading === cat.id}
+                className="flex items-center justify-center gap-2 w-full rounded-xl border border-chronos-border bg-chronos-card px-4 py-2.5 text-sm text-chronos-muted font-medium hover:border-chronos-gold/40 hover:text-chronos-gold transition-all duration-200 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {challengeLoading === cat.id ? (
+                  <span className="w-4 h-4 border-2 border-chronos-muted/30 border-t-chronos-gold rounded-full animate-spin" />
+                ) : (
+                  <span>⚔️</span>
+                )}
+                {t('versus.challengeFriend')}
+              </button>
+            </div>
           ))}
         </div>
       </main>
+
+      {/* Challenge modal */}
+      {challengeModal.visible && (
+        <div
+          className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in"
+          onClick={(e) => { if (e.target === e.currentTarget) closeModal(); }}
+        >
+          <div className="w-full max-w-sm bg-chronos-card border border-chronos-border rounded-2xl p-6 flex flex-col gap-4 animate-slide-up">
+            {/* Modal header */}
+            <div className="flex items-center justify-between">
+              <h3 className="text-chronos-gold font-semibold text-base">
+                ⚔️ {t('versus.challengeReady')}
+              </h3>
+              <button
+                onClick={closeModal}
+                className="w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors text-chronos-muted"
+              >
+                ✕
+              </button>
+            </div>
+
+            <p className="text-sm text-chronos-muted">{t('versus.shareLink')}</p>
+
+            {/* Link box */}
+            <div className="flex items-center gap-2 p-3 bg-chronos-surface rounded-xl border border-chronos-border">
+              <span className="text-xs text-chronos-text truncate flex-1 font-mono">
+                {challengeModal.link}
+              </span>
+            </div>
+
+            {/* Copy button */}
+            <button
+              onClick={copyLink}
+              className={`w-full rounded-xl border px-4 py-3 text-sm font-medium transition-all active:scale-[0.98] ${
+                challengeModal.copied
+                  ? 'border-emerald-500/50 bg-emerald-950/50 text-emerald-400'
+                  : 'border-chronos-gold/50 bg-chronos-card text-chronos-gold hover:bg-chronos-gold/10'
+              }`}
+            >
+              {challengeModal.copied ? `✓ ${t('versus.copied')}` : t('versus.copyLink')}
+            </button>
+
+            {/* Play now */}
+            <button
+              onClick={() => router.push(`/vs/${challengeModal.matchId}`)}
+              className="w-full rounded-xl bg-chronos-gold px-4 py-3 text-chronos-bg font-semibold hover:bg-chronos-gold-light transition-all active:scale-[0.98]"
+            >
+              {t('versus.playNow')}
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
