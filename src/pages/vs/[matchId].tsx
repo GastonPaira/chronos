@@ -349,7 +349,7 @@ export default function VsPage() {
           {!opponentPlayer?.finished && shareLink && (
             <div className="w-full max-w-sm flex flex-col gap-3 animate-fade-in">
               <p className="text-xs text-chronos-muted text-center">{t('versus.shareToPlay')}</p>
-              <ShareLinkBox link={shareLink} t={t} />
+              <ShareLinkBox link={shareLink} />
             </div>
           )}
         </main>
@@ -448,7 +448,8 @@ export default function VsPage() {
 
 // ── ShareLinkBox ──────────────────────────────────────────────────────────
 
-function ShareLinkBox({ link, t }: { link: string; t: (k: string) => string }) {
+function ShareLinkBox({ link }: { link: string }) {
+  const { t } = useTranslation('common');
   const [copied, setCopied] = useState(false);
 
   function copy() {

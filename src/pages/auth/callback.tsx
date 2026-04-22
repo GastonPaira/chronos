@@ -32,7 +32,9 @@ export default function AuthCallback() {
 
       if (data.session) {
         setDebug('Success! Redirecting...');
-        router.replace('/');
+        const returnTo = sessionStorage.getItem('auth_return_to');
+        sessionStorage.removeItem('auth_return_to');
+        router.replace(returnTo && returnTo.startsWith('/') ? returnTo : '/');
       } else {
         setDebug('No session after setSession');
       }
