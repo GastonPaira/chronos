@@ -1,7 +1,18 @@
+// Tarjeta de pregunta: muestra la pregunta, opciones y retroalimentación visual al responder.
+
 import { useTranslation } from 'next-i18next';
 import type { Question } from '@/types';
 import type { Locale } from '@/types';
 
+/**
+ * Props for `QuestionCard`.
+ *
+ * @property question - The question data to display.
+ * @property locale - Active locale used to pick the correct translated string.
+ * @property selectedAnswer - Index of the option the user has chosen, or `null` before answering.
+ * @property onAnswer - Called with the chosen option index when the user taps an answer button.
+ *   Not called if `selectedAnswer` is already set (answer is locked in).
+ */
 interface Props {
   question: Question;
   locale: Locale;
@@ -11,6 +22,7 @@ interface Props {
 
 const OPTION_LABELS = ['A', 'B'];
 
+/** Maps category slugs to local background image paths for the card overlay. */
 const CATEGORY_IMAGES: Record<string, string> = {
   'ancient-egypt':    '/images/ancient-egypt.jpg',
   'ancient-greece':   '/images/ancient-greece.jpg',
@@ -20,6 +32,17 @@ const CATEGORY_IMAGES: Record<string, string> = {
   'vikings':          '/images/vikings.jpg',
 };
 
+/**
+ * Renders a single trivia question with two answer buttons.
+ *
+ * Before answering: buttons are interactive with hover styles.
+ * After answering: buttons become disabled; the correct option turns green,
+ * the wrong selection (if any) turns red, and all others fade out.
+ * A feedback banner is shown at the bottom confirming correct/incorrect.
+ *
+ * If the question's category has a registered background image, it is
+ * displayed behind the card content with a dark overlay for readability.
+ */
 export default function QuestionCard({ question, locale, selectedAnswer, onAnswer }: Props) {
   const { t } = useTranslation('common');
   const answered = selectedAnswer !== null;

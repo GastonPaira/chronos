@@ -1,6 +1,21 @@
+// Pantalla de inicio de sesión: solicita autenticación con Google antes de acceder a la app.
+
 import ChronosLogo from '@/components/ChronosLogo';
 import { signInWithGoogle } from '@/lib/auth';
 
+/**
+ * Full-screen authentication gate shown to unauthenticated users.
+ *
+ * Renders the Chronos logo, a brief value proposition, and a Google sign-in button.
+ * Background consists of a historical photo with a layered dark overlay and a subtle
+ * amber radial glow centered on the logo.
+ *
+ * Clicking "Sign in with Google" calls `signInWithGoogle()`, which saves the current
+ * route to `sessionStorage` and redirects the user through the OAuth flow.
+ *
+ * Mounted by `_app.tsx` instead of the requested page whenever `user` is `null`
+ * and auth loading has finished.
+ */
 export function LoginScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">

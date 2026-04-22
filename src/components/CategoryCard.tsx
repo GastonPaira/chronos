@@ -1,11 +1,22 @@
+// Tarjeta de categoría: botón visual con imagen de fondo, ícono, nombre y dificultad dominante.
+
 import { useTranslation } from 'next-i18next';
 import type { Category, Locale } from '@/types';
+
+/**
+ * Props for `CategoryCard`.
+ *
+ * @property category - The category data to display.
+ * @property locale - Active locale used to render the translated category label.
+ * @property onClick - Called when the user taps the card.
+ */
 interface Props {
   category: Category;
   locale: Locale;
   onClick: () => void;
 }
 
+/** Maps category slugs to Unicode emoji/symbols used as visual icons. */
 const CATEGORY_ICONS: Record<string, string> = {
   'ancient-egypt':    '𓂀',
   'ancient-greece':   '🏛️',
@@ -18,6 +29,7 @@ const CATEGORY_ICONS: Record<string, string> = {
   'space-race':       '🚀',
 };
 
+/** Maps category slugs to local background image paths. */
 const CATEGORY_IMAGES: Record<string, string> = {
   'ancient-egypt':    '/images/ancient-egypt.jpg',
   'ancient-greece':   '/images/ancient-greece.jpg',
@@ -27,12 +39,27 @@ const CATEGORY_IMAGES: Record<string, string> = {
   'vikings':          '/images/vikings.jpg',
 };
 
+/**
+ * Returns the most frequently occurring difficulty value in the provided array.
+ * Used to display a single representative difficulty badge per category.
+ *
+ * @param difficulties - All difficulty values from the category's question pool.
+ * @returns The dominant difficulty string, defaulting to `'medium'` on a tie or empty input.
+ */
 const DOMINANT_DIFFICULTY = (difficulties: string[]): string => {
   const counts: Record<string, number> = {};
   for (const d of difficulties) counts[d] = (counts[d] ?? 0) + 1;
   return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'medium';
 };
 
+/**
+ * Renders a tappable category card with:
+ * - A background image (when available) that zooms slightly on hover.
+ * - A dark gradient overlay for text legibility.
+ * - The category icon, localized label, question count, and dominant difficulty badge.
+ *
+ * Used in the category selection grid on `/categories`.
+ */
 export default function CategoryCard({ category, locale, onClick }: Props) {
   const { t } = useTranslation('common');
   const icon = CATEGORY_ICONS[category.id] ?? '📜';

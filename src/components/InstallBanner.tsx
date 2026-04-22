@@ -1,8 +1,25 @@
+// Banner de instalación PWA: guía al usuario para instalar la app según el entorno del dispositivo.
+
 import { useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import { useInstallPrompt } from '@/hooks/useInstallPrompt';
 import InstallInstructionsModal from './InstallInstructionsModal';
 
+/**
+ * Renders a contextual PWA install prompt adapted to the user's environment.
+ *
+ * Render conditions (renders `null` otherwise):
+ * - Only shown on Android devices or inside WhatsApp WebView.
+ * - Hidden when the app is already installed (standalone mode).
+ *
+ * Three possible states:
+ * 1. **WhatsApp WebView** – shows a banner with a deep-link button that opens the URL
+ *    in Chrome via an Android intent URI, because WebView cannot install PWAs directly.
+ * 2. **Native install available** – shows a banner with a button that triggers
+ *    the deferred `beforeinstallprompt` browser dialog.
+ * 3. **No prompt available** – shows a small text link that opens
+ *    `InstallInstructionsModal` with manual installation steps.
+ */
 export default function InstallBanner() {
   const { t } = useTranslation('common');
   const { canInstall, isInstalled, isInWhatsAppWebView, isAndroid, promptInstall } =

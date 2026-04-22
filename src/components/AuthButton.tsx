@@ -1,8 +1,21 @@
+// Botón de autenticación: muestra "Iniciar sesión" o el menú de usuario según el estado de auth.
+
 import { useTranslation } from 'next-i18next';
 import { useAuth } from '@/context/AuthContext';
 import { signInWithGoogle, signOut } from '@/lib/auth';
 import UserMenu from '@/components/UserMenu';
 
+/**
+ * Renders either a Google sign-in button or the authenticated user's menu.
+ *
+ * - While auth state is loading: renders nothing (`null`) to avoid flicker.
+ * - When signed in: delegates to `UserMenu`, passing the user's first name,
+ *   full name, email, and a sign-out handler.
+ * - When signed out: renders a Google-branded sign-in button that calls
+ *   `signInWithGoogle()` on click.
+ *
+ * Used in the navigation header across all pages.
+ */
 export function AuthButton() {
   const { t } = useTranslation('common');
   const { user, loading } = useAuth();

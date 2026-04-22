@@ -1,7 +1,18 @@
+// Pantalla de resultados del juego individual: muestra puntaje, estrellas y opciones de replay.
+
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import ChronosLogo from './ChronosLogo';
 
+/**
+ * Props for `ResultScreen`.
+ *
+ * @property score - Number of correct answers in the completed session.
+ * @property total - Total number of questions in the session.
+ * @property category - Category slug used to restart the game via routing when `onPlayAgain` is not provided.
+ * @property onPlayAgain - Optional callback for the "Play Again" button.
+ *   When omitted, the button navigates to `/game/[category]` instead.
+ */
 interface Props {
   score: number;
   total: number;
@@ -9,6 +20,14 @@ interface Props {
   onPlayAgain?: () => void;
 }
 
+/**
+ * Returns a localized result message based on the score ratio.
+ *
+ * @param score - Correct answers.
+ * @param total - Total questions.
+ * @param t - Translation function from `next-i18next`.
+ * @returns A motivational message string for the given performance tier.
+ */
 function getMessage(score: number, total: number, t: (key: string) => string): string {
   const ratio = score / total;
   if (score === total) return t('results.messages.perfect');
@@ -17,6 +36,13 @@ function getMessage(score: number, total: number, t: (key: string) => string): s
   return t('results.messages.low');
 }
 
+/**
+ * Returns a Tailwind text-color class for the score number based on performance.
+ *
+ * @param score - Correct answers.
+ * @param total - Total questions.
+ * @returns A Tailwind CSS color class string.
+ */
 function getScoreColor(score: number, total: number): string {
   const ratio = score / total;
   if (score === total) return 'text-chronos-gold';
@@ -25,6 +51,13 @@ function getScoreColor(score: number, total: number): string {
   return 'text-chronos-muted';
 }
 
+/**
+ * Calculates the number of stars (0–3) to display for a given score.
+ *
+ * @param score - Correct answers.
+ * @param total - Total questions.
+ * @returns Star count: 3 for perfect, 2 for ≥70%, 1 for ≥40%, 0 otherwise.
+ */
 const STARS = (score: number, total: number) => {
   const ratio = score / total;
   if (ratio === 1) return 3;
@@ -33,6 +66,13 @@ const STARS = (score: number, total: number) => {
   return 0;
 };
 
+/**
+ * Displays the end-of-game results screen.
+ *
+ * Shows the Chronos logo, a 0–3 star rating, the numeric score, an optional
+ * "perfect game" badge, a performance message, and two action buttons:
+ * "Play Again" and "Choose Category".
+ */
 export default function ResultScreen({ score, total, category, onPlayAgain }: Props) {
   const { t } = useTranslation('common');
   const router = useRouter();

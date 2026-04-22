@@ -1,8 +1,18 @@
+// Panel de reflexión: muestra contexto histórico, "mientras tanto" y reflexión con audio opcional.
+
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import type { Question, Locale } from '@/types';
 import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
+/**
+ * Props for `ReflectionPanel`.
+ *
+ * @property question - The question whose educational content will be displayed.
+ * @property locale - Active locale for rendering translated text.
+ * @property isLast - When `true`, the continue button shows "Finish" instead of "Continue".
+ * @property onContinue - Called when the user taps the continue/finish button.
+ */
 interface Props {
   question: Question;
   locale: Locale;
@@ -10,6 +20,11 @@ interface Props {
   onContinue: () => void;
 }
 
+/**
+ * Small inline chevron icon that rotates 180° when the section is expanded.
+ *
+ * @property rotated - When `true`, the chevron points upward (section is open).
+ */
 const ChevronIcon = ({ rotated }: { rotated: boolean }) => (
   <svg
     width="12" height="12" viewBox="0 0 24 24"
@@ -20,6 +35,18 @@ const ChevronIcon = ({ rotated }: { rotated: boolean }) => (
   </svg>
 );
 
+/**
+ * Renders the post-answer educational panel with three expandable sections:
+ * 1. **Historical Context** (`explanation`) – always starts expanded.
+ * 2. **Meanwhile** (`meanwhile`) – what else was happening in the world.
+ * 3. **Reflect on This** (`reflection`) – an open-ended thinking prompt.
+ *
+ * Each section has a toggle button and, when the device supports it,
+ * a text-to-speech button powered by `useTextToSpeech`. Audio is stopped
+ * automatically when the question changes or when the component unmounts.
+ *
+ * Side effects: calls `stop()` from `useTextToSpeech` on question change and unmount.
+ */
 export default function ReflectionPanel({ question, locale, isLast, onContinue }: Props) {
   const { t } = useTranslation('common');
   const { speak, stop, speakingId, isSupported } = useTextToSpeech(locale);
@@ -34,7 +61,7 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
     return () => stop();
   }, [question.id, stop]);
 
-  // Reset state when question changes
+  // Reset expanded state when question changes so the context section is always open first.
   useEffect(() => {
     setExpanded({ context: true, meanwhile: false, reflect: false });
   }, [question.id]);

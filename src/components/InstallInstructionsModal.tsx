@@ -1,15 +1,32 @@
+// Modal de instrucciones de instalación: guía paso a paso para instalar la PWA manualmente.
+
 import { useTranslation } from 'next-i18next';
 
+/**
+ * Props for `InstallInstructionsModal`.
+ *
+ * @property onClose - Called when the user taps the close button or the backdrop.
+ */
 interface Props {
   onClose: () => void;
 }
 
+/** Translation keys for the three numbered installation steps. */
 const STEPS = [
   'install.help.step1',
   'install.help.step2',
   'install.help.step3',
 ] as const;
 
+/**
+ * A bottom-sheet modal that explains how to install the Chronos PWA manually.
+ *
+ * Displays a numbered list of three steps (sourced from i18n translations) and
+ * a close button. The backdrop is tappable and also closes the modal.
+ * Clicking inside the sheet stops event propagation to prevent accidental closes.
+ *
+ * Shown by `InstallBanner` when the browser does not support the native install prompt.
+ */
 export default function InstallInstructionsModal({ onClose }: Props) {
   const { t } = useTranslation('common');
 

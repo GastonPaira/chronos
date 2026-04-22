@@ -1,9 +1,21 @@
+// Pantalla de resultados del modo versus: compara puntajes de ambos jugadores con avatares y estrellas.
+
 import Image from 'next/image';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import ChronosLogo from './ChronosLogo';
 import type { PlayerWithProfile } from '@/hooks/useMatch';
 
+/**
+ * Props for `VersusResultScreen`.
+ *
+ * @property myScore - The current user's correct-answer count.
+ * @property total - Total number of questions in the match.
+ * @property myPlayer - The current user's `MatchPlayer` record with joined profile.
+ * @property opponentPlayer - The opponent's record with profile, or `null` if they haven't joined yet.
+ * @property userId - The current user's auth UUID (used to distinguish "my" card from the opponent's).
+ * @property onPlayAgain - Called when the user taps "Play Again" to start a new match in the same category.
+ */
 interface Props {
   myScore: number;
   total: number;
@@ -13,6 +25,13 @@ interface Props {
   onPlayAgain: () => void;
 }
 
+/**
+ * Maps a score ratio to a 0–3 star count.
+ *
+ * @param score - Correct answers.
+ * @param total - Total questions.
+ * @returns `3` for perfect, `2` for ≥70%, `1` for ≥40%, `0` otherwise.
+ */
 function getStars(score: number, total: number): number {
   const r = score / total;
   if (r === 1) return 3;
@@ -21,6 +40,13 @@ function getStars(score: number, total: number): number {
   return 0;
 }
 
+/**
+ * Returns a Tailwind text-color class for a score value.
+ *
+ * @param score - Correct answers.
+ * @param total - Total questions.
+ * @returns A Tailwind CSS color class string.
+ */
 function getScoreColor(score: number, total: number): string {
   const r = score / total;
   if (r === 1) return 'text-chronos-gold';
@@ -29,6 +55,13 @@ function getScoreColor(score: number, total: number): string {
   return 'text-chronos-muted';
 }
 
+/**
+ * Renders a circular player avatar.
+ * Shows the remote `avatarUrl` image when available; falls back to two-letter initials.
+ *
+ * @property name - Player's display name, used for the `alt` attribute and initials fallback.
+ * @property avatarUrl - Remote image URL from the player's profile, or `null`.
+ */
 function Avatar({ name, avatarUrl }: { name: string; avatarUrl: string | null }) {
   if (avatarUrl) {
     return (
@@ -49,6 +82,21 @@ function Avatar({ name, avatarUrl }: { name: string; avatarUrl: string | null })
   );
 }
 
+/**
+ * Displays the end-of-match versus results screen.
+ *
+ * Shows side-by-side player cards, each with an avatar, display name, score,
+ * and star rating. An outcome banner at the top announces win / loss / draw.
+ *
+ * If the opponent has not finished yet:
+ * - The opponent card shows a spinner instead of their score.
+ * - The outcome banner shows "Waiting for result..." with no win/lose declaration.
+ *
+ * If no opponent has joined the match, a placeholder card with a "?" avatar is shown.
+ *
+ * The `userId` prop is received but currently unused in the render; it is kept in
+ * the props interface for callers that may need to distinguish perspectives.
+ */
 export default function VersusResultScreen({
   myScore,
   total,

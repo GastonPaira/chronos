@@ -1,13 +1,31 @@
+// Logo de Chronos: ícono SVG dorado y texto "CHRONOS" en tres tamaños disponibles.
+
+/**
+ * Props for `ChronosLogo`.
+ *
+ * @property size - Controls the icon and text scale.
+ *   - `'sm'` – inline pill layout; icon 11×15, title `text-xs`. Used in compact headers.
+ *   - `'md'` – stacked layout; icon 44×44, title `text-3xl`. Default.
+ *   - `'lg'` – stacked layout; icon 72×72, title `text-5xl`. Used on the login/home splash.
+ */
 interface Props {
   size?: 'sm' | 'md' | 'lg';
 }
 
+/** Dimension and layout tokens indexed by size variant. */
 const sizes = {
   sm: { iconW: 11, iconH: 15, title: 'text-xs', row: true },
   md: { iconW: 44, iconH: 44, title: 'text-3xl', row: false },
   lg: { iconW: 72, iconH: 72, title: 'text-5xl', row: false },
 };
 
+/**
+ * Renders the Chronos brand logo: a custom golden hourglass-style SVG icon
+ * paired with the "CHRONOS" wordmark in Georgia serif.
+ *
+ * The `'sm'` size places icon and text side-by-side; `'md'` and `'lg'` stack them vertically.
+ * A subtle amber glow is applied to the SVG via `drop-shadow`.
+ */
 export default function ChronosLogo({ size = 'md' }: Props) {
   const s = sizes[size];
   return (

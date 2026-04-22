@@ -1,15 +1,34 @@
+// Hook para el modo versus: crear, unirse, responder y finalizar partidas multijugador.
+
 import { useCallback } from 'react';
 import { supabase } from '@/lib/supabase';
 import type { Match, MatchPlayer, MatchAnswer, Profile } from '@/types';
 
+/**
+ * A `MatchPlayer` row with its associated `Profile` already joined.
+ * The `profile` field is `null` when no matching profile exists.
+ */
 export type PlayerWithProfile = MatchPlayer & { profile: Profile | null };
 
+/**
+ * All data needed to render the versus game page for a given match.
+ *
+ * @property match - The match metadata row.
+ * @property players - All players enrolled in the match, each with their profile.
+ * @property answers - All answers submitted so far for this match.
+ */
 export interface MatchData {
   match: Match;
   players: PlayerWithProfile[];
   answers: MatchAnswer[];
 }
 
+/**
+ * Generates a random 6-character alphanumeric match ID.
+ * Excludes characters that are easily confused (I, L, O, 0, 1) for readability.
+ *
+ * @returns A 6-character uppercase string.
+ */
 function generateMatchId(): string {
   const chars = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
   let id = '';
@@ -19,7 +38,28 @@ function generateMatchId(): string {
   return id;
 }
 
+/**
+ * Provides async operations for creating and participating in versus matches.
+ * All functions are stable references (wrapped in `useCallback`) and safe to
+ * use as effect dependencies.
+ *
+ * @param userId - The authenticated user's UUID, or `undefined` when not signed in.
+ *
+ * @returns
+ * - `createMatch(categoryId, questionIds)` – creates a new match and registers the creator as the first player.
+ * - `loadMatch(matchId)` – fetches full match data including players, profiles, and submitted answers.
+ * - `joinMatch(matchId)` – adds the current user to an existing waiting match and transitions it to `'playing'`.
+ * - `submitAnswer(matchId, questionId, selectedIndex, isCorrect)` – inserts a single answer row; silently ignores duplicate submissions.
+ * - `finishMatch(matchId, score)` – marks the current player as finished and, if all players are done, marks the match as `'finished'`.
+ */
 export function useMatch(userId: string | undefined) {
+  /**
+   * Fetches all data for a match: the match row, its players with joined profiles,
+   * and all submitted answers.
+   *
+   * @param matchId - The 6-character match code.
+   * @returns The full `MatchData` object, or `null` if the match does not exist or an error occurred.
+   */
   const loadMatch = useCallback(async (matchId: string): Promise<MatchData | null> => {
     const { data: match, error: matchError } = await supabase
       .from('matches')
@@ -65,6 +105,14 @@ export function useMatch(userId: string | undefined) {
     };
   }, []);
 
+  /**
+   * Creates a new versus match, retrying ID generation up to 3 times on collision.
+   *
+   * @param categoryId - Category slug for the match.
+   * @param questionIds - Ordered list of question IDs that both players will answer.
+   * @returns The generated match ID string.
+   * @throws If the user is not authenticated or if a Supabase insert fails.
+   */
   const createMatch = useCallback(
     async (categoryId: string, questionIds: string[]): Promise<string> => {
       if (!userId) throw new Error('Not authenticated');
@@ -107,6 +155,13 @@ export function useMatch(userId: string | undefined) {
     [userId]
   );
 
+  /**
+   * Joins an existing match as the second player and transitions the match to `'playing'`.
+   * If the current user is already a participant, this is a no-op.
+   *
+   * @param matchId - The 6-character match code to join.
+   * @throws If the user is not authenticated, the match is not found, already finished, or full.
+   */
   const joinMatch = useCallback(
     async (matchId: string): Promise<void> => {
       if (!userId) throw new Error('Not authenticated');
@@ -137,6 +192,16 @@ export function useMatch(userId: string | undefined) {
     [userId, loadMatch]
   );
 
+  /**
+   * Persists a single answer for the current user in the match.
+   * Silently swallows duplicate-key errors (Postgres code `23505`) so that
+   * re-submitting the same question is safe.
+   *
+   * @param matchId - Target match.
+   * @param questionId - The question being answered.
+   * @param selectedIndex - The option index (0 or 1) the user chose.
+   * @param isCorrect - Whether the selected option was correct.
+   */
   const submitAnswer = useCallback(
     async (
       matchId: string,
@@ -160,6 +225,13 @@ export function useMatch(userId: string | undefined) {
     [userId]
   );
 
+  /**
+   * Marks the current user's participation as finished with their final score.
+   * If all players in the match are now finished, the match status is also set to `'finished'`.
+   *
+   * @param matchId - Target match.
+   * @param score - The player's final correct-answer count.
+   */
   const finishMatch = useCallback(
     async (matchId: string, score: number): Promise<void> => {
       if (!userId) return;

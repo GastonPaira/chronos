@@ -1,6 +1,16 @@
+// Menú desplegable de usuario: muestra nombre, email, acceso a estadísticas y cerrar sesión.
+
 import { useRef, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
+/**
+ * Props for `UserMenu`.
+ *
+ * @property name - The user's first name, shown in the trigger pill button.
+ * @property fullName - The user's complete name, shown inside the dropdown header.
+ * @property email - The user's email address, shown below the full name.
+ * @property onSignOut - Called when the user clicks "Cerrar sesión".
+ */
 interface UserMenuProps {
   name: string;
   fullName: string;
@@ -8,6 +18,20 @@ interface UserMenuProps {
   onSignOut: () => void;
 }
 
+/**
+ * Renders a pill-style trigger button that opens a dropdown menu for the authenticated user.
+ *
+ * The dropdown contains:
+ * - A profile section with full name and email.
+ * - A link to `/stats` (Mis estadísticas).
+ * - A sign-out action.
+ *
+ * The dropdown closes when the user clicks outside the container or presses Escape.
+ * The dropdown side (left/right-aligned) is determined by the trigger's position on screen
+ * so that it never overflows the viewport edge.
+ *
+ * Side effects: adds and removes `mousedown` and `keydown` listeners on the document.
+ */
 export default function UserMenu({ name, fullName, email, onSignOut }: UserMenuProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownSide, setDropdownSide] = useState<'left' | 'right'>('right');
@@ -31,6 +55,11 @@ export default function UserMenu({ name, fullName, email, onSignOut }: UserMenuP
     };
   }, []);
 
+  /**
+   * Toggles the dropdown open/closed.
+   * On open, measures the trigger's position to determine whether to align the dropdown
+   * to the left or right edge, avoiding viewport overflow.
+   */
   const handleToggle = () => {
     if (!isOpen && containerRef.current) {
       const rect = containerRef.current.getBoundingClientRect();

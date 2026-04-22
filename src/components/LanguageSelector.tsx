@@ -1,12 +1,26 @@
+// Selector de idioma: dropdown para cambiar entre inglés y español manteniendo la ruta actual.
+
 import { useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import { useRef, useState, useEffect } from 'react';
 
+/** Supported display languages with their BCP-47 code, label, and flag emoji. */
 const LANGUAGES = [
   { code: 'en', label: 'English', flag: '🇬🇧' },
   { code: 'es', label: 'Español', flag: '🇪🇸' },
 ] as const;
 
+/**
+ * Renders a globe icon button that opens a language selection dropdown.
+ *
+ * Switching a language calls `router.push` with the new locale while keeping
+ * the current path (`router.asPath`), so the user stays on the same page.
+ * The currently active language is highlighted in gold with a checkmark.
+ *
+ * The dropdown closes when the user clicks outside or presses Escape.
+ *
+ * Side effects: adds and removes `mousedown` and `keydown` listeners on the document.
+ */
 export default function LanguageSelector() {
   const router = useRouter();
   const { i18n } = useTranslation();
@@ -31,6 +45,11 @@ export default function LanguageSelector() {
     };
   }, []);
 
+  /**
+   * Switches the active locale to `locale` while preserving the current URL path.
+   *
+   * @param locale - BCP-47 locale code (`'en'` or `'es'`).
+   */
   const switchLanguage = (locale: string) => {
     router.push(router.asPath, router.asPath, { locale });
     setIsOpen(false);
