@@ -66,6 +66,17 @@ export default function Home() {
           </span>
         </button>
 
+        {/* Multiplayer button */}
+        <button
+          onClick={() => router.push('/multiplayer')}
+          className="w-full rounded-2xl border border-chronos-gold/40 bg-chronos-gold/5 px-8 py-4 text-chronos-gold text-sm font-medium tracking-widest uppercase transition-all duration-200 hover:bg-chronos-gold/10 hover:border-chronos-gold active:scale-[0.97]"
+        >
+          <span className="flex items-center justify-center gap-2">
+            <span>⚔️</span>
+            {t('home.multiplayerButton')}
+          </span>
+        </button>
+
         {/* View Stats button */}
         <button
           onClick={() => router.push('/stats')}

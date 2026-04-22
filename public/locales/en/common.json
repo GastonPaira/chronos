@@ -3,6 +3,7 @@
     "tagline": "Journey through the ages",
     "subtitle": "Historical Trivia",
     "playButton": "Play",
+    "multiplayerButton": "Multiplayer",
     "languageLabel": "Language"
   },
   "eras": {
@@ -135,6 +136,14 @@
   "versus": {
     "challengeFriend": "Challenge a Friend",
     "challengeReady": "Challenge Ready!",
+    "createChallenge": "Create challenge",
+    "selectEra": "Choose an era for the duel",
+    "stepEra": "Step 1 · Era",
+    "stepCategory": "Step 2 · Category",
+    "stepShare": "Step 3 · Share",
+    "selectCategory": "Choose a category",
+    "newChallenge": "New challenge",
+    "whatsappMessage": "I challenge you to a history duel on Chronos!",
     "shareLink": "Share this link with your friend:",
     "shareToPlay": "Share this link so your opponent can join:",
     "copyLink": "Copy Link",

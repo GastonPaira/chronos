@@ -3,6 +3,7 @@
     "tagline": "Viaja a través de los siglos",
     "subtitle": "Trivia Histórica",
     "playButton": "Jugar",
+    "multiplayerButton": "Multijugador",
     "languageLabel": "Idioma"
   },
   "eras": {
@@ -135,6 +136,14 @@
   "versus": {
     "challengeFriend": "Desafiar a un amigo",
     "challengeReady": "¡Desafío creado!",
+    "createChallenge": "Crear desafío",
+    "selectEra": "Elegí una era para el duelo",
+    "stepEra": "Paso 1 · Era",
+    "stepCategory": "Paso 2 · Categoría",
+    "stepShare": "Paso 3 · Compartir",
+    "selectCategory": "Elegí una categoría",
+    "newChallenge": "Nuevo desafío",
+    "whatsappMessage": "¡Te desafío a un duelo de historia en Chronos!",
     "shareLink": "Compartí este link con tu amigo:",
     "shareToPlay": "Compartí este link para que tu rival pueda unirse:",
     "copyLink": "Copiar link",
