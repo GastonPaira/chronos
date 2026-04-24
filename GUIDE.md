@@ -17,7 +17,8 @@
 | Los textos del panel de reflexión (títulos, botones) | `public/locales/*/common.json` → claves `reflection.*`                                               |
 | Los mensajes de racha (streak)                       | `public/locales/*/common.json` → claves `streak.*`                                                   |
 | Los mensajes de resultado final                      | `public/locales/*/common.json` → claves `results.*`                                                  |
-| Los mensajes del modo versus                         | `public/locales/*/common.json` → claves `versus.*`                                                   |
+| Los mensajes del modo versus / multijugador          | `public/locales/*/common.json` → claves `versus.*` y `home.multiplayerButton`                        |
+| El flujo de creación de desafío versus               | `src/pages/multiplayer.tsx`                                                                          |
 | Los textos de instalación de la PWA                  | `public/locales/*/common.json` → claves `install.*`                                                  |
 | Las traducciones de dificultad (Fácil/Medio/Difícil) | `public/locales/*/common.json` → claves `categories.difficulty.*`                                    |
 | Cómo se calculan los puntos de racha                 | `src/hooks/useStreak.ts` → función `registerPlay`                                                    |
@@ -34,7 +35,7 @@
 | Cómo se construye el cliente de Supabase             | `src/lib/supabase.ts`                                                                                |
 | La selección de voz para texto-a-voz                 | `src/hooks/useTextToSpeech.ts` → funciones `pickBestVoice` y `LANG_PREFS`                           |
 | El número de preguntas por ronda                     | `src/hooks/useGame.ts` → constante `QUESTIONS_PER_ROUND`                                            |
-| Qué categorías pertenecen a cada era                 | `src/pages/eras.tsx` → `ERA_DEFS` y `src/pages/categories.tsx` → `ERA_CATEGORIES`                  |
+| Qué categorías pertenecen a cada era                 | `src/pages/eras.tsx` → `ERA_DEFS`, `src/pages/categories.tsx` → `ERA_CATEGORIES`, `src/pages/multiplayer.tsx` → `ERA_CATEGORIES` |
 
 ---
 
@@ -42,7 +43,7 @@
 
 ### `src/pages/index.tsx` — Home
 
-Es la pantalla de bienvenida de la aplicación. Muestra el logo grande de Chronos, el tagline localizado, el banner de instalación de la PWA (solo en Android), el estado de la racha del usuario si ya jugó alguna vez, y dos botones: uno para empezar a jugar (navega a `/eras`) y otro para ver las estadísticas. En la esquina superior tiene el botón de autenticación y el selector de idioma. La página se genera estáticamente con `getStaticProps` para soportar i18n.
+Es la pantalla de bienvenida de la aplicación. Muestra el logo grande de Chronos, el tagline localizado, el banner de instalación de la PWA (solo en Android), el estado de la racha del usuario si ya jugó alguna vez, y tres botones: **Jugar** (navega a `/eras`), **Multijugador** (navega a `/multiplayer`, estilo borde dorado con ícono ⚔️) y **Ver Estadísticas** (navega a `/stats`). En la esquina superior tiene el botón de autenticación y el selector de idioma. La página se genera estáticamente con `getStaticProps` para soportar i18n.
 
 ### `src/pages/eras.tsx` — Selección de era
 
@@ -50,7 +51,11 @@ Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras histór
 
 ### `src/pages/categories.tsx` — Selección de categoría
 
-Es el segundo paso del flujo de juego. Muestra la grilla de categorías disponibles, opcionalmente filtrada por la era que viene en el query param `?era=`. Para cada categoría hay dos elementos: la tarjeta que lleva al juego individual (`/game/<id>`) y un botón "Desafiar a un amigo" que crea una partida versus en Supabase, genera el link compartible y muestra un modal para copiarlo. Si el usuario no está autenticado al intentar desafiar, lo redirige al flujo de Google OAuth. Los datos de categorías se derivan en tiempo de build a partir de las preguntas cargadas desde los JSON.
+Es el segundo paso del flujo de juego individual. Muestra la grilla de categorías disponibles, opcionalmente filtrada por la era que viene en el query param `?era=`. Cada categoría es un `CategoryCard` que al tocarse navega a `/game/<id>`. No contiene ninguna lógica de multijugador; el flujo de desafío versus fue movido completamente a `/multiplayer`. Los datos de categorías se derivan en tiempo de build a partir de las preguntas cargadas desde los JSON.
+
+### `src/pages/multiplayer.tsx` — Crear desafío versus
+
+Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra solo las eras que ya tienen preguntas (Edad Antigua y Edad Media) con su imagen y descripción. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, guarda la ruta actual en `sessionStorage` y redirige al flujo de Google OAuth (la página de callback lo devolverá acá al terminar). La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Contiene su propia copia de `ERA_CATEGORIES` (mapa de era → categorías) para el filtrado.
 
 ### `src/pages/game/[category].tsx` — Juego individual
 
@@ -249,18 +254,21 @@ const questionsData = [
 
 ### Paso 3 — Asociar la categoría a una era
 
-Hay dos objetos que mapean categorías a eras, uno en cada archivo:
+Hay **tres** objetos que mapean categorías a eras, uno en cada archivo:
 
 - `src/pages/eras.tsx` → `ERA_DEFS`: agregar el slug al `categoryIds` de la era correspondiente.
 - `src/pages/categories.tsx` → `ERA_CATEGORIES`: agregar el slug al array de la misma era.
+- `src/pages/multiplayer.tsx` → `ERA_CATEGORIES`: agregar el slug al array de la misma era (copia independiente del mapa).
 
 ```ts
 // En ERA_DEFS (eras.tsx):
 { id: 'middle-ages', icon: '⚜️', categoryIds: ['byzantine-empire', 'crusades-chivalry', 'vikings', 'ottoman-empire'] }
 
-// En ERA_CATEGORIES (categories.tsx):
+// En ERA_CATEGORIES (categories.tsx y multiplayer.tsx — ambos archivos):
 'middle-ages': ['byzantine-empire', 'crusades-chivalry', 'vikings', 'ottoman-empire']
 ```
+
+> **Nota:** Si la nueva categoría es de una era que ya aparece en `/multiplayer` (Edad Antigua o Edad Media), hay que agregarla también en el `ERA_CATEGORIES` de `multiplayer.tsx` para que sea seleccionable al crear un desafío.
 
 ### Paso 4 — Agregar ícono y imagen de fondo
 
@@ -319,6 +327,7 @@ Correr `npm run build` para que Next.js regenere los paths estáticos de `/game/
 > `src/data/questions/index.ts` ·
 > `src/pages/eras.tsx` ·
 > `src/pages/categories.tsx` ·
+> `src/pages/multiplayer.tsx` ·
 > `src/components/CategoryCard.tsx` ·
 > `src/components/QuestionCard.tsx` ·
 > `src/pages/game/[category].tsx` ·

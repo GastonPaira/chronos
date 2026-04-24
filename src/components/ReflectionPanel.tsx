@@ -85,13 +85,13 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
             </span>
           </div>
           <div className="flex items-center gap-2">
-            {isSupported && (
+            {isSupported && locale === 'en' && (
               <span
-                onClick={e => { e.stopPropagation(); speak(question.explanation[locale], 'explanation'); }}
+                onClick={e => { e.stopPropagation(); speak(question.explanation.en, 'en', `${question.id}_explanation_en`); }}
                 className="p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none"
-                title={speakingId === 'explanation' ? t('audio.stop') : t('audio.read')}
+                title={speakingId === `${question.id}_explanation_en` ? t('audio.stop') : t('audio.read')}
               >
-                {speakingId === 'explanation' ? '⏹' : '🔊'}
+                {speakingId === `${question.id}_explanation_en` ? '⏹' : '🔊'}
               </span>
             )}
             <ChevronIcon rotated={expanded.context} />
@@ -126,13 +126,13 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
             </span>
           </div>
           <div className="flex items-center gap-2">
-            {isSupported && (
+            {isSupported && locale === 'en' && (
               <span
-                onClick={e => { e.stopPropagation(); speak(question.meanwhile[locale], 'meanwhile'); }}
+                onClick={e => { e.stopPropagation(); speak(question.meanwhile.en, 'en', `${question.id}_meanwhile_en`); }}
                 className="p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none"
-                title={speakingId === 'meanwhile' ? t('audio.stop') : t('audio.read')}
+                title={speakingId === `${question.id}_meanwhile_en` ? t('audio.stop') : t('audio.read')}
               >
-                {speakingId === 'meanwhile' ? '⏹' : '🔊'}
+                {speakingId === `${question.id}_meanwhile_en` ? '⏹' : '🔊'}
               </span>
             )}
             <ChevronIcon rotated={expanded.meanwhile} />
@@ -167,13 +167,13 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
             </span>
           </div>
           <div className="flex items-center gap-2">
-            {isSupported && (
+            {isSupported && locale === 'en' && (
               <span
-                onClick={e => { e.stopPropagation(); speak(question.reflection[locale], 'reflection'); }}
+                onClick={e => { e.stopPropagation(); speak(question.reflection.en, 'en', `${question.id}_reflection_en`); }}
                 className="p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none"
-                title={speakingId === 'reflection' ? t('audio.stop') : t('audio.read')}
+                title={speakingId === `${question.id}_reflection_en` ? t('audio.stop') : t('audio.read')}
               >
-                {speakingId === 'reflection' ? '⏹' : '🔊'}
+                {speakingId === `${question.id}_reflection_en` ? '⏹' : '🔊'}
               </span>
             )}
             <ChevronIcon rotated={expanded.reflect} />
