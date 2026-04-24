@@ -89,10 +89,10 @@ export function useTextToSpeech(locale: Locale) {
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  // Evaluate after mount so we always use the real navigator UA, never the SSR context.
-  // isSupported is false during SSR (no buttons in server HTML), true on desktop after hydration.
+  // Evaluate after mount to avoid SSR/hydration mismatch.
+  // True on any browser that supports the Audio API — Android included.
   useEffect(() => {
-    setIsSupported(!isAndroid());
+    setIsSupported(typeof Audio !== 'undefined');
   }, []);
 
   /** Stops both the MP3 player and any active Web Speech utterance. */
@@ -137,7 +137,8 @@ export function useTextToSpeech(locale: Locale) {
       };
 
       audio.onerror = async () => {
-        // MP3 not found — fall back to Web Speech API
+        // MP3 not found — fall back to Web Speech API (skip on Android, MP3 should always exist)
+        if (isAndroid()) return;
         if (!('speechSynthesis' in window)) return;
         const voices = await loadVoices();
         const utterance = new SpeechSynthesisUtterance(text);
