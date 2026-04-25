@@ -1,6 +1,6 @@
 // Panel de reflexión: muestra contexto histórico, "mientras tanto" y reflexión con audio opcional.
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import type { Question, Locale } from '@/types';
 import { useTextToSpeech } from '@/hooks/useTextToSpeech';
@@ -51,6 +51,8 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
   const { t } = useTranslation('common');
   const { speak, stop, speakingId, isSupported } = useTextToSpeech(locale);
 
+  const containerRef = useRef<HTMLDivElement>(null);
+
   const [expanded, setExpanded] = useState<Record<string, boolean>>({
     context: true,
     meanwhile: false,
@@ -66,12 +68,33 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
     setExpanded({ context: true, meanwhile: false, reflect: false });
   }, [question.id]);
 
+  useEffect(() => {
+    const el = containerRef.current;
+    if (!el || typeof window === 'undefined' || !window.speechSynthesis) return;
+
+    const handleSelectionRead = () => {
+      const selected = window.getSelection()?.toString().trim();
+      if (!selected) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(selected);
+      utterance.lang = locale === 'es' ? 'es-ES' : 'en-US';
+      window.speechSynthesis.speak(utterance);
+    };
+
+    el.addEventListener('mouseup', handleSelectionRead);
+    el.addEventListener('touchend', handleSelectionRead);
+    return () => {
+      el.removeEventListener('mouseup', handleSelectionRead);
+      el.removeEventListener('touchend', handleSelectionRead);
+    };
+  }, [locale]);
+
   const toggle = (key: string) => {
     setExpanded(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
   return (
-    <div className="flex flex-col w-full animate-slide-down">
+    <div ref={containerRef} className="flex flex-col w-full animate-slide-down">
       {/* Historical Context */}
       <div className="bg-black/30 border border-white/6 rounded-xl mb-2 overflow-hidden">
         <button
