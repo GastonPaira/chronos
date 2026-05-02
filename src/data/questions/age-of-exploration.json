@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ex-001",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "easy",
+    "question": {
+      "en": "In what year did Christopher Columbus's first voyage make landfall in the Bahamas, initiating sustained contact between Europe and the Americas?",
+      "es": "¿En qué año el primer viaje de Cristóbal Colón llegó a las Bahamas, iniciando el contacto sostenido entre Europa y las Américas?"
+    },
+    "options": [
+      { "en": "1492", "es": "1492" },
+      { "en": "1502", "es": "1502" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Columbus departed from Palos de la Frontera on August 3, 1492, and made landfall in the Bahamas on October 12, claiming the island for Spain. He completed four voyages to the Caribbean but never recognized that he had found an entirely new continent. His 1492 arrival initiated the permanent, transformative connection between the Old and New Worlds.",
+      "es": "Colón partió de Palos de la Frontera el 3 de agosto de 1492 y llegó a las Bahamas el 12 de octubre, reclamando la isla para España. Realizó cuatro viajes al Caribe pero nunca reconoció que había encontrado un continente completamente nuevo. Su llegada en 1492 inició la conexión permanente y transformadora entre el Viejo y el Nuevo Mundo."
+    },
+    "meanwhile": {
+      "en": "In 1492, the Ottoman Empire under Bayezid II welcomed thousands of Sephardic Jews expelled from Spain that same year, transforming Ottoman cities into centers of medicine, finance, and scholarship.",
+      "es": "En 1492, el Imperio Otomano bajo Bayezid II acogió a miles de judíos sefardíes expulsados de España ese mismo año, convirtiendo las ciudades otomanas en centros de medicina, finanzas y conocimiento."
+    },
+    "reflection": {
+      "en": "Columbus's voyages launched an era of global connection but also of conquest and exploitation. At what point does 'discovery' become something more difficult to celebrate without reservation?",
+      "es": "Los viajes de Colón inauguraron una era de conexión global, pero también de conquista y explotación. ¿En qué punto el 'descubrimiento' se convierte en algo más difícil de celebrar sin reservas?"
+    }
+  },
+  {
+    "id": "ex-002",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Vasco da Gama's 1497–1499 voyage was the first European expedition to reach India by sea. What was its primary commercial goal?",
+      "es": "El viaje de Vasco da Gama de 1497-1499 fue la primera expedición europea en llegar a India por mar. ¿Cuál era su principal objetivo comercial?"
+    },
+    "options": [
+      { "en": "To establish a direct maritime spice route bypassing Arab and Venetian middlemen", "es": "Establecer una ruta marítima directa de especias que evitara a los intermediarios árabes y venecianos" },
+      { "en": "To find a sea passage to China and secure access to silk and porcelain", "es": "Encontrar un paso marítimo hacia China y asegurar el acceso a seda y porcelana" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Da Gama sailed around the Cape of Good Hope and arrived in Calicut, India, in May 1498, opening a direct sea route for spices, silks, and gems. The Portuguese crown financed the journey primarily to break the Arab-Venetian monopoly on the spice trade, which drove up prices enormously in Europe. His return cargo was worth roughly sixty times the cost of the entire expedition.",
+      "es": "Da Gama navegó alrededor del Cabo de Buena Esperanza y llegó a Calicut, India, en mayo de 1498, abriendo una ruta marítima directa para especias, sedas y gemas. La corona portuguesa financió el viaje principalmente para romper el monopolio árabe-veneciano sobre el comercio de especias, que encarecía enormemente los productos en Europa. Su carga de retorno valió aproximadamente sesenta veces el costo de toda la expedición."
+    },
+    "meanwhile": {
+      "en": "When da Gama arrived in Calicut, he found Arab merchants who had traded there for centuries. The Indian Ocean already had a sophisticated network of Muslim, Hindu, and Chinese traders — the Portuguese arrival was not discovery of an unknown world but the insertion of a new, often violent, competitor into an existing global system.",
+      "es": "Cuando da Gama llegó a Calicut, encontró comerciantes árabes que llevaban siglos operando allí. El Océano Índico ya tenía una sofisticada red de mercaderes musulmanes, hindúes y chinos: la llegada portuguesa no fue el descubrimiento de un mundo desconocido, sino la inserción de un nuevo competidor, a menudo violento, en un sistema global ya existente."
+    },
+    "reflection": {
+      "en": "Da Gama's route ended the dominance of Venetian and Arab spice traders who had built their livelihoods over generations. Is it possible to benefit from a trade breakthrough without causing harm to those whose advantage you displace?",
+      "es": "La ruta de da Gama terminó con el dominio de los comerciantes de especias venecianos y árabes, que habían construido sus medios de vida durante generaciones. ¿Es posible beneficiarse de un avance comercial sin causar daño a quienes desplazas?"
+    }
+  },
+  {
+    "id": "ex-003",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "easy",
+    "question": {
+      "en": "The Magellan-Elcano expedition (1519–1522) completed the first circumnavigation of the globe. Who commanded the fleet for its return to Spain after Magellan was killed in the Philippines?",
+      "es": "La expedición Magallanes-Elcano (1519-1522) completó la primera circunnavegación del globo. ¿Quién comandó la flota en su regreso a España tras la muerte de Magallanes en Filipinas?"
+    },
+    "options": [
+      { "en": "Juan Sebastián Elcano", "es": "Juan Sebastián Elcano" },
+      { "en": "Gonzalo Gómez de Espinosa", "es": "Gonzalo Gómez de Espinosa" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Ferdinand Magellan died in battle in Cebu, Philippines, in April 1521. Juan Sebastián Elcano, a Basque navigator, assumed command and brought the Victoria — the only surviving ship of the original five — back to Sanlúcar de Barrameda in September 1522 with just 18 of the original 270 men. The voyage proved Earth was spherical and established the first documented circumnavigation.",
+      "es": "Fernando de Magallanes murió en combate en Cebú, Filipinas, en abril de 1521. Juan Sebastián Elcano, un navegante vasco, asumió el mando y trajo la Victoria —el único barco sobreviviente de los cinco originales— de regreso a Sanlúcar de Barrameda en septiembre de 1522, con solo 18 de los 270 hombres originales. El viaje demostró que la Tierra era esférica y estableció la primera circunnavegación documentada."
+    },
+    "meanwhile": {
+      "en": "When Magellan's fleet departed in 1519, the Aztec Empire was at the height of its power. By the time Elcano returned in 1522, Hernán Cortés had already conquered Tenochtitlan, permanently transforming the political landscape of the Americas.",
+      "es": "Cuando la flota de Magallanes partió en 1519, el Imperio Azteca estaba en la cima de su poder. Para cuando Elcano regresó en 1522, Hernán Cortés ya había conquistado Tenochtitlán, transformando permanentemente el paisaje político de las Américas."
+    },
+    "reflection": {
+      "en": "Elcano is far less famous than Magellan despite completing the historic voyage and bringing the crew home. Does the person who starts a monumental journey deserve more recognition than the one who finishes it?",
+      "es": "Elcano es mucho menos famoso que Magallanes a pesar de completar el histórico viaje y traer a la tripulación a casa. ¿Merece más reconocimiento quien inicia un viaje monumental que quien lo termina?"
+    }
+  },
+  {
+    "id": "ex-004",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Hernán Cortés achieved the conquest of the Aztec Empire (1519–1521) with a relatively small Spanish force. What was his most decisive political strategy?",
+      "es": "Hernán Cortés logró la conquista del Imperio Azteca (1519-1521) con una fuerza española relativamente pequeña. ¿Cuál fue su estrategia política más decisiva?"
+    },
+    "options": [
+      { "en": "Forging military alliances with indigenous peoples who resented Aztec rule, such as the Tlaxcalans", "es": "Formar alianzas militares con pueblos indígenas que resistían el dominio azteca, como los tlaxcaltecas" },
+      { "en": "Obtaining Portuguese naval support and weapons technology superior to anything in Mesoamerica", "es": "Obtener apoyo naval portugués y tecnología armamentística superior a cualquier cosa en Mesoamérica" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cortés recognized that the Aztec Empire was held together by tribute and fear, creating many enemies among subject peoples. His alliance with the Tlaxcalans and other groups produced indigenous armies numbering in the tens of thousands — without them, a force of a few hundred Spaniards could not have defeated an empire of millions. Disease, political manipulation, and strategic brilliance all played roles, but indigenous alliances were indispensable.",
+      "es": "Cortés reconoció que el Imperio Azteca se mantenía unido mediante tributos y miedo, lo que generaba muchos enemigos entre los pueblos sometidos. Su alianza con los tlaxcaltecas y otros grupos produjo ejércitos indígenas que sumaban decenas de miles de guerreros: sin ellos, una fuerza de pocos cientos de españoles no habría podido derrotar a un imperio de millones. Las enfermedades, la manipulación política y la brillantez estratégica jugaron papeles importantes, pero las alianzas indígenas fueron indispensables."
+    },
+    "meanwhile": {
+      "en": "While Cortés was conquering Mexico, the Ottoman Sultan Suleiman the Magnificent came to power in 1520 and launched his own expansion, besieging Belgrade and Rhodes — another empire simultaneously reshaping the world in a very different part of it.",
+      "es": "Mientras Cortés conquistaba México, el sultán otomano Solimán el Magnífico llegó al poder en 1520 y lanzó su propia expansión, sitiando Belgrado y Rodas: otro imperio que remodelaba el mundo simultáneamente en una parte muy diferente de él."
+    },
+    "reflection": {
+      "en": "Without the Tlaxcalans and other indigenous allies, the Spanish conquest of the Aztec Empire might have been impossible. How does this complicate the common narrative of 'European conquest' of the Americas?",
+      "es": "Sin los tlaxcaltecas y otros aliados indígenas, la conquista española del Imperio Azteca podría haber sido imposible. ¿Cómo complica esto el relato habitual de la 'conquista europea' de las Américas?"
+    }
+  },
+  {
+    "id": "ex-005",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Francisco Pizarro's conquest of the Inca Empire (1532) was dramatically accelerated by a combination of two factors he found upon arrival. Which pair is most historically accurate?",
+      "es": "La conquista del Imperio Inca por Francisco Pizarro (1532) se vio drásticamente acelerada por una combinación de dos factores que encontró a su llegada. ¿Qué par es más históricamente preciso?"
+    },
+    "options": [
+      { "en": "A devastating smallpox epidemic and an ongoing civil war between rival claimants to the throne", "es": "Una devastadora epidemia de viruela y una guerra civil en curso entre rivales al trono" },
+      { "en": "An earthquake that destroyed Inca fortifications and a drought that had depleted their food reserves", "es": "Un terremoto que destruyó las fortificaciones incas y una sequía que había agotado sus reservas de alimentos" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Smallpox, introduced through earlier contacts, had killed the Inca Emperor Huayna Capac around 1527, triggering a civil war between his sons Atahualpa and Huáscar. When Pizarro arrived, he exploited this instability — capturing Atahualpa at Cajamarca in 1532 and executing him even after receiving a room-sized ransom in gold. The epidemic and civil war had left the empire's political structure in disarray precisely when the Spanish arrived.",
+      "es": "La viruela, introducida a través de contactos anteriores, había matado al emperador inca Huayna Capac alrededor de 1527, desencadenando una guerra civil entre sus hijos Atahualpa y Huáscar. Cuando Pizarro llegó, aprovechó esta inestabilidad: capturó a Atahualpa en Cajamarca en 1532 y lo ejecutó incluso después de recibir un enorme rescate en oro. La epidemia y la guerra civil habían dejado la estructura política del imperio en completo desorden justo cuando llegaron los españoles."
+    },
+    "meanwhile": {
+      "en": "At the same time, the Mughal Emperor Babur was completing his conquest of northern India (1526–1530), establishing the Mughal Dynasty — another instance of a mobile, tactically agile force defeating a larger, established empire through political exploitation of existing divisions.",
+      "es": "Al mismo tiempo, el emperador mogol Babur completaba su conquista del norte de India (1526-1530), estableciendo la dinastía mogol: otro ejemplo de una fuerza móvil y tácticamente ágil que derrotó a un imperio más grande aprovechando las divisiones políticas existentes."
+    },
+    "reflection": {
+      "en": "The Inca Empire fell partly because a European-introduced disease caused a succession crisis before Pizarro even arrived. What does this suggest about the role of unintended consequences in shaping historical outcomes?",
+      "es": "El Imperio Inca cayó en parte porque una enfermedad introducida por europeos causó una crisis de sucesión antes de que Pizarro siquiera llegara. ¿Qué sugiere esto sobre el papel de las consecuencias no deseadas en la configuración de los resultados históricos?"
+    }
+  },
+  {
+    "id": "ex-006",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "medium",
+    "question": {
+      "en": "The 1494 Treaty of Tordesillas divided the non-European world between Spain and Portugal. What was most remarkable about this agreement from a global perspective?",
+      "es": "El Tratado de Tordesillas de 1494 dividió el mundo no europeo entre España y Portugal. ¿Qué resultó más notable de este acuerdo desde una perspectiva global?"
+    },
+    "options": [
+      { "en": "It assigned sovereignty over lands and peoples whose full existence was unknown at the time of signing", "es": "Asignó soberanía sobre tierras y pueblos cuya existencia completa era desconocida en el momento de la firma" },
+      { "en": "It was the first international treaty brokered by a religious authority rather than two secular rulers", "es": "Fue el primer tratado internacional mediado por una autoridad religiosa en lugar de dos gobernantes seculares" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Brokered by Pope Alexander VI, the Treaty drew a line 370 leagues west of the Cape Verde Islands, giving Spain rights to everything to the west and Portugal to the east. When Brazil was reached in 1500, it fell east of the line, determining Portuguese colonization. The Americas were still largely unknown in 1494 — the agreement divided a world that Europeans had not yet seen, without the knowledge or consent of any of its inhabitants.",
+      "es": "Mediado por el papa Alejandro VI, el Tratado trazó una línea 370 leguas al oeste de las islas de Cabo Verde, otorgando a España los derechos sobre todo lo occidental y a Portugal sobre lo oriental. Cuando Brasil fue alcanzado en 1500, quedó al este de la línea, determinando su colonización portuguesa. Las Américas eran aún en gran parte desconocidas en 1494: el acuerdo dividió un mundo que los europeos todavía no habían visto, sin el conocimiento ni el consentimiento de ninguno de sus habitantes."
+    },
+    "meanwhile": {
+      "en": "While Spain and Portugal were dividing the world, the Ottoman Empire under Bayezid II had just welcomed over 100,000 Sephardic Jews expelled from Spain in 1492 — a starkly different policy toward outsiders happening simultaneously on the other side of the Mediterranean.",
+      "es": "Mientras España y Portugal dividían el mundo, el Imperio Otomano bajo Bayezid II acababa de acoger a más de 100.000 judíos sefardíes expulsados de España en 1492: una política radicalmente diferente hacia los foráneos que ocurría simultáneamente al otro lado del Mediterráneo."
+    },
+    "reflection": {
+      "en": "Two kingdoms divided the entire non-European world between themselves without consulting a single one of its inhabitants. What assumptions about power and humanity does this act reflect, and do any of those assumptions persist in international law today?",
+      "es": "Dos reinos dividieron todo el mundo no europeo entre ellos sin consultar a ninguno de sus habitantes. ¿Qué suposiciones sobre el poder y la humanidad refleja este acto, y perviven algunas de esas suposiciones en el derecho internacional actual?"
+    }
+  },
+  {
+    "id": "ex-007",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "medium",
+    "question": {
+      "en": "What was the primary commercial motivation for European powers to seek maritime routes to Asia rather than using the established overland Silk Road in the late 15th century?",
+      "es": "¿Cuál fue la principal motivación comercial para que las potencias europeas buscaran rutas marítimas hacia Asia en lugar de usar la establecida Ruta de la Seda terrestre a finales del siglo XV?"
+    },
+    "options": [
+      { "en": "The Ottoman Empire controlled key Silk Road chokepoints, making overland trade expensive and politically dependent", "es": "El Imperio Otomano controlaba puntos clave de la Ruta de la Seda, haciendo el comercio terrestre caro y políticamente dependiente" },
+      { "en": "The Silk Road had been completely destroyed by Mongol invasions, making the overland route physically impassable", "es": "La Ruta de la Seda había sido completamente destruida por las invasiones mongolas, haciendo la ruta terrestre físicamente intransitable" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After the Ottoman conquest of Constantinople in 1453, the Ottomans controlled much of the overland trade route linking Europe to Asia. While they did not ban European trade outright, they taxed it heavily and controlled access, driving up the cost of spices, silks, and other goods significantly. This economic pressure — rather than a destroyed road — motivated Portugal and Spain to fund expeditions seeking sea routes that would bypass Ottoman-controlled territory entirely.",
+      "es": "Tras la conquista otomana de Constantinopla en 1453, los otomanos controlaban gran parte de la ruta comercial terrestre que unía Europa con Asia. Aunque no prohibieron directamente el comercio europeo, lo gravaban fuertemente y controlaban el acceso, encareciendo significativamente las especias, sedas y otros bienes. Esta presión económica —más que una ruta destruida— motivó a Portugal y España a financiar expediciones que buscaran rutas marítimas para evitar por completo el territorio bajo control otomano."
+    },
+    "meanwhile": {
+      "en": "Ironically, as Europeans sought to bypass Ottoman trade routes, Ottoman merchants were thriving. Cities like Istanbul, Cairo, and Aleppo were booming commercial centers, and Ottoman traders were active participants in the very global commerce Europeans sought to redirect around them.",
+      "es": "Irónicamente, mientras los europeos buscaban evitar las rutas comerciales otomanas, los mercaderes otomanos prosperaban. Ciudades como Estambul, El Cairo y Alepo eran centros comerciales en auge, y los comerciantes otomanos participaban activamente en el mismo comercio global que los europeos buscaban redirigir a su alrededor."
+    },
+    "reflection": {
+      "en": "Much of the Age of Exploration was driven by the desire to reduce commercial dependence on others rather than by genuine curiosity. How much of modern globalization is similarly motivated by control over supply chains rather than by cooperation?",
+      "es": "Gran parte de la Era de las Exploraciones fue impulsada por el deseo de reducir la dependencia comercial de otros, más que por genuina curiosidad. ¿Cuánto de la globalización moderna está motivada de manera similar por el control de las cadenas de suministro más que por la cooperación?"
+    }
+  },
+  {
+    "id": "ex-008",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Historians estimate that up to 90% of the indigenous population of the Americas died within a century of sustained European contact. What was the primary cause?",
+      "es": "Los historiadores estiman que hasta el 90% de la población indígena de las Américas murió en el plazo de un siglo tras el contacto sostenido con los europeos. ¿Cuál fue la causa principal?"
+    },
+    "options": [
+      { "en": "Epidemic diseases such as smallpox, against which indigenous populations had no prior immunity", "es": "Enfermedades epidémicas como la viruela, contra las cuales las poblaciones indígenas no tenían inmunidad previa" },
+      { "en": "Forced labor in silver mines and plantations, which caused the majority of deaths directly", "es": "El trabajo forzado en minas de plata y plantaciones, que causó directamente la mayoría de las muertes" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Diseases such as smallpox, measles, and influenza spread through the Americas with devastating speed, often reaching populations before European explorers themselves did. Indigenous peoples had lived in geographic isolation from Eurasian disease pools and had developed no immunity. Forced labor, warfare, and displacement also caused enormous suffering — but epidemic disease was responsible for the majority of deaths in what historians call the 'Great Dying,' one of the largest demographic catastrophes in human history.",
+      "es": "Enfermedades como la viruela, el sarampión y la gripe se propagaron por las Américas con velocidad devastadora, a menudo alcanzando a las poblaciones antes de que llegaran los propios exploradores europeos. Los pueblos indígenas habían vivido en aislamiento geográfico respecto de los depósitos de enfermedades euroasiáticas y no habían desarrollado inmunidad. El trabajo forzado, la guerra y el desplazamiento también causaron enormes sufrimientos, pero las enfermedades epidémicas fueron responsables de la mayoría de las muertes en lo que los historiadores llaman el 'Gran Morir', una de las mayores catástrofes demográficas de la historia humana."
+    },
+    "meanwhile": {
+      "en": "During the same period, the Songhai Empire in West Africa — one of the largest states in the world — was at its cultural height under Askia the Great, while the transatlantic slave trade was beginning to draw millions of Africans into the same expanding Atlantic system that was devastating the Americas.",
+      "es": "Durante el mismo período, el Imperio Songai en África Occidental —uno de los estados más grandes del mundo— estaba en su apogeo cultural bajo Askia el Grande, mientras que la trata transatlántica de esclavos comenzaba a arrastrar a millones de africanos hacia el mismo sistema atlántico en expansión que estaba devastando las Américas."
+    },
+    "reflection": {
+      "en": "The 'Great Dying' reduced the indigenous population of the Americas by tens of millions in a few generations. How should modern societies — many built on lands emptied by this catastrophe — acknowledge and respond to this history?",
+      "es": "El 'Gran Morir' redujo la población indígena de las Américas en decenas de millones en pocas generaciones. ¿Cómo deberían las sociedades modernas —muchas construidas sobre tierras vaciadas por esta catástrofe— reconocer y responder a esta historia?"
+    }
+  },
+  {
+    "id": "ex-009",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "hard",
+    "question": {
+      "en": "The Columbian Exchange introduced American crops to Europe. Which crop had the most transformative long-term impact on European population growth and food security by the 18th century?",
+      "es": "El Intercambio Colombino introdujo cultivos americanos en Europa. ¿Qué cultivo tuvo el impacto más transformador a largo plazo sobre el crecimiento demográfico y la seguridad alimentaria europea en el siglo XVIII?"
+    },
+    "options": [
+      { "en": "The potato, which provided very high caloric yield from small plots and sustained populations through grain shortages", "es": "La papa, que proporcionaba un altísimo rendimiento calórico en parcelas pequeñas y sostuvo a las poblaciones durante las escaseces de cereales" },
+      { "en": "Maize (corn), which became the primary staple grain replacing wheat across most of northern Europe", "es": "El maíz, que se convirtió en el cereal básico principal reemplazando al trigo en la mayor parte del norte de Europa" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The potato, native to the Andes, was adopted slowly in Europe but by the 18th century had become essential in Ireland, Germany, Poland, and Russia. Its extraordinary caloric yield per acre and adaptability to poor soils made it a critical buffer against the famines that had previously killed millions. Maize was also important and transformed African and southern European diets, but the potato's demographic impact in northern Europe was unmatched. The Irish Potato Famine of the 1840s later illustrated the catastrophic risk of agricultural monoculture.",
+      "es": "La papa, originaria de los Andes, fue adoptada lentamente en Europa, pero para el siglo XVIII se había vuelto esencial en Irlanda, Alemania, Polonia y Rusia. Su extraordinario rendimiento calórico por hectárea y su adaptabilidad a suelos pobres la convirtieron en un amortiguador crucial contra las hambrunas que antes mataban a millones. El maíz también fue importante y transformó las dietas africanas y del sur de Europa, pero el impacto demográfico de la papa en el norte de Europa no tuvo parangón. La Gran Hambruna irlandesa de la década de 1840 ilustró posteriormente el riesgo catastrófico del monocultivo agrícola."
+    },
+    "meanwhile": {
+      "en": "American silver from Potosí was flowing in vast quantities to Ming China in exchange for silk and porcelain, simultaneously funding the Ming economy and destabilizing it with inflation — the Columbian Exchange reshaped global financial systems as profoundly as it transformed agriculture.",
+      "es": "La plata americana de Potosí fluía en grandes cantidades hacia la China Ming a cambio de seda y porcelana, financiando simultáneamente la economía Ming y desestabilizándola con inflación: el Intercambio Colombino reconfiguró los sistemas financieros globales tan profundamente como transformó la agricultura."
+    },
+    "reflection": {
+      "en": "The Columbian Exchange distributed crops globally, improving nutrition for many populations, but Ireland's devastating famine showed how dependence on a single crop creates catastrophic vulnerability. When does the global adoption of a practice create risks that outweigh its benefits?",
+      "es": "El Intercambio Colombino distribuyó cultivos globalmente, mejorando la nutrición de muchas poblaciones, pero la devastadora hambruna irlandesa mostró cómo la dependencia de un solo cultivo crea una vulnerabilidad catastrófica. ¿Cuándo la adopción global de una práctica crea riesgos que superan sus beneficios?"
+    }
+  },
+  {
+    "id": "ex-010",
+    "category": "age-of-exploration",
+    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "difficulty": "hard",
+    "question": {
+      "en": "The Mercator projection (1569) became the standard for European navigation. What mathematical property made it indispensable for sailors, despite its significant distortions?",
+      "es": "La proyección de Mercator (1569) se convirtió en el estándar para la navegación europea. ¿Qué propiedad matemática la hizo indispensable para los marineros, a pesar de sus significativas distorsiones?"
+    },
+    "options": [
+      { "en": "Lines of constant compass bearing (rhumb lines) appear as straight lines, simplifying navigation calculations", "es": "Las líneas de rumbo constante (loxodrómicas) aparecen como líneas rectas, simplificando los cálculos de navegación" },
+      { "en": "It preserves the correct relative size of all land masses, allowing accurate distance estimation between ports", "es": "Preserva el tamaño relativo correcto de todas las masas terrestres, permitiendo estimar con precisión las distancias entre puertos" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Mercator projection represents Earth's curved surface on a flat map in a way that preserves angles and compass bearings — a sailor could draw a straight line between two points, read the compass bearing, and sail that course without constant recalculation. The critical tradeoff is severe area distortion: landmasses near the poles appear much larger than they are. Greenland appears as large as Africa on a Mercator map, though Africa is actually fourteen times larger.",
+      "es": "La proyección de Mercator representa la superficie curva de la Tierra en un mapa plano de forma que preserva los ángulos y los rumbos de la brújula: un marinero podía trazar una línea recta entre dos puntos, leer el rumbo de la brújula y navegar ese curso sin recalculaciones constantes. El compromiso crítico es la severa distorsión de las áreas: las masas terrestres cercanas a los polos aparecen mucho más grandes de lo que son. Groenlandia aparece tan grande como África en un mapa de Mercator, aunque África es en realidad catorce veces mayor."
+    },
+    "meanwhile": {
+      "en": "Ottoman cartographer Piri Reis produced his own world map in 1513, incorporating knowledge from Portuguese and Spanish sources alongside Islamic geographic traditions, depicting African and American coastlines with surprising accuracy — evidence that cartographic knowledge crossed cultural and political boundaries even between rivals.",
+      "es": "El cartógrafo otomano Piri Reis produjo su propio mapa del mundo en 1513, incorporando conocimientos de fuentes portuguesas y españolas junto con tradiciones geográficas islámicas, representando las costas africanas y americanas con sorprendente precisión: evidencia de que el conocimiento cartográfico cruzaba fronteras culturales y políticas incluso entre rivales."
+    },
+    "reflection": {
+      "en": "The Mercator projection places Europe near the center and makes it appear larger than it is, shaping how generations have imagined global geography. What other tools or systems that we consider 'objective' might embed cultural assumptions we haven't yet recognized?",
+      "es": "La proyección de Mercator coloca a Europa cerca del centro y la hace aparecer más grande de lo que es, configurando cómo las generaciones han imaginado la geografía global. ¿Qué otras herramientas o sistemas que consideramos 'objetivos' podrían incorporar suposiciones culturales que aún no hemos reconocido?"
+    }
+  }
+]

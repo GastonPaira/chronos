@@ -14,22 +14,27 @@ import { supabase } from '@/lib/supabase';
 // ── Constants ─────────────────────────────────────────────────────────────────
 
 const ERA_CATEGORIES: Record<string, string[]> = {
-  'ancient-age': ['ancient-egypt', 'ancient-greece', 'roman-empire'],
-  'middle-ages': ['byzantine-empire', 'crusades-chivalry', 'vikings'],
+  'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
+  'middle-ages':  ['byzantine-empire', 'crusades-chivalry', 'vikings'],
+  'early-modern': ['age-of-exploration', 'the-reformation', 'the-renaissance'],
 };
 
 const ERA_DEFS = [
-  { id: 'ancient-age', icon: '𓂀' },
-  { id: 'middle-ages', icon: '⚜️' },
+  { id: 'ancient-age',  icon: '𓂀'  },
+  { id: 'middle-ages',  icon: '⚜️' },
+  { id: 'early-modern', icon: '🧭' },
 ] as const;
 
 const CATEGORY_ICONS: Record<string, string> = {
-  'ancient-egypt':     '𓂀',
-  'ancient-greece':    '🏛️',
-  'roman-empire':      '⚔️',
-  'byzantine-empire':  '✝️',
-  'crusades-chivalry': '⚜️',
-  'vikings':           '🛡️',
+  'ancient-egypt':      '𓂀',
+  'ancient-greece':     '🏛️',
+  'roman-empire':       '⚔️',
+  'byzantine-empire':   '✝️',
+  'crusades-chivalry':  '⚜️',
+  'vikings':            '🛡️',
+  'age-of-exploration': '🧭',
+  'the-reformation':    '📜',
+  'the-renaissance':    '🎨',
 };
 
 // ── Helpers ───────────────────────────────────────────────────────────────────

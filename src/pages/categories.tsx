@@ -12,7 +12,7 @@ import { AuthButton } from '@/components/AuthButton';
 const ERA_CATEGORIES: Record<string, string[]> = {
   'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
   'middle-ages':  ['byzantine-empire', 'crusades-chivalry', 'vikings'],
-  'early-modern': [],
+  'early-modern': ['age-of-exploration', 'the-reformation', 'the-renaissance'],
   'modern-era':   [],
 };
 

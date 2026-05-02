@@ -27,7 +27,7 @@ const ERA_DEFS: EraDef[] = [
   {
     id: 'early-modern',
     icon: '🗺️',
-    categoryIds: [],
+    categoryIds: ['age-of-exploration', 'the-reformation', 'the-renaissance'],
   },
   {
     id: 'modern-era',

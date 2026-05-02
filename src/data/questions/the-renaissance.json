@@ -1,0 +1,272 @@
+[
+  {
+    "id": "rn-001",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Leonardo da Vinci's private notebooks, rediscovered centuries after his death, contained designs for which types of inventions that were far ahead of his time?",
+      "es": "Los cuadernos privados de Leonardo da Vinci, redescubiertos siglos después de su muerte, contenían diseños de qué tipos de inventos que estaban muy por delante de su época?"
+    },
+    "options": [
+      { "en": "Flying machines, armored vehicles, and detailed anatomical studies from human dissections", "es": "Máquinas voladoras, vehículos blindados y detallados estudios anatómicos de disecciones humanas" },
+      { "en": "Steam-powered engines and a prototype telegraph system for long-distance communication", "es": "Motores a vapor y un prototipo de sistema de telégrafo para comunicación a larga distancia" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Leonardo's notebooks — over 7,000 pages — contain designs for flying machines (ornithopters and hang gliders), armored fighting vehicles resembling tanks, hydraulic machines, and solar power concentrators. He also conducted illegal human dissections to produce anatomical drawings of unprecedented accuracy, contributing to medical knowledge centuries before modern anatomy was formalized. Most of these designs were never published in his lifetime, making their rediscovery in the 19th century all the more remarkable.",
+      "es": "Los cuadernos de Leonardo —más de 7.000 páginas— contienen diseños de máquinas voladoras (ornitópteros y planeadores), vehículos blindados similares a tanques, máquinas hidráulicas y concentradores de energía solar. También realizó disecciones humanas ilegales para producir dibujos anatómicos de una precisión sin precedentes, contribuyendo al conocimiento médico siglos antes de que se formalizara la anatomía moderna. La mayoría de estos diseños nunca fueron publicados en vida, lo que hace aún más notable su redescubrimiento en el siglo XIX."
+    },
+    "meanwhile": {
+      "en": "While Leonardo was working in Milan and Florence, the Ming Dynasty under Emperor Hongzhi was experiencing a rare period of enlightened governance and cultural flourishing — a Chinese Renaissance of sorts, with parallel advances in painting, literature, and philosophy unknown to Europeans.",
+      "es": "Mientras Leonardo trabajaba en Milán y Florencia, la dinastía Ming bajo el emperador Hongzhi experimentaba un raro período de gobernanza ilustrada y florecimiento cultural: una especie de Renacimiento chino, con avances paralelos en pintura, literatura y filosofía desconocidos para los europeos."
+    },
+    "reflection": {
+      "en": "Leonardo left many projects unfinished and published almost nothing in his lifetime, yet we consider him one of history's greatest geniuses. Does genius that goes unshared with the world during one's lifetime carry a different kind of value — or does impact require communication?",
+      "es": "Leonardo dejó muchos proyectos inconclusos y publicó casi nada en vida, pero lo consideramos uno de los mayores genios de la historia. ¿El genio que no se comparte con el mundo durante la vida de uno tiene un tipo diferente de valor, o el impacto requiere comunicación?"
+    }
+  },
+  {
+    "id": "rn-002",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "easy",
+    "question": {
+      "en": "How many years did Michelangelo spend painting the ceiling of the Sistine Chapel (1508–1512)?",
+      "es": "¿Cuántos años tardó Miguel Ángel en pintar el techo de la Capilla Sixtina (1508-1512)?"
+    },
+    "options": [
+      { "en": "Approximately 4 years", "es": "Aproximadamente 4 años" },
+      { "en": "Approximately 10 years", "es": "Aproximadamente 10 años" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Michelangelo painted the Sistine Chapel ceiling from 1508 to 1512 — roughly four years — working largely alone, lying on scaffolding while painting above his head. He originally wanted to decline the commission, considering himself primarily a sculptor. The ceiling depicts nine scenes from Genesis along with prophets, sibyls, and ancestors of Christ, covering over 500 square meters. He later painted The Last Judgment on the altar wall between 1536 and 1541.",
+      "es": "Miguel Ángel pintó el techo de la Capilla Sixtina de 1508 a 1512 —aproximadamente cuatro años— trabajando en gran medida solo, tendido sobre un andamio mientras pintaba sobre su cabeza. Originalmente quería rechazar el encargo, pues se consideraba principalmente escultor. El techo representa nueve escenas del Génesis junto a profetas, sibilas y antepasados de Cristo, cubriendo más de 500 metros cuadrados. Posteriormente pintó El Juicio Final en la pared del altar entre 1536 y 1541."
+    },
+    "meanwhile": {
+      "en": "Between 1508 and 1512, the Ottoman Sultan Selim I was transforming his empire — defeating the Safavids at Chaldiran (1514) and conquering Egypt (1517), reshaping the Middle East's political order while Michelangelo was reshaping the Western idea of what art could express.",
+      "es": "Entre 1508 y 1512, el sultán otomano Selim I transformaba su imperio: derrotando a los safávidas en Chaldiran (1514) y conquistando Egipto (1517), reconfigurando el orden político de Oriente Medio mientras Miguel Ángel reconfiguraba la idea occidental de lo que el arte podía expresar."
+    },
+    "reflection": {
+      "en": "The Sistine Chapel ceiling was commissioned by a pope to glorify God and the institutional Church. When great art is created to serve the interests of power, how should we evaluate it — by its beauty and achievement, or by whose interests it served?",
+      "es": "El techo de la Capilla Sixtina fue encargado por un papa para glorificar a Dios y a la Iglesia institucional. Cuando el gran arte se crea para servir a los intereses del poder, ¿cómo debemos evaluarlo: por su belleza y logro, o por los intereses a los que sirvió?"
+    }
+  },
+  {
+    "id": "rn-003",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "easy",
+    "question": {
+      "en": "The Medici family of Florence was the most powerful patron of the Italian Renaissance. What was the primary source of their wealth and influence?",
+      "es": "La familia Medici de Florencia fue el mecenas más poderoso del Renacimiento italiano. ¿Cuál fue la fuente principal de su riqueza e influencia?"
+    },
+    "options": [
+      { "en": "Banking — the Medici controlled one of Europe's largest financial networks, including a papal bank", "es": "La banca: los Medici controlaban una de las redes financieras más grandes de Europa, incluido un banco papal" },
+      { "en": "Military conquest — the Medici built their power by unifying the Italian city-states under Florentine rule", "es": "La conquista militar: los Medici construyeron su poder unificando las ciudades-estado italianas bajo el dominio florentino" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Medici Bank, founded in the early 15th century, became one of the most powerful financial institutions in Europe. It invented the modern system of letters of credit and managed finances for the papacy, among other powerful clients. This extraordinary wealth allowed the Medici to fund artists including Botticelli, Leonardo da Vinci, and Michelangelo, and to commission architecture, sponsor humanist scholars, and build the libraries and academies that made Florence the intellectual center of the Renaissance.",
+      "es": "El Banco Medici, fundado a principios del siglo XV, se convirtió en una de las instituciones financieras más poderosas de Europa. Inventó el sistema moderno de letras de crédito y gestionó las finanzas para el papado, entre otros clientes poderosos. Esta extraordinaria riqueza permitió a los Medici financiar a artistas como Botticelli, Leonardo da Vinci y Miguel Ángel, y encargar arquitectura, patrocinar a eruditos humanistas y construir las bibliotecas y academias que convirtieron a Florencia en el centro intelectual del Renacimiento."
+    },
+    "meanwhile": {
+      "en": "While the Medici were funding Florentine Renaissance art, the rulers of the Kingdom of Benin in West Africa were patronizing their own artistic golden age — producing bronze plaques and ivory carvings of extraordinary sophistication, equally accomplished and entirely unknown to Europeans.",
+      "es": "Mientras los Medici financiaban el arte renacentista florentino, los gobernantes del Reino de Benín en África Occidental patrocinaban su propio siglo de oro artístico: produciendo placas de bronce y tallas de marfil de extraordinaria sofisticación, igualmente logradas y completamente desconocidas para los europeos."
+    },
+    "reflection": {
+      "en": "The Medici funded great art largely to enhance their own prestige and political legitimacy. Does knowing that great art was commissioned for reasons of self-interest and power change how you appreciate it or evaluate the art's cultural significance?",
+      "es": "Los Medici financiaron el gran arte en gran medida para realzar su propio prestigio y legitimidad política. ¿Saber que el gran arte fue encargado por razones de interés propio y poder cambia cómo lo aprecias o evalúas su significado cultural?"
+    }
+  },
+  {
+    "id": "rn-004",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "easy",
+    "question": {
+      "en": "Niccolò Machiavelli wrote 'The Prince' (c. 1513) as a guide for whom, and what was its central argument?",
+      "es": "Nicolás Maquiavelo escribió 'El Príncipe' (c. 1513) como guía para quién, y ¿cuál era su argumento central?"
+    },
+    "options": [
+      { "en": "For political rulers — arguing that maintaining power sometimes requires setting aside conventional morality", "es": "Para los gobernantes políticos: argumentando que mantener el poder a veces requiere dejar de lado la moral convencional" },
+      { "en": "For Church officials — arguing that religious institutions must control secular governments to ensure justice", "es": "Para los funcionarios de la Iglesia: argumentando que las instituciones religiosas deben controlar los gobiernos seculares para garantizar la justicia" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Machiavelli wrote The Prince while in political exile after the Medici returned to power in Florence, dedicating it to Lorenzo de' Medici in hopes of recovering favor. The book advised rulers based on observed political reality rather than idealized virtue — a prince must be willing to use force and deception when necessary to maintain power and state stability. This pragmatic, secular approach to politics was revolutionary and shocking to contemporaries raised on Christian political philosophy.",
+      "es": "Maquiavelo escribió El Príncipe mientras estaba en el exilio político tras el regreso de los Medici al poder en Florencia, dedicándolo a Lorenzo de Medici con la esperanza de recuperar el favor. El libro asesoraba a los gobernantes basándose en la realidad política observada en lugar de la virtud idealizada: un príncipe debe estar dispuesto a usar la fuerza y el engaño cuando sea necesario para mantener el poder y la estabilidad del Estado. Este enfoque pragmático y secular de la política fue revolucionario y escandaloso para sus contemporáneos criados en la filosofía política cristiana."
+    },
+    "meanwhile": {
+      "en": "At roughly the same time, Korean Joseon Dynasty scholar-officials were developing sophisticated bureaucratic theory grounded in neo-Confucian ethics — a parallel intellectual tradition about governance, merit, and the moral responsibilities of rulers in a very different political culture.",
+      "es": "Aproximadamente al mismo tiempo, los funcionarios eruditos de la dinastía coreana Joseon desarrollaban una sofisticada teoría burocrática fundamentada en la ética neoconfuciana: una tradición intelectual paralela sobre la gobernanza, el mérito y las responsabilidades morales de los gobernantes en una cultura política muy diferente."
+    },
+    "reflection": {
+      "en": "Machiavelli argued that a ruler must sometimes act immorally to maintain power and prevent greater harm. Do you think it is ever justified for leaders to compromise ethics for political stability — and who should decide when that threshold has been crossed?",
+      "es": "Maquiavelo argumentó que un gobernante debe a veces actuar inmoralmente para mantener el poder y prevenir un daño mayor. ¿Crees que alguna vez está justificado que los líderes comprometan la ética por la estabilidad política, y quién debería decidir cuándo se ha cruzado ese umbral?"
+    }
+  },
+  {
+    "id": "rn-005",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Johannes Gutenberg's printing press (c. 1440) was revolutionary primarily because of which specific innovation, distinguishing it from earlier printing methods?",
+      "es": "La imprenta de Johannes Gutenberg (c. 1440) fue revolucionaria principalmente gracias a qué innovación específica, que la distinguía de los métodos de impresión anteriores?"
+    },
+    "options": [
+      { "en": "Movable individual metal type pieces that could be rearranged to print different texts rapidly and cheaply", "es": "Piezas de tipo metálico individual móvil que podían reordenarse para imprimir diferentes textos de forma rápida y económica" },
+      { "en": "Paper manufactured from wood pulp instead of expensive animal-skin vellum, dramatically reducing material costs", "es": "Papel fabricado a partir de pulpa de madera en lugar de costoso pergamino de piel animal, reduciendo drásticamente los costos de materiales" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Gutenberg's key innovation was combining movable metal type (individual cast letters that could be assembled, printed, and then reassembled for a new page) with an oil-based ink and a screw press adapted from winemaking. While woodblock printing existed in East Asia and Europe, it required carving a new block for every page. Movable type reduced the cost and time of printing dramatically: Gutenberg's Bible (c. 1455) could be produced in editions of hundreds of copies, compared to months of hand-copying for a single manuscript.",
+      "es": "La innovación clave de Gutenberg fue combinar el tipo metálico móvil (letras individuales fundidas que podían ensamblarse, imprimirse y luego reordenarse para una nueva página) con una tinta a base de aceite y una prensa de tornillo adaptada de la elaboración del vino. Si bien la xilografía existía en Asia Oriental y Europa, requería tallar un nuevo bloque para cada página. El tipo móvil redujo drásticamente el costo y el tiempo de impresión: la Biblia de Gutenberg (c. 1455) podía producirse en ediciones de cientos de copias, frente a meses de copia manual para un solo manuscrito."
+    },
+    "meanwhile": {
+      "en": "While Gutenberg was developing his press in the 1440s, Sultan Mehmed II was preparing to conquer Constantinople, which he achieved in 1453 — making it his own intellectual capital and preserving classical manuscripts that would later flow west and fuel the very humanist revival Gutenberg's press helped spread.",
+      "es": "Mientras Gutenberg desarrollaba su imprenta en la década de 1440, el sultán Mehmed II se preparaba para conquistar Constantinopla, lo que logró en 1453, convirtiéndola en su propia capital intelectual y preservando manuscritos clásicos que luego fluirían hacia el oeste y alimentarían el mismo renacimiento humanista que la imprenta de Gutenberg ayudó a difundir."
+    },
+    "reflection": {
+      "en": "Gutenberg's press put religious and scientific texts in the hands of ordinary people within decades, but also spread misinformation and religious extremism at unprecedented speed. Does wide access to information always lead to social progress, or can it generate conflict and fragmentation as readily as enlightenment?",
+      "es": "La imprenta de Gutenberg puso textos religiosos y científicos en manos de la gente común en pocas décadas, pero también propagó desinformación y extremismo religioso a velocidades sin precedentes. ¿El amplio acceso a la información siempre conduce al progreso social, o puede generar conflictos y fragmentación con la misma facilidad que la ilustración?"
+    }
+  },
+  {
+    "id": "rn-006",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Renaissance humanism differed from medieval scholasticism primarily in what intellectual focus?",
+      "es": "El humanismo renacentista se diferenciaba del escolasticismo medieval principalmente en qué enfoque intelectual?"
+    },
+    "options": [
+      { "en": "Humanists prioritized classical Greek and Roman texts and the study of human achievement in this world", "es": "Los humanistas priorizaban los textos grecolatinos clásicos y el estudio del logro humano en este mundo" },
+      { "en": "Humanists focused on direct observation of nature through controlled experiments, replacing textual authority", "es": "Los humanistas se centraban en la observación directa de la naturaleza mediante experimentos controlados, reemplazando la autoridad textual" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Medieval scholasticism sought to reconcile classical philosophy (especially Aristotle) with Christian theology through systematic logical analysis. Renaissance humanism shifted attention toward the full range of classical literature — poetry, rhetoric, history, ethics — and emphasized human dignity, potential, and achievement in earthly life, not just preparation for the afterlife. Humanists were still Christian, but they valued eloquence, civic engagement, and worldly excellence alongside religious devotion. The scientific method of controlled experiment came later, pioneered by Galileo and Bacon.",
+      "es": "El escolasticismo medieval buscaba reconciliar la filosofía clásica (especialmente Aristóteles) con la teología cristiana a través del análisis lógico sistemático. El humanismo renacentista desplazó la atención hacia toda la gama de la literatura clásica —poesía, retórica, historia, ética— y enfatizó la dignidad, el potencial y el logro humano en la vida terrenal, no solo la preparación para la otra vida. Los humanistas seguían siendo cristianos, pero valoraban la elocuencia, el compromiso cívico y la excelencia mundana junto a la devoción religiosa. El método científico del experimento controlado llegó más tarde, impulsado por Galileo y Bacon."
+    },
+    "meanwhile": {
+      "en": "While Renaissance humanists in Italy were 'rediscovering' Greek texts, many of those same texts had been preserved and studied for centuries in the Islamic world — scholars at Cairo's Al-Azhar and in Baghdad had been engaging with Aristotle long before European humanists celebrated him as newly found.",
+      "es": "Mientras los humanistas renacentistas en Italia 'redescubrían' los textos griegos, muchos de esos mismos textos habían sido preservados y estudiados durante siglos en el mundo islámico: los eruditos de Al-Azhar de El Cairo y de Bagdad habían estado trabajando con Aristóteles mucho antes de que los humanistas europeos lo celebraran como recién hallado."
+    },
+    "reflection": {
+      "en": "Renaissance humanism celebrated human potential, individual achievement, and classical learning — but this celebration was largely limited to educated, wealthy, European men. Does celebrating human greatness risk obscuring the suffering and exclusion that often accompanied it?",
+      "es": "El humanismo renacentista celebraba el potencial humano, el logro individual y el aprendizaje clásico, pero esta celebración estaba en gran medida limitada a hombres europeos educados y adinerados. ¿Celebrar la grandeza humana corre el riesgo de ocultar el sufrimiento y la exclusión que a menudo la acompañaron?"
+    }
+  },
+  {
+    "id": "rn-007",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Galileo's telescopic observations in 1609–1610 most directly challenged which long-established belief?",
+      "es": "Las observaciones telescópicas de Galileo en 1609-1610 desafiaron más directamente qué creencia largamente establecida?"
+    },
+    "options": [
+      { "en": "The geocentric model placing Earth at the center of the universe, supported by Aristotle and the Church", "es": "El modelo geocéntrico que situaba a la Tierra en el centro del universo, respaldado por Aristóteles y la Iglesia" },
+      { "en": "The ancient belief that Earth was flat and surrounded by a great ocean at its edges", "es": "La creencia antigua de que la Tierra era plana y estaba rodeada por un gran océano en sus bordes" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Galileo's telescope revealed mountains on the Moon (disproving the idea of perfect celestial spheres), four moons orbiting Jupiter (proving not everything orbited Earth), and phases of Venus (confirming it orbited the Sun). These observations provided direct evidence for the Copernican heliocentric model. The Inquisition forced Galileo to recant in 1633, and he spent his remaining years under house arrest. His case became the defining example of the conflict between empirical observation and established authority.",
+      "es": "El telescopio de Galileo reveló montañas en la Luna (desafiando la idea de esferas celestiales perfectas), cuatro lunas orbitando Júpiter (probando que no todo orbitaba la Tierra) y las fases de Venus (confirmando que orbitaba el Sol). Estas observaciones proporcionaron evidencia directa del modelo heliocéntrico copernicano. La Inquisición obligó a Galileo a retractarse en 1633, y pasó sus últimos años bajo arresto domiciliario. Su caso se convirtió en el ejemplo definitorio del conflicto entre la observación empírica y la autoridad establecida."
+    },
+    "meanwhile": {
+      "en": "While Galileo was making his telescopic observations in 1609, the Tokugawa shogunate was consolidating power in Japan and beginning a deliberate policy of isolation from foreign trade and science — a contrasting response to new knowledge and outside influence happening simultaneously on the other side of the world.",
+      "es": "Mientras Galileo realizaba sus observaciones telescópicas en 1609, el shogunato Tokugawa consolidaba el poder en Japón y comenzaba una política deliberada de aislamiento del comercio exterior y la ciencia: una respuesta contrastante al nuevo conocimiento y la influencia exterior que ocurría simultáneamente al otro lado del mundo."
+    },
+    "reflection": {
+      "en": "Galileo reportedly muttered 'And yet it moves' after publicly recanting his findings under threat from the Inquisition. In what circumstances, if any, is it justifiable to publicly deny a truth you privately believe — and what does your answer depend on?",
+      "es": "Se dice que Galileo murmuró 'Y sin embargo, se mueve' después de retractarse públicamente de sus hallazgos bajo la amenaza de la Inquisición. ¿En qué circunstancias, si las hay, está justificado negar públicamente una verdad en la que se cree en privado, y de qué depende tu respuesta?"
+    }
+  },
+  {
+    "id": "rn-008",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Shakespeare's plays drew from a wide range of source material. Which description best characterizes his primary sources?",
+      "es": "Las obras de Shakespeare bebían de una amplia gama de fuentes. ¿Qué descripción caracteriza mejor sus fuentes principales?"
+    },
+    "options": [
+      { "en": "Classical myths, Italian novellas, and English historical chronicles — which he transformed into original dramas", "es": "Mitos clásicos, novelas italianas y crónicas históricas inglesas, que transformó en dramas originales" },
+      { "en": "His own personal diaries, contemporary news pamphlets, and conversations with courtiers at the royal palace", "es": "Sus propios diarios personales, panfletos de noticias contemporáneos y conversaciones con cortesanos en el palacio real" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Shakespeare rarely invented plots from scratch — Hamlet derives from a Scandinavian legend via a French retelling, Romeo and Juliet from an Italian novella, Macbeth and the history plays from Holinshed's Chronicles, and A Midsummer Night's Dream from Ovid's Metamorphoses and English folklore. His genius lay in transforming these sources through psychological depth, poetic language, and structural innovation. This practice of adapting existing stories was standard in Renaissance literary culture, where originality of execution mattered more than novelty of subject.",
+      "es": "Shakespeare rara vez inventaba tramas desde cero: Hamlet deriva de una leyenda escandinava a través de una adaptación francesa, Romeo y Julieta de una novela italiana, Macbeth y las obras históricas de las Crónicas de Holinshed, y El sueño de una noche de verano de las Metamorfosis de Ovidio y el folclore inglés. Su genio residía en transformar estas fuentes mediante profundidad psicológica, lenguaje poético e innovación estructural. Esta práctica de adaptar historias existentes era estándar en la cultura literaria renacentista, donde la originalidad de la ejecución importaba más que la novedad del tema."
+    },
+    "meanwhile": {
+      "en": "While Shakespeare was writing in Elizabethan London in the 1590s–1610s, the Mughal Emperor Akbar commissioned the Akbarnama — a lavishly illustrated chronicle of his reign — representing a parallel tradition of storytelling, historical memory, and artistic patronage flourishing simultaneously in South Asia.",
+      "es": "Mientras Shakespeare escribía en el Londres isabelino de las décadas de 1590-1610, el emperador mogol Akbar encargó el Akbarnama —una crónica ricamente ilustrada de su reinado—, representando una tradición paralela de narración de historias, memoria histórica y mecenazgo artístico que florecía simultáneamente en el sur de Asia."
+    },
+    "reflection": {
+      "en": "Shakespeare's plays are obsessed with characters who deceive themselves and others — Hamlet's indecision, Othello's jealousy, Lear's blindness to his daughters' true natures. What does literature's enduring obsession with self-deception reveal about something permanent in human psychology?",
+      "es": "Las obras de Shakespeare están obsesionadas con personajes que se engañan a sí mismos y a los demás: la indecisión de Hamlet, los celos de Otelo, la ceguera de Lear ante la verdadera naturaleza de sus hijas. ¿Qué revela la obsesión duradera de la literatura con el autoengaño sobre algo permanente en la psicología humana?"
+    }
+  },
+  {
+    "id": "rn-009",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "hard",
+    "question": {
+      "en": "Linear perspective, developed by Brunelleschi and codified by Alberti in the 15th century, introduced what specific mathematical concept that transformed Western painting?",
+      "es": "La perspectiva lineal, desarrollada por Brunelleschi y codificada por Alberti en el siglo XV, introdujo qué concepto matemático específico que transformó la pintura occidental?"
+    },
+    "options": [
+      { "en": "A vanishing point where parallel lines converge, creating a mathematically consistent illusion of three-dimensional depth", "es": "Un punto de fuga donde las líneas paralelas convergen, creando una ilusión matemáticamente consistente de profundidad tridimensional" },
+      { "en": "The golden ratio as a universal proportion for calculating ideal dimensions of figures and architectural elements", "es": "La sección áurea como proporción universal para calcular las dimensiones ideales de figuras y elementos arquitectónicos" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Brunelleschi demonstrated linear perspective around 1415 using a mirror experiment with a painted panel of Florence's Baptistery. Leon Battista Alberti then codified the geometry in his treatise Della Pittura (1435), defining the vanishing point — the spot on the horizon where parallel lines appear to meet — as the mathematical anchor for representing three-dimensional space on a flat surface. This gave Renaissance artists a systematic, reproducible method for depicting depth and fundamentally changed Western visual culture. The golden ratio, while used by artists, is a separate mathematical concept.",
+      "es": "Brunelleschi demostró la perspectiva lineal alrededor de 1415 mediante un experimento con espejo y un panel pintado del Baptisterio de Florencia. Leon Battista Alberti codificó luego la geometría en su tratado Della Pittura (1435), definiendo el punto de fuga —el punto en el horizonte donde las líneas paralelas parecen encontrarse— como el ancla matemática para representar el espacio tridimensional en una superficie plana. Esto dio a los artistas renacentistas un método sistemático y reproducible para representar la profundidad y cambió fundamentalmente la cultura visual occidental. La sección áurea, aunque utilizada por artistas, es un concepto matemático separado."
+    },
+    "meanwhile": {
+      "en": "While Italian painters were developing linear perspective in the 15th century, Chinese painters of the Song and Ming traditions were deliberately using 'floating view' compositions — representing space from multiple elevated viewpoints simultaneously — an equally sophisticated but fundamentally different approach to depicting space on a flat surface.",
+      "es": "Mientras los pintores italianos desarrollaban la perspectiva lineal en el siglo XV, los pintores chinos de las tradiciones Song y Ming usaban deliberadamente composiciones de 'vista flotante', representando el espacio desde múltiples puntos de vista elevados simultáneamente: un enfoque igualmente sofisticado pero fundamentalmente diferente para representar el espacio en una superficie plana."
+    },
+    "reflection": {
+      "en": "Linear perspective makes Western painting look 'realistic,' but it is actually a mathematical convention — not a natural way of seeing. Objects in real vision don't have a single fixed vanishing point. What else that we consider 'objective' or 'realistic' might actually be a cultural or historical convention we haven't questioned?",
+      "es": "La perspectiva lineal hace que la pintura occidental parezca 'realista', pero es en realidad una convención matemática, no una forma natural de ver. Los objetos en la visión real no tienen un único punto de fuga fijo. ¿Qué más que consideramos 'objetivo' o 'realista' podría ser en realidad una convención cultural o histórica que no hemos cuestionado?"
+    }
+  },
+  {
+    "id": "rn-010",
+    "category": "the-renaissance",
+    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "difficulty": "hard",
+    "question": {
+      "en": "How did the Northern Renaissance (in the Low Countries, Germany, and England) differ thematically from the Italian Renaissance that preceded it?",
+      "es": "¿En qué se diferenciaba temáticamente el Renacimiento Nórdico (en los Países Bajos, Alemania e Inglaterra) del Renacimiento italiano que lo precedió?"
+    },
+    "options": [
+      { "en": "Northern humanists focused more on religious reform, individual conscience, and moral questions than on classical beauty and courtly ideals", "es": "Los humanistas nórdicos se centraron más en la reforma religiosa, la conciencia individual y las cuestiones morales que en la belleza clásica y los ideales cortesanos" },
+      { "en": "Northern artists rejected oil painting in favor of fresco techniques better suited to colder climates", "es": "Los artistas nórdicos rechazaron la pintura al óleo en favor de las técnicas de fresco mejor adaptadas a los climas más fríos" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Northern Renaissance absorbed Italian humanism but directed it toward religious and social reform rather than classical beauty and courtly culture. Figures like Erasmus, Thomas More, and Dürer used humanist methods (critical textual scholarship, individual reason) to examine scripture and critique Church institutions. Northern painters like Van Eyck and Bruegel focused on everyday life, morality, and religious devotion rather than classical mythology and idealized beauty. Ironically, Northern artists pioneered and perfected oil painting — the technique later used by Italian masters — not fresco.",
+      "es": "El Renacimiento Nórdico absorbió el humanismo italiano pero lo orientó hacia la reforma religiosa y social en lugar de la belleza clásica y la cultura cortesana. Figuras como Erasmo, Tomás Moro y Durero usaron métodos humanistas (erudición textual crítica, razón individual) para examinar las Escrituras y criticar las instituciones de la Iglesia. Pintores nórdicos como Van Eyck y Brueghel se centraron en la vida cotidiana, la moralidad y la devoción religiosa en lugar de la mitología clásica y la belleza idealizada. Irónicamente, los artistas nórdicos fueron pioneros y perfeccionaron la pintura al óleo —la técnica luego utilizada por los maestros italianos—, no el fresco."
+    },
+    "meanwhile": {
+      "en": "While the Northern Renaissance flourished in the 16th century, the Ottoman Empire under Suleiman the Magnificent was experiencing its own cultural golden age — commissioning monumental architecture, patronizing poetry and law, and expanding into three continents. A parallel Renaissance that European historians rarely named as such.",
+      "es": "Mientras el Renacimiento Nórdico florecía en el siglo XVI, el Imperio Otomano bajo Solimán el Magnífico experimentaba su propio siglo de oro cultural: encargando arquitectura monumental, patrocinando la poesía y el derecho, y expandiéndose hacia tres continentes. Un Renacimiento paralelo que los historiadores europeos rara vez nombraron como tal."
+    },
+    "reflection": {
+      "en": "The Northern Renaissance placed more emphasis on individual conscience and moral reform, while the Italian Renaissance celebrated beauty, classical ideals, and human achievement. Does a culture's art reflect its deepest values — or does art shape those values over time?",
+      "es": "El Renacimiento Nórdico puso más énfasis en la conciencia individual y la reforma moral, mientras que el Renacimiento italiano celebraba la belleza, los ideales clásicos y el logro humano. ¿El arte de una cultura refleja sus valores más profundos, o el arte moldea esos valores con el tiempo?"
+    }
+  }
+]

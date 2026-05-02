@@ -47,7 +47,7 @@ Es la pantalla de bienvenida de la aplicación. Muestra el logo grande de Chrono
 
 ### `src/pages/eras.tsx` — Selección de era
 
-Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una está hardcodeada en el objeto `ERA_DEFS` del mismo archivo.
+Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una está hardcodeada en el objeto `ERA_DEFS` del mismo archivo. Actualmente tienen preguntas: **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`) y **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`).
 
 ### `src/pages/categories.tsx` — Selección de categoría
 
@@ -55,7 +55,7 @@ Es el segundo paso del flujo de juego individual. Muestra la grilla de categorí
 
 ### `src/pages/multiplayer.tsx` — Crear desafío versus
 
-Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra solo las eras que ya tienen preguntas (Edad Antigua y Edad Media) con su imagen y descripción. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, guarda la ruta actual en `sessionStorage` y redirige al flujo de Google OAuth (la página de callback lo devolverá acá al terminar). La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Contiene su propia copia de `ERA_CATEGORIES` (mapa de era → categorías) para el filtrado.
+Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra las eras que ya tienen preguntas (Edad Antigua, Edad Media y Temprano Moderno) con su ícono y nombre. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, guarda la ruta actual en `sessionStorage` y redirige al flujo de Google OAuth (la página de callback lo devolverá acá al terminar). La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Contiene su propia copia de `ERA_CATEGORIES` y `ERA_DEFS` (independientes de `eras.tsx`) más un objeto `CATEGORY_ICONS` local — los tres deben actualizarse cuando se agrega una era o categoría nueva.
 
 ### `src/pages/game/[category].tsx` — Juego individual
 
@@ -268,14 +268,15 @@ Hay **tres** objetos que mapean categorías a eras, uno en cada archivo:
 'middle-ages': ['byzantine-empire', 'crusades-chivalry', 'vikings', 'ottoman-empire']
 ```
 
-> **Nota:** Si la nueva categoría es de una era que ya aparece en `/multiplayer` (Edad Antigua o Edad Media), hay que agregarla también en el `ERA_CATEGORIES` de `multiplayer.tsx` para que sea seleccionable al crear un desafío.
+> **Nota:** Si la nueva categoría es de una era que ya aparece en `/multiplayer` (Edad Antigua, Edad Media o Temprano Moderno), hay que agregarla también en el `ERA_CATEGORIES` de `multiplayer.tsx` para que sea seleccionable al crear un desafío. Si la era es completamente nueva, además hay que agregar su entrada en `ERA_DEFS` del mismo archivo.
 
 ### Paso 4 — Agregar ícono y imagen de fondo
 
-**Ícono emoji** — Aparece en la tarjeta de categoría y en la página de estadísticas. Agregar la entrada en tres lugares:
+**Ícono emoji** — Aparece en la tarjeta de categoría, en la página de estadísticas y en la pantalla de creación de desafío. Agregar la entrada en cuatro lugares:
 
 - `src/components/CategoryCard.tsx` → objeto `CATEGORY_ICONS`
 - `src/pages/stats.tsx` → objeto `CATEGORY_ICONS`
+- `src/pages/multiplayer.tsx` → objeto `CATEGORY_ICONS`
 - `src/pages/eras.tsx` — el ícono de la era no cambia, pero si la era es nueva sí habría que agregarlo en `ERA_DEFS`.
 
 ```ts
@@ -316,7 +317,19 @@ Sin embargo, **si la era también es nueva** (no existe todavía en la app), sí
 }
 ```
 
-### Paso 6 — Verificar el build
+### Paso 6 — Generar los archivos de audio
+
+El `ReflectionPanel` reproduce audio para los campos `explanation`, `meanwhile` y `reflection` de cada pregunta. Los MP3 se generan con `msedge-tts` (voz `en-US-AriaNeural`) y se guardan en `public/audio/` con la convención `{id}_{campo}_en.mp3` (solo inglés).
+
+Para generarlos, agregar el nuevo archivo JSON al array `questionFiles` en `scripts/generate-audio.js` y correr:
+
+```bash
+npm run generate-audio
+```
+
+El script omite archivos que ya existen, por lo que es seguro correrlo varias veces. Si solo se quiere generar audio para las categorías nuevas sin tocar el script existente, se puede crear un script temporal con el mismo patrón apuntando únicamente a los JSON nuevos.
+
+### Paso 7 — Verificar el build
 
 Correr `npm run build` para que Next.js regenere los paths estáticos de `/game/[category]`. Si hay errores de TypeScript relacionados con el nuevo slug, verificar que el campo `category` en el JSON coincida exactamente con el slug registrado en los pasos anteriores.
 
@@ -334,4 +347,5 @@ Correr `npm run build` para que Next.js regenere los paths estáticos de `/game/
 > `src/pages/vs/[matchId].tsx` ·
 > `src/pages/stats.tsx` ·
 > `public/images/<slug>.jpg` (imagen nueva) ·
+> `public/audio/<id>_explanation_en.mp3`, `<id>_meanwhile_en.mp3`, `<id>_reflection_en.mp3` × N preguntas (generados con `npm run generate-audio`) ·
 > `public/locales/*/common.json` (solo si la era también es nueva)

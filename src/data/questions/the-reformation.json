@@ -1,0 +1,272 @@
+[
+  {
+    "id": "rf-001",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "easy",
+    "question": {
+      "en": "In what year did Martin Luther publish his 95 Theses, the document traditionally marking the beginning of the Protestant Reformation?",
+      "es": "¿En qué año publicó Martín Lutero sus 95 Tesis, el documento que marca tradicionalmente el inicio de la Reforma Protestante?"
+    },
+    "options": [
+      { "en": "1517", "es": "1517" },
+      { "en": "1521", "es": "1521" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Luther posted (or sent) his 95 Theses on October 31, 1517, primarily challenging the Catholic Church's sale of indulgences — payments believed to reduce time in purgatory. Copies spread rapidly across Germany and Europe thanks to the printing press. By 1521, Luther had been excommunicated and defended his views before the Holy Roman Emperor at the Diet of Worms, declaring he could not recant against scripture and conscience.",
+      "es": "Lutero publicó (o envió) sus 95 Tesis el 31 de octubre de 1517, desafiando principalmente la venta de indulgencias por parte de la Iglesia católica: pagos que se creía reducían el tiempo en el purgatorio. Las copias se difundieron rápidamente por Alemania y Europa gracias a la imprenta. Para 1521, Lutero había sido excomulgado y defendió sus opiniones ante el Emperador del Sacro Imperio Romano en la Dieta de Worms, declarando que no podía retractarse contra la Escritura y su conciencia."
+    },
+    "meanwhile": {
+      "en": "In 1517, the Ottoman Sultan Selim I was completing his conquest of Egypt and establishing control over the holy cities of Mecca and Medina, fundamentally reshaping Islamic geopolitics at the same moment Luther was reshaping Christian Europe.",
+      "es": "En 1517, el sultán otomano Selim I completaba su conquista de Egipto y establecía el control sobre las ciudades santas de La Meca y Medina, reconfigurando fundamentalmente la geopolítica islámica en el mismo momento en que Lutero reconfiguraba la Europa cristiana."
+    },
+    "reflection": {
+      "en": "Luther's 95 Theses spread across Europe within weeks thanks to the printing press — a technology less than a century old. How does the speed at which ideas spread shape the impact and permanence of a revolutionary message?",
+      "es": "Las 95 Tesis de Lutero se difundieron por Europa en pocas semanas gracias a la imprenta, una tecnología de menos de un siglo. ¿Cómo determina la velocidad a la que se difunden las ideas el impacto y la permanencia de un mensaje revolucionario?"
+    }
+  },
+  {
+    "id": "rf-002",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "easy",
+    "question": {
+      "en": "John Calvin established a model of strict theocratic governance in which Swiss city, making it a center of Reformed Protestantism?",
+      "es": "Juan Calvino estableció un modelo de estricta gobernanza teocrática en qué ciudad suiza, convirtiéndola en un centro del protestantismo reformado?"
+    },
+    "options": [
+      { "en": "Geneva", "es": "Ginebra" },
+      { "en": "Zurich", "es": "Zúrich" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Calvin settled in Geneva in 1541 and shaped it into a model Protestant city where religious doctrine governed daily life — from church attendance to dress and entertainment. His Institutes of the Christian Religion (1536) systematized Reformed theology, and Geneva became a training ground for Protestant ministers who spread Calvinism to France, Scotland, the Netherlands, and beyond. Zurich had been Zwingli's center of reform, a distinct but related movement.",
+      "es": "Calvino se estableció en Ginebra en 1541 y la transformó en una ciudad protestante modelo donde la doctrina religiosa gobernaba la vida cotidiana: desde la asistencia a la iglesia hasta la vestimenta y el entretenimiento. Su Institución de la religión cristiana (1536) sistematizó la teología reformada, y Ginebra se convirtió en un semillero de ministros protestantes que difundieron el calvinismo a Francia, Escocia, los Países Bajos y más allá. Zúrich había sido el centro de reforma de Zwinglio, un movimiento distinto pero relacionado."
+    },
+    "meanwhile": {
+      "en": "In the 1540s, the Mughal Emperor Humayun was reconquering India after his exile — a parallel story of religious authority and political power unfolding in a very different part of the world, where rulers also legitimized their rule through religious frameworks.",
+      "es": "En la década de 1540, el emperador mogol Humayun reconquistaba India tras su exilio: una historia paralela de autoridad religiosa y poder político desarrollándose en una parte muy diferente del mundo, donde los gobernantes también legitimaban su poder a través de marcos religiosos."
+    },
+    "reflection": {
+      "en": "Geneva under Calvin was often described as a model Christian city where religious law governed daily life. What are the risks and potential benefits of governments founded explicitly on religious principles?",
+      "es": "La Ginebra de Calvino era a menudo descrita como una ciudad cristiana modelo donde la ley religiosa gobernaba la vida cotidiana. ¿Cuáles son los riesgos y los posibles beneficios de los gobiernos fundados explícitamente en principios religiosos?"
+    }
+  },
+  {
+    "id": "rf-003",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "easy",
+    "question": {
+      "en": "What was the primary reason Henry VIII broke with the Catholic Church and declared himself Supreme Head of the Church of England in 1534?",
+      "es": "¿Cuál fue la razón principal por la que Enrique VIII rompió con la Iglesia Católica y se declaró Cabeza Suprema de la Iglesia de Inglaterra en 1534?"
+    },
+    "options": [
+      { "en": "Pope Clement VII refused to annul his marriage to Catherine of Aragon, blocking his remarriage", "es": "El papa Clemente VII se negó a anular su matrimonio con Catalina de Aragón, bloqueando su nuevo casamiento" },
+      { "en": "Henry had become convinced by Luther's theological arguments and sought to reform English church doctrine", "es": "Enrique se había convencido con los argumentos teológicos de Lutero y buscaba reformar la doctrina eclesiástica inglesa" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Henry VIII wanted to annul his marriage to Catherine of Aragon because she had not produced a male heir, and he wished to marry Anne Boleyn. Pope Clement VII, under political pressure from Catherine's nephew Emperor Charles V, refused to grant the annulment. Henry responded by passing the Act of Supremacy (1534), making himself the supreme head of a new Church of England — a break driven primarily by dynastic and political motives, not theological conviction.",
+      "es": "Enrique VIII quería anular su matrimonio con Catalina de Aragón porque ella no le había dado un heredero varón, y deseaba casarse con Ana Bolena. El papa Clemente VII, bajo presión política del sobrino de Catalina, el Emperador Carlos V, se negó a conceder la anulación. Enrique respondió aprobando el Acta de Supremacía (1534), convirtiéndose en cabeza suprema de una nueva Iglesia de Inglaterra: una ruptura impulsada principalmente por motivos dinásticos y políticos, no por convicción teológica."
+    },
+    "meanwhile": {
+      "en": "In the 1530s, the Ottoman Empire under Suleiman the Magnificent signed the Franco-Ottoman Alliance against the Habsburgs — demonstrating that religious and political alliances were deeply intertwined across all of Europe and the Middle East, with Catholic France allying with a Muslim empire against a Catholic emperor.",
+      "es": "En la década de 1530, el Imperio Otomano bajo Solimán el Magnífico firmó la alianza franco-otomana contra los Habsburgo: una demostración de que las alianzas religiosas y políticas estaban profundamente entrelazadas en toda Europa y Oriente Medio, con la Francia católica aliándose con un imperio musulmán contra un emperador católico."
+    },
+    "reflection": {
+      "en": "Henry VIII's break with Rome began for personal political reasons but had profound religious consequences for millions of people over generations. Can structural religious change driven primarily by personal ambition be considered legitimate?",
+      "es": "La ruptura de Enrique VIII con Roma comenzó por razones políticas personales, pero tuvo profundas consecuencias religiosas para millones de personas a lo largo de generaciones. ¿Puede considerarse legítimo un cambio religioso estructural impulsado principalmente por la ambición personal?"
+    }
+  },
+  {
+    "id": "rf-004",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "easy",
+    "question": {
+      "en": "What was the primary purpose of the Council of Trent (1545–1563)?",
+      "es": "¿Cuál fue el objetivo principal del Concilio de Trento (1545-1563)?"
+    },
+    "options": [
+      { "en": "To reform the Catholic Church from within and formulate a clear response to Protestant theological challenges", "es": "Reformar la Iglesia Católica desde adentro y formular una respuesta clara a los desafíos teológicos protestantes" },
+      { "en": "To organize a new military Crusade against the Ottoman Empire and recapture Jerusalem", "es": "Organizar una nueva Cruzada militar contra el Imperio Otomano y recuperar Jerusalén" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Council of Trent met in three phases over nearly two decades, producing the most significant Catholic reform since the early Church. It clarified contested doctrines (tradition alongside scripture, transubstantiation, the seven sacraments), eliminated many corrupt practices like the sale of indulgences, strengthened clerical education through seminaries, and hardened the boundary between Catholic and Protestant theology. It defined Catholicism's shape for the next four centuries.",
+      "es": "El Concilio de Trento se reunió en tres fases a lo largo de casi dos décadas, produciendo la reforma católica más significativa desde la Iglesia primitiva. Clarificó doctrinas controvertidas (la tradición junto a las Escrituras, la transubstanciación, los siete sacramentos), eliminó muchas prácticas corruptas como la venta de indulgencias, fortaleció la formación clerical mediante seminarios y endureció la frontera entre la teología católica y la protestante. Definió la forma del catolicismo durante los cuatro siglos siguientes."
+    },
+    "meanwhile": {
+      "en": "During the same decades, the Mughal Emperor Akbar the Great was conducting interfaith dialogues in his court, inviting scholars from Islam, Hinduism, Christianity, and Zoroastrianism — a starkly contrasting approach to religious diversity happening simultaneously in South Asia.",
+      "es": "Durante las mismas décadas, el emperador mogol Akbar el Grande realizaba diálogos interreligiosos en su corte, invitando a eruditos del islam, el hinduismo, el cristianismo y el zoroastrismo: un enfoque radicalmente diferente ante la diversidad religiosa que ocurría simultáneamente en el sur de Asia."
+    },
+    "reflection": {
+      "en": "The Council of Trent reformed many genuine abuses within Catholicism but also hardened doctrinal lines that made reconciliation with Protestants nearly impossible. Is it possible to reform an institution from within while simultaneously defending it against external critics?",
+      "es": "El Concilio de Trento reformó muchos abusos genuinos dentro del catolicismo, pero también endureció las líneas doctrinales que hacían casi imposible la reconciliación con los protestantes. ¿Es posible reformar una institución desde adentro mientras simultáneamente se la defiende frente a los críticos externos?"
+    }
+  },
+  {
+    "id": "rf-005",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "medium",
+    "question": {
+      "en": "How did the Society of Jesus (Jesuits), founded by Ignatius of Loyola in 1540, primarily advance the Catholic Counter-Reformation?",
+      "es": "¿Cómo promovió principalmente la Compañía de Jesús (jesuitas), fundada por Ignacio de Loyola en 1540, la Contrarreforma Católica?"
+    },
+    "options": [
+      { "en": "Through elite education, overseas missions, and direct service as confessors and advisors to Catholic rulers", "es": "A través de la educación de élite, misiones en el extranjero y el servicio directo como confesores y asesores de gobernantes católicos" },
+      { "en": "Through military campaigns alongside the Inquisition to forcibly suppress Protestant communities", "es": "Mediante campañas militares junto a la Inquisición para suprimir por la fuerza a las comunidades protestantes" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Jesuits operated through persuasion and intellectual influence rather than force. They founded universities and schools across Europe, Asia, and the Americas that became centers of learning and Catholic formation. Jesuit missionaries reached Japan, China, India, and the Americas, often adapting to local cultures in a practice called 'inculturation.' As confessors to Catholic kings, they wielded enormous political influence. Their educational network helped reverse Protestant gains in Poland, the German states, and elsewhere.",
+      "es": "Los jesuitas operaban a través de la persuasión y la influencia intelectual en lugar de la fuerza. Fundaron universidades y escuelas en Europa, Asia y las Américas que se convirtieron en centros de aprendizaje y formación católica. Los misioneros jesuitas llegaron a Japón, China, India y las Américas, adaptándose a menudo a las culturas locales en una práctica llamada 'inculturación'. Como confesores de los reyes católicos, ejercieron una enorme influencia política. Su red educativa ayudó a revertir los avances protestantes en Polonia, los estados alemanes y otros lugares."
+    },
+    "meanwhile": {
+      "en": "As Jesuit missionaries reached Japan in the 1540s–1550s, they encountered a sophisticated feudal society with its own rich spiritual traditions. The Japanese initially tolerated Christian missionaries before the Tokugawa shogunate violently suppressed Christianity in the 17th century — illustrating the complex politics of foreign religious influence.",
+      "es": "Cuando los misioneros jesuitas llegaron a Japón en las décadas de 1540-1550, encontraron una sofisticada sociedad feudal con sus propias ricas tradiciones espirituales. Los japoneses inicialmente toleraron a los misioneros cristianos antes de que el shogunato Tokugawa suprimiera violentamente el cristianismo en el siglo XVII: una ilustración de la compleja política de la influencia religiosa extranjera."
+    },
+    "reflection": {
+      "en": "The Jesuits were pioneers in adapting Christianity to local cultures rather than imposing European forms of worship. Where is the line between respectful adaptation of a belief system to a new context and compromising its core principles?",
+      "es": "Los jesuitas fueron pioneros en adaptar el cristianismo a las culturas locales en lugar de imponer formas europeas de culto. ¿Dónde está la línea entre la adaptación respetuosa de un sistema de creencias a un nuevo contexto y el compromiso de sus principios fundamentales?"
+    }
+  },
+  {
+    "id": "rf-006",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "medium",
+    "question": {
+      "en": "The Thirty Years' War (1618–1648) began primarily as what type of conflict before evolving into a broader European power struggle?",
+      "es": "La Guerra de los Treinta Años (1618-1648) comenzó principalmente como qué tipo de conflicto antes de evolucionar hacia una disputa de poder europea más amplia?"
+    },
+    "options": [
+      { "en": "A religious conflict between Protestant and Catholic factions within the Holy Roman Empire", "es": "Un conflicto religioso entre facciones protestantes y católicas dentro del Sacro Imperio Romano Germánico" },
+      { "en": "A dynastic war between France and the Habsburg family over succession to the Spanish throne", "es": "Una guerra dinástica entre Francia y la familia Habsburgo por la sucesión al trono español" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The war began with the Defenestration of Prague in 1618, when Protestant Bohemian nobles rebelled against the Catholic Habsburg Emperor. It spread across the Holy Roman Empire, drawing in Sweden, France, Spain, and Denmark. By its end, what had begun as a religious conflict had become a contest for European hegemony — Catholic France allied with Protestant Sweden against the Catholic Habsburgs. The war killed an estimated 25–40% of the German-speaking population through combat, famine, and disease.",
+      "es": "La guerra comenzó con la Defenestración de Praga en 1618, cuando nobles protestantes bohemios se rebelaron contra el Emperador Habsburgo católico. Se extendió por el Sacro Imperio Romano Germánico, atrayendo a Suecia, Francia, España y Dinamarca. Al final, lo que había comenzado como un conflicto religioso se había convertido en una disputa por la hegemonía europea: la Francia católica se alió con la Suecia protestante contra los Habsburgo católicos. La guerra mató a un estimado del 25-40% de la población germanoparlante mediante el combate, el hambre y las enfermedades."
+    },
+    "meanwhile": {
+      "en": "While Europe was consumed by the Thirty Years' War (1618–1648), the Qing Dynasty was conquering Ming China — reordering the world's most populous civilization through a conquest driven by political and military factors rather than religious ones, on an equally enormous scale.",
+      "es": "Mientras Europa estaba consumida por la Guerra de los Treinta Años (1618-1648), la dinastía Qing conquistaba la China Ming: reordenando la civilización más populosa del mundo mediante una conquista impulsada por factores políticos y militares en lugar de religiosos, a una escala igualmente enorme."
+    },
+    "reflection": {
+      "en": "The Thirty Years' War began as a religious conflict and ended as a political one, with Catholic France allying with Protestant Sweden against the Catholic Habsburgs. What does this tell us about the relationship between religious conviction and political interest in warfare?",
+      "es": "La Guerra de los Treinta Años comenzó como un conflicto religioso y terminó como uno político, con la Francia católica aliándose con la Suecia protestante contra los Habsburgo católicos. ¿Qué nos dice esto sobre la relación entre la convicción religiosa y el interés político en la guerra?"
+    }
+  },
+  {
+    "id": "rf-007",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "medium",
+    "question": {
+      "en": "What key principle did the Peace of Augsburg (1555) establish for resolving religious conflict in the Holy Roman Empire?",
+      "es": "¿Qué principio clave estableció la Paz de Augsburgo (1555) para resolver el conflicto religioso en el Sacro Imperio Romano Germánico?"
+    },
+    "options": [
+      { "en": "'Cuius regio, eius religio' — the ruler of each territory determined its official religion", "es": "'Cuius regio, eius religio': el gobernante de cada territorio determinaba su religión oficial" },
+      { "en": "Full individual freedom of religion for all inhabitants regardless of the religion of their ruler", "es": "Plena libertad religiosa individual para todos los habitantes, independientemente de la religión de su gobernante" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Peace of Augsburg ended the first phase of religious conflict in the Holy Roman Empire by allowing each prince to choose between Lutheranism and Catholicism for their territory. Subjects who disagreed could emigrate. The agreement did not extend to Calvinists or other Protestant groups. While it established a form of coexistence between political units, it denied individual religious freedom and merely postponed the larger conflicts that exploded in the Thirty Years' War sixty years later.",
+      "es": "La Paz de Augsburgo terminó la primera fase del conflicto religioso en el Sacro Imperio Romano Germánico al permitir que cada príncipe eligiera entre el luteranismo y el catolicismo para su territorio. Los súbditos que no estuvieran de acuerdo podían emigrar. El acuerdo no se extendía a los calvinistas ni a otros grupos protestantes. Si bien estableció una forma de coexistencia entre unidades políticas, negó la libertad religiosa individual y simplemente pospuso los conflictos mayores que estallarían en la Guerra de los Treinta Años sesenta años después."
+    },
+    "meanwhile": {
+      "en": "In 1555, the Ottoman Empire under Suleiman the Magnificent signed the Treaty of Amasya with Safavid Persia, stabilizing the border between Sunni and Shia Muslim powers — a parallel moment of negotiated coexistence between rival religious factions on the other side of the Mediterranean.",
+      "es": "En 1555, el Imperio Otomano bajo Solimán el Magnífico firmó el Tratado de Amasya con la Persia safávida, estabilizando la frontera entre las potencias musulmanas sunitas y chiitas: un momento paralelo de coexistencia negociada entre facciones religiosas rivales al otro lado del Mediterráneo."
+    },
+    "reflection": {
+      "en": "The Peace of Augsburg gave rulers the right to choose their territory's religion but denied that same choice to individual subjects. Is it possible to achieve political coexistence between religious communities without suppressing individual religious freedom?",
+      "es": "La Paz de Augsburgo otorgó a los gobernantes el derecho a elegir la religión de su territorio, pero negó esa misma elección a los súbditos individuales. ¿Es posible lograr la coexistencia política entre comunidades religiosas sin suprimir la libertad religiosa individual?"
+    }
+  },
+  {
+    "id": "rf-008",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "medium",
+    "question": {
+      "en": "Erasmus of Rotterdam was the most celebrated humanist scholar of the Reformation era, yet he refused to join Luther. How did Erasmus's position differ from Luther's?",
+      "es": "Erasmo de Rotterdam fue el humanista más célebre de la era de la Reforma, pero se negó a unirse a Lutero. ¿En qué se diferenciaba la posición de Erasmo de la de Lutero?"
+    },
+    "options": [
+      { "en": "Erasmus advocated reforming the Church from within through education and moral renewal, without breaking from Rome", "es": "Erasmo abogaba por reformar la Iglesia desde adentro a través de la educación y la renovación moral, sin romper con Roma" },
+      { "en": "Erasmus rejected the authority of the Bible as a source of doctrine while Luther embraced it as the sole authority", "es": "Erasmo rechazaba la autoridad de la Biblia como fuente de doctrina, mientras que Lutero la abrazaba como única autoridad" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Erasmus sharply criticized clerical corruption, superstition, and ignorance — his In Praise of Folly (1511) mocked Church abuses — but he believed reform should come through humanist education and internal persuasion, not schism. He and Luther famously clashed over free will: Luther argued humans were entirely dependent on God's grace, while Erasmus defended a role for human choice. Ultimately, Erasmus was alienated by both Catholic conservatives who saw him as too critical and Protestant reformers who saw him as insufficiently committed.",
+      "es": "Erasmo criticó duramente la corrupción clerical, la superstición y la ignorancia —su Elogio de la locura (1511) se burlaba de los abusos de la Iglesia—, pero creía que la reforma debía venir a través de la educación humanista y la persuasión interna, no del cisma. Él y Lutero chocaron famosamente sobre el libre albedrío: Lutero argumentaba que los seres humanos dependían completamente de la gracia de Dios, mientras que Erasmo defendía un papel para la elección humana. Finalmente, Erasmo fue marginado tanto por los conservadores católicos que lo veían demasiado crítico como por los reformadores protestantes que lo veían insuficientemente comprometido."
+    },
+    "meanwhile": {
+      "en": "In the same era, Chinese philosopher Wang Yangming was developing his school of neo-Confucianism, emphasizing the innate moral knowledge present in all people — a philosophical parallel to Erasmus's humanist focus on individual moral cultivation through education and reason.",
+      "es": "En la misma época, el filósofo chino Wang Yangming desarrollaba su escuela de neoconfucianismo, enfatizando el conocimiento moral innato presente en todas las personas: un paralelo filosófico al enfoque humanista de Erasmo sobre el cultivo moral individual a través de la educación y la razón."
+    },
+    "reflection": {
+      "en": "Erasmus tried to occupy a middle ground and ultimately satisfied neither side, losing influence to more radical voices. Is there a viable role for moderate reformers in moments of deep ideological polarization, or does polarization inevitably push them aside?",
+      "es": "Erasmo intentó ocupar un término medio y finalmente no satisfizo a ningún lado, perdiendo influencia frente a voces más radicales. ¿Existe un papel viable para los reformadores moderados en momentos de profunda polarización ideológica, o la polarización los desplaza inevitablemente?"
+    }
+  },
+  {
+    "id": "rf-009",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "hard",
+    "question": {
+      "en": "Before Gutenberg's printing press, how were religious texts primarily reproduced in Europe, and why did this limit the potential for a mass religious reform movement?",
+      "es": "Antes de la imprenta de Gutenberg, ¿cómo se reproducían principalmente los textos religiosos en Europa y por qué eso limitaba el potencial de un movimiento de reforma religiosa masiva?"
+    },
+    "options": [
+      { "en": "By hand by monastic scribes, making copies rare, expensive, and controlled by Church institutions", "es": "A mano por escribas monásticos, lo que hacía que las copias fueran raras, costosas y controladas por las instituciones de la Iglesia" },
+      { "en": "By woodblock printing, which was fast but only available to wealthy merchants and royal courts", "es": "Mediante xilografía, que era rápida pero solo estaba disponible para mercaderes ricos y cortes reales" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In medieval Europe, texts were copied by hand, primarily in monastic scriptoria. A single Bible could take months to copy and cost more than a craftsman's annual wage, making books accessible only to clergy and wealthy elites. This concentration of textual access concentrated interpretive authority in Church institutions. When Gutenberg's press enabled mass production, Luther's German Bible (1522) could be printed in thousands of copies within weeks — putting scripture directly in literate laypeople's hands and making personal interpretation possible on a mass scale.",
+      "es": "En la Europa medieval, los textos se copiaban a mano, principalmente en scriptoria monásticos. Una sola Biblia podía tardar meses en copiarse y costar más que el salario anual de un artesano, por lo que los libros solo eran accesibles para el clero y las élites adineradas. Esta concentración del acceso textual concentraba la autoridad interpretativa en las instituciones de la Iglesia. Cuando la imprenta de Gutenberg permitió la producción en masa, la Biblia alemana de Lutero (1522) podía imprimirse en miles de copias en pocas semanas, poniendo las Escrituras directamente en manos de los laicos letrados y haciendo posible la interpretación personal a escala masiva."
+    },
+    "meanwhile": {
+      "en": "The Ottoman Empire was initially resistant to the printing press for Arabic script — it was not introduced until 1727 — partly because scribal guilds and religious authorities saw it as a threat to their professional monopoly on textual reproduction, illustrating that technology adoption is never purely a technical decision.",
+      "es": "El Imperio Otomano fue inicialmente resistente a la imprenta para la escritura árabe —no se introdujo hasta 1727— en parte porque los gremios de escribas y las autoridades religiosas la veían como una amenaza para su monopolio profesional sobre la reproducción de textos: una ilustración de que la adopción de tecnología nunca es una decisión puramente técnica."
+    },
+    "reflection": {
+      "en": "Gutenberg's press democratized access to information within decades but also spread misinformation, propaganda, and religious extremism at unprecedented speed. Does the free flow of information inherently strengthen or weaken social cohesion — or does it depend entirely on who controls the message?",
+      "es": "La imprenta de Gutenberg democratizó el acceso a la información en pocas décadas, pero también propagó desinformación, propaganda y extremismo religioso a velocidades sin precedentes. ¿El libre flujo de información fortalece o debilita inherentemente la cohesión social, o depende completamente de quién controla el mensaje?"
+    }
+  },
+  {
+    "id": "rf-010",
+    "category": "the-reformation",
+    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "difficulty": "hard",
+    "question": {
+      "en": "What long-term social consequence, beyond religion, did the Protestant emphasis on individual Bible reading produce across northern Europe?",
+      "es": "¿Qué consecuencia social a largo plazo, más allá de lo religioso, produjo el énfasis protestante en la lectura individual de la Biblia en el norte de Europa?"
+    },
+    "options": [
+      { "en": "It drove mass literacy campaigns and the growth of vernacular literature, education, and civic participation", "es": "Impulsó campañas de alfabetización masiva y el crecimiento de la literatura vernácula, la educación y la participación cívica" },
+      { "en": "It reinforced Latin as the universal language of scholarship by requiring universal translation standards", "es": "Reforzó el latín como lengua universal del conocimiento al requerir estándares de traducción universales" }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Protestant theology held that every believer should read scripture personally, which created a powerful institutional incentive to teach reading. Lutheran territories established parish schools and required vernacular literacy, producing measurably higher literacy rates in Protestant regions than Catholic ones by the 18th century. This literacy spilled over into civic life, commerce, and eventually scientific and political discourse. Luther's German Bible also standardized written German, contributing to the emergence of a national linguistic identity.",
+      "es": "La teología protestante sostenía que cada creyente debía leer las Escrituras personalmente, lo que creó un poderoso incentivo institucional para enseñar a leer. Los territorios luteranos establecieron escuelas parroquiales y exigieron la alfabetización en lengua vernácula, produciendo tasas de alfabetización mensurablemente más altas en las regiones protestantes que en las católicas para el siglo XVIII. Esta alfabetización se derramó hacia la vida cívica, el comercio y, eventualmente, el discurso científico y político. La Biblia alemana de Lutero también estandarizó el alemán escrito, contribuyendo al surgimiento de una identidad lingüística nacional."
+    },
+    "meanwhile": {
+      "en": "In West Africa, the Songhai Empire at Timbuktu maintained sophisticated Islamic scholarship and extensive manuscript libraries — a parallel world of religious literacy and intellectual culture entirely independent of European Reformation debates, demonstrating that literacy and learning flourished in multiple civilizations simultaneously.",
+      "es": "En África Occidental, el Imperio Songai en Tombuctú mantenía una sofisticada erudición islámica y extensas bibliotecas de manuscritos: un mundo paralelo de alfabetización religiosa y cultura intelectual completamente independiente de los debates de la Reforma europea, demostrando que la alfabetización y el aprendizaje florecían en múltiples civilizaciones simultáneamente."
+    },
+    "reflection": {
+      "en": "Protestant demands for Bible literacy drove unprecedented educational investment across northern Europe. Can access to texts and education by itself transform a society, or does it require other social, economic, or political conditions to produce lasting change?",
+      "es": "Las demandas protestantes de alfabetización bíblica impulsaron una inversión educativa sin precedentes en el norte de Europa. ¿Puede el acceso a los textos y la educación por sí solo transformar una sociedad, o requiere otras condiciones sociales, económicas o políticas para producir un cambio duradero?"
+    }
+  }
+]

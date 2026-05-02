@@ -4,6 +4,9 @@ import romanEmpire from './roman-empire.json';
 import byzantineEmpire from './byzantine-empire.json';
 import crusadesChivalry from './crusades-chivalry.json';
 import vikings from './vikings.json';
+import ageOfExploration from './age-of-exploration.json';
+import theReformation from './the-reformation.json';
+import theRenaissance from './the-renaissance.json';
 
 const questionsData = [
   ...ancientEgypt,
@@ -12,6 +15,9 @@ const questionsData = [
   ...byzantineEmpire,
   ...crusadesChivalry,
   ...vikings,
+  ...ageOfExploration,
+  ...theReformation,
+  ...theRenaissance,
 ];
 
 export default questionsData;

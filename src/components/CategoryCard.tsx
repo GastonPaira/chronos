@@ -18,25 +18,31 @@ interface Props {
 
 /** Maps category slugs to Unicode emoji/symbols used as visual icons. */
 const CATEGORY_ICONS: Record<string, string> = {
-  'ancient-egypt':    '𓂀',
-  'ancient-greece':   '🏛️',
-  'roman-empire':     '⚔️',
-  'byzantine-empire': '✝️',
-  'crusades-chivalry':'⚜️',
-  'vikings':          '🛡️',
-  'renaissance':      '🎨',
-  'world-wars':       '🌍',
-  'space-race':       '🚀',
+  'ancient-egypt':      '𓂀',
+  'ancient-greece':     '🏛️',
+  'roman-empire':       '⚔️',
+  'byzantine-empire':   '✝️',
+  'crusades-chivalry':  '⚜️',
+  'vikings':            '🛡️',
+  'age-of-exploration': '🧭',
+  'the-reformation':    '📜',
+  'the-renaissance':    '🎨',
+  'renaissance':        '🎨',
+  'world-wars':         '🌍',
+  'space-race':         '🚀',
 };
 
 /** Maps category slugs to local background image paths. */
 const CATEGORY_IMAGES: Record<string, string> = {
-  'ancient-egypt':    '/images/ancient-egypt.jpg',
-  'ancient-greece':   '/images/ancient-greece.jpg',
-  'roman-empire':     '/images/roman-empire.jpg',
-  'byzantine-empire': '/images/byzantine-empire.jpg',
-  'crusades-chivalry':'/images/crusades-chivalry.jpg',
-  'vikings':          '/images/vikings.jpg',
+  'ancient-egypt':      '/images/ancient-egypt.jpg',
+  'ancient-greece':     '/images/ancient-greece.jpg',
+  'roman-empire':       '/images/roman-empire.jpg',
+  'byzantine-empire':   '/images/byzantine-empire.jpg',
+  'crusades-chivalry':  '/images/crusades-chivalry.jpg',
+  'vikings':            '/images/vikings.jpg',
+  'age-of-exploration': '/images/age-of-exploration.jpg',
+  'the-reformation':    '/images/the-reformation.jpg',
+  'the-renaissance':    '/images/the-renaissance.jpg',
 };
 
 /**
