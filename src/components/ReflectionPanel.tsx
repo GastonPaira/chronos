@@ -5,14 +5,11 @@ import { useTranslation } from 'next-i18next';
 import type { Question, Locale } from '@/types';
 import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 
-/**
- * Props for `ReflectionPanel`.
- *
- * @property question - The question whose educational content will be displayed.
- * @property locale - Active locale for rendering translated text.
- * @property isLast - When `true`, the continue button shows "Finish" instead of "Continue".
- * @property onContinue - Called when the user taps the continue/finish button.
- */
+type AudioState = 'idle' | 'playing' | 'paused';
+type PanelKey = 'explanation' | 'meanwhile' | 'reflection';
+
+const PANEL_KEYS: PanelKey[] = ['explanation', 'meanwhile', 'reflection'];
+
 interface Props {
   question: Question;
   locale: Locale;
@@ -20,11 +17,6 @@ interface Props {
   onContinue: () => void;
 }
 
-/**
- * Small inline chevron icon that rotates 180° when the section is expanded.
- *
- * @property rotated - When `true`, the chevron points upward (section is open).
- */
 const ChevronIcon = ({ rotated }: { rotated: boolean }) => (
   <svg
     width="12" height="12" viewBox="0 0 24 24"
@@ -35,43 +27,72 @@ const ChevronIcon = ({ rotated }: { rotated: boolean }) => (
   </svg>
 );
 
-/**
- * Renders the post-answer educational panel with three expandable sections:
- * 1. **Historical Context** (`explanation`) – always starts expanded.
- * 2. **Meanwhile** (`meanwhile`) – what else was happening in the world.
- * 3. **Reflect on This** (`reflection`) – an open-ended thinking prompt.
- *
- * Each section has a toggle button and, when the device supports it,
- * a text-to-speech button powered by `useTextToSpeech`. Audio is stopped
- * automatically when the question changes or when the component unmounts.
- *
- * Side effects: calls `stop()` from `useTextToSpeech` on question change and unmount.
- */
+const BTN = 'p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none';
+
+const AudioControls = ({
+  state, onStart, onPause, onResume, onRestart, onStop,
+}: {
+  state: AudioState;
+  onStart: () => void;
+  onPause: () => void;
+  onResume: () => void;
+  onRestart: () => void;
+  onStop: () => void;
+}) => {
+  if (state === 'idle') {
+    return (
+      <span onClick={e => { e.stopPropagation(); onStart(); }} className={BTN}>▶️</span>
+    );
+  }
+  return (
+    <div className="flex items-center gap-0.5 animate-fade-in" onClick={e => e.stopPropagation()}>
+      <span onClick={onRestart} className={BTN}>⏮</span>
+      {state === 'playing'
+        ? <span onClick={onPause} className={BTN}>⏸</span>
+        : <span onClick={onResume} className={BTN}>▶️</span>
+      }
+      <span onClick={onStop} className={BTN}>⏹</span>
+    </div>
+  );
+};
+
 export default function ReflectionPanel({ question, locale, isLast, onContinue }: Props) {
   const { t } = useTranslation('common');
-  const { speak, stop, speakingId, isSupported } = useTextToSpeech(locale);
+  const { isSupported } = useTextToSpeech(locale);
 
   const containerRef = useRef<HTMLDivElement>(null);
-
-  const [expanded, setExpanded] = useState<Record<string, boolean>>({
-    context: true,
-    meanwhile: false,
-    reflect: false,
+  const audioRefs = useRef<Record<PanelKey, HTMLAudioElement | null>>({
+    explanation: null, meanwhile: null, reflection: null,
   });
 
-  useEffect(() => {
-    return () => stop();
-  }, [question.id, stop]);
+  const [audioStates, setAudioStates] = useState<Record<PanelKey, AudioState>>({
+    explanation: 'idle', meanwhile: 'idle', reflection: 'idle',
+  });
+  const [expanded, setExpanded] = useState<Record<string, boolean>>({
+    context: true, meanwhile: false, reflect: false,
+  });
 
-  // Reset expanded state when question changes so the context section is always open first.
+  // Stop all panels and reset UI state when question changes.
   useEffect(() => {
+    PANEL_KEYS.forEach(key => {
+      const a = audioRefs.current[key];
+      if (a) { a.pause(); a.onended = null; a.onerror = null; }
+      audioRefs.current[key] = null;
+    });
+    setAudioStates({ explanation: 'idle', meanwhile: 'idle', reflection: 'idle' });
     setExpanded({ context: true, meanwhile: false, reflect: false });
   }, [question.id]);
 
+  // Pause all audio on unmount.
+  useEffect(() => {
+    const refs = audioRefs.current;
+    return () => { PANEL_KEYS.forEach(key => refs[key]?.pause()); };
+  }, []);
+
+  // Speak selected text on mouseup / touchend within the panel.
   useEffect(() => {
     const el = containerRef.current;
     if (!el || typeof window === 'undefined' || !window.speechSynthesis) return;
-
     const handleSelectionRead = () => {
       const selected = window.getSelection()?.toString().trim();
       if (!selected) return;
@@ -80,7 +101,6 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
       utterance.lang = locale === 'es' ? 'es-ES' : 'en-US';
       window.speechSynthesis.speak(utterance);
     };
-
     el.addEventListener('mouseup', handleSelectionRead);
     el.addEventListener('touchend', handleSelectionRead);
     return () => {
@@ -89,8 +109,42 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
     };
   }, [locale]);
 
-  const toggle = (key: string) => {
-    setExpanded(prev => ({ ...prev, [key]: !prev[key] }));
+  const toggle = (key: string) => setExpanded(prev => ({ ...prev, [key]: !prev[key] }));
+
+  const startAudio = (key: PanelKey, id: string) => {
+    const existing = audioRefs.current[key];
+    if (existing) { existing.pause(); existing.onended = null; existing.onerror = null; }
+    const audio = new Audio(`/audio/${id}.mp3`);
+    audio.onended = () => setAudioStates(prev => ({ ...prev, [key]: 'idle' }));
+    audio.onerror = () => setAudioStates(prev => ({ ...prev, [key]: 'idle' }));
+    audioRefs.current[key] = audio;
+    setAudioStates(prev => ({ ...prev, [key]: 'playing' }));
+    audio.play().catch(() => setAudioStates(prev => ({ ...prev, [key]: 'idle' })));
+  };
+
+  const pauseAudio = (key: PanelKey) => {
+    audioRefs.current[key]?.pause();
+    setAudioStates(prev => ({ ...prev, [key]: 'paused' }));
+  };
+
+  const resumeAudio = (key: PanelKey) => {
+    audioRefs.current[key]?.play().catch(() => {});
+    setAudioStates(prev => ({ ...prev, [key]: 'playing' }));
+  };
+
+  const restartAudio = (key: PanelKey) => {
+    const audio = audioRefs.current[key];
+    if (!audio) return;
+    audio.currentTime = 0;
+    audio.play().catch(() => {});
+    setAudioStates(prev => ({ ...prev, [key]: 'playing' }));
+  };
+
+  const stopAudio = (key: PanelKey) => {
+    const audio = audioRefs.current[key];
+    if (audio) { audio.pause(); audio.currentTime = 0; audio.onended = null; }
+    audioRefs.current[key] = null;
+    setAudioStates(prev => ({ ...prev, [key]: 'idle' }));
   };
 
   return (
@@ -109,13 +163,14 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
           </div>
           <div className="flex items-center gap-2">
             {isSupported && locale === 'en' && (
-              <span
-                onClick={e => { e.stopPropagation(); speak(question.explanation.en, 'en', `${question.id}_explanation_en`); }}
-                className="p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none"
-                title={speakingId === `${question.id}_explanation_en` ? t('audio.stop') : t('audio.read')}
-              >
-                {speakingId === `${question.id}_explanation_en` ? '⏹' : '🔊'}
-              </span>
+              <AudioControls
+                state={audioStates.explanation}
+                onStart={() => startAudio('explanation', `${question.id}_explanation_en`)}
+                onPause={() => pauseAudio('explanation')}
+                onResume={() => resumeAudio('explanation')}
+                onRestart={() => restartAudio('explanation')}
+                onStop={() => stopAudio('explanation')}
+              />
             )}
             <ChevronIcon rotated={expanded.context} />
           </div>
@@ -150,13 +205,14 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
           </div>
           <div className="flex items-center gap-2">
             {isSupported && locale === 'en' && (
-              <span
-                onClick={e => { e.stopPropagation(); speak(question.meanwhile.en, 'en', `${question.id}_meanwhile_en`); }}
-                className="p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none"
-                title={speakingId === `${question.id}_meanwhile_en` ? t('audio.stop') : t('audio.read')}
-              >
-                {speakingId === `${question.id}_meanwhile_en` ? '⏹' : '🔊'}
-              </span>
+              <AudioControls
+                state={audioStates.meanwhile}
+                onStart={() => startAudio('meanwhile', `${question.id}_meanwhile_en`)}
+                onPause={() => pauseAudio('meanwhile')}
+                onResume={() => resumeAudio('meanwhile')}
+                onRestart={() => restartAudio('meanwhile')}
+                onStop={() => stopAudio('meanwhile')}
+              />
             )}
             <ChevronIcon rotated={expanded.meanwhile} />
           </div>
@@ -191,13 +247,14 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
           </div>
           <div className="flex items-center gap-2">
             {isSupported && locale === 'en' && (
-              <span
-                onClick={e => { e.stopPropagation(); speak(question.reflection.en, 'en', `${question.id}_reflection_en`); }}
-                className="p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none"
-                title={speakingId === `${question.id}_reflection_en` ? t('audio.stop') : t('audio.read')}
-              >
-                {speakingId === `${question.id}_reflection_en` ? '⏹' : '🔊'}
-              </span>
+              <AudioControls
+                state={audioStates.reflection}
+                onStart={() => startAudio('reflection', `${question.id}_reflection_en`)}
+                onPause={() => pauseAudio('reflection')}
+                onResume={() => resumeAudio('reflection')}
+                onRestart={() => restartAudio('reflection')}
+                onStop={() => stopAudio('reflection')}
+              />
             )}
             <ChevronIcon rotated={expanded.reflect} />
           </div>
