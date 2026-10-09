@@ -59,7 +59,8 @@
     "meanwhileTitle": "Meanwhile...",
     "reflectionTitle": "Reflect on this…",
     "continue": "Next Question",
-    "finish": "See Results"
+    "finish": "See Results",
+    "seeMore": "See more"
   },
   "results": {
     "title": "Final Score",
@@ -75,7 +76,8 @@
   },
   "audio": {
     "read": "Read aloud",
-    "stop": "Stop reading"
+    "stop": "Stop reading",
+    "browserVoice": "Read with your device voice"
   },
   "nav": {
     "back": "Back",
@@ -182,5 +184,23 @@
       "newRecord": "New record! {{count}} days!",
       "alreadyToday": "Already played today. Come back tomorrow!"
     }
+  },
+  "story": {
+    "readFull": "Read the full story",
+    "from": "On History with Accent"
+  },
+  "safetyNet": {
+    "show": "Show in Spanish",
+    "hide": "Hide Spanish"
+  },
+  "login": {
+    "subtitle": "Sign in to save your progress and streak",
+    "versus": "Sign in with Google to play a versus with a friend",
+    "back": "Back to Chronos"
+  },
+  "embed": {
+    "title": "Question of the day",
+    "playMore": "Play 10 more in Chronos",
+    "answerToSee": "Answer to see the story behind it"
   }
 }

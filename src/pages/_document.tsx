@@ -13,8 +13,9 @@ export default function Document() {
         <meta name="apple-mobile-web-app-title" content="Chronos" />
         <meta name="mobile-web-app-capable" content="yes" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="apple-touch-icon" href="/icons/icon-192.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
         <link rel="icon" type="image/svg+xml" href="/icons/icon-192.svg" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
       </Head>
       <body>
         <Main />

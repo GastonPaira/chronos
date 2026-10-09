@@ -178,5 +178,215 @@
       "en": "Sparta took children from their families at age 7 to build the perfect soldier. Athens invested in art, philosophy, and debate. Which model better describes the society you grew up in — and would you choose it if you could?",
       "es": "Esparta separaba a los niños de sus familias a los 7 años para construir al soldado perfecto. Atenas invertía en arte, filosofía y debate. ¿Cuál modelo describe mejor la sociedad en la que creciste, y lo elegirías si pudieras?"
     }
+  },
+  {
+    "id": "gr-006",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "B1",
+    "story": "antikythera",
+    "question": {
+      "en": "In 1900, a storm forced a crew of Greek sponge divers to shelter near the island of Antikythera. What did one of the divers find about 45 meters under the sea?",
+      "es": "En 1900, una tormenta obligó a un grupo de buzos de esponjas griegos a refugiarse cerca de la isla de Anticitera. ¿Qué encontró uno de los buzos a unos 45 metros bajo el mar?"
+    },
+    "options": [
+      {
+        "en": "An ancient shipwreck full of bronze and marble statues",
+        "es": "Un antiguo naufragio lleno de estatuas de bronce y mármol"
+      },
+      {
+        "en": "A sunken temple dedicated to Poseidon",
+        "es": "Un templo hundido dedicado a Poseidón"
+      },
+      {
+        "en": "A pirate ship loaded with gold coins",
+        "es": "Un barco pirata cargado de monedas de oro"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The divers had stopped at Antikythera to wait for the storm to pass. When one of them came back up, he was terrified: he said the seabed was covered with bodies. They were statues. Over the following months, the divers brought up bronze and marble sculptures, pottery and glassware. Among the treasures was a corroded lump of bronze and wood that almost nobody paid attention to.",
+      "es": "Los buzos se habían detenido en Anticitera para esperar a que pasara la tormenta. Cuando uno de ellos volvió a la superficie, estaba aterrado: dijo que el fondo del mar estaba cubierto de cuerpos. Eran estatuas. En los meses siguientes, los buzos sacaron esculturas de bronce y mármol, cerámica y objetos de vidrio. Entre los tesoros había un trozo corroído de bronce y madera al que casi nadie le prestó atención."
+    },
+    "meanwhile": {
+      "en": "In 1900, Paris hosted both a huge World's Fair and the Olympic Games, the first Olympics where women were allowed to compete.",
+      "es": "En 1900, París organizó a la vez una enorme Exposición Universal y los Juegos Olímpicos, los primeros en los que se permitió competir a las mujeres."
+    },
+    "reflection": {
+      "en": "The most important object on that ship was the one nobody wanted. What is something in your life whose value you only understood much later?",
+      "es": "El objeto más importante de ese barco fue el que nadie quería. ¿Qué cosa de tu vida recién valoraste mucho tiempo después?"
+    }
+  },
+  {
+    "id": "gr-007",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "B1",
+    "story": "antikythera",
+    "question": {
+      "en": "The ship that sank near Antikythera in the first century BC was carrying Greek treasures. Where was it most likely heading?",
+      "es": "El barco que se hundió cerca de Anticitera en el siglo I a. C. llevaba tesoros griegos. ¿Hacia dónde se dirigía, muy probablemente?"
+    },
+    "options": [
+      {
+        "en": "To Rome",
+        "es": "A Roma"
+      },
+      {
+        "en": "To Egypt",
+        "es": "A Egipto"
+      },
+      {
+        "en": "To Persia",
+        "es": "A Persia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "By the first century BC, Rome was the strongest power in the Mediterranean, and rich Romans loved Greek art. Ships full of statues and luxury objects sailed from the Greek world toward Italy. Historians believe the Antikythera ship was one of them. Coins found in the wreck suggest it sank around 70–60 BC.",
+      "es": "Para el siglo I a. C., Roma era la mayor potencia del Mediterráneo, y a los romanos ricos les encantaba el arte griego. Barcos llenos de estatuas y objetos de lujo navegaban desde el mundo griego hacia Italia. Los historiadores creen que el barco de Anticitera era uno de ellos. Las monedas halladas en el naufragio indican que se hundió alrededor del 70–60 a. C."
+    },
+    "meanwhile": {
+      "en": "Around the same time, in 60 BC, Han China created the Protectorate of the Western Regions to control the oasis cities along the Silk Road.",
+      "es": "Por la misma época, en el 60 a. C., la China de los Han creó el Protectorado de las Regiones Occidentales para controlar las ciudades oasis de la Ruta de la Seda."
+    },
+    "reflection": {
+      "en": "Rome conquered Greece, but the Romans copied Greek art, ideas and even gods. Who really won in the end: the army or the culture?",
+      "es": "Roma conquistó Grecia, pero los romanos copiaron el arte, las ideas y hasta los dioses griegos. ¿Quién ganó realmente al final: el ejército o la cultura?"
+    }
+  },
+  {
+    "id": "gr-008",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "B1",
+    "story": "antikythera",
+    "question": {
+      "en": "When scientists finally figured out the gears inside that corroded lump of bronze, what did they discover it could do?",
+      "es": "Cuando los científicos por fin entendieron los engranajes de ese trozo de bronce corroído, ¿qué descubrieron que podía hacer?"
+    },
+    "options": [
+      {
+        "en": "Predict eclipses, show the Moon's phases and count the years between Olympic Games",
+        "es": "Predecir eclipses, mostrar las fases de la Luna y contar los años entre Juegos Olímpicos"
+      },
+      {
+        "en": "Guide ships at night by pointing to the North Star",
+        "es": "Guiar barcos de noche señalando la Estrella Polar"
+      },
+      {
+        "en": "Measure the depth of the sea for divers",
+        "es": "Medir la profundidad del mar para los buzos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Turning a hand crank moved around 30 bronze gears and several dials. The front showed the Sun and the Moon moving across the sky, and a small ball turned to show the Moon's phases. The back predicted eclipses and tracked the four-year cycle of the Greek games, including the Olympics. It was a calculator of the sky, built more than 2,000 years ago and far ahead of its time.",
+      "es": "Al girar una manivela se movían unos 30 engranajes de bronce y varios diales. El frente mostraba el Sol y la Luna moviéndose por el cielo, y una pequeña esfera giraba para mostrar las fases de la Luna. La parte de atrás predecía eclipses y seguía el ciclo de cuatro años de los juegos griegos, incluidos los Olímpicos. Era una calculadora del cielo, construida hace más de 2.000 años y muy adelantada a su época."
+    },
+    "meanwhile": {
+      "en": "In the same century, the Chinese envoy Zhang Qian traveled west from Han China. His journeys, starting in 138 BC, opened the routes that later became the Silk Road.",
+      "es": "En el mismo siglo, el enviado chino Zhang Qian viajó hacia el oeste desde la China de los Han. Sus viajes, iniciados en el 138 a. C., abrieron las rutas que luego serían la Ruta de la Seda."
+    },
+    "reflection": {
+      "en": "A machine this advanced was built, lost under the sea and forgotten for almost 2,000 years. What knowledge from our own time could be lost in the same way?",
+      "es": "Una máquina así de avanzada se construyó, se perdió bajo el mar y quedó olvidada casi 2.000 años. ¿Qué conocimiento de nuestra época podría perderse de la misma manera?"
+    }
+  },
+  {
+    "id": "gr-009",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "story": "antikythera",
+    "question": {
+      "en": "The Moon moves faster across the sky at some times of the month than at others. How did the Antikythera Mechanism copy this uneven speed?",
+      "es": "La Luna se mueve más rápido por el cielo en algunos momentos del mes que en otros. ¿Cómo imitaba el Mecanismo de Anticitera esa velocidad desigual?"
+    },
+    "options": [
+      {
+        "en": "With a pin sliding in a slot between two gears",
+        "es": "Con un perno que se deslizaba en una ranura entre dos engranajes"
+      },
+      {
+        "en": "With water dripping from a small container",
+        "es": "Con agua que goteaba de un pequeño recipiente"
+      },
+      {
+        "en": "With a weight that the user moved by hand",
+        "es": "Con una pesa que el usuario movía a mano"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Greek astronomers knew that the Moon does not travel at a constant speed. To copy this, the builder placed two gears one on top of the other, slightly off-center, and connected them with a pin that slid inside a slot. As the gears turned, the pin moved closer to the center and then farther away, so the Moon's pointer sped up and slowed down. It is one of the cleverest solutions in ancient engineering.",
+      "es": "Los astrónomos griegos sabían que la Luna no viaja a velocidad constante. Para imitarlo, el constructor colocó dos engranajes uno sobre otro, levemente descentrados, y los unió con un perno que se deslizaba dentro de una ranura. Al girar los engranajes, el perno se acercaba y se alejaba del centro, y así el indicador de la Luna se aceleraba y se frenaba. Es una de las soluciones más ingeniosas de la ingeniería antigua."
+    },
+    "meanwhile": {
+      "en": "In the 2nd century BC, the astronomer Hipparchus worked on the island of Rhodes and studied the Moon's irregular motion. That is one reason some researchers connect him with the mechanism.",
+      "es": "En el siglo II a. C., el astrónomo Hiparco trabajaba en la isla de Rodas y estudiaba el movimiento irregular de la Luna. Esa es una de las razones por las que algunos investigadores lo vinculan con el mecanismo."
+    },
+    "reflection": {
+      "en": "The builder solved a very hard problem with a simple pin and a slot. When did you solve a complicated problem with a simple idea?",
+      "es": "El constructor resolvió un problema muy difícil con un simple perno y una ranura. ¿Cuándo resolviste vos un problema complicado con una idea simple?"
+    }
+  },
+  {
+    "id": "gr-010",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "story": "antikythera",
+    "question": {
+      "en": "After the Antikythera Mechanism, when do we find another machine with gears this complex?",
+      "es": "Después del Mecanismo de Anticitera, ¿cuándo aparece otra máquina con engranajes así de complejos?"
+    },
+    "options": [
+      {
+        "en": "Only in the astronomical clocks of medieval Europe, more than a thousand years later",
+        "es": "Recién en los relojes astronómicos de la Europa medieval, más de mil años después"
+      },
+      {
+        "en": "About fifty years later, in the Roman Empire",
+        "es": "Unos cincuenta años después, en el Imperio romano"
+      },
+      {
+        "en": "Not until the 1940s, with the first electronic computers",
+        "es": "Recién en la década de 1940, con las primeras computadoras electrónicas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Nothing like it has survived from the ancient world. Roman writers such as Cicero described bronze spheres that showed the movement of the planets, so it was probably not the only one. But machines with gears this complex only appear again in the astronomical clocks of medieval Europe, more than a thousand years later. Today its fragments are kept at the National Archaeological Museum in Athens.",
+      "es": "No se conserva nada parecido del mundo antiguo. Escritores romanos como Cicerón describieron esferas de bronce que mostraban el movimiento de los planetas, así que probablemente no fue la única. Pero máquinas con engranajes así de complejos recién vuelven a aparecer en los relojes astronómicos de la Europa medieval, más de mil años después. Hoy sus fragmentos se guardan en el Museo Arqueológico Nacional de Atenas."
+    },
+    "meanwhile": {
+      "en": "While Europe slowly forgot this technology, scholars at the House of Wisdom in Baghdad translated Greek books on astronomy into Arabic during the 9th century and kept that knowledge alive.",
+      "es": "Mientras Europa olvidaba de a poco esta tecnología, los sabios de la Casa de la Sabiduría de Bagdad tradujeron al árabe libros griegos de astronomía durante el siglo IX y mantuvieron vivo ese conocimiento."
+    },
+    "reflection": {
+      "en": "Knowledge can be lost and found again. What helps knowledge survive more: books, museums, the internet, or people who care about it?",
+      "es": "El conocimiento puede perderse y volver a encontrarse. ¿Qué ayuda más a que sobreviva: los libros, los museos, internet o las personas a las que les importa?"
+    }
   }
 ]

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'chronos-v1';
+const CACHE_NAME = 'chronos-v2';
 const OFFLINE_URL = '/';
 
 const PRECACHE_ASSETS = [
@@ -7,6 +7,8 @@ const PRECACHE_ASSETS = [
   '/manifest.json',
   '/icons/icon-192.svg',
   '/icons/icon-512.svg',
+  '/icons/icon-192.png',
+  '/icons/icon-512.png',
 ];
 
 // Install: precache core assets

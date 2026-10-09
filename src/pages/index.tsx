@@ -7,6 +7,8 @@ import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakDisplay from '@/components/StreakDisplay';
 import { AuthButton } from '@/components/AuthButton';
+import { BLOG_URL } from '@/data/catalog';
+
 export default function Home() {
   const { t } = useTranslation('common');
   const router = useRouter();
@@ -88,10 +90,15 @@ export default function Home() {
         <StreakDisplay context="home" />
       </div>
 
-      {/* Bottom tagline */}
-      <p className="absolute bottom-6 z-10 text-xs text-chronos-border tracking-widest uppercase">
-        Historical Trivia · Trivia Histórica
-      </p>
+      {/* Bottom tagline: bridge back to the blog */}
+      <a
+        href={`${BLOG_URL}?utm_source=chronos&utm_medium=app&utm_campaign=home_footer`}
+        target="_blank"
+        rel="noopener"
+        className="absolute bottom-6 z-10 text-xs text-chronos-muted/70 tracking-widest uppercase hover:text-chronos-gold transition-colors"
+      >
+        Learn English through history · by History with Accent
+      </a>
     </div>
   );
 }

@@ -9,69 +9,9 @@ import LanguageSelector from '@/components/LanguageSelector';
 import { AuthButton } from '@/components/AuthButton';
 import { useAuth } from '@/context/AuthContext';
 import { useMatch } from '@/hooks/useMatch';
-import { supabase } from '@/lib/supabase';
-
-// ── Constants ─────────────────────────────────────────────────────────────────
-
-const ERA_CATEGORIES: Record<string, string[]> = {
-  'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
-  'middle-ages':  ['byzantine-empire', 'crusades-chivalry', 'vikings'],
-  'early-modern': ['age-of-exploration', 'the-reformation', 'the-renaissance'],
-};
-
-const ERA_DEFS = [
-  { id: 'ancient-age',  icon: '𓂀'  },
-  { id: 'middle-ages',  icon: '⚜️' },
-  { id: 'early-modern', icon: '🧭' },
-] as const;
-
-const CATEGORY_ICONS: Record<string, string> = {
-  'ancient-egypt':      '𓂀',
-  'ancient-greece':     '🏛️',
-  'roman-empire':       '⚔️',
-  'byzantine-empire':   '✝️',
-  'crusades-chivalry':  '⚜️',
-  'vikings':            '🛡️',
-  'age-of-exploration': '🧭',
-  'the-reformation':    '📜',
-  'the-renaissance':    '🎨',
-};
-
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
-function buildCategories(questions: Question[]): Category[] {
-  const map = new Map<string, Category>();
-  for (const q of questions) {
-    const existing = map.get(q.category);
-    if (existing) {
-      existing.count++;
-      existing.difficulties.push(q.difficulty);
-    } else {
-      map.set(q.category, {
-        id: q.category,
-        label: q.category_label,
-        count: 1,
-        difficulties: [q.difficulty],
-      });
-    }
-  }
-  return Array.from(map.values());
-}
-
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-function getDominantDifficulty(difficulties: string[]): string {
-  const counts: Record<string, number> = {};
-  for (const d of difficulties) counts[d] = (counts[d] ?? 0) + 1;
-  return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'medium';
-}
+import { signInWithGoogle } from '@/lib/auth';
+import { buildCategories, getDominantDifficulty, shuffle } from '@/lib/questions';
+import { getCategoryIcon, getEra, getPlayableEras } from '@/data/catalog';
 
 // ── Shared UI pieces ──────────────────────────────────────────────────────────
 
@@ -103,7 +43,7 @@ export default function MultiplayerPage() {
   const categories = useMemo(() => {
     if (!selectedEraId) return [];
     const all = buildCategories(questionsData as Question[]);
-    const allowed = ERA_CATEGORIES[selectedEraId] ?? [];
+    const allowed = getEra(selectedEraId)?.categoryIds ?? [];
     return all.filter((cat) => allowed.includes(cat.id));
   }, [selectedEraId]);
 
@@ -128,18 +68,7 @@ export default function MultiplayerPage() {
 
   async function handleCategorySelect(cat: Category) {
     if (!user) {
-      if (typeof window !== 'undefined') {
-        sessionStorage.setItem('auth_return_to', window.location.pathname);
-      }
-      await supabase.auth.signInWithOAuth({
-        provider: 'google',
-        options: {
-          redirectTo:
-            typeof window !== 'undefined'
-              ? `${window.location.origin}/auth/callback`
-              : '/auth/callback',
-        },
-      });
+      await signInWithGoogle();
       return;
     }
 
@@ -223,7 +152,7 @@ export default function MultiplayerPage() {
               <div className="mt-2 h-0.5 w-12 bg-chronos-gold rounded-full" />
             </div>
             <div className="flex flex-col gap-3">
-              {ERA_DEFS.map((era) => (
+              {getPlayableEras().map((era) => (
                 <button
                   key={era.id}
                   onClick={() => handleEraSelect(era.id)}
@@ -266,7 +195,7 @@ export default function MultiplayerPage() {
                     className="flex items-center gap-4 w-full rounded-2xl border border-chronos-border bg-chronos-card px-5 py-4 text-left hover:border-chronos-gold/50 hover:bg-chronos-card/80 transition-all duration-200 active:scale-[0.98] disabled:opacity-60 disabled:cursor-not-allowed"
                   >
                     <span className="text-2xl flex-shrink-0">
-                      {CATEGORY_ICONS[cat.id] ?? '📜'}
+                      {getCategoryIcon(cat.id)}
                     </span>
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-chronos-text text-base leading-tight truncate">

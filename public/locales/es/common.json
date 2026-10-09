@@ -59,7 +59,8 @@
     "meanwhileTitle": "Mientras Tanto...",
     "reflectionTitle": "Reflexiona sobre esto…",
     "continue": "Siguiente Pregunta",
-    "finish": "Ver Resultados"
+    "finish": "Ver Resultados",
+    "seeMore": "Ver más"
   },
   "results": {
     "title": "Puntaje Final",
@@ -75,7 +76,8 @@
   },
   "audio": {
     "read": "Leer en voz alta",
-    "stop": "Detener lectura"
+    "stop": "Detener lectura",
+    "browserVoice": "Leer con la voz de tu dispositivo"
   },
   "nav": {
     "back": "Volver",
@@ -182,5 +184,23 @@
       "newRecord": "¡Nuevo récord! ¡{{count}} días!",
       "alreadyToday": "Ya jugaste hoy. ¡Vuelve mañana!"
     }
+  },
+  "story": {
+    "readFull": "Leé la historia completa",
+    "from": "En History with Accent"
+  },
+  "safetyNet": {
+    "show": "Ver en español",
+    "hide": "Ocultar español"
+  },
+  "login": {
+    "subtitle": "Iniciá sesión para guardar tu progreso y tu racha",
+    "versus": "Iniciá sesión con Google para jugar un versus con un amigo",
+    "back": "Volver a Chronos"
+  },
+  "embed": {
+    "title": "Pregunta del día",
+    "playMore": "Jugá 10 más en Chronos",
+    "answerToSee": "Respondé para ver la historia detrás"
   }
 }

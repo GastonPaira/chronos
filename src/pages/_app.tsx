@@ -2,26 +2,23 @@ import type { AppProps } from 'next/app';
 import { appWithTranslation } from 'next-i18next';
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
-import { AuthProvider, useAuth } from '@/context/AuthContext';
-import { LoginScreen } from '@/components/LoginScreen';
+import { AuthProvider } from '@/context/AuthContext';
 import MapModal from '@/components/MapModal';
 import '@/styles/globals.css';
 
+/** Routes rendered without app chrome (no map button): OAuth callback and the blog embed. */
+const BARE_ROUTES = ['/auth/callback', '/embed/daily'];
+
+/**
+ * Anyone can play without an account. Google sign-in is only required for the
+ * versus mode (handled in `/vs/[matchId]` and `/multiplayer`).
+ */
 function AppContent({ Component, pageProps }: AppProps) {
-  const { user, loading } = useAuth();
   const router = useRouter();
   const [showMap, setShowMap] = useState(false);
 
-  if (router.pathname === '/auth/callback') {
+  if (BARE_ROUTES.includes(router.pathname)) {
     return <Component {...pageProps} />;
-  }
-
-  if (loading) {
-    return <div className="min-h-screen bg-chronos-bg" />;
-  }
-
-  if (!user) {
-    return <LoginScreen />;
   }
 
   return (

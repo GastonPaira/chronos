@@ -9,18 +9,8 @@ import LanguageSelector from '@/components/LanguageSelector';
 import { AuthButton } from '@/components/AuthButton';
 import { useStats } from '@/hooks/useStats';
 import { useStreak } from '@/hooks/useStreak';
+import { getCategoryIcon } from '@/data/catalog';
 
-const CATEGORY_ICONS: Record<string, string> = {
-  'ancient-egypt':    '𓂀',
-  'ancient-greece':   '🏛️',
-  'roman-empire':     '⚔️',
-  'byzantine-empire': '🏰',
-  'crusades-chivalry':'⚜️',
-  'vikings':          '🪓',
-  'renaissance':      '🎨',
-  'world-wars':       '🌍',
-  'space-race':       '🚀',
-};
 
 export default function StatsPage() {
   const { t, i18n } = useTranslation('common');
@@ -264,7 +254,7 @@ export default function StatsPage() {
                     <div className="flex items-start justify-between gap-2 mb-2">
                       <div className="flex items-center gap-2 min-w-0">
                         <span className="text-xl flex-shrink-0">
-                          {CATEGORY_ICONS[id] ?? '📜'}
+                          {getCategoryIcon(id)}
                         </span>
                         <div className="min-w-0">
                           <p className="text-sm font-medium text-chronos-text truncate">

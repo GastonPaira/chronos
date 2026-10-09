@@ -11,9 +11,9 @@
 | El texto del botón "Play" o el tagline de la home    | `public/locales/en/common.json` y `public/locales/es/common.json` → clave `home.*`                  |
 | Las preguntas de una categoría existente             | `src/data/questions/<nombre-categoria>.json`                                                         |
 | Agregar una categoría nueva                          | Ver sección **Cómo agregar una categoría nueva** más abajo                                           |
-| El ícono que aparece en cada categoría               | `src/components/CategoryCard.tsx` → objeto `CATEGORY_ICONS`                                         |
-| La imagen de fondo de una categoría                  | `src/components/CategoryCard.tsx` → objeto `CATEGORY_IMAGES` (y poner la imagen en `public/images/`)|
-| El ícono o imagen de fondo de una era                | `src/pages/eras.tsx` → `ERA_IMAGES` y `ERA_DEFS`                                                    |
+| El ícono que aparece en cada categoría               | `src/data/catalog.ts` → `CATEGORIES` |
+| La imagen de fondo de una categoría                  | `src/data/catalog.ts` → `CATEGORIES` (y poner la imagen en `public/images/`) |
+| El ícono o imagen de fondo de una era                | `src/data/catalog.ts` → `ERAS` |
 | Los textos del panel de reflexión (títulos, botones) | `public/locales/*/common.json` → claves `reflection.*`                                               |
 | Los mensajes de racha (streak)                       | `public/locales/*/common.json` → claves `streak.*`                                                   |
 | Los mensajes de resultado final                      | `public/locales/*/common.json` → claves `results.*`                                                  |
@@ -26,16 +26,19 @@
 | La lógica de la partida individual                   | `src/hooks/useGame.ts`                                                                               |
 | La lógica del modo versus (crear/unirse/responder)   | `src/hooks/useMatch.ts`                                                                              |
 | El proveedor de autenticación (Supabase)             | `src/context/AuthContext.tsx` y `src/lib/auth.ts`                                                    |
-| La pantalla de login                                 | `src/components/LoginScreen.tsx`                                                                     |
+| La pantalla de login (solo se pide para el versus)   | `src/components/LoginScreen.tsx` |
 | El logo                                              | `src/components/ChronosLogo.tsx`                                                                     |
 | La paleta de colores y animaciones                   | `tailwind.config.ts`                                                                                 |
 | Las variables de entorno (URL de Supabase, etc.)     | `.env.local` (no versionado) — ver `src/lib/supabase.ts` para los nombres exactos                   |
 | El registro del service worker (PWA)                 | `src/pages/_app.tsx` → efecto al inicio de `App`                                                    |
 | Los metadatos del manifest (nombre, tema, íconos)    | `src/pages/_document.tsx` y `public/manifest.json`                                                  |
 | Cómo se construye el cliente de Supabase             | `src/lib/supabase.ts`                                                                                |
-| La selección de voz para texto-a-voz                 | `src/hooks/useTextToSpeech.ts` → funciones `pickBestVoice` y `LANG_PREFS`                           |
+| El audio (mp3 o voz del navegador)                   | `src/hooks/useNarration.ts` y `src/lib/speech.ts` (`pickEnglishVoice`, `splitSentences`) |
+| Vincular preguntas con un artículo del blog          | `src/data/catalog.ts` → `STORIES` + campo `"story"` en cada pregunta (ver **Cómo vincular un artículo del blog**) |
+| La pregunta del día embebible en el blog             | `src/pages/embed/daily.tsx` y `blog/snippets-wordpress.html` |
+| Los tests                                            | `src/lib/__tests__/` (correr `npm test`) |
 | El número de preguntas por ronda                     | `src/hooks/useGame.ts` → constante `QUESTIONS_PER_ROUND`                                            |
-| Qué categorías pertenecen a cada era                 | `src/pages/eras.tsx` → `ERA_DEFS`, `src/pages/categories.tsx` → `ERA_CATEGORIES`, `src/pages/multiplayer.tsx` → `ERA_CATEGORIES` |
+| Qué categorías pertenecen a cada era                 | `src/data/catalog.ts` → `ERAS[].categoryIds` |
 
 ---
 
@@ -47,7 +50,7 @@ Es la pantalla de bienvenida de la aplicación. Muestra el logo grande de Chrono
 
 ### `src/pages/eras.tsx` — Selección de era
 
-Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una está hardcodeada en el objeto `ERA_DEFS` del mismo archivo. Actualmente tienen preguntas: **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`) y **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`).
+Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una sale de `ERAS` en `src/data/catalog.ts`. Actualmente tienen preguntas: **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`) y **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`).
 
 ### `src/pages/categories.tsx` — Selección de categoría
 
@@ -55,7 +58,7 @@ Es el segundo paso del flujo de juego individual. Muestra la grilla de categorí
 
 ### `src/pages/multiplayer.tsx` — Crear desafío versus
 
-Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra las eras que ya tienen preguntas (Edad Antigua, Edad Media y Temprano Moderno) con su ícono y nombre. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, guarda la ruta actual en `sessionStorage` y redirige al flujo de Google OAuth (la página de callback lo devolverá acá al terminar). La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Contiene su propia copia de `ERA_CATEGORIES` y `ERA_DEFS` (independientes de `eras.tsx`) más un objeto `CATEGORY_ICONS` local — los tres deben actualizarse cuando se agrega una era o categoría nueva.
+Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra las eras que ya tienen preguntas (Edad Antigua, Edad Media y Temprano Moderno) con su ícono y nombre. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, llama a `signInWithGoogle()`, que guarda la ruta actual y la página de callback lo devuelve acá al terminar. La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Las eras, categorías e íconos salen del catálogo (`src/data/catalog.ts`).
 
 ### `src/pages/game/[category].tsx` — Juego individual
 
@@ -75,7 +78,7 @@ Página transitoria que solo se visita automáticamente después de que Google r
 
 ### `src/pages/_app.tsx` — Wrapper global
 
-Envuelve toda la aplicación con `AuthProvider` y con la configuración de i18n de `next-i18next`. Contiene la lógica de auth guard: mientras carga el estado de autenticación muestra un fondo vacío para evitar flicker; si el usuario no está autenticado muestra `LoginScreen` en lugar de la página solicitada (excepto en `/auth/callback`, que siempre se renderiza tal cual). También registra el service worker de la PWA en producción.
+Envuelve toda la aplicación con `AuthProvider` y con la configuración de i18n de `next-i18next`. **Ya no hay login obligatorio**: cualquiera puede jugar sin cuenta (el progreso queda en el dispositivo). Google solo se pide para el versus, en `/multiplayer` y `/vs/[matchId]`. Las rutas `/auth/callback` y `/embed/daily` se renderizan sin el botón del mapa. También registra el service worker de la PWA en producción.
 
 ### `src/pages/_document.tsx` — Document HTML
 
@@ -91,11 +94,11 @@ Renderiza el logo de la marca: un ícono SVG dorado con forma de reloj de arena 
 
 ### `src/components/QuestionCard.tsx`
 
-Muestra una sola pregunta con sus dos opciones de respuesta. Antes de responder, los botones son interactivos. Después de responder, el componente pasa a modo "respondido": la opción correcta se pone verde, la seleccionada incorrecta se pone roja, las demás se desvanecen, y aparece un banner de feedback (correcto/incorrecto). Si la categoría tiene imagen de fondo registrada en `CATEGORY_IMAGES`, se muestra como fondo con un overlay oscuro para que el texto sea legible. No maneja estado propio: todo le llega por props.
+Muestra una pregunta con entre 2 y 4 opciones. El contenido se muestra **siempre en inglés**; la pastilla "ES" muestra el español debajo de la pregunta y de cada opción (red de seguridad). Muestra la dificultad y, si la pregunta lo tiene, el nivel de inglés (`A2`/`B1`/`B2`). Después de responder, la correcta se pone verde, la elegida incorrecta roja y las demás se desvanecen. La imagen de fondo sale de `getCategoryImage` (catálogo). Con `compact` se usa en el embed del blog.
 
 ### `src/components/ReflectionPanel.tsx`
 
-Es el panel educativo que aparece después de responder una pregunta. Tiene tres secciones expandibles: Contexto Histórico (la explicación de la respuesta correcta), Mientras tanto (qué ocurría en el resto del mundo en ese momento), y Reflexión (una pregunta abierta para pensar). Cada sección tiene un botón de texto-a-voz que usa `useTextToSpeech`; el audio se detiene automáticamente cuando cambia la pregunta o cuando el componente se desmonta. Al final hay un botón que dice "Continuar" o "Terminar" dependiendo de si es la última pregunta.
+Panel educativo que aparece después de responder. Tiene tres secciones (Contexto histórico, Meanwhile y Reflexión) definidas en el array `PANELS`, todas en inglés con su pastilla "ES". El audio usa `useNarration`: si existe el mp3 (`audio-manifest.json`) suena el mp3 con play/pausa/reinicio; si no, la voz del navegador frase por frase, solo con play/stop; si el dispositivo no tiene voz en inglés, el botón no aparece. Tocar o seleccionar una palabra la lee en voz alta (en inglés, o en español si está en un bloque `lang="es"`). Si la pregunta tiene `story`, muestra el botón **"Read the full story"** con link al artículo (con UTM). Al final, el botón para seguir.
 
 ### `src/components/ResultScreen.tsx`
 
@@ -159,19 +162,19 @@ Provee todas las operaciones asíncronas del modo versus, sin estado local (solo
 
 ### `src/hooks/useStats.ts`
 
-Maneja las estadísticas de rendimiento persistidas en Supabase. Carga los datos al montar según el usuario autenticado (por `user_id`) o por dispositivo anónimo (por `device_id`). Mantiene un `ref` sincronizado con el estado para que `recordAnswer` y `recordSessionEnd` siempre lean los valores más actuales sin necesitar ser recreados en cada render. `recordAnswer` actualiza los contadores globales, por categoría y por dificultad, y persiste inmediatamente. `recordSessionEnd` actualiza las sesiones completadas, las sesiones perfectas y el mejor puntaje histórico. También expone utilidades para calcular precisión global, por categoría y por dificultad, y para identificar la categoría más fuerte y más débil (con mínimo de 5 respuestas).
+Maneja las estadísticas. **Sin cuenta** se guardan en `localStorage` (`chronos_stats`); **con cuenta** en Supabase (`user_stats`, por `user_id`). Al iniciar sesión, lo del dispositivo se suma a la cuenta una sola vez (`mergeStats`). La lógica pura (sumar respuestas, sesiones, fusionar) está en `src/lib/stats.ts` y tiene tests.
 
 ### `src/hooks/useStreak.ts`
 
-Controla la racha de días consecutivos de juego. Al igual que `useStats`, persiste en Supabase y funciona tanto con usuario autenticado como anónimo. `registerPlay` se llama al terminar una partida: compara la fecha de hoy con `lastPlayedDate` y decide si incrementar la racha, reiniciarla desde 1 (si pasó más de un día) o no hacer nada (si ya jugó hoy). Devuelve un `PlayResult` que describe el resultado para que los componentes puedan mostrar el mensaje correcto. `getStreakStatus` es una función de solo lectura (no muta estado) que devuelve `'never_played'`, `'active_today'`, `'active_yesterday'` o `'lost'`.
+Controla la racha de días consecutivos. Igual que `useStats`: sin cuenta en `localStorage` (`chronos_streak`), con cuenta en Supabase (`user_streak`), y al iniciar sesión se fusiona con `mergeStreaks`. La lógica pura está en `src/lib/streak.ts` y las fechas se calculan en **hora local** (`src/lib/dates.ts`): antes se usaba UTC y en Argentina, después de las 21 h, el día ya contaba como el siguiente.
 
 ### `src/hooks/useInstallPrompt.ts`
 
 Escucha el evento `beforeinstallprompt` del navegador (Chrome/Edge en Android), lo captura en un ref para usarlo después, y expone `promptInstall()` que muestra el diálogo nativo de instalación. También detecta si la app ya corre en modo standalone (ya instalada), si el usuario está dentro de WhatsApp WebView (donde la instalación directa no es posible), y si el dispositivo es Android. Todos los valores devuelven `false` durante SSR para evitar hidratación incorrecta.
 
-### `src/hooks/useTextToSpeech.ts`
+### `src/hooks/useNarration.ts`
 
-Integra la Web Speech API para leer en voz alta el contenido del panel de reflexión. Al llamar `speak(texto, id)`, busca la mejor voz disponible para el locale activo (priorizando voces neurales/premium sobre las estándar), configura velocidad y tono, y reproduce. Si se llama con el mismo `id` que ya está reproduciéndose, funciona como toggle y detiene el audio. El hook está deshabilitado en Android (`isSupported: false`) por la inconsistencia de la implementación TTS en esa plataforma. El audio se cancela automáticamente al desmontar el componente que use el hook.
+Reproduce un texto por vez. `modeFor(mp3Id)` devuelve `'mp3'` si el archivo está en `src/data/audio-manifest.json`, `'voice'` si el dispositivo tiene una voz en inglés, o `null` (sin audio). El manifiesto se genera solo con `scripts/build-audio-manifest.js` antes de `npm run dev` y `npm run build`. Si un mp3 falla al cargar, cae a la voz del navegador. La voz del navegador lee frase por frase (`splitSentences`) para que no se corte en Android.
 
 ---
 
@@ -223,7 +226,9 @@ Integra la Web Speech API para leer en voz alta el contenido del panel de reflex
 3. **Puntos importantes a cuidar:**
    - El `id` debe ser único en todo el archivo (convención: `<prefijo-categoria>-<número>`).
    - El `category` y `category_label` deben ser **idénticos** a los de las otras preguntas del mismo archivo.
-   - `correctIndex` es `0` si la primera opción es la correcta, o `1` si es la segunda. Al tener solo dos opciones, una pregunta bien formada siempre tiene un `correctIndex` de 0 o 1.
+   - `options` puede tener entre 2 y 4 opciones. `correctIndex` es la posición de la correcta (0 = la primera). En el juego se mezclan solas.
+   - Opcional: `"level": "B1"` (nivel de inglés: `A2`, `B1` o `B2`) y `"story": "antikythera"` (id de una historia del blog en `STORIES`).
+   - El audio es opcional: si no hay mp3, se usa la voz del navegador.
    - Los textos de `explanation`, `meanwhile` y `reflection` deben estar en ambos idiomas.
 
 4. **No hace falta tocar ningún otro archivo.** Las preguntas se importan automáticamente desde `src/data/questions/index.ts` y el conteo por categoría se recalcula en runtime.
@@ -252,44 +257,20 @@ const questionsData = [
 ];
 ```
 
-### Paso 3 — Asociar la categoría a una era
+### Paso 3 — Registrar la categoría en el catálogo
 
-Hay **tres** objetos que mapean categorías a eras, uno en cada archivo:
-
-- `src/pages/eras.tsx` → `ERA_DEFS`: agregar el slug al `categoryIds` de la era correspondiente.
-- `src/pages/categories.tsx` → `ERA_CATEGORIES`: agregar el slug al array de la misma era.
-- `src/pages/multiplayer.tsx` → `ERA_CATEGORIES`: agregar el slug al array de la misma era (copia independiente del mapa).
+Todo está en un solo archivo, `src/data/catalog.ts`:
 
 ```ts
-// En ERA_DEFS (eras.tsx):
-{ id: 'middle-ages', icon: '⚜️', categoryIds: ['byzantine-empire', 'crusades-chivalry', 'vikings', 'ottoman-empire'] }
+// En CATEGORIES:
+'ottoman-empire': { id: 'ottoman-empire', icon: '🌙', image: '/images/ottoman-empire.jpg' },
 
-// En ERA_CATEGORIES (categories.tsx y multiplayer.tsx — ambos archivos):
-'middle-ages': ['byzantine-empire', 'crusades-chivalry', 'vikings', 'ottoman-empire']
+// En ERAS, dentro de la era que corresponda:
+{ id: 'middle-ages', icon: '⚜️', image: '/images/middle-ages.jpg',
+  categoryIds: ['byzantine-empire', 'crusades-chivalry', 'vikings', 'ottoman-empire'] },
 ```
 
-> **Nota:** Si la nueva categoría es de una era que ya aparece en `/multiplayer` (Edad Antigua, Edad Media o Temprano Moderno), hay que agregarla también en el `ERA_CATEGORIES` de `multiplayer.tsx` para que sea seleccionable al crear un desafío. Si la era es completamente nueva, además hay que agregar su entrada en `ERA_DEFS` del mismo archivo.
-
-### Paso 4 — Agregar ícono y imagen de fondo
-
-**Ícono emoji** — Aparece en la tarjeta de categoría, en la página de estadísticas y en la pantalla de creación de desafío. Agregar la entrada en cuatro lugares:
-
-- `src/components/CategoryCard.tsx` → objeto `CATEGORY_ICONS`
-- `src/pages/stats.tsx` → objeto `CATEGORY_ICONS`
-- `src/pages/multiplayer.tsx` → objeto `CATEGORY_ICONS`
-- `src/pages/eras.tsx` — el ícono de la era no cambia, pero si la era es nueva sí habría que agregarlo en `ERA_DEFS`.
-
-```ts
-'ottoman-empire': '🌙',
-```
-
-**Imagen de fondo** — Aparece en la tarjeta y en el fondo del juego. Agregar en:
-
-- `src/components/CategoryCard.tsx` → objeto `CATEGORY_IMAGES`
-- `src/components/QuestionCard.tsx` → objeto `CATEGORY_IMAGES`
-- `src/pages/game/[category].tsx` → objeto `CATEGORY_IMAGES`
-- `src/pages/vs/[matchId].tsx` → objeto `CATEGORY_IMAGES`
-- Colocar la imagen en `public/images/ottoman-empire.jpg` (misma convención de nombre).
+Y poner la imagen en `public/images/ottoman-empire.jpg`. El test `catalog.test.ts` avisa si falta la imagen o si una pregunta usa una categoría que no está en el catálogo.
 
 ### Paso 5 — Agregar traducciones de nombre
 
@@ -317,35 +298,39 @@ Sin embargo, **si la era también es nueva** (no existe todavía en la app), sí
 }
 ```
 
-### Paso 6 — Generar los archivos de audio
+### Paso 6 — Audio (opcional)
 
-El `ReflectionPanel` reproduce audio para los campos `explanation`, `meanwhile` y `reflection` de cada pregunta. Los MP3 se generan con `msedge-tts` (voz `en-US-AriaNeural`) y se guardan en `public/audio/` con la convención `{id}_{campo}_en.mp3` (solo inglés).
-
-Para generarlos, agregar el nuevo archivo JSON al array `questionFiles` en `scripts/generate-audio.js` y correr:
-
-```bash
-npm run generate-audio
-```
-
-El script omite archivos que ya existen, por lo que es seguro correrlo varias veces. Si solo se quiere generar audio para las categorías nuevas sin tocar el script existente, se puede crear un script temporal con el mismo patrón apuntando únicamente a los JSON nuevos.
-
-### Paso 7 — Verificar el build
-
-Correr `npm run build` para que Next.js regenere los paths estáticos de `/game/[category]`. Si hay errores de TypeScript relacionados con el nuevo slug, verificar que el campo `category` en el JSON coincida exactamente con el slug registrado en los pasos anteriores.
+No hace falta generar mp3: si una pregunta no tiene, se lee con la voz del navegador. Los 239 mp3 existentes (`{id}_{campo}_en.mp3`) se siguen usando tal cual. Si algún día querés generar mp3 nuevos, `scripts/generate-audio.js` sigue estando, pero tiene la lista de archivos escrita a mano.
 
 ---
 
-> **Resumen de archivos tocados al agregar una categoría nueva:**
-> `src/data/questions/<slug>.json` (nuevo) ·
-> `src/data/questions/index.ts` ·
-> `src/pages/eras.tsx` ·
-> `src/pages/categories.tsx` ·
-> `src/pages/multiplayer.tsx` ·
-> `src/components/CategoryCard.tsx` ·
-> `src/components/QuestionCard.tsx` ·
-> `src/pages/game/[category].tsx` ·
-> `src/pages/vs/[matchId].tsx` ·
-> `src/pages/stats.tsx` ·
-> `public/images/<slug>.jpg` (imagen nueva) ·
-> `public/audio/<id>_explanation_en.mp3`, `<id>_meanwhile_en.mp3`, `<id>_reflection_en.mp3` × N preguntas (generados con `npm run generate-audio`) ·
-> `public/locales/*/common.json` (solo si la era también es nueva)
+## Cómo vincular un artículo del blog (historia)
+
+Cada artículo de historywithaccent.com puede tener su pack de preguntas en Chronos. Ejemplo real: Antikythera.
+
+1. **Registrar la historia** en `src/data/catalog.ts` → `STORIES`:
+
+```ts
+antikythera: {
+  id: 'antikythera',
+  title: 'The Antikythera Mechanism: The 2,000-Year-Old Greek Computer',
+  url: 'https://historywithaccent.com/antikythera-mechanism-greek-computer/',
+},
+```
+
+2. **Escribir 5 preguntas** sacadas del artículo en el JSON de la categoría que corresponda, con `"story": "antikythera"` y `"level": "B1"`. Conviene reusar el vocabulario del glosario del artículo.
+3. **En Chronos** aparece solo el botón "Read the full story" después de cada una de esas preguntas.
+4. **En el blog** pegar los bloques de `blog/snippets-wordpress.html`: la pregunta del día de esa historia (`/embed/daily?story=antikythera`) y el botón final que abre `/game/<categoria>?story=antikythera` (la ronda arranca con las preguntas de esa historia).
+
+## Tests
+
+```bash
+npm test          # corre todo una vez
+npm run test:watch
+```
+
+Están en `src/lib/__tests__/` y cubren la lógica pura: rachas y fechas locales, estadísticas y su fusión al iniciar sesión, armado de rondas, pregunta del día, división en frases y la consistencia del contenido (ids únicos, 2–4 opciones, categorías e imágenes existentes, historias existentes).
+
+## Seguridad en Supabase
+
+`supabase/migrations/002_secure_user_progress.sql` deja que cada usuario vea y modifique solo su progreso. `003_secure_versus.sql` cierra tres huecos del versus: el amigo no podía actualizar el estado de la partida, un tercero podía sumarse a una partida llena y los perfiles se leían sin cuenta.

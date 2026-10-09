@@ -3,37 +3,14 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import { useMemo } from 'react';
-import type { Locale, Category, Question } from '@/types';
+import type { Locale, Question } from '@/types';
 import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import CategoryCard from '@/components/CategoryCard';
 import { AuthButton } from '@/components/AuthButton';
+import { getEra } from '@/data/catalog';
+import { buildCategories } from '@/lib/questions';
 
-const ERA_CATEGORIES: Record<string, string[]> = {
-  'ancient-age':  ['ancient-egypt', 'ancient-greece', 'roman-empire'],
-  'middle-ages':  ['byzantine-empire', 'crusades-chivalry', 'vikings'],
-  'early-modern': ['age-of-exploration', 'the-reformation', 'the-renaissance'],
-  'modern-era':   [],
-};
-
-function buildCategories(questions: Question[]): Category[] {
-  const map = new Map<string, Category>();
-  for (const q of questions) {
-    const existing = map.get(q.category);
-    if (existing) {
-      existing.count++;
-      existing.difficulties.push(q.difficulty);
-    } else {
-      map.set(q.category, {
-        id: q.category,
-        label: q.category_label,
-        count: 1,
-        difficulties: [q.difficulty],
-      });
-    }
-  }
-  return Array.from(map.values());
-}
 
 export default function Categories() {
   const { t, i18n } = useTranslation('common');
@@ -43,9 +20,9 @@ export default function Categories() {
 
   const categories = useMemo(() => {
     const all = buildCategories(questionsData as Question[]);
-    if (!eraId || !ERA_CATEGORIES[eraId]) return all;
-    const allowed = ERA_CATEGORIES[eraId];
-    return all.filter(cat => allowed.includes(cat.id));
+    const era = getEra(eraId);
+    if (!era) return all;
+    return all.filter(cat => era.categoryIds.includes(cat.id));
   }, [eraId]);
 
   return (

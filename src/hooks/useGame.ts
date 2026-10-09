@@ -1,56 +1,44 @@
 // Hook principal del juego individual: maneja estado, progreso, respuestas y racha.
 
-import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import type { Question, GameState, GamePhase } from '@/types';
+import { buildRound } from '@/lib/questions';
 import { useStreak, type PlayResult } from './useStreak';
 import { useStats } from './useStats';
 
 const QUESTIONS_PER_ROUND = 10;
 
-/**
- * Fisher-Yates shuffle. Returns a new array; does not mutate the original.
- *
- * @param arr - Array to shuffle.
- * @returns A new array with the same elements in random order.
- */
-function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
+const emptyState = (questions: Question[]): GameState => ({
+  questions,
+  currentIndex: 0,
+  score: 0,
+  phase: 'playing',
+  selectedAnswer: null,
+  isCorrect: null,
+});
 
-/**
- * Randomly swaps the two answer options of a question with 50% probability
- * so that the correct answer is not always in the same position.
- *
- * @param q - The original question.
- * @returns Either the original question or a new object with swapped options and updated `correctIndex`.
- */
-function shuffleOptions(q: Question): Question {
-  if (Math.random() < 0.5) return q;
-  return {
-    ...q,
-    options: [q.options[1], q.options[0]],
-    correctIndex: q.correctIndex === 0 ? 1 : 0,
-  };
+/** Options for `useGame`. */
+export interface UseGameOptions {
+  /** Blog story whose questions should open the round (from `?story=`). */
+  storyId?: string;
+  /** `false` until the router query is available; the round is built after that. */
+  ready?: boolean;
 }
 
 /**
  * Manages all state for a single-player trivia game session.
  *
- * On mount, the hook picks `QUESTIONS_PER_ROUND` questions at random from
- * `allQuestions`, shuffles each question's options, and sets the initial
- * `GameState`. Subsequent renders share the same question set until `resetGame`
- * is called.
+ * Once `ready`, the hook picks `QUESTIONS_PER_ROUND` questions at random from
+ * `allQuestions` (the `storyId` questions first) and shuffles their options.
+ * The round is built on the client only, so the static HTML and the first
+ * client render match (no hydration mismatch from `Math.random`).
  *
  * Stats and streak data are recorded automatically via side effects:
  * - Each answer is recorded to `useStats` when the phase transitions to `'reflecting'`.
  * - Streak and session stats are recorded once when the phase reaches `'finished'`.
  *
  * @param allQuestions - The full pool of questions for the selected category.
+ * @param options - `storyId` and `ready`; see `UseGameOptions`.
  *
  * @returns
  * - All fields from `GameState` spread directly.
@@ -63,27 +51,26 @@ function shuffleOptions(q: Question): Question {
  * - `resetGame()` – resets to a fresh shuffled round without unmounting the component.
  * - `playResult` – the streak outcome returned by `registerPlay` once the game finishes; `null` while playing.
  */
-export function useGame(allQuestions: Question[]) {
+export function useGame(allQuestions: Question[], { storyId, ready = true }: UseGameOptions = {}) {
   const { registerPlay } = useStreak();
   const { recordAnswer, recordSessionEnd } = useStats();
   const [playResult, setPlayResult] = useState<PlayResult | null>(null);
   const hasRegistered = useRef(false);
   const lastRecordedIndex = useRef(-1);
 
-  const roundQuestions = useMemo(
-    () => shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND).map(shuffleOptions),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    []
-  );
+  const [state, setState] = useState<GameState>(() => emptyState([]));
 
-  const [state, setState] = useState<GameState>({
-    questions: roundQuestions,
-    currentIndex: 0,
-    score: 0,
-    phase: 'playing',
-    selectedAnswer: null,
-    isCorrect: null,
-  });
+  const startRound = useCallback(() => {
+    hasRegistered.current = false;
+    lastRecordedIndex.current = -1;
+    setPlayResult(null);
+    setState(emptyState(buildRound(allQuestions, QUESTIONS_PER_ROUND, storyId)));
+  }, [allQuestions, storyId]);
+
+  // Build the first round on the client once the query string is known.
+  useEffect(() => {
+    if (ready) startRound();
+  }, [ready, startRound]);
 
   const total = state.questions.length;
   const currentQuestion = state.questions[state.currentIndex] ?? null;
@@ -122,7 +109,7 @@ export function useGame(allQuestions: Question[]) {
    * Transitions the phase from `'playing'` to `'reflecting'` and updates the score.
    * No-ops if the phase is not `'playing'` or an answer was already selected.
    *
-   * @param answerIndex - Index (0 or 1) of the option the user tapped.
+   * @param answerIndex - Index of the option the user tapped.
    */
   const selectAnswer = useCallback((answerIndex: number) => {
     setState((prev) => {
@@ -168,22 +155,10 @@ export function useGame(allQuestions: Question[]) {
   }, []);
 
   /**
-   * Resets the game to a brand-new shuffled round.
+   * Resets the game to a brand-new shuffled round (same as `startRound`).
    * Clears streak/stats registration guards so they fire again at the end of the new round.
    */
-  const resetGame = useCallback(() => {
-    hasRegistered.current = false;
-    lastRecordedIndex.current = -1;
-    setPlayResult(null);
-    setState({
-      questions: shuffle(allQuestions).slice(0, QUESTIONS_PER_ROUND).map(shuffleOptions),
-      currentIndex: 0,
-      score: 0,
-      phase: 'playing',
-      selectedAnswer: null,
-      isCorrect: null,
-    });
-  }, [allQuestions]);
+  const resetGame = startRound;
 
   return {
     ...state,

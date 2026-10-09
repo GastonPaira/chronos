@@ -2,8 +2,9 @@ import type { GetStaticPaths, GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import type { Locale, Question } from '@/types';
+import type { Question } from '@/types';
 import questionsData from '@/data/questions';
+import { getCategoryImage } from '@/data/catalog';
 import { useGame } from '@/hooks/useGame';
 import ScoreDisplay from '@/components/ScoreDisplay';
 import QuestionCard from '@/components/QuestionCard';
@@ -14,24 +15,16 @@ import ChronosLogo from '@/components/ChronosLogo';
 import StreakDisplay from '@/components/StreakDisplay';
 import { AuthButton } from '@/components/AuthButton';
 
-const CATEGORY_IMAGES: Record<string, string> = {
-  'ancient-egypt':    '/images/ancient-egypt.jpg',
-  'ancient-greece':   '/images/ancient-greece.jpg',
-  'roman-empire':     '/images/roman-empire.jpg',
-  'byzantine-empire': '/images/byzantine-empire.jpg',
-  'crusades-chivalry':'/images/crusades-chivalry.jpg',
-  'vikings':          '/images/vikings.jpg',
-};
-
 interface Props {
   categoryQuestions: Question[];
   categoryId: string;
 }
 
 export default function GamePage({ categoryQuestions, categoryId }: Props) {
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const router = useRouter();
-  const locale = (i18n.language as Locale) ?? 'en';
+  // ?story=antikythera → the round opens with that blog story's questions.
+  const storyId = typeof router.query.story === 'string' ? router.query.story : undefined;
 
   const {
     currentQuestion,
@@ -46,7 +39,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
     finishGame,
     resetGame,
     playResult,
-  } = useGame(categoryQuestions);
+  } = useGame(categoryQuestions, { storyId, ready: router.isReady });
 
   if (!currentQuestion && phase !== 'finished') {
     return (
@@ -97,14 +90,13 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
               {phase === 'playing' && currentQuestion && (
                 <QuestionCard
                   question={currentQuestion}
-                  locale={locale}
                   selectedAnswer={selectedAnswer}
                   onAnswer={selectAnswer}
                 />
               )}
 
               {phase === 'reflecting' && currentQuestion && (() => {
-                const bgImage = CATEGORY_IMAGES[currentQuestion.category];
+                const bgImage = getCategoryImage(currentQuestion.category);
                 return (
                   <div className="relative rounded-2xl overflow-hidden flex flex-col gap-4">
                     {/* Category background image — same as QuestionCard */}
@@ -123,8 +115,8 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
 
                     {/* Compact answered question recap */}
                     <div className="relative z-10 p-4 rounded-xl border border-chronos-border bg-chronos-surface/60">
-                      <p className="text-sm text-chronos-muted mb-2 font-medium">
-                        {currentQuestion.question[locale]}
+                      <p lang="en" className="text-sm text-chronos-muted mb-2 font-medium">
+                        {currentQuestion.question.en}
                       </p>
                       <p
                         className={`text-sm font-semibold ${
@@ -136,14 +128,13 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
                         {selectedAnswer === currentQuestion.correctIndex
                           ? `✓ ${t('game.correct')}`
                           : `✗ ${t('game.incorrect')}`}{' '}
-                        — {currentQuestion.options[currentQuestion.correctIndex][locale]}
+                        — {currentQuestion.options[currentQuestion.correctIndex].en}
                       </p>
                     </div>
 
                     <div className="relative z-10 p-4 pt-0">
                       <ReflectionPanel
                         question={currentQuestion}
-                        locale={locale}
                         isLast={isLastQuestion}
                         onContinue={isLastQuestion ? finishGame : nextQuestion}
                       />

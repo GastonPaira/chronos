@@ -3,7 +3,10 @@ import type { GetServerSideProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
-import type { Locale, Match, Question } from '@/types';
+import type { Match, Question } from '@/types';
+import { shuffleOptions } from '@/lib/questions';
+import { getCategoryImage } from '@/data/catalog';
+import { LoginScreen } from '@/components/LoginScreen';
 import { useAuth } from '@/context/AuthContext';
 import { useMatch, type PlayerWithProfile } from '@/hooks/useMatch';
 import { useStats } from '@/hooks/useStats';
@@ -18,28 +21,9 @@ import LanguageSelector from '@/components/LanguageSelector';
 
 type VsPhase = 'loading' | 'lobby' | 'playing' | 'reflecting' | 'finished' | 'error';
 
-function shuffleOptions(q: Question): Question {
-  if (Math.random() < 0.5) return q;
-  return {
-    ...q,
-    options: [q.options[1], q.options[0]],
-    correctIndex: q.correctIndex === 0 ? 1 : 0,
-  };
-}
-
-const CATEGORY_IMAGES: Record<string, string> = {
-  'ancient-egypt':    '/images/ancient-egypt.jpg',
-  'ancient-greece':   '/images/ancient-greece.jpg',
-  'roman-empire':     '/images/roman-empire.jpg',
-  'byzantine-empire': '/images/byzantine-empire.jpg',
-  'crusades-chivalry':'/images/crusades-chivalry.jpg',
-  'vikings':          '/images/vikings.jpg',
-};
-
 export default function VsPage() {
-  const { t, i18n } = useTranslation('common');
+  const { t } = useTranslation('common');
   const router = useRouter();
-  const locale = (i18n.language as Locale) ?? 'en';
   const matchId = router.query.matchId as string | undefined;
 
   const { user, loading: authLoading } = useAuth();
@@ -67,13 +51,6 @@ export default function VsPage() {
   const currentQuestion = questions[currentIndex] ?? null;
   const total = questions.length || 10;
   const isLastQuestion = currentIndex === total - 1;
-
-  // Auth guard
-  useEffect(() => {
-    if (!authLoading && !user) {
-      router.push('/');
-    }
-  }, [user, authLoading, router]);
 
   // Init match once auth and matchId are ready
   useEffect(() => {
@@ -125,7 +102,7 @@ export default function VsPage() {
         return;
       }
 
-      const qs = getQuestionsByIds(data.match.question_ids).map(shuffleOptions);
+      const qs = getQuestionsByIds(data.match.question_ids).map(q => shuffleOptions(q));
       setQuestions(qs);
       setPhase('lobby');
     } catch {
@@ -239,6 +216,11 @@ export default function VsPage() {
   }
 
   // ── Render helpers ────────────────────────────────────────────────────
+
+  // Versus needs an account: the friend who opens the link signs in here and comes back to this match.
+  if (!authLoading && !user) {
+    return <LoginScreen reason="versus" />;
+  }
 
   if (phase === 'loading') {
     return (
@@ -358,7 +340,7 @@ export default function VsPage() {
   }
 
   // ── Playing / Reflecting ──────────────────────────────────────────────
-  const bgImage = currentQuestion ? CATEGORY_IMAGES[currentQuestion.category] : undefined;
+  const bgImage = currentQuestion ? getCategoryImage(currentQuestion.category) : undefined;
 
   return (
     <div className="min-h-screen bg-chronos-bg px-4 py-6 sm:px-6 sm:py-10 flex flex-col">
@@ -391,7 +373,6 @@ export default function VsPage() {
           {phase === 'playing' && currentQuestion && (
             <QuestionCard
               question={currentQuestion}
-              locale={locale}
               selectedAnswer={selectedAnswer}
               onAnswer={handleAnswer}
             />
@@ -414,7 +395,7 @@ export default function VsPage() {
 
               <div className="relative z-10 p-4 rounded-xl border border-chronos-border bg-chronos-surface/60">
                 <p className="text-sm text-chronos-muted mb-2 font-medium">
-                  {currentQuestion.question[locale]}
+                  {currentQuestion.question.en}
                 </p>
                 <p
                   className={`text-sm font-semibold ${
@@ -426,15 +407,14 @@ export default function VsPage() {
                   {selectedAnswer === currentQuestion.correctIndex
                     ? `✓ ${t('game.correct')}`
                     : `✗ ${t('game.incorrect')}`}{' '}
-                  — {currentQuestion.options[currentQuestion.correctIndex][locale]}
+                  — {currentQuestion.options[currentQuestion.correctIndex].en}
                 </p>
               </div>
 
               <div className="relative z-10 p-4 pt-0">
                 <ReflectionPanel
                   question={currentQuestion}
-                  locale={locale}
-                  isLast={isLastQuestion}
+                      isLast={isLastQuestion}
                   onContinue={handleContinue}
                 />
               </div>

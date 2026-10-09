@@ -2,6 +2,8 @@
 
 import { useTranslation } from 'next-i18next';
 import type { Category, Locale } from '@/types';
+import { getCategoryIcon, getCategoryImage } from '@/data/catalog';
+import { getDominantDifficulty } from '@/lib/questions';
 
 /**
  * Props for `CategoryCard`.
@@ -16,48 +18,6 @@ interface Props {
   onClick: () => void;
 }
 
-/** Maps category slugs to Unicode emoji/symbols used as visual icons. */
-const CATEGORY_ICONS: Record<string, string> = {
-  'ancient-egypt':      '𓂀',
-  'ancient-greece':     '🏛️',
-  'roman-empire':       '⚔️',
-  'byzantine-empire':   '✝️',
-  'crusades-chivalry':  '⚜️',
-  'vikings':            '🛡️',
-  'age-of-exploration': '🧭',
-  'the-reformation':    '📜',
-  'the-renaissance':    '🎨',
-  'renaissance':        '🎨',
-  'world-wars':         '🌍',
-  'space-race':         '🚀',
-};
-
-/** Maps category slugs to local background image paths. */
-const CATEGORY_IMAGES: Record<string, string> = {
-  'ancient-egypt':      '/images/ancient-egypt.jpg',
-  'ancient-greece':     '/images/ancient-greece.jpg',
-  'roman-empire':       '/images/roman-empire.jpg',
-  'byzantine-empire':   '/images/byzantine-empire.jpg',
-  'crusades-chivalry':  '/images/crusades-chivalry.jpg',
-  'vikings':            '/images/vikings.jpg',
-  'age-of-exploration': '/images/age-of-exploration.jpg',
-  'the-reformation':    '/images/the-reformation.jpg',
-  'the-renaissance':    '/images/the-renaissance.jpg',
-};
-
-/**
- * Returns the most frequently occurring difficulty value in the provided array.
- * Used to display a single representative difficulty badge per category.
- *
- * @param difficulties - All difficulty values from the category's question pool.
- * @returns The dominant difficulty string, defaulting to `'medium'` on a tie or empty input.
- */
-const DOMINANT_DIFFICULTY = (difficulties: string[]): string => {
-  const counts: Record<string, number> = {};
-  for (const d of difficulties) counts[d] = (counts[d] ?? 0) + 1;
-  return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'medium';
-};
-
 /**
  * Renders a tappable category card with:
  * - A background image (when available) that zooms slightly on hover.
@@ -68,9 +28,9 @@ const DOMINANT_DIFFICULTY = (difficulties: string[]): string => {
  */
 export default function CategoryCard({ category, locale, onClick }: Props) {
   const { t } = useTranslation('common');
-  const icon = CATEGORY_ICONS[category.id] ?? '📜';
-  const dominant = DOMINANT_DIFFICULTY(category.difficulties);
-  const imageUrl = CATEGORY_IMAGES[category.id];
+  const icon = getCategoryIcon(category.id);
+  const dominant = getDominantDifficulty(category.difficulties);
+  const imageUrl = getCategoryImage(category.id);
 
   return (
     <button

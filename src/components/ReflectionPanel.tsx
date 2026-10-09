@@ -1,18 +1,32 @@
-// Panel de reflexión: muestra contexto histórico, "mientras tanto" y reflexión con audio opcional.
+// Panel de reflexión: contexto histórico, "Meanwhile" y reflexión, en inglés con español a un toque,
+// audio (mp3 o voz del navegador) y el puente al artículo del blog ("Read the full story").
 
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import type { Question, Locale } from '@/types';
-import { useTextToSpeech } from '@/hooks/useTextToSpeech';
+import type { LocalizedString, Question } from '@/types';
+import { getStory, getStoryLink } from '@/data/catalog';
+import { useNarration, type NarrationMode, type NarrationStatus } from '@/hooks/useNarration';
+import { SpanishText, SpanishToggle } from '@/components/SpanishToggle';
 
-type AudioState = 'idle' | 'playing' | 'paused';
 type PanelKey = 'explanation' | 'meanwhile' | 'reflection';
 
-const PANEL_KEYS: PanelKey[] = ['explanation', 'meanwhile', 'reflection'];
+interface PanelDef {
+  key: PanelKey;
+  icon: string;
+  titleKey: string;
+  accent: string;
+  iconBg: string;
+  italic?: boolean;
+}
+
+const PANELS: PanelDef[] = [
+  { key: 'explanation', icon: '📜', titleKey: 'reflection.title', accent: 'text-[#f5a623]', iconBg: 'bg-[#f5a623]/12' },
+  { key: 'meanwhile', icon: '🌍', titleKey: 'reflection.meanwhileTitle', accent: 'text-emerald-400', iconBg: 'bg-emerald-500/12' },
+  { key: 'reflection', icon: '💭', titleKey: 'reflection.reflectionTitle', accent: 'text-[#f5a623]', iconBg: 'bg-[#f5a623]/18', italic: true },
+];
 
 interface Props {
   question: Question;
-  locale: Locale;
   isLast: boolean;
   onContinue: () => void;
 }
@@ -27,78 +41,81 @@ const ChevronIcon = ({ rotated }: { rotated: boolean }) => (
   </svg>
 );
 
-const BTN = 'p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none';
+const BTN = 'p-1 rounded text-chronos-muted hover:text-chronos-gold transition-colors text-xs leading-none cursor-pointer';
 
-const AudioControls = ({
-  state, onStart, onPause, onResume, onRestart, onStop,
-}: {
-  state: AudioState;
+interface AudioControlsProps {
+  mode: NarrationMode;
+  status: NarrationStatus;
   onStart: () => void;
   onPause: () => void;
   onResume: () => void;
   onRestart: () => void;
   onStop: () => void;
-}) => {
-  if (state === 'idle') {
+}
+
+/** mp3: full controls. Browser voice: play/stop only (pause is unreliable on Android). */
+function AudioControls({ mode, status, onStart, onPause, onResume, onRestart, onStop }: AudioControlsProps) {
+  const { t } = useTranslation('common');
+  if (status === 'idle') {
     return (
-      <span onClick={e => { e.stopPropagation(); onStart(); }} className={BTN}>▶️</span>
+      <span
+        role="button"
+        aria-label={mode === 'voice' ? t('audio.browserVoice') : t('audio.read')}
+        title={mode === 'voice' ? t('audio.browserVoice') : t('audio.read')}
+        onClick={e => { e.stopPropagation(); onStart(); }}
+        className={BTN}
+      >
+        ▶️
+      </span>
     );
   }
   return (
     <div className="flex items-center gap-0.5 animate-fade-in" onClick={e => e.stopPropagation()}>
-      <span onClick={onRestart} className={BTN}>⏮</span>
-      {state === 'playing'
-        ? <span onClick={onPause} className={BTN}>⏸</span>
-        : <span onClick={onResume} className={BTN}>▶️</span>
-      }
-      <span onClick={onStop} className={BTN}>⏹</span>
+      {mode === 'mp3' && <span role="button" onClick={onRestart} className={BTN}>⏮</span>}
+      {mode === 'mp3' && (status === 'playing'
+        ? <span role="button" onClick={onPause} className={BTN}>⏸</span>
+        : <span role="button" onClick={onResume} className={BTN}>▶️</span>)}
+      <span role="button" aria-label={t('audio.stop')} onClick={onStop} className={BTN}>⏹</span>
     </div>
   );
-};
+}
 
-export default function ReflectionPanel({ question, locale, isLast, onContinue }: Props) {
+export default function ReflectionPanel({ question, isLast, onContinue }: Props) {
   const { t } = useTranslation('common');
-  const { isSupported } = useTextToSpeech(locale);
-
+  const narration = useNarration();
   const containerRef = useRef<HTMLDivElement>(null);
-  const audioRefs = useRef<Record<PanelKey, HTMLAudioElement | null>>({
-    explanation: null, meanwhile: null, reflection: null,
+  const [expanded, setExpanded] = useState<Record<PanelKey, boolean>>({
+    explanation: true, meanwhile: false, reflection: false,
+  });
+  const [spanish, setSpanish] = useState<Record<PanelKey, boolean>>({
+    explanation: false, meanwhile: false, reflection: false,
   });
 
-  const [audioStates, setAudioStates] = useState<Record<PanelKey, AudioState>>({
-    explanation: 'idle', meanwhile: 'idle', reflection: 'idle',
-  });
-  const [expanded, setExpanded] = useState<Record<string, boolean>>({
-    context: true, meanwhile: false, reflect: false,
-  });
+  const story = getStory(question.story);
+  const storyLink = story ? getStoryLink(story.id, 'read_full_story') : undefined;
 
-  // Stop all panels and reset UI state when question changes.
+  // Reset panels and stop audio when the question changes.
+  const { stop } = narration;
   useEffect(() => {
-    PANEL_KEYS.forEach(key => {
-      const a = audioRefs.current[key];
-      if (a) { a.pause(); a.onended = null; a.onerror = null; }
-      audioRefs.current[key] = null;
-    });
-    setAudioStates({ explanation: 'idle', meanwhile: 'idle', reflection: 'idle' });
-    setExpanded({ context: true, meanwhile: false, reflect: false });
-  }, [question.id]);
+    stop();
+    setExpanded({ explanation: true, meanwhile: false, reflection: false });
+    setSpanish({ explanation: false, meanwhile: false, reflection: false });
+  }, [question.id, stop]);
 
-  // Pause all audio on unmount.
-  useEffect(() => {
-    const refs = audioRefs.current;
-    return () => { PANEL_KEYS.forEach(key => refs[key]?.pause()); };
-  }, []);
-
-  // Speak selected text on mouseup / touchend within the panel.
+  // Tap or select a word to hear it, in English or Spanish depending on where it is.
   useEffect(() => {
     const el = containerRef.current;
     if (!el || typeof window === 'undefined' || !window.speechSynthesis) return;
     const handleSelectionRead = () => {
-      const selected = window.getSelection()?.toString().trim();
+      const selection = window.getSelection();
+      const selected = selection?.toString().trim();
       if (!selected) return;
+      const node = selection?.anchorNode;
+      const host = node instanceof Element ? node : node?.parentElement;
+      const isSpanish = host?.closest('[lang]')?.getAttribute('lang') === 'es';
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(selected);
-      utterance.lang = locale === 'es' ? 'es-ES' : 'en-US';
+      utterance.lang = isSpanish ? 'es-ES' : 'en-US';
       window.speechSynthesis.speak(utterance);
     };
     el.addEventListener('mouseup', handleSelectionRead);
@@ -107,175 +124,92 @@ export default function ReflectionPanel({ question, locale, isLast, onContinue }
       el.removeEventListener('mouseup', handleSelectionRead);
       el.removeEventListener('touchend', handleSelectionRead);
     };
-  }, [locale]);
+  }, []);
 
-  const toggle = (key: string) => setExpanded(prev => ({ ...prev, [key]: !prev[key] }));
-
-  const startAudio = (key: PanelKey, id: string) => {
-    const existing = audioRefs.current[key];
-    if (existing) { existing.pause(); existing.onended = null; existing.onerror = null; }
-    const audio = new Audio(`/audio/${id}.mp3`);
-    audio.onended = () => setAudioStates(prev => ({ ...prev, [key]: 'idle' }));
-    audio.onerror = () => setAudioStates(prev => ({ ...prev, [key]: 'idle' }));
-    audioRefs.current[key] = audio;
-    setAudioStates(prev => ({ ...prev, [key]: 'playing' }));
-    audio.play().catch(() => setAudioStates(prev => ({ ...prev, [key]: 'idle' })));
-  };
-
-  const pauseAudio = (key: PanelKey) => {
-    audioRefs.current[key]?.pause();
-    setAudioStates(prev => ({ ...prev, [key]: 'paused' }));
-  };
-
-  const resumeAudio = (key: PanelKey) => {
-    audioRefs.current[key]?.play().catch(() => {});
-    setAudioStates(prev => ({ ...prev, [key]: 'playing' }));
-  };
-
-  const restartAudio = (key: PanelKey) => {
-    const audio = audioRefs.current[key];
-    if (!audio) return;
-    audio.currentTime = 0;
-    audio.play().catch(() => {});
-    setAudioStates(prev => ({ ...prev, [key]: 'playing' }));
-  };
-
-  const stopAudio = (key: PanelKey) => {
-    const audio = audioRefs.current[key];
-    if (audio) { audio.pause(); audio.currentTime = 0; audio.onended = null; }
-    audioRefs.current[key] = null;
-    setAudioStates(prev => ({ ...prev, [key]: 'idle' }));
+  const toggleExpanded = (key: PanelKey) => setExpanded(prev => ({ ...prev, [key]: !prev[key] }));
+  const toggleSpanish = (key: PanelKey) => {
+    setExpanded(prev => ({ ...prev, [key]: true }));
+    setSpanish(prev => ({ ...prev, [key]: !prev[key] }));
   };
 
   return (
     <div ref={containerRef} className="flex flex-col w-full animate-slide-down">
-      {/* Historical Context */}
-      <div className="bg-black/30 border border-white/6 rounded-xl mb-2 overflow-hidden">
-        <button
-          onClick={() => toggle('context')}
-          className="w-full flex items-center justify-between px-3 py-2.5"
-        >
-          <div className="flex items-center gap-2">
-            <div className="w-[26px] h-[26px] rounded-md bg-[#f5a623]/12 flex items-center justify-center text-[13px]">📜</div>
-            <span className="text-[13px] font-semibold tracking-wider text-[#f5a623]">
-              {t('reflection.title')}
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            {isSupported && locale === 'en' && (
-              <AudioControls
-                state={audioStates.explanation}
-                onStart={() => startAudio('explanation', `${question.id}_explanation_en`)}
-                onPause={() => pauseAudio('explanation')}
-                onResume={() => resumeAudio('explanation')}
-                onRestart={() => restartAudio('explanation')}
-                onStop={() => stopAudio('explanation')}
-              />
-            )}
-            <ChevronIcon rotated={expanded.context} />
-          </div>
-        </button>
-        {expanded.context ? (
-          <div className="px-3 pb-3 text-[14px] text-[#d1d5db] leading-relaxed">
-            {question.explanation[locale]}
-          </div>
-        ) : (
-          <div className="relative px-3 pb-1">
-            <p className="text-[14px] text-[#9ca3af] leading-relaxed line-clamp-2">
-              {question.explanation[locale]}
-            </p>
-            <button onClick={() => toggle('context')} className="text-[12px] text-[#f5a623] font-medium pt-1 pb-2 block">
-              Ver más
-            </button>
-          </div>
-        )}
-      </div>
+      {PANELS.map(panel => {
+        const text: LocalizedString = question[panel.key];
+        const mp3Id = `${question.id}_${panel.key}_en`;
+        const mode = narration.modeFor(mp3Id);
+        const isOpen = expanded[panel.key];
 
-      {/* Meanwhile */}
-      <div className="bg-black/30 border border-white/6 rounded-xl mb-2 overflow-hidden">
-        <button
-          onClick={() => toggle('meanwhile')}
-          className="w-full flex items-center justify-between px-3 py-2.5"
-        >
-          <div className="flex items-center gap-2">
-            <div className="w-[26px] h-[26px] rounded-md bg-emerald-500/12 flex items-center justify-center text-[13px]">🌍</div>
-            <span className="text-[13px] font-semibold tracking-wider text-emerald-400">
-              {t('reflection.meanwhileTitle')}
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            {isSupported && locale === 'en' && (
-              <AudioControls
-                state={audioStates.meanwhile}
-                onStart={() => startAudio('meanwhile', `${question.id}_meanwhile_en`)}
-                onPause={() => pauseAudio('meanwhile')}
-                onResume={() => resumeAudio('meanwhile')}
-                onRestart={() => restartAudio('meanwhile')}
-                onStop={() => stopAudio('meanwhile')}
-              />
-            )}
-            <ChevronIcon rotated={expanded.meanwhile} />
-          </div>
-        </button>
-        {expanded.meanwhile ? (
-          <div className="px-3 pb-3 text-[14px] text-[#d1d5db] leading-relaxed">
-            {question.meanwhile[locale]}
-          </div>
-        ) : (
-          <div className="relative px-3 pb-1">
-            <p className="text-[14px] text-[#9ca3af] leading-relaxed line-clamp-2">
-              {question.meanwhile[locale]}
-            </p>
-            <button onClick={() => toggle('meanwhile')} className="text-[12px] text-[#f5a623] font-medium pt-1 pb-2 block">
-              Ver más
-            </button>
-          </div>
-        )}
-      </div>
+        return (
+          <div key={panel.key} className="bg-black/30 border border-white/6 rounded-xl mb-2 overflow-hidden">
+            <div
+              role="button"
+              tabIndex={0}
+              onClick={() => toggleExpanded(panel.key)}
+              onKeyDown={e => { if (e.key === 'Enter') toggleExpanded(panel.key); }}
+              className="w-full flex items-center justify-between px-3 py-2.5 cursor-pointer"
+            >
+              <div className="flex items-center gap-2">
+                <div className={`w-[26px] h-[26px] rounded-md ${panel.iconBg} flex items-center justify-center text-[13px]`}>
+                  {panel.icon}
+                </div>
+                <span className={`text-[13px] font-semibold tracking-wider ${panel.accent}`}>{t(panel.titleKey)}</span>
+              </div>
+              <div className="flex items-center gap-2">
+                {mode && (
+                  <AudioControls
+                    mode={narration.activeMode && narration.statusOf(panel.key) !== 'idle' ? narration.activeMode : mode}
+                    status={narration.statusOf(panel.key)}
+                    onStart={() => narration.start(panel.key, { mp3Id, text: text.en })}
+                    onPause={() => narration.pause(panel.key)}
+                    onResume={() => narration.resume(panel.key)}
+                    onRestart={() => narration.restart(panel.key)}
+                    onStop={narration.stop}
+                  />
+                )}
+                <SpanishToggle open={spanish[panel.key]} onToggle={() => toggleSpanish(panel.key)} />
+                <ChevronIcon rotated={isOpen} />
+              </div>
+            </div>
 
-      {/* Reflect on This */}
-      <div className="bg-black/30 border border-white/6 rounded-xl mb-2 overflow-hidden">
-        <button
-          onClick={() => toggle('reflect')}
-          className="w-full flex items-center justify-between px-3 py-2.5"
-        >
-          <div className="flex items-center gap-2">
-            <div className="w-[26px] h-[26px] rounded-md bg-[#f5a623]/18 flex items-center justify-center text-[13px]">💭</div>
-            <span className="text-[13px] font-semibold tracking-wider text-[#f5a623]">
-              {t('reflection.reflectionTitle')}
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            {isSupported && locale === 'en' && (
-              <AudioControls
-                state={audioStates.reflection}
-                onStart={() => startAudio('reflection', `${question.id}_reflection_en`)}
-                onPause={() => pauseAudio('reflection')}
-                onResume={() => resumeAudio('reflection')}
-                onRestart={() => restartAudio('reflection')}
-                onStop={() => stopAudio('reflection')}
-              />
+            {isOpen ? (
+              <div className="px-3 pb-3 flex flex-col gap-2">
+                <p lang="en" className={`text-[14px] text-[#d1d5db] leading-relaxed ${panel.italic ? 'italic' : ''}`}>
+                  {text.en}
+                </p>
+                {spanish[panel.key] && <SpanishText text={text.es} className="text-[13px]" />}
+              </div>
+            ) : (
+              <div className="relative px-3 pb-1">
+                <p lang="en" className="text-[14px] text-[#9ca3af] leading-relaxed line-clamp-2">{text.en}</p>
+                <button
+                  onClick={() => toggleExpanded(panel.key)}
+                  className="text-[12px] text-[#f5a623] font-medium pt-1 pb-2 block"
+                >
+                  {t('reflection.seeMore')}
+                </button>
+              </div>
             )}
-            <ChevronIcon rotated={expanded.reflect} />
           </div>
-        </button>
-        {expanded.reflect ? (
-          <div className="px-3 pb-3 text-[14px] text-[#d1d5db] leading-relaxed italic">
-            {question.reflection[locale]}
-          </div>
-        ) : (
-          <div className="relative px-3 pb-1">
-            <p className="text-[14px] text-[#9ca3af] leading-relaxed line-clamp-2">
-              {question.reflection[locale]}
-            </p>
-            <button onClick={() => toggle('reflect')} className="text-[12px] text-[#f5a623] font-medium pt-1 pb-2 block">
-              Ver más
-            </button>
-          </div>
-        )}
-      </div>
+        );
+      })}
 
-      {/* Continue button */}
+      {/* Bridge to the blog */}
+      {story && storyLink && (
+        <a
+          href={storyLink}
+          target="_blank"
+          rel="noopener"
+          className="group flex items-center justify-between gap-3 rounded-xl border border-chronos-gold/40 bg-chronos-gold/5 px-4 py-3 mt-1 hover:border-chronos-gold hover:bg-chronos-gold/10 transition-colors"
+        >
+          <span className="flex flex-col">
+            <span className="text-[13px] font-semibold text-chronos-gold">{t('story.readFull')}</span>
+            <span className="text-[12px] text-chronos-muted">{story.title} · {t('story.from')}</span>
+          </span>
+          <span className="text-chronos-gold transition-transform group-hover:translate-x-1">→</span>
+        </a>
+      )}
+
       <button
         onClick={onContinue}
         className="w-full bg-[#f5a623] text-[#09090f] font-semibold text-[15px] rounded-xl py-3 mt-2 hover:bg-amber-400 transition-colors active:scale-[0.98]"

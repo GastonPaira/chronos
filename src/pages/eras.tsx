@@ -7,48 +7,8 @@ import type { Question } from '@/types';
 import questionsData from '@/data/questions';
 import LanguageSelector from '@/components/LanguageSelector';
 import { AuthButton } from '@/components/AuthButton';
-interface EraDef {
-  id: string;
-  icon: string;
-  categoryIds: string[];
-}
-
-const ERA_DEFS: EraDef[] = [
-  {
-    id: 'ancient-age',
-    icon: '𓂀',
-    categoryIds: ['ancient-egypt', 'ancient-greece', 'roman-empire'],
-  },
-  {
-    id: 'middle-ages',
-    icon: '⚜️',
-    categoryIds: ['byzantine-empire', 'crusades-chivalry', 'vikings'],
-  },
-  {
-    id: 'early-modern',
-    icon: '🗺️',
-    categoryIds: ['age-of-exploration', 'the-reformation', 'the-renaissance'],
-  },
-  {
-    id: 'modern-era',
-    icon: '🌐',
-    categoryIds: [],
-  },
-];
-
-const ERA_IMAGES: Record<string, string> = {
-  'ancient-age':  '/images/ancient-age.jpg',
-  'middle-ages':  '/images/middle-ages.jpg',
-  'early-modern': '/images/early-modern.jpg',
-  'modern-era':   '/images/modern-era.jpg',
-};
-
-function getDominantDifficulty(difficulties: string[]): string {
-  if (!difficulties.length) return '';
-  const counts: Record<string, number> = {};
-  for (const d of difficulties) counts[d] = (counts[d] ?? 0) + 1;
-  return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'medium';
-}
+import { ERAS, type EraDef } from '@/data/catalog';
+import { getDominantDifficulty } from '@/lib/questions';
 
 interface EraData extends EraDef {
   questionCount: number;
@@ -62,7 +22,7 @@ interface EraCardProps {
 
 function EraCard({ era, onClick }: EraCardProps) {
   const { t } = useTranslation('common');
-  const imageUrl = ERA_IMAGES[era.id];
+  const imageUrl = era.image;
   const isEmpty = era.questionCount === 0;
 
   return (
@@ -144,7 +104,7 @@ export default function EraSelection() {
 
   const eras = useMemo(() => {
     const questions = questionsData as Question[];
-    return ERA_DEFS.map((era) => {
+    return ERAS.map((era) => {
       const eraQuestions = questions.filter(q => era.categoryIds.includes(q.category));
       return {
         ...era,

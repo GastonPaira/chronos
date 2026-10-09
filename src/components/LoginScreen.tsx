@@ -1,10 +1,17 @@
-// Pantalla de inicio de sesión: solicita autenticación con Google antes de acceder a la app.
+// Pantalla de inicio de sesión con Google. Ya no bloquea la app: se muestra solo donde hace falta una cuenta (versus).
 
+import Link from 'next/link';
+import { useTranslation } from 'next-i18next';
 import ChronosLogo from '@/components/ChronosLogo';
 import { signInWithGoogle } from '@/lib/auth';
 
+interface Props {
+  /** Why the player needs to sign in; changes the message. */
+  reason?: 'versus' | 'progress';
+}
+
 /**
- * Full-screen authentication gate shown to unauthenticated users.
+ * Full-screen sign-in screen, used where an account is required (the versus mode).
  *
  * Renders the Chronos logo, a brief value proposition, and a Google sign-in button.
  * Background consists of a historical photo with a layered dark overlay and a subtle
@@ -13,10 +20,11 @@ import { signInWithGoogle } from '@/lib/auth';
  * Clicking "Sign in with Google" calls `signInWithGoogle()`, which saves the current
  * route to `sessionStorage` and redirects the user through the OAuth flow.
  *
- * Mounted by `_app.tsx` instead of the requested page whenever `user` is `null`
- * and auth loading has finished.
+ * Playing alone never requires an account: progress is kept on the device
+ * and moved to the account when the player signs in.
  */
-export function LoginScreen() {
+export function LoginScreen({ reason = 'progress' }: Props) {
+  const { t } = useTranslation('common');
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">
       {/* Background image */}
@@ -39,7 +47,7 @@ export function LoginScreen() {
         <ChronosLogo size="lg" />
 
         <p className="text-chronos-muted text-center text-base tracking-wide">
-          Sign in to save your progress and streak
+          {reason === 'versus' ? t('login.versus') : t('login.subtitle')}
         </p>
 
         {/* Decorative divider */}
@@ -59,8 +67,12 @@ export function LoginScreen() {
             <path fill="#4CAF50" d="M24 44c5.2 0 9.9-1.9 13.5-5l-6.2-5.2C29.5 35.6 26.9 36 24 36c-5.2 0-9.6-2.9-11.3-7.1l-6.6 5C9.6 39.6 16.4 44 24 44z"/>
             <path fill="#1976D2" d="M43.6 20H24v8h11.3c-.9 2.5-2.6 4.6-4.8 6l6.2 5.2C40.5 35.5 44 30.2 44 24c0-1.3-.1-2.7-.4-4z"/>
           </svg>
-          Sign in with Google
+          {t('auth.signIn')}
         </button>
+
+        <Link href="/" className="text-sm text-chronos-muted hover:text-chronos-gold transition-colors">
+          ← {t('login.back')}
+        </Link>
       </div>
 
       <p className="absolute bottom-6 z-10 text-xs text-chronos-border tracking-widest uppercase">

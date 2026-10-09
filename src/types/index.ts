@@ -17,24 +17,34 @@ export interface LocalizedString {
  * @property category_label - Display name translated to both locales.
  * @property difficulty - Difficulty tier used for scoring and filtering.
  * @property question - The question text in both locales.
- * @property options - Exactly two answer choices; order may be shuffled at runtime.
- * @property correctIndex - Index (0 or 1) of the correct option after any shuffle.
+ * @property options - Between two and four answer choices; order is shuffled at runtime.
+ * @property correctIndex - Index of the correct option after any shuffle.
  * @property explanation - Historical context shown in the reflection panel.
  * @property meanwhile - "Meanwhile in the world" sidebar shown post-answer.
  * @property reflection - Open-ended reflection prompt shown post-answer.
+ * @property level - Optional CEFR English level of the text (A2, B1, B2).
+ * @property story - Optional id of a blog story in `STORIES` (src/data/catalog.ts).
  */
 export interface Question {
   id: string;
   category: string;
   category_label: LocalizedString;
-  difficulty: 'easy' | 'medium' | 'hard';
+  difficulty: Difficulty;
   question: LocalizedString;
-  options: [LocalizedString, LocalizedString];
-  correctIndex: 0 | 1;
+  options: LocalizedString[];
+  correctIndex: number;
   explanation: LocalizedString;
   meanwhile: LocalizedString;
   reflection: LocalizedString;
+  level?: EnglishLevel;
+  story?: string;
 }
+
+/** Historical difficulty of a question. */
+export type Difficulty = 'easy' | 'medium' | 'hard';
+
+/** CEFR English level of a question's text. */
+export type EnglishLevel = 'A2' | 'B1' | 'B2';
 
 /**
  * Aggregated metadata for a question category shown in the category picker.
@@ -124,7 +134,7 @@ export interface MatchPlayer {
  * @property match_id - Foreign key to the parent match.
  * @property user_id - Foreign key to the answering user.
  * @property question_id - Which question this answer belongs to.
- * @property selected_index - The option index (0 or 1) the player chose.
+ * @property selected_index - The option index the player chose.
  * @property is_correct - Whether the chosen option was correct.
  * @property answered_at - ISO timestamp of submission.
  */
