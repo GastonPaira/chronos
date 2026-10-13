@@ -3,10 +3,11 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import type { LocalizedString, Question } from '@/types';
+import type { LocalizedString, Question, VocabEntry } from '@/types';
 import { getStory, getStoryLink } from '@/data/catalog';
 import { useNarration, type NarrationMode, type NarrationStatus } from '@/hooks/useNarration';
 import { SpanishText, SpanishToggle } from '@/components/SpanishToggle';
+import GlossedText from '@/components/GlossedText';
 
 type PanelKey = 'explanation' | 'meanwhile' | 'reflection';
 
@@ -29,6 +30,8 @@ interface Props {
   question: Question;
   isLast: boolean;
   onContinue: () => void;
+  /** Called when the player taps a glossary word. */
+  onWordTap?: (entry: VocabEntry) => void;
 }
 
 const ChevronIcon = ({ rotated }: { rotated: boolean }) => (
@@ -80,7 +83,7 @@ function AudioControls({ mode, status, onStart, onPause, onResume, onRestart, on
   );
 }
 
-export default function ReflectionPanel({ question, isLast, onContinue }: Props) {
+export default function ReflectionPanel({ question, isLast, onContinue, onWordTap }: Props) {
   const { t } = useTranslation('common');
   const narration = useNarration();
   const containerRef = useRef<HTMLDivElement>(null);
@@ -174,9 +177,12 @@ export default function ReflectionPanel({ question, isLast, onContinue }: Props)
 
             {isOpen ? (
               <div className="px-3 pb-3 flex flex-col gap-2">
-                <p lang="en" className={`text-[14px] text-[#d1d5db] leading-relaxed ${panel.italic ? 'italic' : ''}`}>
-                  {text.en}
-                </p>
+                <GlossedText
+                  text={text.en}
+                  vocab={question.vocab}
+                  onWordTap={onWordTap}
+                  className={`text-[14px] text-[#d1d5db] leading-relaxed ${panel.italic ? 'italic' : ''}`}
+                />
                 {spanish[panel.key] && <SpanishText text={text.es} className="text-[13px]" />}
               </div>
             ) : (

@@ -7,9 +7,10 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Which emperor commissioned the Corpus Juris Civilis, the legal code that became the foundation of European law?",
-      "es": "¿Qué emperador encargó el Corpus Juris Civilis, el código legal que se convirtió en la base del derecho europeo?"
+      "en": "Which emperor ordered a huge collection of Roman laws, the Corpus Juris Civilis?",
+      "es": "¿Qué emperador ordenó una enorme recopilación de leyes romanas, el Corpus Juris Civilis?"
     },
     "options": [
       {
@@ -19,21 +20,43 @@
       {
         "en": "Constantine I",
         "es": "Constantino I"
+      },
+      {
+        "en": "Basil II",
+        "es": "Basilio II"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Justinian I (r. 527–565 CE) commissioned the compilation of all Roman law into the Corpus Juris Civilis (529–534 CE). This monumental text unified thousands of years of Roman jurisprudence and became the backbone of legal systems across medieval Europe. Its influence lives on today in the laws of continental Europe and Latin America.",
-      "es": "Justiniano I (r. 527–565 d.C.) encargó la compilación de todo el derecho romano en el Corpus Juris Civilis (529–534 d.C.). Este monumental texto unificó miles de años de jurisprudencia romana y se convirtió en la columna vertebral de los sistemas legales de la Europa medieval. Su influencia pervive hoy en las leyes de Europa continental y América Latina."
+      "en": "Justinian ruled the Byzantine Empire from 527 to 565 CE. Roman laws were old, long and often contradictory. He asked legal experts to collect them and make them clear. The work was finished around 534 CE. It became the base of the laws of many European and Latin American countries.",
+      "es": "Justiniano gobernó el Imperio bizantino de 527 a 565 d. C. Las leyes romanas eran viejas, largas y a menudo contradictorias. Pidió a expertos en leyes que las recopilaran y las aclararan. El trabajo terminó alrededor del 534 d. C. Se convirtió en la base de las leyes de muchos países de Europa y América Latina."
     },
     "meanwhile": {
-      "en": "In 529 CE, in China, the philosopher Bodhidharma was reportedly meditating at the Shaolin Monastery, founding the Chan (Zen) Buddhist tradition — a movement that would shape East Asian spirituality for 1,500 years, at the exact moment Justinian was building the foundation of Western law.",
-      "es": "En el 529 d.C., en China, el filósofo Bodhidharma meditaba en el Monasterio Shaolin fundando la tradición Chan (Zen): un movimiento que moldearía la espiritualidad del Asia Oriental durante 1.500 años, en el mismo momento en que Justiniano construía los cimientos del derecho occidental."
+      "en": "Around 530 CE, the Gupta Empire in India was falling apart after attacks from the Huns.",
+      "es": "Alrededor del 530 d. C., el Imperio Gupta de la India se desmoronaba tras los ataques de los hunos."
     },
     "reflection": {
-      "en": "One man's decision to organize centuries of accumulated knowledge into a single code shaped how billions of people are governed today. What body of accumulated wisdom in your life have you never organized — and what could you build if you did?",
-      "es": "La decisión de un solo hombre de organizar siglos de conocimiento acumulado en un único código moldeó la gobernanza de miles de millones de personas. ¿Qué sabiduría acumulada en tu vida nunca has organizado, y qué podrías construir si lo hicieras?"
-    }
+      "en": "Justinian made old laws clearer for everyone. What rule or process in your life could be explained more simply?",
+      "es": "Justiniano aclaró las viejas leyes para todos. ¿Qué regla o proceso de tu vida podría explicarse de forma más simple?"
+    },
+    "vocab": [
+      {
+        "term": "collect",
+        "es": "recopilaran"
+      },
+      {
+        "term": "experts",
+        "es": "expertos"
+      },
+      {
+        "term": "contradictory",
+        "es": "contradictorias"
+      },
+      {
+        "term": "base",
+        "es": "base"
+      }
+    ]
   },
   {
     "id": "bz-002",
@@ -43,33 +66,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "What was the name of the great church built by Justinian I in Constantinople, considered the pinnacle of Byzantine architecture?",
-      "es": "¿Cómo se llamaba la gran iglesia construida por Justiniano I en Constantinopla, considerada la cúspide de la arquitectura bizantina?"
+      "en": "Which great church did Justinian build in Constantinople in only five years?",
+      "es": "¿Qué gran iglesia construyó Justiniano en Constantinopla en solo cinco años?"
     },
     "options": [
       {
         "en": "Hagia Sophia",
-        "es": "Santa Sofía (Hagia Sophia)"
+        "es": "Santa Sofía"
       },
       {
         "en": "The Pantheon",
         "es": "El Panteón"
+      },
+      {
+        "en": "Notre-Dame",
+        "es": "Notre-Dame"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Hagia Sophia ('Holy Wisdom') was completed in 537 CE after just five years of construction. For nearly a thousand years it was the largest cathedral in the world. Its revolutionary dome, appearing to float without visible support, was achieved through groundbreaking engineering. It later became a mosque, then a museum — a building that has outlasted three empires and two religions.",
-      "es": "La Hagia Sophia ('Santa Sabiduría') se terminó en el 537 d.C. tras apenas cinco años de construcción. Durante casi mil años fue la catedral más grande del mundo. Su cúpula revolucionaria, que parece flotar sin apoyo visible, se logró mediante ingeniería innovadora. Luego se convirtió en mezquita y después en museo: un edificio que ha sobrevivido a tres imperios y dos religiones."
+      "en": "Hagia Sophia, or \"Holy Wisdom\", was finished in 537 CE. Its huge dome, about 31 meters wide, seems to float over the building. For almost 1,000 years it was the largest cathedral in the world. It became a mosque in 1453, a museum in 1935 and a mosque again in 2020.",
+      "es": "Santa Sofía, o \"Santa Sabiduría\", se terminó en el 537 d. C. Su enorme cúpula, de unos 31 metros de ancho, parece flotar sobre el edificio. Durante casi 1.000 años fue la catedral más grande del mundo. Se convirtió en mezquita en 1453, en museo en 1935 y otra vez en mezquita en 2020."
     },
     "meanwhile": {
-      "en": "In 537 CE, in Mesoamerica, the Maya city of Tikal was erecting enormous temple pyramids and developing the most sophisticated writing system in the pre-Columbian Americas — two civilizations building monuments to eternity simultaneously, with no knowledge of each other's existence.",
-      "es": "En el 537 d.C., en Mesoamérica, la ciudad maya de Tikal erigía enormes pirámides-templo y desarrollaba el sistema de escritura más sofisticado de las Américas precolombinas: dos civilizaciones construyendo monumentos a la eternidad de forma simultánea, sin conocimiento de la existencia de la otra."
+      "en": "Around 540 CE, in Italy, the monk Benedict’s rules were starting to shape life in monasteries across Western Europe.",
+      "es": "Alrededor del 540 d. C., en Italia, las reglas del monje Benito comenzaban a dar forma a la vida en los monasterios de Europa Occidental."
     },
     "reflection": {
-      "en": "The Hagia Sophia has served three faiths and three empires over 1,500 years. Think of a space in your own life that has held different meanings over time. How does a place carry memory?",
-      "es": "La Hagia Sophia ha servido a tres religiones y tres imperios durante 1.500 años. Piensa en un espacio en tu propia vida que haya tenido diferentes significados con el tiempo. ¿Cómo carga un lugar con la memoria?"
-    }
+      "en": "One building served different faiths and empires over 1,500 years. Is there a place in your life that has meant different things over time?",
+      "es": "Un edificio sirvió a distintas religiones e imperios durante 1.500 años. ¿Hay un lugar en tu vida que haya significado cosas distintas con el tiempo?"
+    },
+    "vocab": [
+      {
+        "term": "dome",
+        "es": "cúpula"
+      },
+      {
+        "term": "float",
+        "es": "flotar"
+      },
+      {
+        "term": "cathedral",
+        "es": "catedral"
+      },
+      {
+        "term": "mosque",
+        "es": "mezquita"
+      }
+    ]
   },
   {
     "id": "bz-003",
@@ -79,33 +125,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was 'Greek Fire,' the secret weapon that helped Byzantium survive Arab naval sieges?",
-      "es": "¿Qué era el 'Fuego Griego', el arma secreta que ayudó a Bizancio a sobrevivir los asedios navales árabes?"
+      "en": "What was \"Greek fire\"?",
+      "es": "¿Qué era el \"fuego griego\"?"
     },
     "options": [
       {
-        "en": "An incendiary liquid that burned even on water, whose formula was lost to history",
-        "es": "Un líquido incendiario que ardía incluso sobre el agua, cuya fórmula se perdió en la historia"
+        "en": "A burning liquid weapon that kept burning on water",
+        "es": "Un arma líquida ardiente que seguía quemando sobre el agua"
       },
       {
-        "en": "A specially trained elephant cavalry unit deployed at sea",
-        "es": "Una unidad de caballería de elefantes especialmente entrenada para el combate naval"
+        "en": "A signal fire lit on the city walls at night",
+        "es": "Una hoguera de señales encendida de noche en las murallas"
+      },
+      {
+        "en": "A festival of torches held in the winter",
+        "es": "Un festival de antorchas celebrado en invierno"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Greek Fire was a liquid incendiary weapon — exact formula lost — that could ignite on water and could not be extinguished with water. Deployed from siphons on Byzantine warships, it proved decisive in repelling Arab naval sieges of Constantinople in 674–678 and 717–718 CE. Its formula was such a state secret that it was never written down, and was lost when the empire fell.",
-      "es": "El Fuego Griego era un arma incendiaria líquida —fórmula exacta desconocida— que podía encenderse sobre el agua y no podía apagarse con ella. Usado desde sifones en buques de guerra bizantinos, fue decisivo para repeler los asedios navales árabes a Constantinopla en 674–678 y 717–718 d.C. Su fórmula era un secreto de estado tan celosamente guardado que nunca fue escrita, y se perdió cuando el Imperio cayó."
+      "en": "Greek fire was a secret weapon of the Byzantine navy. Sailors sprayed the burning liquid through bronze tubes onto enemy ships. It kept burning even on the sea. It helped save Constantinople from Arab fleets in the 670s and again in 717–718. The recipe was a state secret, and today nobody knows exactly what was in it.",
+      "es": "El fuego griego era un arma secreta de la armada bizantina. Los marineros rociaban el líquido ardiente con tubos de bronce sobre los barcos enemigos. Seguía quemando incluso sobre el mar. Ayudó a salvar Constantinopla de las flotas árabes en la década del 670 y de nuevo en 717–718. La receta era un secreto de Estado y hoy nadie sabe exactamente qué contenía."
     },
     "meanwhile": {
-      "en": "Around 700 CE, Arab scholars were making extraordinary advances in chemistry (al-kimiya) — studying combustion, distillation, and chemical reactions — while Byzantine engineers kept their incendiary formula as the most guarded secret in the world, never committing it to writing.",
-      "es": "Hacia el 700 d.C., los sabios árabes hacían avances extraordinarios en química (al-kimiya), estudiando combustión, destilación y reacciones químicas, mientras los ingenieros bizantinos guardaban su fórmula incendiaria como el secreto más celosamente protegido del mundo, sin jamás escribirla."
+      "en": "In 690 CE, Wu Zetian declared herself emperor of China. She is the only woman who ruled China in her own name.",
+      "es": "En el 690 d. C., Wu Zetian se proclamó emperatriz de China. Es la única mujer que gobernó China en nombre propio."
     },
     "reflection": {
-      "en": "Byzantium's survival rested partly on a secret so well-kept it was lost forever. What knowledge, skill, or advantage in your life exists only in memory — and what would be lost if you disappeared tomorrow without passing it on?",
-      "es": "La supervivencia de Bizancio dependía en parte de un secreto tan bien guardado que se perdió para siempre. ¿Qué conocimiento, habilidad o ventaja en tu vida existe solo en tu memoria, y qué se perdería si desaparecieras mañana sin transmitirlo?"
-    }
+      "en": "The recipe was so secret that it was lost. What knowledge in your family could disappear if nobody wrote it down?",
+      "es": "La receta era tan secreta que se perdió. ¿Qué conocimiento de tu familia podría desaparecer si nadie lo escribe?"
+    },
+    "vocab": [
+      {
+        "term": "weapon",
+        "es": "arma"
+      },
+      {
+        "term": "navy",
+        "es": "armada"
+      },
+      {
+        "term": "sprayed",
+        "es": "rociaban"
+      },
+      {
+        "term": "secret",
+        "es": "secreto"
+      }
+    ]
   },
   {
     "id": "bz-004",
@@ -115,33 +184,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Byzantine Iconoclasm controversy (726–842 CE) was a prolonged conflict over what?",
-      "es": "La controversia del Iconoclasmo bizantino (726–842 d.C.) fue un prolongado conflicto sobre qué tema?"
+      "en": "What was the argument about during the Byzantine Iconoclasm?",
+      "es": "¿Sobre qué era la discusión durante la iconoclasia bizantina?"
     },
     "options": [
       {
-        "en": "Whether religious images (icons) should be venerated or destroyed",
-        "es": "Si las imágenes religiosas (iconos) debían venerarse o destruirse"
+        "en": "Whether religious images should be used in worship",
+        "es": "Si las imágenes religiosas debían usarse en el culto"
       },
       {
-        "en": "Whether the Emperor or the Patriarch held supreme authority over the Church",
-        "es": "Si el Emperador o el Patriarca tenía autoridad suprema sobre la Iglesia"
+        "en": "Whether women could become priests",
+        "es": "Si las mujeres podían ser sacerdotes"
+      },
+      {
+        "en": "Whether the emperor could change the calendar",
+        "es": "Si el emperador podía cambiar el calendario"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Emperor Leo III ordered the destruction of religious images (icons) in 726 CE, believing their veneration was idolatry. This triggered 116 years of civil and theological conflict — icons were destroyed and restored twice, families divided, and monks persecuted. The final restoration of icons in 843 CE is still celebrated as the 'Triumph of Orthodoxy' by the Eastern Orthodox Church today.",
-      "es": "El emperador León III ordenó la destrucción de las imágenes religiosas (iconos) en 726 d.C., creyendo que su veneración era idolatría. Esto desencadenó 116 años de conflicto civil y teológico: los iconos fueron destruidos y restaurados dos veces, las familias divididas y los monjes perseguidos. La restauración final en 843 d.C. sigue celebrándose como el 'Triunfo de la Ortodoxia' en la Iglesia Ortodoxa Oriental."
+      "en": "Icons are holy pictures of Jesus, Mary and the saints. In 726 CE, Emperor Leo III began to remove them because he thought that praying to images was wrong. Many people disagreed. For more than a hundred years, there were riots and arguments, and icons were destroyed. In 843 CE, the icons came back for good.",
+      "es": "Los iconos son imágenes sagradas de Jesús, María y los santos. En el 726 d. C., el emperador León III empezó a quitarlos porque pensaba que rezar ante imágenes estaba mal. Mucha gente no estaba de acuerdo. Durante más de cien años hubo disturbios y discusiones, y se destruyeron iconos. En el 843 d. C., los iconos volvieron para siempre."
     },
     "meanwhile": {
-      "en": "Around 726 CE, Tang Dynasty Emperor Xuanzong was at the peak of China's most celebrated golden age — actively commissioning religious sculpture and Buddhist art — completely unaware that half a world away, an emperor was ordering religious images torn down for the opposite theological reason.",
-      "es": "Hacia el 726 d.C., el emperador Tang Xuanzong vivía el apogeo de la era dorada más celebrada de China, encargando activamente escultura religiosa y arte budista, sin saber que al otro lado del mundo un emperador ordenaba destruir imágenes religiosas por la razón teológica contraria."
+      "en": "Around 750 CE, in Japan, workers in Nara were building the giant bronze Buddha statue of Todai-ji temple.",
+      "es": "Alrededor del 750 d. C., en Japón, los trabajadores de Nara construían la gigantesca estatua de bronce de Buda del templo Todai-ji."
     },
     "reflection": {
-      "en": "A theological debate about images tore Byzantium apart for over a century. Think of a belief you hold so strongly that you would destroy something rather than compromise on it. What does the intensity of that commitment tell you about yourself?",
-      "es": "Un debate teológico sobre imágenes desgarró a Bizancio durante más de un siglo. Piensa en una creencia que sostienes con tanta fuerza que destruirías algo antes de ceder. ¿Qué te dice la intensidad de ese compromiso sobre ti mismo?"
-    }
+      "en": "People fought for a hundred years over pictures. What object or symbol is very important to you?",
+      "es": "La gente peleó durante cien años por unas imágenes. ¿Qué objeto o símbolo es muy importante para ti?"
+    },
+    "vocab": [
+      {
+        "term": "icons",
+        "es": "iconos"
+      },
+      {
+        "term": "saints",
+        "es": "santos"
+      },
+      {
+        "term": "riots",
+        "es": "disturbios"
+      },
+      {
+        "term": "destroyed",
+        "es": "destruyeron"
+      }
+    ]
   },
   {
     "id": "bz-005",
@@ -151,33 +243,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Which Byzantine emperor made the last stand when Constantinople fell to the Ottoman Turks in 1453?",
-      "es": "¿Qué emperador bizantino defendió Constantinopla hasta el último momento cuando la ciudad cayó ante los turcos otomanos en 1453?"
+      "en": "Who was the last Byzantine emperor, who died defending Constantinople in 1453?",
+      "es": "¿Quién fue el último emperador bizantino, que murió defendiendo Constantinopla en 1453?"
     },
     "options": [
       {
-        "en": "Constantine XI Palaiologos",
-        "es": "Constantino XI Paleólogo"
+        "en": "Constantine XI",
+        "es": "Constantino XI"
       },
       {
-        "en": "Alexios I Komnenos",
-        "es": "Alejo I Comneno"
+        "en": "Justinian I",
+        "es": "Justiniano I"
+      },
+      {
+        "en": "Alexios I",
+        "es": "Alexio I"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Constantine XI Palaiologos (r. 1449–1453) died fighting on the walls of Constantinople on May 29, 1453, when Mehmed II's forces breached the city's defenses. With him died the Eastern Roman Empire — a political entity that had endured, unbroken, for 1,123 years since Augustus Caesar. His last words, reportedly, were: 'The city is fallen and I am still alive.'",
-      "es": "Constantino XI Paleólogo (r. 1449–1453) murió combatiendo en las murallas de Constantinopla el 29 de mayo de 1453, cuando las fuerzas de Mehmed II traspasaron las defensas. Con él murió el Imperio Romano de Oriente, una entidad política que había perdurado, sin interrupción, durante 1.123 años desde Augusto. Sus últimas palabras, según se dice, fueron: 'La ciudad ha caído y yo sigo vivo.'"
+      "en": "In 1453, the Ottoman sultan Mehmed II, who was only 21, attacked Constantinople with a huge army and giant cannons. The defenders were few, but the walls held for almost two months. On May 29, the Ottomans broke in. Emperor Constantine XI was killed in the fighting. The Byzantine Empire, over 1,000 years old, ended that day.",
+      "es": "En 1453, el sultán otomano Mehmed II, que tenía solo 21 años, atacó Constantinopla con un enorme ejército y cañones gigantes. Los defensores eran pocos, pero las murallas resistieron casi dos meses. El 29 de mayo, los otomanos irrumpieron. El emperador Constantino XI murió en la lucha. El Imperio bizantino, de más de 1.000 años, terminó ese día."
     },
     "meanwhile": {
-      "en": "On the very day Constantinople fell — May 29, 1453 — in West Africa, the Mali Empire was entering its final decline, and in England, the Wars of the Roses were about to begin. Three medieval worlds ending simultaneously, each completely unaware of the others.",
-      "es": "El mismo día que cayó Constantinopla —29 de mayo de 1453—, en África Occidental el Imperio de Mali entraba en su declive final y en Inglaterra estaba a punto de comenzar la Guerra de las Dos Rosas. Tres mundos medievales terminando simultáneamente, cada uno completamente ajeno a los demás."
+      "en": "In 1453, the Hundred Years’ War between England and France ended after 116 years.",
+      "es": "En 1453 terminó la guerra de los Cien Años entre Inglaterra y Francia, después de 116 años."
     },
     "reflection": {
-      "en": "An empire of 1,123 years ended with one man choosing to die on its walls rather than flee. When the things we've built or believed in are falling apart, what does it mean to stay rather than go — and when is it wisdom versus pride?",
-      "es": "Un imperio de 1.123 años terminó con un hombre eligiendo morir en sus murallas en lugar de huir. Cuando las cosas que hemos construido o en las que creemos se desmoronan, ¿qué significa quedarse en lugar de irse? ¿Cuándo es sabiduría y cuándo es orgullo?"
-    }
+      "en": "Constantine stayed to defend a city that was already lost. When is it right to stay and fight, and when is it better to leave?",
+      "es": "Constantino se quedó a defender una ciudad que ya estaba perdida. ¿Cuándo es correcto quedarse y luchar, y cuándo es mejor irse?"
+    },
+    "vocab": [
+      {
+        "term": "cannons",
+        "es": "cañones"
+      },
+      {
+        "term": "defenders",
+        "es": "defensores"
+      },
+      {
+        "term": "walls",
+        "es": "murallas"
+      },
+      {
+        "term": "ended",
+        "es": "terminó"
+      }
+    ]
   },
   {
     "id": "bz-006",
@@ -187,33 +302,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Empress Theodora, wife of Justinian I, was remarkable for what aspect of her background?",
-      "es": "La emperatriz Teodora, esposa de Justiniano I, era notable por qué aspecto de su origen?"
+      "en": "Empress Theodora, wife of Justinian, had an unusual background. What was she before she became empress?",
+      "es": "La emperatriz Teodora, esposa de Justiniano, tenía un origen poco común. ¿Qué era antes de ser emperatriz?"
     },
     "options": [
       {
-        "en": "She rose from being a circus performer and actress to co-ruling the most powerful empire in the Western world",
-        "es": "Pasó de ser actriz y artista de circo a co-gobernar el imperio más poderoso del mundo occidental"
+        "en": "An actress and entertainer",
+        "es": "Una actriz y artista de espectáculos"
       },
       {
-        "en": "She was a captured barbarian princess who converted to Christianity and married the emperor",
-        "es": "Era una princesa bárbara capturada que se convirtió al cristianismo y se casó con el emperador"
+        "en": "A foreign princess",
+        "es": "Una princesa extranjera"
+      },
+      {
+        "en": "A soldier’s daughter",
+        "es": "La hija de un soldado"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Theodora (c. 500–548 CE) grew up in the Hippodrome as the daughter of a bear-keeper and became an actress — a profession so disreputable that Roman law explicitly forbade senators from marrying actresses. Justinian changed the law to marry her. She became his equal partner in governance and personally directed the suppression of the Nika revolt that nearly toppled them, reportedly telling Justinian: 'Royalty is a fine burial shroud.'",
-      "es": "Teodora (c. 500–548 d.C.) creció en el Hipódromo como hija de un domador de osos y se convirtió en actriz, una profesión tan poco respetable que la ley romana prohibía expresamente a los senadores casarse con actrices. Justiniano cambió la ley para casarse con ella. Se convirtió en su igual en el gobierno y dirigió personalmente la represión del Motín de Niká que casi los derrocó, diciéndole supuestamente a Justiniano: 'La realeza es un magnífico sudario.'"
+      "en": "Theodora was the daughter of a bear keeper at the Hippodrome and became an actress, a job that many people looked down on. Justinian loved her so much that he changed the law to be able to marry her. She became his closest adviser. During the Nika riots in 532, she persuaded him not to run away.",
+      "es": "Teodora era hija de un cuidador de osos del Hipódromo y se hizo actriz, un trabajo que mucha gente despreciaba. Justiniano la amaba tanto que cambió la ley para poder casarse con ella. Se convirtió en su consejera más cercana. Durante los disturbios de Nika, en el 532, lo convenció de no huir."
     },
     "meanwhile": {
-      "en": "Around 520 CE, in India, the Gupta Empire was in its twilight having produced Aryabhata — who calculated pi, proposed a heliocentric model, and explained lunar eclipses — while a circus performer in Constantinople was ascending to become co-ruler of the greatest empire in the Western world.",
-      "es": "Hacia el 520 d.C., en India, el Imperio Gupta estaba en su ocaso habiendo producido a Aryabhata —quien calculó pi, propuso un modelo heliocéntrico y explicó los eclipses lunares—, mientras una artista de circo en Constantinopla ascendía para convertirse en co-gobernante del mayor imperio del mundo occidental."
+      "en": "Around 525 CE, the Kingdom of Aksum in East Africa sent an army across the Red Sea to Yemen.",
+      "es": "Alrededor del 525 d. C., el reino de Aksum, en África Oriental, envió un ejército al otro lado del mar Rojo hasta Yemen."
     },
     "reflection": {
-      "en": "Theodora was explicitly barred by law from the position she ultimately occupied. What rule, expectation, or 'that's just how it is' in your own world might be more changeable than it appears — and what would it take to change it?",
-      "es": "Teodora estaba explícitamente excluida por ley del cargo que terminó ocupando. ¿Qué regla, expectativa o 'así son las cosas' en tu mundo podría ser más modificable de lo que parece, y qué se necesitaría para cambiarla?"
-    }
+      "en": "A law once stopped Theodora from marrying an emperor. What rule in your world could be changed if enough people asked?",
+      "es": "Una ley impidió una vez que Teodora se casara con un emperador. ¿Qué regla de tu mundo podría cambiarse si suficientes personas lo pidieran?"
+    },
+    "vocab": [
+      {
+        "term": "bear keeper",
+        "es": "cuidador de osos"
+      },
+      {
+        "term": "adviser",
+        "es": "consejera"
+      },
+      {
+        "term": "persuaded",
+        "es": "convenció"
+      },
+      {
+        "term": "law",
+        "es": "ley"
+      }
+    ]
   },
   {
     "id": "bz-007",
@@ -223,33 +361,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Emperor Basil II earned the epithet 'Bulgar Slayer' for what act after his victory over Bulgaria in 1014?",
-      "es": "El emperador Basilio II ganó el apodo de 'Bulgaróctono' (Matador de Búlgaros) por qué acto tras su victoria sobre Bulgaria en 1014?"
+      "en": "Emperor Basil II was nicknamed the \"Bulgar-Slayer\". Why?",
+      "es": "El emperador Basilio II recibió el apodo de \"Matador de búlgaros\". ¿Por qué?"
     },
     "options": [
       {
-        "en": "He blinded roughly 15,000 Bulgarian prisoners, leaving every hundredth man with one eye to lead the others home",
-        "es": "Cegó a unos 15.000 prisioneros búlgaros, dejando a uno de cada cien con un ojo para guiar a los demás a casa"
+        "en": "He ended Bulgarian independence after years of war",
+        "es": "Puso fin a la independencia búlgara tras años de guerra"
       },
       {
-        "en": "He personally killed the Bulgarian Tsar in single combat after the battle",
-        "es": "Mató personalmente al zar búlgaro en combate singular tras la batalla"
+        "en": "He built a long wall against the Bulgarians",
+        "es": "Construyó un largo muro contra los búlgaros"
+      },
+      {
+        "en": "He married a Bulgarian princess",
+        "es": "Se casó con una princesa búlgara"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "After the Battle of Kleidion (1014 CE), Basil II captured roughly 15,000 Bulgarian soldiers. He had them blinded — 99 of every 100 men — leaving every hundredth man with one eye to lead the others back to their Tsar. When Tsar Samuel saw his army return, he reportedly died of shock two days later. Bulgaria was annexed into Byzantium shortly after.",
-      "es": "Tras la batalla de Kleidion (1014 d.C.), Basilio II capturó a unos 15.000 soldados búlgaros. Los mandó cegar a todos, dejando a uno de cada cien con un ojo para guiar a los demás de vuelta ante su zar. Cuando el zar Samuel vio regresar a su ejército, supuestamente murió de una apoplejía dos días después. Bulgaria fue anexada a Bizancio poco después."
+      "en": "Basil II ruled from 976 to 1025 and spent much of his life at war. After a big victory in 1014, a famous story says that he blinded thousands of prisoners. Historians debate how true this is. By 1018, Bulgaria was part of the Byzantine Empire, which was then at its strongest in centuries.",
+      "es": "Basilio II gobernó de 976 a 1025 y pasó gran parte de su vida en guerra. Tras una gran victoria en 1014, una famosa historia cuenta que dejó ciegos a miles de prisioneros. Los historiadores debaten cuánto hay de cierto. En 1018, Bulgaria era parte del Imperio bizantino, que estaba entonces en su mejor momento en siglos."
     },
     "meanwhile": {
-      "en": "In 1014 CE, the Chola Empire of South India was at its absolute peak — launching a massive naval invasion of Southeast Asia, building exquisite bronze sculptures, and developing advanced Tamil literature. Two empires at their apex, on opposite ends of Eurasia, using utterly different definitions of greatness.",
-      "es": "En 1014 d.C., el Imperio Chola del sur de India estaba en su apogeo absoluto: lanzaba una masiva invasión naval del Sudeste Asiático, construía exquisitas esculturas de bronce y desarrollaba una literatura tamil avanzada. Dos imperios en su cúspide, en extremos opuestos de Eurasia, con definiciones completamente distintas de la grandeza."
+      "en": "In 1010 CE, in southern India, King Rajaraja Chola completed the huge Brihadeeswarar temple.",
+      "es": "En el 1010 d. C., en el sur de la India, el rey Rajaraja Chola terminó el enorme templo Brihadeeswarar."
     },
     "reflection": {
-      "en": "Basil II's act of calculated cruelty achieved its military goal perfectly. What distinguishes effectiveness from morality when everything is at stake? Is there a line you would not cross even if crossing it guaranteed victory?",
-      "es": "El acto de crueldad calculada de Basilio II logró su objetivo militar a la perfección. ¿Qué distingue la eficacia de la moral cuando todo está en juego? ¿Existe un límite que no cruzarías aunque cruzarlo garantizara la victoria?"
-    }
+      "en": "Some stories about great leaders are exaggerated. How do you check if a story about the past is true?",
+      "es": "Algunas historias sobre grandes líderes son exageradas. ¿Cómo compruebas si una historia del pasado es verdadera?"
+    },
+    "vocab": [
+      {
+        "term": "blinded",
+        "es": "dejó ciegos"
+      },
+      {
+        "term": "prisoners",
+        "es": "prisioneros"
+      },
+      {
+        "term": "debate",
+        "es": "debaten"
+      },
+      {
+        "term": "war",
+        "es": "guerra"
+      }
+    ]
   },
   {
     "id": "bz-008",
@@ -259,33 +420,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Great Schism of 1054 permanently divided Christianity into which two branches?",
-      "es": "El Gran Cisma de 1054 dividió permanentemente el cristianismo en qué dos ramas?"
+      "en": "What was the Great Schism of 1054?",
+      "es": "¿Qué fue el Gran Cisma de 1054?"
     },
     "options": [
       {
-        "en": "Roman Catholic and Eastern Orthodox",
-        "es": "Católica Romana y Ortodoxa Oriental"
+        "en": "The split of the Church into Catholic and Orthodox",
+        "es": "La división de la Iglesia en católica y ortodoxa"
       },
       {
-        "en": "Protestant and Catholic",
-        "es": "Protestante y Católica"
+        "en": "A long war between Rome and Constantinople",
+        "es": "Una larga guerra entre Roma y Constantinopla"
+      },
+      {
+        "en": "The end of the Byzantine Empire in that year",
+        "es": "El fin del Imperio bizantino ese mismo año"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "On July 16, 1054, Cardinal Humbert marched into the Hagia Sophia mid-service and placed a papal bull of excommunication on the altar. The Patriarch of Constantinople responded by excommunicating the Pope. The split had been building for centuries over theology, politics, and authority — particularly whether the Pope held supreme authority over all Christians. The mutual excommunications weren't formally lifted until 1964.",
-      "es": "El 16 de julio de 1054, el cardenal Humberto irrumpió en la Hagia Sophia durante el servicio y depositó una bula papal de excomunión sobre el altar. El Patriarca de Constantinopla respondió excomulgando al Papa. La división venía gestándose durante siglos por razones teológicas, políticas y de autoridad. Las excomuniones mutuas no fueron levantadas formalmente hasta 1964."
+      "en": "For centuries, the church in Rome and the church in Constantinople had disagreed about doctrine and about the Pope’s authority. In July 1054, a Roman cardinal placed a letter of excommunication on the altar of Hagia Sophia. The patriarch answered in the same way. The two churches remained separate. The mutual excommunications were lifted in 1965.",
+      "es": "Durante siglos, la Iglesia de Roma y la de Constantinopla habían discrepado sobre la doctrina y la autoridad del Papa. En julio de 1054, un cardenal romano dejó una carta de excomunión sobre el altar de Santa Sofía. El patriarca respondió de la misma manera. Las dos iglesias quedaron separadas. Las excomuniones mutuas se levantaron en 1965."
     },
     "meanwhile": {
-      "en": "In 1054 CE, Chinese astronomers observed a supernova so bright it was visible in daylight for 23 days — the explosion that created what we now call the Crab Nebula. At the exact moment Christianity was fracturing into two, Song Dynasty astronomers were recording one of the greatest astronomical events in human history.",
-      "es": "En 1054 d.C., los astrónomos chinos observaron una supernova tan brillante que fue visible a plena luz del día durante 23 días: la explosión que creó lo que hoy llamamos la Nebulosa del Cangrejo. En el preciso momento en que el cristianismo se fracturaba en dos, los astrónomos de la dinastía Song registraban uno de los mayores eventos astronómicos de la historia."
+      "en": "In 1054 CE, Chinese astronomers saw a new star so bright that it shone in the daytime for 23 days. It was a supernova, now called the Crab Nebula.",
+      "es": "En el 1054 d. C., los astrónomos chinos vieron una estrella nueva tan brillante que se veía de día durante 23 días. Era una supernova, hoy llamada Nebulosa del Cangrejo."
     },
     "reflection": {
-      "en": "Two leaders of the same faith excommunicated each other over theological differences — and the split lasted 910 years. When have you ended a relationship over a disagreement in principle? Looking back, what was truly irreconcilable, and what might have been bridged?",
-      "es": "Dos líderes de la misma fe se excomulgaron mutuamente por diferencias teológicas, y la división duró 910 años. ¿Cuándo has terminado una relación por un desacuerdo de principios? Mirando atrás, ¿qué era verdaderamente irreconciliable y qué podría haberse tendido un puente?"
-    }
+      "en": "Two churches stayed apart for 900 years over a disagreement. Have you ever lost contact with someone for a long time because of an argument?",
+      "es": "Dos iglesias permanecieron separadas durante 900 años por un desacuerdo. ¿Alguna vez perdiste el contacto con alguien durante mucho tiempo por una discusión?"
+    },
+    "vocab": [
+      {
+        "term": "excommunication",
+        "es": "excomunión"
+      },
+      {
+        "term": "disagreed",
+        "es": "habían discrepado"
+      },
+      {
+        "term": "altar",
+        "es": "altar"
+      },
+      {
+        "term": "separate",
+        "es": "separadas"
+      }
+    ]
   },
   {
     "id": "bz-009",
@@ -295,33 +479,56 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was Byzantium's crucial role in preserving ancient Greek and Roman knowledge for Western Europe?",
-      "es": "¿Cuál fue el papel crucial de Bizancio en la preservación del conocimiento griego y romano antiguo para Europa Occidental?"
+      "en": "How did Byzantium help to save the knowledge of ancient Greece and Rome?",
+      "es": "¿Cómo ayudó Bizancio a salvar el conocimiento de la antigua Grecia y Roma?"
     },
     "options": [
       {
-        "en": "Byzantine monasteries copied and stored Greek philosophical and scientific texts, which fled scholars brought to Italy when Constantinople fell in 1453, directly igniting the Renaissance",
-        "es": "Los monasterios bizantinos copiaron y conservaron textos filosóficos y científicos griegos, que los eruditos exiliados llevaron a Italia cuando Constantinopla cayó en 1453, encendiendo directamente el Renacimiento"
+        "en": "Its monks and scholars copied old books by hand",
+        "es": "Sus monjes y eruditos copiaban libros antiguos a mano"
       },
       {
-        "en": "Byzantine emperors founded the first medieval universities in Europe and sent scholars to teach there",
-        "es": "Los emperadores bizantinos fundaron las primeras universidades medievales de Europa y enviaron eruditos a enseñar allí"
+        "en": "It sold ancient books to other countries",
+        "es": "Vendía libros antiguos a otros países"
+      },
+      {
+        "en": "It built universities across Europe",
+        "es": "Construyó universidades en toda Europa"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "While Western Europe lost access to Greek learning after Rome's fall, Byzantine monasteries preserved Aristotle, Plato, Euclid, Archimedes, Ptolemy, and Hippocrates in original Greek manuscripts. When Constantinople fell in 1453, thousands of Byzantine scholars fled to Italy carrying these texts — directly triggering the Italian Renaissance. Without Byzantium's 1,000-year custodianship, Western civilization would have lost its own classical intellectual foundation.",
-      "es": "Mientras Europa Occidental perdía el acceso al saber griego tras la caída de Roma, los monasterios bizantinos preservaron a Aristóteles, Platón, Euclides, Arquímedes, Ptolomeo e Hipócrates en manuscritos griegos originales. Cuando Constantinopla cayó en 1453, miles de eruditos bizantinos huyeron a Italia llevando esos textos, desencadenando directamente el Renacimiento italiano. Sin la custodia milenaria de Bizancio, la civilización occidental habría perdido los cimientos intelectuales de su propia herencia clásica."
+      "en": "After Rome fell, many Greek books were lost in Western Europe. In Byzantium, monks and scholars kept copying the works of Plato, Aristotle, Euclid and others. Before and after 1453, many Greek scholars moved to Italy and brought manuscripts with them. This helped the Renaissance begin.",
+      "es": "Después de la caída de Roma, muchos libros griegos se perdieron en Europa Occidental. En Bizancio, los monjes y eruditos siguieron copiando las obras de Platón, Aristóteles, Euclides y otros. Antes y después de 1453, muchos eruditos griegos se mudaron a Italia y llevaron manuscritos consigo. Esto ayudó a que comenzara el Renacimiento."
     },
     "meanwhile": {
-      "en": "Simultaneously, from the 9th to 11th centuries, Islamic scholars at the House of Wisdom in Baghdad were translating these same Greek texts into Arabic and adding original work in mathematics, astronomy, and medicine — two parallel preservation projects that together saved the knowledge of antiquity for the modern world.",
-      "es": "Simultáneamente, entre los siglos IX y XI, los eruditos islámicos en la Casa de la Sabiduría de Bagdad traducían esos mismos textos griegos al árabe y añadían aportes originales en matemáticas, astronomía y medicina: dos proyectos paralelos de preservación que juntos salvaron el conocimiento de la antigüedad para el mundo moderno."
+      "en": "In the 800s, in Baghdad, scholars at the House of Wisdom translated Greek books into Arabic and added new ideas of their own.",
+      "es": "En el siglo IX, en Bagdad, los eruditos de la Casa de la Sabiduría tradujeron libros griegos al árabe y añadieron ideas nuevas propias."
     },
     "reflection": {
-      "en": "Byzantine scholars spent centuries copying texts they never knew would save a civilization. What are you preserving, building, or passing on whose full value you may never see — and does not knowing the outcome change whether it's worth doing?",
-      "es": "Los eruditos bizantinos pasaron siglos copiando textos sin saber que salvarían una civilización. ¿Qué estás preservando, construyendo o transmitiendo cuyo valor completo quizás nunca llegues a ver? ¿No saber el resultado cambia si vale la pena hacerlo?"
-    }
+      "en": "Monks copied books for centuries without knowing how important they would become. What are you keeping now that may matter later?",
+      "es": "Los monjes copiaron libros durante siglos sin saber lo importantes que serían. ¿Qué estás guardando ahora que podría importar más adelante?"
+    },
+    "vocab": [
+      {
+        "term": "monks",
+        "es": "monjes"
+      },
+      {
+        "term": "copying",
+        "es": "copiando"
+      },
+      {
+        "term": "manuscripts",
+        "es": "manuscritos"
+      },
+      {
+        "term": "brought",
+        "es": "llevaron"
+      }
+    ]
   },
   {
     "id": "bz-010",
@@ -331,32 +538,1235 @@
       "es": "Imperio Bizantino"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "The Byzantine 'theme system' was a military-administrative innovation that organized the empire how?",
-      "es": "El sistema de 'temas' bizantino fue una innovación militar-administrativa que organizó el Imperio de qué manera?"
+      "en": "What was the \"theme system\" that helped the Byzantine Empire survive in the 600s and 700s?",
+      "es": "¿Qué era el \"sistema de temas\" que ayudó al Imperio bizantino a sobrevivir en los siglos VII y VIII?"
     },
     "options": [
       {
-        "en": "It divided the empire into military districts where soldiers received land grants in exchange for hereditary military service",
-        "es": "Dividió el Imperio en distritos militares donde los soldados recibían tierras a cambio de servicio militar hereditario"
+        "en": "Provinces led by generals, with soldier-farmers",
+        "es": "Provincias dirigidas por generales, con soldados-agricultores"
       },
       {
-        "en": "It created a professional standing army paid entirely in gold rather than land grants",
-        "es": "Creó un ejército permanente profesional pagado íntegramente en oro en lugar de concesiones de tierras"
+        "en": "A new tax paid in silver by every city",
+        "es": "Un nuevo impuesto pagado en plata por cada ciudad"
+      },
+      {
+        "en": "A school system to train young officers",
+        "es": "Un sistema escolar para formar jóvenes oficiales"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Introduced in the 7th century as Arab invasions threatened the empire, the theme system reorganized Byzantine provinces into military districts. Soldiers received land in exchange for hereditary military service, creating a self-sustaining defensive system that dramatically reduced costs while increasing loyalty. It allowed Byzantium to survive the Arab onslaught that simultaneously destroyed the Sassanid Persian Empire.",
-      "es": "Introducido en el siglo VII ante las invasiones árabes, el sistema de temas reorganizó las provincias bizantinas en distritos militares. Los soldados recibían tierras a cambio de servicio militar hereditario, creando un sistema defensivo autosuficiente que redujo drásticamente los costos mientras aumentaba la lealtad. Permitió a Bizancio sobrevivir la embestida árabe que simultáneamente destruyó el Imperio sasánida persa."
+      "en": "In the 600s, Arabs, Slavs and Persians attacked the empire, and money was short. The emperors divided the empire into regions called themes. Each theme had a general who commanded the local army. Soldiers received farmland, and in return they defended their region. This was cheaper than paying a big army, and it made soldiers loyal to the land.",
+      "es": "En el siglo VII, árabes, eslavos y persas atacaron el imperio y el dinero escaseaba. Los emperadores dividieron el imperio en regiones llamadas temas. Cada tema tenía un general que mandaba el ejército local. Los soldados recibían tierras de cultivo y, a cambio, defendían su región. Esto era más barato que pagar un gran ejército, y hacía que los soldados fueran leales a la tierra."
     },
     "meanwhile": {
-      "en": "Around 650 CE, the Arab conquests were transforming the world at astonishing speed — within 20 years of Muhammad's death, Arab armies had conquered Persia, Egypt, and Syria, and were closing in on Constantinople. The Byzantine theme system was invented in real time as an emergency response to the fastest geopolitical transformation the ancient world had ever seen.",
-      "es": "Hacia el 650 d.C., las conquistas árabes transformaban el mundo a una velocidad asombrosa: en 20 años tras la muerte de Mahoma, los ejércitos árabes habían conquistado Persia, Egipto y Siria, y se acercaban a Constantinopla. El sistema de temas bizantino fue inventado en tiempo real como respuesta de emergencia a la transformación geopolítica más rápida que el mundo antiguo había visto jamás."
+      "en": "Around 645 CE, the Chinese monk Xuanzang returned from a 16-year journey to India with hundreds of Buddhist texts.",
+      "es": "Alrededor del 645 d. C., el monje chino Xuanzang regresó de un viaje de 16 años a la India con cientos de textos budistas."
     },
     "reflection": {
-      "en": "The theme system was invented under existential pressure — when normal approaches were failing, a radical reorganization saved an empire. When have you redesigned something fundamental under pressure? What did crisis reveal that comfort had hidden?",
-      "es": "El sistema de temas fue inventado bajo presión existencial: cuando los enfoques normales fallaban, una reorganización radical salvó al Imperio. ¿Cuándo has rediseñado algo fundamental bajo presión? ¿Qué reveló la crisis que la comodidad había ocultado?"
-    }
+      "en": "The empire found a new solution when the old one stopped working. When did a crisis force you to try a new approach?",
+      "es": "El imperio encontró una nueva solución cuando la antigua dejó de funcionar. ¿Cuándo una crisis te obligó a probar un nuevo enfoque?"
+    },
+    "vocab": [
+      {
+        "term": "themes",
+        "es": "temas"
+      },
+      {
+        "term": "commanded",
+        "es": "mandaba"
+      },
+      {
+        "term": "farmland",
+        "es": "tierras de cultivo"
+      },
+      {
+        "term": "loyal",
+        "es": "leales"
+      }
+    ]
+  },
+  {
+    "id": "bz-011",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which emperor founded Constantinople as a new capital in 330 CE?",
+      "es": "¿Qué emperador fundó Constantinopla como nueva capital en el 330 d. C.?"
+    },
+    "options": [
+      {
+        "en": "Constantine the Great",
+        "es": "Constantino el Grande"
+      },
+      {
+        "en": "Augustus the first Roman emperor",
+        "es": "Augusto, el primer emperador romano"
+      },
+      {
+        "en": "Justinian the lawgiver",
+        "es": "Justiniano, el legislador"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Constantine chose the old Greek town of Byzantium for his new capital. It stood on a narrow strait between Europe and Asia, and it was easy to defend. He rebuilt it with palaces, churches and a great racetrack. People called it Constantinople, \"the city of Constantine\". Today it is called Istanbul.",
+      "es": "Constantino eligió la antigua ciudad griega de Bizancio como su nueva capital. Estaba junto a un estrecho angosto entre Europa y Asia y era fácil de defender. La reconstruyó con palacios, iglesias y una gran pista de carreras. La gente la llamó Constantinopla, \"la ciudad de Constantino\". Hoy se llama Estambul."
+    },
+    "meanwhile": {
+      "en": "Around 330 CE, King Ezana of Aksum in East Africa became a Christian and made Christianity the religion of his kingdom.",
+      "es": "Alrededor del 330 d. C., el rey Ezana de Aksum, en África Oriental, se hizo cristiano e hizo del cristianismo la religión de su reino."
+    },
+    "reflection": {
+      "en": "A good location helped one city become a great capital. How does the place where you live shape your life?",
+      "es": "Una buena ubicación ayudó a una ciudad a convertirse en una gran capital. ¿Cómo influye el lugar donde vives en tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "capital",
+        "es": "capital"
+      },
+      {
+        "term": "strait",
+        "es": "estrecho"
+      },
+      {
+        "term": "palaces",
+        "es": "palacios"
+      },
+      {
+        "term": "racetrack",
+        "es": "pista de carreras"
+      }
+    ]
+  },
+  {
+    "id": "bz-012",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What protected Constantinople for about 1,000 years?",
+      "es": "¿Qué protegió a Constantinopla durante unos 1.000 años?"
+    },
+    "options": [
+      {
+        "en": "Huge triple walls",
+        "es": "Enormes murallas triples"
+      },
+      {
+        "en": "A river around the city",
+        "es": "Un río que rodeaba la ciudad"
+      },
+      {
+        "en": "A large mountain range",
+        "es": "Una gran cadena montañosa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 413 CE, Emperor Theodosius II built a great wall across the land side of the city. Later, a second and a third line were added. The walls were about 5 kilometers long and had more than 90 towers. The sea protected the other sides. Enemies attacked the city many times, but the walls held until cannons arrived in 1453.",
+      "es": "En el 413 d. C., el emperador Teodosio II construyó una gran muralla en el lado de tierra de la ciudad. Más tarde se añadieron una segunda y una tercera línea. Las murallas medían unos 5 kilómetros de largo y tenían más de 90 torres. El mar protegía los otros lados. Los enemigos atacaron la ciudad muchas veces, pero las murallas resistieron hasta que llegaron los cañones en 1453."
+    },
+    "meanwhile": {
+      "en": "In 410 CE, a few years before, the Visigoths led by Alaric entered and robbed the city of Rome.",
+      "es": "En el 410 d. C., unos años antes, los visigodos liderados por Alarico entraron en la ciudad de Roma y la saquearon."
+    },
+    "reflection": {
+      "en": "Strong walls kept the city safe for centuries. What protects you and the people you love?",
+      "es": "Unas murallas fuertes mantuvieron la ciudad a salvo durante siglos. ¿Qué te protege a ti y a la gente que quieres?"
+    },
+    "vocab": [
+      {
+        "term": "wall",
+        "es": "muralla"
+      },
+      {
+        "term": "towers",
+        "es": "torres"
+      },
+      {
+        "term": "enemies",
+        "es": "enemigos"
+      },
+      {
+        "term": "held",
+        "es": "resistieron"
+      }
+    ]
+  },
+  {
+    "id": "bz-013",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What started the Nika riots in Constantinople in 532 CE?",
+      "es": "¿Qué desencadenó los disturbios de Nika en Constantinopla en el 532 d. C.?"
+    },
+    "options": [
+      {
+        "en": "Angry fans at the races and a crowd upset about taxes",
+        "es": "Hinchas enojados en las carreras y una multitud molesta por los impuestos"
+      },
+      {
+        "en": "A revolt of soldiers inside the imperial palace",
+        "es": "Una rebelión de soldados dentro del palacio imperial"
+      },
+      {
+        "en": "A plague that was killing many people in the city",
+        "es": "Una peste que mataba a mucha gente en la ciudad"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chariot races were the favorite sport in Constantinople, and the fan groups were very strong. In January 532, rival fans united against Justinian because of high taxes and unfair officials. They shouted \"Nika!\", which means \"Win!\". Much of the city burned. Justinian’s general Belisarius ended the revolt in the Hippodrome, and thousands of people died.",
+      "es": "Las carreras de carros eran el deporte favorito de Constantinopla, y los grupos de hinchas eran muy fuertes. En enero del 532, hinchas rivales se unieron contra Justiniano por los altos impuestos y los funcionarios injustos. Gritaban \"¡Nika!\", que significa \"¡Victoria!\". Gran parte de la ciudad ardió. El general de Justiniano, Belisario, acabó con la revuelta en el Hipódromo y murieron miles de personas."
+    },
+    "meanwhile": {
+      "en": "Around 535 CE, according to tradition, Buddhism arrived in Japan from Korea, brought as a gift by the king of Baekje.",
+      "es": "Alrededor del 535 d. C., según la tradición, el budismo llegó a Japón desde Corea, enviado como regalo por el rey de Baekje."
+    },
+    "reflection": {
+      "en": "Sports crowds became a political force. When does a group of fans or supporters become powerful?",
+      "es": "Las multitudes deportivas se convirtieron en una fuerza política. ¿Cuándo un grupo de hinchas o seguidores se vuelve poderoso?"
+    },
+    "vocab": [
+      {
+        "term": "fans",
+        "es": "hinchas"
+      },
+      {
+        "term": "taxes",
+        "es": "impuestos"
+      },
+      {
+        "term": "revolt",
+        "es": "revuelta"
+      },
+      {
+        "term": "rival",
+        "es": "rivales"
+      }
+    ]
+  },
+  {
+    "id": "bz-014",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did the general Belisarius do for Justinian?",
+      "es": "¿Qué hizo el general Belisario por Justiniano?"
+    },
+    "options": [
+      {
+        "en": "He won back lands in North Africa and Italy",
+        "es": "Recuperó tierras en el norte de África y en Italia"
+      },
+      {
+        "en": "He wrote the laws of the empire for Justinian",
+        "es": "Escribió las leyes del imperio para Justiniano"
+      },
+      {
+        "en": "He designed Hagia Sophia with his own hands",
+        "es": "Diseñó Santa Sofía con sus propias manos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Justinian dreamed of ruling the old Roman lands again. Belisarius, with a small army, defeated the Vandals in North Africa in 533–534 CE. Then he fought the Goths in Italy and took Rome and Ravenna. After Belisarius, the empire became too stretched and poor. Much of Italy was lost again after Justinian died.",
+      "es": "Justiniano soñaba con gobernar de nuevo las antiguas tierras romanas. Belisario, con un pequeño ejército, derrotó a los vándalos en el norte de África en el 533–534 d. C. Luego luchó contra los godos en Italia y tomó Roma y Rávena. Tras Belisario, el imperio quedó demasiado extendido y empobrecido. Gran parte de Italia se perdió otra vez después de la muerte de Justiniano."
+    },
+    "meanwhile": {
+      "en": "Around 540 CE, the Chinese Emperor Wu of Liang was a devout Buddhist who built many temples.",
+      "es": "Alrededor del 540 d. C., el emperador Wu de Liang, en China, era un devoto budista que construyó muchos templos."
+    },
+    "reflection": {
+      "en": "Justinian wanted to win everything back, and the cost was very high. When have you tried to do too much at once?",
+      "es": "Justiniano quería recuperarlo todo y el costo fue muy alto. ¿Cuándo intentaste hacer demasiado a la vez?"
+    },
+    "vocab": [
+      {
+        "term": "defeated",
+        "es": "derrotó"
+      },
+      {
+        "term": "Goths",
+        "es": "godos"
+      },
+      {
+        "term": "stretched",
+        "es": "extendido"
+      },
+      {
+        "term": "lands",
+        "es": "tierras"
+      }
+    ]
+  },
+  {
+    "id": "bz-015",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Around 552 CE, how did Byzantium learn to make silk?",
+      "es": "Alrededor del 552 d. C., ¿cómo aprendió Bizancio a fabricar seda?"
+    },
+    "options": [
+      {
+        "en": "Monks smuggled silkworm eggs out of China",
+        "es": "Unos monjes sacaron de contrabando huevos de gusano de seda desde China"
+      },
+      {
+        "en": "A Chinese princess brought the secret as a gift",
+        "es": "Una princesa china llevó el secreto como regalo"
+      },
+      {
+        "en": "Merchants bought a silk factory in Persia",
+        "es": "Unos comerciantes compraron una fábrica de seda en Persia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For centuries, only China knew how to make silk. Byzantium had to buy it from Persia at high prices. According to the historian Procopius, in about 552 CE, two monks hid silkworm eggs in hollow walking sticks and carried them to Constantinople. Soon, the empire had its own silk industry, which made it rich.",
+      "es": "Durante siglos, solo China sabía fabricar seda. Bizancio tenía que comprarla a Persia a precios altos. Según el historiador Procopio, hacia el 552 d. C., dos monjes escondieron huevos de gusano de seda en bastones huecos y los llevaron a Constantinopla. Pronto, el imperio tuvo su propia industria de seda, que lo enriqueció."
+    },
+    "meanwhile": {
+      "en": "In 552 CE, the Turkic peoples founded a large empire in Central Asia, along the Silk Road.",
+      "es": "En el 552 d. C., los pueblos túrquicos fundaron un gran imperio en Asia Central, a lo largo de la Ruta de la Seda."
+    },
+    "reflection": {
+      "en": "A small secret changed the economy of an empire. What small piece of knowledge changed your life?",
+      "es": "Un pequeño secreto cambió la economía de un imperio. ¿Qué pequeño conocimiento cambió tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "silk",
+        "es": "seda"
+      },
+      {
+        "term": "eggs",
+        "es": "huevos"
+      },
+      {
+        "term": "hollow",
+        "es": "huecos"
+      },
+      {
+        "term": "industry",
+        "es": "industria"
+      }
+    ]
+  },
+  {
+    "id": "bz-016",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What was the \"Plague of Justinian\" that reached Constantinople in 541–542 CE?",
+      "es": "¿Qué fue la \"Peste de Justiniano\" que llegó a Constantinopla en el 541–542 d. C.?"
+    },
+    "options": [
+      {
+        "en": "A deadly outbreak of bubonic plague",
+        "es": "Un mortal brote de peste bubónica"
+      },
+      {
+        "en": "A famine after a long drought",
+        "es": "Una hambruna tras una larga sequía"
+      },
+      {
+        "en": "A war against the Persians",
+        "es": "Una guerra contra los persas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The plague probably came by ship from Egypt, carried by rats and fleas. In Constantinople, a writer of the time said that thousands of people died each day. Justinian himself became ill but survived. The disease returned again and again for about 200 years. Historians think it killed millions of people and weakened the empire.",
+      "es": "La peste probablemente llegó en barco desde Egipto, transportada por ratas y pulgas. En Constantinopla, un escritor de la época dijo que morían miles de personas cada día. El propio Justiniano enfermó, pero sobrevivió. La enfermedad volvió una y otra vez durante unos 200 años. Los historiadores creen que mató a millones de personas y debilitó al imperio."
+    },
+    "meanwhile": {
+      "en": "Around 540 CE, the Maya city of Tikal was growing into a powerful center in Central America.",
+      "es": "Alrededor del 540 d. C., la ciudad maya de Tikal se convertía en un poderoso centro en América Central."
+    },
+    "reflection": {
+      "en": "A disease traveled on trade routes and changed history. How do you think connections between countries can bring both good and bad?",
+      "es": "Una enfermedad viajó por rutas comerciales y cambió la historia. ¿Cómo crees que las conexiones entre países pueden traer cosas buenas y malas?"
+    },
+    "vocab": [
+      {
+        "term": "plague",
+        "es": "peste"
+      },
+      {
+        "term": "rats",
+        "es": "ratas"
+      },
+      {
+        "term": "fleas",
+        "es": "pulgas"
+      },
+      {
+        "term": "weakened",
+        "es": "debilitó"
+      }
+    ]
+  },
+  {
+    "id": "bz-017",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What are Byzantine mosaics made of?",
+      "es": "¿De qué están hechos los mosaicos bizantinos?"
+    },
+    "options": [
+      {
+        "en": "Tiny pieces of colored glass and stone",
+        "es": "Pequeñas piezas de vidrio de colores y piedra"
+      },
+      {
+        "en": "Paint put on wet plaster, called fresco",
+        "es": "Pintura sobre yeso húmedo, llamada fresco"
+      },
+      {
+        "en": "Carved wood and ivory fixed on the wall",
+        "es": "Madera tallada y marfil fijados en la pared"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Byzantine artists made pictures from thousands of small squares called tesserae. Some were gold glass, so the walls shone in candlelight. In San Vitale church in Ravenna, a mosaic from the 540s shows Emperor Justinian and Empress Theodora with their court. The figures look calm and holy, as if they were outside time.",
+      "es": "Los artistas bizantinos hacían imágenes con miles de pequeños cuadrados llamados teselas. Algunos eran de vidrio dorado, así que las paredes brillaban a la luz de las velas. En la iglesia de San Vital de Rávena, un mosaico de la década de 540 muestra al emperador Justiniano y a la emperatriz Teodora con su corte. Las figuras parecen serenas y sagradas, como si estuvieran fuera del tiempo."
+    },
+    "meanwhile": {
+      "en": "Around 550 CE, Nalanda in India was already a great Buddhist university with thousands of students.",
+      "es": "Alrededor del 550 d. C., Nalanda, en la India, ya era una gran universidad budista con miles de estudiantes."
+    },
+    "reflection": {
+      "en": "Tiny pieces together made a huge picture. What big goal in your life is made of small steps?",
+      "es": "Piezas diminutas juntas formaron una enorme imagen. ¿Qué gran meta de tu vida está hecha de pequeños pasos?"
+    },
+    "vocab": [
+      {
+        "term": "mosaic",
+        "es": "mosaico"
+      },
+      {
+        "term": "squares",
+        "es": "cuadrados"
+      },
+      {
+        "term": "candlelight",
+        "es": "luz de las velas"
+      },
+      {
+        "term": "court",
+        "es": "corte"
+      }
+    ]
+  },
+  {
+    "id": "bz-018",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which empire was Byzantium’s great rival in the east for hundreds of years?",
+      "es": "¿Qué imperio fue el gran rival de Bizancio en el este durante cientos de años?"
+    },
+    "options": [
+      {
+        "en": "The Persian Empire",
+        "es": "El Imperio persa"
+      },
+      {
+        "en": "The Chinese Empire",
+        "es": "El Imperio chino"
+      },
+      {
+        "en": "The Mongol Empire",
+        "es": "El Imperio mongol"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Rome and Persia had fought for centuries, and Byzantium kept the rivalry. The final war lasted from 602 to 628 CE. At first, Persia conquered Syria, Egypt and Jerusalem. Then Emperor Heraclius made a bold attack deep into Persian land and won. Both empires were exhausted, and soon the Arabs conquered much of both.",
+      "es": "Roma y Persia habían luchado durante siglos, y Bizancio mantuvo la rivalidad. La última guerra duró del 602 al 628 d. C. Al principio, Persia conquistó Siria, Egipto y Jerusalén. Luego el emperador Heraclio hizo un audaz ataque en lo profundo de tierras persas y ganó. Ambos imperios quedaron agotados, y poco después los árabes conquistaron gran parte de los dos."
+    },
+    "meanwhile": {
+      "en": "In 622 CE, the Prophet Muhammad moved from Mecca to Medina. This journey is the start of the Islamic calendar.",
+      "es": "En el 622 d. C., el profeta Mahoma se trasladó de La Meca a Medina. Ese viaje es el comienzo del calendario islámico."
+    },
+    "reflection": {
+      "en": "Two great empires wore each other out, and a third rose. When has a long conflict helped someone else?",
+      "es": "Dos grandes imperios se agotaron mutuamente y un tercero surgió. ¿Cuándo un largo conflicto benefició a otro?"
+    },
+    "vocab": [
+      {
+        "term": "rivalry",
+        "es": "rivalidad"
+      },
+      {
+        "term": "bold",
+        "es": "audaz"
+      },
+      {
+        "term": "exhausted",
+        "es": "agotados"
+      },
+      {
+        "term": "conquered",
+        "es": "conquistaron"
+      }
+    ]
+  },
+  {
+    "id": "bz-019",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What did the brothers Cyril and Methodius create in the 860s to help teach Christianity to the Slavs?",
+      "es": "¿Qué crearon los hermanos Cirilo y Metodio en la década de 860 para ayudar a enseñar el cristianismo a los eslavos?"
+    },
+    "options": [
+      {
+        "en": "A new alphabet for the Slavic languages",
+        "es": "Un nuevo alfabeto para las lenguas eslavas"
+      },
+      {
+        "en": "A big army of missionaries with weapons",
+        "es": "Un gran ejército de misioneros con armas"
+      },
+      {
+        "en": "A long bridge across the Danube River",
+        "es": "Un largo puente sobre el río Danubio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cyril and Methodius were two brothers from Thessaloniki who spoke the Slavic language of their neighbors. They invented the Glagolitic alphabet to write it, and they translated holy books. Their students later developed the Cyrillic alphabet, named after Cyril. Today, Russian, Ukrainian and Bulgarian are written with it.",
+      "es": "Cirilo y Metodio eran dos hermanos de Tesalónica que hablaban la lengua eslava de sus vecinos. Inventaron el alfabeto glagolítico para escribirla y tradujeron libros sagrados. Sus alumnos desarrollaron después el alfabeto cirílico, que lleva el nombre de Cirilo. Hoy, el ruso, el ucraniano y el búlgaro se escriben con él."
+    },
+    "meanwhile": {
+      "en": "In 868 CE, the Diamond Sutra, the oldest dated printed book, was printed in China.",
+      "es": "En el 868 d. C., el Sutra del Diamante, el libro impreso fechado más antiguo, se imprimió en China."
+    },
+    "reflection": {
+      "en": "Cyril and Methodius gave people the chance to read in their own language. Why is it important to learn in your own language?",
+      "es": "Cirilo y Metodio dieron a la gente la oportunidad de leer en su propio idioma. ¿Por qué es importante aprender en tu propia lengua?"
+    },
+    "vocab": [
+      {
+        "term": "brothers",
+        "es": "hermanos"
+      },
+      {
+        "term": "alphabet",
+        "es": "alfabeto"
+      },
+      {
+        "term": "translated",
+        "es": "tradujeron"
+      },
+      {
+        "term": "students",
+        "es": "alumnos"
+      }
+    ]
+  },
+  {
+    "id": "bz-020",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 988, why did Prince Vladimir of Kyiv choose to become a Christian in the Byzantine tradition?",
+      "es": "En 988, ¿por qué el príncipe Vladimiro de Kiev eligió hacerse cristiano de tradición bizantina?"
+    },
+    "options": [
+      {
+        "en": "His envoys were amazed by Byzantine worship",
+        "es": "Sus enviados quedaron maravillados por el culto bizantino"
+      },
+      {
+        "en": "The Byzantines invaded his lands and forced him",
+        "es": "Los bizantinos invadieron sus tierras y lo obligaron"
+      },
+      {
+        "en": "He wanted to learn Greek and to read its books",
+        "es": "Quería aprender griego y leer sus libros"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Prince Vladimir ruled Kievan Rus, a large state in Eastern Europe. According to an old chronicle, he sent envoys to study different religions. When they visited Hagia Sophia, they said they did not know if they were on earth or in heaven. Vladimir was baptized in 988 and married a Byzantine princess. This tied Russia and Ukraine to Orthodox Christianity.",
+      "es": "El príncipe Vladimiro gobernaba la Rus de Kiev, un gran Estado de Europa Oriental. Según una antigua crónica, envió enviados para estudiar distintas religiones. Cuando visitaron Santa Sofía, dijeron que no sabían si estaban en la tierra o en el cielo. Vladimiro fue bautizado en 988 y se casó con una princesa bizantina. Esto vinculó a Rusia y Ucrania con el cristianismo ortodoxo."
+    },
+    "meanwhile": {
+      "en": "Around 1008 CE, in Japan, Murasaki Shikibu wrote The Tale of Genji, often called the first novel in the world.",
+      "es": "Alrededor del 1008 d. C., en Japón, Murasaki Shikibu escribió La historia de Genji, a menudo llamada la primera novela del mundo."
+    },
+    "reflection": {
+      "en": "Beauty helped to change the faith of a whole country. What place or experience has moved you deeply?",
+      "es": "La belleza ayudó a cambiar la fe de todo un país. ¿Qué lugar o experiencia te ha conmovido profundamente?"
+    },
+    "vocab": [
+      {
+        "term": "envoys",
+        "es": "enviados"
+      },
+      {
+        "term": "chronicle",
+        "es": "crónica"
+      },
+      {
+        "term": "baptized",
+        "es": "bautizado"
+      },
+      {
+        "term": "princess",
+        "es": "princesa"
+      }
+    ]
+  },
+  {
+    "id": "bz-021",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What language did most Byzantines speak?",
+      "es": "¿Qué idioma hablaba la mayoría de los bizantinos?"
+    },
+    "options": [
+      {
+        "en": "Greek",
+        "es": "Griego"
+      },
+      {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      {
+        "en": "Arabic",
+        "es": "Árabe"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Byzantines called themselves \"Romans\", because their empire was the eastern half of the Roman Empire. But they did not speak Latin for long. From the 600s, the official language was Greek. The name \"Byzantine\" was used mostly after the empire fell. The people of that time never used it.",
+      "es": "Los bizantinos se llamaban a sí mismos \"romanos\", porque su imperio era la mitad oriental del Imperio romano. Pero no hablaron latín por mucho tiempo. Desde el siglo VII, el idioma oficial fue el griego. El nombre \"bizantino\" se usó sobre todo después de la caída del imperio. La gente de esa época nunca lo usó."
+    },
+    "meanwhile": {
+      "en": "Around 630 CE, the Tang dynasty in China was growing strong, and its capital Chang’an was one of the largest cities in the world.",
+      "es": "Alrededor del 630 d. C., la dinastía Tang de China se fortalecía, y su capital Chang’an era una de las ciudades más grandes del mundo."
+    },
+    "reflection": {
+      "en": "The Byzantines kept calling themselves Romans, even though they spoke Greek. What name do you use for your identity, and where does it come from?",
+      "es": "Los bizantinos siguieron llamándose romanos, aunque hablaban griego. ¿Qué nombre usas para tu identidad y de dónde viene?"
+    },
+    "vocab": [
+      {
+        "term": "called",
+        "es": "llamaban"
+      },
+      {
+        "term": "official",
+        "es": "oficial"
+      },
+      {
+        "term": "empire",
+        "es": "imperio"
+      },
+      {
+        "term": "fell",
+        "es": "caída"
+      }
+    ]
+  },
+  {
+    "id": "bz-022",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Anna Komnene is famous for being one of the first women to do what?",
+      "es": "Ana Comneno es famosa por ser una de las primeras mujeres en hacer qué?"
+    },
+    "options": [
+      {
+        "en": "Write a history book",
+        "es": "Escribir un libro de historia"
+      },
+      {
+        "en": "Lead an army",
+        "es": "Dirigir un ejército"
+      },
+      {
+        "en": "Become a pope",
+        "es": "Convertirse en papa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Anna Komnene was a Byzantine princess born in 1083. After her father, Emperor Alexios I, died, she lived in a monastery and wrote the Alexiad, a long history of his reign. It describes the Byzantine view of the First Crusade. Anna writes with pride and detail, but also with strong opinions.",
+      "es": "Ana Comneno fue una princesa bizantina nacida en 1083. Tras la muerte de su padre, el emperador Alexio I, vivió en un monasterio y escribió la Alexíada, una larga historia de su reinado. Describe el punto de vista bizantino sobre la Primera Cruzada. Ana escribe con orgullo y detalle, pero también con opiniones firmes."
+    },
+    "meanwhile": {
+      "en": "Around 1150 CE, in Cambodia, the Khmer king Suryavarman II was building the great temple of Angkor Wat.",
+      "es": "Alrededor del 1150 d. C., en Camboya, el rey jemer Suryavarman II construía el gran templo de Angkor Wat."
+    },
+    "reflection": {
+      "en": "Anna told the story of her time from her own point of view. Whose point of view do you not hear often in history?",
+      "es": "Ana contó la historia de su época desde su propio punto de vista. ¿Qué punto de vista no se escucha a menudo en la historia?"
+    },
+    "vocab": [
+      {
+        "term": "princess",
+        "es": "princesa"
+      },
+      {
+        "term": "monastery",
+        "es": "monasterio"
+      },
+      {
+        "term": "reign",
+        "es": "reinado"
+      },
+      {
+        "term": "opinions",
+        "es": "opiniones"
+      }
+    ]
+  },
+  {
+    "id": "bz-023",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1261, what did the Byzantines manage to do?",
+      "es": "En 1261, ¿qué lograron hacer los bizantinos?"
+    },
+    "options": [
+      {
+        "en": "They took back Constantinople from the Crusaders",
+        "es": "Recuperaron Constantinopla de manos de los cruzados"
+      },
+      {
+        "en": "They conquered the holy city of Jerusalem",
+        "es": "Conquistaron la ciudad santa de Jerusalén"
+      },
+      {
+        "en": "They defeated the Mongols in a great battle",
+        "es": "Derrotaron a los mongoles en una gran batalla"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1204, soldiers of the Fourth Crusade attacked and robbed Constantinople and set up their own Latin empire there. The Byzantines moved to the city of Nicaea and waited. In 1261, Emperor Michael VIII Palaiologos retook Constantinople almost without a fight. But the empire never recovered its former power. It stayed small and poor for two more centuries.",
+      "es": "En 1204, los soldados de la Cuarta Cruzada atacaron y saquearon Constantinopla y establecieron allí su propio imperio latino. Los bizantinos se trasladaron a la ciudad de Nicea y esperaron. En 1261, el emperador Miguel VIII Paleólogo recuperó Constantinopla casi sin lucha. Pero el imperio nunca recuperó su antiguo poder. Siguió siendo pequeño y pobre durante dos siglos más."
+    },
+    "meanwhile": {
+      "en": "In 1260, Kublai Khan became the Great Khan of the Mongol Empire, which stretched across Asia.",
+      "es": "En 1260, Kublai Kan se convirtió en Gran Kan del Imperio mongol, que se extendía por toda Asia."
+    },
+    "reflection": {
+      "en": "The Byzantines waited 57 years to return home. What is the longest you have waited for something important?",
+      "es": "Los bizantinos esperaron 57 años para volver a su hogar. ¿Cuál es el tiempo más largo que has esperado por algo importante?"
+    },
+    "vocab": [
+      {
+        "term": "robbed",
+        "es": "saquearon"
+      },
+      {
+        "term": "retook",
+        "es": "recuperó"
+      },
+      {
+        "term": "recovered",
+        "es": "recuperó"
+      },
+      {
+        "term": "poor",
+        "es": "pobre"
+      }
+    ]
+  },
+  {
+    "id": "bz-024",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What amazed visitors in the Byzantine emperor’s throne room in the 900s?",
+      "es": "¿Qué maravillaba a los visitantes en la sala del trono del emperador bizantino en el siglo X?"
+    },
+    "options": [
+      {
+        "en": "A throne that rose in the air and golden lions that roared",
+        "es": "Un trono que se elevaba en el aire y leones dorados que rugían"
+      },
+      {
+        "en": "A giant mirror that showed the future to the emperor",
+        "es": "Un espejo gigante que mostraba el futuro al emperador"
+      },
+      {
+        "en": "A fountain that was made of real gold",
+        "es": "Una fuente hecha de oro verdadero"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 949 CE, an Italian visitor named Liudprand described the throne room of Constantinople. The emperor’s throne could lift high into the air. Next to it stood golden lions that moved and roared, and metal birds that sang in a tree. The visitor was frightened and impressed. The emperors used such machines to show their power.",
+      "es": "En el 949 d. C., un visitante italiano llamado Liutprando describió la sala del trono de Constantinopla. El trono del emperador podía elevarse muy alto en el aire. A su lado había leones dorados que se movían y rugían, y pájaros de metal que cantaban en un árbol. El visitante quedó asustado e impresionado. Los emperadores usaban esas máquinas para mostrar su poder."
+    },
+    "meanwhile": {
+      "en": "Around 950 CE, Córdoba in Muslim Spain was one of the largest cities in Europe and had a famous library.",
+      "es": "Alrededor del 950 d. C., Córdoba, en la España musulmana, era una de las ciudades más grandes de Europa y tenía una famosa biblioteca."
+    },
+    "reflection": {
+      "en": "The emperors used machines to impress their guests. How do people today show power or success to impress others?",
+      "es": "Los emperadores usaban máquinas para impresionar a sus invitados. ¿Cómo muestra hoy la gente su poder o éxito para impresionar a otros?"
+    },
+    "vocab": [
+      {
+        "term": "throne",
+        "es": "trono"
+      },
+      {
+        "term": "lions",
+        "es": "leones"
+      },
+      {
+        "term": "roared",
+        "es": "rugían"
+      },
+      {
+        "term": "impressed",
+        "es": "impresionado"
+      }
+    ]
+  },
+  {
+    "id": "bz-025",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What was special about the Pantokrator hospital in Constantinople, founded in 1136?",
+      "es": "¿Qué tenía de especial el hospital del Pantócrator en Constantinopla, fundado en 1136?"
+    },
+    "options": [
+      {
+        "en": "Separate wards, trained doctors and a medical school",
+        "es": "Salas separadas, médicos formados y una escuela de medicina"
+      },
+      {
+        "en": "It only treated wounded soldiers from the wars",
+        "es": "Solo atendía a soldados heridos en las guerras"
+      },
+      {
+        "en": "It was built inside a cave in the mountains",
+        "es": "Estaba construido dentro de una cueva en la montaña"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Byzantine monasteries ran hospitals for the poor. The Pantokrator hospital had about 50 beds, with separate wards for different diseases and a ward for women. It had a team of doctors, nurses and helpers, who were paid. Doctors also taught students there. It was one of the most advanced hospitals of its time.",
+      "es": "Los monasterios bizantinos dirigían hospitales para los pobres. El hospital del Pantócrator tenía unas 50 camas, con salas separadas para distintas enfermedades y una sala para mujeres. Contaba con un equipo de médicos, enfermeros y ayudantes, que recibían un sueldo. Los médicos también enseñaban allí a estudiantes. Era uno de los hospitales más avanzados de su época."
+    },
+    "meanwhile": {
+      "en": "In 1127, the Song dynasty lost northern China and moved its capital south to Hangzhou.",
+      "es": "En 1127, la dinastía Song perdió el norte de China y trasladó su capital al sur, a Hangzhou."
+    },
+    "reflection": {
+      "en": "The hospital treated rich and poor people. Who in your community has a hard time getting medical care?",
+      "es": "El hospital atendía a ricos y pobres. ¿Quién en tu comunidad tiene dificultades para recibir atención médica?"
+    },
+    "vocab": [
+      {
+        "term": "wards",
+        "es": "salas"
+      },
+      {
+        "term": "diseases",
+        "es": "enfermedades"
+      },
+      {
+        "term": "nurses",
+        "es": "enfermeros"
+      },
+      {
+        "term": "advanced",
+        "es": "avanzados"
+      }
+    ]
+  },
+  {
+    "id": "bz-026",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which new weapon helped the Ottomans break the walls of Constantinople in 1453?",
+      "es": "¿Qué arma nueva ayudó a los otomanos a romper las murallas de Constantinopla en 1453?"
+    },
+    "options": [
+      {
+        "en": "Giant cannons",
+        "es": "Cañones gigantes"
+      },
+      {
+        "en": "Flying machines",
+        "es": "Máquinas voladoras"
+      },
+      {
+        "en": "Poison gas",
+        "es": "Gas venenoso"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mehmed II hired a Hungarian engineer named Orban to make huge bronze cannons. One of them could fire stone balls weighing hundreds of kilograms. It took a long time to load, but the walls, which had resisted for a thousand years, began to crack. After weeks of firing, the Ottomans attacked through the broken parts.",
+      "es": "Mehmed II contrató a un ingeniero húngaro llamado Orban para fabricar enormes cañones de bronce. Uno de ellos podía disparar bolas de piedra de cientos de kilos. Tardaba mucho en cargarse, pero las murallas, que habían resistido mil años, empezaron a agrietarse. Tras semanas de disparos, los otomanos atacaron por las partes rotas."
+    },
+    "meanwhile": {
+      "en": "Around 1450, in Germany, Johannes Gutenberg was developing a printing press with movable metal type.",
+      "es": "Alrededor de 1450, en Alemania, Johannes Gutenberg desarrollaba una imprenta con tipos móviles de metal."
+    },
+    "reflection": {
+      "en": "A new technology made old walls useless. What old method in your life was replaced by something new?",
+      "es": "Una nueva tecnología hizo inútiles las viejas murallas. ¿Qué método antiguo de tu vida fue reemplazado por algo nuevo?"
+    },
+    "vocab": [
+      {
+        "term": "cannons",
+        "es": "cañones"
+      },
+      {
+        "term": "engineer",
+        "es": "ingeniero"
+      },
+      {
+        "term": "load",
+        "es": "cargarse"
+      },
+      {
+        "term": "crack",
+        "es": "agrietarse"
+      }
+    ]
+  },
+  {
+    "id": "bz-027",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why is Empress Irene unusual in Byzantine history?",
+      "es": "¿Por qué es singular la emperatriz Irene en la historia bizantina?"
+    },
+    "options": [
+      {
+        "en": "She ruled the empire alone as emperor from 797 to 802",
+        "es": "Gobernó sola el imperio como emperador entre 797 y 802"
+      },
+      {
+        "en": "She led the army in the field against the Arabs",
+        "es": "Dirigió al ejército en el campo contra los árabes"
+      },
+      {
+        "en": "She invented a new alphabet for the empire",
+        "es": "Inventó un nuevo alfabeto para el imperio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Irene first ruled for her young son. In 787, she called a church council that allowed icons again. Later she took power for herself, and from 797 to 802 she ruled alone with the title of emperor, not empress. Some people in Western Europe said the throne was empty because a woman could not be emperor. She was overthrown in 802.",
+      "es": "Irene gobernó primero en nombre de su hijo pequeño. En 787 convocó un concilio de la Iglesia que permitió de nuevo los iconos. Más tarde tomó el poder para sí misma, y de 797 a 802 gobernó sola con el título de emperador, no de emperatriz. Algunos en Europa Occidental decían que el trono estaba vacío porque una mujer no podía ser emperador. Fue derrocada en 802."
+    },
+    "meanwhile": {
+      "en": "On Christmas Day in 800 CE, the Pope crowned Charlemagne as emperor in Rome.",
+      "es": "El día de Navidad del año 800 d. C., el papa coronó a Carlomagno como emperador en Roma."
+    },
+    "reflection": {
+      "en": "Some people refused to accept a woman as emperor. Which unfair ideas about leaders still exist today?",
+      "es": "Algunas personas se negaron a aceptar a una mujer como emperador. ¿Qué ideas injustas sobre los líderes siguen existiendo hoy?"
+    },
+    "vocab": [
+      {
+        "term": "council",
+        "es": "concilio"
+      },
+      {
+        "term": "icons",
+        "es": "iconos"
+      },
+      {
+        "term": "title",
+        "es": "título"
+      },
+      {
+        "term": "overthrown",
+        "es": "derrocada"
+      }
+    ]
+  },
+  {
+    "id": "bz-028",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was special about the Byzantine gold coin called the solidus?",
+      "es": "¿Qué tenía de especial la moneda de oro bizantina llamada sólido?"
+    },
+    "options": [
+      {
+        "en": "It kept the same weight and purity for 700 years",
+        "es": "Mantuvo el mismo peso y pureza durante 700 años"
+      },
+      {
+        "en": "It was the first coin ever made of paper",
+        "es": "Fue la primera moneda hecha de papel"
+      },
+      {
+        "en": "It was only used inside the imperial palace",
+        "es": "Solo se usaba dentro del palacio imperial"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Constantine introduced the solidus around 310 CE. It contained about 4.5 grams of almost pure gold. Emperors for centuries kept its quality high, so merchants trusted it from Britain to India. People called it the \"dollar of the Middle Ages\". Only in the 1000s did emperors begin to put less gold in the coin.",
+      "es": "Constantino introdujo el sólido alrededor del 310 d. C. Contenía unos 4,5 gramos de oro casi puro. Durante siglos, los emperadores mantuvieron su calidad alta, así que los comerciantes confiaban en él desde Britania hasta la India. Se lo llamaba el \"dólar de la Edad Media\". Solo en el siglo XI los emperadores empezaron a poner menos oro en la moneda."
+    },
+    "meanwhile": {
+      "en": "In the 800s, merchants in Tang China began to use \"flying money\", paper notes that could be exchanged in another city.",
+      "es": "En el siglo IX, los comerciantes de la China Tang empezaron a usar el \"dinero volador\", billetes de papel que se podían canjear en otra ciudad."
+    },
+    "reflection": {
+      "en": "People trusted the coin because its value never changed. What makes you trust a person or an institution?",
+      "es": "La gente confiaba en la moneda porque su valor nunca cambiaba. ¿Qué te hace confiar en una persona o una institución?"
+    },
+    "vocab": [
+      {
+        "term": "coin",
+        "es": "moneda"
+      },
+      {
+        "term": "gold",
+        "es": "oro"
+      },
+      {
+        "term": "merchants",
+        "es": "comerciantes"
+      },
+      {
+        "term": "trusted",
+        "es": "confiaban"
+      }
+    ]
+  },
+  {
+    "id": "bz-029",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1095, why did Emperor Alexios I ask the Pope for help?",
+      "es": "En 1095, ¿por qué pidió ayuda al papa el emperador Alexio I?"
+    },
+    "options": [
+      {
+        "en": "Turkish armies were taking Byzantine land in Asia Minor",
+        "es": "Los ejércitos turcos se estaban quedando con tierras bizantinas en Asia Menor"
+      },
+      {
+        "en": "He wanted money to rebuild the church of Hagia Sophia",
+        "es": "Quería dinero para reconstruir la iglesia de Santa Sofía"
+      },
+      {
+        "en": "He needed help against a revolt of his own sons",
+        "es": "Necesitaba ayuda contra una revuelta de sus propios hijos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After a big defeat at Manzikert in 1071, the Byzantines lost most of Asia Minor to the Seljuk Turks. Alexios I asked the Pope for a few mercenary soldiers. Pope Urban II answered in a bigger way: he called Christians to go to Jerusalem. This became the First Crusade. The Crusaders were far more numerous than Alexios had expected.",
+      "es": "Tras una gran derrota en Manzikert en 1071, los bizantinos perdieron la mayor parte de Asia Menor a manos de los turcos selyúcidas. Alexio I pidió al papa unos pocos soldados mercenarios. El papa Urbano II respondió de manera mucho mayor: llamó a los cristianos a ir a Jerusalén. Así comenzó la Primera Cruzada. Los cruzados eran mucho más numerosos de lo que Alexio esperaba."
+    },
+    "meanwhile": {
+      "en": "Around 1100 CE, in Song China, sailors were using the magnetic compass to find their way at sea.",
+      "es": "Alrededor del 1100 d. C., en la China Song, los marineros usaban la brújula magnética para orientarse en el mar."
+    },
+    "reflection": {
+      "en": "Alexios asked for a small favor and got a huge response. When did you ask for a little help and get much more than you expected?",
+      "es": "Alexio pidió un pequeño favor y recibió una respuesta enorme. ¿Cuándo pediste un poco de ayuda y recibiste mucho más de lo que esperabas?"
+    },
+    "vocab": [
+      {
+        "term": "defeat",
+        "es": "derrota"
+      },
+      {
+        "term": "mercenary",
+        "es": "mercenarios"
+      },
+      {
+        "term": "Christians",
+        "es": "cristianos"
+      },
+      {
+        "term": "expected",
+        "es": "esperaba"
+      }
+    ]
+  },
+  {
+    "id": "bz-030",
+    "category": "byzantine-empire",
+    "category_label": {
+      "en": "Byzantine Empire",
+      "es": "Imperio Bizantino"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What is Mount Athos in Greece famous for?",
+      "es": "¿Por qué es famoso el monte Athos, en Grecia?"
+    },
+    "options": [
+      {
+        "en": "Its many monasteries, home to monks for 1,000 years",
+        "es": "Sus muchos monasterios, hogar de monjes desde hace 1.000 años"
+      },
+      {
+        "en": "Its ancient Greek theaters, which are still used",
+        "es": "Sus antiguos teatros griegos, que todavía se usan"
+      },
+      {
+        "en": "Its marble mines, which gave stone to Rome",
+        "es": "Sus minas de mármol, que daban piedra a Roma"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mount Athos is a rocky peninsula in northern Greece. The first large monastery, the Great Lavra, was founded in 963 CE with the help of Emperor Nikephoros Phokas. Today about 20 monasteries still stand there. Monks live a simple life of prayer and work. Only men may enter, and visitors need a special permit.",
+      "es": "El monte Athos es una península rocosa en el norte de Grecia. El primer gran monasterio, la Gran Lavra, se fundó en el 963 d. C. con la ayuda del emperador Nicéforo Focas. Hoy todavía quedan allí unos 20 monasterios. Los monjes llevan una vida sencilla de oración y trabajo. Solo pueden entrar hombres, y los visitantes necesitan un permiso especial."
+    },
+    "meanwhile": {
+      "en": "In 960 CE, the Song dynasty began in China. It would rule for more than 300 years.",
+      "es": "En el 960 d. C., comenzó la dinastía Song en China. Gobernaría durante más de 300 años."
+    },
+    "reflection": {
+      "en": "Monks chose a quiet life far from the world. Where do you go when you need silence?",
+      "es": "Los monjes eligieron una vida tranquila lejos del mundo. ¿A dónde vas cuando necesitas silencio?"
+    },
+    "vocab": [
+      {
+        "term": "peninsula",
+        "es": "península"
+      },
+      {
+        "term": "monastery",
+        "es": "monasterio"
+      },
+      {
+        "term": "monks",
+        "es": "monjes"
+      },
+      {
+        "term": "permit",
+        "es": "permiso"
+      }
+    ]
   }
 ]

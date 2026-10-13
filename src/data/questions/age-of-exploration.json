@@ -2,271 +2,1771 @@
   {
     "id": "ex-001",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "In what year did Christopher Columbus's first voyage make landfall in the Bahamas, initiating sustained contact between Europe and the Americas?",
-      "es": "¿En qué año el primer viaje de Cristóbal Colón llegó a las Bahamas, iniciando el contacto sostenido entre Europa y las Américas?"
+      "en": "In 1492, Christopher Columbus sailed west from Spain. What was he trying to reach?",
+      "es": "En 1492, Cristóbal Colón navegó hacia el oeste desde España. ¿Qué intentaba alcanzar?"
     },
     "options": [
-      { "en": "1492", "es": "1492" },
-      { "en": "1502", "es": "1502" }
+      {
+        "en": "Asia, by a new sea route",
+        "es": "Asia, por una nueva ruta marítima"
+      },
+      {
+        "en": "Africa, to find gold",
+        "es": "África, para buscar oro"
+      },
+      {
+        "en": "Australia, a new continent",
+        "es": "Australia, un nuevo continente"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Columbus departed from Palos de la Frontera on August 3, 1492, and made landfall in the Bahamas on October 12, claiming the island for Spain. He completed four voyages to the Caribbean but never recognized that he had found an entirely new continent. His 1492 arrival initiated the permanent, transformative connection between the Old and New Worlds.",
-      "es": "Colón partió de Palos de la Frontera el 3 de agosto de 1492 y llegó a las Bahamas el 12 de octubre, reclamando la isla para España. Realizó cuatro viajes al Caribe pero nunca reconoció que había encontrado un continente completamente nuevo. Su llegada en 1492 inició la conexión permanente y transformadora entre el Viejo y el Nuevo Mundo."
+      "en": "Columbus believed that the Earth was smaller than it is and that he could reach Asia by sailing west. He left Spain in August 1492 with three small ships. On October 12, he reached an island in the Bahamas. He never knew that he had found a continent unknown to Europeans. His voyage began a permanent contact between Europe and the Americas.",
+      "es": "Colón creía que la Tierra era más pequeña de lo que es y que podía llegar a Asia navegando hacia el oeste. Salió de España en agosto de 1492 con tres pequeños barcos. El 12 de octubre llegó a una isla de las Bahamas. Nunca supo que había encontrado un continente desconocido para los europeos. Su viaje inició un contacto permanente entre Europa y América."
     },
     "meanwhile": {
-      "en": "In 1492, the Ottoman Empire under Bayezid II welcomed thousands of Sephardic Jews expelled from Spain that same year, transforming Ottoman cities into centers of medicine, finance, and scholarship.",
-      "es": "En 1492, el Imperio Otomano bajo Bayezid II acogió a miles de judíos sefardíes expulsados de España ese mismo año, convirtiendo las ciudades otomanas en centros de medicina, finanzas y conocimiento."
+      "en": "In 1492, the Ottoman sultan Bayezid II welcomed thousands of Jews who were expelled from Spain.",
+      "es": "En 1492, el sultán otomano Bayezid II recibió a miles de judíos que habían sido expulsados de España."
     },
     "reflection": {
-      "en": "Columbus's voyages launched an era of global connection but also of conquest and exploitation. At what point does 'discovery' become something more difficult to celebrate without reservation?",
-      "es": "Los viajes de Colón inauguraron una era de conexión global, pero también de conquista y explotación. ¿En qué punto el 'descubrimiento' se convierte en algo más difícil de celebrar sin reservas?"
-    }
+      "en": "Columbus changed the world by finding something he was not looking for. When did you find something unexpected that mattered?",
+      "es": "Colón cambió el mundo al encontrar algo que no buscaba. ¿Cuándo encontraste algo inesperado que importó?"
+    },
+    "vocab": [
+      {
+        "term": "sailing",
+        "es": "navegando"
+      },
+      {
+        "term": "reached",
+        "es": "llegó"
+      },
+      {
+        "term": "continent",
+        "es": "continente"
+      },
+      {
+        "term": "voyage",
+        "es": "viaje"
+      }
+    ]
   },
   {
     "id": "ex-002",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Vasco da Gama's 1497–1499 voyage was the first European expedition to reach India by sea. What was its primary commercial goal?",
-      "es": "El viaje de Vasco da Gama de 1497-1499 fue la primera expedición europea en llegar a India por mar. ¿Cuál era su principal objetivo comercial?"
+      "en": "Vasco da Gama reached India by sea in 1498. What did the Portuguese want to buy there?",
+      "es": "Vasco da Gama llegó a la India por mar en 1498. ¿Qué querían comprar los portugueses allí?"
     },
     "options": [
-      { "en": "To establish a direct maritime spice route bypassing Arab and Venetian middlemen", "es": "Establecer una ruta marítima directa de especias que evitara a los intermediarios árabes y venecianos" },
-      { "en": "To find a sea passage to China and secure access to silk and porcelain", "es": "Encontrar un paso marítimo hacia China y asegurar el acceso a seda y porcelana" }
+      {
+        "en": "Spices, such as pepper",
+        "es": "Especias, como la pimienta"
+      },
+      {
+        "en": "Horses and camels",
+        "es": "Caballos y camellos"
+      },
+      {
+        "en": "Wood and furs",
+        "es": "Madera y pieles"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Da Gama sailed around the Cape of Good Hope and arrived in Calicut, India, in May 1498, opening a direct sea route for spices, silks, and gems. The Portuguese crown financed the journey primarily to break the Arab-Venetian monopoly on the spice trade, which drove up prices enormously in Europe. His return cargo was worth roughly sixty times the cost of the entire expedition.",
-      "es": "Da Gama navegó alrededor del Cabo de Buena Esperanza y llegó a Calicut, India, en mayo de 1498, abriendo una ruta marítima directa para especias, sedas y gemas. La corona portuguesa financió el viaje principalmente para romper el monopolio árabe-veneciano sobre el comercio de especias, que encarecía enormemente los productos en Europa. Su carga de retorno valió aproximadamente sesenta veces el costo de toda la expedición."
+      "en": "Da Gama sailed around Africa, past the Cape of Good Hope, and reached Calicut in May 1498. Portugal wanted to buy spices directly from Asia, without paying the Arab and Venetian merchants in the middle. The cargo that he brought home paid for the trip many times over. But India already had a rich trade network, and Portugal used force to enter it.",
+      "es": "Da Gama navegó alrededor de África, más allá del cabo de Buena Esperanza, y llegó a Calicut en mayo de 1498. Portugal quería comprar especias directamente en Asia, sin pagar a los comerciantes árabes y venecianos intermediarios. La carga que trajo a casa pagó el viaje muchas veces. Pero la India ya tenía una rica red comercial, y Portugal usó la fuerza para entrar en ella."
     },
     "meanwhile": {
-      "en": "When da Gama arrived in Calicut, he found Arab merchants who had traded there for centuries. The Indian Ocean already had a sophisticated network of Muslim, Hindu, and Chinese traders — the Portuguese arrival was not discovery of an unknown world but the insertion of a new, often violent, competitor into an existing global system.",
-      "es": "Cuando da Gama llegó a Calicut, encontró comerciantes árabes que llevaban siglos operando allí. El Océano Índico ya tenía una sofisticada red de mercaderes musulmanes, hindúes y chinos: la llegada portuguesa no fue el descubrimiento de un mundo desconocido, sino la inserción de un nuevo competidor, a menudo violento, en un sistema global ya existente."
+      "en": "Around 1500, the Songhai Empire in West Africa became rich from trade, and Timbuktu was famous for its scholars.",
+      "es": "Alrededor de 1500, el Imperio songhai de África Occidental se hizo rico con el comercio, y Tombuctú era famosa por sus eruditos."
     },
     "reflection": {
-      "en": "Da Gama's route ended the dominance of Venetian and Arab spice traders who had built their livelihoods over generations. Is it possible to benefit from a trade breakthrough without causing harm to those whose advantage you displace?",
-      "es": "La ruta de da Gama terminó con el dominio de los comerciantes de especias venecianos y árabes, que habían construido sus medios de vida durante generaciones. ¿Es posible beneficiarse de un avance comercial sin causar daño a quienes desplazas?"
-    }
+      "en": "Da Gama’s route made some people rich and others poor. Can a new opportunity hurt people who had a good business before?",
+      "es": "La ruta de Da Gama enriqueció a unos y empobreció a otros. ¿Puede una nueva oportunidad perjudicar a quienes tenían un buen negocio antes?"
+    },
+    "vocab": [
+      {
+        "term": "spices",
+        "es": "especias"
+      },
+      {
+        "term": "cargo",
+        "es": "carga"
+      },
+      {
+        "term": "merchants",
+        "es": "comerciantes"
+      },
+      {
+        "term": "network",
+        "es": "red"
+      }
+    ]
   },
   {
     "id": "ex-003",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Magellan-Elcano expedition (1519–1522) completed the first circumnavigation of the globe. Who commanded the fleet for its return to Spain after Magellan was killed in the Philippines?",
-      "es": "La expedición Magallanes-Elcano (1519-1522) completó la primera circunnavegación del globo. ¿Quién comandó la flota en su regreso a España tras la muerte de Magallanes en Filipinas?"
+      "en": "Who took command of Magellan’s expedition after he died, and brought the last ship home?",
+      "es": "¿Quién tomó el mando de la expedición de Magallanes tras su muerte y trajo el último barco a casa?"
     },
     "options": [
-      { "en": "Juan Sebastián Elcano", "es": "Juan Sebastián Elcano" },
-      { "en": "Gonzalo Gómez de Espinosa", "es": "Gonzalo Gómez de Espinosa" }
+      {
+        "en": "Juan Sebastián Elcano",
+        "es": "Juan Sebastián Elcano"
+      },
+      {
+        "en": "Vasco Núñez de Balboa",
+        "es": "Vasco Núñez de Balboa"
+      },
+      {
+        "en": "Hernán Cortés",
+        "es": "Hernán Cortés"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Ferdinand Magellan died in battle in Cebu, Philippines, in April 1521. Juan Sebastián Elcano, a Basque navigator, assumed command and brought the Victoria — the only surviving ship of the original five — back to Sanlúcar de Barrameda in September 1522 with just 18 of the original 270 men. The voyage proved Earth was spherical and established the first documented circumnavigation.",
-      "es": "Fernando de Magallanes murió en combate en Cebú, Filipinas, en abril de 1521. Juan Sebastián Elcano, un navegante vasco, asumió el mando y trajo la Victoria —el único barco sobreviviente de los cinco originales— de regreso a Sanlúcar de Barrameda en septiembre de 1522, con solo 18 de los 270 hombres originales. El viaje demostró que la Tierra era esférica y estableció la primera circunnavegación documentada."
+      "en": "Ferdinand Magellan left Spain in 1519 with five ships and about 270 men. He died in a fight in the Philippines in April 1521. Elcano, a Basque sailor, took command. In September 1522, the ship Victoria returned to Spain with only 18 men, after sailing around the world for the first time. It proved that the Earth is round and much larger than people thought.",
+      "es": "Fernando de Magallanes salió de España en 1519 con cinco barcos y unos 270 hombres. Murió en una pelea en Filipinas en abril de 1521. Elcano, un marinero vasco, tomó el mando. En septiembre de 1522, el barco Victoria regresó a España con solo 18 hombres, tras dar por primera vez la vuelta al mundo. Demostró que la Tierra es redonda y mucho más grande de lo que se pensaba."
     },
     "meanwhile": {
-      "en": "When Magellan's fleet departed in 1519, the Aztec Empire was at the height of its power. By the time Elcano returned in 1522, Hernán Cortés had already conquered Tenochtitlan, permanently transforming the political landscape of the Americas.",
-      "es": "Cuando la flota de Magallanes partió en 1519, el Imperio Azteca estaba en la cima de su poder. Para cuando Elcano regresó en 1522, Hernán Cortés ya había conquistado Tenochtitlán, transformando permanentemente el paisaje político de las Américas."
+      "en": "By 1522, Cortés had conquered the Aztec capital. The Americas were changing quickly while Elcano sailed home.",
+      "es": "Para 1522, Cortés había conquistado la capital azteca. América cambiaba rápido mientras Elcano navegaba de regreso."
     },
     "reflection": {
-      "en": "Elcano is far less famous than Magellan despite completing the historic voyage and bringing the crew home. Does the person who starts a monumental journey deserve more recognition than the one who finishes it?",
-      "es": "Elcano es mucho menos famoso que Magallanes a pesar de completar el histórico viaje y traer a la tripulación a casa. ¿Merece más reconocimiento quien inicia un viaje monumental que quien lo termina?"
-    }
+      "en": "Magellan is famous, but Elcano finished the journey. Do we remember the people who start things more than those who finish them?",
+      "es": "Magallanes es famoso, pero Elcano terminó el viaje. ¿Recordamos más a quienes empiezan las cosas que a quienes las terminan?"
+    },
+    "vocab": [
+      {
+        "term": "command",
+        "es": "mando"
+      },
+      {
+        "term": "sailor",
+        "es": "marinero"
+      },
+      {
+        "term": "returned",
+        "es": "regresó"
+      },
+      {
+        "term": "round",
+        "es": "redonda"
+      }
+    ]
   },
   {
     "id": "ex-004",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Hernán Cortés achieved the conquest of the Aztec Empire (1519–1521) with a relatively small Spanish force. What was his most decisive political strategy?",
-      "es": "Hernán Cortés logró la conquista del Imperio Azteca (1519-1521) con una fuerza española relativamente pequeña. ¿Cuál fue su estrategia política más decisiva?"
+      "en": "Hernán Cortés conquered the Aztec Empire with a few hundred Spaniards. What helped him most?",
+      "es": "Hernán Cortés conquistó el Imperio azteca con unos cientos de españoles. ¿Qué lo ayudó más?"
     },
     "options": [
-      { "en": "Forging military alliances with indigenous peoples who resented Aztec rule, such as the Tlaxcalans", "es": "Formar alianzas militares con pueblos indígenas que resistían el dominio azteca, como los tlaxcaltecas" },
-      { "en": "Obtaining Portuguese naval support and weapons technology superior to anything in Mesoamerica", "es": "Obtener apoyo naval portugués y tecnología armamentística superior a cualquier cosa en Mesoamérica" }
+      {
+        "en": "Thousands of local allies who opposed the Aztecs",
+        "es": "Miles de aliados locales que se oponían a los aztecas"
+      },
+      {
+        "en": "A big fleet of Portuguese warships and cannons",
+        "es": "Una gran flota de buques de guerra y cañones portugueses"
+      },
+      {
+        "en": "A secret treaty with the Inca emperor",
+        "es": "Un tratado secreto con el emperador inca"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Cortés recognized that the Aztec Empire was held together by tribute and fear, creating many enemies among subject peoples. His alliance with the Tlaxcalans and other groups produced indigenous armies numbering in the tens of thousands — without them, a force of a few hundred Spaniards could not have defeated an empire of millions. Disease, political manipulation, and strategic brilliance all played roles, but indigenous alliances were indispensable.",
-      "es": "Cortés reconoció que el Imperio Azteca se mantenía unido mediante tributos y miedo, lo que generaba muchos enemigos entre los pueblos sometidos. Su alianza con los tlaxcaltecas y otros grupos produjo ejércitos indígenas que sumaban decenas de miles de guerreros: sin ellos, una fuerza de pocos cientos de españoles no habría podido derrotar a un imperio de millones. Las enfermedades, la manipulación política y la brillantez estratégica jugaron papeles importantes, pero las alianzas indígenas fueron indispensables."
+      "en": "The Aztec Empire demanded heavy tribute from the peoples it ruled, so many of them hated it. The Tlaxcalans and other groups joined Cortés and provided tens of thousands of warriors. Smallpox, which the Spaniards brought, also killed many Aztecs in 1520. In August 1521, after a long siege, the Aztec capital Tenochtitlan fell.",
+      "es": "El Imperio azteca exigía fuertes tributos a los pueblos que gobernaba, así que muchos de ellos lo odiaban. Los tlaxcaltecas y otros grupos se unieron a Cortés y aportaron decenas de miles de guerreros. La viruela, que traían los españoles, también mató a muchos aztecas en 1520. En agosto de 1521, tras un largo asedio, cayó la capital azteca, Tenochtitlan."
     },
     "meanwhile": {
-      "en": "While Cortés was conquering Mexico, the Ottoman Sultan Suleiman the Magnificent came to power in 1520 and launched his own expansion, besieging Belgrade and Rhodes — another empire simultaneously reshaping the world in a very different part of it.",
-      "es": "Mientras Cortés conquistaba México, el sultán otomano Solimán el Magnífico llegó al poder en 1520 y lanzó su propia expansión, sitiando Belgrado y Rodas: otro imperio que remodelaba el mundo simultáneamente en una parte muy diferente de él."
+      "en": "In 1520, Suleiman the Magnificent became the sultan of the Ottoman Empire, which grew very powerful under him.",
+      "es": "En 1520, Solimán el Magnífico se convirtió en sultán del Imperio otomano, que creció mucho bajo su mando."
     },
     "reflection": {
-      "en": "Without the Tlaxcalans and other indigenous allies, the Spanish conquest of the Aztec Empire might have been impossible. How does this complicate the common narrative of 'European conquest' of the Americas?",
-      "es": "Sin los tlaxcaltecas y otros aliados indígenas, la conquista española del Imperio Azteca podría haber sido imposible. ¿Cómo complica esto el relato habitual de la 'conquista europea' de las Américas?"
-    }
+      "en": "The story is often told as \"a few Spaniards against an empire\". Why is it important to know the whole story?",
+      "es": "La historia suele contarse como \"unos pocos españoles contra un imperio\". ¿Por qué es importante conocer la historia completa?"
+    },
+    "vocab": [
+      {
+        "term": "tribute",
+        "es": "tributos"
+      },
+      {
+        "term": "warriors",
+        "es": "guerreros"
+      },
+      {
+        "term": "smallpox",
+        "es": "viruela"
+      },
+      {
+        "term": "siege",
+        "es": "asedio"
+      }
+    ]
   },
   {
     "id": "ex-005",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
-    "difficulty": "medium",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Francisco Pizarro's conquest of the Inca Empire (1532) was dramatically accelerated by a combination of two factors he found upon arrival. Which pair is most historically accurate?",
-      "es": "La conquista del Imperio Inca por Francisco Pizarro (1532) se vio drásticamente acelerada por una combinación de dos factores que encontró a su llegada. ¿Qué par es más históricamente preciso?"
+      "en": "When Pizarro arrived in the Inca Empire in 1532, which two problems had already weakened it?",
+      "es": "Cuando Pizarro llegó al Imperio inca en 1532, ¿qué dos problemas ya lo habían debilitado?"
     },
     "options": [
-      { "en": "A devastating smallpox epidemic and an ongoing civil war between rival claimants to the throne", "es": "Una devastadora epidemia de viruela y una guerra civil en curso entre rivales al trono" },
-      { "en": "An earthquake that destroyed Inca fortifications and a drought that had depleted their food reserves", "es": "Un terremoto que destruyó las fortificaciones incas y una sequía que había agotado sus reservas de alimentos" }
+      {
+        "en": "A deadly disease and a civil war",
+        "es": "Una enfermedad mortal y una guerra civil"
+      },
+      {
+        "en": "A famine and a volcano",
+        "es": "Una hambruna y un volcán"
+      },
+      {
+        "en": "A flood and a revolt of slaves",
+        "es": "Una inundación y una revuelta de esclavos"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Smallpox, introduced through earlier contacts, had killed the Inca Emperor Huayna Capac around 1527, triggering a civil war between his sons Atahualpa and Huáscar. When Pizarro arrived, he exploited this instability — capturing Atahualpa at Cajamarca in 1532 and executing him even after receiving a room-sized ransom in gold. The epidemic and civil war had left the empire's political structure in disarray precisely when the Spanish arrived.",
-      "es": "La viruela, introducida a través de contactos anteriores, había matado al emperador inca Huayna Capac alrededor de 1527, desencadenando una guerra civil entre sus hijos Atahualpa y Huáscar. Cuando Pizarro llegó, aprovechó esta inestabilidad: capturó a Atahualpa en Cajamarca en 1532 y lo ejecutó incluso después de recibir un enorme rescate en oro. La epidemia y la guerra civil habían dejado la estructura política del imperio en completo desorden justo cuando llegaron los españoles."
+      "en": "Smallpox probably reached the Andes before the Spaniards did. It killed the Inca emperor Huayna Capac, and his sons Atahualpa and Huáscar fought a civil war for the throne. When Pizarro arrived with fewer than 200 men, Atahualpa had just won. At Cajamarca, the Spaniards captured him by surprise. He paid a huge ransom of gold and silver, but they killed him in 1533.",
+      "es": "La viruela probablemente llegó a los Andes antes que los españoles. Mató al emperador inca Huayna Cápac, y sus hijos Atahualpa y Huáscar libraron una guerra civil por el trono. Cuando Pizarro llegó con menos de 200 hombres, Atahualpa acababa de ganar. En Cajamarca, los españoles lo capturaron por sorpresa. Pagó un enorme rescate de oro y plata, pero lo mataron en 1533."
     },
     "meanwhile": {
-      "en": "At the same time, the Mughal Emperor Babur was completing his conquest of northern India (1526–1530), establishing the Mughal Dynasty — another instance of a mobile, tactically agile force defeating a larger, established empire through political exploitation of existing divisions.",
-      "es": "Al mismo tiempo, el emperador mogol Babur completaba su conquista del norte de India (1526-1530), estableciendo la dinastía mogol: otro ejemplo de una fuerza móvil y tácticamente ágil que derrotó a un imperio más grande aprovechando las divisiones políticas existentes."
+      "en": "In 1526, Babur defeated the sultan of Delhi at the Battle of Panipat and started the Mughal Empire in India.",
+      "es": "En 1526, Babur derrotó al sultán de Delhi en la batalla de Panipat y fundó el Imperio mogol en la India."
     },
     "reflection": {
-      "en": "The Inca Empire fell partly because a European-introduced disease caused a succession crisis before Pizarro even arrived. What does this suggest about the role of unintended consequences in shaping historical outcomes?",
-      "es": "El Imperio Inca cayó en parte porque una enfermedad introducida por europeos causó una crisis de sucesión antes de que Pizarro siquiera llegara. ¿Qué sugiere esto sobre el papel de las consecuencias no deseadas en la configuración de los resultados históricos?"
-    }
+      "en": "A disease changed the history of an empire before a battle began. What small event in your life had big consequences?",
+      "es": "Una enfermedad cambió la historia de un imperio antes de que empezara una batalla. ¿Qué pequeño suceso de tu vida tuvo grandes consecuencias?"
+    },
+    "vocab": [
+      {
+        "term": "throne",
+        "es": "trono"
+      },
+      {
+        "term": "captured",
+        "es": "capturaron"
+      },
+      {
+        "term": "ransom",
+        "es": "rescate"
+      },
+      {
+        "term": "civil war",
+        "es": "guerra civil"
+      }
+    ]
   },
   {
     "id": "ex-006",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The 1494 Treaty of Tordesillas divided the non-European world between Spain and Portugal. What was most remarkable about this agreement from a global perspective?",
-      "es": "El Tratado de Tordesillas de 1494 dividió el mundo no europeo entre España y Portugal. ¿Qué resultó más notable de este acuerdo desde una perspectiva global?"
+      "en": "What did the Treaty of Tordesillas of 1494 do?",
+      "es": "¿Qué hizo el Tratado de Tordesillas de 1494?"
     },
     "options": [
-      { "en": "It assigned sovereignty over lands and peoples whose full existence was unknown at the time of signing", "es": "Asignó soberanía sobre tierras y pueblos cuya existencia completa era desconocida en el momento de la firma" },
-      { "en": "It was the first international treaty brokered by a religious authority rather than two secular rulers", "es": "Fue el primer tratado internacional mediado por una autoridad religiosa en lugar de dos gobernantes seculares" }
+      {
+        "en": "It divided new lands between Spain and Portugal",
+        "es": "Dividió las nuevas tierras entre España y Portugal"
+      },
+      {
+        "en": "It ended a war between France and Spain",
+        "es": "Puso fin a una guerra entre Francia y España"
+      },
+      {
+        "en": "It gave America to the Pope",
+        "es": "Entregó América al papa"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Brokered by Pope Alexander VI, the Treaty drew a line 370 leagues west of the Cape Verde Islands, giving Spain rights to everything to the west and Portugal to the east. When Brazil was reached in 1500, it fell east of the line, determining Portuguese colonization. The Americas were still largely unknown in 1494 — the agreement divided a world that Europeans had not yet seen, without the knowledge or consent of any of its inhabitants.",
-      "es": "Mediado por el papa Alejandro VI, el Tratado trazó una línea 370 leguas al oeste de las islas de Cabo Verde, otorgando a España los derechos sobre todo lo occidental y a Portugal sobre lo oriental. Cuando Brasil fue alcanzado en 1500, quedó al este de la línea, determinando su colonización portuguesa. Las Américas eran aún en gran parte desconocidas en 1494: el acuerdo dividió un mundo que los europeos todavía no habían visto, sin el conocimiento ni el consentimiento de ninguno de sus habitantes."
+      "en": "After Columbus’s voyage, Spain and Portugal argued about who owned the new lands. With the Pope’s help, they drew a line on the map west of the Cape Verde Islands. Spain could take lands to the west of the line, and Portugal could take lands to the east. When Portuguese sailors reached Brazil in 1500, it was on their side. This is why Brazil speaks Portuguese.",
+      "es": "Después del viaje de Colón, España y Portugal discutieron sobre quién era dueño de las nuevas tierras. Con ayuda del papa, trazaron una línea en el mapa al oeste de las islas de Cabo Verde. España podía tomar las tierras al oeste de la línea y Portugal las del este. Cuando los marineros portugueses llegaron a Brasil en 1500, quedó de su lado. Por eso en Brasil se habla portugués."
     },
     "meanwhile": {
-      "en": "While Spain and Portugal were dividing the world, the Ottoman Empire under Bayezid II had just welcomed over 100,000 Sephardic Jews expelled from Spain in 1492 — a starkly different policy toward outsiders happening simultaneously on the other side of the Mediterranean.",
-      "es": "Mientras España y Portugal dividían el mundo, el Imperio Otomano bajo Bayezid II acababa de acoger a más de 100.000 judíos sefardíes expulsados de España en 1492: una política radicalmente diferente hacia los foráneos que ocurría simultáneamente al otro lado del Mediterráneo."
+      "en": "In 1494, in Italy, Luca Pacioli published a math book that explained double-entry bookkeeping, still used in business today.",
+      "es": "En 1494, en Italia, Luca Pacioli publicó un libro de matemáticas que explicaba la contabilidad por partida doble, que todavía se usa en los negocios."
     },
     "reflection": {
-      "en": "Two kingdoms divided the entire non-European world between themselves without consulting a single one of its inhabitants. What assumptions about power and humanity does this act reflect, and do any of those assumptions persist in international law today?",
-      "es": "Dos reinos dividieron todo el mundo no europeo entre ellos sin consultar a ninguno de sus habitantes. ¿Qué suposiciones sobre el poder y la humanidad refleja este acto, y perviven algunas de esas suposiciones en el derecho internacional actual?"
-    }
+      "en": "Two kingdoms divided lands without asking the people who lived there. Why is it important to ask people about decisions that affect them?",
+      "es": "Dos reinos dividieron tierras sin preguntar a la gente que vivía allí. ¿Por qué es importante preguntar a las personas sobre las decisiones que las afectan?"
+    },
+    "vocab": [
+      {
+        "term": "argued",
+        "es": "discutieron"
+      },
+      {
+        "term": "line",
+        "es": "línea"
+      },
+      {
+        "term": "lands",
+        "es": "tierras"
+      },
+      {
+        "term": "Portuguese",
+        "es": "portugués"
+      }
+    ]
   },
   {
     "id": "ex-007",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was the primary commercial motivation for European powers to seek maritime routes to Asia rather than using the established overland Silk Road in the late 15th century?",
-      "es": "¿Cuál fue la principal motivación comercial para que las potencias europeas buscaran rutas marítimas hacia Asia en lugar de usar la establecida Ruta de la Seda terrestre a finales del siglo XV?"
+      "en": "Why did Portugal and Spain look for sea routes to Asia?",
+      "es": "¿Por qué Portugal y España buscaban rutas marítimas a Asia?"
     },
     "options": [
-      { "en": "The Ottoman Empire controlled key Silk Road chokepoints, making overland trade expensive and politically dependent", "es": "El Imperio Otomano controlaba puntos clave de la Ruta de la Seda, haciendo el comercio terrestre caro y políticamente dependiente" },
-      { "en": "The Silk Road had been completely destroyed by Mongol invasions, making the overland route physically impassable", "es": "La Ruta de la Seda había sido completamente destruida por las invasiones mongolas, haciendo la ruta terrestre físicamente intransitable" }
+      {
+        "en": "To trade directly and avoid costly middlemen",
+        "es": "Para comerciar directamente y evitar intermediarios caros"
+      },
+      {
+        "en": "To escape a long war between kingdoms",
+        "es": "Para escapar de una larga guerra entre reinos"
+      },
+      {
+        "en": "To find new farmland for poor farmers",
+        "es": "Para encontrar tierras nuevas para campesinos pobres"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "After the Ottoman conquest of Constantinople in 1453, the Ottomans controlled much of the overland trade route linking Europe to Asia. While they did not ban European trade outright, they taxed it heavily and controlled access, driving up the cost of spices, silks, and other goods significantly. This economic pressure — rather than a destroyed road — motivated Portugal and Spain to fund expeditions seeking sea routes that would bypass Ottoman-controlled territory entirely.",
-      "es": "Tras la conquista otomana de Constantinopla en 1453, los otomanos controlaban gran parte de la ruta comercial terrestre que unía Europa con Asia. Aunque no prohibieron directamente el comercio europeo, lo gravaban fuertemente y controlaban el acceso, encareciendo significativamente las especias, sedas y otros bienes. Esta presión económica —más que una ruta destruida— motivó a Portugal y España a financiar expediciones que buscaran rutas marítimas para evitar por completo el territorio bajo control otomano."
+      "en": "Spices, silk and other goods from Asia reached Europe by long routes. On the way, many middlemen, such as Arab and Venetian merchants, added their own profit. By the time the goods arrived, prices were very high. Portugal and Spain wanted direct access. Better ships, maps and instruments, such as the compass and the astrolabe, made long ocean trips possible.",
+      "es": "Las especias, la seda y otros productos de Asia llegaban a Europa por rutas largas. En el camino, muchos intermediarios, como los comerciantes árabes y venecianos, sumaban su propia ganancia. Cuando los productos llegaban, los precios eran muy altos. Portugal y España querían acceso directo. Mejores barcos, mapas e instrumentos, como la brújula y el astrolabio, hicieron posibles los largos viajes oceánicos."
     },
     "meanwhile": {
-      "en": "Ironically, as Europeans sought to bypass Ottoman trade routes, Ottoman merchants were thriving. Cities like Istanbul, Cairo, and Aleppo were booming commercial centers, and Ottoman traders were active participants in the very global commerce Europeans sought to redirect around them.",
-      "es": "Irónicamente, mientras los europeos buscaban evitar las rutas comerciales otomanas, los mercaderes otomanos prosperaban. Ciudades como Estambul, El Cairo y Alepo eran centros comerciales en auge, y los comerciantes otomanos participaban activamente en el mismo comercio global que los europeos buscaban redirigir a su alrededor."
+      "en": "Around 1500, the Ottoman Empire was one of the largest powers in the world, and Istanbul was a rich center of trade.",
+      "es": "Alrededor de 1500, el Imperio otomano era una de las mayores potencias del mundo, y Estambul era un rico centro de comercio."
     },
     "reflection": {
-      "en": "Much of the Age of Exploration was driven by the desire to reduce commercial dependence on others rather than by genuine curiosity. How much of modern globalization is similarly motivated by control over supply chains rather than by cooperation?",
-      "es": "Gran parte de la Era de las Exploraciones fue impulsada por el deseo de reducir la dependencia comercial de otros, más que por genuina curiosidad. ¿Cuánto de la globalización moderna está motivada de manera similar por el control de las cadenas de suministro más que por la cooperación?"
-    }
+      "en": "Many big changes in history began with a wish to save money. What decision in your life started with a practical reason?",
+      "es": "Muchos grandes cambios de la historia comenzaron con el deseo de ahorrar dinero. ¿Qué decisión de tu vida comenzó con una razón práctica?"
+    },
+    "vocab": [
+      {
+        "term": "silk",
+        "es": "seda"
+      },
+      {
+        "term": "middlemen",
+        "es": "intermediarios"
+      },
+      {
+        "term": "profit",
+        "es": "ganancia"
+      },
+      {
+        "term": "instruments",
+        "es": "instrumentos"
+      }
+    ]
   },
   {
     "id": "ex-008",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
-    "difficulty": "medium",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Historians estimate that up to 90% of the indigenous population of the Americas died within a century of sustained European contact. What was the primary cause?",
-      "es": "Los historiadores estiman que hasta el 90% de la población indígena de las Américas murió en el plazo de un siglo tras el contacto sostenido con los europeos. ¿Cuál fue la causa principal?"
+      "en": "Why did the population of the Americas fall so sharply after 1492?",
+      "es": "¿Por qué la población de América cayó tan bruscamente después de 1492?"
     },
     "options": [
-      { "en": "Epidemic diseases such as smallpox, against which indigenous populations had no prior immunity", "es": "Enfermedades epidémicas como la viruela, contra las cuales las poblaciones indígenas no tenían inmunidad previa" },
-      { "en": "Forced labor in silver mines and plantations, which caused the majority of deaths directly", "es": "El trabajo forzado en minas de plata y plantaciones, que causó directamente la mayoría de las muertes" }
+      {
+        "en": "Diseases from Europe killed millions of people",
+        "es": "Las enfermedades de Europa mataron a millones de personas"
+      },
+      {
+        "en": "A long drought dried up the rivers",
+        "es": "Una larga sequía secó los ríos"
+      },
+      {
+        "en": "People moved to Europe in large numbers",
+        "es": "La gente se mudó en gran número a Europa"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Diseases such as smallpox, measles, and influenza spread through the Americas with devastating speed, often reaching populations before European explorers themselves did. Indigenous peoples had lived in geographic isolation from Eurasian disease pools and had developed no immunity. Forced labor, warfare, and displacement also caused enormous suffering — but epidemic disease was responsible for the majority of deaths in what historians call the 'Great Dying,' one of the largest demographic catastrophes in human history.",
-      "es": "Enfermedades como la viruela, el sarampión y la gripe se propagaron por las Américas con velocidad devastadora, a menudo alcanzando a las poblaciones antes de que llegaran los propios exploradores europeos. Los pueblos indígenas habían vivido en aislamiento geográfico respecto de los depósitos de enfermedades euroasiáticas y no habían desarrollado inmunidad. El trabajo forzado, la guerra y el desplazamiento también causaron enormes sufrimientos, pero las enfermedades epidémicas fueron responsables de la mayoría de las muertes en lo que los historiadores llaman el 'Gran Morir', una de las mayores catástrofes demográficas de la historia humana."
+      "en": "Native peoples in the Americas had never been exposed to diseases such as smallpox, measles and flu, so they had no immunity. These diseases spread faster than the Europeans themselves, sometimes before they even arrived. War, forced labor and hunger made things worse. Historians say that a very large part of the population died within a century, maybe up to nine in ten people in some regions.",
+      "es": "Los pueblos nativos de América nunca habían estado expuestos a enfermedades como la viruela, el sarampión y la gripe, por lo que no tenían inmunidad. Estas enfermedades se propagaron más rápido que los propios europeos, a veces antes de que llegaran. La guerra, el trabajo forzado y el hambre empeoraron las cosas. Los historiadores dicen que una parte muy grande de la población murió en un siglo, quizás hasta nueve de cada diez personas en algunas regiones."
     },
     "meanwhile": {
-      "en": "During the same period, the Songhai Empire in West Africa — one of the largest states in the world — was at its cultural height under Askia the Great, while the transatlantic slave trade was beginning to draw millions of Africans into the same expanding Atlantic system that was devastating the Americas.",
-      "es": "Durante el mismo período, el Imperio Songai en África Occidental —uno de los estados más grandes del mundo— estaba en su apogeo cultural bajo Askia el Grande, mientras que la trata transatlántica de esclavos comenzaba a arrastrar a millones de africanos hacia el mismo sistema atlántico en expansión que estaba devastando las Américas."
+      "en": "At the same time, the Atlantic slave trade began to grow, as European ships carried enslaved Africans to work in the Americas.",
+      "es": "Al mismo tiempo, el comercio de esclavos del Atlántico empezó a crecer, ya que los barcos europeos llevaban africanos esclavizados a trabajar en América."
     },
     "reflection": {
-      "en": "The 'Great Dying' reduced the indigenous population of the Americas by tens of millions in a few generations. How should modern societies — many built on lands emptied by this catastrophe — acknowledge and respond to this history?",
-      "es": "El 'Gran Morir' redujo la población indígena de las Américas en decenas de millones en pocas generaciones. ¿Cómo deberían las sociedades modernas —muchas construidas sobre tierras vaciadas por esta catástrofe— reconocer y responder a esta historia?"
-    }
+      "en": "A disease changed the history of a whole continent. How can a small thing, like a germ, change society?",
+      "es": "Una enfermedad cambió la historia de todo un continente. ¿Cómo puede algo pequeño, como un germen, cambiar a la sociedad?"
+    },
+    "vocab": [
+      {
+        "term": "immunity",
+        "es": "inmunidad"
+      },
+      {
+        "term": "smallpox",
+        "es": "viruela"
+      },
+      {
+        "term": "forced labor",
+        "es": "trabajo forzado"
+      },
+      {
+        "term": "century",
+        "es": "siglo"
+      }
+    ]
   },
   {
     "id": "ex-009",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
-    "difficulty": "hard",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Columbian Exchange introduced American crops to Europe. Which crop had the most transformative long-term impact on European population growth and food security by the 18th century?",
-      "es": "El Intercambio Colombino introdujo cultivos americanos en Europa. ¿Qué cultivo tuvo el impacto más transformador a largo plazo sobre el crecimiento demográfico y la seguridad alimentaria europea en el siglo XVIII?"
+      "en": "Which American food helped to feed growing populations in northern Europe in the 1700s?",
+      "es": "¿Qué alimento americano ayudó a alimentar a las poblaciones crecientes del norte de Europa en el siglo XVIII?"
     },
     "options": [
-      { "en": "The potato, which provided very high caloric yield from small plots and sustained populations through grain shortages", "es": "La papa, que proporcionaba un altísimo rendimiento calórico en parcelas pequeñas y sostuvo a las poblaciones durante las escaseces de cereales" },
-      { "en": "Maize (corn), which became the primary staple grain replacing wheat across most of northern Europe", "es": "El maíz, que se convirtió en el cereal básico principal reemplazando al trigo en la mayor parte del norte de Europa" }
+      {
+        "en": "The potato",
+        "es": "La papa"
+      },
+      {
+        "en": "The pineapple",
+        "es": "La piña"
+      },
+      {
+        "en": "The peanut",
+        "es": "El maní"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The potato, native to the Andes, was adopted slowly in Europe but by the 18th century had become essential in Ireland, Germany, Poland, and Russia. Its extraordinary caloric yield per acre and adaptability to poor soils made it a critical buffer against the famines that had previously killed millions. Maize was also important and transformed African and southern European diets, but the potato's demographic impact in northern Europe was unmatched. The Irish Potato Famine of the 1840s later illustrated the catastrophic risk of agricultural monoculture.",
-      "es": "La papa, originaria de los Andes, fue adoptada lentamente en Europa, pero para el siglo XVIII se había vuelto esencial en Irlanda, Alemania, Polonia y Rusia. Su extraordinario rendimiento calórico por hectárea y su adaptabilidad a suelos pobres la convirtieron en un amortiguador crucial contra las hambrunas que antes mataban a millones. El maíz también fue importante y transformó las dietas africanas y del sur de Europa, pero el impacto demográfico de la papa en el norte de Europa no tuvo parangón. La Gran Hambruna irlandesa de la década de 1840 ilustró posteriormente el riesgo catastrófico del monocultivo agrícola."
+      "en": "The potato comes from the Andes. Europeans were suspicious of it at first, but it grew well in poor soil and gave a lot of food from a small field. By the 1700s, it was a basic food in Ireland, Germany and Russia. But there was a danger: when a disease killed the potato crop in Ireland in the 1840s, about a million people died of hunger.",
+      "es": "La papa viene de los Andes. Al principio los europeos desconfiaban de ella, pero crecía bien en suelos pobres y daba mucha comida en un campo pequeño. En el siglo XVIII era un alimento básico en Irlanda, Alemania y Rusia. Pero había un peligro: cuando una enfermedad arruinó el cultivo de papa en Irlanda en la década de 1840, alrededor de un millón de personas murieron de hambre."
     },
     "meanwhile": {
-      "en": "American silver from Potosí was flowing in vast quantities to Ming China in exchange for silk and porcelain, simultaneously funding the Ming economy and destabilizing it with inflation — the Columbian Exchange reshaped global financial systems as profoundly as it transformed agriculture.",
-      "es": "La plata americana de Potosí fluía en grandes cantidades hacia la China Ming a cambio de seda y porcelana, financiando simultáneamente la economía Ming y desestabilizándola con inflación: el Intercambio Colombino reconfiguró los sistemas financieros globales tan profundamente como transformó la agricultura."
+      "en": "In the 1500s, American crops such as maize and sweet potatoes also began to arrive in China and helped to feed more people.",
+      "es": "En el siglo XVI, cultivos americanos como el maíz y la batata también comenzaron a llegar a China y ayudaron a alimentar a más gente."
     },
     "reflection": {
-      "en": "The Columbian Exchange distributed crops globally, improving nutrition for many populations, but Ireland's devastating famine showed how dependence on a single crop creates catastrophic vulnerability. When does the global adoption of a practice create risks that outweigh its benefits?",
-      "es": "El Intercambio Colombino distribuyó cultivos globalmente, mejorando la nutrición de muchas poblaciones, pero la devastadora hambruna irlandesa mostró cómo la dependencia de un solo cultivo crea una vulnerabilidad catastrófica. ¿Cuándo la adopción global de una práctica crea riesgos que superan sus beneficios?"
-    }
+      "en": "Depending on only one food can be risky. In what areas of life do you depend on only one thing?",
+      "es": "Depender de un solo alimento puede ser arriesgado. ¿En qué áreas de tu vida dependes de una sola cosa?"
+    },
+    "vocab": [
+      {
+        "term": "soil",
+        "es": "suelo"
+      },
+      {
+        "term": "crop",
+        "es": "cultivo"
+      },
+      {
+        "term": "hunger",
+        "es": "hambre"
+      },
+      {
+        "term": "basic",
+        "es": "básico"
+      }
+    ]
   },
   {
     "id": "ex-010",
     "category": "age-of-exploration",
-    "category_label": { "en": "Age of Exploration", "es": "Era de las Exploraciones" },
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "The Mercator projection (1569) became the standard for European navigation. What mathematical property made it indispensable for sailors, despite its significant distortions?",
-      "es": "La proyección de Mercator (1569) se convirtió en el estándar para la navegación europea. ¿Qué propiedad matemática la hizo indispensable para los marineros, a pesar de sus significativas distorsiones?"
+      "en": "The Mercator map of 1569 was very useful for sailors. Why?",
+      "es": "El mapa de Mercator de 1569 era muy útil para los marineros. ¿Por qué?"
     },
     "options": [
-      { "en": "Lines of constant compass bearing (rhumb lines) appear as straight lines, simplifying navigation calculations", "es": "Las líneas de rumbo constante (loxodrómicas) aparecen como líneas rectas, simplificando los cálculos de navegación" },
-      { "en": "It preserves the correct relative size of all land masses, allowing accurate distance estimation between ports", "es": "Preserva el tamaño relativo correcto de todas las masas terrestres, permitiendo estimar con precisión las distancias entre puertos" }
+      {
+        "en": "Straight lines showed a steady compass course",
+        "es": "Las líneas rectas mostraban un rumbo constante de brújula"
+      },
+      {
+        "en": "It showed the true size of every country",
+        "es": "Mostraba el tamaño real de todos los países"
+      },
+      {
+        "en": "It showed how deep the sea was near ports",
+        "es": "Mostraba qué tan profundo era el mar cerca de los puertos"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Mercator projection represents Earth's curved surface on a flat map in a way that preserves angles and compass bearings — a sailor could draw a straight line between two points, read the compass bearing, and sail that course without constant recalculation. The critical tradeoff is severe area distortion: landmasses near the poles appear much larger than they are. Greenland appears as large as Africa on a Mercator map, though Africa is actually fourteen times larger.",
-      "es": "La proyección de Mercator representa la superficie curva de la Tierra en un mapa plano de forma que preserva los ángulos y los rumbos de la brújula: un marinero podía trazar una línea recta entre dos puntos, leer el rumbo de la brújula y navegar ese curso sin recalculaciones constantes. El compromiso crítico es la severa distorsión de las áreas: las masas terrestres cercanas a los polos aparecen mucho más grandes de lo que son. Groenlandia aparece tan grande como África en un mapa de Mercator, aunque África es en realidad catorce veces mayor."
+      "en": "Gerardus Mercator drew the round Earth on a flat map in a clever way. A sailor could draw a straight line between two ports, read the compass direction and follow it. The price is that areas near the poles look much bigger than they are. On a Mercator map, Greenland looks as big as Africa, but Africa is really about 14 times larger.",
+      "es": "Gerardus Mercator dibujó la Tierra redonda en un mapa plano de una manera ingeniosa. Un marinero podía trazar una línea recta entre dos puertos, leer la dirección de la brújula y seguirla. El precio es que las zonas cercanas a los polos se ven mucho más grandes de lo que son. En un mapa de Mercator, Groenlandia parece tan grande como África, pero África es en realidad unas 14 veces más grande."
     },
     "meanwhile": {
-      "en": "Ottoman cartographer Piri Reis produced his own world map in 1513, incorporating knowledge from Portuguese and Spanish sources alongside Islamic geographic traditions, depicting African and American coastlines with surprising accuracy — evidence that cartographic knowledge crossed cultural and political boundaries even between rivals.",
-      "es": "El cartógrafo otomano Piri Reis produjo su propio mapa del mundo en 1513, incorporando conocimientos de fuentes portuguesas y españolas junto con tradiciones geográficas islámicas, representando las costas africanas y americanas con sorprendente precisión: evidencia de que el conocimiento cartográfico cruzaba fronteras culturales y políticas incluso entre rivales."
+      "en": "In 1513, the Ottoman admiral Piri Reis drew a famous world map that used Portuguese, Spanish and Arab sources.",
+      "es": "En 1513, el almirante otomano Piri Reis dibujó un famoso mapa del mundo que usaba fuentes portuguesas, españolas y árabes."
     },
     "reflection": {
-      "en": "The Mercator projection places Europe near the center and makes it appear larger than it is, shaping how generations have imagined global geography. What other tools or systems that we consider 'objective' might embed cultural assumptions we haven't yet recognized?",
-      "es": "La proyección de Mercator coloca a Europa cerca del centro y la hace aparecer más grande de lo que es, configurando cómo las generaciones han imaginado la geografía global. ¿Qué otras herramientas o sistemas que consideramos 'objetivos' podrían incorporar suposiciones culturales que aún no hemos reconocido?"
-    }
+      "en": "Every map shows the world from a point of view. What would a map of your life, with the most important places big, look like?",
+      "es": "Todo mapa muestra el mundo desde un punto de vista. ¿Cómo sería un mapa de tu vida, con los lugares más importantes en grande?"
+    },
+    "vocab": [
+      {
+        "term": "flat",
+        "es": "plano"
+      },
+      {
+        "term": "clever",
+        "es": "ingeniosa"
+      },
+      {
+        "term": "ports",
+        "es": "puertos"
+      },
+      {
+        "term": "poles",
+        "es": "polos"
+      }
+    ]
+  },
+  {
+    "id": "ex-011",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which kind of ship helped the Portuguese explore the coast of Africa in the 1400s?",
+      "es": "¿Qué tipo de barco ayudó a los portugueses a explorar la costa de África en el siglo XV?"
+    },
+    "options": [
+      {
+        "en": "The caravel",
+        "es": "La carabela"
+      },
+      {
+        "en": "The galley",
+        "es": "La galera"
+      },
+      {
+        "en": "The longship",
+        "es": "El drakkar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The caravel was small, light and fast. Its triangular sails allowed it to sail against the wind, which was important for coming back home along the coast of Africa. Prince Henry of Portugal, called \"the Navigator\", paid for many voyages in the 1400s. Slowly, the Portuguese sailed farther south every year.",
+      "es": "La carabela era pequeña, liviana y rápida. Sus velas triangulares le permitían navegar contra el viento, lo que era importante para volver a casa por la costa de África. El príncipe Enrique de Portugal, llamado \"el Navegante\", pagó muchos viajes en el siglo XV. Poco a poco, los portugueses navegaron cada año más al sur."
+    },
+    "meanwhile": {
+      "en": "Around 1440, in Germany, Johannes Gutenberg was working on the printing press with movable metal type.",
+      "es": "Alrededor de 1440, en Alemania, Johannes Gutenberg trabajaba en la imprenta con tipos móviles de metal."
+    },
+    "reflection": {
+      "en": "A small, light ship opened the ocean. What small change gave you more freedom to move forward?",
+      "es": "Un barco pequeño y liviano abrió el océano. ¿Qué pequeño cambio te dio más libertad para avanzar?"
+    },
+    "vocab": [
+      {
+        "term": "triangular",
+        "es": "triangulares"
+      },
+      {
+        "term": "wind",
+        "es": "viento"
+      },
+      {
+        "term": "coast",
+        "es": "costa"
+      },
+      {
+        "term": "voyages",
+        "es": "viajes"
+      }
+    ]
+  },
+  {
+    "id": "ex-012",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1488, Bartolomeu Dias became the first European to sail around which place?",
+      "es": "En 1488, Bartolomeu Dias fue el primer europeo en navegar alrededor de qué lugar?"
+    },
+    "options": [
+      {
+        "en": "The southern tip of Africa",
+        "es": "El extremo sur de África"
+      },
+      {
+        "en": "The northern coast of Russia",
+        "es": "La costa norte de Rusia"
+      },
+      {
+        "en": "The island of Madagascar",
+        "es": "La isla de Madagascar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Dias sailed south along the coast of Africa and was pushed by a strong storm far out to sea. When he turned east and then north, he saw that the coast now ran in a new direction. He had gone around the southern tip of Africa. He called it the Cape of Storms, but King John II renamed it the Cape of Good Hope, because it gave hope of reaching India.",
+      "es": "Dias navegó al sur por la costa de África y una fuerte tormenta lo empujó lejos, mar adentro. Cuando giró hacia el este y luego hacia el norte, vio que la costa iba ahora en otra dirección. Había rodeado el extremo sur de África. Lo llamó Cabo de las Tormentas, pero el rey Juan II lo rebautizó Cabo de Buena Esperanza, porque daba esperanza de llegar a la India."
+    },
+    "meanwhile": {
+      "en": "In 1487, the Aztecs dedicated the Great Temple in Tenochtitlan with huge ceremonies.",
+      "es": "En 1487, los aztecas dedicaron el Templo Mayor de Tenochtitlan con grandes ceremonias."
+    },
+    "reflection": {
+      "en": "The same place had two names: one of fear and one of hope. How does the name you give a challenge change how you face it?",
+      "es": "El mismo lugar tuvo dos nombres: uno de miedo y otro de esperanza. ¿Cómo cambia la manera de afrontar un desafío el nombre que le das?"
+    },
+    "vocab": [
+      {
+        "term": "tip",
+        "es": "extremo"
+      },
+      {
+        "term": "storm",
+        "es": "tormenta"
+      },
+      {
+        "term": "renamed",
+        "es": "rebautizó"
+      },
+      {
+        "term": "hope",
+        "es": "esperanza"
+      }
+    ]
+  },
+  {
+    "id": "ex-013",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did sailors use an astrolabe for?",
+      "es": "¿Para qué usaban los marineros un astrolabio?"
+    },
+    "options": [
+      {
+        "en": "To measure the height of the sun or stars",
+        "es": "Para medir la altura del sol o de las estrellas"
+      },
+      {
+        "en": "To measure the speed of the ship",
+        "es": "Para medir la velocidad del barco"
+      },
+      {
+        "en": "To predict storms",
+        "es": "Para predecir tormentas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "An astrolabe is a metal disk with a moving arm. The sailor held it up and measured the angle of the sun or a star above the horizon. With this angle and a table, he could calculate his latitude, how far north or south he was. The instrument came from ancient Greece and was improved by Islamic scientists.",
+      "es": "Un astrolabio es un disco de metal con un brazo móvil. El marinero lo levantaba y medía el ángulo del sol o de una estrella sobre el horizonte. Con ese ángulo y una tabla podía calcular su latitud, es decir, qué tan al norte o al sur estaba. El instrumento venía de la antigua Grecia y fue mejorado por científicos islámicos."
+    },
+    "meanwhile": {
+      "en": "Around 1420, the prince and astronomer Ulugh Beg built a large observatory in Samarkand and made a catalog of more than 1,000 stars.",
+      "es": "Alrededor de 1420, el príncipe y astrónomo Ulugh Beg construyó un gran observatorio en Samarcanda e hizo un catálogo de más de 1.000 estrellas."
+    },
+    "reflection": {
+      "en": "Sailors found their position with the sky. What tool do you use to know where you are, in life or on the road?",
+      "es": "Los marineros hallaban su posición con el cielo. ¿Qué herramienta usas para saber dónde estás, en la vida o en el camino?"
+    },
+    "vocab": [
+      {
+        "term": "angle",
+        "es": "ángulo"
+      },
+      {
+        "term": "horizon",
+        "es": "horizonte"
+      },
+      {
+        "term": "latitude",
+        "es": "latitud"
+      },
+      {
+        "term": "instrument",
+        "es": "instrumento"
+      }
+    ]
+  },
+  {
+    "id": "ex-014",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why were spices such as pepper, cloves and nutmeg so valuable in Europe?",
+      "es": "¿Por qué las especias como la pimienta, los clavos y la nuez moscada eran tan valiosas en Europa?"
+    },
+    "options": [
+      {
+        "en": "They were rare, far away and improved food",
+        "es": "Eran raras, venían de lejos y mejoraban la comida"
+      },
+      {
+        "en": "The Church used them as a kind of money",
+        "es": "La Iglesia las usaba como una especie de dinero"
+      },
+      {
+        "en": "They kept the castles warm during winter",
+        "es": "Mantenían calientes los castillos en invierno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In Europe, spices could not be grown. They came from India and the Spice Islands, in today’s Indonesia, after a journey of thousands of kilometers. Rich people used them to flavor food, to make medicine and to show their wealth. Cloves and nutmeg grew only on a few small islands, so whoever controlled those islands became very rich.",
+      "es": "En Europa, las especias no podían cultivarse. Venían de la India y de las Islas de las Especias, en la actual Indonesia, tras un viaje de miles de kilómetros. Los ricos las usaban para dar sabor a la comida, para hacer medicinas y para mostrar su riqueza. Los clavos y la nuez moscada crecían solo en unas pocas islas pequeñas, así que quien las controlaba se hacía muy rico."
+    },
+    "meanwhile": {
+      "en": "Around 1500, Muslim sultanates such as Ternate and Tidore ruled the Spice Islands and sold cloves to traders from many countries.",
+      "es": "Alrededor de 1500, sultanatos musulmanes como Ternate y Tidore gobernaban las Islas de las Especias y vendían clavos a comerciantes de muchos países."
+    },
+    "reflection": {
+      "en": "A small seed could change the economy of the world. What common thing today is valuable because few people can get it?",
+      "es": "Una pequeña semilla podía cambiar la economía del mundo. ¿Qué cosa común hoy es valiosa porque pocas personas pueden conseguirla?"
+    },
+    "vocab": [
+      {
+        "term": "flavor",
+        "es": "dar sabor"
+      },
+      {
+        "term": "cloves",
+        "es": "clavos"
+      },
+      {
+        "term": "nutmeg",
+        "es": "nuez moscada"
+      },
+      {
+        "term": "wealth",
+        "es": "riqueza"
+      }
+    ]
+  },
+  {
+    "id": "ex-015",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What were the names of Columbus’s three ships in 1492?",
+      "es": "¿Cómo se llamaban los tres barcos de Colón en 1492?"
+    },
+    "options": [
+      {
+        "en": "Niña, Pinta and Santa María",
+        "es": "Niña, Pinta y Santa María"
+      },
+      {
+        "en": "Victoria, Trinidad and San Antonio",
+        "es": "Victoria, Trinidad y San Antonio"
+      },
+      {
+        "en": "Golden Hind, Mayflower and Endeavour",
+        "es": "Golden Hind, Mayflower y Endeavour"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Columbus sailed with about 90 men on three ships. The Santa María was the largest, the flagship, and Columbus himself traveled on it. The Pinta and the Niña were small, fast caravels. The Santa María ran aground on a reef on Christmas Day 1492 and was lost. Columbus went home on the Niña.",
+      "es": "Colón navegó con unos 90 hombres en tres barcos. La Santa María era el más grande, la nave capitana, y Colón viajaba en ella. La Pinta y la Niña eran carabelas pequeñas y rápidas. La Santa María encalló en un arrecife el día de Navidad de 1492 y se perdió. Colón volvió a casa en la Niña."
+    },
+    "meanwhile": {
+      "en": "In 1492, in Nuremberg, Martin Behaim made the oldest globe that still exists. It did not show the Americas.",
+      "es": "En 1492, en Núremberg, Martin Behaim hizo el globo terráqueo más antiguo que se conserva. No mostraba América."
+    },
+    "reflection": {
+      "en": "Three small ships changed history. What small group of people changed something big in your community?",
+      "es": "Tres pequeños barcos cambiaron la historia. ¿Qué pequeño grupo de personas cambió algo grande en tu comunidad?"
+    },
+    "vocab": [
+      {
+        "term": "flagship",
+        "es": "nave capitana"
+      },
+      {
+        "term": "caravels",
+        "es": "carabelas"
+      },
+      {
+        "term": "reef",
+        "es": "arrecife"
+      },
+      {
+        "term": "lost",
+        "es": "perdió"
+      }
+    ]
+  },
+  {
+    "id": "ex-016",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why did Europeans call the native peoples of the Americas \"Indians\"?",
+      "es": "¿Por qué los europeos llamaron \"indios\" a los pueblos nativos de América?"
+    },
+    "options": [
+      {
+        "en": "Columbus thought he had reached the Indies in Asia",
+        "es": "Colón creyó que había llegado a las Indias, en Asia"
+      },
+      {
+        "en": "They originally came from the country of India",
+        "es": "Venían originalmente del país de la India"
+      },
+      {
+        "en": "They worshipped the Hindu god Indra long ago",
+        "es": "Adoraban hace mucho al dios hindú Indra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Columbus was looking for a new route to the \"Indies\", the name that Europeans used for Asia and its rich lands. When he arrived in the Caribbean, he thought he had reached the edge of Asia. He called the people he met \"indios\". The mistake stayed in the language. That is why Caribbean islands are called the \"West Indies\" and why many people use the word \"Indian\".",
+      "es": "Colón buscaba una nueva ruta hacia las \"Indias\", el nombre que los europeos daban a Asia y a sus ricas tierras. Cuando llegó al Caribe, pensó que había alcanzado el borde de Asia. Llamó \"indios\" a las personas que conoció. El error se quedó en el idioma. Por eso las islas del Caribe se llaman las \"Indias Occidentales\" y por eso mucha gente usa la palabra \"indio\"."
+    },
+    "meanwhile": {
+      "en": "Around 1500, China under the Ming dynasty was the most populous country in the world, with more than 100 million people.",
+      "es": "Alrededor de 1500, China bajo la dinastía Ming era el país más poblado del mundo, con más de 100 millones de personas."
+    },
+    "reflection": {
+      "en": "A mistake from 500 years ago is still in our words. Which words do you use that carry old mistakes or old ideas?",
+      "es": "Un error de hace 500 años sigue en nuestras palabras. ¿Qué palabras usas que llevan viejos errores o viejas ideas?"
+    },
+    "vocab": [
+      {
+        "term": "route",
+        "es": "ruta"
+      },
+      {
+        "term": "Indies",
+        "es": "Indias"
+      },
+      {
+        "term": "mistake",
+        "es": "error"
+      },
+      {
+        "term": "islands",
+        "es": "islas"
+      }
+    ]
+  },
+  {
+    "id": "ex-017",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why is the continent named \"America\"?",
+      "es": "¿Por qué el continente se llama \"América\"?"
+    },
+    "options": [
+      {
+        "en": "After the explorer Amerigo Vespucci",
+        "es": "Por el explorador Américo Vespucio"
+      },
+      {
+        "en": "After a Spanish queen who paid for voyages",
+        "es": "Por una reina española que pagó los viajes"
+      },
+      {
+        "en": "After a local tribe on the coast of Brazil",
+        "es": "Por una tribu local de la costa de Brasil"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Amerigo Vespucci was an Italian navigator who sailed along the coast of South America around 1500. He understood that it was a new continent, not Asia. In 1507, a German mapmaker, Martin Waldseemüller, made a world map and wrote the name \"America\", a feminine form of Amerigo, on the new land. The name stuck, and later it was used for North America too.",
+      "es": "Américo Vespucio era un navegante italiano que recorrió la costa de América del Sur hacia 1500. Entendió que era un nuevo continente y no Asia. En 1507, un cartógrafo alemán, Martin Waldseemüller, hizo un mapa del mundo y escribió el nombre \"América\", una forma femenina de Américo, sobre la nueva tierra. El nombre se quedó y más tarde se usó también para América del Norte."
+    },
+    "meanwhile": {
+      "en": "In 1508, Michelangelo began to paint the ceiling of the Sistine Chapel in Rome.",
+      "es": "En 1508, Miguel Ángel comenzó a pintar el techo de la Capilla Sixtina en Roma."
+    },
+    "reflection": {
+      "en": "A mapmaker chose a name and it stayed forever. Why do you think names are so powerful?",
+      "es": "Un cartógrafo eligió un nombre y se quedó para siempre. ¿Por qué crees que los nombres son tan poderosos?"
+    },
+    "vocab": [
+      {
+        "term": "navigator",
+        "es": "navegante"
+      },
+      {
+        "term": "coast",
+        "es": "costa"
+      },
+      {
+        "term": "mapmaker",
+        "es": "cartógrafo"
+      },
+      {
+        "term": "feminine",
+        "es": "femenina"
+      }
+    ]
+  },
+  {
+    "id": "ex-018",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1497, John Cabot sailed from England and reached the coast of what is now Canada. Whose flag did he carry?",
+      "es": "En 1497, John Cabot navegó desde Inglaterra y llegó a la costa de lo que hoy es Canadá. ¿La bandera de quién llevaba?"
+    },
+    "options": [
+      {
+        "en": "The king of England",
+        "es": "La del rey de Inglaterra"
+      },
+      {
+        "en": "The king of Spain",
+        "es": "La del rey de España"
+      },
+      {
+        "en": "The king of Portugal",
+        "es": "La del rey de Portugal"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "John Cabot, an Italian sailor whose real name was Giovanni Caboto, lived in England. King Henry VII gave him permission to look for a northern route to Asia. In 1497, Cabot reached the coast of Newfoundland. Fishermen soon followed him, because the waters near Newfoundland were full of cod. England later used his voyage to claim land in North America.",
+      "es": "John Cabot, un marinero italiano cuyo verdadero nombre era Giovanni Caboto, vivía en Inglaterra. El rey Enrique VII le dio permiso para buscar una ruta norte hacia Asia. En 1497, Cabot llegó a la costa de Terranova. Pronto lo siguieron pescadores, porque las aguas cercanas a Terranova estaban llenas de bacalao. Inglaterra usó más tarde su viaje para reclamar tierras en América del Norte."
+    },
+    "meanwhile": {
+      "en": "In 1497, Vasco da Gama left Portugal on his voyage to India, the same year as Cabot’s trip.",
+      "es": "En 1497, Vasco da Gama salió de Portugal en su viaje a la India, el mismo año que el viaje de Cabot."
+    },
+    "reflection": {
+      "en": "Many explorers worked for a king who was not from their own country. Would you work abroad to follow a dream?",
+      "es": "Muchos exploradores trabajaban para un rey que no era de su país. ¿Trabajarías en el extranjero para seguir un sueño?"
+    },
+    "vocab": [
+      {
+        "term": "permission",
+        "es": "permiso"
+      },
+      {
+        "term": "northern",
+        "es": "norte"
+      },
+      {
+        "term": "cod",
+        "es": "bacalao"
+      },
+      {
+        "term": "claim",
+        "es": "reclamar"
+      }
+    ]
+  },
+  {
+    "id": "ex-019",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The name \"Canada\" probably comes from a word in a Native language. What does it mean?",
+      "es": "El nombre \"Canadá\" probablemente viene de una palabra de una lengua nativa. ¿Qué significa?"
+    },
+    "options": [
+      {
+        "en": "\"Village\" or \"settlement\"",
+        "es": "\"Aldea\" o \"asentamiento\""
+      },
+      {
+        "en": "\"Big river\" or \"great water\"",
+        "es": "\"Gran río\" o \"gran agua\""
+      },
+      {
+        "en": "\"Land of ice\" or \"cold country\"",
+        "es": "\"Tierra de hielo\" o \"país frío\""
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1534, the French explorer Jacques Cartier sailed up the St. Lawrence River. Two local young men told him about the way to \"kanata\", a word in the Iroquoian language that means \"village\". Cartier thought it was the name of the whole region, and he used it on his maps. Over time, \"Canada\" became the name of the entire country.",
+      "es": "En 1534, el explorador francés Jacques Cartier navegó por el río San Lorenzo. Dos jóvenes del lugar le hablaron del camino hacia \"kanata\", una palabra de la lengua iroquesa que significa \"aldea\". Cartier pensó que era el nombre de toda la región y lo usó en sus mapas. Con el tiempo, \"Canadá\" se convirtió en el nombre de todo el país."
+    },
+    "meanwhile": {
+      "en": "In 1534, King Henry VIII of England broke with the Pope and became the head of the Church of England.",
+      "es": "En 1534, el rey Enrique VIII de Inglaterra rompió con el papa y se convirtió en cabeza de la Iglesia de Inglaterra."
+    },
+    "reflection": {
+      "en": "A simple word, \"village\", became the name of a huge country. Do you know the origin of the name of your country?",
+      "es": "Una palabra simple, \"aldea\", se convirtió en el nombre de un enorme país. ¿Conoces el origen del nombre de tu país?"
+    },
+    "vocab": [
+      {
+        "term": "sailed up",
+        "es": "navegó por"
+      },
+      {
+        "term": "village",
+        "es": "aldea"
+      },
+      {
+        "term": "region",
+        "es": "región"
+      },
+      {
+        "term": "maps",
+        "es": "mapas"
+      }
+    ]
+  },
+  {
+    "id": "ex-020",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Between 1405 and 1433, the Chinese admiral Zheng He led seven great voyages. What was special about them?",
+      "es": "Entre 1405 y 1433, el almirante chino Zheng He dirigió siete grandes viajes. ¿Qué tenían de especial?"
+    },
+    "options": [
+      {
+        "en": "Huge fleets sailed as far as East Africa",
+        "es": "Enormes flotas llegaron hasta África Oriental"
+      },
+      {
+        "en": "They were secret trips of only one small ship",
+        "es": "Eran viajes secretos de un solo barco pequeño"
+      },
+      {
+        "en": "They crossed the Atlantic Ocean",
+        "es": "Cruzaron el océano Atlántico"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Ming emperor sent Zheng He with a \"treasure fleet\" of up to 300 ships and about 28,000 men. The biggest ships were much larger than Columbus’s Santa María. The fleet visited Southeast Asia, India, Arabia and East Africa, and brought back gifts such as a giraffe. China did not try to conquer these lands, and after 1433, it stopped the voyages.",
+      "es": "El emperador Ming envió a Zheng He con una \"flota del tesoro\" de hasta 300 barcos y unos 28.000 hombres. Los barcos más grandes eran mucho mayores que la Santa María de Colón. La flota visitó el sudeste asiático, la India, Arabia y África Oriental, y trajo regalos como una jirafa. China no intentó conquistar esas tierras, y después de 1433 puso fin a los viajes."
+    },
+    "meanwhile": {
+      "en": "At about the same time, Portuguese sailors began to explore the Atlantic coast of Africa in small caravels.",
+      "es": "Casi al mismo tiempo, los marineros portugueses empezaron a explorar la costa atlántica de África en pequeñas carabelas."
+    },
+    "reflection": {
+      "en": "China had the ships to explore the world, but it stopped. When did you stop doing something that you were good at?",
+      "es": "China tenía los barcos para explorar el mundo, pero se detuvo. ¿Cuándo dejaste de hacer algo en lo que eras bueno?"
+    },
+    "vocab": [
+      {
+        "term": "fleet",
+        "es": "flota"
+      },
+      {
+        "term": "admiral",
+        "es": "almirante"
+      },
+      {
+        "term": "giraffe",
+        "es": "jirafa"
+      },
+      {
+        "term": "conquer",
+        "es": "conquistar"
+      }
+    ]
+  },
+  {
+    "id": "ex-021",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Ibn Battuta, from Morocco, left home in 1325 for a pilgrimage to Mecca. What did he do afterward?",
+      "es": "Ibn Battuta, de Marruecos, salió de su casa en 1325 en una peregrinación a La Meca. ¿Qué hizo después?"
+    },
+    "options": [
+      {
+        "en": "He traveled for about 30 years across Africa and Asia",
+        "es": "Viajó durante unos 30 años por África y Asia"
+      },
+      {
+        "en": "He returned home immediately and became a judge",
+        "es": "Volvió a casa de inmediato y se hizo juez"
+      },
+      {
+        "en": "He sailed to the Americas",
+        "es": "Navegó hacia América"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Ibn Battuta was 21 years old when he left Tangier. He loved traveling so much that he continued for almost 30 years, covering about 120,000 kilometers. He visited Egypt, Persia, India, the Maldives, China and West Africa. When he came home, the sultan of Morocco asked him to dictate a book, the Rihla, about everything he had seen.",
+      "es": "Ibn Battuta tenía 21 años cuando salió de Tánger. Amaba tanto viajar que continuó durante casi 30 años, recorriendo unos 120.000 kilómetros. Visitó Egipto, Persia, la India, las Maldivas, China y África Occidental. Cuando volvió a casa, el sultán de Marruecos le pidió que dictara un libro, la Rihla, sobre todo lo que había visto."
+    },
+    "meanwhile": {
+      "en": "In 1325, the Aztecs founded their city of Tenochtitlan on an island in Lake Texcoco, in Mexico.",
+      "es": "En 1325, los aztecas fundaron su ciudad de Tenochtitlan en una isla del lago Texcoco, en México."
+    },
+    "reflection": {
+      "en": "Ibn Battuta was curious about everything. Which place in the world would you most like to visit, and why?",
+      "es": "Ibn Battuta sentía curiosidad por todo. ¿Qué lugar del mundo te gustaría visitar más y por qué?"
+    },
+    "vocab": [
+      {
+        "term": "pilgrimage",
+        "es": "peregrinación"
+      },
+      {
+        "term": "afterward",
+        "es": "después"
+      },
+      {
+        "term": "sultan",
+        "es": "sultán"
+      },
+      {
+        "term": "dictate",
+        "es": "dictara"
+      }
+    ]
+  },
+  {
+    "id": "ex-022",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What amazed the Spaniards when they first saw Tenochtitlan, the Aztec capital?",
+      "es": "¿Qué sorprendió a los españoles cuando vieron por primera vez Tenochtitlan, la capital azteca?"
+    },
+    "options": [
+      {
+        "en": "A huge city on a lake, with canals and markets",
+        "es": "Una enorme ciudad sobre un lago, con canales y mercados"
+      },
+      {
+        "en": "A small village of mud houses and farms",
+        "es": "Una pequeña aldea de casas de barro y granjas"
+      },
+      {
+        "en": "A lonely fort in the middle of the desert",
+        "es": "Un fuerte solitario en medio del desierto"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Tenochtitlan stood on an island in Lake Texcoco and was joined to the land by long causeways. Perhaps 200,000 people lived there, which made it larger than most European cities of the time. It had temples, palaces, canals, clean streets and a giant market where thousands of people traded every day. A soldier wrote that it looked like a dream.",
+      "es": "Tenochtitlan se alzaba sobre una isla en el lago Texcoco y estaba unida a la tierra por largas calzadas. Allí vivían quizás 200.000 personas, lo que la hacía más grande que la mayoría de las ciudades europeas de la época. Tenía templos, palacios, canales, calles limpias y un mercado gigante donde miles de personas comerciaban cada día. Un soldado escribió que parecía un sueño."
+    },
+    "meanwhile": {
+      "en": "In 1519, the Italian artist and inventor Leonardo da Vinci died in France.",
+      "es": "En 1519, el artista e inventor italiano Leonardo da Vinci murió en Francia."
+    },
+    "reflection": {
+      "en": "The Spaniards were surprised by a city they did not expect. When did a place or person surprise you because you had the wrong idea?",
+      "es": "Los españoles se sorprendieron con una ciudad que no esperaban. ¿Cuándo un lugar o una persona te sorprendió porque tenías una idea equivocada?"
+    },
+    "vocab": [
+      {
+        "term": "causeways",
+        "es": "calzadas"
+      },
+      {
+        "term": "canals",
+        "es": "canales"
+      },
+      {
+        "term": "market",
+        "es": "mercado"
+      },
+      {
+        "term": "dream",
+        "es": "sueño"
+      }
+    ]
+  },
+  {
+    "id": "ex-023",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Incas had no alphabet. How did they keep records of numbers and information?",
+      "es": "Los incas no tenían alfabeto. ¿Cómo guardaban registros de números e información?"
+    },
+    "options": [
+      {
+        "en": "With knotted cords called quipus",
+        "es": "Con cuerdas anudadas llamadas quipus"
+      },
+      {
+        "en": "With drawings on clay tablets",
+        "es": "Con dibujos en tablillas de arcilla"
+      },
+      {
+        "en": "With letters on stone walls",
+        "es": "Con letras en muros de piedra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A quipu was a main cord with many thinner strings hanging from it. The color of the strings, the type of knots and their positions showed numbers and categories, such as people, llamas or food. Special officials, called quipucamayocs, tied and read them. Some experts think that quipus may also have recorded stories, but nobody can read those yet.",
+      "es": "Un quipu era una cuerda principal de la que colgaban muchos hilos más finos. El color de los hilos, el tipo de nudos y su posición mostraban números y categorías, como personas, llamas o alimentos. Unos funcionarios especiales, llamados quipucamayocs, los ataban y los leían. Algunos expertos creen que los quipus quizás también registraban historias, pero nadie puede leerlas todavía."
+    },
+    "meanwhile": {
+      "en": "At the same time, in Europe, printing presses were making books cheaper and spreading new ideas.",
+      "es": "Al mismo tiempo, en Europa, las imprentas abaratan los libros y difundían nuevas ideas."
+    },
+    "reflection": {
+      "en": "The Incas ran a huge empire without writing. How do you remember important things without writing them down?",
+      "es": "Los incas dirigieron un enorme imperio sin escritura. ¿Cómo recuerdas las cosas importantes sin anotarlas?"
+    },
+    "vocab": [
+      {
+        "term": "cord",
+        "es": "cuerda"
+      },
+      {
+        "term": "knots",
+        "es": "nudos"
+      },
+      {
+        "term": "officials",
+        "es": "funcionarios"
+      },
+      {
+        "term": "stories",
+        "es": "historias"
+      }
+    ]
+  },
+  {
+    "id": "ex-024",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Who was Malinche, also called La Malinche, in the story of Cortés?",
+      "es": "¿Quién fue Malinche, también llamada La Malinche, en la historia de Cortés?"
+    },
+    "options": [
+      {
+        "en": "An interpreter and adviser who helped Cortés",
+        "es": "Una intérprete y consejera que ayudó a Cortés"
+      },
+      {
+        "en": "An Aztec queen who fought him",
+        "es": "Una reina azteca que luchó contra él"
+      },
+      {
+        "en": "A Spanish nun who traveled with him",
+        "es": "Una monja española que viajó con él"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Malintzin was a young Nahua woman who was given to Cortés in 1519. She spoke Nahuatl, the language of the Aztecs, and Maya. She learned Spanish quickly and became his interpreter and adviser. Without her, it would have been very hard for Cortés to talk to the peoples of Mexico. Today, historians and Mexicans still debate whether she was a traitor or a victim.",
+      "es": "Malintzin era una joven nahua que le fue entregada a Cortés en 1519. Hablaba náhuatl, el idioma de los aztecas, y maya. Aprendió español rápidamente y se convirtió en su intérprete y consejera. Sin ella, habría sido muy difícil para Cortés hablar con los pueblos de México. Hoy, los historiadores y los mexicanos todavía debaten si fue una traidora o una víctima."
+    },
+    "meanwhile": {
+      "en": "Around 1520, the Vijayanagara Empire in southern India was one of the richest states in the world under King Krishnadevaraya.",
+      "es": "Alrededor de 1520, el Imperio de Vijayanagara, en el sur de la India, era uno de los Estados más ricos del mundo bajo el rey Krishnadevaraya."
+    },
+    "reflection": {
+      "en": "An interpreter can change history by choosing words. Why is it important to translate carefully between people?",
+      "es": "Una intérprete puede cambiar la historia con las palabras que elige. ¿Por qué es importante traducir con cuidado entre personas?"
+    },
+    "vocab": [
+      {
+        "term": "interpreter",
+        "es": "intérprete"
+      },
+      {
+        "term": "adviser",
+        "es": "consejera"
+      },
+      {
+        "term": "traitor",
+        "es": "traidora"
+      },
+      {
+        "term": "victim",
+        "es": "víctima"
+      }
+    ]
+  },
+  {
+    "id": "ex-025",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why did Magellan name the ocean the \"Pacific\"?",
+      "es": "¿Por qué Magallanes llamó \"Pacífico\" al océano?"
+    },
+    "options": [
+      {
+        "en": "Its waters were calm after the stormy strait",
+        "es": "Sus aguas estaban tranquilas después del estrecho tormentoso"
+      },
+      {
+        "en": "Because it was close to the Peaceful Islands",
+        "es": "Porque estaba cerca de las Islas de la Paz"
+      },
+      {
+        "en": "Because a peace treaty was signed there",
+        "es": "Porque allí se firmó un tratado de paz"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1520, Magellan found a passage at the southern tip of South America, now called the Strait of Magellan. It was dangerous, with strong winds and storms. After weeks, his ships came out into a huge ocean with calm water. He named it \"Pacific\", which means peaceful. But the crossing was hard: it took almost four months, and the men ran out of food and fresh water.",
+      "es": "En 1520, Magallanes encontró un paso en el extremo sur de América del Sur, hoy llamado estrecho de Magallanes. Era peligroso, con fuertes vientos y tormentas. Después de semanas, sus barcos salieron a un enorme océano de aguas tranquilas. Lo llamó \"Pacífico\", que significa pacífico. Pero la travesía fue dura: duró casi cuatro meses, y los hombres se quedaron sin comida y agua fresca."
+    },
+    "meanwhile": {
+      "en": "In 1521, Martin Luther defended his ideas in front of the emperor at the Diet of Worms in Germany.",
+      "es": "En 1521, Martín Lutero defendió sus ideas ante el emperador en la Dieta de Worms, en Alemania."
+    },
+    "reflection": {
+      "en": "The name was beautiful, but the trip was terrible. When did something look calm but turn out to be difficult?",
+      "es": "El nombre era hermoso, pero el viaje fue terrible. ¿Cuándo algo parecía tranquilo y resultó difícil?"
+    },
+    "vocab": [
+      {
+        "term": "strait",
+        "es": "estrecho"
+      },
+      {
+        "term": "calm",
+        "es": "tranquilas"
+      },
+      {
+        "term": "crossing",
+        "es": "travesía"
+      },
+      {
+        "term": "peaceful",
+        "es": "pacífico"
+      }
+    ]
+  },
+  {
+    "id": "ex-026",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How did horses, brought by the Spanish, change life for many Native peoples of the Great Plains?",
+      "es": "¿Cómo cambiaron los caballos, traídos por los españoles, la vida de muchos pueblos nativos de las Grandes Llanuras?"
+    },
+    "options": [
+      {
+        "en": "They made hunting buffalo and traveling much easier",
+        "es": "Hicieron mucho más fácil cazar búfalos y viajar"
+      },
+      {
+        "en": "They were mainly used as food for the winter",
+        "es": "Se usaban principalmente como alimento para el invierno"
+      },
+      {
+        "en": "They were forbidden by the tribal laws",
+        "es": "Estaban prohibidos por las leyes de las tribus"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Horses had lived in the Americas long ago, but they disappeared about 10,000 years earlier. The Spanish brought them again in the 1500s. Some horses escaped or were traded, and by the 1700s, peoples such as the Comanche and the Lakota had become expert riders. On horseback, they could hunt buffalo from a distance, travel much farther and move their camps quickly.",
+      "es": "Los caballos habían vivido en América hace mucho tiempo, pero desaparecieron unos 10.000 años antes. Los españoles los trajeron de nuevo en el siglo XVI. Algunos caballos escaparon o se comerciaron, y para el siglo XVIII, pueblos como los comanches y los lakota se habían vuelto expertos jinetes. A caballo podían cazar búfalos a distancia, viajar mucho más lejos y mover sus campamentos rápidamente."
+    },
+    "meanwhile": {
+      "en": "In 1680, the Pueblo peoples of New Mexico rose up against the Spanish and drove them out for 12 years.",
+      "es": "En 1680, los pueblos pueblo de Nuevo México se levantaron contra los españoles y los expulsaron durante 12 años."
+    },
+    "reflection": {
+      "en": "One new animal changed a whole way of life. Which new tool or technology has changed your daily life the most?",
+      "es": "Un animal nuevo cambió toda una forma de vida. ¿Qué nueva herramienta o tecnología ha cambiado más tu vida diaria?"
+    },
+    "vocab": [
+      {
+        "term": "horses",
+        "es": "caballos"
+      },
+      {
+        "term": "escaped",
+        "es": "escaparon"
+      },
+      {
+        "term": "riders",
+        "es": "jinetes"
+      },
+      {
+        "term": "buffalo",
+        "es": "búfalos"
+      }
+    ]
+  },
+  {
+    "id": "ex-027",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Founded in 1602, the Dutch East India Company was the first company to do what?",
+      "es": "Fundada en 1602, la Compañía Neerlandesa de las Indias Orientales fue la primera empresa en hacer qué?"
+    },
+    "options": [
+      {
+        "en": "Sell shares to the public",
+        "es": "Vender acciones al público"
+      },
+      {
+        "en": "Pay its workers in silver",
+        "es": "Pagar a sus trabajadores en plata"
+      },
+      {
+        "en": "Build ships with steel",
+        "es": "Construir barcos de acero"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Dutch wanted to trade directly with Asia. Voyages were expensive and risky, so the company asked many people to invest. Anyone could buy a share of the company and receive part of the profit. These shares could be sold again on the Amsterdam stock exchange, one of the first in the world. The company grew very rich on spices, but it also used violence and forced labor.",
+      "es": "Los neerlandeses querían comerciar directamente con Asia. Los viajes eran caros y arriesgados, así que la compañía pidió a mucha gente que invirtiera. Cualquiera podía comprar una acción de la compañía y recibir parte de la ganancia. Estas acciones podían volver a venderse en la bolsa de Ámsterdam, una de las primeras del mundo. La compañía se enriqueció con las especias, pero también usó la violencia y el trabajo forzado."
+    },
+    "meanwhile": {
+      "en": "In 1603, in Japan, Tokugawa Ieyasu became shogun, and a long period of peace began.",
+      "es": "En 1603, en Japón, Tokugawa Ieyasu se convirtió en shogun y comenzó un largo período de paz."
+    },
+    "reflection": {
+      "en": "Shares allowed many people to share the risk and the profit. When is it better to share a risk with others?",
+      "es": "Las acciones permitieron que muchas personas compartieran el riesgo y la ganancia. ¿Cuándo es mejor compartir un riesgo con otros?"
+    },
+    "vocab": [
+      {
+        "term": "shares",
+        "es": "acciones"
+      },
+      {
+        "term": "invest",
+        "es": "invirtiera"
+      },
+      {
+        "term": "profit",
+        "es": "ganancia"
+      },
+      {
+        "term": "stock exchange",
+        "es": "bolsa"
+      }
+    ]
+  },
+  {
+    "id": "ex-028",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Roughly how many Africans were forced onto ships and taken across the Atlantic during the slave trade?",
+      "es": "¿Aproximadamente cuántos africanos fueron obligados a subir a barcos y llevados a través del Atlántico durante el comercio de esclavos?"
+    },
+    "options": [
+      {
+        "en": "About 12 million",
+        "es": "Unos 12 millones"
+      },
+      {
+        "en": "About 1 million",
+        "es": "Alrededor de 1 millón"
+      },
+      {
+        "en": "About 100,000",
+        "es": "Unos 100.000"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Between the 1500s and the 1800s, European traders forced about 12 million Africans onto ships. Around 10 million survived the terrible voyage, called the Middle Passage. They were sold as slaves to work on sugar, cotton and tobacco farms in the Americas, including Brazil, the Caribbean and the United States. The trade destroyed families and communities in Africa and shaped the Americas.",
+      "es": "Entre los siglos XVI y XIX, los comerciantes europeos obligaron a unos 12 millones de africanos a subir a barcos. Alrededor de 10 millones sobrevivieron al terrible viaje, llamado Pasaje del Medio. Fueron vendidos como esclavos para trabajar en plantaciones de azúcar, algodón y tabaco en América, incluidos Brasil, el Caribe y Estados Unidos. El comercio destruyó familias y comunidades en África y moldeó América."
+    },
+    "meanwhile": {
+      "en": "In 1526, King Afonso I of Kongo wrote to the king of Portugal to complain about the harm that the slave trade was doing to his people.",
+      "es": "En 1526, el rey Afonso I del Congo escribió al rey de Portugal para quejarse del daño que el comercio de esclavos hacía a su pueblo."
+    },
+    "reflection": {
+      "en": "Today, many people still live with the effects of this history. Why is it important to remember and talk about it?",
+      "es": "Hoy muchas personas todavía viven con los efectos de esta historia. ¿Por qué es importante recordarla y hablar de ella?"
+    },
+    "vocab": [
+      {
+        "term": "forced",
+        "es": "obligaron"
+      },
+      {
+        "term": "voyage",
+        "es": "viaje"
+      },
+      {
+        "term": "slaves",
+        "es": "esclavos"
+      },
+      {
+        "term": "communities",
+        "es": "comunidades"
+      }
+    ]
+  },
+  {
+    "id": "ex-029",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What did the Manila galleons carry across the Pacific Ocean from the 1500s to the 1800s?",
+      "es": "¿Qué transportaban los galeones de Manila a través del océano Pacífico entre los siglos XVI y XIX?"
+    },
+    "options": [
+      {
+        "en": "Silver from America, silk and porcelain from Asia",
+        "es": "Plata de América, seda y porcelana de Asia"
+      },
+      {
+        "en": "Soldiers and weapons for the Spanish wars",
+        "es": "Soldados y armas para las guerras españolas"
+      },
+      {
+        "en": "Wheat and cattle from the farms of Europe",
+        "es": "Trigo y ganado de las granjas de Europa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Once a year, large Spanish ships sailed from Acapulco in Mexico to Manila in the Philippines and back. They carried silver from American mines, which China wanted. On the way back, they brought silk, porcelain and spices. These ships connected Asia, America and Europe in one trade network for the first time, so some historians call this the start of true global trade.",
+      "es": "Una vez al año, grandes barcos españoles navegaban de Acapulco, en México, a Manila, en Filipinas, y volvían. Llevaban plata de las minas americanas, que China quería. En el viaje de regreso traían seda, porcelana y especias. Estos barcos conectaron Asia, América y Europa en una sola red comercial por primera vez, por eso algunos historiadores llaman a esto el inicio del verdadero comercio global."
+    },
+    "meanwhile": {
+      "en": "In China in the 1570s, the Ming government began to collect taxes in silver, so silver was in great demand.",
+      "es": "En China, en la década de 1570, el gobierno Ming comenzó a cobrar impuestos en plata, por lo que la plata tenía una gran demanda."
+    },
+    "reflection": {
+      "en": "The same ships connected three continents. How is your life connected with distant countries through the things you use?",
+      "es": "Los mismos barcos conectaban tres continentes. ¿Cómo está conectada tu vida con países lejanos a través de las cosas que usas?"
+    },
+    "vocab": [
+      {
+        "term": "galleons",
+        "es": "galeones"
+      },
+      {
+        "term": "mines",
+        "es": "minas"
+      },
+      {
+        "term": "porcelain",
+        "es": "porcelana"
+      },
+      {
+        "term": "network",
+        "es": "red"
+      }
+    ]
+  },
+  {
+    "id": "ex-030",
+    "category": "age-of-exploration",
+    "category_label": {
+      "en": "Age of Exploration",
+      "es": "Era de las Exploraciones"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "The name \"Argentina\" comes from the Latin word \"argentum\". What does it mean?",
+      "es": "El nombre \"Argentina\" viene de la palabra latina \"argentum\". ¿Qué significa?"
+    },
+    "options": [
+      {
+        "en": "Silver",
+        "es": "Plata"
+      },
+      {
+        "en": "Sun",
+        "es": "Sol"
+      },
+      {
+        "en": "Mountain",
+        "es": "Montaña"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1516, the Spanish explorer Juan Díaz de Solís entered a huge estuary. Later travelers found silver objects among the local peoples and heard stories of a mountain of silver far inland. The estuary was named Río de la Plata, the \"River of Silver\". The name \"Argentina\" appeared in a poem in 1602 and became the name of the country much later.",
+      "es": "En 1516, el explorador español Juan Díaz de Solís entró en un enorme estuario. Los viajeros posteriores encontraron objetos de plata entre los pueblos locales y oyeron historias de una montaña de plata tierra adentro. El estuario se llamó Río de la Plata, el \"río de plata\". El nombre \"Argentina\" apareció en un poema en 1602 y se convirtió en el nombre del país mucho después."
+    },
+    "meanwhile": {
+      "en": "In 1602, the Dutch East India Company was founded in the Netherlands.",
+      "es": "En 1602 se fundó en los Países Bajos la Compañía Neerlandesa de las Indias Orientales."
+    },
+    "reflection": {
+      "en": "The silver was a legend and the river kept the name. What story is behind a name in your own life?",
+      "es": "La plata era una leyenda y el río conservó el nombre. ¿Qué historia hay detrás de un nombre en tu propia vida?"
+    },
+    "vocab": [
+      {
+        "term": "estuary",
+        "es": "estuario"
+      },
+      {
+        "term": "silver",
+        "es": "plata"
+      },
+      {
+        "term": "inland",
+        "es": "tierra adentro"
+      },
+      {
+        "term": "poem",
+        "es": "poema"
+      }
+    ]
   }
 ]

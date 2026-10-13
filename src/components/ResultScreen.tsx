@@ -3,6 +3,9 @@
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import ChronosLogo from './ChronosLogo';
+import RewardsPanel from './RewardsPanel';
+import type { LessonRewards } from '@/hooks/useProgress';
+import type { DailyProgress, LevelInfo } from '@/lib/progress';
 
 /**
  * Props for `ResultScreen`.
@@ -18,6 +21,17 @@ interface Props {
   total: number;
   category: string;
   onPlayAgain?: () => void;
+  /** Vocabulary review outcome; omitted when the round had no review. */
+  english?: EnglishResult;
+  /** XP, level, daily goal and achievements earned by the lesson. */
+  rewards?: { lesson: LessonRewards; level: LevelInfo; daily: DailyProgress };
+}
+
+/** Outcome of the end-of-round vocabulary review. */
+export interface EnglishResult {
+  correct: number;
+  total: number;
+  newWords: number;
 }
 
 /**
@@ -73,7 +87,7 @@ const STARS = (score: number, total: number) => {
  * "perfect game" badge, a performance message, and two action buttons:
  * "Play Again" and "Choose Category".
  */
-export default function ResultScreen({ score, total, category, onPlayAgain }: Props) {
+export default function ResultScreen({ score, total, category, onPlayAgain, english, rewards }: Props) {
   const { t } = useTranslation('common');
   const router = useRouter();
   const stars = STARS(score, total);
@@ -87,10 +101,8 @@ export default function ResultScreen({ score, total, category, onPlayAgain }: Pr
         {[0, 1, 2].map((i) => (
           <span
             key={i}
-            className={`transition-all duration-300 ${
-              i < stars ? 'opacity-100 scale-110' : 'opacity-20 grayscale'
-            }`}
-            style={{ animationDelay: `${i * 150}ms` }}
+            className={i < stars ? 'animate-pop' : 'opacity-20 grayscale'}
+            style={{ animationDelay: `${i * 180}ms` }}
           >
             ⭐
           </span>
@@ -107,6 +119,21 @@ export default function ResultScreen({ score, total, category, onPlayAgain }: Pr
           <span className="text-3xl text-chronos-muted font-normal">/{total}</span>
         </div>
       </div>
+
+      {/* English review result */}
+      {english && (
+        <div className="flex flex-col items-center gap-1 rounded-xl border border-sky-800 bg-sky-950/60 px-5 py-3">
+          <p className="text-xs uppercase tracking-widest text-sky-300">{t('results.english')}</p>
+          <p className="text-2xl font-bold tabular-nums text-sky-200">
+            {english.correct}<span className="text-base font-normal text-sky-400">/{english.total}</span>
+          </p>
+          {english.newWords > 0 && (
+            <p className="text-sm text-sky-300">{t('results.newWords', { count: english.newWords })}</p>
+          )}
+        </div>
+      )}
+
+      {rewards && <RewardsPanel rewards={rewards.lesson} level={rewards.level} daily={rewards.daily} />}
 
       {/* Perfect badge */}
       {score === total && (

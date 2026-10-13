@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta name="theme-color" content="#09090f" />
-        <meta name="description" content="Journey through the ages with multilingual historical trivia." />
+        <meta name="description" content="Learn English through history: short stories, questions and audio." />
         <meta name="application-name" content="Chronos" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />

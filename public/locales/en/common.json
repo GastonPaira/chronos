@@ -1,10 +1,13 @@
 {
   "home": {
-    "tagline": "Journey through the ages",
-    "subtitle": "Historical Trivia",
+    "tagline": "Learn English through history",
+    "subtitle": "Learn English by playing",
     "playButton": "Play",
     "multiplayerButton": "Multiplayer",
-    "languageLabel": "Language"
+    "languageLabel": "Language",
+    "blogLink": "More stories on History with Accent",
+    "words": "Words",
+    "progress": "Progress"
   },
   "eras": {
     "title": "Choose an Era",
@@ -34,7 +37,8 @@
       "name": "Modern Era",
       "years": "1800 – Present",
       "description": "Industry, wars, and technology shaped the contemporary world."
-    }
+    },
+    "progress": "{{seen}}/{{total}} seen"
   },
   "categories": {
     "title": "Choose a Category",
@@ -43,7 +47,9 @@
       "easy": "Easy",
       "medium": "Medium",
       "hard": "Hard"
-    }
+    },
+    "completed": "Completed",
+    "progress": "{{seen}}/{{total}} seen"
   },
   "game": {
     "score": "Score",
@@ -65,14 +71,17 @@
   "results": {
     "title": "Final Score",
     "perfect": "Perfect score!",
-    "playAgain": "Play Again",
+    "playAgain": "Next lesson",
     "chooseCategory": "Choose Category",
     "messages": {
       "low": "Keep exploring! Every journey begins with curiosity.",
       "medium": "Good effort! History reveals itself to those who seek it.",
       "high": "Excellent! You're a true student of history.",
       "perfect": "Flawless! The chronicles of time bow to you."
-    }
+    },
+    "english": "English",
+    "newWords_one": "You learned {{count}} new word!",
+    "newWords_other": "You learned {{count}} new words!"
   },
   "audio": {
     "read": "Read aloud",
@@ -110,7 +119,9 @@
       "text": "This will permanently delete all your statistics. This action cannot be undone.",
       "cancel": "Cancel",
       "confirm": "Yes, reset"
-    }
+    },
+    "wordsLearned": "Words learned",
+    "wordsLearnedHint": "Words you answered correctly twice in a row in the review"
   },
   "install": {
     "banner": {
@@ -202,5 +213,157 @@
     "title": "Question of the day",
     "playMore": "Play 10 more in Chronos",
     "answerToSee": "Answer to see the story behind it"
+  },
+  "vocab": {
+    "reviewTitle": "Word review",
+    "wordOf": "Word {{current}} of {{total}}",
+    "meaningPrompt": "What does this word mean?",
+    "clozePrompt": "Which word fits the blank?",
+    "skip": "Skip review",
+    "next": "Next word",
+    "finish": "See results",
+    "listen": "Listen",
+    "wrongMeaning": "Not quite — “{{term}}” means “{{es}}”.",
+    "wrongCloze": "Not quite — the word was “{{term}}” (“{{es}}”)."
+  },
+  "sound": {
+    "mute": "Mute sounds",
+    "unmute": "Turn sounds on"
+  },
+  "level": {
+    "label": "Level {{level}}",
+    "title": {
+      "1": "Curious Traveler",
+      "2": "Apprentice",
+      "3": "Scribe",
+      "4": "Explorer",
+      "5": "Scholar",
+      "6": "Storyteller",
+      "7": "Chronicler",
+      "8": "Historian",
+      "9": "Sage",
+      "10": "Master of Time"
+    }
+  },
+  "rewards": {
+    "xp": "+{{count}} XP",
+    "levelUp": "Level up! You reached level {{level}}",
+    "goal": "Daily goal complete! +{{xp}} XP bonus",
+    "newAchievements": "New achievements"
+  },
+  "daily": {
+    "title": "Today’s goal",
+    "lesson": "Finish 1 lesson",
+    "words": "Review {{count}} words",
+    "wordsHint": "Tip: the daily review in “My words” takes about 2 minutes.",
+    "complete": "Daily goal complete! Come back tomorrow.",
+    "start": "Start",
+    "review": "Review"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "start": "Start playing",
+    "step1": {
+      "title": "Learn English through history",
+      "text": "Read short stories from the past and answer a few questions. Each lesson has only 5 questions: about 4 minutes."
+    },
+    "step2": {
+      "title": "Tap the golden words",
+      "text": "Tap any underlined word to hear it and see its translation. Need help with a whole sentence? Tap ES.",
+      "hint": "Try it: tap “shipwreck”."
+    },
+    "step3": {
+      "title": "Come back every day",
+      "text": "Finish 1 lesson and review {{count}} words a day to keep your streak, earn XP and level up."
+    }
+  },
+  "words": {
+    "title": "My words",
+    "learned": "Learned",
+    "learning": "Learning",
+    "due_one": "{{count}} word is ready to review.",
+    "due_other": "{{count}} words are ready to review.",
+    "nothingDue": "No words are due today. You can still discover new ones!",
+    "empty": "You have no words yet. Start your first review to discover some.",
+    "reviewCta": "Start daily review",
+    "learnNew": "Learn new words",
+    "reviewHint": "About 2 minutes. Words you forgot come back first.",
+    "example": "Example",
+    "showMore": "Show more",
+    "reviewDone": "Review complete!",
+    "reviewResult": "You got {{correct}} of {{total}} right.",
+    "startLesson": "Start a lesson",
+    "backToWords": "Back to my words",
+    "nothingToReview": "There are no words to review yet."
+  },
+  "progress": {
+    "title": "My progress",
+    "xpTotal": "{{xp}} XP in total",
+    "toNext": "{{xp}} XP to level {{level}}",
+    "lessons": "Lessons",
+    "perfect": "Perfect lessons",
+    "goalDays": "Goal days",
+    "words": "Words learned",
+    "achievements": "Achievements",
+    "viewStats": "Detailed statistics"
+  },
+  "achievements": {
+    "first_lesson": {
+      "title": "First steps",
+      "desc": "Finish your first lesson."
+    },
+    "perfect_lesson": {
+      "title": "Flawless",
+      "desc": "Answer every question of a lesson correctly."
+    },
+    "lessons_10": {
+      "title": "Regular student",
+      "desc": "Finish 10 lessons."
+    },
+    "lessons_50": {
+      "title": "Dedicated scholar",
+      "desc": "Finish 50 lessons."
+    },
+    "streak_3": {
+      "title": "On fire",
+      "desc": "Play 3 days in a row."
+    },
+    "streak_7": {
+      "title": "One week strong",
+      "desc": "Play 7 days in a row."
+    },
+    "streak_30": {
+      "title": "Unstoppable",
+      "desc": "Play 30 days in a row."
+    },
+    "words_10": {
+      "title": "Word collector",
+      "desc": "Learn 10 words."
+    },
+    "words_50": {
+      "title": "Growing vocabulary",
+      "desc": "Learn 50 words."
+    },
+    "words_100": {
+      "title": "Wordsmith",
+      "desc": "Learn 100 words."
+    },
+    "goal_7": {
+      "title": "Goal getter",
+      "desc": "Complete the daily goal on 7 different days."
+    },
+    "level_5": {
+      "title": "Rising star",
+      "desc": "Reach level 5."
+    },
+    "xp_1000": {
+      "title": "Treasure of knowledge",
+      "desc": "Earn 1,000 XP."
+    },
+    "category": {
+      "title": "{{category}} complete",
+      "desc": "Answer every question in {{category}}."
+    }
   }
 }

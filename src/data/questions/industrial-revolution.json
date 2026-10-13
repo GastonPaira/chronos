@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "ir-001",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In which country did the Industrial Revolution begin, around 1760?",
+      "es": "¿En qué país comenzó la Revolución Industrial, alrededor de 1760?"
+    },
+    "options": [
+      {
+        "en": "Britain",
+        "es": "Gran Bretaña"
+      },
+      {
+        "en": "Spain",
+        "es": "España"
+      },
+      {
+        "en": "Russia",
+        "es": "Rusia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Britain had many things that helped factories to grow. It had a lot of coal and iron, rivers and ports, money to invest, and a government that protected business. Its empire gave it raw materials, like cotton, and customers around the world. Inventors and workers also lived there. Soon, new machines changed how people made cloth, iron and other goods.",
+      "es": "Gran Bretaña tenía muchas cosas que ayudaron a crecer a las fábricas. Tenía mucho carbón y hierro, ríos y puertos, dinero para invertir y un gobierno que protegía los negocios. Su imperio le daba materias primas, como el algodón, y clientes en todo el mundo. También vivían allí inventores y trabajadores. Pronto, nuevas máquinas cambiaron la forma de hacer telas, hierro y otros productos."
+    },
+    "meanwhile": {
+      "en": "Around 1760, in China, the Qing dynasty was at the height of its power. It had a population of about 200 million people.",
+      "es": "Alrededor de 1760, en China, la dinastía Qing estaba en el apogeo de su poder. Tenía una población de unos 200 millones de personas."
+    },
+    "reflection": {
+      "en": "A mix of resources, ideas and money started a new era. What mix of things do you need to start a project?",
+      "es": "Una mezcla de recursos, ideas y dinero inició una nueva era. ¿Qué mezcla de cosas necesitas para empezar un proyecto?"
+    },
+    "vocab": [
+      {
+        "term": "factories",
+        "es": "fábricas"
+      },
+      {
+        "term": "coal",
+        "es": "carbón"
+      },
+      {
+        "term": "raw materials",
+        "es": "materias primas"
+      },
+      {
+        "term": "inventors",
+        "es": "inventores"
+      }
+    ]
+  },
+  {
+    "id": "ir-002",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1769, James Watt patented an improved steam engine. Why was it better?",
+      "es": "En 1769, James Watt patentó una máquina de vapor mejorada. ¿Por qué era mejor?"
+    },
+    "options": [
+      {
+        "en": "It used much less coal to do the same work",
+        "es": "Usaba mucho menos carbón para hacer el mismo trabajo"
+      },
+      {
+        "en": "It could fly through the air for short trips",
+        "es": "Podía volar por el aire en trayectos cortos"
+      },
+      {
+        "en": "It ran on wood and water only, without fire",
+        "es": "Funcionaba solo con madera y agua, sin fuego"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Steam engines already existed, but they wasted a lot of heat and fuel. Watt added a separate chamber, called a condenser, to cool the steam. This made the engine much more efficient. His engine was used to pump water out of mines and, later, to power factories, mills and trains. The unit of power, the watt, is named after him.",
+      "es": "Las máquinas de vapor ya existían, pero desperdiciaban mucho calor y combustible. Watt añadió una cámara separada, llamada condensador, para enfriar el vapor. Esto hizo el motor mucho más eficiente. Su máquina se usó para sacar agua de las minas y, más tarde, para dar energía a fábricas, molinos y trenes. La unidad de potencia, el vatio, lleva su nombre."
+    },
+    "meanwhile": {
+      "en": "In 1769, the English explorer James Cook reached New Zealand and made detailed maps of its coasts.",
+      "es": "En 1769, el explorador inglés James Cook llegó a Nueva Zelanda e hizo mapas detallados de sus costas."
+    },
+    "reflection": {
+      "en": "Watt made an old machine much better with a clever change. When did a small improvement make a big difference for you?",
+      "es": "Watt mejoró mucho una máquina antigua con un cambio ingenioso. ¿Cuándo una pequeña mejora marcó una gran diferencia para ti?"
+    },
+    "vocab": [
+      {
+        "term": "wasted",
+        "es": "desperdiciaban"
+      },
+      {
+        "term": "condenser",
+        "es": "condensador"
+      },
+      {
+        "term": "efficient",
+        "es": "eficiente"
+      },
+      {
+        "term": "mines",
+        "es": "minas"
+      }
+    ]
+  },
+  {
+    "id": "ir-003",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What did the spinning jenny, invented around 1764, do?",
+      "es": "¿Qué hacía la hiladora \"spinning jenny\", inventada alrededor de 1764?"
+    },
+    "options": [
+      {
+        "en": "It spun several threads at the same time",
+        "es": "Hilaba varios hilos al mismo tiempo"
+      },
+      {
+        "en": "It washed cotton in the river",
+        "es": "Lavaba el algodón en el río"
+      },
+      {
+        "en": "It dyed cloth in bright colors",
+        "es": "Teñía la tela de colores brillantes"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before the spinning jenny, a person spun one thread at a time with a spinning wheel. With the jenny, one worker could turn eight or more threads at once. Later machines, driven by water or steam, were even faster. Cotton cloth became much cheaper. Soon, thousands of people were working in large cotton mills, mainly in northern England.",
+      "es": "Antes de la hiladora, una persona hilaba un hilo a la vez con una rueca. Con la \"jenny\", un trabajador podía hilar ocho o más hilos al mismo tiempo. Las máquinas posteriores, movidas por agua o vapor, eran aún más rápidas. La tela de algodón se volvió mucho más barata. Pronto, miles de personas trabajaban en grandes fábricas de algodón, sobre todo en el norte de Inglaterra."
+    },
+    "meanwhile": {
+      "en": "At the same time, in India, skilled weavers made some of the finest cotton cloth in the world. Later, cheap British cloth hurt their business.",
+      "es": "Al mismo tiempo, en la India, tejedores expertos hacían parte de la mejor tela de algodón del mundo. Más tarde, la tela británica barata perjudicó su negocio."
+    },
+    "reflection": {
+      "en": "Machines made cloth cheaper but took away the work of skilled weavers. Has a new technology ever made something easier for you but harder for others?",
+      "es": "Las máquinas abarataron la tela pero quitaron el trabajo a los tejedores expertos. ¿Alguna vez una nueva tecnología te hizo algo más fácil, pero más difícil para otros?"
+    },
+    "vocab": [
+      {
+        "term": "thread",
+        "es": "hilo"
+      },
+      {
+        "term": "spinning wheel",
+        "es": "rueca"
+      },
+      {
+        "term": "cotton",
+        "es": "algodón"
+      },
+      {
+        "term": "mills",
+        "es": "fábricas"
+      }
+    ]
+  },
+  {
+    "id": "ir-004",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What was a typical working day in a factory in the early 1800s?",
+      "es": "¿Cómo era una jornada típica de trabajo en una fábrica a principios del siglo XIX?"
+    },
+    "options": [
+      {
+        "en": "Twelve to sixteen hours, six days a week",
+        "es": "De doce a dieciséis horas, seis días a la semana"
+      },
+      {
+        "en": "Six hours, five days a week",
+        "es": "Seis horas, cinco días a la semana"
+      },
+      {
+        "en": "Eight hours, with long holidays",
+        "es": "Ocho horas, con largas vacaciones"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Factory owners wanted the machines to run all day, so workers started very early and finished late. Days of twelve to sixteen hours were common. The work was noisy and dangerous, with no safety rules, and the pay was low. Many workers were women and children. Workers who arrived late were often fined by the owner.",
+      "es": "Los dueños de las fábricas querían que las máquinas funcionaran todo el día, así que los trabajadores empezaban muy temprano y terminaban tarde. Eran comunes las jornadas de doce a dieciséis horas. El trabajo era ruidoso y peligroso, sin normas de seguridad, y la paga era baja. Muchos trabajadores eran mujeres y niños. A los que llegaban tarde, el dueño solía ponerles multas."
+    },
+    "meanwhile": {
+      "en": "In the 1820s, in South America, Argentina, Chile and Peru were winning their independence from Spain.",
+      "es": "En la década de 1820, en América del Sur, Argentina, Chile y Perú conseguían su independencia de España."
+    },
+    "reflection": {
+      "en": "Working hours today are much shorter. Which working conditions that we enjoy today were once only a dream?",
+      "es": "Las horas de trabajo hoy son mucho más cortas. ¿Qué condiciones laborales que disfrutamos hoy fueron alguna vez solo un sueño?"
+    },
+    "vocab": [
+      {
+        "term": "owners",
+        "es": "dueños"
+      },
+      {
+        "term": "dangerous",
+        "es": "peligroso"
+      },
+      {
+        "term": "pay",
+        "es": "paga"
+      },
+      {
+        "term": "fined",
+        "es": "multas"
+      }
+    ]
+  },
+  {
+    "id": "ir-005",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "The \"Rocket\", a steam locomotive built by George Stephenson and his son, became famous in 1829. Why?",
+      "es": "La \"Rocket\", una locomotora de vapor construida por George Stephenson y su hijo, se hizo famosa en 1829. ¿Por qué?"
+    },
+    "options": [
+      {
+        "en": "It won a competition for the best locomotive",
+        "es": "Ganó un concurso a la mejor locomotora"
+      },
+      {
+        "en": "It crossed the Atlantic Ocean in a week",
+        "es": "Cruzó el océano Atlántico en una semana"
+      },
+      {
+        "en": "It was the first airplane that carried people",
+        "es": "Fue el primer avión que transportó personas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A new railway between Liverpool and Manchester needed the best engine. In 1829, a competition took place at Rainhill, and Stephenson’s Rocket won. It could reach about 50 kilometers per hour, much faster than a horse. In 1830, the line opened as the first railway between two big cities with regular passenger service. Soon, tracks were built across Britain and the world.",
+      "es": "Un nuevo ferrocarril entre Liverpool y Manchester necesitaba el mejor motor. En 1829 se celebró un concurso en Rainhill, y la Rocket de Stephenson ganó. Podía alcanzar unos 50 kilómetros por hora, mucho más rápido que un caballo. En 1830 se inauguró la línea, la primera entre dos grandes ciudades con servicio regular de pasajeros. Pronto se construyeron vías por toda Gran Bretaña y el mundo."
+    },
+    "meanwhile": {
+      "en": "In 1830, Greece was recognized as an independent country, after a long war against the Ottoman Empire.",
+      "es": "En 1830, Grecia fue reconocida como país independiente, tras una larga guerra contra el Imperio otomano."
+    },
+    "reflection": {
+      "en": "The railway made distances feel shorter. Which technology has made the world feel smaller for you?",
+      "es": "El ferrocarril hizo que las distancias parecieran más cortas. ¿Qué tecnología ha hecho que el mundo te parezca más pequeño?"
+    },
+    "vocab": [
+      {
+        "term": "locomotive",
+        "es": "locomotora"
+      },
+      {
+        "term": "competition",
+        "es": "concurso"
+      },
+      {
+        "term": "passenger",
+        "es": "pasajeros"
+      },
+      {
+        "term": "tracks",
+        "es": "vías"
+      }
+    ]
+  },
+  {
+    "id": "ir-006",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What fuel powered most steam engines and factories during the Industrial Revolution?",
+      "es": "¿Qué combustible alimentaba a la mayoría de las máquinas de vapor y fábricas durante la Revolución Industrial?"
+    },
+    "options": [
+      {
+        "en": "Coal",
+        "es": "Carbón"
+      },
+      {
+        "en": "Natural gas",
+        "es": "Gas natural"
+      },
+      {
+        "en": "Uranium",
+        "es": "Uranio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Coal is a black rock that burns and gives a lot of heat. Britain had huge coal deposits, and miners dug them deeper and deeper. Coal was used to make steam, to melt iron and to heat homes. But mining was dangerous. Tunnels could collapse, and gas could explode. Until 1842, even young children worked underground.",
+      "es": "El carbón es una roca negra que arde y da mucho calor. Gran Bretaña tenía enormes yacimientos de carbón, y los mineros los cavaban cada vez más profundo. El carbón se usaba para producir vapor, fundir hierro y calentar hogares. Pero la minería era peligrosa. Los túneles podían derrumbarse y el gas podía explotar. Hasta 1842, incluso niños pequeños trabajaban bajo tierra."
+    },
+    "meanwhile": {
+      "en": "In 1800, the Italian scientist Alessandro Volta built the first electric battery.",
+      "es": "En 1800, el científico italiano Alessandro Volta construyó la primera batería eléctrica."
+    },
+    "reflection": {
+      "en": "Coal brought progress, but it cost lives and polluted the air. Which progress today has hidden costs?",
+      "es": "El carbón trajo progreso, pero costó vidas y contaminó el aire. ¿Qué progreso de hoy tiene costos ocultos?"
+    },
+    "vocab": [
+      {
+        "term": "deposits",
+        "es": "yacimientos"
+      },
+      {
+        "term": "miners",
+        "es": "mineros"
+      },
+      {
+        "term": "tunnels",
+        "es": "túneles"
+      },
+      {
+        "term": "explode",
+        "es": "explotar"
+      }
+    ]
+  },
+  {
+    "id": "ir-007",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "The Iron Bridge in England, finished in 1779, was famous because of what?",
+      "es": "El Puente de Hierro en Inglaterra, terminado en 1779, era famoso por qué?"
+    },
+    "options": [
+      {
+        "en": "It was the first big bridge made of cast iron",
+        "es": "Fue el primer gran puente hecho de hierro fundido"
+      },
+      {
+        "en": "It was the longest bridge in the world",
+        "es": "Era el puente más largo del mundo"
+      },
+      {
+        "en": "It was built entirely by machines",
+        "es": "Fue construido totalmente por máquinas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In Coalbrookdale, England, Abraham Darby had found a way to make iron with coke, a fuel made from coal. His grandson built a bridge over the River Severn, with a single arch about 30 meters wide. Many people came to see it. It showed that iron could be used for large buildings and bridges. Today, the place is a World Heritage Site.",
+      "es": "En Coalbrookdale, Inglaterra, Abraham Darby había encontrado una manera de hacer hierro con coque, un combustible hecho de carbón. Su nieto construyó un puente sobre el río Severn, con un solo arco de unos 30 metros de ancho. Mucha gente fue a verlo. Mostró que el hierro podía usarse para grandes edificios y puentes. Hoy, el lugar es Patrimonio de la Humanidad."
+    },
+    "meanwhile": {
+      "en": "In 1779, Captain James Cook was killed in Hawaii, on his third voyage across the Pacific.",
+      "es": "En 1779, el capitán James Cook murió en Hawái, en su tercer viaje por el Pacífico."
+    },
+    "reflection": {
+      "en": "A new material allowed people to build in a new way. What new material or tool has changed what is possible for you?",
+      "es": "Un nuevo material permitió construir de una forma nueva. ¿Qué nuevo material o herramienta ha cambiado lo que es posible para ti?"
+    },
+    "vocab": [
+      {
+        "term": "grandson",
+        "es": "nieto"
+      },
+      {
+        "term": "coke",
+        "es": "coque"
+      },
+      {
+        "term": "arch",
+        "es": "arco"
+      },
+      {
+        "term": "bridge",
+        "es": "puente"
+      }
+    ]
+  },
+  {
+    "id": "ir-008",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What problem did fast-growing industrial cities such as Manchester have?",
+      "es": "¿Qué problema tenían las ciudades industriales de rápido crecimiento, como Mánchester?"
+    },
+    "options": [
+      {
+        "en": "Overcrowding, dirty water and disease",
+        "es": "Hacinamiento, agua sucia y enfermedades"
+      },
+      {
+        "en": "A lack of workers for the new factories",
+        "es": "Falta de trabajadores para las nuevas fábricas"
+      },
+      {
+        "en": "Too many empty houses in the city center",
+        "es": "Demasiadas casas vacías en el centro de la ciudad"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1770, Manchester had about 25,000 people. By 1850, it had more than 300,000. Thousands of families came from the countryside to find work. They lived in small, crowded houses near the factories, often without clean water or toilets. The air was full of smoke. Diseases such as cholera and tuberculosis spread quickly, and many children died young.",
+      "es": "En 1770, Mánchester tenía unas 25.000 personas. En 1850, tenía más de 300.000. Miles de familias llegaron del campo para buscar trabajo. Vivían en casas pequeñas y abarrotadas cerca de las fábricas, a menudo sin agua limpia ni baños. El aire estaba lleno de humo. Enfermedades como el cólera y la tuberculosis se propagaban rápidamente y muchos niños morían jóvenes."
+    },
+    "meanwhile": {
+      "en": "Around 1800, Buenos Aires was a growing port in the Spanish colony of the Río de la Plata, with about 40,000 people.",
+      "es": "Alrededor de 1800, Buenos Aires era un puerto en crecimiento de la colonia española del Río de la Plata, con unas 40.000 personas."
+    },
+    "reflection": {
+      "en": "Cities grew faster than anyone could plan them. What problems do fast-growing cities have today?",
+      "es": "Las ciudades crecieron más rápido de lo que nadie podía planificar. ¿Qué problemas tienen hoy las ciudades que crecen rápido?"
+    },
+    "vocab": [
+      {
+        "term": "crowded",
+        "es": "abarrotadas"
+      },
+      {
+        "term": "countryside",
+        "es": "campo"
+      },
+      {
+        "term": "cholera",
+        "es": "cólera"
+      },
+      {
+        "term": "smoke",
+        "es": "humo"
+      }
+    ]
+  },
+  {
+    "id": "ir-009",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who were the Luddites, in Britain around 1811?",
+      "es": "¿Quiénes eran los luditas, en Gran Bretaña alrededor de 1811?"
+    },
+    "options": [
+      {
+        "en": "Workers who broke machines that took their jobs",
+        "es": "Trabajadores que rompían las máquinas que les quitaban el trabajo"
+      },
+      {
+        "en": "Rich factory owners who liked the new machines",
+        "es": "Ricos dueños de fábricas a los que les gustaban las nuevas máquinas"
+      },
+      {
+        "en": "Inventors who built the new machines",
+        "es": "Inventores que construían las nuevas máquinas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Skilled weavers and knitters saw that machines made cloth faster and with fewer workers, so wages fell and many lost their jobs. At night, groups of workers broke machines in factories. They said that they followed a leader called Ned Ludd. The government sent thousands of soldiers, and destroying machines became a crime punishable by death. Today, a \"Luddite\" is someone who dislikes new technology.",
+      "es": "Los tejedores y tejedores de punto expertos vieron que las máquinas hacían la tela más rápido y con menos trabajadores, así que los salarios bajaron y muchos perdieron su empleo. De noche, grupos de trabajadores rompían máquinas en las fábricas. Decían que seguían a un líder llamado Ned Ludd. El gobierno envió miles de soldados y destruir máquinas pasó a ser un delito castigado con la muerte. Hoy, un \"ludita\" es alguien a quien no le gusta la nueva tecnología."
+    },
+    "meanwhile": {
+      "en": "In 1810, in Buenos Aires, a group of citizens created the first local government after the May Revolution.",
+      "es": "En 1810, en Buenos Aires, un grupo de ciudadanos creó el primer gobierno local tras la Revolución de Mayo."
+    },
+    "reflection": {
+      "en": "The Luddites were afraid of losing their jobs to machines. Does today’s technology worry you in a similar way?",
+      "es": "Los luditas temían perder sus empleos ante las máquinas. ¿Te preocupa de manera parecida la tecnología de hoy?"
+    },
+    "vocab": [
+      {
+        "term": "weavers",
+        "es": "tejedores"
+      },
+      {
+        "term": "wages",
+        "es": "salarios"
+      },
+      {
+        "term": "soldiers",
+        "es": "soldados"
+      },
+      {
+        "term": "crime",
+        "es": "delito"
+      }
+    ]
+  },
+  {
+    "id": "ir-010",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What did the British Factory Act of 1833 do?",
+      "es": "¿Qué hizo la Ley de Fábricas británica de 1833?"
+    },
+    "options": [
+      {
+        "en": "It limited the working hours of children",
+        "es": "Limitó las horas de trabajo de los niños"
+      },
+      {
+        "en": "It closed all textile factories",
+        "es": "Cerró todas las fábricas textiles"
+      },
+      {
+        "en": "It gave workers the right to vote",
+        "es": "Dio a los trabajadores el derecho a votar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the early factories, children as young as five or six worked long hours. After reports and public anger, Parliament passed the Factory Act in 1833. It said that children under nine could not work in textile mills. Older children had limits on their hours, and they had to go to school for two hours a day. Government inspectors checked the factories.",
+      "es": "En las primeras fábricas, niños de cinco o seis años trabajaban muchas horas. Después de informes y de la indignación pública, el Parlamento aprobó la Ley de Fábricas en 1833. Decía que los niños menores de nueve años no podían trabajar en las fábricas textiles. Los niños mayores tenían límites de horas y debían ir a la escuela dos horas al día. Inspectores del gobierno revisaban las fábricas."
+    },
+    "meanwhile": {
+      "en": "In 1833, Britain passed a law to end slavery in most of its empire. It took effect in 1834.",
+      "es": "En 1833, Gran Bretaña aprobó una ley para abolir la esclavitud en la mayor parte de su imperio. Entró en vigor en 1834."
+    },
+    "reflection": {
+      "en": "It took public pressure to protect children. How can ordinary people make governments change unfair rules?",
+      "es": "Hizo falta presión pública para proteger a los niños. ¿Cómo pueden las personas comunes lograr que los gobiernos cambien reglas injustas?"
+    },
+    "vocab": [
+      {
+        "term": "textile",
+        "es": "textiles"
+      },
+      {
+        "term": "Parliament",
+        "es": "Parlamento"
+      },
+      {
+        "term": "inspectors",
+        "es": "inspectores"
+      },
+      {
+        "term": "limits",
+        "es": "límites"
+      }
+    ]
+  },
+  {
+    "id": "ir-011",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1844, Samuel Morse sent the first long-distance telegraph message in the United States. What made the telegraph so important?",
+      "es": "En 1844, Samuel Morse envió el primer mensaje telegráfico de larga distancia en Estados Unidos. ¿Qué hizo tan importante al telégrafo?"
+    },
+    "options": [
+      {
+        "en": "Messages could travel almost instantly along wires",
+        "es": "Los mensajes podían viajar casi al instante por cables"
+      },
+      {
+        "en": "It carried letters from town to town by train",
+        "es": "Llevaba cartas de pueblo en pueblo por tren"
+      },
+      {
+        "en": "It allowed people to see each other from far away",
+        "es": "Permitía que las personas se vieran desde lejos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before the telegraph, a message could only travel as fast as a horse, a train or a ship. The telegraph sent electric signals along a wire. Morse’s code used short and long signals, called dots and dashes, for each letter. His first message, \"What hath God wrought\", went from Washington to Baltimore. By 1866, a cable under the Atlantic joined America and Europe.",
+      "es": "Antes del telégrafo, un mensaje solo podía viajar tan rápido como un caballo, un tren o un barco. El telégrafo enviaba señales eléctricas por un cable. El código de Morse usaba señales cortas y largas, llamadas puntos y rayas, para cada letra. Su primer mensaje, \"What hath God wrought\" (\"¡Lo que Dios ha hecho!\"), fue de Washington a Baltimore. Hacia 1866, un cable bajo el Atlántico unía América y Europa."
+    },
+    "meanwhile": {
+      "en": "In 1845, a disease destroyed the potato crop in Ireland, and a terrible famine began that lasted several years.",
+      "es": "En 1845, una enfermedad destruyó el cultivo de papa en Irlanda y comenzó una terrible hambruna que duró varios años."
+    },
+    "reflection": {
+      "en": "The telegraph made news travel in minutes, not weeks. Is it always good to get information faster?",
+      "es": "El telégrafo hizo que las noticias viajaran en minutos y no en semanas. ¿Siempre es bueno recibir la información más rápido?"
+    },
+    "vocab": [
+      {
+        "term": "signals",
+        "es": "señales"
+      },
+      {
+        "term": "wire",
+        "es": "cable"
+      },
+      {
+        "term": "dots and dashes",
+        "es": "puntos y rayas"
+      },
+      {
+        "term": "code",
+        "es": "código"
+      }
+    ]
+  },
+  {
+    "id": "ir-012",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Suez Canal opened in 1869. Why was it so useful for ships?",
+      "es": "El canal de Suez se abrió en 1869. ¿Por qué era tan útil para los barcos?"
+    },
+    "options": [
+      {
+        "en": "It made the route between Europe and Asia much shorter",
+        "es": "Hizo la ruta entre Europa y Asia mucho más corta"
+      },
+      {
+        "en": "It connected the Atlantic and Pacific oceans",
+        "es": "Conectó los océanos Atlántico y Pacífico"
+      },
+      {
+        "en": "It allowed ships to cross a desert by land",
+        "es": "Permitió a los barcos cruzar un desierto por tierra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Suez Canal is about 160 kilometers long and joins the Mediterranean Sea with the Red Sea. It was built by Egyptian workers under the French engineer Ferdinand de Lesseps. Before it opened, ships from Britain to India had to sail all around Africa. With the canal, the trip became thousands of kilometers shorter. Many workers died during its construction.",
+      "es": "El canal de Suez mide unos 160 kilómetros de largo y une el mar Mediterráneo con el mar Rojo. Fue construido por trabajadores egipcios bajo la dirección del ingeniero francés Ferdinand de Lesseps. Antes de su apertura, los barcos de Gran Bretaña a la India tenían que dar la vuelta a todo África. Con el canal, el viaje se acortó miles de kilómetros. Muchos trabajadores murieron durante su construcción."
+    },
+    "meanwhile": {
+      "en": "In 1869, the Russian chemist Dmitri Mendeleev published the first version of the periodic table of the elements.",
+      "es": "En 1869, el químico ruso Dmitri Mendeléyev publicó la primera versión de la tabla periódica de los elementos."
+    },
+    "reflection": {
+      "en": "A canal changed trade, but people paid a high price to build it. Who pays the price for the things we enjoy?",
+      "es": "Un canal cambió el comercio, pero la gente pagó un alto precio por construirlo. ¿Quién paga el precio de las cosas que disfrutamos?"
+    },
+    "vocab": [
+      {
+        "term": "canal",
+        "es": "canal"
+      },
+      {
+        "term": "Red Sea",
+        "es": "mar Rojo"
+      },
+      {
+        "term": "engineer",
+        "es": "ingeniero"
+      },
+      {
+        "term": "construction",
+        "es": "construcción"
+      }
+    ]
+  },
+  {
+    "id": "ir-013",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which inventor made the first practical electric light bulb in 1879?",
+      "es": "¿Qué inventor hizo en 1879 la primera bombilla eléctrica práctica?"
+    },
+    "options": [
+      {
+        "en": "Thomas Edison",
+        "es": "Thomas Edison"
+      },
+      {
+        "en": "Isaac Newton",
+        "es": "Isaac Newton"
+      },
+      {
+        "en": "Benjamin Franklin",
+        "es": "Benjamin Franklin"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Many people had made electric lights before, but they burned out in minutes. Edison and his team tested thousands of materials. They found that a thin carbon thread inside a glass bulb could glow for hundreds of hours. In 1882, he opened the first power station in New York to light homes and offices. Soon, cities were bright at night.",
+      "es": "Muchas personas habían hecho luces eléctricas antes, pero se apagaban en minutos. Edison y su equipo probaron miles de materiales. Descubrieron que un fino hilo de carbono dentro de una bombilla de vidrio podía brillar durante cientos de horas. En 1882 abrió la primera central eléctrica en Nueva York para iluminar hogares y oficinas. Pronto, las ciudades estaban iluminadas de noche."
+    },
+    "meanwhile": {
+      "en": "In 1879, the War of the Pacific began between Chile, Peru and Bolivia over nitrate and guano deposits.",
+      "es": "En 1879 comenzó la Guerra del Pacífico entre Chile, Perú y Bolivia por yacimientos de salitre y guano."
+    },
+    "reflection": {
+      "en": "Edison tested thousands of materials before he succeeded. How do you keep going when something does not work?",
+      "es": "Edison probó miles de materiales antes de tener éxito. ¿Cómo sigues adelante cuando algo no funciona?"
+    },
+    "vocab": [
+      {
+        "term": "bulb",
+        "es": "bombilla"
+      },
+      {
+        "term": "burned out",
+        "es": "se apagaban"
+      },
+      {
+        "term": "thread",
+        "es": "hilo"
+      },
+      {
+        "term": "power station",
+        "es": "central eléctrica"
+      }
+    ]
+  },
+  {
+    "id": "ir-014",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Alexander Graham Bell patented which important invention in 1876?",
+      "es": "Alexander Graham Bell patentó qué importante invento en 1876?"
+    },
+    "options": [
+      {
+        "en": "The telephone",
+        "es": "El teléfono"
+      },
+      {
+        "en": "The radio",
+        "es": "La radio"
+      },
+      {
+        "en": "The television",
+        "es": "La televisión"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Bell was a Scottish-born teacher of deaf students, and he was interested in sound. He found a way to turn a voice into an electric signal and back into sound. According to the story, the first words that he said on the phone, in March 1876, were: \"Mr. Watson, come here, I want to see you.\" At first, people thought the telephone was a toy. Soon, every business wanted one.",
+      "es": "Bell era un maestro de estudiantes sordos, nacido en Escocia, y le interesaba el sonido. Encontró la forma de convertir una voz en una señal eléctrica y de nuevo en sonido. Según la historia, las primeras palabras que dijo por teléfono, en marzo de 1876, fueron: \"Señor Watson, venga aquí, quiero verlo\". Al principio, la gente pensó que el teléfono era un juguete. Pronto, todos los negocios querían uno."
+    },
+    "meanwhile": {
+      "en": "In 1876, in the United States, Lakota and Cheyenne warriors defeated Colonel Custer at the Battle of Little Bighorn.",
+      "es": "En 1876, en Estados Unidos, guerreros lakota y cheyenes derrotaron al coronel Custer en la batalla de Little Bighorn."
+    },
+    "reflection": {
+      "en": "People first thought the telephone was a toy. What invention seemed useless to you when it was new?",
+      "es": "Al principio la gente creyó que el teléfono era un juguete. ¿Qué invento te parecía inútil cuando era nuevo?"
+    },
+    "vocab": [
+      {
+        "term": "deaf",
+        "es": "sordos"
+      },
+      {
+        "term": "sound",
+        "es": "sonido"
+      },
+      {
+        "term": "signal",
+        "es": "señal"
+      },
+      {
+        "term": "toy",
+        "es": "juguete"
+      }
+    ]
+  },
+  {
+    "id": "ir-015",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "The Crystal Palace, built for the Great Exhibition of 1851 in London, was famous for being made mostly of what?",
+      "es": "El Palacio de Cristal, construido para la Gran Exposición de 1851 en Londres, era famoso por estar hecho sobre todo de qué?"
+    },
+    "options": [
+      {
+        "en": "Glass and iron",
+        "es": "Vidrio y hierro"
+      },
+      {
+        "en": "Wood and straw",
+        "es": "Madera y paja"
+      },
+      {
+        "en": "Stone and marble",
+        "es": "Piedra y mármol"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Great Exhibition showed the best machines, tools and goods from around the world. Joseph Paxton designed a huge building in Hyde Park, made of iron frames and more than 300,000 glass panes. It was built in only a few months from standard parts, a new way of building. About six million people visited it, many by train. Britain wanted to show that it was the \"workshop of the world\".",
+      "es": "La Gran Exposición mostró las mejores máquinas, herramientas y productos de todo el mundo. Joseph Paxton diseñó un enorme edificio en Hyde Park, hecho de estructuras de hierro y más de 300.000 paneles de vidrio. Se construyó en pocos meses con piezas estándar, una nueva forma de construir. Unos seis millones de personas lo visitaron, muchas en tren. Gran Bretaña quería mostrar que era el \"taller del mundo\"."
+    },
+    "meanwhile": {
+      "en": "In 1851, the Taiping Rebellion began in China. It became one of the deadliest wars in history.",
+      "es": "En 1851 comenzó la rebelión Taiping en China. Se convirtió en una de las guerras más mortíferas de la historia."
+    },
+    "reflection": {
+      "en": "The exhibition was a big show of progress and national pride. What achievements would your country show to the world?",
+      "es": "La exposición fue una gran muestra de progreso y orgullo nacional. ¿Qué logros mostraría tu país al mundo?"
+    },
+    "vocab": [
+      {
+        "term": "glass",
+        "es": "vidrio"
+      },
+      {
+        "term": "panes",
+        "es": "paneles"
+      },
+      {
+        "term": "parts",
+        "es": "piezas"
+      },
+      {
+        "term": "workshop",
+        "es": "taller"
+      }
+    ]
+  },
+  {
+    "id": "ir-016",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Communist Manifesto, published in 1848 by Karl Marx and Friedrich Engels, argued mainly that what would happen?",
+      "es": "El Manifiesto Comunista, publicado en 1848 por Karl Marx y Friedrich Engels, sostenía principalmente que qué ocurriría?"
+    },
+    "options": [
+      {
+        "en": "Workers would rise up against factory owners",
+        "es": "Los trabajadores se levantarían contra los dueños de las fábricas"
+      },
+      {
+        "en": "Machines would stop working one day",
+        "es": "Las máquinas dejarían de funcionar algún día"
+      },
+      {
+        "en": "Kings would become even more powerful",
+        "es": "Los reyes se harían aún más poderosos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Marx and Engels saw that factory owners became rich while workers lived in poverty. Engels had worked in his father’s cotton mill in Manchester and had seen the slums. In the Manifesto, they said that history is a struggle between classes. They predicted that workers would take power and share the wealth. It ended with the words \"Workers of the world, unite!\". These ideas changed the history of the 20th century.",
+      "es": "Marx y Engels veían que los dueños de las fábricas se enriquecían mientras los trabajadores vivían en la pobreza. Engels había trabajado en la fábrica de algodón de su padre en Mánchester y había visto los barrios pobres. En el Manifiesto dijeron que la historia es una lucha entre clases. Predijeron que los trabajadores tomarían el poder y repartirían la riqueza. Terminaba con las palabras \"¡Proletarios de todos los países, uníos!\". Estas ideas cambiaron la historia del siglo XX."
+    },
+    "meanwhile": {
+      "en": "In 1848, gold was discovered in California, and thousands of people rushed there from all over the world.",
+      "es": "En 1848 se descubrió oro en California, y miles de personas acudieron allí de todo el mundo."
+    },
+    "reflection": {
+      "en": "The Manifesto was about the gap between rich and poor. How do you see this gap today?",
+      "es": "El Manifiesto trataba de la brecha entre ricos y pobres. ¿Cómo ves esa brecha hoy?"
+    },
+    "vocab": [
+      {
+        "term": "poverty",
+        "es": "pobreza"
+      },
+      {
+        "term": "slums",
+        "es": "barrios pobres"
+      },
+      {
+        "term": "struggle",
+        "es": "lucha"
+      },
+      {
+        "term": "wealth",
+        "es": "riqueza"
+      }
+    ]
+  },
+  {
+    "id": "ir-017",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Mary Shelley wrote Frankenstein in 1818, during the Industrial Revolution. What is the story about?",
+      "es": "Mary Shelley escribió Frankenstein en 1818, durante la Revolución Industrial. ¿De qué trata la historia?"
+    },
+    "options": [
+      {
+        "en": "A scientist who makes a creature and loses control",
+        "es": "Un científico que crea una criatura y pierde el control"
+      },
+      {
+        "en": "A soldier who returns home from a long war",
+        "es": "Un soldado que vuelve a casa de una larga guerra"
+      },
+      {
+        "en": "A king who loses his crown and his land",
+        "es": "Un rey que pierde su corona y sus tierras"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mary Shelley was only 18 when she began the story, during a stormy summer in Switzerland. Victor Frankenstein, a young scientist, builds a creature from body parts and gives it life. But he is horrified and abandons it. The creature, lonely and angry, takes revenge. The book asks if scientists are responsible for what they create. Many people consider it the first science fiction novel.",
+      "es": "Mary Shelley tenía solo 18 años cuando comenzó la historia, durante un verano tormentoso en Suiza. Victor Frankenstein, un joven científico, construye una criatura con partes de cuerpos y le da vida. Pero se horroriza y la abandona. La criatura, solitaria y furiosa, se venga. El libro pregunta si los científicos son responsables de lo que crean. Muchos consideran que es la primera novela de ciencia ficción."
+    },
+    "meanwhile": {
+      "en": "In 1818, Chile declared its independence from Spain, with the help of the army of José de San Martín.",
+      "es": "En 1818, Chile declaró su independencia de España, con la ayuda del ejército de José de San Martín."
+    },
+    "reflection": {
+      "en": "The book asks if inventors are responsible for their creations. Who should be responsible for the effects of new technology?",
+      "es": "El libro pregunta si los inventores son responsables de sus creaciones. ¿Quién debería ser responsable de los efectos de la nueva tecnología?"
+    },
+    "vocab": [
+      {
+        "term": "scientist",
+        "es": "científico"
+      },
+      {
+        "term": "creature",
+        "es": "criatura"
+      },
+      {
+        "term": "horrified",
+        "es": "se horroriza"
+      },
+      {
+        "term": "revenge",
+        "es": "se venga"
+      }
+    ]
+  },
+  {
+    "id": "ir-018",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Eli Whitney’s cotton gin, invented in 1793, had a terrible side effect in the United States. What was it?",
+      "es": "La desmotadora de algodón de Eli Whitney, inventada en 1793, tuvo un efecto secundario terrible en Estados Unidos. ¿Cuál fue?"
+    },
+    "options": [
+      {
+        "en": "It increased the demand for enslaved workers",
+        "es": "Aumentó la demanda de trabajadores esclavizados"
+      },
+      {
+        "en": "It ended cotton farming in the South",
+        "es": "Terminó con el cultivo de algodón en el Sur"
+      },
+      {
+        "en": "It made cotton too expensive to sell",
+        "es": "Hizo el algodón demasiado caro para venderlo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cotton seeds were hard to remove by hand. The cotton gin, a simple machine, removed them quickly, so growing cotton became very profitable. Planters in the American South planted much more cotton and bought more enslaved people to work in the fields. Most of this cotton was sent to the mills of Britain. So, factories in England were closely linked to slavery in America.",
+      "es": "Las semillas de algodón eran difíciles de quitar a mano. La desmotadora, una máquina simple, las quitaba rápidamente, así que cultivar algodón se volvió muy rentable. Los hacendados del Sur de Estados Unidos plantaron mucho más algodón y compraron más personas esclavizadas para trabajar en los campos. La mayor parte de ese algodón se enviaba a las fábricas de Gran Bretaña. Así, las fábricas de Inglaterra estaban estrechamente ligadas a la esclavitud en América."
+    },
+    "meanwhile": {
+      "en": "In 1793, during the French Revolution, King Louis XVI was executed, and France became a republic.",
+      "es": "En 1793, durante la Revolución francesa, el rey Luis XVI fue ejecutado y Francia se convirtió en una república."
+    },
+    "reflection": {
+      "en": "A machine that saved work made slavery bigger. Why can a new invention have effects that nobody expected?",
+      "es": "Una máquina que ahorraba trabajo hizo más grande la esclavitud. ¿Por qué un nuevo invento puede tener efectos que nadie esperaba?"
+    },
+    "vocab": [
+      {
+        "term": "seeds",
+        "es": "semillas"
+      },
+      {
+        "term": "profitable",
+        "es": "rentable"
+      },
+      {
+        "term": "planters",
+        "es": "hacendados"
+      },
+      {
+        "term": "enslaved",
+        "es": "esclavizadas"
+      }
+    ]
+  },
+  {
+    "id": "ir-019",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How did Henry Ford’s moving assembly line, introduced in 1913, change car production?",
+      "es": "¿Cómo cambió la producción de automóviles la línea de montaje móvil de Henry Ford, introducida en 1913?"
+    },
+    "options": [
+      {
+        "en": "Cars were built much faster and cost much less",
+        "es": "Los autos se construían mucho más rápido y costaban mucho menos"
+      },
+      {
+        "en": "Each car was made by a single craftsman",
+        "es": "Cada auto lo hacía un solo artesano"
+      },
+      {
+        "en": "Cars were built only to order",
+        "es": "Los autos se fabricaban solo por encargo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before, a few skilled workers built each car from start to finish. In Ford’s factory, the car moved slowly past workers, and each one did only one small job over and over. The time to build a Model T fell from about twelve hours to about 90 minutes. The price dropped, so ordinary families could buy a car. In 1914, Ford also raised wages to five dollars a day.",
+      "es": "Antes, unos pocos obreros expertos construían cada auto de principio a fin. En la fábrica de Ford, el auto se movía lentamente frente a los trabajadores y cada uno hacía solo una pequeña tarea una y otra vez. El tiempo para construir un Modelo T bajó de unas doce horas a unos 90 minutos. El precio bajó, así que las familias comunes podían comprar un auto. En 1914, Ford también subió los salarios a cinco dólares al día."
+    },
+    "meanwhile": {
+      "en": "In 1908, a huge explosion, probably from a meteor, flattened millions of trees in Tunguska, Siberia.",
+      "es": "En 1908, una enorme explosión, probablemente de un meteorito, arrasó millones de árboles en Tunguska, Siberia."
+    },
+    "reflection": {
+      "en": "The assembly line made work repetitive but products cheaper. Would you prefer a varied job or a cheaper product?",
+      "es": "La línea de montaje hizo el trabajo repetitivo pero los productos más baratos. ¿Preferirías un trabajo variado o un producto más barato?"
+    },
+    "vocab": [
+      {
+        "term": "assembly line",
+        "es": "línea de montaje"
+      },
+      {
+        "term": "skilled",
+        "es": "expertos"
+      },
+      {
+        "term": "price",
+        "es": "precio"
+      },
+      {
+        "term": "wages",
+        "es": "salarios"
+      }
+    ]
+  },
+  {
+    "id": "ir-020",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who were the \"Lowell mill girls\" in Massachusetts in the 1830s and 1840s?",
+      "es": "¿Quiénes eran las \"chicas de las fábricas de Lowell\" en Massachusetts en las décadas de 1830 y 1840?"
+    },
+    "options": [
+      {
+        "en": "Young women from farms who worked in textile mills",
+        "es": "Jóvenes de granjas que trabajaban en fábricas textiles"
+      },
+      {
+        "en": "Daughters of the factory owners in Massachusetts",
+        "es": "Hijas de los dueños de las fábricas de Massachusetts"
+      },
+      {
+        "en": "Teachers at a school for girls in Boston",
+        "es": "Maestras de una escuela de niñas en Boston"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The mills of Lowell hired thousands of unmarried women from farms in New England. They lived in boarding houses, followed strict rules and worked about twelve hours a day. They earned their own money, which was rare at the time. Many read and wrote, and they even published a magazine, the Lowell Offering. When wages were cut, they organized strikes.",
+      "es": "Las fábricas de Lowell contrataron a miles de mujeres solteras de las granjas de Nueva Inglaterra. Vivían en pensiones, seguían reglas estrictas y trabajaban unas doce horas al día. Ganaban su propio dinero, algo raro en esa época. Muchas leían y escribían, e incluso publicaron una revista, la Lowell Offering. Cuando les recortaron los salarios, organizaron huelgas."
+    },
+    "meanwhile": {
+      "en": "In 1839, the First Opium War began between Britain and China, after China tried to stop the opium trade.",
+      "es": "En 1839 comenzó la Primera Guerra del Opio entre Gran Bretaña y China, después de que China intentara detener el comercio de opio."
+    },
+    "reflection": {
+      "en": "For many women, mill work meant more independence. What kind of work gave people more freedom in your family history?",
+      "es": "Para muchas mujeres, el trabajo en las fábricas significaba más independencia. ¿Qué tipo de trabajo dio más libertad a la gente en la historia de tu familia?"
+    },
+    "vocab": [
+      {
+        "term": "unmarried",
+        "es": "solteras"
+      },
+      {
+        "term": "boarding houses",
+        "es": "pensiones"
+      },
+      {
+        "term": "magazine",
+        "es": "revista"
+      },
+      {
+        "term": "strikes",
+        "es": "huelgas"
+      }
+    ]
+  },
+  {
+    "id": "ir-021",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Charles Dickens wrote about poor children in books such as Oliver Twist. Why did he care about this subject?",
+      "es": "Charles Dickens escribió sobre niños pobres en libros como Oliver Twist. ¿Por qué le importaba este tema?"
+    },
+    "options": [
+      {
+        "en": "As a boy, he had worked in a factory",
+        "es": "De niño, había trabajado en una fábrica"
+      },
+      {
+        "en": "He was the owner of a large factory in London",
+        "es": "Era el dueño de una gran fábrica en Londres"
+      },
+      {
+        "en": "He was a judge who sent children to prison",
+        "es": "Era un juez que enviaba niños a la cárcel"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When Dickens was twelve, his father went to a debtors’ prison. Charles had to leave school and work in a factory that made boot polish, pasting labels on bottles. He never forgot the shame. In Oliver Twist (1837–1839), he told the story of an orphan boy in a harsh workhouse, who famously asks for more food. His novels made readers feel sorry for the poor and want change.",
+      "es": "Cuando Dickens tenía doce años, su padre fue a la cárcel por deudas. Charles tuvo que dejar la escuela y trabajar en una fábrica de betún para zapatos, pegando etiquetas en botellas. Nunca olvidó la vergüenza. En Oliver Twist (1837–1839) contó la historia de un huérfano en un duro asilo para pobres, que famosamente pide más comida. Sus novelas hicieron que los lectores se compadecieran de los pobres y desearan un cambio."
+    },
+    "meanwhile": {
+      "en": "In 1837, Victoria became queen of the United Kingdom at the age of 18, and she ruled for 63 years.",
+      "es": "En 1837, Victoria se convirtió en reina del Reino Unido a los 18 años y reinó durante 63 años."
+    },
+    "reflection": {
+      "en": "A book can make us care about people we never meet. Which story made you feel sympathy for someone?",
+      "es": "Un libro puede hacernos preocupar por personas que nunca conoceremos. ¿Qué historia te hizo sentir compasión por alguien?"
+    },
+    "vocab": [
+      {
+        "term": "debtors’ prison",
+        "es": "cárcel por deudas"
+      },
+      {
+        "term": "labels",
+        "es": "etiquetas"
+      },
+      {
+        "term": "orphan",
+        "es": "huérfano"
+      },
+      {
+        "term": "workhouse",
+        "es": "asilo para pobres"
+      }
+    ]
+  },
+  {
+    "id": "ir-022",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1854, Dr. John Snow found the cause of a cholera outbreak in London. What did he discover?",
+      "es": "En 1854, el doctor John Snow descubrió la causa de un brote de cólera en Londres. ¿Qué descubrió?"
+    },
+    "options": [
+      {
+        "en": "The disease came from a contaminated water pump",
+        "es": "La enfermedad venía de una bomba de agua contaminada"
+      },
+      {
+        "en": "The disease was spread by bad smells",
+        "es": "La enfermedad se propagaba por los malos olores"
+      },
+      {
+        "en": "The disease came from poor people’s clothes",
+        "es": "La enfermedad venía de la ropa de los pobres"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At the time, most doctors believed that cholera spread through \"bad air\". Snow disagreed. He marked every death on a map of the Soho area and saw that most of them were close to one water pump on Broad Street. He asked the authorities to remove the pump handle, and the outbreak slowed down. His map helped to prove that dirty water carries the disease. London later built a modern sewer system.",
+      "es": "En esa época, la mayoría de los médicos creía que el cólera se propagaba por el \"aire malo\". Snow no estaba de acuerdo. Marcó cada muerte en un mapa del barrio de Soho y vio que la mayoría estaba cerca de una bomba de agua de la calle Broad. Pidió a las autoridades que quitaran la palanca de la bomba y el brote disminuyó. Su mapa ayudó a demostrar que el agua sucia transmite la enfermedad. Londres construyó más tarde un moderno sistema de alcantarillado."
+    },
+    "meanwhile": {
+      "en": "In 1854, during the Crimean War, the nurse Florence Nightingale improved hospital hygiene and saved many soldiers.",
+      "es": "En 1854, durante la guerra de Crimea, la enfermera Florence Nightingale mejoró la higiene de los hospitales y salvó a muchos soldados."
+    },
+    "reflection": {
+      "en": "Snow used a map and data to find the truth. When did looking carefully at the facts help you to solve a problem?",
+      "es": "Snow usó un mapa y datos para hallar la verdad. ¿Cuándo mirar con atención los hechos te ayudó a resolver un problema?"
+    },
+    "vocab": [
+      {
+        "term": "outbreak",
+        "es": "brote"
+      },
+      {
+        "term": "pump",
+        "es": "bomba"
+      },
+      {
+        "term": "handle",
+        "es": "palanca"
+      },
+      {
+        "term": "sewer",
+        "es": "alcantarillado"
+      }
+    ]
+  },
+  {
+    "id": "ir-023",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which Asian country changed very quickly after 1868, building railways, factories and modern schools?",
+      "es": "¿Qué país asiático cambió muy rápido después de 1868, construyendo ferrocarriles, fábricas y escuelas modernas?"
+    },
+    "options": [
+      {
+        "en": "Japan",
+        "es": "Japón"
+      },
+      {
+        "en": "India",
+        "es": "India"
+      },
+      {
+        "en": "Thailand",
+        "es": "Tailandia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1868, a group of leaders ended the rule of the shoguns and put the young Emperor Meiji at the center of the state. The new government decided to learn from the West. It sent students abroad, built the first railway in 1872, opened factories and created schools for all children. In only about 30 years, Japan became an industrial power with a modern army and navy.",
+      "es": "En 1868, un grupo de líderes puso fin al gobierno de los shogunes y colocó al joven emperador Meiji en el centro del Estado. El nuevo gobierno decidió aprender de Occidente. Envió estudiantes al extranjero, construyó el primer ferrocarril en 1872, abrió fábricas y creó escuelas para todos los niños. En solo unos 30 años, Japón se convirtió en una potencia industrial con un ejército y una armada modernos."
+    },
+    "meanwhile": {
+      "en": "In January 1871, the German states united to form the German Empire, with Berlin as its capital.",
+      "es": "En enero de 1871, los Estados alemanes se unieron para formar el Imperio alemán, con Berlín como capital."
+    },
+    "reflection": {
+      "en": "Japan learned fast from others and still kept its own culture. What have you learned from others without losing your identity?",
+      "es": "Japón aprendió rápido de otros y aun así mantuvo su propia cultura. ¿Qué has aprendido de otros sin perder tu identidad?"
+    },
+    "vocab": [
+      {
+        "term": "railways",
+        "es": "ferrocarriles"
+      },
+      {
+        "term": "abroad",
+        "es": "al extranjero"
+      },
+      {
+        "term": "power",
+        "es": "potencia"
+      },
+      {
+        "term": "navy",
+        "es": "armada"
+      }
+    ]
+  },
+  {
+    "id": "ir-024",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why did railways make people in Britain and other countries create standard time zones?",
+      "es": "¿Por qué los ferrocarriles llevaron a crear husos horarios estándar en Gran Bretaña y otros países?"
+    },
+    "options": [
+      {
+        "en": "Each town had its own time, so timetables got confusing",
+        "es": "Cada ciudad tenía su propia hora, así que los horarios eran confusos"
+      },
+      {
+        "en": "Trains ran only at night, in the dark",
+        "es": "Los trenes funcionaban solo de noche, a oscuras"
+      },
+      {
+        "en": "Clocks stopped working near the big stations",
+        "es": "Los relojes dejaban de funcionar cerca de las grandes estaciones"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before railways, each town set its clocks by the sun, so noon in Bristol was a few minutes later than in London. This was not a problem when travel was slow. With fast trains, timetables became confusing. In the 1840s, British railways began to use London time everywhere. In 1884, an international conference chose Greenwich as the starting line for world time zones.",
+      "es": "Antes de los ferrocarriles, cada ciudad ajustaba sus relojes según el sol, así que el mediodía en Bristol llegaba unos minutos más tarde que en Londres. Esto no era un problema cuando los viajes eran lentos. Con los trenes rápidos, los horarios se volvieron confusos. En la década de 1840, los ferrocarriles británicos empezaron a usar la hora de Londres en todas partes. En 1884, una conferencia internacional eligió Greenwich como línea de partida de los husos horarios del mundo."
+    },
+    "meanwhile": {
+      "en": "In 1884–1885, European powers met in Berlin and made rules for dividing Africa, without inviting any African leaders.",
+      "es": "En 1884–1885, las potencias europeas se reunieron en Berlín e hicieron reglas para repartirse África, sin invitar a ningún líder africano."
+    },
+    "reflection": {
+      "en": "A new technology forced everybody to agree on the time. What other things must we agree on in order to live together?",
+      "es": "Una nueva tecnología obligó a todos a ponerse de acuerdo sobre la hora. ¿Sobre qué otras cosas debemos ponernos de acuerdo para convivir?"
+    },
+    "vocab": [
+      {
+        "term": "timetables",
+        "es": "horarios"
+      },
+      {
+        "term": "noon",
+        "es": "mediodía"
+      },
+      {
+        "term": "conference",
+        "es": "conferencia"
+      },
+      {
+        "term": "time zones",
+        "es": "husos horarios"
+      }
+    ]
+  },
+  {
+    "id": "ir-025",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What happened to the six \"Tolpuddle Martyrs\" in 1834?",
+      "es": "¿Qué les pasó a los seis \"Mártires de Tolpuddle\" en 1834?"
+    },
+    "options": [
+      {
+        "en": "They were sent to Australia for forming a union",
+        "es": "Fueron enviados a Australia por formar un sindicato"
+      },
+      {
+        "en": "They were made owners of a big factory",
+        "es": "Los nombraron dueños de una gran fábrica"
+      },
+      {
+        "en": "They won a big prize for their farm work",
+        "es": "Ganaron un gran premio por su trabajo en el campo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the village of Tolpuddle, farm workers earned very little, and the owners wanted to cut their pay again. Six men formed a union and promised to support each other. The authorities arrested them and sent them to Australia, as convicts, for seven years. This caused a big protest. Hundreds of thousands signed petitions, and they were pardoned in 1836. Unions became legal soon after.",
+      "es": "En el pueblo de Tolpuddle, los trabajadores del campo ganaban muy poco y los dueños querían reducir otra vez su paga. Seis hombres formaron un sindicato y prometieron apoyarse mutuamente. Las autoridades los arrestaron y los enviaron a Australia, como presos, por siete años. Esto provocó una gran protesta. Cientos de miles firmaron peticiones y fueron perdonados en 1836. Los sindicatos se hicieron legales poco después."
+    },
+    "meanwhile": {
+      "en": "In 1835, the scientist Charles Darwin visited the Galápagos Islands, which later inspired his theory of evolution.",
+      "es": "En 1835, el científico Charles Darwin visitó las islas Galápagos, lo que más tarde inspiró su teoría de la evolución."
+    },
+    "reflection": {
+      "en": "Workers joined together to have more power. Which groups or unions help people in your community?",
+      "es": "Los trabajadores se unieron para tener más poder. ¿Qué grupos o sindicatos ayudan a la gente de tu comunidad?"
+    },
+    "vocab": [
+      {
+        "term": "union",
+        "es": "sindicato"
+      },
+      {
+        "term": "authorities",
+        "es": "autoridades"
+      },
+      {
+        "term": "convicts",
+        "es": "presos"
+      },
+      {
+        "term": "pardoned",
+        "es": "perdonados"
+      }
+    ]
+  },
+  {
+    "id": "ir-026",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How did the Agricultural Revolution help to make the Industrial Revolution possible?",
+      "es": "¿Cómo ayudó la Revolución Agrícola a hacer posible la Revolución Industrial?"
+    },
+    "options": [
+      {
+        "en": "Farms produced more food with fewer workers",
+        "es": "Las granjas producían más alimentos con menos trabajadores"
+      },
+      {
+        "en": "Farmers built the first factories",
+        "es": "Los agricultores construyeron las primeras fábricas"
+      },
+      {
+        "en": "Farms were moved to the cities",
+        "es": "Las granjas se trasladaron a las ciudades"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the 1700s, British farmers began to use new methods: crop rotation with turnips and clover, better tools like the seed drill, and selective breeding of animals. The harvests grew, so there was more food for a growing population. At the same time, rich landowners fenced off common land. Many poor families lost their small farms and moved to the cities to work in factories.",
+      "es": "En el siglo XVIII, los agricultores británicos empezaron a usar nuevos métodos: rotación de cultivos con nabos y trébol, mejores herramientas como la sembradora, y cría selectiva de animales. Las cosechas aumentaron, así que había más comida para una población creciente. Al mismo tiempo, los ricos terratenientes cercaron las tierras comunales. Muchas familias pobres perdieron sus pequeñas granjas y se mudaron a las ciudades para trabajar en las fábricas."
+    },
+    "meanwhile": {
+      "en": "In the 1700s, on the pampas of South America, wild cattle and gauchos lived on huge open plains.",
+      "es": "En el siglo XVIII, en las pampas de América del Sur, el ganado salvaje y los gauchos vivían en enormes llanuras abiertas."
+    },
+    "reflection": {
+      "en": "Better farming was good for many, but it pushed poor families off their land. Who benefits and who loses when a system changes?",
+      "es": "La mejora de la agricultura fue buena para muchos, pero expulsó a familias pobres de sus tierras. ¿Quién gana y quién pierde cuando cambia un sistema?"
+    },
+    "vocab": [
+      {
+        "term": "crop rotation",
+        "es": "rotación de cultivos"
+      },
+      {
+        "term": "seed drill",
+        "es": "sembradora"
+      },
+      {
+        "term": "harvests",
+        "es": "cosechas"
+      },
+      {
+        "term": "fenced off",
+        "es": "cercaron"
+      }
+    ]
+  },
+  {
+    "id": "ir-027",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why do many scientists link the Industrial Revolution to climate change?",
+      "es": "¿Por qué muchos científicos relacionan la Revolución Industrial con el cambio climático?"
+    },
+    "options": [
+      {
+        "en": "Burning coal released large amounts of carbon dioxide",
+        "es": "Quemar carbón liberó grandes cantidades de dióxido de carbono"
+      },
+      {
+        "en": "Factories made the Sun hotter every year",
+        "es": "Las fábricas hacían que el Sol fuera más caliente cada año"
+      },
+      {
+        "en": "Trains changed the ocean currents around Britain",
+        "es": "Los trenes cambiaron las corrientes oceánicas de Gran Bretaña"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Carbon dioxide, or CO2, is a gas that traps heat in the atmosphere. Before 1750, the amount of CO2 in the air was about 280 parts per million. When people began to burn coal, oil and gas in large amounts, the number rose. Today it is more than 420. In 1896, the Swedish scientist Svante Arrhenius already calculated that burning coal could warm the Earth.",
+      "es": "El dióxido de carbono, o CO2, es un gas que retiene el calor en la atmósfera. Antes de 1750, la cantidad de CO2 en el aire era de unas 280 partes por millón. Cuando la gente empezó a quemar carbón, petróleo y gas en grandes cantidades, ese número subió. Hoy es de más de 420. En 1896, el científico sueco Svante Arrhenius ya calculó que quemar carbón podría calentar la Tierra."
+    },
+    "meanwhile": {
+      "en": "In the 1890s, in the United States and Europe, people began to use gasoline cars, which were also a new source of pollution.",
+      "es": "En la década de 1890, en Estados Unidos y Europa, la gente empezó a usar autos de gasolina, que también fueron una nueva fuente de contaminación."
+    },
+    "reflection": {
+      "en": "The Industrial Revolution gave us comfort and also a problem. What can you do in your daily life to help the planet?",
+      "es": "La Revolución Industrial nos dio comodidad y también un problema. ¿Qué puedes hacer en tu vida diaria para ayudar al planeta?"
+    },
+    "vocab": [
+      {
+        "term": "carbon dioxide",
+        "es": "dióxido de carbono"
+      },
+      {
+        "term": "traps",
+        "es": "retiene"
+      },
+      {
+        "term": "atmosphere",
+        "es": "atmósfera"
+      },
+      {
+        "term": "warm",
+        "es": "calentar"
+      }
+    ]
+  },
+  {
+    "id": "ir-028",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1843, Ada Lovelace wrote notes about Charles Babbage’s Analytical Engine. Why is she famous today?",
+      "es": "En 1843, Ada Lovelace escribió notas sobre la Máquina Analítica de Charles Babbage. ¿Por qué es famosa hoy?"
+    },
+    "options": [
+      {
+        "en": "She wrote what is often called the first computer program",
+        "es": "Escribió lo que a menudo se llama el primer programa informático"
+      },
+      {
+        "en": "She built the first steam locomotive in Britain",
+        "es": "Construyó la primera locomotora de vapor de Gran Bretaña"
+      },
+      {
+        "en": "She discovered electricity with a kite",
+        "es": "Descubrió la electricidad con una cometa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Babbage designed a mechanical machine that could do many kinds of calculations, but it was never finished. Ada Lovelace, the daughter of the poet Lord Byron, understood its potential. In her notes, she described a step-by-step method for the machine to calculate a series of numbers. Many people see this as the first computer program. She also imagined that machines could one day make music.",
+      "es": "Babbage diseñó una máquina mecánica que podía hacer muchos tipos de cálculos, pero nunca se terminó. Ada Lovelace, hija del poeta Lord Byron, entendió su potencial. En sus notas describió un método paso a paso para que la máquina calculara una serie de números. Mucha gente ve esto como el primer programa informático. También imaginó que las máquinas podrían algún día componer música."
+    },
+    "meanwhile": {
+      "en": "In 1843, the SS Great Britain, the first large iron ship with a propeller, was launched in England.",
+      "es": "En 1843 se botó en Inglaterra el SS Great Britain, el primer gran barco de hierro con hélice."
+    },
+    "reflection": {
+      "en": "Ada saw uses for computers long before they existed. Which future technology can you imagine?",
+      "es": "Ada vio usos para los ordenadores mucho antes de que existieran. ¿Qué tecnología del futuro puedes imaginar?"
+    },
+    "vocab": [
+      {
+        "term": "calculations",
+        "es": "cálculos"
+      },
+      {
+        "term": "potential",
+        "es": "potencial"
+      },
+      {
+        "term": "step-by-step",
+        "es": "paso a paso"
+      },
+      {
+        "term": "program",
+        "es": "programa"
+      }
+    ]
+  },
+  {
+    "id": "ir-029",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1869, a famous ceremony took place at Promontory Summit, in Utah. What did it celebrate?",
+      "es": "En 1869, tuvo lugar una famosa ceremonia en Promontory Summit, en Utah. ¿Qué celebraba?"
+    },
+    "options": [
+      {
+        "en": "The completion of the first railroad across the United States",
+        "es": "La finalización del primer ferrocarril a través de Estados Unidos"
+      },
+      {
+        "en": "The end of the American Civil War in the South",
+        "es": "El final de la Guerra Civil estadounidense en el Sur"
+      },
+      {
+        "en": "The opening of the Panama Canal for big ships",
+        "es": "La apertura del canal de Panamá para grandes barcos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Two companies built the first transcontinental railroad: one from California in the west, and one from the east. In May 1869, the tracks met at Promontory Summit, where a golden spike was hammered. Thousands of Chinese and Irish workers had done the hard work. The trip across the country, which took months by wagon, now took about a week.",
+      "es": "Dos compañías construyeron el primer ferrocarril transcontinental: una desde California, en el oeste, y otra desde el este. En mayo de 1869, las vías se unieron en Promontory Summit, donde se clavó un clavo de oro. Miles de trabajadores chinos e irlandeses habían hecho el trabajo duro. El viaje a través del país, que llevaba meses en carreta, ahora duraba aproximadamente una semana."
+    },
+    "meanwhile": {
+      "en": "In 1869, the Suez Canal also opened in Egypt, joining the Mediterranean and the Red Sea.",
+      "es": "En 1869 también se inauguró el canal de Suez en Egipto, que une el Mediterráneo y el mar Rojo."
+    },
+    "reflection": {
+      "en": "Chinese and Irish workers built the railroad, but their names are rarely remembered. Whose work do you think history has forgotten?",
+      "es": "Trabajadores chinos e irlandeses construyeron el ferrocarril, pero rara vez se recuerdan sus nombres. ¿El trabajo de quién crees que ha olvidado la historia?"
+    },
+    "vocab": [
+      {
+        "term": "railroad",
+        "es": "ferrocarril"
+      },
+      {
+        "term": "spike",
+        "es": "clavo"
+      },
+      {
+        "term": "wagon",
+        "es": "carreta"
+      },
+      {
+        "term": "tracks",
+        "es": "vías"
+      }
+    ]
+  },
+  {
+    "id": "ir-030",
+    "category": "industrial-revolution",
+    "category_label": {
+      "en": "Industrial Revolution",
+      "es": "Revolución Industrial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Around 1856, Henry Bessemer invented a method to produce a cheap material that was stronger than iron. What was it?",
+      "es": "Alrededor de 1856, Henry Bessemer inventó un método para producir un material barato y más fuerte que el hierro. ¿Cuál era?"
+    },
+    "options": [
+      {
+        "en": "Steel",
+        "es": "Acero"
+      },
+      {
+        "en": "Plastic",
+        "es": "Plástico"
+      },
+      {
+        "en": "Concrete",
+        "es": "Hormigón"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Steel is iron with a little carbon, and it is stronger and more flexible than plain iron. But it was very expensive to make. Bessemer found that blowing air through melted iron removed impurities quickly. Suddenly, steel became cheap. It was used for railway tracks, ships, bridges and tall buildings. Without cheap steel, there would be no skyscrapers.",
+      "es": "El acero es hierro con un poco de carbono, y es más fuerte y flexible que el hierro común. Pero era muy caro de fabricar. Bessemer descubrió que soplar aire a través del hierro fundido eliminaba rápidamente las impurezas. De repente, el acero se hizo barato. Se usó para vías de ferrocarril, barcos, puentes y edificios altos. Sin acero barato, no habría rascacielos."
+    },
+    "meanwhile": {
+      "en": "In 1856, workers in the Neander Valley, in Germany, found strange bones. They belonged to an early human, the Neanderthal.",
+      "es": "En 1856, unos trabajadores del valle de Neander, en Alemania, encontraron huesos extraños. Pertenecían a un humano antiguo, el neandertal."
+    },
+    "reflection": {
+      "en": "One cheap material made modern cities possible. What everyday material do we depend on without noticing?",
+      "es": "Un material barato hizo posibles las ciudades modernas. ¿De qué material cotidiano dependemos sin darnos cuenta?"
+    },
+    "vocab": [
+      {
+        "term": "carbon",
+        "es": "carbono"
+      },
+      {
+        "term": "flexible",
+        "es": "flexible"
+      },
+      {
+        "term": "impurities",
+        "es": "impurezas"
+      },
+      {
+        "term": "skyscrapers",
+        "es": "rascacielos"
+      }
+    ]
+  }
+]

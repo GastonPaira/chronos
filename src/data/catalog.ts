@@ -49,7 +49,7 @@ export const ERAS: EraDef[] = [
     id: 'modern-era',
     icon: '🌐',
     image: '/images/modern-era.jpg',
-    categoryIds: [],
+    categoryIds: ['industrial-revolution', 'world-wars', 'cold-war-space-race'],
   },
 ];
 
@@ -63,6 +63,10 @@ export const CATEGORIES: Record<string, CategoryDef> = {
   'age-of-exploration': { id: 'age-of-exploration', icon: '🧭', image: '/images/age-of-exploration.jpg' },
   'the-reformation':    { id: 'the-reformation',    icon: '📜', image: '/images/the-reformation.jpg' },
   'the-renaissance':    { id: 'the-renaissance',    icon: '🎨', image: '/images/the-renaissance.jpg' },
+  // The three modern-era categories share the era image until each gets its own picture.
+  'industrial-revolution': { id: 'industrial-revolution', icon: '🏭', image: '/images/modern-era.jpg' },
+  'world-wars':         { id: 'world-wars',         icon: '🪖', image: '/images/modern-era.jpg' },
+  'cold-war-space-race': { id: 'cold-war-space-race', icon: '🚀', image: '/images/modern-era.jpg' },
 };
 
 export const STORIES: Record<string, StoryDef> = {

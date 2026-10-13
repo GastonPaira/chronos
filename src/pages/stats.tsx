@@ -9,6 +9,7 @@ import LanguageSelector from '@/components/LanguageSelector';
 import { AuthButton } from '@/components/AuthButton';
 import { useStats } from '@/hooks/useStats';
 import { useStreak } from '@/hooks/useStreak';
+import { useWords } from '@/hooks/useWords';
 import { getCategoryIcon } from '@/data/catalog';
 
 
@@ -28,6 +29,7 @@ export default function StatsPage() {
   } = useStats();
 
   const { currentStreak, getStreakStatus } = useStreak();
+  const { learned: wordsLearned } = useWords();
   const [streakMounted, setStreakMounted] = useState(false);
   useEffect(() => setStreakMounted(true), []);
 
@@ -205,6 +207,16 @@ export default function StatsPage() {
               </span>
             </div>
           ))}
+        </div>
+
+        {/* ── b2) English words learned ── */}
+        <div className="rounded-xl bg-chronos-card border border-chronos-border p-4 flex items-center justify-between gap-4"
+             style={{ borderLeft: '3px solid #38bdf8' }}>
+          <div className="flex flex-col gap-1">
+            <span className="text-xs text-chronos-muted uppercase tracking-widest">{t('stats.wordsLearned')}</span>
+            <span className="text-xs text-chronos-muted/70">{t('stats.wordsLearnedHint')}</span>
+          </div>
+          <span className="text-3xl font-medium text-sky-300 tabular-nums">{wordsLearned}</span>
         </div>
 
         {/* ── c) Correct vs Wrong bar ── */}

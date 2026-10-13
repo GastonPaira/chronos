@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "cw-001",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why was the rivalry between the United States and the Soviet Union called the \"Cold War\"?",
+      "es": "¿Por qué la rivalidad entre Estados Unidos y la Unión Soviética se llamó \"Guerra Fría\"?"
+    },
+    "options": [
+      {
+        "en": "They never fought each other directly in a big war",
+        "es": "Nunca lucharon directamente entre sí en una gran guerra"
+      },
+      {
+        "en": "It took place only in countries with a cold climate",
+        "es": "Ocurrió solo en países de clima frío"
+      },
+      {
+        "en": "It was fought mainly during the winter months",
+        "es": "Se libró sobre todo durante los meses de invierno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After the Second World War, the United States and the Soviet Union were the two strongest countries. The US was capitalist and democratic, and the Soviet Union was communist, with one party. Each side wanted to spread its system. They built huge armies and nuclear weapons, but they never fought a direct war. Instead, they competed in many ways: politics, spying, science and the space race. It lasted from about 1947 to 1991.",
+      "es": "Después de la Segunda Guerra Mundial, Estados Unidos y la Unión Soviética eran los dos países más fuertes. EE. UU. era capitalista y democrático, y la Unión Soviética era comunista, con un solo partido. Cada bando quería extender su sistema. Construyeron enormes ejércitos y armas nucleares, pero nunca libraron una guerra directa. En cambio, compitieron de muchas maneras: en política, espionaje, ciencia y la carrera espacial. Duró de 1947 a 1991, aproximadamente."
+    },
+    "meanwhile": {
+      "en": "In August 1947, India and Pakistan became independent from Britain, and millions of people moved across the new border.",
+      "es": "En agosto de 1947, la India y Pakistán se independizaron de Gran Bretaña, y millones de personas cruzaron la nueva frontera."
+    },
+    "reflection": {
+      "en": "Two powers competed for decades without direct war. Can competition be useful, or is it always dangerous?",
+      "es": "Dos potencias compitieron durante décadas sin guerra directa. ¿Puede ser útil la competencia, o siempre es peligrosa?"
+    },
+    "vocab": [
+      {
+        "term": "rivalry",
+        "es": "rivalidad"
+      },
+      {
+        "term": "communist",
+        "es": "comunista"
+      },
+      {
+        "term": "nuclear weapons",
+        "es": "armas nucleares"
+      },
+      {
+        "term": "spying",
+        "es": "espionaje"
+      }
+    ]
+  },
+  {
+    "id": "cw-002",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1946, Winston Churchill said that an \"iron curtain\" had come down across Europe. What did he mean?",
+      "es": "En 1946, Winston Churchill dijo que un \"telón de acero\" había caído sobre Europa. ¿Qué quiso decir?"
+    },
+    "options": [
+      {
+        "en": "Europe was split into a free West and a communist East",
+        "es": "Europa estaba dividida en un Oeste libre y un Este comunista"
+      },
+      {
+        "en": "A giant wall was built along the Rhine River",
+        "es": "Se construyó un muro gigante a lo largo del río Rin"
+      },
+      {
+        "en": "A new weapon made of iron was invented in Russia",
+        "es": "Se inventó en Rusia una nueva arma de hierro"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At the end of the war, Soviet armies controlled Eastern Europe. Governments in Poland, Hungary, Czechoslovakia and other countries soon became communist and followed Moscow. In a speech in Fulton, Missouri, Churchill said that \"an iron curtain has descended across the Continent\". It was a symbol, not a real curtain: people and ideas could not move freely between East and West.",
+      "es": "Al final de la guerra, los ejércitos soviéticos controlaban Europa del Este. Los gobiernos de Polonia, Hungría, Checoslovaquia y otros países pronto se hicieron comunistas y siguieron a Moscú. En un discurso en Fulton, Misuri, Churchill dijo que \"un telón de acero ha descendido sobre el Continente\". Era un símbolo, no una cortina real: las personas y las ideas no podían moverse libremente entre Este y Oeste."
+    },
+    "meanwhile": {
+      "en": "In June 1946, Juan Domingo Perón became president of Argentina, after winning the elections in February.",
+      "es": "En junio de 1946, Juan Domingo Perón asumió la presidencia de Argentina, después de ganar las elecciones de febrero."
+    },
+    "reflection": {
+      "en": "The \"curtain\" was an image that everyone understood. Which image or expression do you use to explain a difficult idea?",
+      "es": "El \"telón\" era una imagen que todos entendían. ¿Qué imagen o expresión usas para explicar una idea difícil?"
+    },
+    "vocab": [
+      {
+        "term": "curtain",
+        "es": "telón"
+      },
+      {
+        "term": "controlled",
+        "es": "controlaban"
+      },
+      {
+        "term": "speech",
+        "es": "discurso"
+      },
+      {
+        "term": "freely",
+        "es": "libremente"
+      }
+    ]
+  },
+  {
+    "id": "cw-003",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1948–1949, the Soviet Union blocked all roads to West Berlin. How did the Western Allies respond?",
+      "es": "En 1948–1949, la Unión Soviética bloqueó todas las rutas hacia Berlín Occidental. ¿Cómo respondieron los Aliados occidentales?"
+    },
+    "options": [
+      {
+        "en": "They supplied the city by air for a year",
+        "es": "Abastecieron la ciudad por aire durante un año"
+      },
+      {
+        "en": "They attacked Moscow with all their armies",
+        "es": "Atacaron Moscú con todos sus ejércitos"
+      },
+      {
+        "en": "They gave West Berlin over to the Soviets",
+        "es": "Entregaron Berlín Occidental a los soviéticos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After the war, Germany and its capital, Berlin, were divided into four zones. West Berlin was inside Soviet-controlled East Germany. In June 1948, the Soviets closed the roads and railways, hoping to force the West to leave. Instead, American and British planes flew food, coal and medicine into the city, with a plane landing every few minutes. After 11 months, the Soviets lifted the blockade.",
+      "es": "Después de la guerra, Alemania y su capital, Berlín, fueron divididas en cuatro zonas. Berlín Occidental estaba dentro de la Alemania Oriental controlada por los soviéticos. En junio de 1948, los soviéticos cerraron las carreteras y los ferrocarriles, esperando obligar a Occidente a irse. En cambio, aviones estadounidenses y británicos llevaron comida, carbón y medicinas a la ciudad, con un avión aterrizando cada pocos minutos. Tras 11 meses, los soviéticos levantaron el bloqueo."
+    },
+    "meanwhile": {
+      "en": "In May 1948, the State of Israel was created, and the first Arab-Israeli war began the next day.",
+      "es": "En mayo de 1948 se creó el Estado de Israel y al día siguiente comenzó la primera guerra árabe-israelí."
+    },
+    "reflection": {
+      "en": "The Allies chose a creative solution instead of a fight. When did a creative solution help you avoid a conflict?",
+      "es": "Los Aliados eligieron una solución creativa en vez de una pelea. ¿Cuándo una solución creativa te ayudó a evitar un conflicto?"
+    },
+    "vocab": [
+      {
+        "term": "zones",
+        "es": "zonas"
+      },
+      {
+        "term": "blocked",
+        "es": "bloqueó"
+      },
+      {
+        "term": "blockade",
+        "es": "bloqueo"
+      },
+      {
+        "term": "roads",
+        "es": "carreteras"
+      }
+    ]
+  },
+  {
+    "id": "cw-004",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why was the Berlin Wall built in 1961?",
+      "es": "¿Por qué se construyó el Muro de Berlín en 1961?"
+    },
+    "options": [
+      {
+        "en": "To stop East Germans from escaping to the West",
+        "es": "Para impedir que los alemanes orientales huyeran al Oeste"
+      },
+      {
+        "en": "To protect Berlin from the floods of the river",
+        "es": "Para proteger Berlín de las inundaciones del río"
+      },
+      {
+        "en": "To mark the end of the Second World War",
+        "es": "Para marcar el final de la Segunda Guerra Mundial"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Life in West Berlin was freer and richer than in the communist East. Between 1949 and 1961, about three million people left East Germany, mostly through Berlin. On the night of August 13, 1961, East German soldiers began to build a wall around West Berlin. Families and friends were separated. At least 140 people died trying to cross. The wall fell on November 9, 1989.",
+      "es": "La vida en Berlín Occidental era más libre y más rica que en el Este comunista. Entre 1949 y 1961, unos tres millones de personas salieron de Alemania Oriental, sobre todo por Berlín. En la noche del 13 de agosto de 1961, soldados de Alemania Oriental empezaron a construir un muro alrededor de Berlín Occidental. Familias y amigos quedaron separados. Al menos 140 personas murieron intentando cruzar. El muro cayó el 9 de noviembre de 1989."
+    },
+    "meanwhile": {
+      "en": "In September 1961, leaders from many countries met in Belgrade to create the Non-Aligned Movement, which did not side with either superpower.",
+      "es": "En septiembre de 1961, líderes de muchos países se reunieron en Belgrado para crear el Movimiento de Países No Alineados, que no tomaba partido por ninguna superpotencia."
+    },
+    "reflection": {
+      "en": "A wall separated families for 28 years. What kinds of \"walls\" separate people today, visible or not?",
+      "es": "Un muro separó familias durante 28 años. ¿Qué tipos de \"muros\" separan hoy a las personas, visibles o no?"
+    },
+    "vocab": [
+      {
+        "term": "wall",
+        "es": "muro"
+      },
+      {
+        "term": "freer",
+        "es": "más libre"
+      },
+      {
+        "term": "soldiers",
+        "es": "soldados"
+      },
+      {
+        "term": "separated",
+        "es": "separadas"
+      }
+    ]
+  },
+  {
+    "id": "cw-005",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Two military alliances faced each other in Europe during the Cold War. Which were they?",
+      "es": "Dos alianzas militares se enfrentaron en Europa durante la Guerra Fría. ¿Cuáles eran?"
+    },
+    "options": [
+      {
+        "en": "NATO and the Warsaw Pact",
+        "es": "La OTAN y el Pacto de Varsovia"
+      },
+      {
+        "en": "The UN and the Red Cross",
+        "es": "La ONU y la Cruz Roja"
+      },
+      {
+        "en": "The EU and Mercosur",
+        "es": "La UE y el Mercosur"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1949, the United States, Canada and ten Western European countries created NATO, the North Atlantic Treaty Organization. They promised that an attack on one would be an attack on all. In 1955, the Soviet Union and its Eastern European allies answered with the Warsaw Pact. For decades, both sides kept huge armies facing each other along the Iron Curtain, but they never fought.",
+      "es": "En 1949, Estados Unidos, Canadá y diez países de Europa Occidental crearon la OTAN, la Organización del Tratado del Atlántico Norte. Prometieron que un ataque a uno sería un ataque a todos. En 1955, la Unión Soviética y sus aliados de Europa del Este respondieron con el Pacto de Varsovia. Durante décadas, ambos bandos mantuvieron enormes ejércitos frente a frente a lo largo del Telón de Acero, pero nunca lucharon."
+    },
+    "meanwhile": {
+      "en": "On October 1, 1949, Mao Zedong announced the creation of the People’s Republic of China, after the Communist victory in the civil war.",
+      "es": "El 1 de octubre de 1949, Mao Zedong anunció la creación de la República Popular China, tras la victoria comunista en la guerra civil."
+    },
+    "reflection": {
+      "en": "Alliances promise protection but can also increase tension. In your life, do groups protect you or divide you?",
+      "es": "Las alianzas prometen protección pero también pueden aumentar la tensión. En tu vida, ¿los grupos te protegen o te dividen?"
+    },
+    "vocab": [
+      {
+        "term": "alliances",
+        "es": "alianzas"
+      },
+      {
+        "term": "promised",
+        "es": "prometieron"
+      },
+      {
+        "term": "allies",
+        "es": "aliados"
+      },
+      {
+        "term": "armies",
+        "es": "ejércitos"
+      }
+    ]
+  },
+  {
+    "id": "cw-006",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What was the idea of \"mutually assured destruction\" in the Cold War?",
+      "es": "¿Cuál era la idea de la \"destrucción mutua asegurada\" en la Guerra Fría?"
+    },
+    "options": [
+      {
+        "en": "If one side used nuclear weapons, both would be destroyed",
+        "es": "Si un bando usaba armas nucleares, ambos serían destruidos"
+      },
+      {
+        "en": "Each side promised to destroy all of its weapons",
+        "es": "Cada bando prometía destruir todas sus armas"
+      },
+      {
+        "en": "Only one side was protected by deep shelters",
+        "es": "Solo uno de los bandos estaba protegido por refugios profundos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The United States made the first atomic bomb in 1945, and the Soviet Union in 1949. Later both built thousands of much more powerful hydrogen bombs, enough to destroy the world many times. Leaders understood that a nuclear war could not be won. If one side attacked, the other could still reply and destroy it. This fear, strangely, helped to prevent a direct war. At the peak, there were about 70,000 nuclear warheads.",
+      "es": "Estados Unidos fabricó la primera bomba atómica en 1945 y la Unión Soviética en 1949. Más tarde ambos construyeron miles de bombas de hidrógeno mucho más poderosas, suficientes para destruir el mundo muchas veces. Los líderes entendieron que una guerra nuclear no podía ganarse. Si un bando atacaba, el otro todavía podía responder y destruirlo. Este miedo, curiosamente, ayudó a evitar una guerra directa. En el punto máximo había unas 70.000 ojivas nucleares."
+    },
+    "meanwhile": {
+      "en": "On July 26, 1952, Eva Perón died in Buenos Aires at the age of 33. Millions of people attended her funeral.",
+      "es": "El 26 de julio de 1952, Eva Perón murió en Buenos Aires a los 33 años. Millones de personas asistieron a su funeral."
+    },
+    "reflection": {
+      "en": "Fear of disaster helped to keep the peace. Is it a good way to keep peace, or only a temporary solution?",
+      "es": "El miedo a un desastre ayudó a mantener la paz. ¿Es una buena manera de mantener la paz o solo una solución temporal?"
+    },
+    "vocab": [
+      {
+        "term": "hydrogen bombs",
+        "es": "bombas de hidrógeno"
+      },
+      {
+        "term": "attacked",
+        "es": "atacaba"
+      },
+      {
+        "term": "prevent",
+        "es": "evitar"
+      },
+      {
+        "term": "warheads",
+        "es": "ojivas"
+      }
+    ]
+  },
+  {
+    "id": "cw-007",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In October 1962, the world came close to nuclear war over missiles in which country?",
+      "es": "En octubre de 1962, el mundo estuvo cerca de una guerra nuclear por misiles en qué país?"
+    },
+    "options": [
+      {
+        "en": "Cuba",
+        "es": "Cuba"
+      },
+      {
+        "en": "Mexico",
+        "es": "México"
+      },
+      {
+        "en": "Germany",
+        "es": "Alemania"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "US spy planes found that the Soviet Union was secretly installing nuclear missiles in Cuba, only about 150 kilometers from Florida. President Kennedy put a naval blockade around the island and demanded that the missiles be removed. For 13 days, the world waited, afraid of a nuclear war. At last, the Soviet leader, Khrushchev, agreed to remove the missiles. In secret, the US also promised to remove its missiles from Turkey.",
+      "es": "Aviones espía estadounidenses descubrieron que la Unión Soviética estaba instalando en secreto misiles nucleares en Cuba, a solo unos 150 kilómetros de Florida. El presidente Kennedy impuso un bloqueo naval alrededor de la isla y exigió que se retiraran los misiles. Durante 13 días, el mundo esperó, con miedo a una guerra nuclear. Por fin, el líder soviético, Jruschov, aceptó retirar los misiles. En secreto, EE. UU. también prometió retirar sus misiles de Turquía."
+    },
+    "meanwhile": {
+      "en": "In July 1962, Algeria became independent from France after a bitter war that lasted almost eight years.",
+      "es": "En julio de 1962, Argelia se independizó de Francia tras una dura guerra que duró casi ocho años."
+    },
+    "reflection": {
+      "en": "Both leaders took a step back and avoided disaster. When did you or someone you know choose to step back from a fight?",
+      "es": "Ambos líderes dieron un paso atrás y evitaron un desastre. ¿Cuándo tú o alguien que conoces eligió dar un paso atrás en una pelea?"
+    },
+    "vocab": [
+      {
+        "term": "missiles",
+        "es": "misiles"
+      },
+      {
+        "term": "blockade",
+        "es": "bloqueo"
+      },
+      {
+        "term": "demanded",
+        "es": "exigió"
+      },
+      {
+        "term": "agreed",
+        "es": "aceptó"
+      }
+    ]
+  },
+  {
+    "id": "cw-008",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What was Sputnik, launched by the Soviet Union on October 4, 1957?",
+      "es": "¿Qué fue el Sputnik, lanzado por la Unión Soviética el 4 de octubre de 1957?"
+    },
+    "options": [
+      {
+        "en": "The first artificial satellite to orbit the Earth",
+        "es": "El primer satélite artificial en orbitar la Tierra"
+      },
+      {
+        "en": "The first astronaut to travel around the Earth",
+        "es": "El primer astronauta que viajó alrededor de la Tierra"
+      },
+      {
+        "en": "The first space station with people inside",
+        "es": "La primera estación espacial con personas dentro"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Sputnik was a shiny metal ball, about the size of a beach ball, with four long antennas. It circled the Earth every 96 minutes and sent a radio signal, \"beep, beep\", that people could hear around the world. Americans were shocked, because they thought they were ahead in technology. The launch started the Space Race. In 1958, the US created NASA.",
+      "es": "El Sputnik era una bola de metal brillante, del tamaño de una pelota de playa, con cuatro largas antenas. Giraba alrededor de la Tierra cada 96 minutos y enviaba una señal de radio, \"bip, bip\", que la gente podía oír en todo el mundo. Los estadounidenses quedaron impactados, porque creían ir por delante en tecnología. El lanzamiento inició la carrera espacial. En 1958, EE. UU. creó la NASA."
+    },
+    "meanwhile": {
+      "en": "In March 1957, Ghana became the first country in sub-Saharan Africa to gain independence from European rule.",
+      "es": "En marzo de 1957, Ghana se convirtió en el primer país del África subsahariana en independizarse del dominio europeo."
+    },
+    "reflection": {
+      "en": "A small ball started a huge competition. When did a surprise make you work harder to reach a goal?",
+      "es": "Una pequeña esfera inició una enorme competencia. ¿Cuándo una sorpresa te hizo esforzarte más para lograr una meta?"
+    },
+    "vocab": [
+      {
+        "term": "shiny",
+        "es": "brillante"
+      },
+      {
+        "term": "antennas",
+        "es": "antenas"
+      },
+      {
+        "term": "signal",
+        "es": "señal"
+      },
+      {
+        "term": "circled",
+        "es": "giraba"
+      }
+    ]
+  },
+  {
+    "id": "cw-009",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1983, Argentina returned to democracy after a military dictatorship. Who was elected president?",
+      "es": "En 1983, Argentina volvió a la democracia después de una dictadura militar. ¿Quién fue elegido presidente?"
+    },
+    "options": [
+      {
+        "en": "Raúl Alfonsín",
+        "es": "Raúl Alfonsín"
+      },
+      {
+        "en": "Juan Domingo Perón",
+        "es": "Juan Domingo Perón"
+      },
+      {
+        "en": "Carlos Menem",
+        "es": "Carlos Menem"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "From 1976 to 1983, a military government ruled Argentina. Thousands of people were taken away and disappeared. In 1983, after a lost war and an economic crisis, the military called elections. Raúl Alfonsín won and took office in December. In 1984, a commission published the report \"Nunca Más\" (\"Never Again\"). In 1985, civilian judges tried the former military leaders and convicted some, a historic step for Latin America.",
+      "es": "De 1976 a 1983, un gobierno militar gobernó Argentina. Miles de personas fueron secuestradas y desaparecieron. En 1983, tras una guerra perdida y una crisis económica, los militares llamaron a elecciones. Raúl Alfonsín ganó y asumió en diciembre. En 1984, una comisión publicó el informe \"Nunca Más\". En 1985, jueces civiles juzgaron a los ex líderes militares y condenaron a algunos, un paso histórico para América Latina."
+    },
+    "meanwhile": {
+      "en": "In January 1983, the internet adopted a common language for computers, called TCP/IP, which it still uses today.",
+      "es": "En enero de 1983, internet adoptó un lenguaje común para las computadoras, llamado TCP/IP, que todavía usa hoy."
+    },
+    "reflection": {
+      "en": "A society chose to remember and to judge what happened. Why is it important to know the truth about the past?",
+      "es": "Una sociedad eligió recordar y juzgar lo que pasó. ¿Por qué es importante conocer la verdad sobre el pasado?"
+    },
+    "vocab": [
+      {
+        "term": "dictatorship",
+        "es": "dictadura"
+      },
+      {
+        "term": "disappeared",
+        "es": "desaparecieron"
+      },
+      {
+        "term": "commission",
+        "es": "comisión"
+      },
+      {
+        "term": "judges",
+        "es": "jueces"
+      }
+    ]
+  },
+  {
+    "id": "cw-010",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "On April 12, 1961, Yuri Gagarin became the first what?",
+      "es": "El 12 de abril de 1961, Yuri Gagarin se convirtió en el primer qué?"
+    },
+    "options": [
+      {
+        "en": "Human in space",
+        "es": "Ser humano en el espacio"
+      },
+      {
+        "en": "Person on the Moon",
+        "es": "Persona en la Luna"
+      },
+      {
+        "en": "Woman in space",
+        "es": "Mujer en el espacio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Gagarin was a 27-year-old Soviet pilot. He sat in a small capsule, Vostok 1, on top of a huge rocket. He flew once around the Earth in 108 minutes, at a height of about 300 kilometers. He said that the Earth was beautiful and blue. Then the capsule came down, and he landed by parachute. He became a hero around the world.",
+      "es": "Gagarin era un piloto soviético de 27 años. Se sentó en una pequeña cápsula, la Vostok 1, sobre un enorme cohete. Dio una vuelta alrededor de la Tierra en 108 minutos, a una altura de unos 300 kilómetros. Dijo que la Tierra era hermosa y azul. Luego la cápsula descendió y él aterrizó en paracaídas. Se convirtió en un héroe en todo el mundo."
+    },
+    "meanwhile": {
+      "en": "On April 17, 1961, five days later, a group of Cuban exiles trained by the CIA tried to invade Cuba, but they failed at the Bay of Pigs.",
+      "es": "El 17 de abril de 1961, cinco días después, un grupo de exiliados cubanos entrenados por la CIA intentó invadir Cuba, pero fracasó en bahía de Cochinos."
+    },
+    "reflection": {
+      "en": "Gagarin saw our planet from space. How would you feel looking at the Earth from so far away?",
+      "es": "Gagarin vio nuestro planeta desde el espacio. ¿Cómo te sentirías mirando la Tierra desde tan lejos?"
+    },
+    "vocab": [
+      {
+        "term": "pilot",
+        "es": "piloto"
+      },
+      {
+        "term": "capsule",
+        "es": "cápsula"
+      },
+      {
+        "term": "rocket",
+        "es": "cohete"
+      },
+      {
+        "term": "parachute",
+        "es": "paracaídas"
+      }
+    ]
+  },
+  {
+    "id": "cw-011",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1963, Valentina Tereshkova made history. What did she do?",
+      "es": "En 1963, Valentina Tereshkova hizo historia. ¿Qué hizo?"
+    },
+    "options": [
+      {
+        "en": "She became the first woman in space",
+        "es": "Se convirtió en la primera mujer en el espacio"
+      },
+      {
+        "en": "She walked on the surface of the Moon",
+        "es": "Caminó sobre la superficie de la Luna"
+      },
+      {
+        "en": "She built the rocket for the Soviet Union",
+        "es": "Construyó el cohete para la Unión Soviética"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Tereshkova was a factory worker who loved parachute jumping. The Soviet Union chose her from more than 400 candidates. In June 1963, she flew in Vostok 6 and orbited the Earth 48 times in almost three days. She was the first woman in space. The second woman did not fly until 1982, and for a long time, most astronauts were men.",
+      "es": "Tereshkova era una obrera de fábrica a la que le encantaba saltar en paracaídas. La Unión Soviética la eligió entre más de 400 candidatas. En junio de 1963, voló en la Vostok 6 y orbitó la Tierra 48 veces en casi tres días. Fue la primera mujer en el espacio. La segunda mujer no voló hasta 1982, y durante mucho tiempo la mayoría de los astronautas fueron hombres."
+    },
+    "meanwhile": {
+      "en": "On November 22, 1963, American president John F. Kennedy was assassinated in Dallas, Texas.",
+      "es": "El 22 de noviembre de 1963, el presidente estadounidense John F. Kennedy fue asesinado en Dallas, Texas."
+    },
+    "reflection": {
+      "en": "It took 19 years for another woman to fly in space. What field in your country still needs more women or more diversity?",
+      "es": "Tuvieron que pasar 19 años para que otra mujer volara al espacio. ¿Qué campo de tu país todavía necesita más mujeres o más diversidad?"
+    },
+    "vocab": [
+      {
+        "term": "candidates",
+        "es": "candidatas"
+      },
+      {
+        "term": "orbited",
+        "es": "orbitó"
+      },
+      {
+        "term": "astronauts",
+        "es": "astronautas"
+      },
+      {
+        "term": "parachute jumping",
+        "es": "saltar en paracaídas"
+      }
+    ]
+  },
+  {
+    "id": "cw-012",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1962, President Kennedy said, \"We choose to go to the Moon.\" Why did he say that going there was important?",
+      "es": "En 1962, el presidente Kennedy dijo: \"Elegimos ir a la Luna\". ¿Por qué dijo que era importante ir allí?"
+    },
+    "options": [
+      {
+        "en": "Because it was hard and would test the nation’s skills",
+        "es": "Porque era difícil y pondría a prueba las capacidades de la nación"
+      },
+      {
+        "en": "Because the Moon had valuable gold under its dust",
+        "es": "Porque la Luna tenía oro valioso bajo su polvo"
+      },
+      {
+        "en": "Because the Soviets had asked for American help",
+        "es": "Porque los soviéticos habían pedido ayuda a EE. UU."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "By 1962, the Soviets were ahead in the Space Race. In a speech at Rice University in Texas, Kennedy promised that the US would put a man on the Moon before the end of the decade. He said that they would do this \"not because they are easy, but because they are hard\". The goal would measure the best of their energy and skill. Congress gave NASA billions of dollars.",
+      "es": "En 1962, los soviéticos iban por delante en la carrera espacial. En un discurso en la Universidad Rice, en Texas, Kennedy prometió que EE. UU. pondría a un hombre en la Luna antes de que terminara la década. Dijo que lo harían \"no porque sea fácil, sino porque es difícil\". La meta mediría lo mejor de su energía y habilidad. El Congreso dio a la NASA miles de millones de dólares."
+    },
+    "meanwhile": {
+      "en": "In September 1962, Rachel Carson published Silent Spring, a book about the damage that pesticides cause to nature. It began the modern environmental movement.",
+      "es": "En septiembre de 1962, Rachel Carson publicó Primavera silenciosa, un libro sobre el daño que los pesticidas causan a la naturaleza. Dio inicio al movimiento ambiental moderno."
+    },
+    "reflection": {
+      "en": "Kennedy chose a goal because it was difficult. What difficult goal would you like to choose for yourself?",
+      "es": "Kennedy eligió una meta porque era difícil. ¿Qué meta difícil te gustaría elegir para ti?"
+    },
+    "vocab": [
+      {
+        "term": "promised",
+        "es": "prometió"
+      },
+      {
+        "term": "decade",
+        "es": "década"
+      },
+      {
+        "term": "skill",
+        "es": "habilidad"
+      },
+      {
+        "term": "billions",
+        "es": "miles de millones"
+      }
+    ]
+  },
+  {
+    "id": "cw-013",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "On July 20, 1969, who were the first two people to walk on the Moon?",
+      "es": "El 20 de julio de 1969, ¿quiénes fueron las primeras dos personas en caminar sobre la Luna?"
+    },
+    "options": [
+      {
+        "en": "Neil Armstrong and Buzz Aldrin",
+        "es": "Neil Armstrong y Buzz Aldrin"
+      },
+      {
+        "en": "Yuri Gagarin and Alexei Leonov",
+        "es": "Yuri Gagarin y Alexei Leonov"
+      },
+      {
+        "en": "John Glenn and Alan Shepard",
+        "es": "John Glenn y Alan Shepard"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Apollo 11 left Earth on July 16 with three astronauts. Michael Collins stayed in orbit around the Moon while Neil Armstrong and Buzz Aldrin landed in the lunar module \"Eagle\". Armstrong stepped onto the surface and said, \"That’s one small step for man, one giant leap for mankind.\" They collected rocks and returned safely. About 600 million people watched on television.",
+      "es": "El Apolo 11 salió de la Tierra el 16 de julio con tres astronautas. Michael Collins se quedó en órbita alrededor de la Luna mientras Neil Armstrong y Buzz Aldrin aterrizaban en el módulo lunar \"Eagle\". Armstrong pisó la superficie y dijo: \"Es un pequeño paso para el hombre, un gran salto para la humanidad\". Recogieron rocas y volvieron sanos y salvos. Unos 600 millones de personas lo vieron por televisión."
+    },
+    "meanwhile": {
+      "en": "In August 1969, about 400,000 people went to the Woodstock music festival in New York State.",
+      "es": "En agosto de 1969, unas 400.000 personas fueron al festival de música de Woodstock, en el estado de Nueva York."
+    },
+    "reflection": {
+      "en": "Millions of people watched the same moment around the world. Which event made you feel connected to the whole world?",
+      "es": "Millones de personas vieron el mismo momento en todo el mundo. ¿Qué acontecimiento te hizo sentir conectado con todo el mundo?"
+    },
+    "vocab": [
+      {
+        "term": "astronauts",
+        "es": "astronautas"
+      },
+      {
+        "term": "orbit",
+        "es": "órbita"
+      },
+      {
+        "term": "lunar module",
+        "es": "módulo lunar"
+      },
+      {
+        "term": "surface",
+        "es": "superficie"
+      }
+    ]
+  },
+  {
+    "id": "cw-014",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In April 1970, what happened to the Apollo 13 spacecraft on its way to the Moon?",
+      "es": "En abril de 1970, ¿qué le pasó a la nave Apolo 13 de camino a la Luna?"
+    },
+    "options": [
+      {
+        "en": "An oxygen tank exploded, but the crew got home safely",
+        "es": "Explotó un tanque de oxígeno, pero la tripulación volvió sana y salva"
+      },
+      {
+        "en": "It landed in the wrong place on the Moon",
+        "es": "Aterrizó en el lugar equivocado de la Luna"
+      },
+      {
+        "en": "It disappeared in space and was never found again",
+        "es": "Desapareció en el espacio y nunca se la volvió a encontrar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Two days after launch, an explosion damaged the service module, and the spacecraft lost power and oxygen. The astronauts said, \"Houston, we’ve had a problem.\" They gave up the landing and used the lunar module as a lifeboat. They were cold, short of water and tired. With the help of engineers on Earth, who invented solutions in hours, the crew returned safely on April 17.",
+      "es": "Dos días después del lanzamiento, una explosión dañó el módulo de servicio y la nave perdió energía y oxígeno. Los astronautas dijeron: \"Houston, hemos tenido un problema\". Renunciaron al alunizaje y usaron el módulo lunar como bote salvavidas. Tenían frío, poca agua y cansancio. Con la ayuda de ingenieros en la Tierra, que inventaron soluciones en horas, la tripulación regresó sana y salva el 17 de abril."
+    },
+    "meanwhile": {
+      "en": "On April 22, 1970, millions of people celebrated the first Earth Day, to protect the environment.",
+      "es": "El 22 de abril de 1970, millones de personas celebraron el primer Día de la Tierra, para proteger el medio ambiente."
+    },
+    "reflection": {
+      "en": "The team solved an impossible problem together, under great pressure. How do you work best in a team during a crisis?",
+      "es": "El equipo resolvió un problema imposible junto, bajo gran presión. ¿Cómo trabajas mejor en equipo durante una crisis?"
+    },
+    "vocab": [
+      {
+        "term": "explosion",
+        "es": "explosión"
+      },
+      {
+        "term": "lifeboat",
+        "es": "bote salvavidas"
+      },
+      {
+        "term": "engineers",
+        "es": "ingenieros"
+      },
+      {
+        "term": "solutions",
+        "es": "soluciones"
+      }
+    ]
+  },
+  {
+    "id": "cw-015",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "The International Space Station is a symbol of cooperation. Which countries mainly built it?",
+      "es": "La Estación Espacial Internacional es un símbolo de cooperación. ¿Qué países la construyeron principalmente?"
+    },
+    "options": [
+      {
+        "en": "The US, Russia, Europe, Japan and Canada",
+        "es": "EE. UU., Rusia, Europa, Japón y Canadá"
+      },
+      {
+        "en": "Only the United States and its closest allies",
+        "es": "Solo Estados Unidos y sus aliados más cercanos"
+      },
+      {
+        "en": "China and India, working together in the 1990s",
+        "es": "China y la India, trabajando juntas en la década de 1990"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Former rivals started to work together after the Cold War. The first piece of the ISS, a Russian module, was launched in 1998, and American, European, Japanese and Canadian parts followed. Astronauts have lived there continuously since November 2000. The station orbits the Earth at about 400 kilometers and goes around once every 90 minutes, so the crew see about 16 sunrises a day.",
+      "es": "Los antiguos rivales empezaron a trabajar juntos después de la Guerra Fría. La primera pieza de la EEI, un módulo ruso, se lanzó en 1998, y siguieron partes estadounidenses, europeas, japonesas y canadienses. Hay astronautas viviendo allí de forma continua desde noviembre de 2000. La estación orbita la Tierra a unos 400 kilómetros y da una vuelta cada 90 minutos, así que la tripulación ve unos 16 amaneceres al día."
+    },
+    "meanwhile": {
+      "en": "In September 1998, two students, Larry Page and Sergey Brin, founded Google in a garage in California.",
+      "es": "En septiembre de 1998, dos estudiantes, Larry Page y Sergey Brin, fundaron Google en un garaje de California."
+    },
+    "reflection": {
+      "en": "Old rivals now work together in space. When did you manage to work well with someone you used to compete with?",
+      "es": "Antiguos rivales trabajan ahora juntos en el espacio. ¿Cuándo lograste trabajar bien con alguien con quien solías competir?"
+    },
+    "vocab": [
+      {
+        "term": "rivals",
+        "es": "rivales"
+      },
+      {
+        "term": "module",
+        "es": "módulo"
+      },
+      {
+        "term": "continuously",
+        "es": "de forma continua"
+      },
+      {
+        "term": "sunrises",
+        "es": "amaneceres"
+      }
+    ]
+  },
+  {
+    "id": "cw-016",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why is the Korean peninsula divided into two countries today?",
+      "es": "¿Por qué la península de Corea está dividida hoy en dos países?"
+    },
+    "options": [
+      {
+        "en": "The Cold War split it into a communist North and a capitalist South",
+        "es": "La Guerra Fría la dividió en un Norte comunista y un Sur capitalista"
+      },
+      {
+        "en": "A big volcano erupted and divided the land in two",
+        "es": "Un gran volcán entró en erupción y dividió la tierra en dos"
+      },
+      {
+        "en": "The Romans divided it long ago, in the first century",
+        "es": "Los romanos la dividieron hace mucho, en el siglo I"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After Japan lost in 1945, Soviet troops took over the north of Korea and American troops took over the south, along the 38th parallel. Each side created its own government. In June 1950, North Korea invaded the South, and the Korean War began. The United States and the UN supported the South, and China supported the North. The fighting stopped in 1953, but no peace treaty was signed.",
+      "es": "Después de la derrota de Japón en 1945, las tropas soviéticas ocuparon el norte de Corea y las estadounidenses el sur, a lo largo del paralelo 38. Cada lado creó su propio gobierno. En junio de 1950, Corea del Norte invadió el Sur y comenzó la guerra de Corea. Estados Unidos y la ONU apoyaron al Sur, y China apoyó al Norte. Los combates se detuvieron en 1953, pero no se firmó ningún tratado de paz."
+    },
+    "meanwhile": {
+      "en": "In January 1950, India became a republic when its new constitution came into force.",
+      "es": "En enero de 1950, la India se convirtió en una república cuando entró en vigor su nueva Constitución."
+    },
+    "reflection": {
+      "en": "Families were split by a line drawn on a map. How can a decision made by outsiders shape the lives of ordinary people?",
+      "es": "Las familias fueron separadas por una línea trazada en un mapa. ¿Cómo puede una decisión de personas ajenas marcar la vida de la gente común?"
+    },
+    "vocab": [
+      {
+        "term": "peninsula",
+        "es": "península"
+      },
+      {
+        "term": "parallel",
+        "es": "paralelo"
+      },
+      {
+        "term": "invaded",
+        "es": "invadió"
+      },
+      {
+        "term": "treaty",
+        "es": "tratado"
+      }
+    ]
+  },
+  {
+    "id": "cw-017",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Vietnam War ended in 1975. What happened to Vietnam at the end?",
+      "es": "La guerra de Vietnam terminó en 1975. ¿Qué pasó con Vietnam al final?"
+    },
+    "options": [
+      {
+        "en": "It was united under a communist government",
+        "es": "Fue unificado bajo un gobierno comunista"
+      },
+      {
+        "en": "It was divided again into four zones",
+        "es": "Fue dividido otra vez en cuatro zonas"
+      },
+      {
+        "en": "It became a US state",
+        "es": "Se convirtió en un estado de EE. UU."
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Vietnam was divided in 1954 into a communist North and a South supported by the United States. The US sent more and more soldiers, more than 500,000 in 1968, but could not win against the guerrilla tactics and the determination of the North. Protests against the war grew in the US. US troops left in 1973. In 1975, North Vietnam took Saigon. Millions of Vietnamese died.",
+      "es": "Vietnam se dividió en 1954 en un Norte comunista y un Sur apoyado por Estados Unidos. EE. UU. envió cada vez más soldados, más de 500.000 en 1968, pero no pudo ganar frente a las tácticas de guerrilla y la determinación del Norte. Las protestas contra la guerra crecieron en EE. UU. Las tropas estadounidenses se fueron en 1973. En 1975, Vietnam del Norte tomó Saigón. Millones de vietnamitas murieron."
+    },
+    "meanwhile": {
+      "en": "In 1968, student protests swept through Paris, Mexico City and many other cities, demanding more freedom and change.",
+      "es": "En 1968, protestas estudiantiles recorrieron París, la Ciudad de México y muchas otras ciudades, pidiendo más libertad y cambio."
+    },
+    "reflection": {
+      "en": "Protests at home helped to change a government’s policy. Can public opinion stop a war?",
+      "es": "Las protestas en casa ayudaron a cambiar la política de un gobierno. ¿Puede la opinión pública detener una guerra?"
+    },
+    "vocab": [
+      {
+        "term": "guerrilla",
+        "es": "guerrilla"
+      },
+      {
+        "term": "determination",
+        "es": "determinación"
+      },
+      {
+        "term": "protests",
+        "es": "protestas"
+      },
+      {
+        "term": "united",
+        "es": "unificó"
+      }
+    ]
+  },
+  {
+    "id": "cw-018",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which Argentine-born doctor became a famous leader of the Cuban Revolution?",
+      "es": "¿Qué médico nacido en Argentina se convirtió en un famoso líder de la Revolución cubana?"
+    },
+    "options": [
+      {
+        "en": "Ernesto \"Che\" Guevara",
+        "es": "Ernesto \"Che\" Guevara"
+      },
+      {
+        "en": "René Favaloro",
+        "es": "René Favaloro"
+      },
+      {
+        "en": "Juan Manuel Fangio",
+        "es": "Juan Manuel Fangio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Ernesto Guevara was born in Rosario, Argentina, in 1928. He studied medicine and traveled around Latin America by motorcycle, where he saw poverty. He joined Fidel Castro’s revolutionary movement in Mexico. On January 1, 1959, the rebels overthrew the Cuban dictator Batista. Cuba became communist and an ally of the Soviet Union. Guevara was killed in Bolivia in 1967, and he became a symbol for many young people.",
+      "es": "Ernesto Guevara nació en Rosario, Argentina, en 1928. Estudió medicina y viajó por América Latina en motocicleta, donde vio la pobreza. Se unió al movimiento revolucionario de Fidel Castro en México. El 1 de enero de 1959, los rebeldes derrocaron al dictador cubano Batista. Cuba se volvió comunista y aliada de la Unión Soviética. Guevara murió en Bolivia en 1967 y se convirtió en un símbolo para muchos jóvenes."
+    },
+    "meanwhile": {
+      "en": "In 1959, Alaska and Hawaii became the 49th and 50th states of the United States.",
+      "es": "En 1959, Alaska y Hawái se convirtieron en los estados 49 y 50 de Estados Unidos."
+    },
+    "reflection": {
+      "en": "The same person is a hero for some and a villain for others. Why do historical figures often have such different images?",
+      "es": "La misma persona es un héroe para algunos y un villano para otros. ¿Por qué las figuras históricas suelen tener imágenes tan distintas?"
+    },
+    "vocab": [
+      {
+        "term": "poverty",
+        "es": "pobreza"
+      },
+      {
+        "term": "rebels",
+        "es": "rebeldes"
+      },
+      {
+        "term": "overthrew",
+        "es": "derrocaron"
+      },
+      {
+        "term": "symbol",
+        "es": "símbolo"
+      }
+    ]
+  },
+  {
+    "id": "cw-019",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why is 1960 called the \"Year of Africa\"?",
+      "es": "¿Por qué se llama a 1960 el \"Año de África\"?"
+    },
+    "options": [
+      {
+        "en": "Seventeen African countries became independent",
+        "es": "Diecisiete países africanos se independizaron"
+      },
+      {
+        "en": "The first African astronaut flew into space",
+        "es": "El primer astronauta africano voló al espacio"
+      },
+      {
+        "en": "Africa won the most medals at the Olympic Games",
+        "es": "África ganó más medallas en los Juegos Olímpicos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the late 1950s and the 1960s, many colonies in Asia and Africa demanded freedom from European rule. In 1960 alone, seventeen African countries became independent, including Nigeria, Senegal and the Congo. After the Second World War, European powers were weaker and more people believed in the right to self-government. The new countries often had to deal with borders drawn by Europeans, which caused problems.",
+      "es": "A fines de la década de 1950 y en la de 1960, muchas colonias de Asia y África exigieron libertad del dominio europeo. Solo en 1960, diecisiete países africanos se independizaron, entre ellos Nigeria, Senegal y el Congo. Después de la Segunda Guerra Mundial, las potencias europeas estaban más débiles y más gente creía en el derecho a autogobernarse. Los nuevos países a menudo tuvieron que lidiar con fronteras trazadas por europeos, lo que causó problemas."
+    },
+    "meanwhile": {
+      "en": "In May 1960, Theodore Maiman built the first working laser in California.",
+      "es": "En mayo de 1960, Theodore Maiman construyó el primer láser funcional en California."
+    },
+    "reflection": {
+      "en": "Many new nations were born in one year. What does independence mean to you, for a country or for a person?",
+      "es": "Muchas naciones nuevas nacieron en un año. ¿Qué significa la independencia para ti, para un país o para una persona?"
+    },
+    "vocab": [
+      {
+        "term": "colonies",
+        "es": "colonias"
+      },
+      {
+        "term": "independent",
+        "es": "independizaron"
+      },
+      {
+        "term": "self-government",
+        "es": "autogobernarse"
+      },
+      {
+        "term": "borders",
+        "es": "fronteras"
+      }
+    ]
+  },
+  {
+    "id": "cw-020",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What does the Russian word \"glasnost\", used by Gorbachev in the 1980s, mean?",
+      "es": "¿Qué significa la palabra rusa \"glasnost\", usada por Gorbachov en la década de 1980?"
+    },
+    "options": [
+      {
+        "en": "Openness",
+        "es": "Apertura"
+      },
+      {
+        "en": "Secrecy",
+        "es": "Secreto"
+      },
+      {
+        "en": "Revolution",
+        "es": "Revolución"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mikhail Gorbachev became the Soviet leader in 1985. He wanted to fix a stagnant economy. His policy of \"perestroika\" meant restructuring, and \"glasnost\" meant openness: newspapers and people could discuss problems and criticize officials. He also worked with US President Reagan to reduce nuclear weapons. These changes brought more freedom, but they also released forces that led to the end of the Soviet Union.",
+      "es": "Mijaíl Gorbachov se convirtió en líder soviético en 1985. Quería arreglar una economía estancada. Su política de \"perestroika\" significaba reestructuración, y \"glasnost\" significaba apertura: los periódicos y la gente podían discutir los problemas y criticar a los funcionarios. También trabajó con el presidente estadounidense Reagan para reducir las armas nucleares. Estos cambios trajeron más libertad, pero también liberaron fuerzas que llevaron al fin de la Unión Soviética."
+    },
+    "meanwhile": {
+      "en": "In 1985, scientists reported a huge \"hole\" in the ozone layer over Antarctica. Later, countries agreed to stop using the chemicals that caused it.",
+      "es": "En 1985, los científicos informaron de un enorme \"agujero\" en la capa de ozono sobre la Antártida. Más tarde, los países acordaron dejar de usar las sustancias químicas que lo causaban."
+    },
+    "reflection": {
+      "en": "More openness brought both good and unexpected results. When did being more open help you, and when did it cause problems?",
+      "es": "Más apertura trajo resultados buenos e inesperados. ¿Cuándo te ayudó ser más abierto y cuándo te causó problemas?"
+    },
+    "vocab": [
+      {
+        "term": "stagnant",
+        "es": "estancada"
+      },
+      {
+        "term": "restructuring",
+        "es": "reestructuración"
+      },
+      {
+        "term": "criticize",
+        "es": "criticar"
+      },
+      {
+        "term": "openness",
+        "es": "apertura"
+      }
+    ]
+  },
+  {
+    "id": "cw-021",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "On December 26, 1991, the Soviet Union ceased to exist. What happened to its 15 republics?",
+      "es": "El 26 de diciembre de 1991, la Unión Soviética dejó de existir. ¿Qué pasó con sus 15 repúblicas?"
+    },
+    "options": [
+      {
+        "en": "They became independent countries",
+        "es": "Se convirtieron en países independientes"
+      },
+      {
+        "en": "They joined the United States",
+        "es": "Se unieron a Estados Unidos"
+      },
+      {
+        "en": "They became part of China",
+        "es": "Pasaron a formar parte de China"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "By 1991, the Soviet economy was failing, and many republics wanted independence. In August, hard-line communists tried a coup against Gorbachev, but it failed. Soon after, the republics, such as Ukraine, Georgia, Kazakhstan and the Baltic states, declared independence. On Christmas Day, Gorbachev resigned, and the next day the Soviet Union was officially dissolved. The Cold War was over, and Russia became the largest of 15 new countries.",
+      "es": "Hacia 1991, la economía soviética fracasaba y muchas repúblicas querían la independencia. En agosto, comunistas de línea dura intentaron un golpe contra Gorbachov, pero fracasó. Poco después, las repúblicas, como Ucrania, Georgia, Kazajistán y los países bálticos, declararon su independencia. El día de Navidad, Gorbachov renunció y al día siguiente la Unión Soviética fue disuelta oficialmente. La Guerra Fría había terminado y Rusia se convirtió en el mayor de 15 nuevos países."
+    },
+    "meanwhile": {
+      "en": "In March 1991, Argentina, Brazil, Paraguay and Uruguay signed the Treaty of Asunción, which created Mercosur.",
+      "es": "En marzo de 1991, Argentina, Brasil, Paraguay y Uruguay firmaron el Tratado de Asunción, que creó el Mercosur."
+    },
+    "reflection": {
+      "en": "A huge country disappeared in a few months. What does this tell you about how fast big changes can happen?",
+      "es": "Un enorme país desapareció en pocos meses. ¿Qué te dice esto sobre lo rápido que pueden ocurrir los grandes cambios?"
+    },
+    "vocab": [
+      {
+        "term": "failing",
+        "es": "fracasaba"
+      },
+      {
+        "term": "coup",
+        "es": "golpe"
+      },
+      {
+        "term": "resigned",
+        "es": "renunció"
+      },
+      {
+        "term": "dissolved",
+        "es": "disuelta"
+      }
+    ]
+  },
+  {
+    "id": "cw-022",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1959, the Soviet probe Luna 3 took the first pictures of what?",
+      "es": "En 1959, la sonda soviética Luna 3 tomó las primeras fotografías de qué?"
+    },
+    "options": [
+      {
+        "en": "The far side of the Moon",
+        "es": "La cara oculta de la Luna"
+      },
+      {
+        "en": "The surface of Mars",
+        "es": "La superficie de Marte"
+      },
+      {
+        "en": "The rings of Saturn",
+        "es": "Los anillos de Saturno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Moon always shows the same face to the Earth, so nobody had ever seen its other side. In September 1959, Luna 2 became the first spacecraft to reach the Moon. A month later, Luna 3 flew around it and took photographs of the far side, using film that was developed on board. The photos were blurry, but they showed mountains and a few dark patches. The Soviets named some craters.",
+      "es": "La Luna siempre muestra la misma cara a la Tierra, así que nadie había visto nunca su otro lado. En septiembre de 1959, la Luna 2 se convirtió en la primera nave en llegar a la Luna. Un mes después, la Luna 3 la rodeó y tomó fotografías de la cara oculta, con película revelada a bordo. Las fotos eran borrosas, pero mostraban montañas y algunas manchas oscuras. Los soviéticos pusieron nombre a algunos cráteres."
+    },
+    "meanwhile": {
+      "en": "In March 1959, the Barbie doll was first sold in New York, and it became one of the most famous toys in the world.",
+      "es": "En marzo de 1959, la muñeca Barbie se vendió por primera vez en Nueva York y se convirtió en uno de los juguetes más famosos del mundo."
+    },
+    "reflection": {
+      "en": "People waited for thousands of years to see the other side of the Moon. What hidden thing would you like to see?",
+      "es": "La gente esperó miles de años para ver el otro lado de la Luna. ¿Qué cosa oculta te gustaría ver?"
+    },
+    "vocab": [
+      {
+        "term": "probe",
+        "es": "sonda"
+      },
+      {
+        "term": "far side",
+        "es": "cara oculta"
+      },
+      {
+        "term": "film",
+        "es": "película"
+      },
+      {
+        "term": "blurry",
+        "es": "borrosas"
+      }
+    ]
+  },
+  {
+    "id": "cw-023",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "The Hubble Space Telescope was launched in 1990. What was its early problem?",
+      "es": "El Telescopio Espacial Hubble se lanzó en 1990. ¿Cuál fue su problema inicial?"
+    },
+    "options": [
+      {
+        "en": "Its main mirror had a flaw, so images were blurry",
+        "es": "Su espejo principal tenía un defecto, así que las imágenes eran borrosas"
+      },
+      {
+        "en": "It ran out of fuel after only one day in space",
+        "es": "Se quedó sin combustible después de un solo día en el espacio"
+      },
+      {
+        "en": "It pointed at the wrong planet in the night sky",
+        "es": "Apuntó al planeta equivocado en el cielo nocturno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Hubble orbits above the Earth’s atmosphere, so it can see the universe without the blur caused by air. After its launch on April 24, 1990, astronomers found that the main mirror was slightly the wrong shape. In 1993, astronauts flew to the telescope and installed \"glasses\" to correct it. After that, Hubble took amazing pictures of distant galaxies, helped to measure the age of the universe and is still working.",
+      "es": "El Hubble orbita por encima de la atmósfera terrestre, así que puede ver el universo sin la borrosidad causada por el aire. Tras su lanzamiento el 24 de abril de 1990, los astrónomos descubrieron que el espejo principal tenía una forma ligeramente incorrecta. En 1993, unos astronautas volaron hasta el telescopio e instalaron unas \"gafas\" para corregirlo. Después, el Hubble tomó imágenes asombrosas de galaxias lejanas, ayudó a medir la edad del universo y sigue funcionando."
+    },
+    "meanwhile": {
+      "en": "On October 3, 1990, East and West Germany were reunited, one year after the fall of the Berlin Wall.",
+      "es": "El 3 de octubre de 1990, las dos Alemanias se reunificaron, un año después de la caída del Muro de Berlín."
+    },
+    "reflection": {
+      "en": "The telescope’s first pictures were a failure, but a fix made it a success. When did a mistake lead you to a better result?",
+      "es": "Las primeras imágenes del telescopio fueron un fracaso, pero un arreglo lo convirtió en un éxito. ¿Cuándo un error te llevó a un mejor resultado?"
+    },
+    "vocab": [
+      {
+        "term": "mirror",
+        "es": "espejo"
+      },
+      {
+        "term": "blur",
+        "es": "borrosidad"
+      },
+      {
+        "term": "galaxies",
+        "es": "galaxias"
+      },
+      {
+        "term": "astronomers",
+        "es": "astrónomos"
+      }
+    ]
+  },
+  {
+    "id": "cw-024",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In May 1960, an American U-2 spy plane was shot down over the Soviet Union. What was the result?",
+      "es": "En mayo de 1960, un avión espía estadounidense U-2 fue derribado sobre la Unión Soviética. ¿Cuál fue el resultado?"
+    },
+    "options": [
+      {
+        "en": "A meeting between the two leaders collapsed",
+        "es": "Una reunión entre los dos líderes fracasó"
+      },
+      {
+        "en": "The Cold War ended",
+        "es": "La Guerra Fría terminó"
+      },
+      {
+        "en": "The two sides signed a peace treaty",
+        "es": "Los dos bandos firmaron un tratado de paz"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The U-2 flew very high to take photographs of Soviet military bases. At first, the US said that it was a weather plane. Then the Soviets showed that they had captured the pilot, Gary Powers, alive, and parts of the plane. The Americans were caught lying. A summit meeting in Paris between Eisenhower and Khrushchev ended in anger. Powers was later exchanged for a Soviet spy.",
+      "es": "El U-2 volaba muy alto para tomar fotografías de las bases militares soviéticas. Al principio, EE. UU. dijo que era un avión meteorológico. Luego los soviéticos mostraron que habían capturado vivo al piloto, Gary Powers, y partes del avión. Los estadounidenses fueron descubiertos mintiendo. Una cumbre en París entre Eisenhower y Jruschov terminó con enojo. Powers fue canjeado más tarde por un espía soviético."
+    },
+    "meanwhile": {
+      "en": "On May 25, 1960, Argentina celebrated the 150th anniversary of the May Revolution with big events in Buenos Aires.",
+      "es": "El 25 de mayo de 1960, Argentina celebró el 150.º aniversario de la Revolución de Mayo con grandes eventos en Buenos Aires."
+    },
+    "reflection": {
+      "en": "A lie damaged trust between two powers. How do you rebuild trust after someone lies?",
+      "es": "Una mentira dañó la confianza entre dos potencias. ¿Cómo se reconstruye la confianza después de que alguien miente?"
+    },
+    "vocab": [
+      {
+        "term": "spy plane",
+        "es": "avión espía"
+      },
+      {
+        "term": "captured",
+        "es": "capturado"
+      },
+      {
+        "term": "lying",
+        "es": "mintiendo"
+      },
+      {
+        "term": "summit",
+        "es": "cumbre"
+      }
+    ]
+  },
+  {
+    "id": "cw-025",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In April 1986, a serious accident happened at the Chernobyl power plant. What was it?",
+      "es": "En abril de 1986 ocurrió un grave accidente en la central de Chernóbil. ¿Qué fue?"
+    },
+    "options": [
+      {
+        "en": "A nuclear reactor exploded and released radiation",
+        "es": "Un reactor nuclear explotó y liberó radiación"
+      },
+      {
+        "en": "A dam broke and flooded a whole big city",
+        "es": "Se rompió una represa e inundó toda una gran ciudad"
+      },
+      {
+        "en": "A rocket fell on the town by mistake",
+        "es": "Un cohete cayó por error sobre el pueblo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chernobyl was a nuclear power plant in Ukraine, then part of the Soviet Union. During a safety test on April 26, 1986, reactor number 4 exploded. A cloud of radioactive material spread over Europe. Around 350,000 people had to leave their homes. The Soviet government did not tell the truth for days. Today, a large area around the plant is still closed to people, but wildlife has returned.",
+      "es": "Chernóbil era una central nuclear en Ucrania, entonces parte de la Unión Soviética. Durante una prueba de seguridad el 26 de abril de 1986, el reactor número 4 explotó. Una nube de material radiactivo se extendió sobre Europa. Unas 350.000 personas tuvieron que dejar sus hogares. El gobierno soviético no dijo la verdad durante días. Hoy, una gran zona alrededor de la central sigue cerrada a las personas, pero la fauna ha regresado."
+    },
+    "meanwhile": {
+      "en": "In June 1986, Argentina won the FIFA World Cup in Mexico, led by Diego Maradona.",
+      "es": "En junio de 1986, Argentina ganó la Copa del Mundo de la FIFA en México, liderada por Diego Maradona."
+    },
+    "reflection": {
+      "en": "Hiding bad news made the disaster worse. Why is honesty important in a crisis?",
+      "es": "Ocultar las malas noticias empeoró el desastre. ¿Por qué es importante la honestidad en una crisis?"
+    },
+    "vocab": [
+      {
+        "term": "reactor",
+        "es": "reactor"
+      },
+      {
+        "term": "radioactive",
+        "es": "radiactivo"
+      },
+      {
+        "term": "plant",
+        "es": "central"
+      },
+      {
+        "term": "wildlife",
+        "es": "fauna"
+      }
+    ]
+  },
+  {
+    "id": "cw-026",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In 1964, which British band appeared on American TV and started the \"British Invasion\" of music?",
+      "es": "En 1964, ¿qué banda británica apareció en la televisión estadounidense e inició la \"Invasión Británica\" de la música?"
+    },
+    "options": [
+      {
+        "en": "The Beatles",
+        "es": "Los Beatles"
+      },
+      {
+        "en": "The Rolling Stones",
+        "es": "Los Rolling Stones"
+      },
+      {
+        "en": "Queen",
+        "es": "Queen"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Beatles were four young men from Liverpool: John Lennon, Paul McCartney, George Harrison and Ringo Starr. In February 1964, they appeared on The Ed Sullivan Show in the United States and about 73 million people watched. Teenagers screamed with excitement. Soon many other British bands became popular in the US. The Beatles wrote most of their own songs and kept changing their style.",
+      "es": "Los Beatles eran cuatro jóvenes de Liverpool: John Lennon, Paul McCartney, George Harrison y Ringo Starr. En febrero de 1964, aparecieron en The Ed Sullivan Show en Estados Unidos y unos 73 millones de personas lo vieron. Los adolescentes gritaban de emoción. Pronto muchas otras bandas británicas se hicieron populares en EE. UU. Los Beatles escribían la mayor parte de sus canciones y cambiaban constantemente de estilo."
+    },
+    "meanwhile": {
+      "en": "On July 2, 1964, the US Civil Rights Act ended legal segregation in schools, workplaces and public places.",
+      "es": "El 2 de julio de 1964, la Ley de Derechos Civiles de EE. UU. puso fin a la segregación legal en escuelas, lugares de trabajo y espacios públicos."
+    },
+    "reflection": {
+      "en": "Music from one country can excite young people in another. Which band or singer from another country do you enjoy?",
+      "es": "La música de un país puede entusiasmar a jóvenes de otro. ¿Qué banda o cantante de otro país disfrutas?"
+    },
+    "vocab": [
+      {
+        "term": "appeared",
+        "es": "aparecieron"
+      },
+      {
+        "term": "screamed",
+        "es": "gritaban"
+      },
+      {
+        "term": "popular",
+        "es": "populares"
+      },
+      {
+        "term": "songs",
+        "es": "canciones"
+      }
+    ]
+  },
+  {
+    "id": "cw-027",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In August 1963, Martin Luther King Jr. gave a famous speech in Washington. What was its main message?",
+      "es": "En agosto de 1963, Martin Luther King Jr. dio un famoso discurso en Washington. ¿Cuál fue su mensaje principal?"
+    },
+    "options": [
+      {
+        "en": "His dream of equality between Black and white people",
+        "es": "Su sueño de igualdad entre personas negras y blancas"
+      },
+      {
+        "en": "A call for a war against the Soviet Union",
+        "es": "Un llamado a una guerra contra la Unión Soviética"
+      },
+      {
+        "en": "A plan to send American astronauts to the Moon",
+        "es": "Un plan para enviar astronautas estadounidenses a la Luna"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "About 250,000 people gathered at the Lincoln Memorial for the March on Washington for Jobs and Freedom. In his \"I Have a Dream\" speech, King said that he dreamed of a country. In it, children would be judged by their character and not by the color of their skin. He led the civil rights movement with peaceful protest. In 1964, the Civil Rights Act made segregation illegal.",
+      "es": "Unas 250.000 personas se reunieron en el Monumento a Lincoln para la Marcha sobre Washington por el Trabajo y la Libertad. En su discurso \"Tengo un sueño\", King dijo que soñaba con un país. En él, los niños serían juzgados por su carácter y no por el color de su piel. Lideró el movimiento por los derechos civiles con protestas pacíficas. En 1964, la Ley de Derechos Civiles hizo ilegal la segregación."
+    },
+    "meanwhile": {
+      "en": "In June 1964, in South Africa, Nelson Mandela was sentenced to life in prison for fighting against apartheid.",
+      "es": "En junio de 1964, en Sudáfrica, Nelson Mandela fue condenado a cadena perpetua por luchar contra el apartheid."
+    },
+    "reflection": {
+      "en": "King used words and peaceful action to ask for change. What is the most effective way to defend a cause?",
+      "es": "King usó palabras y acción pacífica para pedir un cambio. ¿Cuál es la forma más eficaz de defender una causa?"
+    },
+    "vocab": [
+      {
+        "term": "dreamed",
+        "es": "soñaba"
+      },
+      {
+        "term": "character",
+        "es": "carácter"
+      },
+      {
+        "term": "skin",
+        "es": "piel"
+      },
+      {
+        "term": "segregation",
+        "es": "segregación"
+      }
+    ]
+  },
+  {
+    "id": "cw-028",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In October 1969, the first message was sent over ARPANET, the ancestor of the internet. What happened?",
+      "es": "En octubre de 1969, se envió el primer mensaje por ARPANET, el antecesor de internet. ¿Qué pasó?"
+    },
+    "options": [
+      {
+        "en": "The system crashed after the first two letters, \"LO\"",
+        "es": "El sistema se cayó tras las dos primeras letras, \"LO\""
+      },
+      {
+        "en": "The message was a very long letter of many pages",
+        "es": "El mensaje era una carta muy larga de muchas páginas"
+      },
+      {
+        "en": "The message arrived in the wrong country by mistake",
+        "es": "El mensaje llegó por error al país equivocado"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "ARPANET was a network created by the US Department of Defense to connect research computers. On October 29, 1969, a student at UCLA tried to send the word \"LOGIN\" to a computer at Stanford, 560 kilometers away. The system crashed after \"LO\". An hour later, they tried again and succeeded. By the end of 1969, four universities were connected. Over the years, the network grew into the internet.",
+      "es": "ARPANET era una red creada por el Departamento de Defensa de EE. UU. para conectar computadoras de investigación. El 29 de octubre de 1969, un estudiante de la UCLA intentó enviar la palabra \"LOGIN\" a una computadora de Stanford, a 560 kilómetros de distancia. El sistema se cayó después de \"LO\". Una hora después, lo intentaron de nuevo y funcionó. A fines de 1969, cuatro universidades estaban conectadas. Con los años, la red creció hasta convertirse en internet."
+    },
+    "meanwhile": {
+      "en": "In February 1969, the first Boeing 747, the \"jumbo jet\", made its first flight. It made air travel cheaper for millions of people.",
+      "es": "En febrero de 1969, el primer Boeing 747, el \"jumbo\", hizo su primer vuelo. Abarató los viajes en avión para millones de personas."
+    },
+    "reflection": {
+      "en": "The first message failed after two letters, and it began a revolution. When did a small failure start something important?",
+      "es": "El primer mensaje falló tras dos letras y comenzó una revolución. ¿Cuándo un pequeño fracaso inició algo importante?"
+    },
+    "vocab": [
+      {
+        "term": "network",
+        "es": "red"
+      },
+      {
+        "term": "crashed",
+        "es": "se cayó"
+      },
+      {
+        "term": "succeeded",
+        "es": "funcionó"
+      },
+      {
+        "term": "connected",
+        "es": "conectadas"
+      }
+    ]
+  },
+  {
+    "id": "cw-029",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Nelson Mandela was released from prison in 1990. How long had he been a prisoner?",
+      "es": "Nelson Mandela fue liberado de la cárcel en 1990. ¿Cuánto tiempo había estado preso?"
+    },
+    "options": [
+      {
+        "en": "27 years",
+        "es": "27 años"
+      },
+      {
+        "en": "7 years",
+        "es": "7 años"
+      },
+      {
+        "en": "2 years",
+        "es": "2 años"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mandela led the African National Congress in its struggle against apartheid, the system in South Africa that separated people by race and gave white people the power. In 1964, he was sentenced to life in prison. He spent 27 years there, most of them on Robben Island. Pressure from inside and outside the country led to his release on February 11, 1990. In 1994, he was elected South Africa’s first Black president.",
+      "es": "Mandela lideró el Congreso Nacional Africano en su lucha contra el apartheid, el sistema de Sudáfrica que separaba a las personas por raza y daba el poder a los blancos. En 1964 fue condenado a cadena perpetua. Pasó 27 años preso, la mayoría en la isla Robben. La presión desde dentro y fuera del país llevó a su liberación el 11 de febrero de 1990. En 1994 fue elegido el primer presidente negro de Sudáfrica."
+    },
+    "meanwhile": {
+      "en": "In August 1990, Iraq invaded Kuwait, and a few months later, an international coalition led by the US started the Gulf War.",
+      "es": "En agosto de 1990, Irak invadió Kuwait y unos meses después una coalición internacional liderada por EE. UU. inició la Guerra del Golfo."
+    },
+    "reflection": {
+      "en": "Mandela forgave the people who imprisoned him and worked with them. What does forgiveness mean to you?",
+      "es": "Mandela perdonó a quienes lo encarcelaron y trabajó con ellos. ¿Qué significa para ti el perdón?"
+    },
+    "vocab": [
+      {
+        "term": "apartheid",
+        "es": "apartheid"
+      },
+      {
+        "term": "sentenced",
+        "es": "condenado"
+      },
+      {
+        "term": "released",
+        "es": "liberado"
+      },
+      {
+        "term": "elected",
+        "es": "elegido"
+      }
+    ]
+  },
+  {
+    "id": "cw-030",
+    "category": "cold-war-space-race",
+    "category_label": {
+      "en": "Cold War & Space Race",
+      "es": "Guerra Fría y Carrera Espacial"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Who invented the World Wide Web, and where did he work?",
+      "es": "¿Quién inventó la World Wide Web y dónde trabajaba?"
+    },
+    "options": [
+      {
+        "en": "Tim Berners-Lee, at CERN in Switzerland",
+        "es": "Tim Berners-Lee, en el CERN, en Suiza"
+      },
+      {
+        "en": "Steve Jobs, at Apple in California",
+        "es": "Steve Jobs, en Apple, en California"
+      },
+      {
+        "en": "Bill Gates, at Microsoft in Washington",
+        "es": "Bill Gates, en Microsoft, en Washington"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The internet is the network of computers. The web is a way to share and link pages on it, using links that you click. In 1989, the British scientist Tim Berners-Lee, who worked at CERN, a physics laboratory in Switzerland, proposed this idea so that scientists could share information. The first website went online in 1991. In 1993, CERN made the technology free for everyone to use.",
+      "es": "Internet es la red de computadoras. La web es una forma de compartir y vincular páginas en ella, mediante enlaces en los que se hace clic. En 1989, el científico británico Tim Berners-Lee, que trabajaba en el CERN, un laboratorio de física en Suiza, propuso esta idea para que los científicos pudieran compartir información. El primer sitio web se publicó en 1991. En 1993, el CERN hizo que la tecnología fuera libre para que todos pudieran usarla."
+    },
+    "meanwhile": {
+      "en": "In November 1993, the European Union was officially created when the Maastricht Treaty came into force.",
+      "es": "En noviembre de 1993, la Unión Europea fue creada oficialmente cuando entró en vigor el Tratado de Maastricht."
+    },
+    "reflection": {
+      "en": "The web became free for everyone, and it changed the world. What do you use the web for that was impossible 40 years ago?",
+      "es": "La web se hizo libre para todos y cambió el mundo. ¿Para qué usas la web que era imposible hace 40 años?"
+    },
+    "vocab": [
+      {
+        "term": "network",
+        "es": "red"
+      },
+      {
+        "term": "link",
+        "es": "vincular"
+      },
+      {
+        "term": "laboratory",
+        "es": "laboratorio"
+      },
+      {
+        "term": "website",
+        "es": "sitio web"
+      }
+    ]
+  }
+]

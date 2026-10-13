@@ -36,6 +36,15 @@
 | El audio (mp3 o voz del navegador)                   | `src/hooks/useNarration.ts` y `src/lib/speech.ts` (`pickEnglishVoice`, `splitSentences`) |
 | Vincular preguntas con un artículo del blog          | `src/data/catalog.ts` → `STORIES` + campo `"story"` en cada pregunta (ver **Cómo vincular un artículo del blog**) |
 | La pregunta del día embebible en el blog             | `src/pages/embed/daily.tsx` y `blog/snippets-wordpress.html` |
+| El glosario de una pregunta (palabras que se traducen al tocar y entran al repaso) | Campo `"vocab"` en el JSON de la pregunta (ver **Cómo agregar vocabulario**) |
+| El repaso de palabras al final de la ronda           | `src/lib/vocab.ts` (`buildReview`) y `src/components/VocabReview.tsx` |
+| Cuándo una palabra cuenta como aprendida             | `src/lib/words.ts` → `LEARNED_STREAK` |
+| La duración de una lección (hoy 5 preguntas)          | `src/hooks/useGame.ts` → `QUESTIONS_PER_ROUND` (y `LESSON_REVIEW_SIZE` en `src/pages/game/[category].tsx` para las palabras del repaso) |
+| XP, niveles, meta diaria                             | `src/lib/progress.ts` (constantes `XP_*`, `GOAL_*`, `LEVEL_XP`) |
+| Los logros                                           | `src/lib/achievements.ts` + textos en `public/locales/*/common.json` → `achievements.<id>` |
+| El repaso diario de palabras y cuándo vuelve una palabra | `src/lib/vocab.ts` (`buildDailyReview`) y `src/lib/words.ts` (`isDue`) |
+| Sonidos y vibración                                  | `src/lib/sounds.ts` |
+| La bienvenida de la primera vez                      | `src/components/Onboarding.tsx` |
 | Los tests                                            | `src/lib/__tests__/` (correr `npm test`) |
 | El número de preguntas por ronda                     | `src/hooks/useGame.ts` → constante `QUESTIONS_PER_ROUND`                                            |
 | Qué categorías pertenecen a cada era                 | `src/data/catalog.ts` → `ERAS[].categoryIds` |
@@ -50,7 +59,7 @@ Es la pantalla de bienvenida de la aplicación. Muestra el logo grande de Chrono
 
 ### `src/pages/eras.tsx` — Selección de era
 
-Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una sale de `ERAS` en `src/data/catalog.ts`. Actualmente tienen preguntas: **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`) y **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`).
+Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una sale de `ERAS` en `src/data/catalog.ts`. Hoy las cuatro eras tienen preguntas (12 categorías, 30 preguntas cada una): **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`), **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`) y **Era Moderna** (`industrial-revolution`, `world-wars`, `cold-war-space-race`). Las tres de la Era Moderna comparten la imagen `modern-era.jpg` hasta que tengan una propia.
 
 ### `src/pages/categories.tsx` — Selección de categoría
 
@@ -58,7 +67,7 @@ Es el segundo paso del flujo de juego individual. Muestra la grilla de categorí
 
 ### `src/pages/multiplayer.tsx` — Crear desafío versus
 
-Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra las eras que ya tienen preguntas (Edad Antigua, Edad Media y Temprano Moderno) con su ícono y nombre. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, llama a `signInWithGoogle()`, que guarda la ruta actual y la página de callback lo devuelve acá al terminar. La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Las eras, categorías e íconos salen del catálogo (`src/data/catalog.ts`).
+Flujo de tres pasos para crear una partida multijugador. **Paso 1 (Era):** muestra las eras que ya tienen preguntas (las cuatro eras) con su ícono y nombre. **Paso 2 (Categoría):** filtra las categorías de la era elegida y las muestra como tarjetas. **Paso 3 (Compartir):** crea la partida en Supabase mediante `useMatch`, genera el link de la partida (`/vs/<matchId>`) y presenta dos opciones: compartir por WhatsApp o copiar el link. Si el usuario no está autenticado al seleccionar categoría, llama a `signInWithGoogle()`, que guarda la ruta actual y la página de callback lo devuelve acá al terminar. La navegación hacia atrás es: paso 3 → paso 1, paso 2 → paso 1, paso 1 → `/`. Las eras, categorías e íconos salen del catálogo (`src/data/catalog.ts`).
 
 ### `src/pages/game/[category].tsx` — Juego individual
 
@@ -174,7 +183,7 @@ Escucha el evento `beforeinstallprompt` del navegador (Chrome/Edge en Android), 
 
 ### `src/hooks/useNarration.ts`
 
-Reproduce un texto por vez. `modeFor(mp3Id)` devuelve `'mp3'` si el archivo está en `src/data/audio-manifest.json`, `'voice'` si el dispositivo tiene una voz en inglés, o `null` (sin audio). El manifiesto se genera solo con `scripts/build-audio-manifest.js` antes de `npm run dev` y `npm run build`. Si un mp3 falla al cargar, cae a la voz del navegador. La voz del navegador lee frase por frase (`splitSentences`) para que no se corte en Android.
+Reproduce un texto por vez. `modeFor(mp3Id)` devuelve `'mp3'` si el archivo está en `src/data/audio-manifest.json`, `'voice'` si el dispositivo tiene una voz en inglés, o `null` (sin audio). El manifiesto se genera solo con `scripts/build-audio-manifest.js` antes de `npm run dev` y `npm run build`. Los mp3 vigentes están en `public/audio/v2/`; hoy no hay ninguno, así que se usa la voz del navegador. (Los mp3 anteriores a la reescritura a nivel B1 se borraron; siguen en el historial de git.) Si un mp3 falla al cargar, cae a la voz del navegador. La voz del navegador lee frase por frase (`splitSentences`) para que no se corte en Android.
 
 ---
 
@@ -226,7 +235,8 @@ Reproduce un texto por vez. `modeFor(mp3Id)` devuelve `'mp3'` si el archivo est�
 3. **Puntos importantes a cuidar:**
    - El `id` debe ser único en todo el archivo (convención: `<prefijo-categoria>-<número>`).
    - El `category` y `category_label` deben ser **idénticos** a los de las otras preguntas del mismo archivo.
-   - `options` puede tener entre 2 y 4 opciones. `correctIndex` es la posición de la correcta (0 = la primera). En el juego se mezclan solas.
+   - `options` puede tener entre 2 y 4 opciones (las 360 preguntas actuales tienen 3). `correctIndex` es la posición de la correcta (0 = la primera). En el juego se mezclan solas.
+   - Todas las preguntas actuales tienen `"level"` (`A2` las fáciles, `B1` el resto) y `"vocab"` (ver **Cómo agregar vocabulario**); el test `catalog.test.ts` lo exige.
    - Opcional: `"level": "B1"` (nivel de inglés: `A2`, `B1` o `B2`) y `"story": "antikythera"` (id de una historia del blog en `STORIES`).
    - El audio es opcional: si no hay mp3, se usa la voz del navegador.
    - Los textos de `explanation`, `meanwhile` y `reflection` deben estar en ambos idiomas.
@@ -300,7 +310,7 @@ Sin embargo, **si la era también es nueva** (no existe todavía en la app), sí
 
 ### Paso 6 — Audio (opcional)
 
-No hace falta generar mp3: si una pregunta no tiene, se lee con la voz del navegador. Los 239 mp3 existentes (`{id}_{campo}_en.mp3`) se siguen usando tal cual. Si algún día querés generar mp3 nuevos, `scripts/generate-audio.js` sigue estando, pero tiene la lista de archivos escrita a mano.
+No hace falta generar mp3: si una pregunta no tiene, se lee con la voz del navegador. Si algún día querés generarlos, `node scripts/generate-audio.js` crea los de todas las preguntas en `public/audio/v2/` (`{id}_{explanation|meanwhile|reflection}_en.mp3`, unos 125 KB cada uno; con 360 preguntas serían unos 135 MB, así que conviene generar solo los de las historias más importantes pasando sus ids: `node scripts/generate-audio.js gr-006 gr-007`).
 
 ---
 
@@ -321,6 +331,33 @@ antikythera: {
 2. **Escribir 5 preguntas** sacadas del artículo en el JSON de la categoría que corresponda, con `"story": "antikythera"` y `"level": "B1"`. Conviene reusar el vocabulario del glosario del artículo.
 3. **En Chronos** aparece solo el botón "Read the full story" después de cada una de esas preguntas.
 4. **En el blog** pegar los bloques de `blog/snippets-wordpress.html`: la pregunta del día de esa historia (`/embed/daily?story=antikythera`) y el botón final que abre `/game/<categoria>?story=antikythera` (la ronda arranca con las preguntas de esa historia).
+
+## Cómo agregar vocabulario a una pregunta
+
+Cada pregunta puede traer un glosario de 3 a 5 palabras clave:
+
+```json
+"vocab": [
+  { "term": "shipwreck", "es": "naufragio" },
+  { "term": "seabed", "es": "fondo del mar" }
+]
+```
+
+- `term` tiene que aparecer **tal cual** (palabra completa, sin importar mayúsculas) en la pregunta, `explanation`, `meanwhile` o `reflection` en inglés. El test `vocab.test.ts` lo verifica.
+- En el juego esas palabras salen con subrayado punteado: al tocarlas se leen y se ve la traducción.
+- Al terminar la ronda se arma un repaso de hasta 5 palabras (las tocadas primero, luego las falladas antes, luego las nuevas) con tarjetas de "¿qué significa?" y "completá la frase". Las opciones incorrectas salen de otras palabras del glosario, así que hacen falta al menos 3 palabras en total.
+- El progreso se guarda en el dispositivo (`chronos_words`). Una palabra cuenta como aprendida con 2 aciertos seguidos.
+
+## Progreso, meta diaria y logros
+
+Todo se guarda en el dispositivo (clave `chronos_progress`; todavía no se sincroniza con la cuenta de Google). `src/hooks/useProgress.ts` mantiene un único estado compartido por toda la app, así que lo que registra el juego se ve enseguida en la home, en `/progress` y en las tarjetas de categoría.
+
+- **Lección:** 5 preguntas. `buildRound` elige primero las que el jugador nunca vio, después las que falló y al final el resto, así una categoría se recorre completa antes de repetir. Al terminar hay un repaso de 3 palabras.
+- **XP:** 10 por respuesta correcta, 2 por incorrecta, 20 por terminar la lección (+10 si es perfecta), 5 por palabra acertada en un repaso y 30 de bono por cumplir la meta diaria.
+- **Meta diaria:** 1 lección + repasar 5 palabras. Los contadores se reinician cada día (hora local).
+- **Niveles:** 10 niveles con título (`level.title.N`) y después uno cada 800 XP.
+- **Páginas:** `/words` (mis palabras y repaso diario con repetición espaciada: vuelven a 1, 3, 7 y 14 días según los aciertos seguidos) y `/progress` (nivel, estadísticas y logros).
+- **Sonidos:** se generan con la Web Audio API, sin archivos, y se pueden silenciar desde el botón 🔊.
 
 ## Tests
 

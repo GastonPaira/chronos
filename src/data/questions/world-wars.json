@@ -1,0 +1,1772 @@
+[
+  {
+    "id": "ww-001",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In June 1914, the murder of Archduke Franz Ferdinand in Sarajevo started a chain of events. What did it lead to?",
+      "es": "En junio de 1914, el asesinato del archiduque Francisco Fernando en Sarajevo desencadenó una serie de hechos. ¿A qué condujo?"
+    },
+    "options": [
+      {
+        "en": "The First World War",
+        "es": "La Primera Guerra Mundial"
+      },
+      {
+        "en": "The French Revolution",
+        "es": "La Revolución francesa"
+      },
+      {
+        "en": "The Cold War",
+        "es": "La Guerra Fría"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Franz Ferdinand was the heir to the throne of Austria-Hungary. On June 28, 1914, a young Bosnian Serb, Gavrilo Princip, shot him and his wife during a visit to Sarajevo. A month later, Austria-Hungary declared war on Serbia. Because of alliances, Russia, Germany, France and Britain were soon pulled in. By August, most of Europe was at war.",
+      "es": "Francisco Fernando era el heredero al trono de Austria-Hungría. El 28 de junio de 1914, un joven serbio de Bosnia, Gavrilo Princip, le disparó a él y a su esposa durante una visita a Sarajevo. Un mes después, Austria-Hungría declaró la guerra a Serbia. A causa de las alianzas, Rusia, Alemania, Francia y Gran Bretaña se vieron arrastradas pronto. En agosto, la mayor parte de Europa estaba en guerra."
+    },
+    "meanwhile": {
+      "en": "In August 1914, the Panama Canal opened, joining the Atlantic and Pacific oceans for ships.",
+      "es": "En agosto de 1914 se abrió el canal de Panamá, que unió para los barcos los océanos Atlántico y Pacífico."
+    },
+    "reflection": {
+      "en": "One event started a chain reaction that nobody could stop. When did a small event lead to a big change in your life?",
+      "es": "Un solo hecho inició una reacción en cadena que nadie pudo detener. ¿Cuándo un pequeño suceso llevó a un gran cambio en tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "heir",
+        "es": "heredero"
+      },
+      {
+        "term": "throne",
+        "es": "trono"
+      },
+      {
+        "term": "alliances",
+        "es": "alianzas"
+      },
+      {
+        "term": "declared war",
+        "es": "declaró la guerra"
+      }
+    ]
+  },
+  {
+    "id": "ww-002",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What was life like in the trenches of the Western Front?",
+      "es": "¿Cómo era la vida en las trincheras del Frente Occidental?"
+    },
+    "options": [
+      {
+        "en": "Muddy, cold and dangerous, with rats and lice",
+        "es": "Embarrada, fría y peligrosa, con ratas y piojos"
+      },
+      {
+        "en": "Warm and comfortable, with good food",
+        "es": "Cálida y cómoda, con buena comida"
+      },
+      {
+        "en": "Quiet and boring, with no fighting",
+        "es": "Tranquila y aburrida, sin combates"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "On the Western Front, armies dug long lines of trenches from the North Sea to Switzerland. Soldiers lived in them for weeks, in mud and water, with rats and lice. Between the two lines was \"no man’s land\", where machine guns made it deadly to cross. Attacks cost thousands of lives, and the front line moved only a few kilometers in four years.",
+      "es": "En el Frente Occidental, los ejércitos cavaron largas líneas de trincheras desde el mar del Norte hasta Suiza. Los soldados vivían en ellas durante semanas, entre barro y agua, con ratas y piojos. Entre las dos líneas estaba la \"tierra de nadie\", donde las ametralladoras hacían mortal cruzar. Los ataques costaban miles de vidas, y la línea del frente se movió solo unos pocos kilómetros en cuatro años."
+    },
+    "meanwhile": {
+      "en": "In 1916, in Dublin, Irish rebels started the Easter Rising against British rule. It was crushed within a week.",
+      "es": "En 1916, en Dublín, rebeldes irlandeses iniciaron el Alzamiento de Pascua contra el dominio británico. Fue aplastado en una semana."
+    },
+    "reflection": {
+      "en": "Soldiers wrote letters home to stay strong. Who do you write or talk to when life is difficult?",
+      "es": "Los soldados escribían cartas a casa para mantenerse fuertes. ¿A quién le escribes o con quién hablas cuando la vida es difícil?"
+    },
+    "vocab": [
+      {
+        "term": "trenches",
+        "es": "trincheras"
+      },
+      {
+        "term": "mud",
+        "es": "barro"
+      },
+      {
+        "term": "no man’s land",
+        "es": "tierra de nadie"
+      },
+      {
+        "term": "machine guns",
+        "es": "ametralladoras"
+      }
+    ]
+  },
+  {
+    "id": "ww-003",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which new weapon was used for the first time in large numbers at Ypres in 1915?",
+      "es": "¿Qué arma nueva se usó por primera vez en gran cantidad en Ypres en 1915?"
+    },
+    "options": [
+      {
+        "en": "Poison gas",
+        "es": "Gas venenoso"
+      },
+      {
+        "en": "The atomic bomb",
+        "es": "La bomba atómica"
+      },
+      {
+        "en": "Rockets",
+        "es": "Cohetes"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In April 1915, the German army released a cloud of chlorine gas against French and Canadian soldiers. The gas burned the lungs, and many men died or were blinded. Both sides then used gas, and soldiers received masks. Other new weapons of the war were the machine gun, the tank, the submarine and the airplane. Poison gas was later banned by international law.",
+      "es": "En abril de 1915, el ejército alemán liberó una nube de gas cloro contra soldados franceses y canadienses. El gas quemaba los pulmones y muchos hombres murieron o quedaron ciegos. Después ambos bandos usaron gas y los soldados recibieron máscaras. Otras armas nuevas de la guerra fueron la ametralladora, el tanque, el submarino y el avión. El gas venenoso fue prohibido más tarde por el derecho internacional."
+    },
+    "meanwhile": {
+      "en": "In November 1915, Albert Einstein presented his theory of general relativity, which changed physics.",
+      "es": "En noviembre de 1915, Albert Einstein presentó su teoría de la relatividad general, que cambió la física."
+    },
+    "reflection": {
+      "en": "New technology made war more deadly. Why do you think inventions are sometimes used in harmful ways?",
+      "es": "La nueva tecnología hizo la guerra más mortal. ¿Por qué crees que los inventos a veces se usan de maneras dañinas?"
+    },
+    "vocab": [
+      {
+        "term": "gas",
+        "es": "gas"
+      },
+      {
+        "term": "lungs",
+        "es": "pulmones"
+      },
+      {
+        "term": "masks",
+        "es": "máscaras"
+      },
+      {
+        "term": "tank",
+        "es": "tanque"
+      }
+    ]
+  },
+  {
+    "id": "ww-004",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What happened on the Western Front on Christmas Day 1914?",
+      "es": "¿Qué pasó en el Frente Occidental el día de Navidad de 1914?"
+    },
+    "options": [
+      {
+        "en": "Some soldiers stopped fighting and met in no man’s land",
+        "es": "Algunos soldados dejaron de luchar y se encontraron en tierra de nadie"
+      },
+      {
+        "en": "A huge new battle began on Christmas morning",
+        "es": "Una nueva y enorme batalla comenzó la mañana de Navidad"
+      },
+      {
+        "en": "The war ended, and everyone went home to their families",
+        "es": "La guerra terminó y todos volvieron a casa con sus familias"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "On Christmas Eve 1914, British and German soldiers heard each other singing carols across the trenches. In many places, the shooting stopped. On Christmas Day, men from both sides climbed out of the trenches, shook hands, exchanged small gifts and even played football. They also buried their dead. It was an unofficial truce, and the generals did not allow it to happen again.",
+      "es": "En Nochebuena de 1914, los soldados británicos y alemanes se oían cantar villancicos de una trinchera a otra. En muchos lugares, los disparos se detuvieron. El día de Navidad, hombres de ambos bandos salieron de las trincheras, se dieron la mano, intercambiaron pequeños regalos e incluso jugaron al fútbol. También enterraron a sus muertos. Fue una tregua no oficial, y los generales no permitieron que volviera a ocurrir."
+    },
+    "meanwhile": {
+      "en": "In December 1913, Buenos Aires opened its first subway line. It was the first in Latin America and the whole Southern Hemisphere.",
+      "es": "En diciembre de 1913, Buenos Aires inauguró su primera línea de subte. Fue la primera de América Latina y de todo el hemisferio sur."
+    },
+    "reflection": {
+      "en": "Enemies sang and played together for one day. What can bring people together when they are on opposite sides?",
+      "es": "Los enemigos cantaron y jugaron juntos un día. ¿Qué puede unir a las personas cuando están en bandos opuestos?"
+    },
+    "vocab": [
+      {
+        "term": "carols",
+        "es": "villancicos"
+      },
+      {
+        "term": "shook hands",
+        "es": "se dieron la mano"
+      },
+      {
+        "term": "truce",
+        "es": "tregua"
+      },
+      {
+        "term": "gifts",
+        "es": "regalos"
+      }
+    ]
+  },
+  {
+    "id": "ww-005",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Battle of Verdun, in 1916, became a symbol for which country?",
+      "es": "La batalla de Verdún, en 1916, se convirtió en un símbolo para qué país?"
+    },
+    "options": [
+      {
+        "en": "France",
+        "es": "Francia"
+      },
+      {
+        "en": "Italy",
+        "es": "Italia"
+      },
+      {
+        "en": "Russia",
+        "es": "Rusia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In February 1916, Germany attacked the French fortress of Verdun, hoping that France would lose so many men that it would give up. The fighting lasted about ten months. France refused to surrender, with the slogan \"They shall not pass\". Around 700,000 soldiers from both sides were killed or wounded. The battle changed the landscape into a field of craters.",
+      "es": "En febrero de 1916, Alemania atacó la fortaleza francesa de Verdún, con la esperanza de que Francia perdiera tantos hombres que se rindiera. Los combates duraron unos diez meses. Francia se negó a rendirse, con el lema \"No pasarán\". Unos 700.000 soldados de ambos bandos murieron o resultaron heridos. La batalla convirtió el paisaje en un campo de cráteres."
+    },
+    "meanwhile": {
+      "en": "In 1916, the Argentine radical Hipólito Yrigoyen became president, in one of the first elections with the secret ballot for men.",
+      "es": "En 1916, el radical argentino Hipólito Yrigoyen se convirtió en presidente, en una de las primeras elecciones con voto secreto para los hombres."
+    },
+    "reflection": {
+      "en": "Both sides lost many lives for a small piece of land. What goals are worth that cost?",
+      "es": "Ambos bandos perdieron muchas vidas por un pequeño pedazo de tierra. ¿Qué metas valen ese costo?"
+    },
+    "vocab": [
+      {
+        "term": "fortress",
+        "es": "fortaleza"
+      },
+      {
+        "term": "surrender",
+        "es": "rendirse"
+      },
+      {
+        "term": "slogan",
+        "es": "lema"
+      },
+      {
+        "term": "craters",
+        "es": "cráteres"
+      }
+    ]
+  },
+  {
+    "id": "ww-006",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1917, the United States entered the war. What helped to push it to join?",
+      "es": "En 1917, Estados Unidos entró en la guerra. ¿Qué ayudó a empujarlo a unirse?"
+    },
+    "options": [
+      {
+        "en": "German submarine attacks and the Zimmermann Telegram",
+        "es": "Los ataques de submarinos alemanes y el telegrama Zimmermann"
+      },
+      {
+        "en": "A French invasion of Canada and Mexico",
+        "es": "Una invasión francesa de Canadá y México"
+      },
+      {
+        "en": "A surprise attack on the island of Hawaii",
+        "es": "Un ataque sorpresa a la isla de Hawái"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1917, Germany announced that its submarines would sink any ship near Britain, including American ones. Soon after, the British shared a secret message from the German foreign minister, Zimmermann, who proposed an alliance with Mexico against the United States. President Wilson asked Congress for war in April 1917. Fresh American soldiers helped the Allies to win in 1918.",
+      "es": "En 1917, Alemania anunció que sus submarinos hundirían cualquier barco cerca de Gran Bretaña, incluidos los estadounidenses. Poco después, los británicos dieron a conocer un mensaje secreto del ministro de Exteriores alemán, Zimmermann, que proponía una alianza con México contra Estados Unidos. El presidente Wilson pidió al Congreso la guerra en abril de 1917. Los soldados estadounidenses, frescos, ayudaron a los Aliados a ganar en 1918."
+    },
+    "meanwhile": {
+      "en": "During the whole First World War, Argentina remained neutral and sold large amounts of wheat and beef to Europe.",
+      "es": "Durante toda la Primera Guerra Mundial, Argentina se mantuvo neutral y vendió grandes cantidades de trigo y carne a Europa."
+    },
+    "reflection": {
+      "en": "A secret message changed a nation’s opinion. How much should we trust news that comes from secret sources?",
+      "es": "Un mensaje secreto cambió la opinión de una nación. ¿Cuánto debemos confiar en noticias que vienen de fuentes secretas?"
+    },
+    "vocab": [
+      {
+        "term": "submarines",
+        "es": "submarinos"
+      },
+      {
+        "term": "alliance",
+        "es": "alianza"
+      },
+      {
+        "term": "Congress",
+        "es": "Congreso"
+      },
+      {
+        "term": "Allies",
+        "es": "Aliados"
+      }
+    ]
+  },
+  {
+    "id": "ww-007",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1917, what happened in Russia that eventually took it out of the war?",
+      "es": "En 1917, ¿qué pasó en Rusia que finalmente la sacó de la guerra?"
+    },
+    "options": [
+      {
+        "en": "A revolution removed the tsar; the Bolsheviks took power",
+        "es": "Una revolución derrocó al zar; los bolcheviques tomaron el poder"
+      },
+      {
+        "en": "The Russian army conquered the city of Berlin",
+        "es": "El ejército ruso conquistó la ciudad de Berlín"
+      },
+      {
+        "en": "A great volcano erupted in the heart of Siberia",
+        "es": "Un gran volcán entró en erupción en el corazón de Siberia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Russia suffered millions of casualties, hunger and cold. In March 1917, workers and soldiers forced the tsar, Nicholas II, to give up the throne. In November, the Bolsheviks, led by Vladimir Lenin, took power and promised \"peace, land and bread\". In March 1918, they signed a treaty with Germany, which gave Germany large territories. Russia was out of the war, but a civil war began.",
+      "es": "Rusia sufrió millones de bajas, hambre y frío. En marzo de 1917, obreros y soldados obligaron al zar Nicolás II a abandonar el trono. En noviembre, los bolcheviques, liderados por Vladimir Lenin, tomaron el poder y prometieron \"paz, tierra y pan\". En marzo de 1918 firmaron un tratado con Alemania, que le dio grandes territorios. Rusia salió de la guerra, pero comenzó una guerra civil."
+    },
+    "meanwhile": {
+      "en": "In February 1917, Mexico approved a new constitution that gave rights to workers and limited the power of the Church.",
+      "es": "En febrero de 1917, México aprobó una nueva Constitución que daba derechos a los trabajadores y limitaba el poder de la Iglesia."
+    },
+    "reflection": {
+      "en": "People wanted \"peace, land and bread\", simple basic needs. What are the basic things that people need to feel secure?",
+      "es": "La gente quería \"paz, tierra y pan\", necesidades básicas simples. ¿Qué cosas básicas necesita la gente para sentirse segura?"
+    },
+    "vocab": [
+      {
+        "term": "casualties",
+        "es": "bajas"
+      },
+      {
+        "term": "tsar",
+        "es": "zar"
+      },
+      {
+        "term": "Bolsheviks",
+        "es": "bolcheviques"
+      },
+      {
+        "term": "treaty",
+        "es": "tratado"
+      }
+    ]
+  },
+  {
+    "id": "ww-008",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "At what time and date did the fighting stop on the Western Front in 1918?",
+      "es": "¿A qué hora y fecha se detuvieron los combates en el Frente Occidental en 1918?"
+    },
+    "options": [
+      {
+        "en": "At 11 a.m. on November 11",
+        "es": "A las 11 de la mañana del 11 de noviembre"
+      },
+      {
+        "en": "At midnight on January 1",
+        "es": "A medianoche del 1 de enero"
+      },
+      {
+        "en": "At noon on July 4",
+        "es": "Al mediodía del 4 de julio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "By autumn 1918, Germany was exhausted, hungry and losing on the battlefield, and revolution began at home. On November 11, in a railway carriage in a forest in France, German leaders signed an armistice, an agreement to stop fighting. It came into effect at 11 a.m. About ten million soldiers had died in the war. The date is remembered every year in many countries.",
+      "es": "En el otoño de 1918, Alemania estaba agotada, hambrienta y perdiendo en el campo de batalla, y la revolución comenzó en casa. El 11 de noviembre, en un vagón de tren en un bosque de Francia, los líderes alemanes firmaron un armisticio, un acuerdo para detener los combates. Entró en vigor a las 11 de la mañana. Unos diez millones de soldados habían muerto en la guerra. La fecha se recuerda cada año en muchos países."
+    },
+    "meanwhile": {
+      "en": "In June 1918, university students in Córdoba, Argentina, began the University Reform, a movement that spread across Latin America.",
+      "es": "En junio de 1918, estudiantes universitarios de Córdoba, Argentina, iniciaron la Reforma Universitaria, un movimiento que se extendió por América Latina."
+    },
+    "reflection": {
+      "en": "Many countries stop for a moment of silence each year. How do you remember important events or people?",
+      "es": "Muchos países hacen un momento de silencio cada año. ¿Cómo recuerdas los acontecimientos o las personas importantes?"
+    },
+    "vocab": [
+      {
+        "term": "exhausted",
+        "es": "agotada"
+      },
+      {
+        "term": "armistice",
+        "es": "armisticio"
+      },
+      {
+        "term": "railway carriage",
+        "es": "vagón de tren"
+      },
+      {
+        "term": "remembered",
+        "es": "recuerda"
+      }
+    ]
+  },
+  {
+    "id": "ww-009",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Treaty of Versailles of 1919 made Germany accept what?",
+      "es": "El Tratado de Versalles de 1919 obligó a Alemania a aceptar qué?"
+    },
+    "options": [
+      {
+        "en": "The blame for the war and heavy payments",
+        "es": "La culpa de la guerra y fuertes pagos"
+      },
+      {
+        "en": "A new king from Britain for Germany",
+        "es": "Un nuevo rey británico para Alemania"
+      },
+      {
+        "en": "Rule over the land of France and Belgium",
+        "es": "El dominio sobre las tierras de Francia y Bélgica"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After the war, the winners met near Paris to decide the peace. The treaty said that Germany was responsible for the war. Germany had to give up land, reduce its army and pay huge reparations to the winners. Many Germans felt humiliated and angry. Many historians think that this resentment helped extremists, like Hitler, to gain support later.",
+      "es": "Después de la guerra, los vencedores se reunieron cerca de París para decidir la paz. El tratado decía que Alemania era responsable de la guerra. Alemania tuvo que ceder territorio, reducir su ejército y pagar enormes reparaciones a los vencedores. Muchos alemanes se sintieron humillados y furiosos. Muchos historiadores piensan que este resentimiento ayudó después a que extremistas, como Hitler, ganaran apoyo."
+    },
+    "meanwhile": {
+      "en": "In 1919, in India, Mahatma Gandhi became the leader of the movement for independence from British rule, using non-violent protest.",
+      "es": "En 1919, en la India, Mahatma Gandhi se convirtió en el líder del movimiento por la independencia del dominio británico, usando la protesta no violenta."
+    },
+    "reflection": {
+      "en": "A harsh peace left a lot of anger. How can a conflict be ended in a way that is fair for both sides?",
+      "es": "Una paz dura dejó mucha rabia. ¿Cómo se puede terminar un conflicto de una manera justa para ambos bandos?"
+    },
+    "vocab": [
+      {
+        "term": "responsible",
+        "es": "responsable"
+      },
+      {
+        "term": "reparations",
+        "es": "reparaciones"
+      },
+      {
+        "term": "humiliated",
+        "es": "humillados"
+      },
+      {
+        "term": "resentment",
+        "es": "resentimiento"
+      }
+    ]
+  },
+  {
+    "id": "ww-010",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why is the 1918 influenza pandemic called the \"Spanish flu\"?",
+      "es": "¿Por qué la pandemia de gripe de 1918 se llama \"gripe española\"?"
+    },
+    "options": [
+      {
+        "en": "Spain was neutral, so its press reported the disease",
+        "es": "España era neutral, así que su prensa informó de la enfermedad"
+      },
+      {
+        "en": "The virus first began in Spain in the winter of 1918",
+        "es": "El virus comenzó por primera vez en España en el invierno de 1918"
+      },
+      {
+        "en": "Spanish doctors were the first to discover the virus",
+        "es": "Los médicos españoles fueron los primeros en descubrir el virus"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The flu appeared in 1918, near the end of the war. Countries at war censored news about it, to avoid weakening morale. Spain was neutral, so its newspapers wrote openly about the sickness, even about the king’s illness. People abroad began to call it the Spanish flu, but it did not start there. Around 500 million people were infected, and at least 50 million died.",
+      "es": "La gripe apareció en 1918, cerca del final de la guerra. Los países en guerra censuraban las noticias sobre ella para no debilitar la moral. España era neutral, así que sus periódicos hablaron abiertamente de la enfermedad, incluso de la del rey. En el extranjero empezaron a llamarla gripe española, pero no empezó allí. Unos 500 millones de personas se infectaron y murieron al menos 50 millones."
+    },
+    "meanwhile": {
+      "en": "In 1919, the art and design school Bauhaus was founded in Germany. Its ideas influenced modern architecture and design.",
+      "es": "En 1919 se fundó en Alemania la escuela de arte y diseño Bauhaus. Sus ideas influyeron en la arquitectura y el diseño modernos."
+    },
+    "reflection": {
+      "en": "The name of the flu was wrong, and it stayed. Why is it important to use correct information, not only popular names?",
+      "es": "El nombre de la gripe era erróneo y se quedó. ¿Por qué es importante usar información correcta y no solo nombres populares?"
+    },
+    "vocab": [
+      {
+        "term": "neutral",
+        "es": "neutral"
+      },
+      {
+        "term": "censored",
+        "es": "censuraban"
+      },
+      {
+        "term": "infected",
+        "es": "infectaron"
+      },
+      {
+        "term": "sickness",
+        "es": "enfermedad"
+      }
+    ]
+  },
+  {
+    "id": "ww-011",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How did the First World War change life for many women?",
+      "es": "¿Cómo cambió la Primera Guerra Mundial la vida de muchas mujeres?"
+    },
+    "options": [
+      {
+        "en": "They worked in factories and hospitals, and gained rights",
+        "es": "Trabajaron en fábricas y hospitales, y ganaron derechos"
+      },
+      {
+        "en": "They were sent to fight on the front line",
+        "es": "Fueron enviadas a combatir en la línea del frente"
+      },
+      {
+        "en": "Their lives stayed exactly the same as before the war",
+        "es": "Sus vidas siguieron exactamente igual que antes de la guerra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When millions of men went to fight, women took their jobs. They made weapons and uniforms in factories, drove ambulances, worked on farms and nursed wounded soldiers. After seeing what women could do, governments found it harder to deny them the vote. In 1918, some British women over 30 could vote for the first time. In the United States, women won the vote in 1920.",
+      "es": "Cuando millones de hombres se fueron a combatir, las mujeres ocuparon sus trabajos. Fabricaban armas y uniformes en las fábricas, conducían ambulancias, trabajaban en granjas y cuidaban a soldados heridos. Después de ver lo que las mujeres podían hacer, a los gobiernos les resultó más difícil negarles el voto. En 1918, algunas mujeres británicas mayores de 30 años pudieron votar por primera vez. En Estados Unidos, las mujeres ganaron el voto en 1920."
+    },
+    "meanwhile": {
+      "en": "In November 1918, Poland became an independent country again, after more than 120 years without a state.",
+      "es": "En noviembre de 1918, Polonia volvió a ser un país independiente, después de más de 120 años sin Estado."
+    },
+    "reflection": {
+      "en": "War opened doors for women that had been closed. Which rights have people had to fight for in your country?",
+      "es": "La guerra abrió a las mujeres puertas que estaban cerradas. ¿Por qué derechos ha tenido que luchar la gente en tu país?"
+    },
+    "vocab": [
+      {
+        "term": "factories",
+        "es": "fábricas"
+      },
+      {
+        "term": "ambulances",
+        "es": "ambulancias"
+      },
+      {
+        "term": "wounded",
+        "es": "heridos"
+      },
+      {
+        "term": "vote",
+        "es": "voto"
+      }
+    ]
+  },
+  {
+    "id": "ww-012",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "At Gallipoli in 1915, the Allies tried to attack which country, and failed?",
+      "es": "En Galípoli en 1915, los Aliados intentaron atacar a qué país, y fracasaron?"
+    },
+    "options": [
+      {
+        "en": "The Ottoman Empire",
+        "es": "El Imperio otomano"
+      },
+      {
+        "en": "Austria-Hungary",
+        "es": "Austria-Hungría"
+      },
+      {
+        "en": "Bulgaria",
+        "es": "Bulgaria"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Allies wanted to open a sea route to Russia and knock the Ottoman Empire out of the war. In April 1915, British, French, Australian and New Zealand troops landed on the Gallipoli peninsula. The Ottoman defenders, led by officers such as Mustafa Kemal, held the high ground. After eight months and huge losses, the Allies withdrew. The Australians and New Zealanders remember it every year as ANZAC Day.",
+      "es": "Los Aliados querían abrir una ruta marítima hacia Rusia y sacar al Imperio otomano de la guerra. En abril de 1915, tropas británicas, francesas, australianas y neozelandesas desembarcaron en la península de Galípoli. Los defensores otomanos, liderados por oficiales como Mustafa Kemal, mantuvieron las alturas. Tras ocho meses y enormes pérdidas, los Aliados se retiraron. Australianos y neozelandeses lo recuerdan cada año como el Día de ANZAC."
+    },
+    "meanwhile": {
+      "en": "In January 1915, Alexander Graham Bell made the first coast-to-coast telephone call across the United States.",
+      "es": "En enero de 1915, Alexander Graham Bell hizo la primera llamada telefónica de costa a costa de Estados Unidos."
+    },
+    "reflection": {
+      "en": "Mustafa Kemal later became a leader of modern Turkey. How can a hard moment shape a leader’s future?",
+      "es": "Mustafa Kemal se convirtió más tarde en líder de la Turquía moderna. ¿Cómo puede un momento difícil dar forma al futuro de un líder?"
+    },
+    "vocab": [
+      {
+        "term": "peninsula",
+        "es": "península"
+      },
+      {
+        "term": "landed",
+        "es": "desembarcaron"
+      },
+      {
+        "term": "defenders",
+        "es": "defensores"
+      },
+      {
+        "term": "withdrew",
+        "es": "se retiraron"
+      }
+    ]
+  },
+  {
+    "id": "ww-013",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why did red poppies become a symbol of remembrance after the First World War?",
+      "es": "¿Por qué las amapolas rojas se convirtieron en un símbolo de recuerdo después de la Primera Guerra Mundial?"
+    },
+    "options": [
+      {
+        "en": "A famous poem described poppies on soldiers’ graves",
+        "es": "Un famoso poema describía amapolas sobre las tumbas de soldados"
+      },
+      {
+        "en": "They were the national flower of Germany for centuries",
+        "es": "Eran la flor nacional de Alemania desde hacía siglos"
+      },
+      {
+        "en": "They grew only in the deserts of North Africa",
+        "es": "Crecían solo en los desiertos del norte de África"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1915, a Canadian doctor and soldier, John McCrae, wrote the poem In Flanders Fields after a friend died. It begins, \"In Flanders fields the poppies blow, between the crosses, row on row\". Red poppies really did grow on the churned earth of the battlefields. After the war, people began to wear paper poppies in November to remember the dead. Many countries still do this.",
+      "es": "En 1915, un médico y soldado canadiense, John McCrae, escribió el poema In Flanders Fields tras la muerte de un amigo. Comienza: \"En los campos de Flandes las amapolas se mecen, entre las cruces, fila tras fila\". Las amapolas rojas realmente crecían en la tierra removida de los campos de batalla. Después de la guerra, la gente empezó a llevar amapolas de papel en noviembre para recordar a los muertos. Muchos países todavía lo hacen."
+    },
+    "meanwhile": {
+      "en": "In May 1915, a German submarine sank the passenger ship Lusitania, and about 1,200 people died.",
+      "es": "En mayo de 1915, un submarino alemán hundió el barco de pasajeros Lusitania y murieron unas 1.200 personas."
+    },
+    "reflection": {
+      "en": "A poem and a flower became a symbol for millions of people. What symbol means a lot to you or your family?",
+      "es": "Un poema y una flor se convirtieron en un símbolo para millones de personas. ¿Qué símbolo significa mucho para ti o tu familia?"
+    },
+    "vocab": [
+      {
+        "term": "poem",
+        "es": "poema"
+      },
+      {
+        "term": "poppies",
+        "es": "amapolas"
+      },
+      {
+        "term": "battlefields",
+        "es": "campos de batalla"
+      },
+      {
+        "term": "wear",
+        "es": "llevar"
+      }
+    ]
+  },
+  {
+    "id": "ww-014",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In October 1929, the crash of the stock market in New York began which crisis?",
+      "es": "En octubre de 1929, el desplome de la bolsa en Nueva York dio inicio a qué crisis?"
+    },
+    "options": [
+      {
+        "en": "The Great Depression",
+        "es": "La Gran Depresión"
+      },
+      {
+        "en": "The Spanish flu",
+        "es": "La gripe española"
+      },
+      {
+        "en": "The Industrial Revolution",
+        "es": "La Revolución Industrial"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "During the 1920s, many Americans bought shares with borrowed money. In October 1929, prices fell suddenly, and people lost their savings. Thousands of banks and businesses closed. In the United States, about one worker in four lost his job. The crisis spread to other countries, because they traded with the US. Argentina, which sold grain and meat abroad, was hit hard too.",
+      "es": "Durante la década de 1920, muchos estadounidenses compraron acciones con dinero prestado. En octubre de 1929, los precios cayeron de repente y la gente perdió sus ahorros. Miles de bancos y negocios cerraron. En Estados Unidos, aproximadamente uno de cada cuatro trabajadores perdió su empleo. La crisis se extendió a otros países, porque comerciaban con EE. UU. Argentina, que vendía granos y carne al exterior, también fue duramente golpeada."
+    },
+    "meanwhile": {
+      "en": "In 1930, Argentina had its first military coup of the 20th century, as the economic crisis hit the country.",
+      "es": "En 1930, Argentina sufrió su primer golpe militar del siglo XX, cuando la crisis económica golpeó al país."
+    },
+    "reflection": {
+      "en": "Debt and fear made a crisis worse. What have you learned about handling money in uncertain times?",
+      "es": "La deuda y el miedo empeoraron una crisis. ¿Qué has aprendido sobre cómo manejar el dinero en tiempos inciertos?"
+    },
+    "vocab": [
+      {
+        "term": "shares",
+        "es": "acciones"
+      },
+      {
+        "term": "borrowed",
+        "es": "prestado"
+      },
+      {
+        "term": "savings",
+        "es": "ahorros"
+      },
+      {
+        "term": "crisis",
+        "es": "crisis"
+      }
+    ]
+  },
+  {
+    "id": "ww-015",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "How did Adolf Hitler become the leader of Germany in 1933?",
+      "es": "¿Cómo se convirtió Adolf Hitler en el líder de Alemania en 1933?"
+    },
+    "options": [
+      {
+        "en": "He was named chancellor, then destroyed democracy",
+        "es": "Fue nombrado canciller y luego destruyó la democracia"
+      },
+      {
+        "en": "He won a big war against the French army",
+        "es": "Ganó una gran guerra contra el ejército francés"
+      },
+      {
+        "en": "He was born into the German royal family",
+        "es": "Nació en la familia real alemana"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The economic crisis made many Germans angry, and the Nazi Party promised to restore national pride and give jobs. It became the largest party. In January 1933, the president named Hitler chancellor, which was legal. Within months, he banned other parties, removed civil rights and made himself dictator. The Nazis blamed Jews and others for Germany’s problems and began to persecute them.",
+      "es": "La crisis económica enfureció a muchos alemanes, y el Partido Nazi prometió devolver el orgullo nacional y dar empleo. Se convirtió en el partido más grande. En enero de 1933, el presidente nombró canciller a Hitler, lo que fue legal. En pocos meses prohibió los otros partidos, eliminó los derechos civiles y se convirtió en dictador. Los nazis culparon a los judíos y a otros de los problemas de Alemania y comenzaron a perseguirlos."
+    },
+    "meanwhile": {
+      "en": "In 1933, in the United States, President Franklin Roosevelt began the New Deal, a set of programs to fight the Depression.",
+      "es": "En 1933, en Estados Unidos, el presidente Franklin Roosevelt inició el New Deal, un conjunto de programas para combatir la Depresión."
+    },
+    "reflection": {
+      "en": "Democracy can be lost step by step. What can citizens do to protect their rights?",
+      "es": "La democracia puede perderse paso a paso. ¿Qué pueden hacer los ciudadanos para proteger sus derechos?"
+    },
+    "vocab": [
+      {
+        "term": "chancellor",
+        "es": "canciller"
+      },
+      {
+        "term": "banned",
+        "es": "prohibió"
+      },
+      {
+        "term": "dictator",
+        "es": "dictador"
+      },
+      {
+        "term": "persecute",
+        "es": "perseguirlos"
+      }
+    ]
+  },
+  {
+    "id": "ww-016",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which event started the Second World War in Europe on September 1, 1939?",
+      "es": "¿Qué hecho inició la Segunda Guerra Mundial en Europa el 1 de septiembre de 1939?"
+    },
+    "options": [
+      {
+        "en": "Germany invaded Poland",
+        "es": "Alemania invadió Polonia"
+      },
+      {
+        "en": "Italy attacked Greece",
+        "es": "Italia atacó Grecia"
+      },
+      {
+        "en": "Japan attacked Pearl Harbor",
+        "es": "Japón atacó Pearl Harbor"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1939, Germany and the Soviet Union secretly agreed not to fight each other and to divide Poland. At dawn on September 1, German troops crossed the Polish border. Britain and France had promised to defend Poland, so they declared war on Germany two days later. The Soviet Union invaded Poland from the east on September 17. Poland was defeated in about a month.",
+      "es": "En 1939, Alemania y la Unión Soviética acordaron en secreto no luchar entre sí y dividirse Polonia. Al amanecer del 1 de septiembre, las tropas alemanas cruzaron la frontera polaca. Gran Bretaña y Francia habían prometido defender a Polonia, así que declararon la guerra a Alemania dos días después. La Unión Soviética invadió Polonia desde el este el 17 de septiembre. Polonia fue derrotada en aproximadamente un mes."
+    },
+    "meanwhile": {
+      "en": "In 1939, Argentina declared itself neutral in the new war and kept its neutrality for most of the conflict.",
+      "es": "En 1939, Argentina se declaró neutral en la nueva guerra y mantuvo su neutralidad durante la mayor parte del conflicto."
+    },
+    "reflection": {
+      "en": "Promises between countries pulled others into the war. Is it right to go to war to keep a promise to an ally?",
+      "es": "Las promesas entre países arrastraron a otros a la guerra. ¿Es correcto ir a la guerra para cumplir una promesa a un aliado?"
+    },
+    "vocab": [
+      {
+        "term": "invaded",
+        "es": "invadió"
+      },
+      {
+        "term": "border",
+        "es": "frontera"
+      },
+      {
+        "term": "dawn",
+        "es": "amanecer"
+      },
+      {
+        "term": "defeated",
+        "es": "derrotada"
+      }
+    ]
+  },
+  {
+    "id": "ww-017",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What does \"Blitzkrieg\" mean, and how did Germany use it in 1939–1940?",
+      "es": "¿Qué significa \"Blitzkrieg\" y cómo lo usó Alemania en 1939–1940?"
+    },
+    "options": [
+      {
+        "en": "\"Lightning war\", using fast tanks and planes together",
+        "es": "\"Guerra relámpago\", usando tanques y aviones rápidos juntos"
+      },
+      {
+        "en": "\"Silent war\", using spies and secret codes",
+        "es": "\"Guerra silenciosa\", usando espías y códigos secretos"
+      },
+      {
+        "en": "\"Long war\", with slow fighting from trenches",
+        "es": "\"Guerra larga\", con lentos combates desde trincheras"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In German, \"Blitz\" means lightning. The idea was to use tanks, trucks and airplanes together to break through the enemy lines quickly and surround the army. In the First World War, fronts had barely moved. In 1940, the Germans defeated Poland, Denmark, Norway, the Netherlands, Belgium and France in just a few months. France surrendered on June 22, 1940.",
+      "es": "En alemán, \"Blitz\" significa relámpago. La idea era usar tanques, camiones y aviones juntos para romper rápidamente las líneas enemigas y rodear al ejército. En la Primera Guerra Mundial, los frentes apenas se habían movido. En 1940, los alemanes derrotaron a Polonia, Dinamarca, Noruega, los Países Bajos, Bélgica y Francia en solo unos meses. Francia se rindió el 22 de junio de 1940."
+    },
+    "meanwhile": {
+      "en": "In September 1940, in France, boys found the Lascaux caves, which are full of prehistoric paintings of animals.",
+      "es": "En septiembre de 1940, en Francia, unos niños encontraron las cuevas de Lascaux, llenas de pinturas prehistóricas de animales."
+    },
+    "reflection": {
+      "en": "Speed surprised the enemy. When has doing things in a new, faster way helped you?",
+      "es": "La velocidad sorprendió al enemigo. ¿Cuándo te ayudó hacer las cosas de una manera nueva y más rápida?"
+    },
+    "vocab": [
+      {
+        "term": "lightning",
+        "es": "relámpago"
+      },
+      {
+        "term": "tanks",
+        "es": "tanques"
+      },
+      {
+        "term": "surround",
+        "es": "rodear"
+      },
+      {
+        "term": "surrendered",
+        "es": "se rindió"
+      }
+    ]
+  },
+  {
+    "id": "ww-018",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In December 1939, the German battleship Admiral Graf Spee ended its story near Montevideo. What happened?",
+      "es": "En diciembre de 1939, el acorazado alemán Admiral Graf Spee terminó su historia cerca de Montevideo. ¿Qué pasó?"
+    },
+    "options": [
+      {
+        "en": "Its captain sank his own ship after a battle at sea",
+        "es": "Su capitán hundió su propio barco tras una batalla en el mar"
+      },
+      {
+        "en": "It was captured by Uruguayan soldiers in port",
+        "es": "Fue capturado en el puerto por soldados uruguayos"
+      },
+      {
+        "en": "It sailed on to attack the port of Buenos Aires",
+        "es": "Siguió navegando para atacar el puerto de Buenos Aires"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Graf Spee was a modern German warship that sank several merchant ships in the Atlantic. On December 13, 1939, three British cruisers fought it near the mouth of the Río de la Plata. The Graf Spee was damaged and took shelter in Montevideo, in neutral Uruguay. Thousands of people watched. Its captain, Hans Langsdorff, took the crew off, and on December 17, he sank the ship.",
+      "es": "El Graf Spee era un moderno buque de guerra alemán que hundió varios barcos mercantes en el Atlántico. El 13 de diciembre de 1939, tres cruceros británicos lo combatieron cerca de la desembocadura del Río de la Plata. El Graf Spee quedó dañado y se refugió en Montevideo, en el Uruguay neutral. Miles de personas miraron. Su capitán, Hans Langsdorff, sacó a la tripulación y el 17 de diciembre hundió el barco."
+    },
+    "meanwhile": {
+      "en": "In the same weeks, the Soviet Union attacked Finland in the Winter War, and the Finns resisted for more than three months.",
+      "es": "En esas mismas semanas, la Unión Soviética atacó Finlandia en la Guerra de Invierno, y los finlandeses resistieron más de tres meses."
+    },
+    "reflection": {
+      "en": "A war in Europe reached the waters of South America. How do events far away reach your own life?",
+      "es": "Una guerra de Europa llegó a las aguas de América del Sur. ¿Cómo llegan a tu vida los hechos que ocurren lejos?"
+    },
+    "vocab": [
+      {
+        "term": "battleship",
+        "es": "acorazado"
+      },
+      {
+        "term": "cruisers",
+        "es": "cruceros"
+      },
+      {
+        "term": "took shelter",
+        "es": "se refugió"
+      },
+      {
+        "term": "crew",
+        "es": "tripulación"
+      }
+    ]
+  },
+  {
+    "id": "ww-019",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1940, what happened at Dunkirk, in France?",
+      "es": "En 1940, ¿qué pasó en Dunkerque, en Francia?"
+    },
+    "options": [
+      {
+        "en": "More than 300,000 soldiers were rescued by sea",
+        "es": "Más de 300.000 soldados fueron rescatados por mar"
+      },
+      {
+        "en": "The Germans were defeated by the British",
+        "es": "Los alemanes fueron derrotados por los británicos"
+      },
+      {
+        "en": "The French army conquered Germany",
+        "es": "El ejército francés conquistó Alemania"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In May 1940, German forces surrounded the British and French armies in northern France. They were trapped at the port of Dunkirk with their backs to the sea. Between May 26 and June 4, navy ships crossed the English Channel. So did hundreds of small civilian boats, such as fishing boats and yachts. Together they rescued about 338,000 men. It was not a victory, but it saved the British army.",
+      "es": "En mayo de 1940, las fuerzas alemanas rodearon a los ejércitos británico y francés en el norte de Francia. Quedaron atrapados en el puerto de Dunkerque con el mar a sus espaldas. Entre el 26 de mayo y el 4 de junio, barcos de la armada cruzaron el canal de la Mancha. También lo hicieron cientos de pequeñas embarcaciones civiles, como barcos de pesca y yates. Juntos rescataron a unos 338.000 hombres. No fue una victoria, pero salvó al ejército británico."
+    },
+    "meanwhile": {
+      "en": "In May 1940, Winston Churchill became prime minister of Britain, and he promised that the country would never surrender.",
+      "es": "En mayo de 1940, Winston Churchill se convirtió en primer ministro de Gran Bretaña y prometió que el país nunca se rendiría."
+    },
+    "reflection": {
+      "en": "Ordinary people with small boats helped to save an army. When did ordinary people do something extraordinary in a crisis?",
+      "es": "Gente común con pequeños botes ayudó a salvar a un ejército. ¿Cuándo hizo la gente común algo extraordinario en una crisis?"
+    },
+    "vocab": [
+      {
+        "term": "trapped",
+        "es": "atrapados"
+      },
+      {
+        "term": "rescued",
+        "es": "rescataron"
+      },
+      {
+        "term": "fishing boats",
+        "es": "barcos de pesca"
+      },
+      {
+        "term": "Channel",
+        "es": "canal de la Mancha"
+      }
+    ]
+  },
+  {
+    "id": "ww-020",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In the Battle of Britain in 1940, which two air forces fought over the skies of England?",
+      "es": "En la Batalla de Inglaterra en 1940, ¿qué dos fuerzas aéreas lucharon por los cielos de Inglaterra?"
+    },
+    "options": [
+      {
+        "en": "The British RAF and the German Luftwaffe",
+        "es": "La RAF británica y la Luftwaffe alemana"
+      },
+      {
+        "en": "The American and Japanese air forces",
+        "es": "Las fuerzas aéreas estadounidense y japonesa"
+      },
+      {
+        "en": "The French and Italian air forces",
+        "es": "Las fuerzas aéreas francesa e italiana"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After France fell, Hitler planned to invade Britain, but first he needed to control the air. From July to October 1940, the German Luftwaffe attacked airfields, factories and cities. The British Royal Air Force, with Spitfire and Hurricane fighters and a new system called radar, fought back. Germany lost many planes and postponed the invasion. Churchill praised the pilots: \"Never was so much owed by so many to so few.\"",
+      "es": "Después de la caída de Francia, Hitler planeó invadir Gran Bretaña, pero primero necesitaba controlar el aire. De julio a octubre de 1940, la Luftwaffe alemana atacó aeródromos, fábricas y ciudades. La Real Fuerza Aérea británica, con cazas Spitfire y Hurricane y un nuevo sistema llamado radar, respondió. Alemania perdió muchos aviones y pospuso la invasión. Churchill elogió a los pilotos: \"Nunca tantos le debieron tanto a tan pocos\"."
+    },
+    "meanwhile": {
+      "en": "In September 1940, Japan, Germany and Italy signed the Tripartite Pact, and formed an alliance called the Axis.",
+      "es": "En septiembre de 1940, Japón, Alemania e Italia firmaron el Pacto Tripartito y formaron una alianza llamada el Eje."
+    },
+    "reflection": {
+      "en": "A small group of pilots protected a whole country. When did a small group of people make a big difference near you?",
+      "es": "Un pequeño grupo de pilotos protegió a todo un país. ¿Cuándo un pequeño grupo de personas marcó una gran diferencia cerca de ti?"
+    },
+    "vocab": [
+      {
+        "term": "airfields",
+        "es": "aeródromos"
+      },
+      {
+        "term": "fighters",
+        "es": "cazas"
+      },
+      {
+        "term": "radar",
+        "es": "radar"
+      },
+      {
+        "term": "postponed",
+        "es": "pospuso"
+      }
+    ]
+  },
+  {
+    "id": "ww-021",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What was the Holocaust?",
+      "es": "¿Qué fue el Holocausto?"
+    },
+    "options": [
+      {
+        "en": "The Nazi murder of about six million Jews and others",
+        "es": "El asesinato nazi de unos seis millones de judíos y otros"
+      },
+      {
+        "en": "A great famine in the Soviet Union in the 1930s",
+        "es": "Una gran hambruna en la Unión Soviética en la década de 1930"
+      },
+      {
+        "en": "A great battle at sea in the Pacific Ocean",
+        "es": "Una gran batalla en el mar, en el océano Pacífico"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Nazis believed in a false idea of racial superiority and hated Jews. During the war, Nazi Germany and its allies organized the murder of about six million Jewish men, women and children. They also killed Roma people, disabled people, Soviet prisoners and other groups. Many were sent to camps such as Auschwitz. The Holocaust is remembered so that this will never happen again.",
+      "es": "Los nazis creían en una falsa idea de superioridad racial y odiaban a los judíos. Durante la guerra, la Alemania nazi y sus aliados organizaron el asesinato de unos seis millones de hombres, mujeres y niños judíos. También mataron a gitanos, personas con discapacidad, prisioneros soviéticos y otros grupos. Muchos fueron enviados a campos como Auschwitz. El Holocausto se recuerda para que nunca vuelva a ocurrir."
+    },
+    "meanwhile": {
+      "en": "At the same time, many ordinary people risked their lives to hide Jewish neighbors. They are remembered as \"Righteous Among the Nations\".",
+      "es": "Al mismo tiempo, muchas personas comunes arriesgaron su vida para esconder a vecinos judíos. Se las recuerda como \"Justos entre las Naciones\"."
+    },
+    "reflection": {
+      "en": "Hatred grew step by step, and many people stayed silent. What can we do when we see injustice around us?",
+      "es": "El odio creció paso a paso y mucha gente guardó silencio. ¿Qué podemos hacer cuando vemos injusticia a nuestro alrededor?"
+    },
+    "vocab": [
+      {
+        "term": "superiority",
+        "es": "superioridad"
+      },
+      {
+        "term": "murder",
+        "es": "asesinato"
+      },
+      {
+        "term": "camps",
+        "es": "campos"
+      },
+      {
+        "term": "remembered",
+        "es": "recuerda"
+      }
+    ]
+  },
+  {
+    "id": "ww-022",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Anne Frank became famous after her death. Why?",
+      "es": "Ana Frank se hizo famosa después de su muerte. ¿Por qué?"
+    },
+    "options": [
+      {
+        "en": "Her diary, written in hiding, was published",
+        "es": "Se publicó su diario, escrito en la clandestinidad"
+      },
+      {
+        "en": "She led a resistance group against the Nazis",
+        "es": "Dirigió un grupo de resistencia contra los nazis"
+      },
+      {
+        "en": "She became a famous singer in Amsterdam",
+        "es": "Se convirtió en una cantante famosa en Ámsterdam"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Anne Frank was a Jewish girl who lived in Amsterdam. In 1942, to escape the Nazis, her family hid in a secret part of a building, the Secret Annex, for two years. She wrote in a diary about her fears, her hopes and her life in hiding. In 1944, the family was discovered. Anne died in a camp in 1945, aged 15. Her father survived and published her diary.",
+      "es": "Ana Frank era una niña judía que vivía en Ámsterdam. En 1942, para escapar de los nazis, su familia se escondió en una parte secreta de un edificio, el Anexo Secreto, durante dos años. En un diario escribió sobre sus miedos, sus esperanzas y su vida escondida. En 1944 descubrieron a la familia. Ana murió en un campo en 1945, a los 15 años. Su padre sobrevivió y publicó su diario."
+    },
+    "meanwhile": {
+      "en": "In August 1942, Brazil declared war on Germany and Italy, after German submarines sank Brazilian ships.",
+      "es": "En agosto de 1942, Brasil declaró la guerra a Alemania e Italia, después de que submarinos alemanes hundieran barcos brasileños."
+    },
+    "reflection": {
+      "en": "A diary became a voice for a girl who could not tell her story. Why is it important to keep a record of your own life?",
+      "es": "Un diario se convirtió en la voz de una niña que no pudo contar su historia. ¿Por qué es importante dejar un registro de tu propia vida?"
+    },
+    "vocab": [
+      {
+        "term": "diary",
+        "es": "diario"
+      },
+      {
+        "term": "hiding",
+        "es": "escondida"
+      },
+      {
+        "term": "fears",
+        "es": "miedos"
+      },
+      {
+        "term": "survived",
+        "es": "sobrevivió"
+      }
+    ]
+  },
+  {
+    "id": "ww-023",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "On December 7, 1941, Japan made a surprise attack on which place?",
+      "es": "El 7 de diciembre de 1941, Japón realizó un ataque sorpresa contra qué lugar?"
+    },
+    "options": [
+      {
+        "en": "Pearl Harbor, in Hawaii",
+        "es": "Pearl Harbor, en Hawái"
+      },
+      {
+        "en": "London, in England",
+        "es": "Londres, en Inglaterra"
+      },
+      {
+        "en": "Buenos Aires, in Argentina",
+        "es": "Buenos Aires, en Argentina"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Japan wanted to control Asia and the Pacific, and the United States was trying to stop it with an oil embargo. On a Sunday morning, Japanese planes attacked the US Navy base at Pearl Harbor. More than 2,400 Americans died, and many ships were destroyed. The next day, the United States declared war on Japan. Germany and Italy then declared war on the United States, and the conflict became truly global.",
+      "es": "Japón quería controlar Asia y el Pacífico, y Estados Unidos intentaba detenerlo con un embargo de petróleo. Un domingo por la mañana, aviones japoneses atacaron la base naval estadounidense de Pearl Harbor. Murieron más de 2.400 estadounidenses y muchos barcos fueron destruidos. Al día siguiente, Estados Unidos declaró la guerra a Japón. Alemania e Italia declararon entonces la guerra a Estados Unidos y el conflicto se volvió verdaderamente global."
+    },
+    "meanwhile": {
+      "en": "In June 1941, six months before, Germany had invaded the Soviet Union in the biggest military operation in history.",
+      "es": "En junio de 1941, seis meses antes, Alemania había invadido la Unión Soviética en la mayor operación militar de la historia."
+    },
+    "reflection": {
+      "en": "A single attack changed the plans of a whole nation. How do surprises change your plans?",
+      "es": "Un solo ataque cambió los planes de toda una nación. ¿Cómo cambian tus planes las sorpresas?"
+    },
+    "vocab": [
+      {
+        "term": "attacked",
+        "es": "atacaron"
+      },
+      {
+        "term": "base",
+        "es": "base"
+      },
+      {
+        "term": "destroyed",
+        "es": "destruidos"
+      },
+      {
+        "term": "global",
+        "es": "global"
+      }
+    ]
+  },
+  {
+    "id": "ww-024",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Battle of Stalingrad (1942–1943) is seen as a turning point. Which army won?",
+      "es": "La batalla de Stalingrado (1942–1943) se considera un punto de inflexión. ¿Qué ejército ganó?"
+    },
+    "options": [
+      {
+        "en": "The Soviet army",
+        "es": "El ejército soviético"
+      },
+      {
+        "en": "The German army",
+        "es": "El ejército alemán"
+      },
+      {
+        "en": "The British army",
+        "es": "El ejército británico"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1942, Germany attacked the city of Stalingrad, in the Soviet Union, on the Volga River. Fighting went on from street to street and house to house, in the ruins. In November, Soviet forces surrounded the German Sixth Army. In the freezing winter, the Germans ran out of food and ammunition. In February 1943, about 90,000 of them surrendered. Germany never recovered from the loss.",
+      "es": "En 1942, Alemania atacó la ciudad de Stalingrado, en la Unión Soviética, junto al río Volga. Los combates seguían calle por calle y casa por casa, entre las ruinas. En noviembre, las fuerzas soviéticas rodearon al VI Ejército alemán. En el invierno helado, los alemanes se quedaron sin comida ni municiones. En febrero de 1943, unos 90.000 de ellos se rindieron. Alemania nunca se recuperó de la pérdida."
+    },
+    "meanwhile": {
+      "en": "In June 1943, a military coup overthrew the government of Argentina, and the army took power for the first time since 1930s.",
+      "es": "En junio de 1943, un golpe militar derrocó al gobierno de Argentina y el ejército tomó el poder, algo que no ocurría desde los años treinta."
+    },
+    "reflection": {
+      "en": "The Soviet people suffered enormous losses but did not give up. What helps people to keep going in extremely hard times?",
+      "es": "El pueblo soviético sufrió enormes pérdidas pero no se rindió. ¿Qué ayuda a las personas a seguir adelante en tiempos extremadamente difíciles?"
+    },
+    "vocab": [
+      {
+        "term": "ruins",
+        "es": "ruinas"
+      },
+      {
+        "term": "ammunition",
+        "es": "municiones"
+      },
+      {
+        "term": "surrendered",
+        "es": "se rindieron"
+      },
+      {
+        "term": "recovered",
+        "es": "se recuperó"
+      }
+    ]
+  },
+  {
+    "id": "ww-025",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was D-Day, on June 6, 1944?",
+      "es": "¿Qué fue el Día D, el 6 de junio de 1944?"
+    },
+    "options": [
+      {
+        "en": "The Allied invasion of Normandy, in France",
+        "es": "La invasión aliada de Normandía, en Francia"
+      },
+      {
+        "en": "The end of the war against Japan",
+        "es": "El fin de la guerra contra Japón"
+      },
+      {
+        "en": "The surrender of Italy to the Allies",
+        "es": "La rendición de Italia ante los Aliados"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After years of planning, the Allies crossed the English Channel and landed on five beaches in Normandy, France. It was the largest invasion by sea in history. On the first day, about 156,000 soldiers from the United States, Britain, Canada and other countries took part, with thousands of ships and planes. Many soldiers died, especially at Omaha Beach. But the Allies made a foothold, and in August they freed Paris.",
+      "es": "Tras años de planificación, los Aliados cruzaron el canal de la Mancha y desembarcaron en cinco playas de Normandía, Francia. Fue la mayor invasión por mar de la historia. El primer día participaron unos 156.000 soldados de Estados Unidos, Gran Bretaña, Canadá y otros países, con miles de barcos y aviones. Murieron muchos soldados, sobre todo en la playa de Omaha. Pero los Aliados consiguieron una cabeza de playa y en agosto liberaron París."
+    },
+    "meanwhile": {
+      "en": "On June 4, 1944, two days earlier, Allied troops had entered Rome, the first Axis capital to be freed.",
+      "es": "El 4 de junio de 1944, dos días antes, las tropas aliadas habían entrado en Roma, la primera capital del Eje en ser liberada."
+    },
+    "reflection": {
+      "en": "D-Day needed years of planning and teamwork. What goal did you reach thanks to careful planning?",
+      "es": "El Día D necesitó años de planificación y trabajo en equipo. ¿Qué meta lograste gracias a una planificación cuidadosa?"
+    },
+    "vocab": [
+      {
+        "term": "beaches",
+        "es": "playas"
+      },
+      {
+        "term": "invasion",
+        "es": "invasión"
+      },
+      {
+        "term": "foothold",
+        "es": "cabeza de playa"
+      },
+      {
+        "term": "freed",
+        "es": "liberaron"
+      }
+    ]
+  },
+  {
+    "id": "ww-026",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What was Enigma, and who helped to break its code in Britain?",
+      "es": "¿Qué era Enigma y quién ayudó a romper su código en Gran Bretaña?"
+    },
+    "options": [
+      {
+        "en": "A German coding machine; Alan Turing and his team",
+        "es": "Una máquina alemana de cifrado; Alan Turing y su equipo"
+      },
+      {
+        "en": "A British submarine; Winston Churchill",
+        "es": "Un submarino británico; Winston Churchill"
+      },
+      {
+        "en": "A French spy; General de Gaulle",
+        "es": "Un espía francés; el general De Gaulle"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Germans sent secret messages to their army and submarines using the Enigma machine, which changed the letters in millions of ways every day. At Bletchley Park, in England, mathematicians, linguists and other experts worked to read the messages. Alan Turing designed machines to find the daily settings. Polish mathematicians had started the work before the war. Many historians think that this shortened the war by about two years.",
+      "es": "Los alemanes enviaban mensajes secretos a su ejército y a sus submarinos con la máquina Enigma, que cambiaba las letras de millones de maneras cada día. En Bletchley Park, en Inglaterra, matemáticos, lingüistas y otros expertos trabajaron para leer los mensajes. Alan Turing diseñó máquinas para encontrar los ajustes diarios. Matemáticos polacos habían comenzado el trabajo antes de la guerra. Muchos historiadores piensan que esto acortó la guerra en unos dos años."
+    },
+    "meanwhile": {
+      "en": "In 1943–1944, the codebreakers at Bletchley Park built Colossus, one of the first electronic digital computers.",
+      "es": "En 1943–1944, los descifradores de Bletchley Park construyeron Colossus, una de las primeras computadoras digitales electrónicas."
+    },
+    "reflection": {
+      "en": "Codebreakers worked in secret, and nobody knew their story for decades. Whose important work is invisible in your community?",
+      "es": "Los descifradores trabajaron en secreto y nadie conoció su historia durante décadas. ¿El trabajo importante de quién es invisible en tu comunidad?"
+    },
+    "vocab": [
+      {
+        "term": "messages",
+        "es": "mensajes"
+      },
+      {
+        "term": "linguists",
+        "es": "lingüistas"
+      },
+      {
+        "term": "settings",
+        "es": "ajustes"
+      },
+      {
+        "term": "shortened",
+        "es": "acortó"
+      }
+    ]
+  },
+  {
+    "id": "ww-027",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In August 1945, the United States dropped atomic bombs on which two Japanese cities?",
+      "es": "En agosto de 1945, Estados Unidos lanzó bombas atómicas sobre qué dos ciudades japonesas?"
+    },
+    "options": [
+      {
+        "en": "Hiroshima and Nagasaki",
+        "es": "Hiroshima y Nagasaki"
+      },
+      {
+        "en": "Tokyo and Osaka",
+        "es": "Tokio y Osaka"
+      },
+      {
+        "en": "Kyoto and Yokohama",
+        "es": "Kioto y Yokohama"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "On August 6, 1945, a bomb destroyed most of Hiroshima. Three days later, a second one hit Nagasaki. Tens of thousands of people died at once, and many more died later from burns and radiation. On August 15, Japan announced its surrender. The bombs ended the war, but they also opened the nuclear age, and people still argue about whether using them was necessary or right.",
+      "es": "El 6 de agosto de 1945, una bomba destruyó la mayor parte de Hiroshima. Tres días después, una segunda cayó sobre Nagasaki. Decenas de miles de personas murieron al instante y muchas más murieron después por quemaduras y radiación. El 15 de agosto, Japón anunció su rendición. Las bombas terminaron la guerra, pero también abrieron la era nuclear, y la gente todavía discute si usarlas fue necesario o correcto."
+    },
+    "meanwhile": {
+      "en": "On July 16, 1945, scientists in New Mexico tested the first atomic bomb in a test called Trinity.",
+      "es": "El 16 de julio de 1945, científicos de Nuevo México probaron la primera bomba atómica en una prueba llamada Trinity."
+    },
+    "reflection": {
+      "en": "Some scientific discoveries can bring both great power and great danger. Who should decide how they are used?",
+      "es": "Algunos descubrimientos científicos pueden traer gran poder y gran peligro. ¿Quién debería decidir cómo se usan?"
+    },
+    "vocab": [
+      {
+        "term": "destroyed",
+        "es": "destruyó"
+      },
+      {
+        "term": "burns",
+        "es": "quemaduras"
+      },
+      {
+        "term": "radiation",
+        "es": "radiación"
+      },
+      {
+        "term": "necessary",
+        "es": "necesario"
+      }
+    ]
+  },
+  {
+    "id": "ww-028",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "About how many people died in the Second World War?",
+      "es": "¿Aproximadamente cuántas personas murieron en la Segunda Guerra Mundial?"
+    },
+    "options": [
+      {
+        "en": "Between 70 and 85 million",
+        "es": "Entre 70 y 85 millones"
+      },
+      {
+        "en": "About 1 million",
+        "es": "Alrededor de 1 millón"
+      },
+      {
+        "en": "About 10 million",
+        "es": "Alrededor de 10 millones"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Germany surrendered on May 8, 1945, after Hitler took his own life in Berlin. The war in the Pacific ended in September 1945. The war killed between 70 and 85 million people, most of them civilians, from bombing, hunger, disease and murder. It was the deadliest conflict in history. The Soviet Union and China suffered the largest numbers of deaths.",
+      "es": "Alemania se rindió el 8 de mayo de 1945, después de que Hitler se quitara la vida en Berlín. La guerra del Pacífico terminó en septiembre de 1945. La guerra mató entre 70 y 85 millones de personas, la mayoría civiles, por bombardeos, hambre, enfermedades y asesinatos. Fue el conflicto más mortífero de la historia. La Unión Soviética y China sufrieron las mayores cifras de muertos."
+    },
+    "meanwhile": {
+      "en": "In March 1945, Argentina declared war on Germany and Japan, a few weeks before the war in Europe ended.",
+      "es": "En marzo de 1945, Argentina declaró la guerra a Alemania y Japón, pocas semanas antes del fin de la guerra en Europa."
+    },
+    "reflection": {
+      "en": "Numbers this large are hard to imagine. How can we remember the people behind the numbers?",
+      "es": "Números tan grandes son difíciles de imaginar. ¿Cómo podemos recordar a las personas detrás de los números?"
+    },
+    "vocab": [
+      {
+        "term": "surrendered",
+        "es": "se rindió"
+      },
+      {
+        "term": "civilians",
+        "es": "civiles"
+      },
+      {
+        "term": "bombing",
+        "es": "bombardeos"
+      },
+      {
+        "term": "deadliest",
+        "es": "más mortífero"
+      }
+    ]
+  },
+  {
+    "id": "ww-029",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In 1945, 51 countries founded an organization to keep peace. What is it called?",
+      "es": "En 1945, 51 países fundaron una organización para mantener la paz. ¿Cómo se llama?"
+    },
+    "options": [
+      {
+        "en": "The United Nations",
+        "es": "Las Naciones Unidas"
+      },
+      {
+        "en": "The European Union",
+        "es": "La Unión Europea"
+      },
+      {
+        "en": "The Red Cross",
+        "es": "La Cruz Roja"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After two terrible wars, leaders wanted to create a place where countries could talk instead of fight. The United Nations was founded on October 24, 1945, in San Francisco, with 51 member countries, including Argentina. Its goals are to keep peace, protect human rights and help countries to work together. Today, almost every country in the world is a member.",
+      "es": "Después de dos guerras terribles, los líderes querían crear un lugar donde los países pudieran hablar en lugar de pelear. Las Naciones Unidas se fundaron el 24 de octubre de 1945, en San Francisco, con 51 países miembros, entre ellos Argentina. Sus objetivos son mantener la paz, proteger los derechos humanos y ayudar a los países a trabajar juntos. Hoy casi todos los países del mundo son miembros."
+    },
+    "meanwhile": {
+      "en": "In November 1945, the Nuremberg trials began in Germany, where leaders of Nazi Germany were judged for their crimes.",
+      "es": "En noviembre de 1945 comenzaron en Alemania los juicios de Núremberg, donde los líderes de la Alemania nazi fueron juzgados por sus crímenes."
+    },
+    "reflection": {
+      "en": "The UN tries to solve problems with words, not weapons. What problem did you solve by talking?",
+      "es": "La ONU intenta resolver los problemas con palabras y no con armas. ¿Qué problema resolviste hablando?"
+    },
+    "vocab": [
+      {
+        "term": "founded",
+        "es": "fundaron"
+      },
+      {
+        "term": "member",
+        "es": "miembros"
+      },
+      {
+        "term": "human rights",
+        "es": "derechos humanos"
+      },
+      {
+        "term": "peace",
+        "es": "paz"
+      }
+    ]
+  },
+  {
+    "id": "ww-030",
+    "category": "world-wars",
+    "category_label": {
+      "en": "The World Wars",
+      "es": "Las Guerras Mundiales"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In the Pacific, the US Marines used the Navajo language in a code that Japan never broke. Why was it so hard to break?",
+      "es": "En el Pacífico, los marines de Estados Unidos usaron el idioma navajo en un código que Japón nunca rompió. ¿Por qué era tan difícil de romper?"
+    },
+    "options": [
+      {
+        "en": "It was a rare language with no written form for outsiders",
+        "es": "Era una lengua poco común, sin forma escrita para los de afuera"
+      },
+      {
+        "en": "A coding machine changed it every single hour",
+        "es": "Una máquina de cifrado lo cambiaba cada hora"
+      },
+      {
+        "en": "It used only numbers and no real words at all",
+        "es": "Usaba solo números y ninguna palabra real"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Navajo is a complex language, unwritten at the time, and almost no one outside the Navajo Nation could speak it. About 400 Navajo men served as \"code talkers\" in the Marine Corps. They sent messages by radio in a code based on Navajo words, for example, using the word for \"turtle\" for \"tank\". The Japanese never broke the code. The program was secret until 1968, and the code talkers were honored in 2001.",
+      "es": "El navajo es un idioma complejo, que en esa época no se escribía, y casi nadie fuera de la nación navaja podía hablarlo. Unos 400 hombres navajos sirvieron como \"hablantes de código\" en el Cuerpo de Marines. Enviaban mensajes por radio en un código basado en palabras navajas; por ejemplo, usaban la palabra \"tortuga\" para decir \"tanque\". Los japoneses nunca rompieron el código. El programa fue secreto hasta 1968 y los hablantes de código fueron homenajeados en 2001."
+    },
+    "meanwhile": {
+      "en": "In August 1942, US Marines landed on the island of Guadalcanal, the first major land offensive against Japan.",
+      "es": "En agosto de 1942, los marines estadounidenses desembarcaron en la isla de Guadalcanal, la primera gran ofensiva terrestre contra Japón."
+    },
+    "reflection": {
+      "en": "A language that was once discouraged became a tool to save lives. What is the value of keeping different languages alive?",
+      "es": "Una lengua que antes se desalentaba se convirtió en una herramienta para salvar vidas. ¿Qué valor tiene mantener vivos los distintos idiomas?"
+    },
+    "vocab": [
+      {
+        "term": "complex",
+        "es": "complejo"
+      },
+      {
+        "term": "code talkers",
+        "es": "hablantes de código"
+      },
+      {
+        "term": "turtle",
+        "es": "tortuga"
+      },
+      {
+        "term": "honored",
+        "es": "homenajeados"
+      }
+    ]
+  }
+]

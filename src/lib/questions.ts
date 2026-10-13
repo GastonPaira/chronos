@@ -33,16 +33,26 @@ export function shuffleOptions(question: Question, random: RandomFn = Math.rando
  * When `storyId` is given, that story's questions come first (in random order),
  * followed by the rest of the pool, so a reader arriving from a blog article
  * starts with what they just read.
+ * With `history`, questions the player has not answered yet come first, then the ones they got
+ * wrong last time, then the rest, so a category is covered before anything repeats.
  */
 export function buildRound(
   pool: readonly Question[],
   size: number,
   storyId?: string,
   random: RandomFn = Math.random,
+  history?: { seen: ReadonlySet<string>; missed: ReadonlySet<string> },
 ): Question[] {
   const fromStory = storyId ? pool.filter(q => q.story === storyId) : [];
   const rest = storyId ? pool.filter(q => q.story !== storyId) : [...pool];
-  return [...shuffle(fromStory, random), ...shuffle(rest, random)]
+  const orderedRest = history
+    ? [
+        ...shuffle(rest.filter(q => !history.seen.has(q.id)), random),
+        ...shuffle(rest.filter(q => history.seen.has(q.id) && history.missed.has(q.id)), random),
+        ...shuffle(rest.filter(q => history.seen.has(q.id) && !history.missed.has(q.id)), random),
+      ]
+    : shuffle(rest, random);
+  return [...shuffle(fromStory, random), ...orderedRest]
     .slice(0, size)
     .map(q => shuffleOptions(q, random));
 }

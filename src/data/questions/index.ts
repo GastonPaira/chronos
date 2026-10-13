@@ -7,6 +7,9 @@ import vikings from './vikings.json';
 import ageOfExploration from './age-of-exploration.json';
 import theReformation from './the-reformation.json';
 import theRenaissance from './the-renaissance.json';
+import industrialRevolution from './industrial-revolution.json';
+import worldWars from './world-wars.json';
+import coldWarSpaceRace from './cold-war-space-race.json';
 
 const questionsData = [
   ...ancientEgypt,
@@ -18,6 +21,9 @@ const questionsData = [
   ...ageOfExploration,
   ...theReformation,
   ...theRenaissance,
+  ...industrialRevolution,
+  ...worldWars,
+  ...coldWarSpaceRace,
 ];
 
 export default questionsData;

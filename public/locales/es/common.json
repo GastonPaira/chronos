@@ -1,10 +1,13 @@
 {
   "home": {
-    "tagline": "Viaja a través de los siglos",
-    "subtitle": "Trivia Histórica",
+    "tagline": "Aprende inglés a través de la historia",
+    "subtitle": "Aprende inglés jugando",
     "playButton": "Jugar",
     "multiplayerButton": "Multijugador",
-    "languageLabel": "Idioma"
+    "languageLabel": "Idioma",
+    "blogLink": "Más historias en History with Accent",
+    "words": "Palabras",
+    "progress": "Progreso"
   },
   "eras": {
     "title": "Elige una Era",
@@ -34,7 +37,8 @@
       "name": "Edad Contemporánea",
       "years": "1800 – Hoy",
       "description": "La industria, las guerras y la tecnología moldearon el mundo contemporáneo."
-    }
+    },
+    "progress": "{{seen}}/{{total}} vistas"
   },
   "categories": {
     "title": "Elige una Categoría",
@@ -43,7 +47,9 @@
       "easy": "Fácil",
       "medium": "Media",
       "hard": "Difícil"
-    }
+    },
+    "completed": "Completada",
+    "progress": "{{seen}}/{{total}} vistas"
   },
   "game": {
     "score": "Puntaje",
@@ -65,14 +71,17 @@
   "results": {
     "title": "Puntaje Final",
     "perfect": "¡Puntaje perfecto!",
-    "playAgain": "Jugar de Nuevo",
+    "playAgain": "Siguiente lección",
     "chooseCategory": "Elegir Categoría",
     "messages": {
       "low": "¡Sigue explorando! Todo viaje comienza con curiosidad.",
       "medium": "¡Buen esfuerzo! La historia se revela a quienes la buscan.",
       "high": "¡Excelente! Eres un verdadero estudiante de la historia.",
       "perfect": "¡Perfecto! Los anales del tiempo te rinden homenaje."
-    }
+    },
+    "english": "Inglés",
+    "newWords_one": "¡Aprendiste {{count}} palabra nueva!",
+    "newWords_other": "¡Aprendiste {{count}} palabras nuevas!"
   },
   "audio": {
     "read": "Leer en voz alta",
@@ -110,7 +119,9 @@
       "text": "Esto borrará permanentemente todas tus estadísticas. Esta acción no se puede deshacer.",
       "cancel": "Cancelar",
       "confirm": "Sí, reiniciar"
-    }
+    },
+    "wordsLearned": "Palabras aprendidas",
+    "wordsLearnedHint": "Palabras que acertaste dos veces seguidas en el repaso"
   },
   "install": {
     "banner": {
@@ -202,5 +213,157 @@
     "title": "Pregunta del día",
     "playMore": "Jugá 10 más en Chronos",
     "answerToSee": "Respondé para ver la historia detrás"
+  },
+  "vocab": {
+    "reviewTitle": "Repaso de palabras",
+    "wordOf": "Palabra {{current}} de {{total}}",
+    "meaningPrompt": "¿Qué significa esta palabra?",
+    "clozePrompt": "¿Qué palabra completa la frase?",
+    "skip": "Saltar repaso",
+    "next": "Siguiente palabra",
+    "finish": "Ver resultados",
+    "listen": "Escuchar",
+    "wrongMeaning": "Casi — “{{term}}” significa “{{es}}”.",
+    "wrongCloze": "Casi — la palabra era “{{term}}” (“{{es}}”)."
+  },
+  "sound": {
+    "mute": "Silenciar sonidos",
+    "unmute": "Activar sonidos"
+  },
+  "level": {
+    "label": "Nivel {{level}}",
+    "title": {
+      "1": "Viajero curioso",
+      "2": "Aprendiz",
+      "3": "Escriba",
+      "4": "Explorador",
+      "5": "Erudito",
+      "6": "Narrador",
+      "7": "Cronista",
+      "8": "Historiador",
+      "9": "Sabio",
+      "10": "Maestro del Tiempo"
+    }
+  },
+  "rewards": {
+    "xp": "+{{count}} XP",
+    "levelUp": "¡Subiste de nivel! Llegaste al nivel {{level}}",
+    "goal": "¡Meta diaria cumplida! Bono de +{{xp}} XP",
+    "newAchievements": "Logros nuevos"
+  },
+  "daily": {
+    "title": "Meta de hoy",
+    "lesson": "Terminar 1 lección",
+    "words": "Repasar {{count}} palabras",
+    "wordsHint": "Tip: el repaso diario en “Mis palabras” dura unos 2 minutos.",
+    "complete": "¡Meta diaria cumplida! Vuelve mañana.",
+    "start": "Empezar",
+    "review": "Repasar"
+  },
+  "onboarding": {
+    "skip": "Saltar",
+    "next": "Siguiente",
+    "start": "Empezar a jugar",
+    "step1": {
+      "title": "Aprende inglés a través de la historia",
+      "text": "Lee historias breves del pasado y responde unas preguntas. Cada lección tiene solo 5 preguntas: unos 4 minutos."
+    },
+    "step2": {
+      "title": "Toca las palabras doradas",
+      "text": "Toca cualquier palabra subrayada para escucharla y ver su traducción. ¿Necesitas ayuda con una frase entera? Toca ES.",
+      "hint": "Pruébalo: toca “shipwreck”."
+    },
+    "step3": {
+      "title": "Vuelve todos los días",
+      "text": "Termina 1 lección y repasa {{count}} palabras al día para mantener tu racha, ganar XP y subir de nivel."
+    }
+  },
+  "words": {
+    "title": "Mis palabras",
+    "learned": "Aprendidas",
+    "learning": "Aprendiendo",
+    "due_one": "{{count}} palabra lista para repasar.",
+    "due_other": "{{count}} palabras listas para repasar.",
+    "nothingDue": "Hoy no hay palabras por repasar. ¡Igual puedes descubrir nuevas!",
+    "empty": "Todavía no tienes palabras. Empieza tu primer repaso para descubrir algunas.",
+    "reviewCta": "Empezar repaso diario",
+    "learnNew": "Aprender palabras nuevas",
+    "reviewHint": "Unos 2 minutos. Las palabras que olvidaste vuelven primero.",
+    "example": "Ejemplo",
+    "showMore": "Ver más",
+    "reviewDone": "¡Repaso completo!",
+    "reviewResult": "Acertaste {{correct}} de {{total}}.",
+    "startLesson": "Empezar una lección",
+    "backToWords": "Volver a mis palabras",
+    "nothingToReview": "Todavía no hay palabras para repasar."
+  },
+  "progress": {
+    "title": "Mi progreso",
+    "xpTotal": "{{xp}} XP en total",
+    "toNext": "{{xp}} XP para el nivel {{level}}",
+    "lessons": "Lecciones",
+    "perfect": "Lecciones perfectas",
+    "goalDays": "Días con meta cumplida",
+    "words": "Palabras aprendidas",
+    "achievements": "Logros",
+    "viewStats": "Estadísticas detalladas"
+  },
+  "achievements": {
+    "first_lesson": {
+      "title": "Primeros pasos",
+      "desc": "Termina tu primera lección."
+    },
+    "perfect_lesson": {
+      "title": "Impecable",
+      "desc": "Responde bien todas las preguntas de una lección."
+    },
+    "lessons_10": {
+      "title": "Estudiante constante",
+      "desc": "Termina 10 lecciones."
+    },
+    "lessons_50": {
+      "title": "Erudito dedicado",
+      "desc": "Termina 50 lecciones."
+    },
+    "streak_3": {
+      "title": "En llamas",
+      "desc": "Juega 3 días seguidos."
+    },
+    "streak_7": {
+      "title": "Una semana firme",
+      "desc": "Juega 7 días seguidos."
+    },
+    "streak_30": {
+      "title": "Imparable",
+      "desc": "Juega 30 días seguidos."
+    },
+    "words_10": {
+      "title": "Coleccionista de palabras",
+      "desc": "Aprende 10 palabras."
+    },
+    "words_50": {
+      "title": "Vocabulario en crecimiento",
+      "desc": "Aprende 50 palabras."
+    },
+    "words_100": {
+      "title": "Maestro de palabras",
+      "desc": "Aprende 100 palabras."
+    },
+    "goal_7": {
+      "title": "Cumplidor",
+      "desc": "Cumple la meta diaria en 7 días distintos."
+    },
+    "level_5": {
+      "title": "Estrella en ascenso",
+      "desc": "Llega al nivel 5."
+    },
+    "xp_1000": {
+      "title": "Tesoro de conocimiento",
+      "desc": "Gana 1.000 XP."
+    },
+    "category": {
+      "title": "{{category}} completada",
+      "desc": "Responde todas las preguntas de {{category}}."
+    }
   }
 }

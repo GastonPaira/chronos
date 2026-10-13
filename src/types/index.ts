@@ -24,6 +24,7 @@ export interface LocalizedString {
  * @property reflection - Open-ended reflection prompt shown post-answer.
  * @property level - Optional CEFR English level of the text (A2, B1, B2).
  * @property story - Optional id of a blog story in `STORIES` (src/data/catalog.ts).
+ * @property vocab - Optional glossary of 3–5 key English words used in the question's texts.
  */
 export interface Question {
   id: string;
@@ -38,6 +39,16 @@ export interface Question {
   reflection: LocalizedString;
   level?: EnglishLevel;
   story?: string;
+  vocab?: VocabEntry[];
+}
+
+/**
+ * A key English word with its Spanish translation.
+ * `term` must appear as written in the question, explanation, meanwhile or reflection text.
+ */
+export interface VocabEntry {
+  term: string;
+  es: string;
 }
 
 /** Historical difficulty of a question. */

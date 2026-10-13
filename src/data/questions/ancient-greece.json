@@ -4,48 +4,72 @@
     "category": "ancient-greece",
     "category_label": {
       "en": "Ancient Greece",
-      "es": "Grecia Antigua"
+      "es": "Antigua Grecia"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Who introduced the democratic reforms that are the foundation of Western democracy?",
-      "es": "¿Quién introdujo las reformas democráticas que son la base de la democracia occidental?"
+      "en": "Who introduced the reforms that started democracy in Athens around 508 BCE?",
+      "es": "¿Quién introdujo las reformas que dieron inicio a la democracia en Atenas alrededor del 508 a. C.?"
     },
     "options": [
       {
-        "en": "Cleisthenes of Athens",
-        "es": "Clístenes de Atenas"
+        "en": "Cleisthenes",
+        "es": "Clístenes"
       },
       {
         "en": "Alexander the Great",
         "es": "Alejandro Magno"
+      },
+      {
+        "en": "Julius Caesar",
+        "es": "Julio César"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Cleisthenes (570–508 BCE) reorganized Athenian government around demes (local communities) and created the Council of 500, giving citizens direct political participation. His reforms in 508–507 BCE are considered the birth of democracy, though it excluded women, slaves, and foreigners — roughly 80% of the population.",
-      "es": "Clístenes (570–508 a.C.) reorganizó el gobierno ateniense en torno a los demos (comunidades locales) y creó el Consejo de los 500, dando participación política directa a los ciudadanos. Sus reformas del 508–507 a.C. se consideran el nacimiento de la democracia, aunque excluía a mujeres, esclavos y extranjeros: cerca del 80% de la población."
+      "en": "Cleisthenes reorganized Athens so that citizens, not a few rich families, made the decisions. They met in an assembly and voted on laws. But only free men born in Athens could vote. Women, slaves and foreigners had no voice.",
+      "es": "Clístenes reorganizó Atenas para que los ciudadanos, y no unas pocas familias ricas, tomaran las decisiones. Se reunían en una asamblea y votaban las leyes. Pero solo podían votar los hombres libres nacidos en Atenas. Las mujeres, los esclavos y los extranjeros no tenían voz."
     },
     "meanwhile": {
-      "en": "In 508 BCE, in Persia, King Darius I was centralizing one of history's largest empires under absolute monarchy — the polar opposite of the democratic experiment beginning just across the Aegean in Athens.",
-      "es": "En 508 a.C., en Persia, el rey Darío I centralizaba uno de los imperios más grandes de la historia bajo una monarquía absoluta: el polo opuesto del experimento democrático que comenzaba justo al otro lado del Egeo, en Atenas."
+      "en": "Around 508 BCE, in Persia, King Darius I ruled a huge empire alone. It was the opposite of the new Athenian system.",
+      "es": "Alrededor del 508 a. C., en Persia, el rey Darío I gobernaba solo un enorme imperio. Era lo opuesto al nuevo sistema ateniense."
     },
     "reflection": {
-      "en": "Athens invented democracy while excluding 80% of its population. Think about who is excluded from decisions that affect your life today — and whether you'd know it if you were the one left out.",
-      "es": "Atenas inventó la democracia excluyendo al 80% de su población. Piensa en quién queda excluido de las decisiones que afectan tu vida hoy, y si sabrías reconocerlo si fueras tú el excluido."
-    }
+      "en": "Athens gave a voice to some people but not to others. Who do you think has no voice in decisions today?",
+      "es": "Atenas dio voz a unas personas, pero no a otras. ¿Quién crees que no tiene voz en las decisiones hoy?"
+    },
+    "vocab": [
+      {
+        "term": "citizens",
+        "es": "ciudadanos"
+      },
+      {
+        "term": "assembly",
+        "es": "asamblea"
+      },
+      {
+        "term": "vote",
+        "es": "votar"
+      },
+      {
+        "term": "slaves",
+        "es": "esclavos"
+      }
+    ]
   },
   {
     "id": "gr-002",
     "category": "ancient-greece",
     "category_label": {
       "en": "Ancient Greece",
-      "es": "Grecia Antigua"
+      "es": "Antigua Grecia"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Which philosopher was sentenced to death by Athens for 'corrupting the youth'?",
-      "es": "¿Qué filósofo fue condenado a muerte por Atenas por 'corromper a la juventud'?"
+      "en": "Which Greek philosopher was sentenced to death in Athens in 399 BCE?",
+      "es": "¿Qué filósofo griego fue condenado a muerte en Atenas en el 399 a. C.?"
     },
     "options": [
       {
@@ -55,105 +79,174 @@
       {
         "en": "Aristotle",
         "es": "Aristóteles"
+      },
+      {
+        "en": "Plato",
+        "es": "Platón"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Socrates (470–399 BCE) was tried by an Athenian jury of 500 citizens and condemned to death by drinking hemlock. His 'crime' was questioning traditional values and encouraging citizens to think critically. He refused to flee, accepting the verdict as part of his commitment to Athenian law.",
-      "es": "Sócrates (470–399 a.C.) fue juzgado por un jurado ateniense de 500 ciudadanos y condenado a muerte mediante cicuta. Su 'crimen' fue cuestionar los valores tradicionales y alentar el pensamiento crítico. Se negó a huir, aceptando el veredicto como parte de su compromiso con la ley ateniense."
+      "en": "Socrates walked around Athens asking people difficult questions. Some powerful men became angry. A jury of 500 citizens decided that he was guilty of \"corrupting the young\". He had to drink poison. His friends offered to help him escape, but he refused.",
+      "es": "Sócrates caminaba por Atenas haciendo preguntas difíciles a la gente. Algunos hombres poderosos se enojaron. Un jurado de 500 ciudadanos decidió que era culpable de \"corromper a los jóvenes\". Tuvo que beber veneno. Sus amigos se ofrecieron a ayudarlo a escapar, pero él se negó."
     },
     "meanwhile": {
-      "en": "Around 399 BCE, in China, the Warring States period was producing an explosion of philosophy — Confucius had recently died, and thinkers like Mozi and Laozi were asking the same urgent questions about justice and good governance that Socrates posed in Athens.",
-      "es": "Hacia el 399 a.C., en China, el período de los Reinos Combatientes producía una explosión filosófica: Confucio había muerto hacía poco, y pensadores como Mozi y Laozi formulaban las mismas preguntas urgentes sobre justicia y buen gobierno que Sócrates planteaba en Atenas."
+      "en": "Around 400 BCE, in China, many thinkers also asked how people should live and how a country should be governed.",
+      "es": "Alrededor del 400 a. C., en China, muchos pensadores también se preguntaban cómo debía vivir la gente y cómo debía gobernarse un país."
     },
     "reflection": {
-      "en": "Athens — the birthplace of free thought — executed its greatest philosopher for asking uncomfortable questions. What question feels too dangerous or unsettling to ask openly in your own life?",
-      "es": "Atenas —cuna del pensamiento libre— ejecutó a su mayor filósofo por hacer preguntas incómodas. ¿Qué pregunta te parece demasiado peligrosa o perturbadora para hacerla abiertamente en tu propia vida?"
-    }
+      "en": "Socrates preferred death to silence. Which question is hard for you to ask out loud?",
+      "es": "Sócrates prefirió la muerte al silencio. ¿Qué pregunta te cuesta hacer en voz alta?"
+    },
+    "vocab": [
+      {
+        "term": "sentenced",
+        "es": "condenado"
+      },
+      {
+        "term": "jury",
+        "es": "jurado"
+      },
+      {
+        "term": "guilty",
+        "es": "culpable"
+      },
+      {
+        "term": "poison",
+        "es": "veneno"
+      }
+    ]
   },
   {
     "id": "gr-003",
     "category": "ancient-greece",
     "category_label": {
       "en": "Ancient Greece",
-      "es": "Grecia Antigua"
+      "es": "Antigua Grecia"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was the primary purpose of the Oracle at Delphi?",
-      "es": "¿Cuál era el propósito principal del Oráculo de Delfos?"
+      "en": "What was the job of the Oracle at Delphi?",
+      "es": "¿Cuál era la función del Oráculo de Delfos?"
     },
     "options": [
       {
-        "en": "To deliver divine prophecies to those seeking guidance",
-        "es": "Entregar profecías divinas a quienes buscaban guía"
+        "en": "To give advice from the god Apollo",
+        "es": "Dar consejos del dios Apolo"
       },
       {
-        "en": "To train philosophers and mathematicians",
-        "es": "Formar filósofos y matemáticos"
+        "en": "To train young athletes",
+        "es": "Entrenar a jóvenes atletas"
+      },
+      {
+        "en": "To judge people who broke the law",
+        "es": "Juzgar a quienes rompían la ley"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Oracle at Delphi (active c. 800–390 BCE) was the most prestigious religious institution in the ancient Greek world. The Pythia (priestess) would enter a trance state — possibly induced by geological vapors — and deliver cryptic prophecies. Kings and city-states consulted her before wars, colonizations, and major decisions.",
-      "es": "El Oráculo de Delfos (activo c. 800–390 a.C.) era la institución religiosa más prestigiosa del mundo griego antiguo. La Pitia (sacerdotisa) entraba en trance —posiblemente inducido por vapores geológicos— y emitía profecías crípticas. Reyes y ciudades-estado la consultaban antes de guerras, colonizaciones y decisiones importantes."
+      "en": "The Oracle was a priestess called the Pythia. Visitors asked her about wars, journeys or new cities. She answered in mysterious words, which priests explained. Kings and ordinary people traveled for days to hear her. The answers were often unclear.",
+      "es": "El Oráculo era una sacerdotisa llamada la Pitia. Los visitantes le preguntaban sobre guerras, viajes o nuevas ciudades. Ella respondía con palabras misteriosas que los sacerdotes explicaban. Reyes y gente común viajaban durante días para escucharla. Las respuestas a menudo eran poco claras."
     },
     "meanwhile": {
-      "en": "Around 500 BCE, in India, Siddhartha Gautama — the Buddha — was teaching that the path to wisdom was inward, not through divine prophecy, but through self-examination. A radically different answer to the same ancient question: how do we know what to do?",
-      "es": "Hacia el 500 a.C., en India, Siddhartha Gautama —el Buda— enseñaba que el camino hacia la sabiduría era interior, no a través de profecías divinas, sino mediante el autoexamen. Una respuesta radicalmente diferente a la misma pregunta antigua: ¿cómo sabemos qué hacer?"
+      "en": "Around 500 BCE, in India, the Buddha taught that people find wisdom by looking inside themselves.",
+      "es": "Alrededor del 500 a. C., en la India, Buda enseñaba que las personas encuentran la sabiduría mirando dentro de sí mismas."
     },
     "reflection": {
-      "en": "Kings traveled hundreds of miles to ask the Oracle what the future held. When you face a decision too big to make alone, who do you turn to — and how do you know whether to trust them?",
-      "es": "Los reyes viajaban cientos de kilómetros para preguntarle al Oráculo qué deparaba el futuro. Cuando enfrentás una decisión demasiado grande para tomar solo, ¿a quién acudís, y cómo sabés si confiar en esa persona?"
-    }
+      "en": "People traveled far to ask a priestess about the future. Who do you ask when a decision is too big?",
+      "es": "La gente viajaba lejos para preguntarle a una sacerdotisa sobre el futuro. ¿A quién le preguntas cuando una decisión es demasiado grande?"
+    },
+    "vocab": [
+      {
+        "term": "priestess",
+        "es": "sacerdotisa"
+      },
+      {
+        "term": "answered",
+        "es": "respondía"
+      },
+      {
+        "term": "mysterious",
+        "es": "misteriosas"
+      },
+      {
+        "term": "journeys",
+        "es": "viajes"
+      }
+    ]
   },
   {
     "id": "gr-004",
     "category": "ancient-greece",
     "category_label": {
       "en": "Ancient Greece",
-      "es": "Grecia Antigua"
+      "es": "Antigua Grecia"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "The ancient Olympic Games were dedicated to which god?",
-      "es": "Los Juegos Olímpicos antiguos estaban dedicados a qué dios?"
+      "en": "Which god were the ancient Olympic Games dedicated to?",
+      "es": "¿A qué dios estaban dedicados los antiguos Juegos Olímpicos?"
     },
     "options": [
       {
-        "en": "Zeus, king of the gods",
-        "es": "Zeus, rey de los dioses"
+        "en": "Zeus",
+        "es": "Zeus"
       },
       {
-        "en": "Ares, god of war",
-        "es": "Ares, dios de la guerra"
+        "en": "Ares",
+        "es": "Ares"
+      },
+      {
+        "en": "Poseidon",
+        "es": "Poseidón"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The ancient Olympic Games began in 776 BCE in Olympia, a sanctuary dedicated to Zeus. Athletes competed in honor of the king of the gods. Crucially, the Games were accompanied by a sacred truce (ekecheiria) — all wars between city-states were suspended for the duration of the festival.",
-      "es": "Los Juegos Olímpicos antiguos comenzaron en 776 a.C. en Olimpia, un santuario dedicado a Zeus. Los atletas competían en honor al rey de los dioses. Los Juegos iban acompañados de una tregua sagrada (ekecheiria): todas las guerras entre ciudades-estado se suspendían durante el festival."
+      "en": "The first Olympic Games took place in 776 BCE in Olympia. They honored Zeus, the king of the gods. Athletes ran, wrestled and threw the discus. During the Games, there was a sacred truce: cities stopped fighting so that people could travel safely.",
+      "es": "Los primeros Juegos Olímpicos se realizaron en el 776 a. C. en Olimpia. Honraban a Zeus, el rey de los dioses. Los atletas corrían, luchaban y lanzaban el disco. Durante los Juegos había una tregua sagrada: las ciudades dejaban de pelear para que la gente pudiera viajar con seguridad."
     },
     "meanwhile": {
-      "en": "Around 776 BCE, the Assyrian Empire was at its brutal peak — conquering neighboring peoples with organized military terror — while Greeks were instituting a sacred truce to suspend all wars for athletic competition. Two radically different visions of human greatness, at the same moment in time.",
-      "es": "Hacia el 776 a.C., el Imperio Asirio estaba en su brutal apogeo, conquistando pueblos vecinos con terror militar organizado, mientras los griegos instituían una tregua sagrada para suspender todas las guerras en favor de la competencia atlética. Dos visiones radicalmente distintas de la grandeza humana, en el mismo momento."
+      "en": "Around 776 BCE, the Assyrian Empire was growing stronger in Mesopotamia and was conquering its neighbors.",
+      "es": "Alrededor del 776 a. C., el Imperio asirio se fortalecía en Mesopotamia y conquistaba a sus vecinos."
     },
     "reflection": {
-      "en": "Wars paused for the ancient Olympics. Is there anything in your world today that could genuinely bring opposing sides to stop a conflict, even briefly? What would that thing need to be?",
-      "es": "Las guerras se pausaban para los Juegos Olímpicos. ¿Existe algo en tu mundo actual que pudiera genuinamente llevar a bandos opuestos a detener un conflicto, aunque sea por un momento? ¿Qué tendría que ser?"
-    }
+      "en": "The Greeks stopped wars for sports. What could bring opposite sides together today, even for a short time?",
+      "es": "Los griegos detenían las guerras por el deporte. ¿Qué podría unir hoy a bandos opuestos, aunque sea por poco tiempo?"
+    },
+    "vocab": [
+      {
+        "term": "honored",
+        "es": "honraban"
+      },
+      {
+        "term": "athletes",
+        "es": "atletas"
+      },
+      {
+        "term": "wrestled",
+        "es": "luchaban"
+      },
+      {
+        "term": "truce",
+        "es": "tregua"
+      }
+    ]
   },
   {
     "id": "gr-005",
     "category": "ancient-greece",
     "category_label": {
       "en": "Ancient Greece",
-      "es": "Grecia Antigua"
+      "es": "Antigua Grecia"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Which city-state was governed by a system of radical military training for all male citizens?",
-      "es": "¿Qué ciudad-estado se regía por un sistema de entrenamiento militar radical para todos los ciudadanos varones?"
+      "en": "Which Greek city-state trained all its boys to be soldiers?",
+      "es": "¿Qué ciudad-estado griega entrenaba a todos sus niños para ser soldados?"
     },
     "options": [
       {
@@ -163,21 +256,43 @@
       {
         "en": "Corinth",
         "es": "Corinto"
+      },
+      {
+        "en": "Thebes",
+        "es": "Tebas"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Sparta's agoge was a compulsory state education and training program that began at age 7. Boys were removed from their families and subjected to years of intense physical training, hardship, and communal living. The result was arguably the most feared military force in the ancient world — but at enormous social cost.",
-      "es": "La agogé espartana era un programa estatal de educación y entrenamiento obligatorio que comenzaba a los 7 años. Los niños eran separados de sus familias y sometidos a años de intenso entrenamiento físico, privaciones y vida comunitaria. El resultado fue, posiblemente, la fuerza militar más temida del mundo antiguo, aunque a enorme costo social."
+      "en": "At the age of seven, Spartan boys left their families and entered a hard training system called the agoge. They learned to fight, to survive with little food and to obey orders. Sparta had one of the strongest armies in Greece, but its people had little freedom.",
+      "es": "A los siete años, los niños espartanos dejaban a sus familias y entraban a un duro sistema de entrenamiento llamado agogé. Aprendían a pelear, a sobrevivir con poca comida y a obedecer órdenes. Esparta tenía uno de los ejércitos más fuertes de Grecia, pero su gente tenía poca libertad."
     },
     "meanwhile": {
-      "en": "Around 500 BCE, in Athens — just 220 kilometers away — Pericles was funding the Parthenon and making his city the cultural capital of the ancient world. Two radically different civilizations, thriving simultaneously, close enough to see each other's fires at night.",
-      "es": "Hacia el 500 a.C., en Atenas —a solo 220 kilómetros— Pericles financiaba el Partenón y convertía su ciudad en la capital cultural del mundo antiguo. Dos civilizaciones radicalmente distintas, floreciendo simultáneamente, lo suficientemente cerca como para ver las fogatas de la otra por la noche."
+      "en": "Around 450 BCE, Athens, only about 200 kilometers from Sparta, built the Parthenon and filled the city with art and theater.",
+      "es": "Alrededor del 450 a. C., Atenas, a solo unos 200 kilómetros de Esparta, construía el Partenón y llenaba la ciudad de arte y teatro."
     },
     "reflection": {
-      "en": "Sparta took children from their families at age 7 to build the perfect soldier. Athens invested in art, philosophy, and debate. Which model better describes the society you grew up in — and would you choose it if you could?",
-      "es": "Esparta separaba a los niños de sus familias a los 7 años para construir al soldado perfecto. Atenas invertía en arte, filosofía y debate. ¿Cuál modelo describe mejor la sociedad en la que creciste, y lo elegirías si pudieras?"
-    }
+      "en": "Sparta valued strength and obedience. Athens valued debate and art. Which of the two is closer to the place where you grew up?",
+      "es": "Esparta valoraba la fuerza y la obediencia. Atenas valoraba el debate y el arte. ¿Cuál de las dos se parece más al lugar donde creciste?"
+    },
+    "vocab": [
+      {
+        "term": "soldiers",
+        "es": "soldados"
+      },
+      {
+        "term": "training",
+        "es": "entrenamiento"
+      },
+      {
+        "term": "obey",
+        "es": "obedecer"
+      },
+      {
+        "term": "fight",
+        "es": "pelear"
+      }
+    ]
   },
   {
     "id": "gr-006",
@@ -219,7 +334,29 @@
     "reflection": {
       "en": "The most important object on that ship was the one nobody wanted. What is something in your life whose value you only understood much later?",
       "es": "El objeto más importante de ese barco fue el que nadie quería. ¿Qué cosa de tu vida recién valoraste mucho tiempo después?"
-    }
+    },
+    "vocab": [
+      {
+        "term": "shelter",
+        "es": "refugiarse"
+      },
+      {
+        "term": "terrified",
+        "es": "aterrado"
+      },
+      {
+        "term": "seabed",
+        "es": "fondo del mar"
+      },
+      {
+        "term": "pottery",
+        "es": "cerámica"
+      },
+      {
+        "term": "corroded",
+        "es": "corroído"
+      }
+    ]
   },
   {
     "id": "gr-007",
@@ -261,7 +398,29 @@
     "reflection": {
       "en": "Rome conquered Greece, but the Romans copied Greek art, ideas and even gods. Who really won in the end: the army or the culture?",
       "es": "Roma conquistó Grecia, pero los romanos copiaron el arte, las ideas y hasta los dioses griegos. ¿Quién ganó realmente al final: el ejército o la cultura?"
-    }
+    },
+    "vocab": [
+      {
+        "term": "sank",
+        "es": "se hundió"
+      },
+      {
+        "term": "heading",
+        "es": "dirigiéndose"
+      },
+      {
+        "term": "luxury",
+        "es": "lujo"
+      },
+      {
+        "term": "wreck",
+        "es": "restos de un naufragio"
+      },
+      {
+        "term": "conquered",
+        "es": "conquistó"
+      }
+    ]
   },
   {
     "id": "gr-008",
@@ -303,7 +462,29 @@
     "reflection": {
       "en": "A machine this advanced was built, lost under the sea and forgotten for almost 2,000 years. What knowledge from our own time could be lost in the same way?",
       "es": "Una máquina así de avanzada se construyó, se perdió bajo el mar y quedó olvidada casi 2.000 años. ¿Qué conocimiento de nuestra época podría perderse de la misma manera?"
-    }
+    },
+    "vocab": [
+      {
+        "term": "gears",
+        "es": "engranajes"
+      },
+      {
+        "term": "crank",
+        "es": "manivela"
+      },
+      {
+        "term": "eclipses",
+        "es": "eclipses"
+      },
+      {
+        "term": "dials",
+        "es": "diales"
+      },
+      {
+        "term": "ahead of its time",
+        "es": "adelantado a su época"
+      }
+    ]
   },
   {
     "id": "gr-009",
@@ -345,7 +526,29 @@
     "reflection": {
       "en": "The builder solved a very hard problem with a simple pin and a slot. When did you solve a complicated problem with a simple idea?",
       "es": "El constructor resolvió un problema muy difícil con un simple perno y una ranura. ¿Cuándo resolviste vos un problema complicado con una idea simple?"
-    }
+    },
+    "vocab": [
+      {
+        "term": "pin",
+        "es": "clavija"
+      },
+      {
+        "term": "slot",
+        "es": "ranura"
+      },
+      {
+        "term": "off-center",
+        "es": "descentrado"
+      },
+      {
+        "term": "pointer",
+        "es": "aguja indicadora"
+      },
+      {
+        "term": "sped up",
+        "es": "se aceleraba"
+      }
+    ]
   },
   {
     "id": "gr-010",
@@ -387,6 +590,1208 @@
     "reflection": {
       "en": "Knowledge can be lost and found again. What helps knowledge survive more: books, museums, the internet, or people who care about it?",
       "es": "El conocimiento puede perderse y volver a encontrarse. ¿Qué ayuda más a que sobreviva: los libros, los museos, internet o las personas a las que les importa?"
-    }
+    },
+    "vocab": [
+      {
+        "term": "survived",
+        "es": "sobrevivido"
+      },
+      {
+        "term": "spheres",
+        "es": "esferas"
+      },
+      {
+        "term": "fragments",
+        "es": "fragmentos"
+      },
+      {
+        "term": "scholars",
+        "es": "eruditos"
+      },
+      {
+        "term": "translated",
+        "es": "tradujeron"
+      }
+    ]
+  },
+  {
+    "id": "gr-011",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which goddess was the Parthenon in Athens built to honor?",
+      "es": "¿A qué diosa estaba dedicado el Partenón de Atenas?"
+    },
+    "options": [
+      {
+        "en": "Athena",
+        "es": "Atenea"
+      },
+      {
+        "en": "Aphrodite",
+        "es": "Afrodita"
+      },
+      {
+        "en": "Hera",
+        "es": "Hera"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Parthenon stands on the Acropolis, a hill above Athens. It was built between 447 and 432 BCE, when Pericles led the city. It was made of white marble and decorated with beautiful statues. Later it was used as a church and as a mosque. In 1687, an explosion badly damaged it.",
+      "es": "El Partenón se alza en la Acrópolis, una colina sobre Atenas. Se construyó entre el 447 y el 432 a. C., cuando Pericles dirigía la ciudad. Era de mármol blanco y estaba decorado con hermosas estatuas. Más tarde se usó como iglesia y como mezquita. En 1687, una explosión lo dañó gravemente."
+    },
+    "meanwhile": {
+      "en": "Around 440 BCE, Herodotus was writing his Histories in Greece, and it became one of the first history books.",
+      "es": "Alrededor del 440 a. C., Heródoto escribía sus Historias en Grecia, y se convirtió en uno de los primeros libros de historia."
+    },
+    "reflection": {
+      "en": "A building from 2,400 years ago is still famous. What do you think people will remember from our time?",
+      "es": "Un edificio de hace 2.400 años sigue siendo famoso. ¿Qué crees que recordará la gente de nuestra época?"
+    },
+    "vocab": [
+      {
+        "term": "marble",
+        "es": "mármol"
+      },
+      {
+        "term": "statues",
+        "es": "estatuas"
+      },
+      {
+        "term": "mosque",
+        "es": "mezquita"
+      },
+      {
+        "term": "explosion",
+        "es": "explosión"
+      }
+    ]
+  },
+  {
+    "id": "gr-012",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In 490 BCE, who did the Athenians defeat at the Battle of Marathon?",
+      "es": "En el 490 a. C., ¿a quién derrotaron los atenienses en la batalla de Maratón?"
+    },
+    "options": [
+      {
+        "en": "The Persians",
+        "es": "A los persas"
+      },
+      {
+        "en": "The Spartans",
+        "es": "A los espartanos"
+      },
+      {
+        "en": "The Romans",
+        "es": "A los romanos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Persian king Darius sent a large army by ship to punish Athens. The Athenians were fewer, but they fought bravely and won on the plain of Marathon. A legend says that a runner carried the news to Athens, about 40 kilometers away. Today’s marathon race remembers that story.",
+      "es": "El rey persa Darío envió un gran ejército por barco para castigar a Atenas. Los atenienses eran menos, pero lucharon con valentía y ganaron en la llanura de Maratón. Una leyenda cuenta que un corredor llevó la noticia a Atenas, a unos 40 kilómetros. La carrera de maratón actual recuerda esa historia."
+    },
+    "meanwhile": {
+      "en": "Around 490 BCE, in northern India, the Buddha was teaching his followers how to live without suffering.",
+      "es": "Alrededor del 490 a. C., en el norte de la India, Buda enseñaba a sus seguidores cómo vivir sin sufrimiento."
+    },
+    "reflection": {
+      "en": "A smaller group beat a bigger army. When did you succeed even though you had fewer resources than others?",
+      "es": "Un grupo más pequeño venció a un ejército mayor. ¿Cuándo tuviste éxito aunque tenías menos recursos que otros?"
+    },
+    "vocab": [
+      {
+        "term": "defeat",
+        "es": "derrotar"
+      },
+      {
+        "term": "army",
+        "es": "ejército"
+      },
+      {
+        "term": "plain",
+        "es": "llanura"
+      },
+      {
+        "term": "runner",
+        "es": "corredor"
+      }
+    ]
+  },
+  {
+    "id": "gr-013",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did King Leonidas and his 300 Spartans do at Thermopylae in 480 BCE?",
+      "es": "¿Qué hicieron el rey Leónidas y sus 300 espartanos en las Termópilas en el 480 a. C.?"
+    },
+    "options": [
+      {
+        "en": "They held a narrow pass against the Persian army",
+        "es": "Defendieron un paso estrecho contra el ejército persa"
+      },
+      {
+        "en": "They attacked the Persian ships at sea",
+        "es": "Atacaron los barcos persas en el mar"
+      },
+      {
+        "en": "They surrendered to the Persian king",
+        "es": "Se rindieron ante el rey persa"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Persian king Xerxes invaded Greece with a huge army. Leonidas and several thousand Greeks, including 300 Spartans, blocked a narrow mountain pass. They held it for three days. Then a local man showed the Persians a secret path. Leonidas stayed behind with the 300 and died there.",
+      "es": "El rey persa Jerjes invadió Grecia con un enorme ejército. Leónidas y varios miles de griegos, entre ellos 300 espartanos, bloquearon un estrecho paso de montaña. Lo defendieron durante tres días. Entonces un hombre de la zona mostró a los persas un camino secreto. Leónidas se quedó atrás con los 300 y murió allí."
+    },
+    "meanwhile": {
+      "en": "In 479 BCE, in China, the thinker Confucius died. His students collected his teachings in a book called the Analects.",
+      "es": "En el 479 a. C., en China, murió el pensador Confucio. Sus estudiantes reunieron sus enseñanzas en un libro llamado Analectas."
+    },
+    "reflection": {
+      "en": "The Spartans stayed to give the others time to escape. When have you put the group before your own safety?",
+      "es": "Los espartanos se quedaron para dar tiempo a los demás de escapar. ¿Cuándo pusiste al grupo por encima de tu propia seguridad?"
+    },
+    "vocab": [
+      {
+        "term": "narrow",
+        "es": "estrecho"
+      },
+      {
+        "term": "pass",
+        "es": "paso"
+      },
+      {
+        "term": "invaded",
+        "es": "invadió"
+      },
+      {
+        "term": "secret path",
+        "es": "camino secreto"
+      }
+    ]
+  },
+  {
+    "id": "gr-014",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Alexander the Great was king of which country when he was only 20 years old?",
+      "es": "Alejandro Magno era rey de qué país cuando tenía solo 20 años?"
+    },
+    "options": [
+      {
+        "en": "Macedonia",
+        "es": "Macedonia"
+      },
+      {
+        "en": "Egypt",
+        "es": "Egipto"
+      },
+      {
+        "en": "Persia",
+        "es": "Persia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Alexander became king of Macedonia in 336 BCE, when his father was killed. In about ten years, he conquered Egypt, the Persian Empire and lands as far as India. He never lost a battle. He died in Babylon at the age of 32. He founded many cities called Alexandria.",
+      "es": "Alejandro se convirtió en rey de Macedonia en el 336 a. C., cuando mataron a su padre. En unos diez años conquistó Egipto, el Imperio persa y tierras hasta la India. Nunca perdió una batalla. Murió en Babilonia a los 32 años. Fundó muchas ciudades llamadas Alejandría."
+    },
+    "meanwhile": {
+      "en": "Around 321 BCE, in India, Chandragupta Maurya started the Maurya Empire, which soon became one of the largest in the world.",
+      "es": "Alrededor del 321 a. C., en la India, Chandragupta Maurya fundó el Imperio Maurya, que pronto se convirtió en uno de los más grandes del mundo."
+    },
+    "reflection": {
+      "en": "Alexander did a lot in a very short life. If you had only 32 years, what would you want to do?",
+      "es": "Alejandro hizo mucho en una vida muy corta. Si solo tuvieras 32 años, ¿qué te gustaría hacer?"
+    },
+    "vocab": [
+      {
+        "term": "conquered",
+        "es": "conquistó"
+      },
+      {
+        "term": "battle",
+        "es": "batalla"
+      },
+      {
+        "term": "founded",
+        "es": "fundó"
+      },
+      {
+        "term": "lands",
+        "es": "tierras"
+      }
+    ]
+  },
+  {
+    "id": "gr-015",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which poet is said to have composed the Iliad and the Odyssey?",
+      "es": "¿Qué poeta se dice que compuso la Ilíada y la Odisea?"
+    },
+    "options": [
+      {
+        "en": "Homer",
+        "es": "Homero"
+      },
+      {
+        "en": "Sophocles",
+        "es": "Sófocles"
+      },
+      {
+        "en": "Hesiod",
+        "es": "Hesíodo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Iliad tells a story from the Trojan War, and the Odyssey tells how the hero Odysseus tried to return home for ten years. Homer lived around 750 BCE. For a long time, these poems were sung, not written. Experts still debate whether one person or many created them.",
+      "es": "La Ilíada cuenta un episodio de la guerra de Troya, y la Odisea relata cómo el héroe Odiseo intentó volver a casa durante diez años. Homero vivió alrededor del 750 a. C. Durante mucho tiempo, estos poemas se cantaban y no se escribían. Los expertos todavía debaten si los creó una persona o muchas."
+    },
+    "meanwhile": {
+      "en": "Around 750 BCE, kings from Kush, in what is now Sudan, began to conquer Egypt and ruled it as pharaohs.",
+      "es": "Alrededor del 750 a. C., reyes de Kush, en el actual Sudán, comenzaron a conquistar Egipto y lo gobernaron como faraones."
+    },
+    "reflection": {
+      "en": "Stories can live for centuries before somebody writes them down. Which story from your family is worth keeping?",
+      "es": "Las historias pueden vivir siglos antes de que alguien las escriba. ¿Qué historia de tu familia vale la pena conservar?"
+    },
+    "vocab": [
+      {
+        "term": "poet",
+        "es": "poeta"
+      },
+      {
+        "term": "hero",
+        "es": "héroe"
+      },
+      {
+        "term": "composed",
+        "es": "compuso"
+      },
+      {
+        "term": "debate",
+        "es": "debaten"
+      }
+    ]
+  },
+  {
+    "id": "gr-016",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was Plato’s Academy?",
+      "es": "¿Qué era la Academia de Platón?"
+    },
+    "options": [
+      {
+        "en": "A school he founded in Athens around 387 BCE",
+        "es": "Una escuela que fundó en Atenas alrededor del 387 a. C."
+      },
+      {
+        "en": "A temple for the god of wisdom",
+        "es": "Un templo para el dios de la sabiduría"
+      },
+      {
+        "en": "A library built by Alexander the Great",
+        "es": "Una biblioteca construida por Alejandro Magno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Plato was a student of Socrates. Around 387 BCE, he opened a school in a garden near Athens. Students studied mathematics, philosophy and politics. Aristotle studied there for about twenty years. The Academy lasted for several centuries. The word \"academy\" comes from it.",
+      "es": "Platón fue alumno de Sócrates. Alrededor del 387 a. C. abrió una escuela en un jardín cerca de Atenas. Los estudiantes estudiaban matemáticas, filosofía y política. Aristóteles estudió allí durante unos veinte años. La Academia duró varios siglos. La palabra \"academia\" viene de ella."
+    },
+    "meanwhile": {
+      "en": "Around 380 BCE, in China, thinkers argued about the best way to govern during the Warring States period.",
+      "es": "Alrededor del 380 a. C., en China, los pensadores discutían la mejor manera de gobernar durante el período de los Reinos Combatientes."
+    },
+    "reflection": {
+      "en": "A garden became one of the most famous schools in history. Where do you learn best?",
+      "es": "Un jardín se convirtió en una de las escuelas más famosas de la historia. ¿Dónde aprendes mejor?"
+    },
+    "vocab": [
+      {
+        "term": "opened",
+        "es": "abrió"
+      },
+      {
+        "term": "garden",
+        "es": "jardín"
+      },
+      {
+        "term": "philosophy",
+        "es": "filosofía"
+      },
+      {
+        "term": "studied",
+        "es": "estudiaron"
+      }
+    ]
+  },
+  {
+    "id": "gr-017",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why is Hippocrates called the \"father of medicine\"?",
+      "es": "¿Por qué se llama a Hipócrates el \"padre de la medicina\"?"
+    },
+    "options": [
+      {
+        "en": "He taught that illness has natural causes",
+        "es": "Enseñó que las enfermedades tienen causas naturales"
+      },
+      {
+        "en": "He found a cure for all kinds of diseases",
+        "es": "Encontró una cura para todo tipo de enfermedades"
+      },
+      {
+        "en": "He built the first big hospital in Rome",
+        "es": "Construyó el primer gran hospital de Roma"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Hippocrates lived on the island of Kos around 400 BCE. Before him, many people thought that gods sent diseases as punishment. Hippocrates and his students observed patients carefully and wrote down what they saw. They also taught doctors to respect their patients. Doctors still take an oath named after him.",
+      "es": "Hipócrates vivió en la isla de Cos alrededor del 400 a. C. Antes que él, muchos pensaban que los dioses enviaban las enfermedades como castigo. Hipócrates y sus alumnos observaban a los pacientes con cuidado y anotaban lo que veían. También enseñaron a los médicos a respetar a sus pacientes. Los médicos todavía hacen un juramento que lleva su nombre."
+    },
+    "meanwhile": {
+      "en": "Around 400 BCE, the Persian Empire ruled from Egypt to India, and a royal road about 2,500 kilometers long connected its cities.",
+      "es": "Alrededor del 400 a. C., el Imperio persa gobernaba desde Egipto hasta la India, y un camino real de unos 2.500 kilómetros conectaba sus ciudades."
+    },
+    "reflection": {
+      "en": "Hippocrates looked for natural causes instead of blaming the gods. When did observing carefully help you solve a problem?",
+      "es": "Hipócrates buscó causas naturales en lugar de culpar a los dioses. ¿Cuándo observar con atención te ayudó a resolver un problema?"
+    },
+    "vocab": [
+      {
+        "term": "diseases",
+        "es": "enfermedades"
+      },
+      {
+        "term": "patients",
+        "es": "pacientes"
+      },
+      {
+        "term": "punishment",
+        "es": "castigo"
+      },
+      {
+        "term": "oath",
+        "es": "juramento"
+      }
+    ]
+  },
+  {
+    "id": "gr-018",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Euclid wrote a famous book that was used to teach geometry for about 2,000 years. What was it called?",
+      "es": "Euclides escribió un famoso libro que se usó para enseñar geometría durante unos 2.000 años. ¿Cómo se llamaba?"
+    },
+    "options": [
+      {
+        "en": "The Elements",
+        "es": "Los Elementos"
+      },
+      {
+        "en": "The Republic",
+        "es": "La República"
+      },
+      {
+        "en": "The Histories",
+        "es": "Las Historias"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Euclid worked in Alexandria around 300 BCE. In The Elements, he started with a few simple rules and used logic to prove hundreds of results about lines, circles and triangles. The book became the model for mathematical thinking. Students were still learning from it in the 1900s.",
+      "es": "Euclides trabajó en Alejandría alrededor del 300 a. C. En Los Elementos, partió de unas pocas reglas simples y usó la lógica para demostrar cientos de resultados sobre líneas, círculos y triángulos. El libro se convirtió en el modelo del pensamiento matemático. Los estudiantes todavía aprendían de él en el siglo XX."
+    },
+    "meanwhile": {
+      "en": "In 312 BCE, Rome began to build the Appian Way, one of its first great roads. Parts of it can still be walked today.",
+      "es": "En el 312 a. C., Roma comenzó a construir la Vía Apia, uno de sus primeros grandes caminos. Hoy todavía se pueden recorrer partes de ella."
+    },
+    "reflection": {
+      "en": "Euclid started with simple rules and built a whole science. What big skill did you learn by practicing small things?",
+      "es": "Euclides partió de reglas simples y construyó toda una ciencia. ¿Qué gran habilidad aprendiste practicando cosas pequeñas?"
+    },
+    "vocab": [
+      {
+        "term": "geometry",
+        "es": "geometría"
+      },
+      {
+        "term": "logic",
+        "es": "lógica"
+      },
+      {
+        "term": "prove",
+        "es": "demostrar"
+      },
+      {
+        "term": "triangles",
+        "es": "triángulos"
+      }
+    ]
+  },
+  {
+    "id": "gr-019",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "According to a famous story, what did Archimedes shout when he had a great idea in the bath?",
+      "es": "Según una famosa historia, ¿qué gritó Arquímedes cuando tuvo una gran idea en el baño?"
+    },
+    "options": [
+      {
+        "en": "\"Eureka!\"",
+        "es": "\"¡Eureka!\""
+      },
+      {
+        "en": "\"Veni, vidi, vici!\"",
+        "es": "\"¡Vine, vi, vencí!\""
+      },
+      {
+        "en": "\"Know thyself!\"",
+        "es": "\"¡Conócete a ti mismo!\""
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The king of Syracuse asked Archimedes to check if a crown was pure gold. While getting into a bath, Archimedes saw the water rise. He understood that he could measure the crown by the water it pushed out. He ran through the streets shouting \"Eureka\", which means \"I found it\".",
+      "es": "El rey de Siracusa le pidió a Arquímedes que comprobara si una corona era de oro puro. Al meterse en la bañera, Arquímedes vio subir el agua. Entendió que podía medir la corona por el agua que desplazaba. Corrió por las calles gritando \"Eureka\", que significa \"lo encontré\"."
+    },
+    "meanwhile": {
+      "en": "In 213 BCE, the first emperor of China, Qin Shi Huang, ordered many books to be burned.",
+      "es": "En el 213 a. C., el primer emperador de China, Qin Shi Huang, ordenó quemar muchos libros."
+    },
+    "reflection": {
+      "en": "Good ideas often come when we relax. Where and when do your best ideas appear?",
+      "es": "Las buenas ideas suelen llegar cuando nos relajamos. ¿Dónde y cuándo aparecen tus mejores ideas?"
+    },
+    "vocab": [
+      {
+        "term": "crown",
+        "es": "corona"
+      },
+      {
+        "term": "pure",
+        "es": "puro"
+      },
+      {
+        "term": "measure",
+        "es": "medir"
+      },
+      {
+        "term": "bath",
+        "es": "baño"
+      }
+    ]
+  },
+  {
+    "id": "gr-020",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was the Greek theater originally part of?",
+      "es": "¿De qué era parte originalmente el teatro griego?"
+    },
+    "options": [
+      {
+        "en": "A festival for the god Dionysus",
+        "es": "Un festival para el dios Dioniso"
+      },
+      {
+        "en": "A military victory parade",
+        "es": "Un desfile de victoria militar"
+      },
+      {
+        "en": "A school for young speakers",
+        "es": "Una escuela para jóvenes oradores"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In Athens, plays were performed at a spring festival for Dionysus, the god of wine. Writers like Sophocles wrote tragedies, and Aristophanes wrote comedies. Actors wore masks. The theater of Epidaurus could hold about 14,000 people, and plays are still performed there today.",
+      "es": "En Atenas, las obras se representaban en un festival de primavera para Dioniso, el dios del vino. Autores como Sófocles escribían tragedias, y Aristófanes escribía comedias. Los actores usaban máscaras. El teatro de Epidauro tenía capacidad para unas 14.000 personas, y todavía se representan obras allí hoy."
+    },
+    "meanwhile": {
+      "en": "Around 450 BCE, Rome wrote down its laws on twelve tablets, so that everybody could see them.",
+      "es": "Alrededor del 450 a. C., Roma escribió sus leyes en doce tablas, para que todos pudieran verlas."
+    },
+    "reflection": {
+      "en": "Plays helped Athenians think about hard questions together. What movie or play has made you think?",
+      "es": "Las obras de teatro ayudaban a los atenienses a pensar juntos en preguntas difíciles. ¿Qué película u obra te hizo pensar?"
+    },
+    "vocab": [
+      {
+        "term": "festival",
+        "es": "festival"
+      },
+      {
+        "term": "tragedies",
+        "es": "tragedias"
+      },
+      {
+        "term": "comedies",
+        "es": "comedias"
+      },
+      {
+        "term": "masks",
+        "es": "máscaras"
+      }
+    ]
+  },
+  {
+    "id": "gr-021",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In Athens, what was \"ostracism\"?",
+      "es": "En Atenas, ¿qué era el \"ostracismo\"?"
+    },
+    "options": [
+      {
+        "en": "A vote to send a powerful person away for ten years",
+        "es": "Una votación para expulsar a una persona poderosa durante diez años"
+      },
+      {
+        "en": "A test that a foreigner took to become a citizen",
+        "es": "Una prueba que hacía un extranjero para ser ciudadano"
+      },
+      {
+        "en": "A tax that foreign merchants paid every year",
+        "es": "Un impuesto que pagaban cada año los comerciantes extranjeros"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Once a year, Athenians could vote on whether a citizen had become too powerful. Each voter wrote a name on a piece of broken pottery, called an ostrakon. If at least 6,000 votes were counted, the man with the most votes had to leave the city for ten years. He did not lose his property.",
+      "es": "Una vez al año, los atenienses podían votar si un ciudadano se había vuelto demasiado poderoso. Cada votante escribía un nombre en un trozo de cerámica rota, llamado ostracon. Si se contaban al menos 6.000 votos, el hombre con más votos debía dejar la ciudad por diez años. No perdía sus propiedades."
+    },
+    "meanwhile": {
+      "en": "Around 500 BCE, the Zapotec people in Mexico built Monte Albán, a city at the top of a mountain.",
+      "es": "Alrededor del 500 a. C., el pueblo zapoteca de México construyó Monte Albán, una ciudad en la cima de una montaña."
+    },
+    "reflection": {
+      "en": "Athens tried to protect democracy by sending powerful people away. How can a society stop one person from having too much power?",
+      "es": "Atenas intentaba proteger la democracia expulsando a los poderosos. ¿Cómo puede una sociedad evitar que una persona tenga demasiado poder?"
+    },
+    "vocab": [
+      {
+        "term": "ostracism",
+        "es": "ostracismo"
+      },
+      {
+        "term": "powerful",
+        "es": "poderosa"
+      },
+      {
+        "term": "pottery",
+        "es": "cerámica"
+      },
+      {
+        "term": "property",
+        "es": "propiedades"
+      }
+    ]
+  },
+  {
+    "id": "gr-022",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who fought in the Peloponnesian War, which lasted from 431 to 404 BCE?",
+      "es": "¿Quiénes lucharon en la guerra del Peloponeso, que duró del 431 al 404 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Athens and its allies against Sparta and its allies",
+        "es": "Atenas y sus aliados contra Esparta y sus aliados"
+      },
+      {
+        "en": "Greece and its cities against the Persian Empire",
+        "es": "Grecia y sus ciudades contra el Imperio persa"
+      },
+      {
+        "en": "Alexander the Great against the Romans",
+        "es": "Alejandro Magno contra los romanos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The two strongest Greek powers fought for almost 30 years. Athens had a strong navy, and Sparta had a strong army. A terrible plague in Athens killed many people, including its leader Pericles. In the end, Sparta won, but all Greek cities were weaker afterwards.",
+      "es": "Las dos potencias griegas más fuertes lucharon durante casi 30 años. Atenas tenía una poderosa flota y Esparta un poderoso ejército. Una terrible peste en Atenas mató a mucha gente, incluido su líder Pericles. Al final ganó Esparta, pero todas las ciudades griegas quedaron más débiles."
+    },
+    "meanwhile": {
+      "en": "Around 420 BCE, China was in the Warring States period, when seven large kingdoms fought for power.",
+      "es": "Alrededor del 420 a. C., China estaba en el período de los Reinos Combatientes, cuando siete grandes reinos luchaban por el poder."
+    },
+    "reflection": {
+      "en": "Both sides lost something in this war. When did winning an argument cost you something important?",
+      "es": "Ambos bandos perdieron algo en esta guerra. ¿Cuándo ganar una discusión te costó algo importante?"
+    },
+    "vocab": [
+      {
+        "term": "fought",
+        "es": "lucharon"
+      },
+      {
+        "term": "navy",
+        "es": "flota"
+      },
+      {
+        "term": "plague",
+        "es": "peste"
+      },
+      {
+        "term": "weaker",
+        "es": "más débiles"
+      }
+    ]
+  },
+  {
+    "id": "gr-023",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "According to legend, what lived in the labyrinth below the palace of Knossos on Crete?",
+      "es": "Según la leyenda, ¿qué vivía en el laberinto bajo el palacio de Cnosos, en Creta?"
+    },
+    "options": [
+      {
+        "en": "The Minotaur, a monster with a bull’s head",
+        "es": "El Minotauro, un monstruo con cabeza de toro"
+      },
+      {
+        "en": "The Hydra, a snake with many heads",
+        "es": "La Hidra, una serpiente con muchas cabezas"
+      },
+      {
+        "en": "Cerberus, a three-headed dog",
+        "es": "Cerbero, un perro de tres cabezas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Minoans lived on Crete almost 4,000 years ago. Their palace at Knossos had hundreds of rooms, so it may have inspired the legend of the labyrinth. In the story, the hero Theseus killed the Minotaur. The British archaeologist Arthur Evans dug up Knossos in the early 1900s.",
+      "es": "Los minoicos vivieron en Creta hace casi 4.000 años. Su palacio de Cnosos tenía cientos de habitaciones, así que pudo haber inspirado la leyenda del laberinto. En la historia, el héroe Teseo mató al Minotauro. El arqueólogo británico Arthur Evans excavó Cnosos a principios del siglo XX."
+    },
+    "meanwhile": {
+      "en": "Around 1750 BCE, King Hammurabi of Babylon wrote one of the first sets of written laws, carved on a tall stone.",
+      "es": "Alrededor del 1750 a. C., el rey Hammurabi de Babilonia escribió uno de los primeros conjuntos de leyes escritas, grabado en una alta piedra."
+    },
+    "reflection": {
+      "en": "Real places can become myths. Which place near you has a legend or a mystery?",
+      "es": "Los lugares reales pueden convertirse en mitos. ¿Qué lugar cerca de ti tiene una leyenda o un misterio?"
+    },
+    "vocab": [
+      {
+        "term": "labyrinth",
+        "es": "laberinto"
+      },
+      {
+        "term": "legend",
+        "es": "leyenda"
+      },
+      {
+        "term": "palace",
+        "es": "palacio"
+      },
+      {
+        "term": "archaeologist",
+        "es": "arqueólogo"
+      }
+    ]
+  },
+  {
+    "id": "gr-024",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Which people did the Greeks copy their alphabet from, adding letters for vowels?",
+      "es": "¿De qué pueblo copiaron los griegos su alfabeto, al que añadieron letras para las vocales?"
+    },
+    "options": [
+      {
+        "en": "The Phoenicians",
+        "es": "Los fenicios"
+      },
+      {
+        "en": "The Egyptians",
+        "es": "Los egipcios"
+      },
+      {
+        "en": "The Persians",
+        "es": "Los persas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Around 800 BCE, the Greeks learned the alphabet from Phoenician traders. The Phoenician letters showed only consonants. The Greeks used some of them for vowels, so every sound could be written. The first two letters, alpha and beta, give us the word \"alphabet\". The Latin alphabet we use today comes from the Greek one.",
+      "es": "Alrededor del 800 a. C., los griegos aprendieron el alfabeto de los comerciantes fenicios. Las letras fenicias mostraban solo consonantes. Los griegos usaron algunas para las vocales, de modo que se podía escribir cada sonido. Las dos primeras letras, alfa y beta, nos dan la palabra \"alfabeto\". El alfabeto latino que usamos hoy viene del griego."
+    },
+    "meanwhile": {
+      "en": "Around 814 BCE, according to tradition, Phoenician settlers from Tyre founded the city of Carthage in North Africa.",
+      "es": "Alrededor del 814 a. C., según la tradición, colonos fenicios de Tiro fundaron la ciudad de Cartago, en el norte de África."
+    },
+    "reflection": {
+      "en": "A small change, adding vowels, made writing easier for everybody. What small change made something easier in your life?",
+      "es": "Un pequeño cambio, agregar vocales, hizo la escritura más fácil para todos. ¿Qué pequeño cambio hizo algo más fácil en tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "alphabet",
+        "es": "alfabeto"
+      },
+      {
+        "term": "traders",
+        "es": "comerciantes"
+      },
+      {
+        "term": "vowels",
+        "es": "vocales"
+      },
+      {
+        "term": "consonants",
+        "es": "consonantes"
+      }
+    ]
+  },
+  {
+    "id": "gr-025",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Around 240 BCE, Eratosthenes measured the size of the Earth. What did he use?",
+      "es": "Alrededor del 240 a. C., Eratóstenes midió el tamaño de la Tierra. ¿Qué usó?"
+    },
+    "options": [
+      {
+        "en": "The shadows of sticks in two different cities",
+        "es": "Las sombras de unos palos en dos ciudades distintas"
+      },
+      {
+        "en": "A telescope on a mountain",
+        "es": "Un telescopio en una montaña"
+      },
+      {
+        "en": "A ship that sailed around the world",
+        "es": "Un barco que navegó alrededor del mundo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At noon in the city of Syene, the sun shone straight down a well. In Alexandria, 800 kilometers to the north, a stick made a small shadow at the same time. Eratosthenes used the angle of the shadow and the distance between the cities. He calculated that the Earth is about 40,000 kilometers around. This is very close to the real number.",
+      "es": "Al mediodía, en la ciudad de Siena, el sol iluminaba directamente el fondo de un pozo. En Alejandría, 800 kilómetros al norte, un palo daba una pequeña sombra a la misma hora. Eratóstenes usó el ángulo de la sombra y la distancia entre las ciudades. Calculó que la Tierra mide unos 40.000 kilómetros de circunferencia. Es un número muy cercano al real."
+    },
+    "meanwhile": {
+      "en": "In 241 BCE, Rome won the First Punic War against Carthage and took control of Sicily.",
+      "es": "En el 241 a. C., Roma ganó la Primera Guerra Púnica contra Cartago y tomó el control de Sicilia."
+    },
+    "reflection": {
+      "en": "Eratosthenes needed only sticks, shadows and math. What big question could you answer with simple tools?",
+      "es": "Eratóstenes solo necesitó palos, sombras y matemáticas. ¿Qué gran pregunta podrías responder con herramientas simples?"
+    },
+    "vocab": [
+      {
+        "term": "shadow",
+        "es": "sombra"
+      },
+      {
+        "term": "well",
+        "es": "pozo"
+      },
+      {
+        "term": "angle",
+        "es": "ángulo"
+      },
+      {
+        "term": "distance",
+        "es": "distancia"
+      }
+    ]
+  },
+  {
+    "id": "gr-026",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "How did the Greeks win the sea battle of Salamis against the larger Persian fleet in 480 BCE?",
+      "es": "¿Cómo ganaron los griegos la batalla naval de Salamina contra la flota persa, más grande, en el 480 a. C.?"
+    },
+    "options": [
+      {
+        "en": "They lured the Persian ships into a narrow strait",
+        "es": "Atrajeron a los barcos persas hacia un estrecho angosto"
+      },
+      {
+        "en": "They used a secret weapon that burned on water",
+        "es": "Usaron un arma secreta que ardía sobre el agua"
+      },
+      {
+        "en": "They attacked at night while the Persians slept",
+        "es": "Atacaron de noche mientras los persas dormían"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Athenian leader Themistocles had built a large fleet of triremes, fast ships with three rows of oars. At Salamis, he tricked the Persians into entering a narrow strait. There, their big fleet could not move well, and the Greek ships attacked from the sides. Xerxes watched the defeat from a hill.",
+      "es": "El líder ateniense Temístocles había construido una gran flota de trirremes, barcos rápidos con tres filas de remos. En Salamina, engañó a los persas para que entraran en un estrecho angosto. Allí su gran flota no podía moverse bien, y los barcos griegos atacaron por los lados. Jerjes vio la derrota desde una colina."
+    },
+    "meanwhile": {
+      "en": "In the same year, 480 BCE, Greek cities in Sicily defeated a Carthaginian army at the Battle of Himera.",
+      "es": "En ese mismo año, el 480 a. C., las ciudades griegas de Sicilia derrotaron a un ejército cartaginés en la batalla de Himera."
+    },
+    "reflection": {
+      "en": "Themistocles won by choosing the place of the fight. When did choosing the right place or moment help you?",
+      "es": "Temístocles ganó eligiendo el lugar de la lucha. ¿Cuándo elegir el lugar o el momento correcto te ayudó?"
+    },
+    "vocab": [
+      {
+        "term": "fleet",
+        "es": "flota"
+      },
+      {
+        "term": "strait",
+        "es": "estrecho"
+      },
+      {
+        "term": "oars",
+        "es": "remos"
+      },
+      {
+        "term": "defeat",
+        "es": "derrota"
+      }
+    ]
+  },
+  {
+    "id": "gr-027",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who was Alexander the Great’s teacher when he was a boy?",
+      "es": "¿Quién fue el maestro de Alejandro Magno cuando era niño?"
+    },
+    "options": [
+      {
+        "en": "Aristotle",
+        "es": "Aristóteles"
+      },
+      {
+        "en": "Socrates",
+        "es": "Sócrates"
+      },
+      {
+        "en": "Homer",
+        "es": "Homero"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When Alexander was 13, his father Philip hired the philosopher Aristotle to teach him. Aristotle taught him about science, politics and poetry. Later Aristotle opened his own school in Athens, the Lyceum. He studied animals, plants, the stars and the rules of logical thinking.",
+      "es": "Cuando Alejandro tenía 13 años, su padre Filipo contrató al filósofo Aristóteles para enseñarle. Aristóteles le enseñó ciencia, política y poesía. Más tarde Aristóteles abrió su propia escuela en Atenas, el Liceo. Estudió animales, plantas, estrellas y las reglas del pensamiento lógico."
+    },
+    "meanwhile": {
+      "en": "Around 340 BCE, in India, the scholar Panini wrote a book with nearly 4,000 rules for the Sanskrit language.",
+      "es": "Alrededor del 340 a. C., en la India, el erudito Panini escribió un libro con casi 4.000 reglas para el idioma sánscrito."
+    },
+    "reflection": {
+      "en": "A great teacher can shape a leader. Which teacher changed the way you see the world?",
+      "es": "Un gran maestro puede formar a un líder. ¿Qué maestro cambió tu manera de ver el mundo?"
+    },
+    "vocab": [
+      {
+        "term": "hired",
+        "es": "contrató"
+      },
+      {
+        "term": "teach",
+        "es": "enseñar"
+      },
+      {
+        "term": "plants",
+        "es": "plantas"
+      },
+      {
+        "term": "rules",
+        "es": "reglas"
+      }
+    ]
+  },
+  {
+    "id": "gr-028",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why were there Greek cities in places like southern Italy, France and the Black Sea?",
+      "es": "¿Por qué había ciudades griegas en lugares como el sur de Italia, Francia y el mar Negro?"
+    },
+    "options": [
+      {
+        "en": "Greeks founded colonies there by sea",
+        "es": "Los griegos fundaron colonias allí por mar"
+      },
+      {
+        "en": "Alexander conquered them on land",
+        "es": "Alejandro las conquistó por tierra"
+      },
+      {
+        "en": "Persia gave them as presents",
+        "es": "Persia se las dio como regalo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Greece was a land of mountains with little farmland. Between about 750 and 550 BCE, many Greeks sailed away to start new cities. They founded Syracuse in Sicily, Naples in Italy and Massalia, now Marseille in France. These colonies stayed independent, but kept Greek language and customs.",
+      "es": "Grecia era una tierra de montañas con poca tierra de cultivo. Entre el 750 y el 550 a. C., muchos griegos zarparon para fundar nuevas ciudades. Fundaron Siracusa en Sicilia, Nápoles en Italia y Massalia, hoy Marsella en Francia. Estas colonias eran independientes, pero conservaban el idioma y las costumbres griegas."
+    },
+    "meanwhile": {
+      "en": "Around 600 BCE, King Nebuchadnezzar II made Babylon a great city, famous for the blue Ishtar Gate.",
+      "es": "Alrededor del 600 a. C., el rey Nabucodonosor II convirtió Babilonia en una gran ciudad, famosa por la azul Puerta de Ishtar."
+    },
+    "reflection": {
+      "en": "Many Greeks left home to find a better life. Would you move far away for new opportunities?",
+      "es": "Muchos griegos dejaron su hogar para buscar una vida mejor. ¿Te mudarías lejos por nuevas oportunidades?"
+    },
+    "vocab": [
+      {
+        "term": "colonies",
+        "es": "colonias"
+      },
+      {
+        "term": "farmland",
+        "es": "tierra de cultivo"
+      },
+      {
+        "term": "sailed",
+        "es": "zarparon"
+      },
+      {
+        "term": "customs",
+        "es": "costumbres"
+      }
+    ]
+  },
+  {
+    "id": "gr-029",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Who is often called the \"Father of History\" for writing about the Greek and Persian wars?",
+      "es": "¿A quién se llama a menudo el \"Padre de la Historia\" por escribir sobre las guerras entre griegos y persas?"
+    },
+    "options": [
+      {
+        "en": "Herodotus",
+        "es": "Heródoto"
+      },
+      {
+        "en": "Homer",
+        "es": "Homero"
+      },
+      {
+        "en": "Euclid",
+        "es": "Euclides"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Herodotus lived around 450 BCE. He traveled to Egypt, Persia and many other places, and asked people questions. He wrote what he learned in a long book, the Histories. Some of his stories sound unbelievable, but he tried to separate what he heard from what he believed.",
+      "es": "Heródoto vivió alrededor del 450 a. C. Viajó a Egipto, Persia y muchos otros lugares, y hacía preguntas a la gente. Escribió lo que aprendió en un largo libro, las Historias. Algunas de sus historias suenan increíbles, pero trató de separar lo que había oído de lo que creía."
+    },
+    "meanwhile": {
+      "en": "Around 450 BCE, the Nok people in West Africa made beautiful clay sculptures of people and animals.",
+      "es": "Alrededor del 450 a. C., el pueblo nok, en África Occidental, hacía hermosas esculturas de arcilla de personas y animales."
+    },
+    "reflection": {
+      "en": "Herodotus asked people for their stories. Who in your family could tell you something about the past?",
+      "es": "Heródoto le pedía a la gente que le contara sus historias. ¿Quién de tu familia podría contarte algo del pasado?"
+    },
+    "vocab": [
+      {
+        "term": "traveled",
+        "es": "viajó"
+      },
+      {
+        "term": "wars",
+        "es": "guerras"
+      },
+      {
+        "term": "unbelievable",
+        "es": "increíbles"
+      },
+      {
+        "term": "asked",
+        "es": "hacía preguntas"
+      }
+    ]
+  },
+  {
+    "id": "gr-030",
+    "category": "ancient-greece",
+    "category_label": {
+      "en": "Ancient Greece",
+      "es": "Antigua Grecia"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Diogenes, a famous Greek thinker, chose to live in what?",
+      "es": "Diógenes, un famoso pensador griego, eligió vivir en qué?"
+    },
+    "options": [
+      {
+        "en": "A large clay jar",
+        "es": "Una gran vasija de barro"
+      },
+      {
+        "en": "A cave in the mountains",
+        "es": "Una cueva en la montaña"
+      },
+      {
+        "en": "A small boat",
+        "es": "Un pequeño bote"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Diogenes believed that people need very little to be happy. He owned almost nothing and slept in a big clay jar in Athens. A famous story says that Alexander the Great visited him and offered to give him anything. Diogenes answered, \"Stand out of my sun.\"",
+      "es": "Diógenes creía que las personas necesitan muy poco para ser felices. No tenía casi nada y dormía en una gran vasija de barro en Atenas. Una famosa historia cuenta que Alejandro Magno lo visitó y le ofreció darle lo que quisiera. Diógenes respondió: \"Apártate de mi sol\"."
+    },
+    "meanwhile": {
+      "en": "Around 340 BCE, in China, the thinker Zhuangzi also taught that people should live simply and in harmony with nature.",
+      "es": "Alrededor del 340 a. C., en China, el pensador Zhuangzi también enseñaba que las personas debían vivir con sencillez y en armonía con la naturaleza."
+    },
+    "reflection": {
+      "en": "Diogenes said that he had everything he needed. What do you really need to be happy?",
+      "es": "Diógenes decía que tenía todo lo que necesitaba. ¿Qué necesitas realmente para ser feliz?"
+    },
+    "vocab": [
+      {
+        "term": "jar",
+        "es": "vasija"
+      },
+      {
+        "term": "owned",
+        "es": "tenía"
+      },
+      {
+        "term": "offered",
+        "es": "ofreció"
+      },
+      {
+        "term": "happy",
+        "es": "felices"
+      }
+    ]
   }
 ]

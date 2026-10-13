@@ -3,10 +3,14 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import type { Question, GameState, GamePhase } from '@/types';
 import { buildRound } from '@/lib/questions';
+import { seenSet } from '@/lib/progress';
+import { playCorrect, playWrong } from '@/lib/sounds';
 import { useStreak, type PlayResult } from './useStreak';
 import { useStats } from './useStats';
+import { getProgress, useProgress } from './useProgress';
 
-const QUESTIONS_PER_ROUND = 10;
+/** A lesson: short enough for a 3–5 minute session. */
+export const QUESTIONS_PER_ROUND = 5;
 
 const emptyState = (questions: Question[]): GameState => ({
   questions,
@@ -16,6 +20,13 @@ const emptyState = (questions: Question[]): GameState => ({
   selectedAnswer: null,
   isCorrect: null,
 });
+
+/** What the finished lesson did to the player's progress. */
+export interface LessonSummary {
+  startXp: number;
+  xpAfter: number;
+  goalCompleted: boolean;
+}
 
 /** Options for `useGame`. */
 export interface UseGameOptions {
@@ -50,11 +61,16 @@ export interface UseGameOptions {
  * - `finishGame()` – immediately transitions to `'finished'` (used by the skip button).
  * - `resetGame()` – resets to a fresh shuffled round without unmounting the component.
  * - `playResult` – the streak outcome returned by `registerPlay` once the game finishes; `null` while playing.
+ * - `streak` – the daily streak, already updated once the lesson finishes.
+ * - `lesson` – XP before and after the lesson and whether it completed the daily goal; `null` until it finishes.
  */
 export function useGame(allQuestions: Question[], { storyId, ready = true }: UseGameOptions = {}) {
-  const { registerPlay } = useStreak();
+  const { registerPlay, currentStreak } = useStreak();
   const { recordAnswer, recordSessionEnd } = useStats();
+  const { recordAnswer: recordProgressAnswer, completeLesson } = useProgress();
   const [playResult, setPlayResult] = useState<PlayResult | null>(null);
+  const [lesson, setLesson] = useState<LessonSummary | null>(null);
+  const startXp = useRef(0);
   const hasRegistered = useRef(false);
   const lastRecordedIndex = useRef(-1);
 
@@ -64,7 +80,12 @@ export function useGame(allQuestions: Question[], { storyId, ready = true }: Use
     hasRegistered.current = false;
     lastRecordedIndex.current = -1;
     setPlayResult(null);
-    setState(emptyState(buildRound(allQuestions, QUESTIONS_PER_ROUND, storyId)));
+    setLesson(null);
+    // Questions the player has not answered yet come first, then the ones they missed.
+    const progress = getProgress();
+    const history = progress ? { seen: seenSet(progress), missed: new Set(progress.missed) } : undefined;
+    startXp.current = progress?.xp ?? 0;
+    setState(emptyState(buildRound(allQuestions, QUESTIONS_PER_ROUND, storyId, Math.random, history)));
   }, [allQuestions, storyId]);
 
   // Build the first round on the client once the query string is known.
@@ -91,9 +112,12 @@ export function useGame(allQuestions: Question[], { storyId, ready = true }: Use
           difficulty: q.difficulty,
           isCorrect: state.isCorrect,
         });
+        recordProgressAnswer({ questionId: q.id, categoryId: q.category, correct: state.isCorrect });
+        if (state.isCorrect) playCorrect();
+        else playWrong();
       }
     }
-  }, [state.phase, state.currentIndex, state.isCorrect, state.questions, recordAnswer]);
+  }, [state.phase, state.currentIndex, state.isCorrect, state.questions, recordAnswer, recordProgressAnswer]);
 
   // Register streak and session stats exactly once when the game finishes.
   useEffect(() => {
@@ -101,8 +125,10 @@ export function useGame(allQuestions: Question[], { storyId, ready = true }: Use
       hasRegistered.current = true;
       setPlayResult(registerPlay());
       recordSessionEnd({ score: state.score, total: state.questions.length });
+      const outcome = completeLesson({ score: state.score, total: state.questions.length });
+      setLesson({ startXp: startXp.current, xpAfter: outcome.xpAfter, goalCompleted: outcome.goalCompleted });
     }
-  }, [state.phase, registerPlay, recordSessionEnd, state.score, state.questions.length]);
+  }, [state.phase, registerPlay, recordSessionEnd, completeLesson, state.score, state.questions.length]);
 
   /**
    * Processes the player's answer selection.
@@ -170,5 +196,7 @@ export function useGame(allQuestions: Question[], { storyId, ready = true }: Use
     finishGame,
     resetGame,
     playResult,
+    lesson,
+    streak: currentStreak,
   };
 }

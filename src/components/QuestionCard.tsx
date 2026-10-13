@@ -2,9 +2,10 @@
 
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import type { Question } from '@/types';
+import type { Question, VocabEntry } from '@/types';
 import { getCategoryImage } from '@/data/catalog';
 import { SpanishText, SpanishToggle } from '@/components/SpanishToggle';
+import GlossedText from '@/components/GlossedText';
 
 /**
  * Props for `QuestionCard`.
@@ -12,12 +13,14 @@ import { SpanishText, SpanishToggle } from '@/components/SpanishToggle';
  * @property question - The question data to display.
  * @property selectedAnswer - Index of the option the user has chosen, or `null` before answering.
  * @property onAnswer - Called with the chosen option index. Not called once an answer is locked in.
+ * @property onWordTap - Called when the player taps a glossary word in the question.
  * @property compact - Smaller text and no background image (used by the blog embed).
  */
 interface Props {
   question: Question;
   selectedAnswer: number | null;
   onAnswer: (index: number) => void;
+  onWordTap?: (entry: VocabEntry) => void;
   compact?: boolean;
 }
 
@@ -36,7 +39,7 @@ const DIFFICULTY_STYLES: Record<Question['difficulty'], string> = {
  * After answering: the correct option turns green, a wrong selection turns red,
  * the rest fade out, and a feedback banner confirms the result.
  */
-export default function QuestionCard({ question, selectedAnswer, onAnswer, compact = false }: Props) {
+export default function QuestionCard({ question, selectedAnswer, onAnswer, onWordTap, compact = false }: Props) {
   const { t } = useTranslation('common');
   const [showSpanish, setShowSpanish] = useState(false);
   const answered = selectedAnswer !== null;
@@ -74,9 +77,12 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer, compa
 
         {/* Question text */}
         <div className="flex flex-col gap-2">
-          <p lang="en" className={`${compact ? 'text-lg' : 'text-xl sm:text-2xl'} font-medium text-chronos-text leading-snug`}>
-            {question.question.en}
-          </p>
+          <GlossedText
+            text={question.question.en}
+            vocab={question.vocab}
+            onWordTap={onWordTap}
+            className={`${compact ? 'text-lg' : 'text-xl sm:text-2xl'} font-medium text-chronos-text leading-snug`}
+          />
           {showSpanish && <SpanishText text={question.question.es} className="text-base" />}
         </div>
 
@@ -94,10 +100,14 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer, compa
             }
 
             return (
-              <button
+              // A div, not a button: once answered, glossary words inside the option are tappable buttons.
+              <div
                 key={index}
+                role="button"
+                tabIndex={answered ? -1 : 0}
+                aria-disabled={answered}
                 onClick={() => !answered && onAnswer(index)}
-                disabled={answered}
+                onKeyDown={e => { if (!answered && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); onAnswer(index); } }}
                 className={`flex items-center gap-4 w-full rounded-xl border ${compact ? 'px-4 py-3' : 'px-5 py-4'} text-left transition-all duration-200 ${stateClass} ${
                   !answered ? 'cursor-pointer active:scale-[0.98]' : 'cursor-default'
                 }`}
@@ -114,14 +124,18 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer, compa
                   {OPTION_LABELS[index]}
                 </span>
 
-                <span className="flex flex-col gap-1">
-                  <span lang="en" className="text-base leading-snug">{option.en}</span>
+                <div className="flex flex-col gap-1">
+                  {answered ? (
+                    <GlossedText text={option.en} vocab={question.vocab} onWordTap={onWordTap} className="text-base leading-snug" />
+                  ) : (
+                    <span lang="en" className="text-base leading-snug">{option.en}</span>
+                  )}
                   {showSpanish && <SpanishText text={option.es} className="text-sm not-italic" />}
-                </span>
+                </div>
 
                 {answered && isCorrect && <span className="ml-auto text-emerald-400 text-lg">✓</span>}
                 {answered && isSelected && !isCorrect && <span className="ml-auto text-red-400 text-lg">✗</span>}
-              </button>
+              </div>
             );
           })}
         </div>

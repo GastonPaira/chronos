@@ -2,271 +2,1771 @@
   {
     "id": "rf-001",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "In what year did Martin Luther publish his 95 Theses, the document traditionally marking the beginning of the Protestant Reformation?",
-      "es": "¿En qué año publicó Martín Lutero sus 95 Tesis, el documento que marca tradicionalmente el inicio de la Reforma Protestante?"
+      "en": "In 1517, Martin Luther wrote a famous list of 95 arguments against what practice of the Church?",
+      "es": "En 1517, Martín Lutero escribió una famosa lista de 95 argumentos contra qué práctica de la Iglesia?"
     },
     "options": [
-      { "en": "1517", "es": "1517" },
-      { "en": "1521", "es": "1521" }
+      {
+        "en": "Selling indulgences",
+        "es": "La venta de indulgencias"
+      },
+      {
+        "en": "Singing in Latin",
+        "es": "Cantar en latín"
+      },
+      {
+        "en": "Building cathedrals",
+        "es": "Construir catedrales"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Luther posted (or sent) his 95 Theses on October 31, 1517, primarily challenging the Catholic Church's sale of indulgences — payments believed to reduce time in purgatory. Copies spread rapidly across Germany and Europe thanks to the printing press. By 1521, Luther had been excommunicated and defended his views before the Holy Roman Emperor at the Diet of Worms, declaring he could not recant against scripture and conscience.",
-      "es": "Lutero publicó (o envió) sus 95 Tesis el 31 de octubre de 1517, desafiando principalmente la venta de indulgencias por parte de la Iglesia católica: pagos que se creía reducían el tiempo en el purgatorio. Las copias se difundieron rápidamente por Alemania y Europa gracias a la imprenta. Para 1521, Lutero había sido excomulgado y defendió sus opiniones ante el Emperador del Sacro Imperio Romano en la Dieta de Worms, declarando que no podía retractarse contra la Escritura y su conciencia."
+      "en": "An indulgence was a paper that said a person’s sins were forgiven, and the Church sold them to raise money. Luther, a German monk and professor, thought this was wrong. On October 31, 1517, he wrote his 95 Theses, a list of arguments. Thanks to the printing press, copies spread across Germany in only a few weeks.",
+      "es": "Una indulgencia era un papel que decía que los pecados de una persona estaban perdonados, y la Iglesia las vendía para reunir dinero. Lutero, un monje y profesor alemán, pensaba que eso estaba mal. El 31 de octubre de 1517 escribió sus 95 Tesis, una lista de argumentos. Gracias a la imprenta, las copias se difundieron por Alemania en solo unas semanas."
     },
     "meanwhile": {
-      "en": "In 1517, the Ottoman Sultan Selim I was completing his conquest of Egypt and establishing control over the holy cities of Mecca and Medina, fundamentally reshaping Islamic geopolitics at the same moment Luther was reshaping Christian Europe.",
-      "es": "En 1517, el sultán otomano Selim I completaba su conquista de Egipto y establecía el control sobre las ciudades santas de La Meca y Medina, reconfigurando fundamentalmente la geopolítica islámica en el mismo momento en que Lutero reconfiguraba la Europa cristiana."
+      "en": "In 1517, the Ottoman sultan Selim I conquered Egypt and became the protector of the holy cities of Mecca and Medina.",
+      "es": "En 1517, el sultán otomano Selim I conquistó Egipto y se convirtió en protector de las ciudades santas de La Meca y Medina."
     },
     "reflection": {
-      "en": "Luther's 95 Theses spread across Europe within weeks thanks to the printing press — a technology less than a century old. How does the speed at which ideas spread shape the impact and permanence of a revolutionary message?",
-      "es": "Las 95 Tesis de Lutero se difundieron por Europa en pocas semanas gracias a la imprenta, una tecnología de menos de un siglo. ¿Cómo determina la velocidad a la que se difunden las ideas el impacto y la permanencia de un mensaje revolucionario?"
-    }
+      "en": "Luther’s ideas spread quickly because of printing. How do ideas travel faster today?",
+      "es": "Las ideas de Lutero se difundieron rápido gracias a la imprenta. ¿Cómo viajan hoy más rápido las ideas?"
+    },
+    "vocab": [
+      {
+        "term": "indulgence",
+        "es": "indulgencia"
+      },
+      {
+        "term": "sins",
+        "es": "pecados"
+      },
+      {
+        "term": "monk",
+        "es": "monje"
+      },
+      {
+        "term": "printing press",
+        "es": "imprenta"
+      }
+    ]
   },
   {
     "id": "rf-002",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "John Calvin established a model of strict theocratic governance in which Swiss city, making it a center of Reformed Protestantism?",
-      "es": "Juan Calvino estableció un modelo de estricta gobernanza teocrática en qué ciudad suiza, convirtiéndola en un centro del protestantismo reformado?"
+      "en": "Which Swiss city did John Calvin turn into a model Protestant city?",
+      "es": "¿Qué ciudad suiza convirtió Juan Calvino en una ciudad protestante modelo?"
     },
     "options": [
-      { "en": "Geneva", "es": "Ginebra" },
-      { "en": "Zurich", "es": "Zúrich" }
+      {
+        "en": "Geneva",
+        "es": "Ginebra"
+      },
+      {
+        "en": "Zurich",
+        "es": "Zúrich"
+      },
+      {
+        "en": "Bern",
+        "es": "Berna"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Calvin settled in Geneva in 1541 and shaped it into a model Protestant city where religious doctrine governed daily life — from church attendance to dress and entertainment. His Institutes of the Christian Religion (1536) systematized Reformed theology, and Geneva became a training ground for Protestant ministers who spread Calvinism to France, Scotland, the Netherlands, and beyond. Zurich had been Zwingli's center of reform, a distinct but related movement.",
-      "es": "Calvino se estableció en Ginebra en 1541 y la transformó en una ciudad protestante modelo donde la doctrina religiosa gobernaba la vida cotidiana: desde la asistencia a la iglesia hasta la vestimenta y el entretenimiento. Su Institución de la religión cristiana (1536) sistematizó la teología reformada, y Ginebra se convirtió en un semillero de ministros protestantes que difundieron el calvinismo a Francia, Escocia, los Países Bajos y más allá. Zúrich había sido el centro de reforma de Zwinglio, un movimiento distinto pero relacionado."
+      "en": "Calvin came to Geneva in 1536 and ruled the religious life of the city. There were strict rules about church, clothes and entertainment. He also wrote a famous book, the Institutes of the Christian Religion. Geneva became a school for pastors, who then carried Calvin’s ideas to France, Scotland and the Netherlands.",
+      "es": "Calvino llegó a Ginebra en 1536 y dirigió la vida religiosa de la ciudad. Había reglas estrictas sobre la iglesia, la ropa y el entretenimiento. También escribió un famoso libro, la Institución de la religión cristiana. Ginebra se convirtió en una escuela para pastores, que luego llevaron las ideas de Calvino a Francia, Escocia y los Países Bajos."
     },
     "meanwhile": {
-      "en": "In the 1540s, the Mughal Emperor Humayun was reconquering India after his exile — a parallel story of religious authority and political power unfolding in a very different part of the world, where rulers also legitimized their rule through religious frameworks.",
-      "es": "En la década de 1540, el emperador mogol Humayun reconquistaba India tras su exilio: una historia paralela de autoridad religiosa y poder político desarrollándose en una parte muy diferente del mundo, donde los gobernantes también legitimaban su poder a través de marcos religiosos."
+      "en": "In the 1540s, the Mughal emperor Humayun lost his throne in India. He later won it back with Persian help.",
+      "es": "En la década de 1540, el emperador mogol Humayún perdió su trono en la India. Más tarde lo recuperó con ayuda persa."
     },
     "reflection": {
-      "en": "Geneva under Calvin was often described as a model Christian city where religious law governed daily life. What are the risks and potential benefits of governments founded explicitly on religious principles?",
-      "es": "La Ginebra de Calvino era a menudo descrita como una ciudad cristiana modelo donde la ley religiosa gobernaba la vida cotidiana. ¿Cuáles son los riesgos y los posibles beneficios de los gobiernos fundados explícitamente en principios religiosos?"
-    }
+      "en": "Geneva had strict rules to be a \"perfect\" Christian city. What are the risks of making everyone follow the same rules?",
+      "es": "Ginebra tenía reglas estrictas para ser una ciudad cristiana \"perfecta\". ¿Cuáles son los riesgos de hacer que todos sigan las mismas reglas?"
+    },
+    "vocab": [
+      {
+        "term": "strict",
+        "es": "estrictas"
+      },
+      {
+        "term": "pastors",
+        "es": "pastores"
+      },
+      {
+        "term": "rules",
+        "es": "reglas"
+      },
+      {
+        "term": "entertainment",
+        "es": "entretenimiento"
+      }
+    ]
   },
   {
     "id": "rf-003",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was the primary reason Henry VIII broke with the Catholic Church and declared himself Supreme Head of the Church of England in 1534?",
-      "es": "¿Cuál fue la razón principal por la que Enrique VIII rompió con la Iglesia Católica y se declaró Cabeza Suprema de la Iglesia de Inglaterra en 1534?"
+      "en": "Why did King Henry VIII of England break with the Catholic Church in the 1530s?",
+      "es": "¿Por qué rompió el rey Enrique VIII de Inglaterra con la Iglesia católica en la década de 1530?"
     },
     "options": [
-      { "en": "Pope Clement VII refused to annul his marriage to Catherine of Aragon, blocking his remarriage", "es": "El papa Clemente VII se negó a anular su matrimonio con Catalina de Aragón, bloqueando su nuevo casamiento" },
-      { "en": "Henry had become convinced by Luther's theological arguments and sought to reform English church doctrine", "es": "Enrique se había convencido con los argumentos teológicos de Lutero y buscaba reformar la doctrina eclesiástica inglesa" }
+      {
+        "en": "The Pope would not cancel his marriage",
+        "es": "El papa no quiso anular su matrimonio"
+      },
+      {
+        "en": "He wanted to join the Lutherans",
+        "es": "Quería unirse a los luteranos"
+      },
+      {
+        "en": "The Church asked him for more taxes",
+        "es": "La Iglesia le pidió más impuestos"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Henry VIII wanted to annul his marriage to Catherine of Aragon because she had not produced a male heir, and he wished to marry Anne Boleyn. Pope Clement VII, under political pressure from Catherine's nephew Emperor Charles V, refused to grant the annulment. Henry responded by passing the Act of Supremacy (1534), making himself the supreme head of a new Church of England — a break driven primarily by dynastic and political motives, not theological conviction.",
-      "es": "Enrique VIII quería anular su matrimonio con Catalina de Aragón porque ella no le había dado un heredero varón, y deseaba casarse con Ana Bolena. El papa Clemente VII, bajo presión política del sobrino de Catalina, el Emperador Carlos V, se negó a conceder la anulación. Enrique respondió aprobando el Acta de Supremacía (1534), convirtiéndose en cabeza suprema de una nueva Iglesia de Inglaterra: una ruptura impulsada principalmente por motivos dinásticos y políticos, no por convicción teológica."
+      "en": "Henry’s wife, Catherine of Aragon, had no son, and Henry wanted a male heir. He also wanted to marry Anne Boleyn. The Pope refused to annul the marriage. In 1534, Parliament passed the Act of Supremacy, which made Henry the head of the Church of England. The break began as a personal and political problem, but it changed the religion of a whole country.",
+      "es": "La esposa de Enrique, Catalina de Aragón, no tenía un hijo varón, y Enrique quería un heredero. También quería casarse con Ana Bolena. El papa se negó a anular el matrimonio. En 1534, el Parlamento aprobó el Acta de Supremacía, que hizo a Enrique cabeza de la Iglesia de Inglaterra. La ruptura comenzó como un problema personal y político, pero cambió la religión de todo un país."
     },
     "meanwhile": {
-      "en": "In the 1530s, the Ottoman Empire under Suleiman the Magnificent signed the Franco-Ottoman Alliance against the Habsburgs — demonstrating that religious and political alliances were deeply intertwined across all of Europe and the Middle East, with Catholic France allying with a Muslim empire against a Catholic emperor.",
-      "es": "En la década de 1530, el Imperio Otomano bajo Solimán el Magnífico firmó la alianza franco-otomana contra los Habsburgo: una demostración de que las alianzas religiosas y políticas estaban profundamente entrelazadas en toda Europa y Oriente Medio, con la Francia católica aliándose con un imperio musulmán contra un emperador católico."
+      "en": "In the 1530s, the Ottoman sultan Suleiman allied with Catholic France against the Habsburgs, a surprising friendship.",
+      "es": "En la década de 1530, el sultán otomano Solimán se alió con la Francia católica contra los Habsburgo, una sorprendente amistad."
     },
     "reflection": {
-      "en": "Henry VIII's break with Rome began for personal political reasons but had profound religious consequences for millions of people over generations. Can structural religious change driven primarily by personal ambition be considered legitimate?",
-      "es": "La ruptura de Enrique VIII con Roma comenzó por razones políticas personales, pero tuvo profundas consecuencias religiosas para millones de personas a lo largo de generaciones. ¿Puede considerarse legítimo un cambio religioso estructural impulsado principalmente por la ambición personal?"
-    }
+      "en": "A personal problem led to a change for millions of people. When have you seen a small decision change many lives?",
+      "es": "Un problema personal llevó a un cambio para millones de personas. ¿Cuándo has visto que una pequeña decisión cambió muchas vidas?"
+    },
+    "vocab": [
+      {
+        "term": "heir",
+        "es": "heredero"
+      },
+      {
+        "term": "refused",
+        "es": "se negó"
+      },
+      {
+        "term": "annul",
+        "es": "anular"
+      },
+      {
+        "term": "Parliament",
+        "es": "Parlamento"
+      }
+    ]
   },
   {
     "id": "rf-004",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was the primary purpose of the Council of Trent (1545–1563)?",
-      "es": "¿Cuál fue el objetivo principal del Concilio de Trento (1545-1563)?"
+      "en": "What was the Council of Trent, which met between 1545 and 1563?",
+      "es": "¿Qué fue el Concilio de Trento, que se reunió entre 1545 y 1563?"
     },
     "options": [
-      { "en": "To reform the Catholic Church from within and formulate a clear response to Protestant theological challenges", "es": "Reformar la Iglesia Católica desde adentro y formular una respuesta clara a los desafíos teológicos protestantes" },
-      { "en": "To organize a new military Crusade against the Ottoman Empire and recapture Jerusalem", "es": "Organizar una nueva Cruzada militar contra el Imperio Otomano y recuperar Jerusalén" }
+      {
+        "en": "A Catholic meeting to reform the Church and answer Protestants",
+        "es": "Una reunión católica para reformar la Iglesia y responder a los protestantes"
+      },
+      {
+        "en": "A Protestant meeting to write a new Bible",
+        "es": "Una reunión protestante para escribir una nueva Biblia"
+      },
+      {
+        "en": "A peace conference between the kings of Europe",
+        "es": "Una conferencia de paz entre los reyes de Europa"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Council of Trent met in three phases over nearly two decades, producing the most significant Catholic reform since the early Church. It clarified contested doctrines (tradition alongside scripture, transubstantiation, the seven sacraments), eliminated many corrupt practices like the sale of indulgences, strengthened clerical education through seminaries, and hardened the boundary between Catholic and Protestant theology. It defined Catholicism's shape for the next four centuries.",
-      "es": "El Concilio de Trento se reunió en tres fases a lo largo de casi dos décadas, produciendo la reforma católica más significativa desde la Iglesia primitiva. Clarificó doctrinas controvertidas (la tradición junto a las Escrituras, la transubstanciación, los siete sacramentos), eliminó muchas prácticas corruptas como la venta de indulgencias, fortaleció la formación clerical mediante seminarios y endureció la frontera entre la teología católica y la protestante. Definió la forma del catolicismo durante los cuatro siglos siguientes."
+      "en": "The Catholic Church needed to respond to Luther and the Protestants. Its leaders met in the Italian city of Trent, on and off, for almost twenty years. They stopped the sale of indulgences, created schools to train priests and explained Catholic teaching more clearly. These changes are called the Counter-Reformation.",
+      "es": "La Iglesia católica necesitaba responder a Lutero y a los protestantes. Sus líderes se reunieron en la ciudad italiana de Trento, de forma intermitente, durante casi veinte años. Detuvieron la venta de indulgencias, crearon escuelas para formar sacerdotes y explicaron con más claridad la enseñanza católica. Estos cambios se llaman Contrarreforma."
     },
     "meanwhile": {
-      "en": "During the same decades, the Mughal Emperor Akbar the Great was conducting interfaith dialogues in his court, inviting scholars from Islam, Hinduism, Christianity, and Zoroastrianism — a starkly contrasting approach to religious diversity happening simultaneously in South Asia.",
-      "es": "Durante las mismas décadas, el emperador mogol Akbar el Grande realizaba diálogos interreligiosos en su corte, invitando a eruditos del islam, el hinduismo, el cristianismo y el zoroastrismo: un enfoque radicalmente diferente ante la diversidad religiosa que ocurría simultáneamente en el sur de Asia."
+      "en": "In the second half of the 1500s, the Mughal emperor Akbar invited scholars of many religions to debate in his court.",
+      "es": "En la segunda mitad del siglo XVI, el emperador mogol Akbar invitó a eruditos de muchas religiones a debatir en su corte."
     },
     "reflection": {
-      "en": "The Council of Trent reformed many genuine abuses within Catholicism but also hardened doctrinal lines that made reconciliation with Protestants nearly impossible. Is it possible to reform an institution from within while simultaneously defending it against external critics?",
-      "es": "El Concilio de Trento reformó muchos abusos genuinos dentro del catolicismo, pero también endureció las líneas doctrinales que hacían casi imposible la reconciliación con los protestantes. ¿Es posible reformar una institución desde adentro mientras simultáneamente se la defiende frente a los críticos externos?"
-    }
+      "en": "The Church changed after hearing strong criticism. Is it easy for you to change after somebody criticizes you?",
+      "es": "La Iglesia cambió después de escuchar fuertes críticas. ¿Te resulta fácil cambiar después de que alguien te critica?"
+    },
+    "vocab": [
+      {
+        "term": "respond",
+        "es": "responder"
+      },
+      {
+        "term": "stopped",
+        "es": "detuvieron"
+      },
+      {
+        "term": "priests",
+        "es": "sacerdotes"
+      },
+      {
+        "term": "teaching",
+        "es": "enseñanza"
+      }
+    ]
   },
   {
     "id": "rf-005",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
-    "difficulty": "medium",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "How did the Society of Jesus (Jesuits), founded by Ignatius of Loyola in 1540, primarily advance the Catholic Counter-Reformation?",
-      "es": "¿Cómo promovió principalmente la Compañía de Jesús (jesuitas), fundada por Ignacio de Loyola en 1540, la Contrarreforma Católica?"
+      "en": "How did the Jesuits, founded by Ignatius of Loyola in 1540, mainly help the Catholic Church?",
+      "es": "¿Cómo ayudaron principalmente los jesuitas, fundados por Ignacio de Loyola en 1540, a la Iglesia católica?"
     },
     "options": [
-      { "en": "Through elite education, overseas missions, and direct service as confessors and advisors to Catholic rulers", "es": "A través de la educación de élite, misiones en el extranjero y el servicio directo como confesores y asesores de gobernantes católicos" },
-      { "en": "Through military campaigns alongside the Inquisition to forcibly suppress Protestant communities", "es": "Mediante campañas militares junto a la Inquisición para suprimir por la fuerza a las comunidades protestantes" }
+      {
+        "en": "By founding schools and sending missionaries abroad",
+        "es": "Fundando escuelas y enviando misioneros al extranjero"
+      },
+      {
+        "en": "By leading armies against the Protestants",
+        "es": "Dirigiendo ejércitos contra los protestantes"
+      },
+      {
+        "en": "By translating the Bible into English",
+        "es": "Traduciendo la Biblia al inglés"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Jesuits operated through persuasion and intellectual influence rather than force. They founded universities and schools across Europe, Asia, and the Americas that became centers of learning and Catholic formation. Jesuit missionaries reached Japan, China, India, and the Americas, often adapting to local cultures in a practice called 'inculturation.' As confessors to Catholic kings, they wielded enormous political influence. Their educational network helped reverse Protestant gains in Poland, the German states, and elsewhere.",
-      "es": "Los jesuitas operaban a través de la persuasión y la influencia intelectual en lugar de la fuerza. Fundaron universidades y escuelas en Europa, Asia y las Américas que se convirtieron en centros de aprendizaje y formación católica. Los misioneros jesuitas llegaron a Japón, China, India y las Américas, adaptándose a menudo a las culturas locales en una práctica llamada 'inculturación'. Como confesores de los reyes católicos, ejercieron una enorme influencia política. Su red educativa ayudó a revertir los avances protestantes en Polonia, los estados alemanes y otros lugares."
+      "en": "Ignatius of Loyola was a Spanish soldier who became a priest. He and a few friends founded the Society of Jesus, or the Jesuits. They were well-educated and obedient to the Pope. They opened excellent schools and universities in Europe. Jesuit missionaries also traveled to India, Japan, China and the Americas, where they learned local languages and customs.",
+      "es": "Ignacio de Loyola era un soldado español que se hizo sacerdote. Él y unos pocos amigos fundaron la Compañía de Jesús, o los jesuitas. Eran muy instruidos y obedientes al papa. Abrieron excelentes escuelas y universidades en Europa. Los misioneros jesuitas también viajaron a la India, Japón, China y América, donde aprendieron los idiomas y las costumbres locales."
     },
     "meanwhile": {
-      "en": "As Jesuit missionaries reached Japan in the 1540s–1550s, they encountered a sophisticated feudal society with its own rich spiritual traditions. The Japanese initially tolerated Christian missionaries before the Tokugawa shogunate violently suppressed Christianity in the 17th century — illustrating the complex politics of foreign religious influence.",
-      "es": "Cuando los misioneros jesuitas llegaron a Japón en las décadas de 1540-1550, encontraron una sofisticada sociedad feudal con sus propias ricas tradiciones espirituales. Los japoneses inicialmente toleraron a los misioneros cristianos antes de que el shogunato Tokugawa suprimiera violentamente el cristianismo en el siglo XVII: una ilustración de la compleja política de la influencia religiosa extranjera."
+      "en": "In the 1540s, Portuguese traders reached Japan. The first Jesuit missionary, Francis Xavier, arrived there in 1549.",
+      "es": "En la década de 1540, los comerciantes portugueses llegaron a Japón. El primer misionero jesuita, Francisco Javier, llegó allí en 1549."
     },
     "reflection": {
-      "en": "The Jesuits were pioneers in adapting Christianity to local cultures rather than imposing European forms of worship. Where is the line between respectful adaptation of a belief system to a new context and compromising its core principles?",
-      "es": "Los jesuitas fueron pioneros en adaptar el cristianismo a las culturas locales en lugar de imponer formas europeas de culto. ¿Dónde está la línea entre la adaptación respetuosa de un sistema de creencias a un nuevo contexto y el compromiso de sus principios fundamentales?"
-    }
+      "en": "The Jesuits learned the languages of the people they wanted to teach. Why does speaking someone’s language build trust?",
+      "es": "Los jesuitas aprendían los idiomas de la gente a la que querían enseñar. ¿Por qué hablar el idioma de alguien genera confianza?"
+    },
+    "vocab": [
+      {
+        "term": "founded",
+        "es": "fundaron"
+      },
+      {
+        "term": "obedient",
+        "es": "obedientes"
+      },
+      {
+        "term": "missionaries",
+        "es": "misioneros"
+      },
+      {
+        "term": "customs",
+        "es": "costumbres"
+      }
+    ]
   },
   {
     "id": "rf-006",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Thirty Years' War (1618–1648) began primarily as what type of conflict before evolving into a broader European power struggle?",
-      "es": "La Guerra de los Treinta Años (1618-1648) comenzó principalmente como qué tipo de conflicto antes de evolucionar hacia una disputa de poder europea más amplia?"
+      "en": "The Thirty Years’ War (1618–1648) began mainly as a conflict between which groups?",
+      "es": "La Guerra de los Treinta Años (1618–1648) comenzó principalmente como un conflicto entre qué grupos?"
     },
     "options": [
-      { "en": "A religious conflict between Protestant and Catholic factions within the Holy Roman Empire", "es": "Un conflicto religioso entre facciones protestantes y católicas dentro del Sacro Imperio Romano Germánico" },
-      { "en": "A dynastic war between France and the Habsburg family over succession to the Spanish throne", "es": "Una guerra dinástica entre Francia y la familia Habsburgo por la sucesión al trono español" }
+      {
+        "en": "Protestants and Catholics in the Holy Roman Empire",
+        "es": "Protestantes y católicos en el Sacro Imperio"
+      },
+      {
+        "en": "England and Spain, fighting at sea",
+        "es": "Inglaterra y España, luchando en el mar"
+      },
+      {
+        "en": "The Ottomans and the Persians in the east",
+        "es": "Los otomanos y los persas en el este"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The war began with the Defenestration of Prague in 1618, when Protestant Bohemian nobles rebelled against the Catholic Habsburg Emperor. It spread across the Holy Roman Empire, drawing in Sweden, France, Spain, and Denmark. By its end, what had begun as a religious conflict had become a contest for European hegemony — Catholic France allied with Protestant Sweden against the Catholic Habsburgs. The war killed an estimated 25–40% of the German-speaking population through combat, famine, and disease.",
-      "es": "La guerra comenzó con la Defenestración de Praga en 1618, cuando nobles protestantes bohemios se rebelaron contra el Emperador Habsburgo católico. Se extendió por el Sacro Imperio Romano Germánico, atrayendo a Suecia, Francia, España y Dinamarca. Al final, lo que había comenzado como un conflicto religioso se había convertido en una disputa por la hegemonía europea: la Francia católica se alió con la Suecia protestante contra los Habsburgo católicos. La guerra mató a un estimado del 25-40% de la población germanoparlante mediante el combate, el hambre y las enfermedades."
+      "en": "The war began in 1618 in Bohemia, when Protestant nobles rebelled against their Catholic Habsburg ruler. Soon, many countries, including Sweden, France, Denmark and Spain, joined the fight. It became a struggle for power more than for religion: Catholic France supported Protestant Sweden against the Catholic Habsburgs. Perhaps one in three people in the German lands died, mostly from hunger and disease.",
+      "es": "La guerra comenzó en 1618 en Bohemia, cuando los nobles protestantes se rebelaron contra su gobernante católico Habsburgo. Pronto muchos países, entre ellos Suecia, Francia, Dinamarca y España, se unieron a la lucha. Se convirtió en una lucha por el poder más que por la religión: la Francia católica apoyó a la Suecia protestante contra los Habsburgo católicos. Quizás uno de cada tres habitantes de las tierras alemanas murió, sobre todo de hambre y enfermedades."
     },
     "meanwhile": {
-      "en": "While Europe was consumed by the Thirty Years' War (1618–1648), the Qing Dynasty was conquering Ming China — reordering the world's most populous civilization through a conquest driven by political and military factors rather than religious ones, on an equally enormous scale.",
-      "es": "Mientras Europa estaba consumida por la Guerra de los Treinta Años (1618-1648), la dinastía Qing conquistaba la China Ming: reordenando la civilización más populosa del mundo mediante una conquista impulsada por factores políticos y militares en lugar de religiosos, a una escala igualmente enorme."
+      "en": "In the 1640s, the Ming dynasty fell in China, and the Manchu people founded the Qing dynasty.",
+      "es": "En la década de 1640, la dinastía Ming cayó en China y el pueblo manchú fundó la dinastía Qing."
     },
     "reflection": {
-      "en": "The Thirty Years' War began as a religious conflict and ended as a political one, with Catholic France allying with Protestant Sweden against the Catholic Habsburgs. What does this tell us about the relationship between religious conviction and political interest in warfare?",
-      "es": "La Guerra de los Treinta Años comenzó como un conflicto religioso y terminó como uno político, con la Francia católica aliándose con la Suecia protestante contra los Habsburgo católicos. ¿Qué nos dice esto sobre la relación entre la convicción religiosa y el interés político en la guerra?"
-    }
+      "en": "A war about religion became a war about power. When has an argument about one thing turned out to be about something else?",
+      "es": "Una guerra por la religión se convirtió en una guerra por el poder. ¿Cuándo una discusión sobre una cosa resultó ser sobre otra?"
+    },
+    "vocab": [
+      {
+        "term": "rebelled",
+        "es": "se rebelaron"
+      },
+      {
+        "term": "Habsburg",
+        "es": "Habsburgo"
+      },
+      {
+        "term": "struggle",
+        "es": "lucha"
+      },
+      {
+        "term": "disease",
+        "es": "enfermedades"
+      }
+    ]
   },
   {
     "id": "rf-007",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What key principle did the Peace of Augsburg (1555) establish for resolving religious conflict in the Holy Roman Empire?",
-      "es": "¿Qué principio clave estableció la Paz de Augsburgo (1555) para resolver el conflicto religioso en el Sacro Imperio Romano Germánico?"
+      "en": "The Peace of Augsburg (1555) said that people in a German state had to follow what religion?",
+      "es": "La Paz de Augsburgo (1555) decía que la gente de un Estado alemán debía seguir qué religión?"
     },
     "options": [
-      { "en": "'Cuius regio, eius religio' — the ruler of each territory determined its official religion", "es": "'Cuius regio, eius religio': el gobernante de cada territorio determinaba su religión oficial" },
-      { "en": "Full individual freedom of religion for all inhabitants regardless of the religion of their ruler", "es": "Plena libertad religiosa individual para todos los habitantes, independientemente de la religión de su gobernante" }
+      {
+        "en": "The religion of their ruler",
+        "es": "La religión de su gobernante"
+      },
+      {
+        "en": "The religion of their parents",
+        "es": "La religión de sus padres"
+      },
+      {
+        "en": "Whichever religion they chose",
+        "es": "La que ellos eligieran"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Peace of Augsburg ended the first phase of religious conflict in the Holy Roman Empire by allowing each prince to choose between Lutheranism and Catholicism for their territory. Subjects who disagreed could emigrate. The agreement did not extend to Calvinists or other Protestant groups. While it established a form of coexistence between political units, it denied individual religious freedom and merely postponed the larger conflicts that exploded in the Thirty Years' War sixty years later.",
-      "es": "La Paz de Augsburgo terminó la primera fase del conflicto religioso en el Sacro Imperio Romano Germánico al permitir que cada príncipe eligiera entre el luteranismo y el catolicismo para su territorio. Los súbditos que no estuvieran de acuerdo podían emigrar. El acuerdo no se extendía a los calvinistas ni a otros grupos protestantes. Si bien estableció una forma de coexistencia entre unidades políticas, negó la libertad religiosa individual y simplemente pospuso los conflictos mayores que estallarían en la Guerra de los Treinta Años sesenta años después."
+      "en": "After years of fighting, the German princes agreed on a rule: \"whose region, his religion\". Each prince could choose between Catholicism and Lutheranism for his lands. People who disagreed could move to another state. The peace stopped the fighting for a while, but it did not give freedom of religion to individuals, and it did not include Calvinists.",
+      "es": "Tras años de lucha, los príncipes alemanes acordaron una regla: \"de quien es la región, es la religión\". Cada príncipe podía elegir entre el catolicismo y el luteranismo para sus tierras. Quienes no estaban de acuerdo podían mudarse a otro Estado. La paz detuvo los combates por un tiempo, pero no dio libertad de religión a las personas y no incluía a los calvinistas."
     },
     "meanwhile": {
-      "en": "In 1555, the Ottoman Empire under Suleiman the Magnificent signed the Treaty of Amasya with Safavid Persia, stabilizing the border between Sunni and Shia Muslim powers — a parallel moment of negotiated coexistence between rival religious factions on the other side of the Mediterranean.",
-      "es": "En 1555, el Imperio Otomano bajo Solimán el Magnífico firmó el Tratado de Amasya con la Persia safávida, estabilizando la frontera entre las potencias musulmanas sunitas y chiitas: un momento paralelo de coexistencia negociada entre facciones religiosas rivales al otro lado del Mediterráneo."
+      "en": "In 1555, the Ottomans and the Safavid Persians signed the Peace of Amasya, which ended their war.",
+      "es": "En 1555, los otomanos y los persas safávidas firmaron la Paz de Amasya, que puso fin a su guerra."
     },
     "reflection": {
-      "en": "The Peace of Augsburg gave rulers the right to choose their territory's religion but denied that same choice to individual subjects. Is it possible to achieve political coexistence between religious communities without suppressing individual religious freedom?",
-      "es": "La Paz de Augsburgo otorgó a los gobernantes el derecho a elegir la religión de su territorio, pero negó esa misma elección a los súbditos individuales. ¿Es posible lograr la coexistencia política entre comunidades religiosas sin suprimir la libertad religiosa individual?"
-    }
+      "en": "People had to choose between their religion and their home. What would be harder for you: leaving home or changing a belief?",
+      "es": "La gente tenía que elegir entre su religión y su hogar. ¿Qué te sería más difícil: dejar tu hogar o cambiar una creencia?"
+    },
+    "vocab": [
+      {
+        "term": "agreed",
+        "es": "acordaron"
+      },
+      {
+        "term": "princes",
+        "es": "príncipes"
+      },
+      {
+        "term": "individuals",
+        "es": "personas"
+      },
+      {
+        "term": "Calvinists",
+        "es": "calvinistas"
+      }
+    ]
   },
   {
     "id": "rf-008",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
-    "difficulty": "medium",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Erasmus of Rotterdam was the most celebrated humanist scholar of the Reformation era, yet he refused to join Luther. How did Erasmus's position differ from Luther's?",
-      "es": "Erasmo de Rotterdam fue el humanista más célebre de la era de la Reforma, pero se negó a unirse a Lutero. ¿En qué se diferenciaba la posición de Erasmo de la de Lutero?"
+      "en": "Erasmus wanted to reform the Church, but he did not join Luther. Why?",
+      "es": "Erasmo quería reformar la Iglesia, pero no se unió a Lutero. ¿Por qué?"
     },
     "options": [
-      { "en": "Erasmus advocated reforming the Church from within through education and moral renewal, without breaking from Rome", "es": "Erasmo abogaba por reformar la Iglesia desde adentro a través de la educación y la renovación moral, sin romper con Roma" },
-      { "en": "Erasmus rejected the authority of the Bible as a source of doctrine while Luther embraced it as the sole authority", "es": "Erasmo rechazaba la autoridad de la Biblia como fuente de doctrina, mientras que Lutero la abrazaba como única autoridad" }
+      {
+        "en": "He wanted change from inside, without breaking the Church",
+        "es": "Quería un cambio desde dentro, sin romper la Iglesia"
+      },
+      {
+        "en": "He thought that the Church needed no change at all",
+        "es": "Pensaba que la Iglesia no necesitaba ningún cambio"
+      },
+      {
+        "en": "He was afraid of the new printing press",
+        "es": "Le tenía miedo a la nueva imprenta"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Erasmus sharply criticized clerical corruption, superstition, and ignorance — his In Praise of Folly (1511) mocked Church abuses — but he believed reform should come through humanist education and internal persuasion, not schism. He and Luther famously clashed over free will: Luther argued humans were entirely dependent on God's grace, while Erasmus defended a role for human choice. Ultimately, Erasmus was alienated by both Catholic conservatives who saw him as too critical and Protestant reformers who saw him as insufficiently committed.",
-      "es": "Erasmo criticó duramente la corrupción clerical, la superstición y la ignorancia —su Elogio de la locura (1511) se burlaba de los abusos de la Iglesia—, pero creía que la reforma debía venir a través de la educación humanista y la persuasión interna, no del cisma. Él y Lutero chocaron famosamente sobre el libre albedrío: Lutero argumentaba que los seres humanos dependían completamente de la gracia de Dios, mientras que Erasmo defendía un papel para la elección humana. Finalmente, Erasmo fue marginado tanto por los conservadores católicos que lo veían demasiado crítico como por los reformadores protestantes que lo veían insuficientemente comprometido."
+      "en": "Erasmus of Rotterdam was the most famous scholar in Europe. In his book In Praise of Folly, he joked about greedy priests and foolish customs. But he believed in slow reform through education and kindness, not in division. He also disagreed with Luther about free will. In the end, both Catholics and Protestants distrusted him.",
+      "es": "Erasmo de Róterdam era el erudito más famoso de Europa. En su libro Elogio de la locura, se burló de sacerdotes codiciosos y costumbres tontas. Pero creía en una reforma lenta mediante la educación y la bondad, no en la división. También discrepaba con Lutero sobre el libre albedrío. Al final, tanto católicos como protestantes desconfiaron de él."
     },
     "meanwhile": {
-      "en": "In the same era, Chinese philosopher Wang Yangming was developing his school of neo-Confucianism, emphasizing the innate moral knowledge present in all people — a philosophical parallel to Erasmus's humanist focus on individual moral cultivation through education and reason.",
-      "es": "En la misma época, el filósofo chino Wang Yangming desarrollaba su escuela de neoconfucianismo, enfatizando el conocimiento moral innato presente en todas las personas: un paralelo filosófico al enfoque humanista de Erasmo sobre el cultivo moral individual a través de la educación y la razón."
+      "en": "In the early 1500s, the Chinese thinker Wang Yangming taught that people already have moral knowledge inside them.",
+      "es": "A principios del siglo XVI, el pensador chino Wang Yangming enseñaba que las personas ya tienen el conocimiento moral dentro de sí mismas."
     },
     "reflection": {
-      "en": "Erasmus tried to occupy a middle ground and ultimately satisfied neither side, losing influence to more radical voices. Is there a viable role for moderate reformers in moments of deep ideological polarization, or does polarization inevitably push them aside?",
-      "es": "Erasmo intentó ocupar un término medio y finalmente no satisfizo a ningún lado, perdiendo influencia frente a voces más radicales. ¿Existe un papel viable para los reformadores moderados en momentos de profunda polarización ideológica, o la polarización los desplaza inevitablemente?"
-    }
+      "en": "Erasmus stayed in the middle, and neither side liked it. Is it hard for you to take a position when others are very divided?",
+      "es": "Erasmo se quedó en el medio y a ninguno de los dos bandos le gustó. ¿Te cuesta tomar una posición cuando los demás están muy divididos?"
+    },
+    "vocab": [
+      {
+        "term": "scholar",
+        "es": "erudito"
+      },
+      {
+        "term": "greedy",
+        "es": "codiciosos"
+      },
+      {
+        "term": "kindness",
+        "es": "bondad"
+      },
+      {
+        "term": "free will",
+        "es": "libre albedrío"
+      }
+    ]
   },
   {
     "id": "rf-009",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Before Gutenberg's printing press, how were religious texts primarily reproduced in Europe, and why did this limit the potential for a mass religious reform movement?",
-      "es": "Antes de la imprenta de Gutenberg, ¿cómo se reproducían principalmente los textos religiosos en Europa y por qué eso limitaba el potencial de un movimiento de reforma religiosa masiva?"
+      "en": "Before Gutenberg’s press, how were books made in Europe?",
+      "es": "Antes de la imprenta de Gutenberg, ¿cómo se hacían los libros en Europa?"
     },
     "options": [
-      { "en": "By hand by monastic scribes, making copies rare, expensive, and controlled by Church institutions", "es": "A mano por escribas monásticos, lo que hacía que las copias fueran raras, costosas y controladas por las instituciones de la Iglesia" },
-      { "en": "By woodblock printing, which was fast but only available to wealthy merchants and royal courts", "es": "Mediante xilografía, que era rápida pero solo estaba disponible para mercaderes ricos y cortes reales" }
+      {
+        "en": "Monks copied them by hand",
+        "es": "Los monjes los copiaban a mano"
+      },
+      {
+        "en": "Machines printed them in factories",
+        "es": "Máquinas los imprimían en fábricas"
+      },
+      {
+        "en": "Teachers dictated them to students",
+        "es": "Los maestros los dictaban a los estudiantes"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "In medieval Europe, texts were copied by hand, primarily in monastic scriptoria. A single Bible could take months to copy and cost more than a craftsman's annual wage, making books accessible only to clergy and wealthy elites. This concentration of textual access concentrated interpretive authority in Church institutions. When Gutenberg's press enabled mass production, Luther's German Bible (1522) could be printed in thousands of copies within weeks — putting scripture directly in literate laypeople's hands and making personal interpretation possible on a mass scale.",
-      "es": "En la Europa medieval, los textos se copiaban a mano, principalmente en scriptoria monásticos. Una sola Biblia podía tardar meses en copiarse y costar más que el salario anual de un artesano, por lo que los libros solo eran accesibles para el clero y las élites adineradas. Esta concentración del acceso textual concentraba la autoridad interpretativa en las instituciones de la Iglesia. Cuando la imprenta de Gutenberg permitió la producción en masa, la Biblia alemana de Lutero (1522) podía imprimirse en miles de copias en pocas semanas, poniendo las Escrituras directamente en manos de los laicos letrados y haciendo posible la interpretación personal a escala masiva."
+      "en": "Before about 1450, every book was copied by hand, usually by monks. One Bible could take months or years to finish and cost as much as a house. Few people owned books, and most could not read. Luther’s German New Testament of 1522 was a hit: printers made thousands of copies, so ordinary people could read the Bible in their own language.",
+      "es": "Antes de 1450 aproximadamente, cada libro se copiaba a mano, normalmente por monjes. Una Biblia podía tardar meses o años en terminarse y costar tanto como una casa. Pocas personas tenían libros y la mayoría no sabía leer. El Nuevo Testamento alemán de Lutero de 1522 fue un éxito: los impresores hicieron miles de copias, así que la gente común podía leer la Biblia en su propio idioma."
     },
     "meanwhile": {
-      "en": "The Ottoman Empire was initially resistant to the printing press for Arabic script — it was not introduced until 1727 — partly because scribal guilds and religious authorities saw it as a threat to their professional monopoly on textual reproduction, illustrating that technology adoption is never purely a technical decision.",
-      "es": "El Imperio Otomano fue inicialmente resistente a la imprenta para la escritura árabe —no se introdujo hasta 1727— en parte porque los gremios de escribas y las autoridades religiosas la veían como una amenaza para su monopolio profesional sobre la reproducción de textos: una ilustración de que la adopción de tecnología nunca es una decisión puramente técnica."
+      "en": "The Ottoman Empire did not allow printing in Arabic letters until 1727, partly because many scribes made a living by copying books.",
+      "es": "El Imperio otomano no permitió la imprenta con letras árabes hasta 1727, en parte porque muchos escribas vivían de copiar libros."
     },
     "reflection": {
-      "en": "Gutenberg's press democratized access to information within decades but also spread misinformation, propaganda, and religious extremism at unprecedented speed. Does the free flow of information inherently strengthen or weaken social cohesion — or does it depend entirely on who controls the message?",
-      "es": "La imprenta de Gutenberg democratizó el acceso a la información en pocas décadas, pero también propagó desinformación, propaganda y extremismo religioso a velocidades sin precedentes. ¿El libre flujo de información fortalece o debilita inherentemente la cohesión social, o depende completamente de quién controla el mensaje?"
-    }
+      "en": "The press made information cheap, but also spread false stories. How can you check whether what you read is true?",
+      "es": "La imprenta abarató la información, pero también difundió historias falsas. ¿Cómo puedes comprobar si lo que lees es verdad?"
+    },
+    "vocab": [
+      {
+        "term": "copied",
+        "es": "copiaba"
+      },
+      {
+        "term": "Bible",
+        "es": "Biblia"
+      },
+      {
+        "term": "printers",
+        "es": "impresores"
+      },
+      {
+        "term": "scribes",
+        "es": "escribas"
+      }
+    ]
   },
   {
     "id": "rf-010",
     "category": "the-reformation",
-    "category_label": { "en": "The Reformation", "es": "La Reforma" },
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "What long-term social consequence, beyond religion, did the Protestant emphasis on individual Bible reading produce across northern Europe?",
-      "es": "¿Qué consecuencia social a largo plazo, más allá de lo religioso, produjo el énfasis protestante en la lectura individual de la Biblia en el norte de Europa?"
+      "en": "What was one long-term result of the Protestant idea that everyone should read the Bible?",
+      "es": "¿Cuál fue un resultado a largo plazo de la idea protestante de que todos debían leer la Biblia?"
     },
     "options": [
-      { "en": "It drove mass literacy campaigns and the growth of vernacular literature, education, and civic participation", "es": "Impulsó campañas de alfabetización masiva y el crecimiento de la literatura vernácula, la educación y la participación cívica" },
-      { "en": "It reinforced Latin as the universal language of scholarship by requiring universal translation standards", "es": "Reforzó el latín como lengua universal del conocimiento al requerir estándares de traducción universales" }
+      {
+        "en": "More schools and higher literacy",
+        "es": "Más escuelas y mayor alfabetización"
+      },
+      {
+        "en": "Fewer books in Europe",
+        "es": "Menos libros en Europa"
+      },
+      {
+        "en": "More use of Latin in daily life",
+        "es": "Más uso del latín en la vida diaria"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Protestant theology held that every believer should read scripture personally, which created a powerful institutional incentive to teach reading. Lutheran territories established parish schools and required vernacular literacy, producing measurably higher literacy rates in Protestant regions than Catholic ones by the 18th century. This literacy spilled over into civic life, commerce, and eventually scientific and political discourse. Luther's German Bible also standardized written German, contributing to the emergence of a national linguistic identity.",
-      "es": "La teología protestante sostenía que cada creyente debía leer las Escrituras personalmente, lo que creó un poderoso incentivo institucional para enseñar a leer. Los territorios luteranos establecieron escuelas parroquiales y exigieron la alfabetización en lengua vernácula, produciendo tasas de alfabetización mensurablemente más altas en las regiones protestantes que en las católicas para el siglo XVIII. Esta alfabetización se derramó hacia la vida cívica, el comercio y, eventualmente, el discurso científico y político. La Biblia alemana de Lutero también estandarizó el alemán escrito, contribuyendo al surgimiento de una identidad lingüística nacional."
+      "en": "If every believer should read the Bible, every child had to learn to read. Lutheran and Calvinist regions built schools and trained teachers. By the 1700s, more people could read in Protestant areas than in many Catholic ones. Luther’s German Bible also helped to create a standard written German. Literacy later helped trade, science and politics.",
+      "es": "Si todo creyente debía leer la Biblia, todo niño tenía que aprender a leer. Las regiones luteranas y calvinistas construyeron escuelas y formaron maestros. En el siglo XVIII, más gente sabía leer en las zonas protestantes que en muchas católicas. La Biblia alemana de Lutero también ayudó a crear un alemán escrito estándar. La alfabetización ayudó después al comercio, la ciencia y la política."
     },
     "meanwhile": {
-      "en": "In West Africa, the Songhai Empire at Timbuktu maintained sophisticated Islamic scholarship and extensive manuscript libraries — a parallel world of religious literacy and intellectual culture entirely independent of European Reformation debates, demonstrating that literacy and learning flourished in multiple civilizations simultaneously.",
-      "es": "En África Occidental, el Imperio Songai en Tombuctú mantenía una sofisticada erudición islámica y extensas bibliotecas de manuscritos: un mundo paralelo de alfabetización religiosa y cultura intelectual completamente independiente de los debates de la Reforma europea, demostrando que la alfabetización y el aprendizaje florecían en múltiples civilizaciones simultáneamente."
+      "en": "In the 1500s, in West Africa, Timbuktu had a big collection of manuscripts and many Muslim scholars and students.",
+      "es": "En el siglo XVI, en África Occidental, Tombuctú tenía una gran colección de manuscritos y muchos eruditos y estudiantes musulmanes."
     },
     "reflection": {
-      "en": "Protestant demands for Bible literacy drove unprecedented educational investment across northern Europe. Can access to texts and education by itself transform a society, or does it require other social, economic, or political conditions to produce lasting change?",
-      "es": "Las demandas protestantes de alfabetización bíblica impulsaron una inversión educativa sin precedentes en el norte de Europa. ¿Puede el acceso a los textos y la educación por sí solo transformar una sociedad, o requiere otras condiciones sociales, económicas o políticas para producir un cambio duradero?"
-    }
+      "en": "A religious idea led to more schools. Which of your beliefs has pushed you to learn something new?",
+      "es": "Una idea religiosa llevó a más escuelas. ¿Qué creencia tuya te ha empujado a aprender algo nuevo?"
+    },
+    "vocab": [
+      {
+        "term": "believer",
+        "es": "creyente"
+      },
+      {
+        "term": "literacy",
+        "es": "alfabetización"
+      },
+      {
+        "term": "trained",
+        "es": "formaron"
+      },
+      {
+        "term": "standard",
+        "es": "estándar"
+      }
+    ]
+  },
+  {
+    "id": "rf-011",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What does the word \"Protestant\" originally come from?",
+      "es": "¿De dónde viene originalmente la palabra \"protestante\"?"
+    },
+    "options": [
+      {
+        "en": "German princes who protested against a ban in 1529",
+        "es": "Príncipes alemanes que protestaron contra una prohibición en 1529"
+      },
+      {
+        "en": "People who protested against high taxes",
+        "es": "Personas que protestaron contra los impuestos altos"
+      },
+      {
+        "en": "A Latin word that means \"new church\"",
+        "es": "Una palabra latina que significa \"iglesia nueva\""
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1529, a meeting of German rulers, called the Diet of Speyer, decided to stop the spread of Lutheran ideas. A group of Lutheran princes and cities made a formal protest against this decision. People began to call them \"Protestants\". Later, the word was used for all Christians who separated from the Catholic Church in the Reformation.",
+      "es": "En 1529, una reunión de gobernantes alemanes, llamada Dieta de Espira, decidió detener la difusión de las ideas luteranas. Un grupo de príncipes y ciudades luteranos hizo una protesta formal contra esa decisión. La gente empezó a llamarlos \"protestantes\". Más tarde, la palabra se usó para todos los cristianos que se separaron de la Iglesia católica en la Reforma."
+    },
+    "meanwhile": {
+      "en": "Around 1530, the Inca emperor Huayna Capac’s sons were still fighting a civil war, soon before the Spanish arrived.",
+      "es": "Alrededor de 1530, los hijos del emperador inca Huayna Cápac todavía libraban una guerra civil, poco antes de la llegada de los españoles."
+    },
+    "reflection": {
+      "en": "A word that started as a protest became a name for millions. What name or label began in a surprising way?",
+      "es": "Una palabra que comenzó como una protesta se convirtió en el nombre de millones. ¿Qué nombre o etiqueta empezó de manera sorprendente?"
+    },
+    "vocab": [
+      {
+        "term": "protest",
+        "es": "protesta"
+      },
+      {
+        "term": "rulers",
+        "es": "gobernantes"
+      },
+      {
+        "term": "spread",
+        "es": "difusión"
+      },
+      {
+        "term": "separated",
+        "es": "separaron"
+      }
+    ]
+  },
+  {
+    "id": "rf-012",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1521, Luther was asked to take back his writings in front of Emperor Charles V. What did he do?",
+      "es": "En 1521, se le pidió a Lutero que se retractara de sus escritos ante el emperador Carlos V. ¿Qué hizo?"
+    },
+    "options": [
+      {
+        "en": "He refused unless he was shown he was wrong",
+        "es": "Se negó a menos que le demostraran que se equivocaba"
+      },
+      {
+        "en": "He agreed and went to a monastery",
+        "es": "Aceptó y se fue a un monasterio"
+      },
+      {
+        "en": "He ran away at night",
+        "es": "Huyó de noche"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At the Diet of Worms, Luther stood in front of the emperor and many princes. He was shown a pile of his books and asked to take back his words. The next day he said that he could not, unless someone proved with the Bible or with reason that he was wrong. The emperor declared him an outlaw. Friends hid him in a castle.",
+      "es": "En la Dieta de Worms, Lutero se presentó ante el emperador y muchos príncipes. Le mostraron una pila de sus libros y le pidieron que se retractara. Al día siguiente dijo que no podía, a menos que alguien demostrara con la Biblia o con la razón que estaba equivocado. El emperador lo declaró fuera de la ley. Unos amigos lo escondieron en un castillo."
+    },
+    "meanwhile": {
+      "en": "In 1521, the conquistador Hernán Cortés finished the conquest of the Aztec capital, Tenochtitlan.",
+      "es": "En 1521, el conquistador Hernán Cortés terminó la conquista de la capital azteca, Tenochtitlan."
+    },
+    "reflection": {
+      "en": "Luther risked his life for what he believed. Is there anything that you would not give up, even under pressure?",
+      "es": "Lutero arriesgó su vida por lo que creía. ¿Hay algo a lo que no renunciarías ni siquiera bajo presión?"
+    },
+    "vocab": [
+      {
+        "term": "take back",
+        "es": "retractara"
+      },
+      {
+        "term": "pile",
+        "es": "pila"
+      },
+      {
+        "term": "outlaw",
+        "es": "fuera de la ley"
+      },
+      {
+        "term": "castle",
+        "es": "castillo"
+      }
+    ]
+  },
+  {
+    "id": "rf-013",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did Luther do while he hid in Wartburg Castle?",
+      "es": "¿Qué hizo Lutero mientras se escondía en el castillo de Wartburg?"
+    },
+    "options": [
+      {
+        "en": "He translated the New Testament into German",
+        "es": "Tradujo el Nuevo Testamento al alemán"
+      },
+      {
+        "en": "He led an army of angry peasants",
+        "es": "Dirigió un ejército de campesinos furiosos"
+      },
+      {
+        "en": "He built his own printing press in the castle",
+        "es": "Construyó su propia imprenta en el castillo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Luther stayed in Wartburg Castle for about ten months in 1521 and 1522, disguised as a knight. He wanted everyone to be able to read the Bible. In just eleven weeks, he translated the Greek New Testament into German. He used everyday words and the speech of ordinary people. His translation helped to shape the modern German language.",
+      "es": "Lutero permaneció en el castillo de Wartburg unos diez meses entre 1521 y 1522, disfrazado de caballero. Quería que todos pudieran leer la Biblia. En solo once semanas, tradujo el Nuevo Testamento griego al alemán. Usó palabras cotidianas y el habla de la gente común. Su traducción ayudó a dar forma al alemán moderno."
+    },
+    "meanwhile": {
+      "en": "In 1522, the last ship of Magellan’s expedition, the Victoria, returned to Spain after sailing around the world.",
+      "es": "En 1522, el último barco de la expedición de Magallanes, la Victoria, regresó a España tras dar la vuelta al mundo."
+    },
+    "reflection": {
+      "en": "Luther used simple words so everybody could understand. When did a simple explanation help you more than a complicated one?",
+      "es": "Lutero usó palabras sencillas para que todos entendieran. ¿Cuándo una explicación simple te ayudó más que una complicada?"
+    },
+    "vocab": [
+      {
+        "term": "disguised",
+        "es": "disfrazado"
+      },
+      {
+        "term": "translated",
+        "es": "tradujo"
+      },
+      {
+        "term": "everyday",
+        "es": "cotidianas"
+      },
+      {
+        "term": "ordinary",
+        "es": "común"
+      }
+    ]
+  },
+  {
+    "id": "rf-014",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1525, thousands of poor farmers in Germany rebelled. What was this revolt called?",
+      "es": "En 1525, miles de campesinos pobres de Alemania se rebelaron. ¿Cómo se llamó esta revuelta?"
+    },
+    "options": [
+      {
+        "en": "The Peasants’ War",
+        "es": "La Guerra de los Campesinos"
+      },
+      {
+        "en": "The War of the Roses",
+        "es": "La Guerra de las Dos Rosas"
+      },
+      {
+        "en": "The Hundred Years’ War",
+        "es": "La Guerra de los Cien Años"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Many farmers were poor and had to pay heavy taxes. Luther’s ideas about freedom made them hope for a better life, and they wrote a list of demands called the Twelve Articles. Luther supported some of their complaints, but he strongly opposed violence. When the revolt turned violent, he told the princes to stop it. The princes crushed the rebels, and about 100,000 people died.",
+      "es": "Muchos campesinos eran pobres y debían pagar impuestos pesados. Las ideas de Lutero sobre la libertad les hicieron esperar una vida mejor, y escribieron una lista de demandas llamada los Doce Artículos. Lutero apoyó algunas de sus quejas, pero se oponía con fuerza a la violencia. Cuando la revuelta se volvió violenta, dijo a los príncipes que la detuvieran. Los príncipes aplastaron a los rebeldes y murieron unas 100.000 personas."
+    },
+    "meanwhile": {
+      "en": "In 1526, Babur won the Battle of Panipat in India and founded the Mughal Empire.",
+      "es": "En 1526, Babur ganó la batalla de Panipat en la India y fundó el Imperio mogol."
+    },
+    "reflection": {
+      "en": "Luther’s ideas inspired people to demand a better life, but he did not agree with the revolt. Can a leader be responsible for what others do with his ideas?",
+      "es": "Las ideas de Lutero inspiraron a la gente a exigir una vida mejor, pero él no estuvo de acuerdo con la revuelta. ¿Puede un líder ser responsable de lo que otros hacen con sus ideas?"
+    },
+    "vocab": [
+      {
+        "term": "taxes",
+        "es": "impuestos"
+      },
+      {
+        "term": "demands",
+        "es": "demandas"
+      },
+      {
+        "term": "opposed",
+        "es": "se oponía"
+      },
+      {
+        "term": "crushed",
+        "es": "aplastaron"
+      }
+    ]
+  },
+  {
+    "id": "rf-015",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who was Anne Boleyn?",
+      "es": "¿Quién fue Ana Bolena?"
+    },
+    "options": [
+      {
+        "en": "The second wife of Henry VIII, and mother of Elizabeth I",
+        "es": "La segunda esposa de Enrique VIII y madre de Isabel I"
+      },
+      {
+        "en": "The first woman to rule the kingdom of Scotland",
+        "es": "La primera mujer en gobernar el reino de Escocia"
+      },
+      {
+        "en": "A Protestant leader in the city of Geneva",
+        "es": "Una líder protestante en la ciudad de Ginebra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Anne Boleyn was an English noblewoman. Henry VIII fell in love with her and, because the Pope refused to annul his first marriage, he broke with the Catholic Church to marry her in 1533. Anne gave birth to a daughter, Elizabeth. But Henry wanted a son. In 1536, he accused Anne of crimes, probably false, and she was executed. Her daughter later became Queen Elizabeth I.",
+      "es": "Ana Bolena era una noble inglesa. Enrique VIII se enamoró de ella y, como el papa se negó a anular su primer matrimonio, rompió con la Iglesia católica para casarse con ella en 1533. Ana dio a luz a una hija, Isabel. Pero Enrique quería un hijo varón. En 1536, la acusó de delitos, probablemente falsos, y fue ejecutada. Su hija se convirtió más tarde en la reina Isabel I."
+    },
+    "meanwhile": {
+      "en": "In 1533, in Peru, the Spanish had just executed the Inca emperor Atahualpa, and the Inca Empire was falling.",
+      "es": "En 1533, en Perú, los españoles acababan de ejecutar al emperador inca Atahualpa, y el Imperio inca caía."
+    },
+    "reflection": {
+      "en": "Anne’s story changed a country’s religion and ended tragically. Why do the personal stories of powerful people matter in history?",
+      "es": "La historia de Ana cambió la religión de un país y terminó trágicamente. ¿Por qué importan en la historia las historias personales de los poderosos?"
+    },
+    "vocab": [
+      {
+        "term": "noblewoman",
+        "es": "noble"
+      },
+      {
+        "term": "fell in love",
+        "es": "se enamoró"
+      },
+      {
+        "term": "executed",
+        "es": "ejecutada"
+      },
+      {
+        "term": "accused",
+        "es": "acusó"
+      }
+    ]
+  },
+  {
+    "id": "rf-016",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1572, thousands of French Protestants were killed in Paris and other cities. What is this event called?",
+      "es": "En 1572, miles de protestantes franceses fueron asesinados en París y otras ciudades. ¿Cómo se llama este hecho?"
+    },
+    "options": [
+      {
+        "en": "The St. Bartholomew’s Day Massacre",
+        "es": "La Matanza de San Bartolomé"
+      },
+      {
+        "en": "The Great Fire of Paris",
+        "es": "El Gran Incendio de París"
+      },
+      {
+        "en": "The Siege of Orléans",
+        "es": "El Sitio de Orleans"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In France, Catholics and Protestants, called Huguenots, were fighting a series of religious wars. In August 1572, many Huguenot leaders came to Paris for a royal wedding. A few days later, on St. Bartholomew’s Day, Catholic crowds attacked them. The killing spread to other cities and went on for weeks. Thousands of people died. In 1598, King Henry IV gave Protestants limited rights in the Edict of Nantes.",
+      "es": "En Francia, los católicos y los protestantes, llamados hugonotes, libraban una serie de guerras de religión. En agosto de 1572, muchos líderes hugonotes llegaron a París para una boda real. Unos días después, el día de San Bartolomé, multitudes católicas los atacaron. La matanza se extendió a otras ciudades y duró semanas. Murieron miles de personas. En 1598, el rey Enrique IV dio derechos limitados a los protestantes con el Edicto de Nantes."
+    },
+    "meanwhile": {
+      "en": "In 1571, a fleet of the Holy League defeated the Ottoman navy at the Battle of Lepanto, in the Mediterranean.",
+      "es": "En 1571, una flota de la Santa Liga derrotó a la armada otomana en la batalla de Lepanto, en el Mediterráneo."
+    },
+    "reflection": {
+      "en": "Neighbors attacked neighbors because of religion. What can help people of different beliefs to live together in peace?",
+      "es": "Los vecinos atacaron a sus vecinos por causa de la religión. ¿Qué puede ayudar a que personas con distintas creencias vivan juntas en paz?"
+    },
+    "vocab": [
+      {
+        "term": "attacked",
+        "es": "atacaron"
+      },
+      {
+        "term": "crowds",
+        "es": "multitudes"
+      },
+      {
+        "term": "wedding",
+        "es": "boda"
+      },
+      {
+        "term": "edict",
+        "es": "edicto"
+      }
+    ]
+  },
+  {
+    "id": "rf-017",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which English queen created a church that was Protestant but kept many traditions, ending religious conflict for a time?",
+      "es": "¿Qué reina inglesa creó una Iglesia protestante pero con muchas tradiciones, poniendo fin por un tiempo al conflicto religioso?"
+    },
+    "options": [
+      {
+        "en": "Elizabeth I",
+        "es": "Isabel I"
+      },
+      {
+        "en": "Mary I",
+        "es": "María I"
+      },
+      {
+        "en": "Victoria",
+        "es": "Victoria"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After Henry VIII died, England changed religion several times. Under Mary I, the country became Catholic again, and about 280 Protestants were burned. When her half-sister Elizabeth became queen in 1558, she chose a middle path. The Church of England was Protestant in its teaching, but it kept bishops and many traditional ceremonies. This \"Elizabethan Settlement\" brought a period of relative calm.",
+      "es": "Después de la muerte de Enrique VIII, Inglaterra cambió de religión varias veces. Bajo María I, el país volvió a ser católico y unos 280 protestantes fueron quemados. Cuando su media hermana Isabel se convirtió en reina en 1558, eligió un camino intermedio. La Iglesia de Inglaterra era protestante en su enseñanza, pero conservó obispos y muchas ceremonias tradicionales. Este \"Acuerdo Isabelino\" trajo un período de relativa calma."
+    },
+    "meanwhile": {
+      "en": "Around 1590, in Japan, the general Toyotomi Hideyoshi united the country after many years of civil war.",
+      "es": "Alrededor de 1590, en Japón, el general Toyotomi Hideyoshi unificó el país tras muchos años de guerra civil."
+    },
+    "reflection": {
+      "en": "Elizabeth found a compromise that most people could accept. When is a \"middle path\" better than choosing one side?",
+      "es": "Isabel encontró un acuerdo que la mayoría podía aceptar. ¿Cuándo es mejor un \"camino intermedio\" que elegir un bando?"
+    },
+    "vocab": [
+      {
+        "term": "Protestant",
+        "es": "protestante"
+      },
+      {
+        "term": "bishops",
+        "es": "obispos"
+      },
+      {
+        "term": "middle path",
+        "es": "camino intermedio"
+      },
+      {
+        "term": "calm",
+        "es": "calma"
+      }
+    ]
+  },
+  {
+    "id": "rf-018",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why did the Pilgrims leave England and travel to America on the Mayflower in 1620?",
+      "es": "¿Por qué los Peregrinos dejaron Inglaterra y viajaron a América en el Mayflower en 1620?"
+    },
+    "options": [
+      {
+        "en": "They wanted to practice their religion freely",
+        "es": "Querían practicar su religión libremente"
+      },
+      {
+        "en": "They wanted to find gold and get rich",
+        "es": "Querían encontrar oro y hacerse ricos"
+      },
+      {
+        "en": "The king ordered them to explore America",
+        "es": "El rey les ordenó explorar América"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Pilgrims were Protestants who wanted to separate from the Church of England, which they thought was too close to Catholicism. This was illegal, and they faced punishment. First, they moved to the Netherlands, and then, in 1620, about 100 people sailed on the Mayflower to America. They founded Plymouth Colony in what is now Massachusetts.",
+      "es": "Los Peregrinos eran protestantes que querían separarse de la Iglesia de Inglaterra, que consideraban demasiado cercana al catolicismo. Eso era ilegal y enfrentaban castigos. Primero se mudaron a los Países Bajos y luego, en 1620, unas 100 personas zarparon en el Mayflower hacia América. Fundaron la Colonia de Plymouth en lo que hoy es Massachusetts."
+    },
+    "meanwhile": {
+      "en": "In 1619, the first Africans were brought to the English colony of Virginia, one year before the Mayflower landed.",
+      "es": "En 1619, los primeros africanos fueron llevados a la colonia inglesa de Virginia, un año antes de que llegara el Mayflower."
+    },
+    "reflection": {
+      "en": "The Pilgrims crossed an ocean to practice their faith freely. What freedom is so important to you that you would travel far for it?",
+      "es": "Los Peregrinos cruzaron un océano para practicar su fe libremente. ¿Qué libertad es tan importante para ti que viajarías lejos por ella?"
+    },
+    "vocab": [
+      {
+        "term": "separate",
+        "es": "separarse"
+      },
+      {
+        "term": "punishment",
+        "es": "castigos"
+      },
+      {
+        "term": "sailed",
+        "es": "zarparon"
+      },
+      {
+        "term": "colony",
+        "es": "colonia"
+      }
+    ]
+  },
+  {
+    "id": "rf-019",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which language did the Catholic Church use for most of its services before the Reformation?",
+      "es": "¿Qué idioma usaba la Iglesia católica para la mayoría de sus servicios antes de la Reforma?"
+    },
+    "options": [
+      {
+        "en": "Latin",
+        "es": "Latín"
+      },
+      {
+        "en": "German",
+        "es": "Alemán"
+      },
+      {
+        "en": "Greek",
+        "es": "Griego"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the Middle Ages, Catholic services and Bibles were in Latin, a language that most ordinary people did not understand. Protestant leaders wanted people to understand what they heard in church. So they translated the Bible and used local languages in their services: German, English, French, Dutch and many others. This also helped to make those languages more important.",
+      "es": "En la Edad Media, los servicios y las Biblias católicos estaban en latín, un idioma que la mayoría de la gente común no entendía. Los líderes protestantes querían que la gente entendiera lo que oía en la iglesia. Por eso tradujeron la Biblia y usaron los idiomas locales en sus servicios: alemán, inglés, francés, neerlandés y muchos otros. Esto también ayudó a que esos idiomas ganaran importancia."
+    },
+    "meanwhile": {
+      "en": "In the 1500s, in Spain, writers were using Spanish more and more in literature. In 1605, Don Quixote was published.",
+      "es": "En el siglo XVI, en España, los escritores usaban cada vez más el español en la literatura. En 1605 se publicó Don Quijote."
+    },
+    "reflection": {
+      "en": "Understanding what you hear makes a big difference. In which situations do you feel lost because of the language?",
+      "es": "Entender lo que oyes hace una gran diferencia. ¿En qué situaciones te sientes perdido por culpa del idioma?"
+    },
+    "vocab": [
+      {
+        "term": "services",
+        "es": "servicios"
+      },
+      {
+        "term": "translated",
+        "es": "tradujeron"
+      },
+      {
+        "term": "local",
+        "es": "locales"
+      },
+      {
+        "term": "ordinary",
+        "es": "común"
+      }
+    ]
+  },
+  {
+    "id": "rf-020",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1545, why did the Spanish begin to mine silver at Potosí, in today’s Bolivia, on a large scale?",
+      "es": "En 1545, ¿por qué empezaron los españoles a explotar plata en gran escala en Potosí, en la actual Bolivia?"
+    },
+    "options": [
+      {
+        "en": "A huge silver mountain was found there",
+        "es": "Allí se encontró una enorme montaña de plata"
+      },
+      {
+        "en": "The king ordered a new city",
+        "es": "El rey ordenó una nueva ciudad"
+      },
+      {
+        "en": "Protestants offered to buy silver",
+        "es": "Los protestantes ofrecieron comprar plata"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1545, the Spanish discovered a mountain of silver, the Cerro Rico, near Potosí. Within a few decades, Potosí became one of the biggest cities in the world. Native workers, forced to labor in the mines, faced terrible conditions, and many died. The silver made Spain rich and paid for its wars in Europe, including the fight against Protestants.",
+      "es": "En 1545, los españoles descubrieron una montaña de plata, el Cerro Rico, cerca de Potosí. En pocas décadas, Potosí se convirtió en una de las ciudades más grandes del mundo. Los trabajadores nativos, obligados a trabajar en las minas, sufrían condiciones terribles y muchos murieron. La plata enriqueció a España y pagó sus guerras en Europa, incluida la lucha contra los protestantes."
+    },
+    "meanwhile": {
+      "en": "In 1545, the Council of Trent began its first meetings in Italy, as the Catholic response to the Reformation.",
+      "es": "En 1545, el Concilio de Trento comenzó sus primeras reuniones en Italia, como respuesta católica a la Reforma."
+    },
+    "reflection": {
+      "en": "Silver from the Americas paid for wars in Europe. How are wealth and war connected in your opinion?",
+      "es": "La plata de América pagó guerras en Europa. ¿Cómo crees que se relacionan la riqueza y la guerra?"
+    },
+    "vocab": [
+      {
+        "term": "mine",
+        "es": "explotar"
+      },
+      {
+        "term": "mountain",
+        "es": "montaña"
+      },
+      {
+        "term": "forced",
+        "es": "obligados"
+      },
+      {
+        "term": "wars",
+        "es": "guerras"
+      }
+    ]
+  },
+  {
+    "id": "rf-021",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did John Knox bring to Scotland in the 1560s?",
+      "es": "¿Qué llevó John Knox a Escocia en la década de 1560?"
+    },
+    "options": [
+      {
+        "en": "Calvinist ideas that created the Presbyterian Church",
+        "es": "Ideas calvinistas que crearon la Iglesia presbiteriana"
+      },
+      {
+        "en": "The first printing press in all of Europe",
+        "es": "La primera imprenta de toda Europa"
+      },
+      {
+        "en": "The Catholic Inquisition and its courts",
+        "es": "La Inquisición católica y sus tribunales"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "John Knox was a Scottish preacher who studied in Geneva with Calvin. He returned to Scotland and led the Protestant Reformation there. In 1560, the Scottish Parliament ended the power of the Pope. The new Church of Scotland was Presbyterian, which means it was governed by elders, not bishops. Its members believed in education, so Scotland soon started building schools in every parish.",
+      "es": "John Knox era un predicador escocés que estudió en Ginebra con Calvino. Regresó a Escocia y dirigió la Reforma protestante allí. En 1560, el Parlamento escocés puso fin al poder del papa. La nueva Iglesia de Escocia era presbiteriana, lo que significa que estaba gobernada por ancianos y no por obispos. Sus miembros creían en la educación, así que Escocia pronto empezó a construir escuelas en cada parroquia."
+    },
+    "meanwhile": {
+      "en": "In 1568, in the Netherlands, the Dutch began a long war of independence against Spain.",
+      "es": "En 1568, en los Países Bajos, los neerlandeses comenzaron una larga guerra de independencia contra España."
+    },
+    "reflection": {
+      "en": "Knox brought ideas he learned abroad to his home country. What have you learned in another place that you want to share at home?",
+      "es": "Knox llevó a su país las ideas que aprendió en el extranjero. ¿Qué has aprendido en otro lugar que quieras compartir en casa?"
+    },
+    "vocab": [
+      {
+        "term": "preacher",
+        "es": "predicador"
+      },
+      {
+        "term": "elders",
+        "es": "ancianos"
+      },
+      {
+        "term": "bishops",
+        "es": "obispos"
+      },
+      {
+        "term": "parish",
+        "es": "parroquia"
+      }
+    ]
+  },
+  {
+    "id": "rf-022",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why did the Dutch fight a long war against Spain, starting in 1568?",
+      "es": "¿Por qué lucharon los neerlandeses una larga guerra contra España desde 1568?"
+    },
+    "options": [
+      {
+        "en": "They wanted religious freedom and lower taxes",
+        "es": "Querían libertad religiosa e impuestos más bajos"
+      },
+      {
+        "en": "They wanted to take over Spain",
+        "es": "Querían apoderarse de España"
+      },
+      {
+        "en": "They wanted to start the Crusades again",
+        "es": "Querían reiniciar las Cruzadas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Netherlands belonged to the Spanish king Philip II, who was a strong Catholic. Many Dutch people were Calvinist, and they disliked his heavy taxes and the Inquisition. In 1568, a revolt began, led by William of Orange. After 80 years of fighting, Spain accepted the independence of the northern provinces in 1648. They became the Dutch Republic.",
+      "es": "Los Países Bajos pertenecían al rey español Felipe II, un católico muy firme. Muchos neerlandeses eran calvinistas y no les gustaban sus altos impuestos ni la Inquisición. En 1568 comenzó una revuelta, dirigida por Guillermo de Orange. Tras 80 años de lucha, España aceptó en 1648 la independencia de las provincias del norte. Se convirtieron en la República Neerlandesa."
+    },
+    "meanwhile": {
+      "en": "In 1571, the city of Manila was founded in the Philippines, soon becoming a center of trade between Asia and the Americas.",
+      "es": "En 1571 se fundó la ciudad de Manila, en Filipinas, que pronto se convirtió en un centro de comercio entre Asia y América."
+    },
+    "reflection": {
+      "en": "The Dutch kept fighting for 80 years. What goal would you pursue for so long?",
+      "es": "Los neerlandeses siguieron luchando durante 80 años. ¿Qué meta perseguirías durante tanto tiempo?"
+    },
+    "vocab": [
+      {
+        "term": "revolt",
+        "es": "revuelta"
+      },
+      {
+        "term": "Inquisition",
+        "es": "Inquisición"
+      },
+      {
+        "term": "independence",
+        "es": "independencia"
+      },
+      {
+        "term": "provinces",
+        "es": "provincias"
+      }
+    ]
+  },
+  {
+    "id": "rf-023",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What did Protestants usually say about the Pope?",
+      "es": "¿Qué decían normalmente los protestantes sobre el papa?"
+    },
+    "options": [
+      {
+        "en": "That he had no power over their church",
+        "es": "Que no tenía poder sobre su iglesia"
+      },
+      {
+        "en": "That he was a god",
+        "es": "Que era un dios"
+      },
+      {
+        "en": "That he should rule all kings",
+        "es": "Que debía gobernar a todos los reyes"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Catholic Church taught that the Pope, as the successor of Saint Peter, was the leader of all Christians. Protestants disagreed. They said that the Bible, not the Pope, was the highest authority. Each Protestant church was independent, or was led by a ruler or by local leaders. This is one reason why Protestantism split into so many different groups.",
+      "es": "La Iglesia católica enseñaba que el papa, como sucesor de san Pedro, era el líder de todos los cristianos. Los protestantes no estaban de acuerdo. Decían que la Biblia, y no el papa, era la máxima autoridad. Cada iglesia protestante era independiente, o estaba dirigida por un gobernante o por líderes locales. Esta es una de las razones por las que el protestantismo se dividió en tantos grupos distintos."
+    },
+    "meanwhile": {
+      "en": "In the 1500s, in India, the Mughal emperor Akbar built a new capital city, Fatehpur Sikri.",
+      "es": "En el siglo XVI, en la India, el emperador mogol Akbar construyó una nueva capital, Fatehpur Sikri."
+    },
+    "reflection": {
+      "en": "When there is no single leader, groups often divide. Have you seen a group split because of a disagreement?",
+      "es": "Cuando no hay un solo líder, los grupos suelen dividirse. ¿Has visto un grupo dividirse por un desacuerdo?"
+    },
+    "vocab": [
+      {
+        "term": "successor",
+        "es": "sucesor"
+      },
+      {
+        "term": "authority",
+        "es": "autoridad"
+      },
+      {
+        "term": "independent",
+        "es": "independiente"
+      },
+      {
+        "term": "split",
+        "es": "dividió"
+      }
+    ]
+  },
+  {
+    "id": "rf-024",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Johann Sebastian Bach, one of the greatest composers, was a Lutheran. What did he write for his church?",
+      "es": "Johann Sebastian Bach, uno de los mayores compositores, era luterano. ¿Qué escribió para su iglesia?"
+    },
+    "options": [
+      {
+        "en": "Hundreds of cantatas and church music",
+        "es": "Cientos de cantatas y música religiosa"
+      },
+      {
+        "en": "Only popular dance songs",
+        "es": "Solo canciones de baile populares"
+      },
+      {
+        "en": "A new translation of the Bible",
+        "es": "Una nueva traducción de la Biblia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Music was very important to Luther. He wrote hymns and said that music is a gift of God. Bach was born in Germany in 1685, in a Lutheran family. As a church musician in Leipzig, he wrote more than 200 cantatas, short works for choir and orchestra, for services every Sunday. He also composed great masterpieces like the St. Matthew Passion. Today his music is loved all over the world.",
+      "es": "La música era muy importante para Lutero. Escribió himnos y decía que la música es un don de Dios. Bach nació en Alemania en 1685, en una familia luterana. Como músico de iglesia en Leipzig, escribió más de 200 cantatas, obras breves para coro y orquesta, para los servicios de cada domingo. También compuso grandes obras maestras como la Pasión según San Mateo. Hoy su música es amada en todo el mundo."
+    },
+    "meanwhile": {
+      "en": "In 1685, in Italy, the composer Domenico Scarlatti and the German composer George Frideric Handel were also born.",
+      "es": "En 1685, el compositor italiano Domenico Scarlatti y el compositor alemán Georg Friedrich Händel también nacieron."
+    },
+    "reflection": {
+      "en": "Religion inspired great music. What music or art has been inspired by a belief that matters to you?",
+      "es": "La religión inspiró grandes músicas. ¿Qué música o arte ha sido inspirado por una creencia que te importa?"
+    },
+    "vocab": [
+      {
+        "term": "hymns",
+        "es": "himnos"
+      },
+      {
+        "term": "cantatas",
+        "es": "cantatas"
+      },
+      {
+        "term": "choir",
+        "es": "coro"
+      },
+      {
+        "term": "masterpieces",
+        "es": "obras maestras"
+      }
+    ]
+  },
+  {
+    "id": "rf-025",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Edict of Nantes in 1598 was important because it did what?",
+      "es": "El Edicto de Nantes de 1598 fue importante porque hizo qué?"
+    },
+    "options": [
+      {
+        "en": "It gave French Protestants some freedom to worship",
+        "es": "Dio a los protestantes franceses cierta libertad de culto"
+      },
+      {
+        "en": "It made France a Protestant country",
+        "es": "Hizo de Francia un país protestante"
+      },
+      {
+        "en": "It expelled all Catholics from the kingdom",
+        "es": "Expulsó a todos los católicos del reino"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After almost 40 years of religious wars, King Henry IV of France, who had been a Protestant, became a Catholic to win the crown. In 1598, he signed the Edict of Nantes. It said that Catholicism remained the state religion, but Huguenots could worship in many places and hold public jobs. It was a rare example of tolerance. In 1685, Louis XIV canceled the edict, and many Huguenots fled France.",
+      "es": "Tras casi 40 años de guerras de religión, el rey Enrique IV de Francia, que había sido protestante, se hizo católico para ganar la corona. En 1598 firmó el Edicto de Nantes. Decía que el catolicismo seguía siendo la religión del Estado, pero que los hugonotes podían practicar su culto en muchos lugares y ocupar cargos públicos. Fue un raro ejemplo de tolerancia. En 1685, Luis XIV anuló el edicto y muchos hugonotes huyeron de Francia."
+    },
+    "meanwhile": {
+      "en": "Around 1600, the Safavid shah Abbas I made Isfahan, in Persia, one of the most beautiful cities in the world.",
+      "es": "Alrededor de 1600, el sha safávida Abás I convirtió a Isfahán, en Persia, en una de las ciudades más hermosas del mundo."
+    },
+    "reflection": {
+      "en": "Tolerance helped France for a time, but it was later canceled. Why is it hard to keep tolerance alive?",
+      "es": "La tolerancia ayudó a Francia por un tiempo, pero luego fue anulada. ¿Por qué es difícil mantener viva la tolerancia?"
+    },
+    "vocab": [
+      {
+        "term": "crown",
+        "es": "corona"
+      },
+      {
+        "term": "worship",
+        "es": "practicar su culto"
+      },
+      {
+        "term": "tolerance",
+        "es": "tolerancia"
+      },
+      {
+        "term": "fled",
+        "es": "huyeron"
+      }
+    ]
+  },
+  {
+    "id": "rf-026",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How did the Reformation affect the way that many people thought about work?",
+      "es": "¿Cómo afectó la Reforma a la manera en que muchas personas pensaban sobre el trabajo?"
+    },
+    "options": [
+      {
+        "en": "Ordinary jobs were seen as a way to serve God",
+        "es": "Los trabajos comunes se veían como una forma de servir a Dios"
+      },
+      {
+        "en": "Work was seen as a punishment",
+        "es": "El trabajo se veía como un castigo"
+      },
+      {
+        "en": "Only priests were supposed to work",
+        "es": "Solo los sacerdotes debían trabajar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before the Reformation, many people thought that priests, monks and nuns had the holiest lives. Luther said that every honest job, like a farmer’s or a cook’s, could serve God and other people. Calvinists also stressed hard work, discipline and saving money. Some historians say that these ideas helped economic growth in Protestant countries, but others disagree.",
+      "es": "Antes de la Reforma, muchos pensaban que los sacerdotes, monjes y monjas tenían las vidas más santas. Lutero dijo que todo trabajo honesto, como el de un agricultor o un cocinero, podía servir a Dios y a los demás. Los calvinistas también destacaban el trabajo duro, la disciplina y el ahorro. Algunos historiadores dicen que estas ideas ayudaron al crecimiento económico de los países protestantes, pero otros no están de acuerdo."
+    },
+    "meanwhile": {
+      "en": "Around 1600, in Japan, the Edo period began, and the city of Edo, today’s Tokyo, started to grow quickly.",
+      "es": "Alrededor de 1600, en Japón, comenzó el período Edo y la ciudad de Edo, la actual Tokio, empezó a crecer rápidamente."
+    },
+    "reflection": {
+      "en": "Luther said that ordinary work has value. What do you think makes a job meaningful?",
+      "es": "Lutero dijo que el trabajo común tiene valor. ¿Qué crees que hace significativo a un trabajo?"
+    },
+    "vocab": [
+      {
+        "term": "nuns",
+        "es": "monjas"
+      },
+      {
+        "term": "honest",
+        "es": "honesto"
+      },
+      {
+        "term": "discipline",
+        "es": "disciplina"
+      },
+      {
+        "term": "growth",
+        "es": "crecimiento"
+      }
+    ]
+  },
+  {
+    "id": "rf-027",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1648, the Peace of Westphalia ended the Thirty Years’ War. What important idea did it support?",
+      "es": "En 1648, la Paz de Westfalia puso fin a la Guerra de los Treinta Años. ¿Qué idea importante apoyó?"
+    },
+    "options": [
+      {
+        "en": "That each state is independent and rules itself",
+        "es": "Que cada Estado es independiente y se gobierna a sí mismo"
+      },
+      {
+        "en": "That all of Europe should have one king",
+        "es": "Que toda Europa debía tener un solo rey"
+      },
+      {
+        "en": "That the Pope is the leader of all rulers",
+        "es": "Que el papa es el líder de todos los gobernantes"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After thirty years of terrible war, diplomats met in the German cities of Münster and Osnabrück. They agreed that each state would have power over its own territory and that other rulers should not interfere. Calvinists were now also accepted, along with Catholics and Lutherans. Historians often see this as the start of the modern system of independent nations.",
+      "es": "Tras treinta años de terrible guerra, los diplomáticos se reunieron en las ciudades alemanas de Münster y Osnabrück. Acordaron que cada Estado tendría poder sobre su propio territorio y que otros gobernantes no debían interferir. Los calvinistas también fueron aceptados, junto con católicos y luteranos. Los historiadores suelen ver esto como el comienzo del sistema moderno de naciones independientes."
+    },
+    "meanwhile": {
+      "en": "In 1648, in India, the Mughal emperor Shah Jahan inaugurated the Red Fort in Delhi, his new capital.",
+      "es": "En 1648, en la India, el emperador mogol Shah Jahan inauguró el Fuerte Rojo de Delhi, su nueva capital."
+    },
+    "reflection": {
+      "en": "The treaty said that states should not interfere in each other’s affairs. When is it right, or not, to get involved in other people’s problems?",
+      "es": "El tratado decía que los Estados no debían interferir en los asuntos de otros. ¿Cuándo es correcto, o no, involucrarse en los problemas de otros?"
+    },
+    "vocab": [
+      {
+        "term": "diplomats",
+        "es": "diplomáticos"
+      },
+      {
+        "term": "territory",
+        "es": "territorio"
+      },
+      {
+        "term": "interfere",
+        "es": "interferir"
+      },
+      {
+        "term": "nations",
+        "es": "naciones"
+      }
+    ]
+  },
+  {
+    "id": "rf-028",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What is a \"heretic\" in the language of the Church of that time?",
+      "es": "¿Qué es un \"hereje\" en el lenguaje de la Iglesia de esa época?"
+    },
+    "options": [
+      {
+        "en": "A person who holds beliefs that the Church rejects",
+        "es": "Una persona con creencias que la Iglesia rechaza"
+      },
+      {
+        "en": "A person who builds churches for the Pope",
+        "es": "Una persona que construye iglesias para el papa"
+      },
+      {
+        "en": "A person who travels to holy places",
+        "es": "Una persona que viaja a lugares sagrados"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the Middle Ages and in the 1500s, the Church used the word \"heretic\" for a person who held beliefs that went against its official teaching. Heretics could be tried, punished or even executed. Luther was declared a heretic by the Pope in 1521. Of course, Protestants also punished people whom they considered heretics, and many people were afraid to share their opinions.",
+      "es": "En la Edad Media y en el siglo XVI, la Iglesia usaba la palabra \"hereje\" para una persona con creencias contrarias a su enseñanza oficial. Los herejes podían ser juzgados, castigados o incluso ejecutados. El papa declaró hereje a Lutero en 1521. Por supuesto, los protestantes también castigaron a personas que consideraban herejes, y mucha gente tenía miedo de compartir sus opiniones."
+    },
+    "meanwhile": {
+      "en": "In 1600, in Italy, the thinker Giordano Bruno was executed in Rome for his ideas about the universe.",
+      "es": "En 1600, en Italia, el pensador Giordano Bruno fue ejecutado en Roma por sus ideas sobre el universo."
+    },
+    "reflection": {
+      "en": "Some ideas that were once forbidden are normal now. Which idea that people once feared seems normal today?",
+      "es": "Algunas ideas que antes estaban prohibidas son normales hoy. ¿Qué idea que la gente temía antes parece normal hoy?"
+    },
+    "vocab": [
+      {
+        "term": "heretic",
+        "es": "hereje"
+      },
+      {
+        "term": "beliefs",
+        "es": "creencias"
+      },
+      {
+        "term": "executed",
+        "es": "ejecutados"
+      },
+      {
+        "term": "opinions",
+        "es": "opiniones"
+      }
+    ]
+  },
+  {
+    "id": "rf-029",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1516, Thomas More wrote a book about a perfect island. What does the word \"utopia\" mean in Greek?",
+      "es": "En 1516, Tomás Moro escribió un libro sobre una isla perfecta. ¿Qué significa la palabra \"utopía\" en griego?"
+    },
+    "options": [
+      {
+        "en": "\"No place\"",
+        "es": "\"Ningún lugar\""
+      },
+      {
+        "en": "\"Perfect king\"",
+        "es": "\"Rey perfecto\""
+      },
+      {
+        "en": "\"New world\"",
+        "es": "\"Mundo nuevo\""
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Thomas More was an English lawyer and a friend of Erasmus. In his book Utopia, he described an imaginary island where nobody was poor and all people shared things. He made up the word from Greek: \"ou-topos\" means \"no place\". It also sounds like \"eu-topos\", \"good place\". Later, More refused to accept Henry VIII as head of the Church. He was executed in 1535.",
+      "es": "Tomás Moro era un abogado inglés y amigo de Erasmo. En su libro Utopía, describió una isla imaginaria donde nadie era pobre y todos compartían las cosas. Inventó la palabra a partir del griego: \"ou-topos\" significa \"ningún lugar\". También suena como \"eu-topos\", \"buen lugar\". Más tarde, Moro se negó a aceptar a Enrique VIII como cabeza de la Iglesia. Fue ejecutado en 1535."
+    },
+    "meanwhile": {
+      "en": "In 1516, the Ottoman sultan Selim I defeated the Mamluks in Syria and began to conquer the Middle East.",
+      "es": "En 1516, el sultán otomano Selim I derrotó a los mamelucos en Siria y comenzó a conquistar Oriente Medio."
+    },
+    "reflection": {
+      "en": "More imagined a perfect society to criticize his own. What would be in your ideal society?",
+      "es": "Moro imaginó una sociedad perfecta para criticar la suya. ¿Qué habría en tu sociedad ideal?"
+    },
+    "vocab": [
+      {
+        "term": "imaginary",
+        "es": "imaginaria"
+      },
+      {
+        "term": "made up",
+        "es": "inventó"
+      },
+      {
+        "term": "refused",
+        "es": "se negó"
+      },
+      {
+        "term": "executed",
+        "es": "ejecutado"
+      }
+    ]
+  },
+  {
+    "id": "rf-030",
+    "category": "the-reformation",
+    "category_label": {
+      "en": "The Reformation",
+      "es": "La Reforma"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In the 1600s, Catholic leaders used a dramatic style of art to inspire faith. What is it called?",
+      "es": "En el siglo XVII, los líderes católicos usaron un estilo dramático de arte para inspirar la fe. ¿Cómo se llama?"
+    },
+    "options": [
+      {
+        "en": "Baroque",
+        "es": "Barroco"
+      },
+      {
+        "en": "Gothic",
+        "es": "Gótico"
+      },
+      {
+        "en": "Romanesque",
+        "es": "Románico"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Catholic Church wanted art that touched the heart of ordinary people. Baroque artists used strong light and shadow, movement and emotion. Caravaggio painted holy scenes as if they happened in a dark street. Bernini carved marble sculptures that look alive. Churches were covered in gold and paintings. Baroque spread from Italy to Spain, Latin America and Central Europe.",
+      "es": "La Iglesia católica quería un arte que tocara el corazón de la gente común. Los artistas barrocos usaban fuertes luces y sombras, movimiento y emoción. Caravaggio pintaba escenas sagradas como si ocurrieran en una calle oscura. Bernini tallaba esculturas de mármol que parecen vivas. Las iglesias se cubrían de oro y pinturas. El barroco se extendió desde Italia a España, América Latina y Europa Central."
+    },
+    "meanwhile": {
+      "en": "Around 1600, in England, William Shakespeare was writing some of his greatest plays, such as Hamlet.",
+      "es": "Alrededor de 1600, en Inglaterra, William Shakespeare escribía algunas de sus mejores obras, como Hamlet."
+    },
+    "reflection": {
+      "en": "Art can move people more than speeches. Which painting, song or film has touched you deeply?",
+      "es": "El arte puede conmover a la gente más que los discursos. ¿Qué pintura, canción o película te ha tocado profundamente?"
+    },
+    "vocab": [
+      {
+        "term": "shadow",
+        "es": "sombra"
+      },
+      {
+        "term": "emotion",
+        "es": "emoción"
+      },
+      {
+        "term": "sculptures",
+        "es": "esculturas"
+      },
+      {
+        "term": "spread",
+        "es": "extendió"
+      }
+    ]
   }
 ]

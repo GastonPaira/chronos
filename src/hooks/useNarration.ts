@@ -104,7 +104,7 @@ export function useNarration() {
     }
     if (mode !== 'mp3') return;
 
-    const audio = new Audio(`/audio/${source.mp3Id}.mp3`);
+    const audio = new Audio(`/audio/v2/${source.mp3Id}.mp3`);
     audio.onended = () => { if (runRef.current === run) setActive(null); };
     // If the mp3 fails to load (e.g. offline), fall back to the browser voice.
     audio.onerror = () => { if (runRef.current === run) playVoice(key, source.text, run); };

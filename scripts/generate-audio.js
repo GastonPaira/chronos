@@ -2,21 +2,20 @@ const { MsEdgeTTS, OUTPUT_FORMAT } = require('msedge-tts');
 const fs = require('fs');
 const path = require('path');
 
-const questionFiles = [
-  'ancient-egypt.json',
-  'ancient-greece.json',
-  'roman-empire.json',
-  'byzantine-empire.json',
-  'crusades-chivalry.json',
-  'vikings.json',
-];
+// Generates one mp3 per text that the app can narrate: explanation, meanwhile and reflection of every question.
+// Output goes to public/audio/v2.
+// Pass question ids to generate only those (e.g. `node scripts/generate-audio.js gr-006 gr-007`).
+// Existing mp3 are skipped, so after editing a text delete its mp3 first. Each mp3 is about 125 KB.
+const QUESTIONS_DIR = path.join(__dirname, '../src/data/questions');
+const onlyIds = process.argv.slice(2);
 
-const questions = questionFiles.flatMap(file => {
-  const filePath = path.join(__dirname, '../src/data/questions', file);
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-});
+const questions = fs
+  .readdirSync(QUESTIONS_DIR)
+  .filter(file => file.endsWith('.json'))
+  .flatMap(file => JSON.parse(fs.readFileSync(path.join(QUESTIONS_DIR, file), 'utf-8')))
+  .filter(q => onlyIds.length === 0 || onlyIds.includes(q.id));
 
-const OUTPUT_DIR = path.join(__dirname, '../public/audio');
+const OUTPUT_DIR = path.join(__dirname, '../public/audio/v2');
 
 async function generateAudio(text, outputPath) {
   const tts = new MsEdgeTTS();
@@ -40,9 +39,6 @@ async function main() {
   }
 
   const fields = [
-    { key: 'question',     getter: q => q.question.en },
-    { key: 'option0',      getter: q => q.options[0].en },
-    { key: 'option1',      getter: q => q.options[1].en },
     { key: 'explanation',  getter: q => q.explanation.en },
     { key: 'meanwhile',    getter: q => q.meanwhile.en },
     { key: 'reflection',   getter: q => q.reflection.en },

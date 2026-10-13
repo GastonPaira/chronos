@@ -7,33 +7,56 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Which pharaoh ordered the construction of the Great Pyramid of Giza??",
-      "es": "¿Qué faraón ordenó la construcción de la Gran Pirámide de Giza?"
+      "en": "Which pharaoh ordered the building of the Great Pyramid of Giza?",
+      "es": "¿Qué faraón ordenó construir la Gran Pirámide de Guiza?"
     },
     "options": [
       {
-        "en": "Pharaoh Khufu (Cheops)",
-        "es": "Faraón Keops (Khufu)"
+        "en": "Khufu",
+        "es": "Keops"
       },
       {
-        "en": "Pharaoh Ramesses II",
-        "es": "Faraón Ramsés II"
+        "en": "Ramesses II",
+        "es": "Ramsés II"
+      },
+      {
+        "en": "Tutankhamun",
+        "es": "Tutankamón"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Great Pyramid was built around 2560 BCE under Pharaoh Khufu of the Fourth Dynasty. It stood as the tallest man-made structure on Earth for over 3,800 years. An estimated 20,000 workers labored for approximately 20 years to complete it using limestone blocks averaging 2.5 tonnes each.",
-      "es": "La Gran Pirámide fue construida alrededor del 2560 a.C. bajo el faraón Keops de la Cuarta Dinastía. Fue la estructura más alta construida por el ser humano durante más de 3.800 años. Unos 20.000 trabajadores laboraron durante aproximadamente 20 años usando bloques de caliza de 2,5 toneladas en promedio."
+      "en": "The Great Pyramid was built around 2560 BCE for Pharaoh Khufu. It was the tallest building in the world for almost 4,000 years. Thousands of workers cut and moved millions of heavy limestone blocks.",
+      "es": "La Gran Pirámide se construyó alrededor del 2560 a. C. para el faraón Keops. Fue el edificio más alto del mundo durante casi 4.000 años. Miles de trabajadores cortaron y movieron millones de pesados bloques de piedra caliza."
     },
     "meanwhile": {
-      "en": "In Mesopotamia, around 2560 BCE, Sargon of Akkad was forging the world's first multi-ethnic empire — coordinating armies, scribes, and governors across a vast territory using clay tablets instead of stone blocks.",
-      "es": "En Mesopotamia, hacia el 2560 a.C., Sargón de Acad estaba forjando el primer imperio multiétnico del mundo: coordinando ejércitos, escribas y gobernadores a lo largo de un vasto territorio, usando tablillas de arcilla en lugar de bloques de piedra."
+      "en": "Around 2500 BCE, in the Indus Valley, people were building well-planned cities like Mohenjo-daro, with straight streets and drains.",
+      "es": "Alrededor del 2500 a. C., en el valle del Indo, se construían ciudades bien planificadas como Mohenjo-daro, con calles rectas y desagües."
     },
     "reflection": {
-      "en": "Twenty thousand people built the tallest structure on Earth without computers or machinery — driven only by collective purpose. What would you be capable of if you committed everything to a single goal?",
-      "es": "Veinte mil personas construyeron la estructura más alta de la Tierra sin computadoras ni maquinaria, guiados solo por un propósito colectivo. ¿De qué serías capaz si lo apostaras todo a un único objetivo?"
-    }
+      "en": "Thousands of people worked together on one huge goal. What could you achieve if a whole team believed in your plan?",
+      "es": "Miles de personas trabajaron juntas por un objetivo enorme. ¿Qué lograrías si todo un equipo creyera en tu plan?"
+    },
+    "vocab": [
+      {
+        "term": "pharaoh",
+        "es": "faraón"
+      },
+      {
+        "term": "limestone",
+        "es": "piedra caliza"
+      },
+      {
+        "term": "blocks",
+        "es": "bloques"
+      },
+      {
+        "term": "drains",
+        "es": "desagües"
+      }
+    ]
   },
   {
     "id": "eg-002",
@@ -43,33 +66,56 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was the primary purpose of mummification in ancient Egypt?",
-      "es": "¿Cuál era el propósito principal de la momificación en el Antiguo Egipto?"
+      "en": "Why did the ancient Egyptians turn their dead into mummies?",
+      "es": "¿Por qué los antiguos egipcios convertían a sus muertos en momias?"
     },
     "options": [
       {
-        "en": "To preserve the body for the afterlife",
-        "es": "Preservar el cuerpo para la vida después de la muerte"
+        "en": "To keep the body safe for the afterlife",
+        "es": "Para conservar el cuerpo para la otra vida"
       },
       {
-        "en": "To prevent the spread of disease",
-        "es": "Prevenir la propagación de enfermedades"
+        "en": "To stop diseases from spreading",
+        "es": "Para evitar que se propagaran enfermedades"
+      },
+      {
+        "en": "To show how rich the family was",
+        "es": "Para mostrar lo rica que era la familia"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Ancient Egyptians believed the soul (ka) needed to return to the body after death. Mummification — a 70-day process involving removal of organs, desiccation with natron salt, and wrapping in linen — preserved the body so the soul could reside in it for eternity.",
-      "es": "Los egipcios creían que el alma (ka) necesitaba regresar al cuerpo tras la muerte. La momificación —un proceso de 70 días que incluía extracción de órganos, desecación con sal de natrón y envoltura en lino— preservaba el cuerpo para que el alma pudiera habitarlo eternamente."
+      "en": "Egyptians believed that a person needed their body after death. Experts took out the organs, dried the body with salt and wrapped it in linen. The process took about 70 days.",
+      "es": "Los egipcios creían que una persona necesitaba su cuerpo después de morir. Los expertos sacaban los órganos, secaban el cuerpo con sal y lo envolvían en lino. El proceso duraba unos 70 días."
     },
     "meanwhile": {
-      "en": "Around 1300 BCE, on the other side of the world, China's Shang Dynasty was inscribing questions for the dead on oracle bones and burning them to receive divine answers — another civilization building elaborate rituals to communicate with the afterlife.",
-      "es": "Alrededor del 1300 a.C., al otro lado del mundo, la dinastía Shang de China inscribía preguntas para los muertos en huesos oraculares y los quemaba para recibir respuestas divinas: otra civilización construyendo rituales elaborados para comunicarse con el más allá."
+      "en": "Around 1300 BCE, in China, Shang kings asked the spirits questions by cutting words into animal bones, called oracle bones.",
+      "es": "Alrededor del 1300 a. C., en China, los reyes Shang hacían preguntas a los espíritus grabando palabras en huesos de animales, llamados huesos oraculares."
     },
     "reflection": {
-      "en": "Egyptians spent 70 days preparing a body for eternity. We almost never think about death. Does confronting your own mortality change the way you want to spend your time?",
-      "es": "Los egipcios dedicaban 70 días a preparar un cuerpo para la eternidad. Casi nunca pensamos en la muerte. ¿Enfrentar tu propia mortalidad cambia la manera en que quieres usar tu tiempo?"
-    }
+      "en": "The Egyptians planned for death for months. How do you feel about thinking about the end of life?",
+      "es": "Los egipcios preparaban la muerte durante meses. ¿Cómo te sientes al pensar en el final de la vida?"
+    },
+    "vocab": [
+      {
+        "term": "mummies",
+        "es": "momias"
+      },
+      {
+        "term": "wrapped",
+        "es": "envolvían"
+      },
+      {
+        "term": "organs",
+        "es": "órganos"
+      },
+      {
+        "term": "linen",
+        "es": "lino"
+      }
+    ]
   },
   {
     "id": "eg-003",
@@ -79,9 +125,10 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Which famous female pharaoh ruled Egypt and led it to great prosperity?",
-      "es": "¿Qué famosa faraona gobernó Egipto y lo llevó a una gran prosperidad?"
+      "en": "Which famous woman ruled Egypt as pharaoh for about 20 years?",
+      "es": "¿Qué mujer famosa gobernó Egipto como faraón durante unos 20 años?"
     },
     "options": [
       {
@@ -91,21 +138,43 @@
       {
         "en": "Nefertiti",
         "es": "Nefertiti"
+      },
+      {
+        "en": "Isis",
+        "es": "Isis"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Hatshepsut (1507–1458 BCE) was one of Egypt's most successful pharaohs, reigning for about 22 years. She expanded trade networks, commissioned monumental building projects, and presented herself in male pharaonic regalia. After her death, her successor tried to erase her from history.",
-      "es": "Hatshepsut (1507–1458 a.C.) fue una de las faraonos más exitosas de Egipto. Gobernó unos 22 años, expandió redes comerciales, encargó monumentales obras y se presentó con atributos masculinos del faraón. Tras su muerte, su sucesor intentó borrarla de la historia."
+      "en": "Hatshepsut ruled Egypt around 1470 BCE. She sent ships to trade and built a beautiful temple. She often wore the clothes of a male pharaoh. After her death, her name was cut from many walls.",
+      "es": "Hatshepsut gobernó Egipto alrededor del 1470 a. C. Envió barcos a comerciar y construyó un hermoso templo. A menudo usaba la ropa de un faraón hombre. Después de su muerte, su nombre fue borrado de muchas paredes."
     },
     "meanwhile": {
-      "en": "Around 1470 BCE, in Greece, the Minoan civilization on Crete was approaching its mysterious collapse — a powerful culture that also featured prominent female figures in its religion and art, about to vanish from history as Hatshepsut reached her peak.",
-      "es": "Hacia el 1470 a.C., en Grecia, la civilización minoica de Creta se acercaba a su misterioso colapso: una cultura poderosa que también tenía figuras femeninas prominentes en su religión y arte, a punto de desaparecer de la historia mientras Hatshepsut alcanzaba su apogeo."
+      "en": "Around 1470 BCE, on the island of Crete, the Minoans made colorful wall paintings of people, bulls and dolphins.",
+      "es": "Alrededor del 1470 a. C., en la isla de Creta, los minoicos hacían coloridas pinturas en las paredes con personas, toros y delfines."
     },
     "reflection": {
-      "en": "Hatshepsut ruled successfully for 22 years and was then erased from history. Whose achievements go unrecognized in your world today — and what would change if their story were finally told?",
-      "es": "Hatshepsut gobernó con éxito durante 22 años y luego fue borrada de la historia. ¿Qué logros pasan desapercibidos en tu mundo hoy, y qué cambiaría si esa historia finalmente se contara?"
-    }
+      "en": "Hatshepsut ruled well, but someone tried to erase her. Whose work have people forgotten in your world?",
+      "es": "Hatshepsut gobernó bien, pero alguien intentó borrarla. ¿Qué trabajo ha sido olvidado por la gente en tu mundo?"
+    },
+    "vocab": [
+      {
+        "term": "ruled",
+        "es": "gobernó"
+      },
+      {
+        "term": "trade",
+        "es": "comerciar"
+      },
+      {
+        "term": "temple",
+        "es": "templo"
+      },
+      {
+        "term": "erase",
+        "es": "borrar"
+      }
+    ]
   },
   {
     "id": "eg-004",
@@ -115,33 +184,56 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was the Rosetta Stone crucial for unlocking?",
-      "es": "¿Para qué fue crucial la Piedra de Rosetta?"
+      "en": "What did the Rosetta Stone help scientists to understand?",
+      "es": "¿Qué ayudó a entender la Piedra de Rosetta a los científicos?"
     },
     "options": [
       {
-        "en": "Deciphering ancient Egyptian hieroglyphics",
-        "es": "Descifrar los jeroglíficos egipcios antiguos"
+        "en": "Egyptian hieroglyphs",
+        "es": "Los jeroglíficos egipcios"
       },
       {
-        "en": "Mapping the course of the Nile River",
-        "es": "Trazar el curso del río Nilo"
+        "en": "The path of the Nile",
+        "es": "El recorrido del Nilo"
+      },
+      {
+        "en": "The Roman calendar",
+        "es": "El calendario romano"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Discovered in 1799 by French soldiers, the Rosetta Stone contains the same priestly decree written in hieroglyphics, Demotic script, and Ancient Greek. By 1822, Jean-François Champollion used it to crack the hieroglyphic code, unlocking 3,000 years of Egyptian written history.",
-      "es": "Descubierta en 1799 por soldados franceses, la Piedra de Rosetta contiene el mismo decreto sacerdotal en jeroglíficos, demótico y griego antiguo. En 1822, Jean-François Champollion la usó para descifrar el código jeroglífico, revelando 3.000 años de historia escrita egipcia."
+      "en": "French soldiers found the Rosetta Stone in 1799. It has the same message in three kinds of writing: hieroglyphs, a simpler Egyptian script and Greek. Scientists could read the Greek, so they used it to solve the hieroglyphs.",
+      "es": "Soldados franceses encontraron la Piedra de Rosetta en 1799. Tiene el mismo mensaje en tres tipos de escritura: jeroglíficos, una escritura egipcia más simple y griego. Los científicos podían leer el griego, así que lo usaron para descifrar los jeroglíficos."
     },
     "meanwhile": {
-      "en": "In 1799, while French soldiers unearthed the Rosetta Stone in Egypt, Napoleon was losing his Egyptian campaign and retreating to Europe — where he would soon seize power in France and redraw the continent's borders for a generation.",
-      "es": "En 1799, mientras soldados franceses desenterraban la Piedra de Rosetta en Egipto, Napoleón perdía su campaña egipcia y retrocedía hacia Europa, donde pronto tomaría el poder en Francia y rediseñaría las fronteras del continente por una generación."
+      "en": "In 1799, Napoleon left Egypt and returned to France. Soon after, he took power there.",
+      "es": "En 1799, Napoleón dejó Egipto y volvió a Francia. Poco después, tomó el poder allí."
     },
     "reflection": {
-      "en": "A single stone found by accident unlocked 3,000 years of human writing. What object or encounter in your own life has unexpectedly opened a door to understanding something much larger?",
-      "es": "Una sola piedra encontrada por accidente desbloqueó 3.000 años de escritura humana. ¿Qué objeto o encuentro en tu propia vida abrió inesperadamente una puerta hacia algo mucho más grande?"
-    }
+      "en": "One stone with three languages opened 3,000 years of history. What small thing helped you understand something big?",
+      "es": "Una piedra con tres idiomas abrió 3.000 años de historia. ¿Qué cosa pequeña te ayudó a entender algo grande?"
+    },
+    "vocab": [
+      {
+        "term": "hieroglyphs",
+        "es": "jeroglíficos"
+      },
+      {
+        "term": "script",
+        "es": "escritura"
+      },
+      {
+        "term": "message",
+        "es": "mensaje"
+      },
+      {
+        "term": "solve",
+        "es": "descifrar"
+      }
+    ]
   },
   {
     "id": "eg-005",
@@ -151,33 +243,56 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "What was Cleopatra VII's actual native language?",
-      "es": "¿Cuál era el idioma nativo real de Cleopatra VII?"
+      "en": "What language did Cleopatra speak as her first language?",
+      "es": "¿Qué idioma hablaba Cleopatra como lengua materna?"
     },
     "options": [
       {
-        "en": "Greek — she was of Macedonian descent",
-        "es": "Griego, era de descendencia macedónica"
+        "en": "Greek",
+        "es": "Griego"
       },
       {
         "en": "Ancient Egyptian",
         "es": "Egipcio antiguo"
+      },
+      {
+        "en": "Latin",
+        "es": "Latín"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Cleopatra VII (69–30 BCE) was of Macedonian Greek descent — her family, the Ptolemaic dynasty, had ruled Egypt since 305 BCE but spoke Greek. Remarkably, she was the first of her dynasty to actually learn Egyptian, along with several other languages including Latin.",
-      "es": "Cleopatra VII (69–30 a.C.) era de descendencia griega macedónica. Su familia, la dinastía ptolemaica, gobernó Egipto desde 305 a.C. pero hablaba griego. Notablemente, fue la primera de su dinastía en aprender egipcio, además de otros idiomas como el latín."
+      "en": "Cleopatra came from the Ptolemies, a Greek family from Macedonia that ruled Egypt for almost 300 years. Most of them never learned Egyptian. Cleopatra did. She also spoke several other languages.",
+      "es": "Cleopatra venía de los Ptolomeos, una familia griega de Macedonia que gobernó Egipto durante casi 300 años. La mayoría nunca aprendió egipcio. Cleopatra sí lo hizo. También hablaba varios idiomas más."
     },
     "meanwhile": {
-      "en": "Around 50 BCE, in Rome, Julius Caesar and Pompey were tearing the Republic apart in civil war — the same conflict that brought Caesar to Egypt, where he met Cleopatra and altered the fate of two civilizations in a single encounter.",
-      "es": "Hacia el 50 a.C., en Roma, Julio César y Pompeyo desgarraban la República en una guerra civil: el mismo conflicto que llevó a César a Egipto, donde conoció a Cleopatra y alteró el destino de dos civilizaciones en un solo encuentro."
+      "en": "Around 50 BCE, in Rome, Julius Caesar and Pompey fought a civil war. It brought Caesar to Egypt, where he met Cleopatra.",
+      "es": "Alrededor del 50 a. C., en Roma, Julio César y Pompeyo libraron una guerra civil. Eso llevó a César a Egipto, donde conoció a Cleopatra."
     },
     "reflection": {
-      "en": "Cleopatra was the first of her dynasty to speak the language of the people she governed. When has learning someone else's perspective — their language, literally or figuratively — changed how you understood a situation?",
-      "es": "Cleopatra fue la primera de su dinastía en hablar el idioma del pueblo que gobernaba. ¿Cuándo aprender la perspectiva de otra persona —su idioma, literal o figuradamente— cambió tu forma de entender una situación?"
-    }
+      "en": "Cleopatra learned the language of her people. When did learning someone's language help you understand them better?",
+      "es": "Cleopatra aprendió el idioma de su pueblo. ¿Cuándo aprender el idioma de alguien te ayudó a entenderlo mejor?"
+    },
+    "vocab": [
+      {
+        "term": "ruled",
+        "es": "gobernó"
+      },
+      {
+        "term": "civil war",
+        "es": "guerra civil"
+      },
+      {
+        "term": "family",
+        "es": "familia"
+      },
+      {
+        "term": "several",
+        "es": "varios"
+      }
+    ]
   },
   {
     "id": "eg-006",
@@ -187,9 +302,10 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Which god was considered the ruler of the Egyptian underworld?",
-      "es": "¿Qué dios era considerado el gobernante del inframundo egipcio?"
+      "en": "Which god ruled the Egyptian world of the dead?",
+      "es": "¿Qué dios gobernaba el mundo de los muertos egipcio?"
     },
     "options": [
       {
@@ -199,21 +315,43 @@
       {
         "en": "Ra",
         "es": "Ra"
+      },
+      {
+        "en": "Horus",
+        "es": "Horus"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Osiris was the god of the afterlife, death, and resurrection. His myth — betrayed and killed by his brother Set, then resurrected by his wife Isis — became one of the most influential religious narratives in history, influencing later beliefs about death, judgment, and rebirth across Mediterranean cultures.",
-      "es": "Osiris era el dios del más allá, la muerte y la resurrección. Su mito —traicionado y asesinado por su hermano Set, luego resucitado por su esposa Isis— se convirtió en una de las narrativas religiosas más influyentes de la historia, influyendo en creencias sobre la muerte, el juicio y el renacimiento."
+      "en": "Osiris was the god of the dead and of new life. In the old story, his brother Set killed him. His wife Isis brought him back to life. Egyptians hoped to live again, like Osiris.",
+      "es": "Osiris era el dios de los muertos y de la nueva vida. En el viejo relato, su hermano Set lo mató. Su esposa Isis lo devolvió a la vida. Los egipcios esperaban vivir otra vez, como Osiris."
     },
     "meanwhile": {
-      "en": "Around 1200 BCE, the Bronze Age world was collapsing in a mysterious catastrophe — civilizations from Greece to Mesopotamia crumbled within decades. Egypt, anchored by its belief in Osiris and the cycle of death and rebirth, was one of the very few to survive.",
-      "es": "Hacia el 1200 a.C., el mundo de la Edad del Bronce se derrumbaba en una misteriosa catástrofe: civilizaciones desde Grecia hasta Mesopotamia colapsaron en pocas décadas. Egipto, anclado en su fe en Osiris y el ciclo de muerte y renacimiento, fue uno de los pocos que sobrevivió."
+      "en": "Around 1200 BCE, many Bronze Age cities around the Mediterranean were burned or abandoned. Egypt survived, but it became weaker.",
+      "es": "Alrededor del 1200 a. C., muchas ciudades de la Edad del Bronce en el Mediterráneo fueron quemadas o abandonadas. Egipto sobrevivió, pero se debilitó."
     },
     "reflection": {
-      "en": "Stories of death and resurrection appear across dozens of unconnected cultures throughout history. Which story or belief helps you make sense of loss or endings in your own life?",
-      "es": "Las historias de muerte y resurrección aparecen en decenas de culturas desconectadas a lo largo de la historia. ¿Qué relato o creencia te ayuda a encontrarle sentido a las pérdidas o los finales en tu propia vida?"
-    }
+      "en": "Many cultures tell stories of death and return. Which story helps you in difficult times?",
+      "es": "Muchas culturas cuentan historias de muerte y regreso. ¿Qué historia te ayuda en los momentos difíciles?"
+    },
+    "vocab": [
+      {
+        "term": "ruled",
+        "es": "gobernaba"
+      },
+      {
+        "term": "brought him back",
+        "es": "lo devolvió"
+      },
+      {
+        "term": "abandoned",
+        "es": "abandonadas"
+      },
+      {
+        "term": "survived",
+        "es": "sobrevivió"
+      }
+    ]
   },
   {
     "id": "eg-007",
@@ -223,9 +361,10 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Which river was the absolute lifeline of Egyptian civilization?",
-      "es": "¿Qué río fue el sustento absoluto de la civilización egipcia?"
+      "en": "Which river gave life to ancient Egypt?",
+      "es": "¿Qué río le dio vida al antiguo Egipto?"
     },
     "options": [
       {
@@ -233,23 +372,45 @@
         "es": "El Nilo"
       },
       {
-        "en": "The Euphrates",
-        "es": "El Éufrates"
+        "en": "The Tigris",
+        "es": "El Tigris"
+      },
+      {
+        "en": "The Jordan",
+        "es": "El Jordán"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Nile — the world's longest river — provided Egypt with annual floods that deposited rich silt on its banks, creating strips of fertile land in an otherwise barren desert. Without the Nile, Egypt could not have sustained agriculture, population, or civilization. The historian Herodotus called Egypt 'the gift of the Nile.'",
-      "es": "El Nilo —el río más largo del mundo— dotó a Egipto de inundaciones anuales que depositaban limo fértil en sus orillas, creando franjas de tierra cultivable en un desierto árido. Sin el Nilo, Egipto no hubiera podido sostener agricultura, población ni civilización. Heródoto lo llamó 'el regalo del Nilo.'"
+      "en": "Every year the Nile flooded and left rich black soil on its banks. Farmers grew wheat and vegetables there. Outside this green strip, there was only desert. The Greek writer Herodotus called Egypt \"the gift of the Nile\".",
+      "es": "Cada año el Nilo se desbordaba y dejaba tierra negra y rica en sus orillas. Los agricultores cultivaban trigo y verduras allí. Fuera de esa franja verde solo había desierto. El escritor griego Heródoto llamó a Egipto \"el regalo del Nilo\"."
     },
     "meanwhile": {
-      "en": "Around 3000 BCE, in Mesopotamia, Sumerian cities were rising along the Tigris and Euphrates for the same reason — river floods that fertilized the land each year. Two great civilizations born from the identical gift of water, with no knowledge of each other.",
-      "es": "Hacia el 3000 a.C., en Mesopotamia, las ciudades sumerias surgían a orillas del Tigris y el Éufrates por la misma razón: inundaciones fluviales que fertilizaban la tierra cada año. Dos grandes civilizaciones nacidas del mismo regalo del agua, sin conocerse entre sí."
+      "en": "Around 3000 BCE, the Sumerians in Mesopotamia also lived between two rivers, the Tigris and the Euphrates.",
+      "es": "Alrededor del 3000 a. C., los sumerios de Mesopotamia también vivían entre dos ríos, el Tigris y el Éufrates."
     },
     "reflection": {
-      "en": "An entire civilization depended on a single river for everything — food, religion, time itself. What resource, relationship, or habit is your life most dependent on, and have you ever stopped to consider what would happen if it disappeared?",
-      "es": "Una civilización entera dependía de un solo río para todo: alimento, religión, hasta el tiempo mismo. ¿De qué recurso, relación o hábito depende más tu vida, y alguna vez te detuviste a pensar qué pasaría si desapareciera?"
-    }
+      "en": "A whole country depended on one river. What is the \"river\" that your life depends on?",
+      "es": "Todo un país dependía de un solo río. ¿Cuál es el \"río\" del que depende tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "flooded",
+        "es": "se desbordaba"
+      },
+      {
+        "term": "soil",
+        "es": "tierra"
+      },
+      {
+        "term": "farmers",
+        "es": "agricultores"
+      },
+      {
+        "term": "desert",
+        "es": "desierto"
+      }
+    ]
   },
   {
     "id": "eg-008",
@@ -259,9 +420,10 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "The Great Sphinx of Giza is believed to represent which pharaoh?",
-      "es": "Se cree que la Gran Esfinge de Giza representa a qué faraón?"
+      "en": "Which pharaoh's face is thought to be on the Great Sphinx of Giza?",
+      "es": "¿Qué faraón se cree que está representado en el rostro de la Gran Esfinge de Guiza?"
     },
     "options": [
       {
@@ -271,21 +433,43 @@
       {
         "en": "Tutankhamun",
         "es": "Tutankamón"
+      },
+      {
+        "en": "Akhenaten",
+        "es": "Akenatón"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Most Egyptologists believe the Great Sphinx was built during Khafre's reign (c. 2558–2532 BCE). Its face is thought to be a portrait of Khafre, and it sits near his pyramid on the Giza plateau. The Sphinx is carved from a single mass of limestone bedrock and is about 4,500 years old.",
-      "es": "La mayoría de los egiptólogos cree que la Gran Esfinge fue construida durante el reinado de Kefrén (c. 2558–2532 a.C.). Se cree que su rostro es un retrato de Kefrén, y se encuentra cerca de su pirámide en la meseta de Giza. Está tallada en un afloramiento de caliza y tiene unos 4.500 años."
+      "en": "The Great Sphinx has the body of a lion and a human head. Most experts think it was made for Pharaoh Khafre, about 4,500 years ago. It was carved from one huge piece of rock, close to his pyramid.",
+      "es": "La Gran Esfinge tiene cuerpo de león y cabeza humana. La mayoría de los expertos cree que se hizo para el faraón Kefrén, hace unos 4.500 años. Fue tallada en una enorme pieza de roca, cerca de su pirámide."
     },
     "meanwhile": {
-      "en": "Around 2530 BCE, in the Indus Valley (present-day Pakistan), the cities of Harappa and Mohenjo-daro were thriving — with sophisticated sewage systems, standardized weights, and urban planning that wouldn't be matched in Europe for thousands of years.",
-      "es": "Hacia el 2530 a.C., en el Valle del Indo (actual Pakistán), las ciudades de Harappa y Mohenjo-daro prosperaban con sofisticados sistemas de alcantarillado, pesos estandarizados y planificación urbana que Europa no alcanzaría por miles de años."
+      "en": "Around 2500 BCE, people in southern England were raising the great stones of Stonehenge.",
+      "es": "Alrededor del 2500 a. C., en el sur de Inglaterra se levantaban las grandes piedras de Stonehenge."
     },
     "reflection": {
-      "en": "The Sphinx has watched civilizations rise and fall for 4,500 years. If one monument of our era were still standing in the year 6500, what would you want it to be — and what would it say about us?",
-      "es": "La Esfinge ha observado el surgimiento y caída de civilizaciones durante 4.500 años. Si un monumento de nuestra era siguiera en pie en el año 6500, ¿cuál querrías que fuera, y qué diría de nosotros?"
-    }
+      "en": "The Sphinx has watched the world for 4,500 years. What would you like a monument of our time to say to the future?",
+      "es": "La Esfinge ha mirado el mundo durante 4.500 años. ¿Qué te gustaría que un monumento de nuestra época le dijera al futuro?"
+    },
+    "vocab": [
+      {
+        "term": "carved",
+        "es": "tallada"
+      },
+      {
+        "term": "rock",
+        "es": "roca"
+      },
+      {
+        "term": "monument",
+        "es": "monumento"
+      },
+      {
+        "term": "experts",
+        "es": "expertos"
+      }
+    ]
   },
   {
     "id": "eg-009",
@@ -295,9 +479,10 @@
       "es": "Egipto Antiguo"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "What writing material did ancient Egyptians develop from a river plant?",
-      "es": "¿Qué material de escritura desarrollaron los egipcios a partir de una planta del río?"
+      "en": "What did Egyptians make from a plant to write on?",
+      "es": "¿Qué fabricaban los egipcios con una planta para escribir?"
     },
     "options": [
       {
@@ -307,21 +492,43 @@
       {
         "en": "Parchment",
         "es": "Pergamino"
+      },
+      {
+        "en": "Clay tablets",
+        "es": "Tablillas de arcilla"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Papyrus was made by slicing the stems of the papyrus plant (abundant along the Nile), layering the strips crosswise, and pressing them together. It was far lighter and easier to produce than clay tablets, enabling Egypt to create portable libraries of medical, religious, and legal texts.",
-      "es": "El papiro se fabricaba cortando los tallos de la planta de papiro (abundante junto al Nilo), superponiendo las tiras en cruz y prenSándolas. Era mucho más ligero y fácil de producir que las tablillas de arcilla, lo que permitió a Egipto crear bibliotecas portátiles de textos médicos, religiosos y legales."
+      "en": "Egyptians cut the stems of the papyrus plant into thin strips. They laid the strips across each other and pressed them flat. The result was light and easy to roll up. With papyrus, they could keep records, letters and stories.",
+      "es": "Los egipcios cortaban los tallos de la planta de papiro en tiras finas. Las colocaban cruzadas y las prensaban. El resultado era liviano y fácil de enrollar. Con el papiro podían guardar registros, cartas e historias."
     },
     "meanwhile": {
-      "en": "Around 3000 BCE, the Sumerians of Mesopotamia were simultaneously inventing cuneiform writing on clay tablets — two entirely different solutions to the same human need: preserving thought across time and carrying it beyond the people who had it.",
-      "es": "Hacia el 3000 a.C., los sumerios de Mesopotamia inventaban simultáneamente la escritura cuneiforme en tablillas de arcilla: dos soluciones completamente distintas para la misma necesidad humana, preservar el pensamiento a través del tiempo y llevarlo más allá de quienes lo tuvieron."
+      "en": "Around 3000 BCE, the Sumerians wrote on soft clay with a stick. This writing is called cuneiform.",
+      "es": "Alrededor del 3000 a. C., los sumerios escribían sobre arcilla blanda con un palillo. Esta escritura se llama cuneiforme."
     },
     "reflection": {
-      "en": "Papyrus let ideas travel beyond the people who had them. Which book, text, or idea has traveled farthest to reach you — and changed the way you see yourself or the world?",
-      "es": "El papiro permitió que las ideas viajaran más allá de quienes las tuvieron. ¿Qué libro, texto o idea viajó más lejos para llegar a vos, y cambió la manera en que te ves a ti mismo o al mundo?"
-    }
+      "en": "Papyrus let ideas travel far. Which book or idea traveled a long way to reach you?",
+      "es": "El papiro permitió que las ideas viajaran lejos. ¿Qué libro o idea viajó mucho hasta llegar a ti?"
+    },
+    "vocab": [
+      {
+        "term": "stems",
+        "es": "tallos"
+      },
+      {
+        "term": "strips",
+        "es": "tiras"
+      },
+      {
+        "term": "roll up",
+        "es": "enrollar"
+      },
+      {
+        "term": "records",
+        "es": "registros"
+      }
+    ]
   },
   {
     "id": "eg-010",
@@ -330,33 +537,1236 @@
       "en": "Ancient Egypt",
       "es": "Egipto Antiguo"
     },
-    "difficulty": "hard",
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Egyptian pharaohs were considered what in relation to the gods?",
-      "es": "Los faraones egipcios eran considerados ¿qué en relación con los dioses?"
+      "en": "What did Egyptians believe about their pharaoh?",
+      "es": "¿Qué creían los egipcios sobre su faraón?"
     },
     "options": [
       {
-        "en": "Living gods on Earth",
-        "es": "Dioses vivientes en la Tierra"
+        "en": "That he was a god living on Earth",
+        "es": "Que era un dios que vivía en la Tierra"
       },
       {
-        "en": "High priests chosen by the gods",
-        "es": "Sumos sacerdotes elegidos por los dioses"
+        "en": "That he was chosen by the priests",
+        "es": "Que había sido elegido por los sacerdotes"
+      },
+      {
+        "en": "That he was a servant of the people",
+        "es": "Que era un servidor del pueblo"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Egyptian pharaohs were believed to be literal incarnations of the god Horus while living, and became the god Osiris upon death. This divine status gave them absolute political, religious, and judicial authority — they were not merely rulers but gods walking among humans, responsible for maintaining Ma'at (cosmic order).",
-      "es": "Se creía que los faraones egipcios eran encarnaciones literales del dios Horus en vida, y se convertían en el dios Osiris al morir. Este estatus divino les otorgaba autoridad política, religiosa y judicial absoluta: no eran solo gobernantes, sino dioses que caminaban entre humanos, responsables de mantener Ma'at (el orden cósmico)."
+      "en": "Egyptians saw the pharaoh as the living form of the god Horus. After death, he became Osiris. His job was to keep Ma'at, the order of the world. Nobody could question his decisions.",
+      "es": "Los egipcios veían al faraón como la forma viva del dios Horus. Después de morir, se convertía en Osiris. Su trabajo era mantener la Maat, el orden del mundo. Nadie podía cuestionar sus decisiones."
     },
     "meanwhile": {
-      "en": "Around 600 BCE, in Persia, Cyrus the Great built one of history's largest empires on a radically different philosophy — he declared himself king, not god, and issued what is considered the world's first charter of human rights.",
-      "es": "Hacia el 600 a.C., en Persia, Ciro el Grande construyó uno de los imperios más grandes de la historia sobre una filosofía radicalmente diferente: se declaró rey, no dios, y emitió lo que se considera la primera carta de derechos humanos del mundo."
+      "en": "Around 550 BCE, Cyrus the Great of Persia built a huge empire. He allowed people in it to keep their own religions and customs.",
+      "es": "Alrededor del 550 a. C., Ciro el Grande de Persia construyó un enorme imperio. Permitió a los pueblos conservar sus religiones y costumbres."
     },
     "reflection": {
-      "en": "Pharaohs fused divine authority with political power, making every decree feel beyond question. Think of a leader today who uses moral or sacred language to legitimize their decisions. Does that language make you more or less likely to question them?",
-      "es": "Los faraones fusionaron autoridad divina con poder político, haciendo que cada decreto pareciera incuestionable. Piensa en un líder actual que use lenguaje moral o sagrado para legitimar sus decisiones. ¿Ese lenguaje te hace más o menos propenso a cuestionarlos?"
-    }
+      "en": "When a leader speaks like a god, it is hard to say \"no\". How do you decide when to question a leader?",
+      "es": "Cuando un líder habla como un dios, es difícil decir \"no\". ¿Cómo decides cuándo cuestionar a un líder?"
+    },
+    "vocab": [
+      {
+        "term": "pharaoh",
+        "es": "faraón"
+      },
+      {
+        "term": "order",
+        "es": "orden"
+      },
+      {
+        "term": "question",
+        "es": "cuestionar"
+      },
+      {
+        "term": "customs",
+        "es": "costumbres"
+      }
+    ]
+  },
+  {
+    "id": "eg-011",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In 1922, Howard Carter found the tomb of which young pharaoh?",
+      "es": "En 1922, Howard Carter encontró la tumba de un joven faraón. ¿De cuál?"
+    },
+    "options": [
+      {
+        "en": "Tutankhamun",
+        "es": "Tutankamón"
+      },
+      {
+        "en": "Ramesses II",
+        "es": "Ramsés II"
+      },
+      {
+        "en": "Khufu",
+        "es": "Keops"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Tutankhamun became pharaoh at about nine years old and died at around eighteen. Thieves had robbed almost every other royal tomb, but his was nearly untouched. Carter found golden masks, jewelry, chariots and thousands of objects.",
+      "es": "Tutankamón fue faraón a los nueve años y murió a los dieciocho, más o menos. Los ladrones habían robado casi todas las otras tumbas reales, pero la suya casi no había sido tocada. Carter encontró máscaras de oro, joyas, carros y miles de objetos."
+    },
+    "meanwhile": {
+      "en": "In 1922, the Irish writer James Joyce published his famous novel Ulysses in Paris.",
+      "es": "En 1922, el escritor irlandés James Joyce publicó su famosa novela Ulises en París."
+    },
+    "reflection": {
+      "en": "The tomb stayed hidden for 3,000 years. What treasure is waiting to be found in your own family history?",
+      "es": "La tumba permaneció oculta durante 3.000 años. ¿Qué tesoro espera ser descubierto en la historia de tu familia?"
+    },
+    "vocab": [
+      {
+        "term": "tomb",
+        "es": "tumba"
+      },
+      {
+        "term": "thieves",
+        "es": "ladrones"
+      },
+      {
+        "term": "masks",
+        "es": "máscaras"
+      },
+      {
+        "term": "jewelry",
+        "es": "joyas"
+      }
+    ]
+  },
+  {
+    "id": "eg-012",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Where were most pharaohs of the New Kingdom buried?",
+      "es": "¿Dónde fueron enterrados la mayoría de los faraones del Imperio Nuevo?"
+    },
+    "options": [
+      {
+        "en": "In the Valley of the Kings",
+        "es": "En el Valle de los Reyes"
+      },
+      {
+        "en": "Inside the Great Pyramid",
+        "es": "Dentro de la Gran Pirámide"
+      },
+      {
+        "en": "Under the Sphinx",
+        "es": "Debajo de la Esfinge"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Pyramids were easy to see, so thieves robbed them. New Kingdom pharaohs, from about 1500 BCE, chose a hidden valley near Thebes. Their tombs were cut deep into the rock. More than 60 tombs have been found there.",
+      "es": "Las pirámides se veían de lejos y los ladrones las robaban. Los faraones del Imperio Nuevo, desde alrededor del 1500 a. C., eligieron un valle escondido cerca de Tebas. Sus tumbas se excavaron en lo profundo de la roca. Allí se han encontrado más de 60 tumbas."
+    },
+    "meanwhile": {
+      "en": "Around 1500 BCE, the Olmec people in Mexico were building the first big ceremonial centers in the Americas.",
+      "es": "Alrededor del 1500 a. C., los olmecas de México construían los primeros grandes centros ceremoniales de las Américas."
+    },
+    "reflection": {
+      "en": "The pharaohs hid their treasure, but thieves still found it. Is it possible to keep something safe forever?",
+      "es": "Los faraones escondieron su tesoro, pero los ladrones igual lo encontraron. ¿Es posible mantener algo a salvo para siempre?"
+    },
+    "vocab": [
+      {
+        "term": "buried",
+        "es": "enterrados"
+      },
+      {
+        "term": "thieves",
+        "es": "ladrones"
+      },
+      {
+        "term": "valley",
+        "es": "valle"
+      },
+      {
+        "term": "robbed",
+        "es": "robaban"
+      }
+    ]
+  },
+  {
+    "id": "eg-013",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What was special about the treaty that Ramesses II signed with the Hittites around 1259 BCE?",
+      "es": "¿Qué tuvo de especial el tratado que Ramsés II firmó con los hititas alrededor del 1259 a. C.?"
+    },
+    "options": [
+      {
+        "en": "It is one of the oldest peace treaties we know",
+        "es": "Es uno de los tratados de paz más antiguos que conocemos"
+      },
+      {
+        "en": "It gave Egypt control of the Hittite lands",
+        "es": "Le dio a Egipto el control de las tierras hititas"
+      },
+      {
+        "en": "It ended all wars in the region forever",
+        "es": "Puso fin para siempre a todas las guerras de la región"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Egypt and the Hittite Empire fought at Kadesh around 1274 BCE, and nobody clearly won. About 15 years later, the two kings agreed to peace and promised to help each other. Copies were written on clay tablets and on temple walls. A copy is displayed at the United Nations.",
+      "es": "Egipto y el Imperio hitita lucharon en Kadesh alrededor del 1274 a. C., y nadie ganó con claridad. Unos 15 años después, los dos reyes acordaron la paz y prometieron ayudarse. Se escribieron copias en tablillas de arcilla y en paredes de templos. Una copia se exhibe en las Naciones Unidas."
+    },
+    "meanwhile": {
+      "en": "Around 1250 BCE, Shang kings in China ruled from the city of Anyang and used bronze for ceremonies and weapons.",
+      "es": "Alrededor del 1250 a. C., los reyes Shang de China gobernaban desde la ciudad de Anyang y usaban el bronce para ceremonias y armas."
+    },
+    "reflection": {
+      "en": "Two rivals chose peace after a war with no winner. When did you choose to stop a fight instead of winning it?",
+      "es": "Dos rivales eligieron la paz después de una guerra sin ganador. ¿Cuándo elegiste terminar una pelea en lugar de ganarla?"
+    },
+    "vocab": [
+      {
+        "term": "treaty",
+        "es": "tratado"
+      },
+      {
+        "term": "peace",
+        "es": "paz"
+      },
+      {
+        "term": "clay tablets",
+        "es": "tablillas de arcilla"
+      },
+      {
+        "term": "rivals",
+        "es": "rivales"
+      }
+    ]
+  },
+  {
+    "id": "eg-014",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How many days did the Egyptian calendar have?",
+      "es": "¿Cuántos días tenía el calendario egipcio?"
+    },
+    "options": [
+      {
+        "en": "365 days",
+        "es": "365 días"
+      },
+      {
+        "en": "354 days",
+        "es": "354 días"
+      },
+      {
+        "en": "400 days",
+        "es": "400 días"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Egyptians watched the Nile and the star Sirius to count time. Their year had 12 months of 30 days, plus 5 extra days at the end. They also had three seasons: flood, growth and harvest. Our modern calendar comes from this idea.",
+      "es": "Los egipcios observaban el Nilo y la estrella Sirio para contar el tiempo. Su año tenía 12 meses de 30 días, más 5 días extra al final. También tenían tres estaciones: inundación, crecimiento y cosecha. Nuestro calendario moderno viene de esta idea."
+    },
+    "meanwhile": {
+      "en": "Around 2000 BCE, the Babylonians in Mesopotamia used the number 60. This is why we have 60 minutes in an hour.",
+      "es": "Alrededor del 2000 a. C., los babilonios de Mesopotamia usaban el número 60. Por eso tenemos 60 minutos en una hora."
+    },
+    "reflection": {
+      "en": "Egyptians organized their year around nature. How does nature change your daily life?",
+      "es": "Los egipcios organizaban su año según la naturaleza. ¿Cómo cambia la naturaleza tu vida diaria?"
+    },
+    "vocab": [
+      {
+        "term": "calendar",
+        "es": "calendario"
+      },
+      {
+        "term": "flood",
+        "es": "inundación"
+      },
+      {
+        "term": "harvest",
+        "es": "cosecha"
+      },
+      {
+        "term": "seasons",
+        "es": "estaciones"
+      }
+    ]
+  },
+  {
+    "id": "eg-015",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which pharaoh tried to make Egyptians worship only one god, the Aten?",
+      "es": "¿Qué faraón intentó que los egipcios adoraran a un solo dios, el Atón?"
+    },
+    "options": [
+      {
+        "en": "Akhenaten",
+        "es": "Akenatón"
+      },
+      {
+        "en": "Khufu",
+        "es": "Keops"
+      },
+      {
+        "en": "Ramesses II",
+        "es": "Ramsés II"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Akhenaten ruled around 1350 BCE. He closed many temples and told people to worship the Aten, the disk of the sun. He built a new capital, Amarna. After he died, Egyptians returned to their old gods and tried to forget him.",
+      "es": "Akenatón gobernó alrededor del 1350 a. C. Cerró muchos templos y ordenó adorar al Atón, el disco del sol. Construyó una nueva capital, Amarna. Después de su muerte, los egipcios volvieron a sus antiguos dioses y trataron de olvidarlo."
+    },
+    "meanwhile": {
+      "en": "Around 1350 BCE, the Hittites were growing strong in what is now Turkey. They used iron and fast war chariots.",
+      "es": "Alrededor del 1350 a. C., los hititas se hacían fuertes en lo que hoy es Turquía. Usaban hierro y rápidos carros de guerra."
+    },
+    "reflection": {
+      "en": "Akhenaten changed religion for the whole country, and people rejected it. Can change be too fast?",
+      "es": "Akenatón cambió la religión de todo el país y la gente lo rechazó. ¿Puede un cambio ser demasiado rápido?"
+    },
+    "vocab": [
+      {
+        "term": "worship",
+        "es": "adorar"
+      },
+      {
+        "term": "disk",
+        "es": "disco"
+      },
+      {
+        "term": "capital",
+        "es": "capital"
+      },
+      {
+        "term": "iron",
+        "es": "hierro"
+      }
+    ]
+  },
+  {
+    "id": "eg-016",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In Egyptian belief, what was weighed against a feather to judge a dead person?",
+      "es": "Según la creencia egipcia, ¿qué se pesaba contra una pluma para juzgar a un muerto?"
+    },
+    "options": [
+      {
+        "en": "The heart",
+        "es": "El corazón"
+      },
+      {
+        "en": "The soul",
+        "es": "El alma"
+      },
+      {
+        "en": "The name",
+        "es": "El nombre"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the Hall of Truth, the god Anubis put the dead person's heart on a scale. On the other side was the feather of Ma'at, the symbol of truth. A light heart meant a good life, and the person could enter the afterlife. A heavy heart was eaten by the monster Ammit.",
+      "es": "En la Sala de la Verdad, el dios Anubis ponía el corazón del muerto en una balanza. Del otro lado estaba la pluma de Maat, símbolo de la verdad. Un corazón liviano indicaba una buena vida, y la persona podía entrar a la otra vida. Un corazón pesado era devorado por el monstruo Ammit."
+    },
+    "meanwhile": {
+      "en": "Around 600 BCE, in Greece, a thinker named Thales asked what the world is made of. He answered \"water\", without using myths.",
+      "es": "Alrededor del 600 a. C., en Grecia, un pensador llamado Tales se preguntó de qué está hecho el mundo. Respondió \"agua\", sin usar mitos."
+    },
+    "reflection": {
+      "en": "The Egyptians believed that your actions made your heart heavy or light. What actions make you feel \"light\"?",
+      "es": "Los egipcios creían que tus acciones volvían tu corazón pesado o liviano. ¿Qué acciones te hacen sentir \"liviano\"?"
+    },
+    "vocab": [
+      {
+        "term": "weighed",
+        "es": "pesaba"
+      },
+      {
+        "term": "feather",
+        "es": "pluma"
+      },
+      {
+        "term": "scale",
+        "es": "balanza"
+      },
+      {
+        "term": "truth",
+        "es": "verdad"
+      }
+    ]
+  },
+  {
+    "id": "eg-017",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who really built the pyramids at Giza?",
+      "es": "¿Quiénes construyeron realmente las pirámides de Guiza?"
+    },
+    "options": [
+      {
+        "en": "Paid Egyptian workers",
+        "es": "Trabajadores egipcios pagados"
+      },
+      {
+        "en": "Slaves from far away",
+        "es": "Esclavos de tierras lejanas"
+      },
+      {
+        "en": "Soldiers from Persia",
+        "es": "Soldados de Persia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Movies often show slaves building the pyramids, but experts found a town for the workers near Giza. They lived there, ate bread and beer, and received medical care. Some were farmers who worked during the Nile flood. Many were proud of their work.",
+      "es": "Las películas suelen mostrar esclavos construyendo las pirámides, pero los expertos encontraron un pueblo para los trabajadores cerca de Guiza. Vivían allí, comían pan y cerveza y recibían atención médica. Algunos eran agricultores que trabajaban durante la crecida del Nilo. Muchos estaban orgullosos de su trabajo."
+    },
+    "meanwhile": {
+      "en": "Around 2500 BCE, in Mesopotamia, rich people were buried in the Royal Tombs of Ur with gold jewelry and musical instruments.",
+      "es": "Alrededor del 2500 a. C., en Mesopotamia, personas ricas eran enterradas en las Tumbas Reales de Ur con joyas de oro e instrumentos musicales."
+    },
+    "reflection": {
+      "en": "Many people believe a story just because it is in a movie. What \"fact\" did you later find out was a myth?",
+      "es": "Mucha gente cree una historia solo porque sale en una película. ¿Qué \"dato\" descubriste después que era un mito?"
+    },
+    "vocab": [
+      {
+        "term": "slaves",
+        "es": "esclavos"
+      },
+      {
+        "term": "workers",
+        "es": "trabajadores"
+      },
+      {
+        "term": "beer",
+        "es": "cerveza"
+      },
+      {
+        "term": "proud",
+        "es": "orgullosos"
+      }
+    ]
+  },
+  {
+    "id": "eg-018",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which animal did ancient Egyptians treat as sacred and connect with the goddess Bastet?",
+      "es": "¿Qué animal trataban los antiguos egipcios como sagrado y relacionaban con la diosa Bastet?"
+    },
+    "options": [
+      {
+        "en": "The cat",
+        "es": "El gato"
+      },
+      {
+        "en": "The dog",
+        "es": "El perro"
+      },
+      {
+        "en": "The horse",
+        "es": "El caballo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cats protected the grain from mice and snakes, so Egyptians loved them. Bastet, a goddess with a cat's head, protected homes. Hurting a cat was a serious crime. When a pet cat died, the family often made it a mummy.",
+      "es": "Los gatos protegían el grano de ratones y serpientes, así que los egipcios los querían. Bastet, una diosa con cabeza de gato, protegía los hogares. Lastimar a un gato era un delito grave. Cuando moría un gato, la familia solía momificarlo."
+    },
+    "meanwhile": {
+      "en": "Around 1000 BCE, people in China were already keeping silkworms to make silk cloth.",
+      "es": "Alrededor del 1000 a. C., en China ya se criaban gusanos de seda para hacer tela de seda."
+    },
+    "reflection": {
+      "en": "Egyptians respected animals that helped them. Which animal has helped you most in life?",
+      "es": "Los egipcios respetaban a los animales que los ayudaban. ¿Qué animal te ha ayudado más en la vida?"
+    },
+    "vocab": [
+      {
+        "term": "sacred",
+        "es": "sagrado"
+      },
+      {
+        "term": "grain",
+        "es": "grano"
+      },
+      {
+        "term": "mice",
+        "es": "ratones"
+      },
+      {
+        "term": "protected",
+        "es": "protegía"
+      }
+    ]
+  },
+  {
+    "id": "eg-019",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why was the temple of Abu Simbel cut into pieces and moved in the 1960s?",
+      "es": "¿Por qué el templo de Abu Simbel fue cortado en pedazos y trasladado en la década de 1960?"
+    },
+    "options": [
+      {
+        "en": "A new dam would have covered it with water",
+        "es": "Una nueva represa lo habría cubierto de agua"
+      },
+      {
+        "en": "Thieves were stealing its treasures",
+        "es": "Unos ladrones robaban sus tesoros"
+      },
+      {
+        "en": "An earthquake had damaged it",
+        "es": "Un terremoto lo había dañado"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Ramesses II built Abu Simbel more than 3,000 years ago, with four giant statues of himself. In the 1960s, Egypt built the Aswan High Dam, and the new lake would cover the temple. Workers cut it into more than 1,000 blocks and rebuilt it on higher ground.",
+      "es": "Ramsés II construyó Abu Simbel hace más de 3.000 años, con cuatro estatuas gigantes de sí mismo. En la década de 1960, Egipto construyó la Alta Presa de Asuán, y el nuevo lago cubriría el templo. Los trabajadores lo cortaron en más de 1.000 bloques y lo reconstruyeron en un terreno más alto."
+    },
+    "meanwhile": {
+      "en": "In the same years, the United States and the Soviet Union were racing to the Moon. Humans first landed there in 1969.",
+      "es": "En esos mismos años, Estados Unidos y la Unión Soviética competían por llegar a la Luna. Los humanos aterrizaron allí por primera vez en 1969."
+    },
+    "reflection": {
+      "en": "The world worked together to save one temple. What piece of history would you save, and why?",
+      "es": "El mundo trabajó unido para salvar un templo. ¿Qué pieza de la historia salvarías y por qué?"
+    },
+    "vocab": [
+      {
+        "term": "dam",
+        "es": "represa"
+      },
+      {
+        "term": "statues",
+        "es": "estatuas"
+      },
+      {
+        "term": "rebuilt",
+        "es": "reconstruyeron"
+      },
+      {
+        "term": "higher ground",
+        "es": "terreno más alto"
+      }
+    ]
+  },
+  {
+    "id": "eg-020",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which wonder of the ancient world stood in the Egyptian city of Alexandria?",
+      "es": "¿Qué maravilla del mundo antiguo se alzaba en la ciudad egipcia de Alejandría?"
+    },
+    "options": [
+      {
+        "en": "The Lighthouse of Alexandria",
+        "es": "El Faro de Alejandría"
+      },
+      {
+        "en": "The Hanging Gardens",
+        "es": "Los Jardines Colgantes"
+      },
+      {
+        "en": "The Colossus of Rhodes",
+        "es": "El Coloso de Rodas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Alexandria was founded by Alexander the Great and ruled by the Ptolemies. Around 280 BCE they built the Pharos, a lighthouse about 100 meters tall. Ships could see its fire from far away. The city also had a famous library full of scrolls.",
+      "es": "Alejandría fue fundada por Alejandro Magno y gobernada por los Ptolomeos. Alrededor del 280 a. C. construyeron el Faro, de unos 100 metros de altura. Los barcos veían su fuego desde lejos. La ciudad también tenía una famosa biblioteca llena de rollos."
+    },
+    "meanwhile": {
+      "en": "Around 260 BCE, Emperor Ashoka ruled much of India. After a bloody war, he chose to follow Buddhism and spread peace.",
+      "es": "Alrededor del 260 a. C., el emperador Ashoka gobernaba gran parte de la India. Después de una guerra sangrienta, eligió seguir el budismo y difundir la paz."
+    },
+    "reflection": {
+      "en": "The Library of Alexandria wanted to collect all the knowledge in the world. What would you want to learn if you had unlimited books?",
+      "es": "La Biblioteca de Alejandría quería reunir todo el conocimiento del mundo. ¿Qué querrías aprender si tuvieras libros ilimitados?"
+    },
+    "vocab": [
+      {
+        "term": "lighthouse",
+        "es": "faro"
+      },
+      {
+        "term": "founded",
+        "es": "fundada"
+      },
+      {
+        "term": "scrolls",
+        "es": "rollos"
+      },
+      {
+        "term": "library",
+        "es": "biblioteca"
+      }
+    ]
+  },
+  {
+    "id": "eg-021",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Who designed the first pyramid in Egypt, the Step Pyramid of Djoser?",
+      "es": "¿Quién diseñó la primera pirámide de Egipto, la Pirámide Escalonada de Djoser?"
+    },
+    "options": [
+      {
+        "en": "Imhotep",
+        "es": "Imhotep"
+      },
+      {
+        "en": "Khufu",
+        "es": "Keops"
+      },
+      {
+        "en": "Hatshepsut",
+        "es": "Hatshepsut"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Imhotep was a clever official who served King Djoser around 2670 BCE. Before him, kings were buried in flat mud-brick tombs. Imhotep used stone and stacked six levels, one on top of the other. Later Egyptians remembered him as a wise man and even as a god.",
+      "es": "Imhotep fue un funcionario muy inteligente que sirvió al rey Djoser alrededor del 2670 a. C. Antes de él, los reyes se enterraban en tumbas planas de ladrillos de barro. Imhotep usó piedra y apiló seis niveles, uno sobre otro. Los egipcios posteriores lo recordaron como un sabio e incluso como un dios."
+    },
+    "meanwhile": {
+      "en": "Around 2600 BCE, powerful city-states like Uruk and Ur were growing in Mesopotamia, each with its own king and temples.",
+      "es": "Alrededor del 2600 a. C., poderosas ciudades-estado como Uruk y Ur crecían en Mesopotamia, cada una con su propio rey y sus templos."
+    },
+    "reflection": {
+      "en": "One person's idea started a style of building that lasted 2,000 years. What new idea would you like to start?",
+      "es": "La idea de una persona inició un estilo de construcción que duró 2.000 años. ¿Qué idea nueva te gustaría empezar?"
+    },
+    "vocab": [
+      {
+        "term": "official",
+        "es": "funcionario"
+      },
+      {
+        "term": "mud-brick",
+        "es": "ladrillos de barro"
+      },
+      {
+        "term": "stacked",
+        "es": "apiló"
+      },
+      {
+        "term": "wise",
+        "es": "sabio"
+      }
+    ]
+  },
+  {
+    "id": "eg-022",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What does the Edwin Smith Papyrus show about Egyptian doctors?",
+      "es": "¿Qué muestra el Papiro de Edwin Smith sobre los médicos egipcios?"
+    },
+    "options": [
+      {
+        "en": "They studied injuries and tried practical treatments",
+        "es": "Estudiaban las heridas e intentaban tratamientos prácticos"
+      },
+      {
+        "en": "They only used magic words to heal people",
+        "es": "Solo usaban palabras mágicas para curar a la gente"
+      },
+      {
+        "en": "They never touched a patient with their hands",
+        "es": "Nunca tocaban a un paciente con las manos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Edwin Smith Papyrus is about 3,600 years old. It describes 48 cases of injuries, from the head to the chest. For each case, the doctor looks at the symptoms, gives a diagnosis and suggests a treatment. Many of the ideas are careful and logical.",
+      "es": "El Papiro de Edwin Smith tiene unos 3.600 años. Describe 48 casos de heridas, desde la cabeza hasta el pecho. En cada caso, el médico observa los síntomas, da un diagnóstico y sugiere un tratamiento. Muchas ideas son cuidadosas y lógicas."
+    },
+    "meanwhile": {
+      "en": "Around 1600 BCE, the Hittites attacked and ended the power of Babylon in Mesopotamia.",
+      "es": "Alrededor del 1600 a. C., los hititas atacaron y acabaron con el poder de Babilonia en Mesopotamia."
+    },
+    "reflection": {
+      "en": "These doctors looked carefully before they treated a patient. When is it better to observe first and act later?",
+      "es": "Estos médicos observaban con cuidado antes de tratar a un paciente. ¿Cuándo es mejor observar primero y actuar después?"
+    },
+    "vocab": [
+      {
+        "term": "injuries",
+        "es": "heridas"
+      },
+      {
+        "term": "symptoms",
+        "es": "síntomas"
+      },
+      {
+        "term": "treatment",
+        "es": "tratamiento"
+      },
+      {
+        "term": "logical",
+        "es": "lógicas"
+      }
+    ]
+  },
+  {
+    "id": "eg-023",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Who united Upper and Lower Egypt into one country around 3100 BCE?",
+      "es": "¿Quién unió el Alto y el Bajo Egipto en un solo país alrededor del 3100 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Narmer",
+        "es": "Narmer"
+      },
+      {
+        "en": "Cleopatra",
+        "es": "Cleopatra"
+      },
+      {
+        "en": "Tutankhamun",
+        "es": "Tutankamón"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before Narmer, Egypt had two kingdoms. Upper Egypt was in the south, and Lower Egypt was in the north, near the sea. Narmer joined them and became the first king of a united Egypt. Pharaohs later wore a double crown, a sign of both lands.",
+      "es": "Antes de Narmer, Egipto tenía dos reinos. El Alto Egipto estaba en el sur y el Bajo Egipto en el norte, cerca del mar. Narmer los unió y se convirtió en el primer rey de un Egipto unido. Los faraones posteriores usaron una doble corona, signo de ambas tierras."
+    },
+    "meanwhile": {
+      "en": "Around 3100 BCE, the first writing was appearing in Mesopotamia, in the city of Uruk.",
+      "es": "Alrededor del 3100 a. C., la primera escritura aparecía en Mesopotamia, en la ciudad de Uruk."
+    },
+    "reflection": {
+      "en": "Narmer joined two lands into one. What groups of people could work better together in your community?",
+      "es": "Narmer unió dos tierras en una. ¿Qué grupos de personas podrían trabajar mejor juntos en tu comunidad?"
+    },
+    "vocab": [
+      {
+        "term": "united",
+        "es": "unido"
+      },
+      {
+        "term": "kingdoms",
+        "es": "reinos"
+      },
+      {
+        "term": "joined",
+        "es": "unió"
+      },
+      {
+        "term": "crown",
+        "es": "corona"
+      }
+    ]
+  },
+  {
+    "id": "eg-024",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What happened to Cleopatra and Mark Antony at the Battle of Actium in 31 BCE?",
+      "es": "¿Qué les pasó a Cleopatra y Marco Antonio en la batalla de Accio, en el 31 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Octavian's fleet defeated them",
+        "es": "La flota de Octavio los derrotó"
+      },
+      {
+        "en": "They won and took control of Rome",
+        "es": "Ganaron y tomaron el control de Roma"
+      },
+      {
+        "en": "They made peace with Octavian",
+        "es": "Hicieron la paz con Octavio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After Caesar's death, Mark Antony and Cleopatra joined forces against Octavian, Caesar's heir. At Actium, a sea battle off the coast of Greece, Octavian's fleet won. A year later, both Antony and Cleopatra died. Egypt became part of the Roman Empire.",
+      "es": "Tras la muerte de César, Marco Antonio y Cleopatra se aliaron contra Octavio, el heredero de César. En Accio, una batalla naval frente a la costa de Grecia, ganó la flota de Octavio. Un año después, murieron tanto Antonio como Cleopatra. Egipto pasó a formar parte del Imperio romano."
+    },
+    "meanwhile": {
+      "en": "Around 30 BCE, the Han dynasty ruled China and the Silk Road carried silk westward toward Rome.",
+      "es": "Alrededor del 30 a. C., la dinastía Han gobernaba China y la Ruta de la Seda llevaba seda hacia el oeste, hasta Roma."
+    },
+    "reflection": {
+      "en": "One battle changed the history of two great countries. What single decision changed the direction of your life?",
+      "es": "Una batalla cambió la historia de dos grandes países. ¿Qué decisión cambió el rumbo de tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "fleet",
+        "es": "flota"
+      },
+      {
+        "term": "heir",
+        "es": "heredero"
+      },
+      {
+        "term": "sea battle",
+        "es": "batalla naval"
+      },
+      {
+        "term": "coast",
+        "es": "costa"
+      }
+    ]
+  },
+  {
+    "id": "eg-025",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why did Egyptians wear black eye makeup called kohl?",
+      "es": "¿Por qué los egipcios usaban maquillaje negro en los ojos llamado kohl?"
+    },
+    "options": [
+      {
+        "en": "For beauty and to reduce the sun's glare",
+        "es": "Por belleza y para reducir el reflejo del sol"
+      },
+      {
+        "en": "To scare their enemies in battle",
+        "es": "Para asustar a sus enemigos en batalla"
+      },
+      {
+        "en": "To show they were slaves",
+        "es": "Para mostrar que eran esclavos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Men and women, rich and poor, painted their eyes with black kohl. It made the eyes look big and beautiful. It also helped against the strong sun. Egyptians believed it protected the eyes, as the god Horus did. They kept kohl in small, decorated jars.",
+      "es": "Hombres y mujeres, ricos y pobres, se pintaban los ojos con kohl negro. Hacía que los ojos se vieran grandes y hermosos. También ayudaba contra el fuerte sol. Los egipcios creían que protegía los ojos, como lo hacía el dios Horus. Guardaban el kohl en pequeños frascos decorados."
+    },
+    "meanwhile": {
+      "en": "Around 2000 BCE, people in Mesopotamia wrote the Epic of Gilgamesh, one of the first long stories ever written.",
+      "es": "Alrededor del 2000 a. C., en Mesopotamia se escribió la Epopeya de Gilgamesh, una de las primeras historias largas jamás escritas."
+    },
+    "reflection": {
+      "en": "Egyptians mixed beauty, health and belief in one habit. Which of your habits has more than one purpose?",
+      "es": "Los egipcios combinaban belleza, salud y creencia en un solo hábito. ¿Cuál de tus hábitos tiene más de un propósito?"
+    },
+    "vocab": [
+      {
+        "term": "makeup",
+        "es": "maquillaje"
+      },
+      {
+        "term": "strong sun",
+        "es": "fuerte sol"
+      },
+      {
+        "term": "jars",
+        "es": "frascos"
+      },
+      {
+        "term": "protected",
+        "es": "protegía"
+      }
+    ]
+  },
+  {
+    "id": "eg-026",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Where did Hatshepsut send a famous trading expedition around 1470 BCE?",
+      "es": "¿A dónde envió Hatshepsut una famosa expedición comercial alrededor del 1470 a. C.?"
+    },
+    "options": [
+      {
+        "en": "To the land of Punt",
+        "es": "A la tierra de Punt"
+      },
+      {
+        "en": "To Rome",
+        "es": "A Roma"
+      },
+      {
+        "en": "To Babylon",
+        "es": "A Babilonia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Hatshepsut sent five ships down the Red Sea to Punt, a land far to the south. The sailors came back with incense, ebony wood, gold, animals and living myrrh trees. The trip is shown in colorful pictures on the walls of her temple at Deir el-Bahari.",
+      "es": "Hatshepsut envió cinco barcos por el mar Rojo hasta Punt, una tierra lejana al sur. Los marineros volvieron con incienso, madera de ébano, oro, animales y árboles de mirra vivos. El viaje aparece en coloridas imágenes en las paredes de su templo en Deir el-Bahari."
+    },
+    "meanwhile": {
+      "en": "Around 1450 BCE, the Mycenaean Greeks began to rule the Greek mainland from strong stone palaces.",
+      "es": "Alrededor del 1450 a. C., los griegos micénicos comenzaron a gobernar el territorio griego desde fuertes palacios de piedra."
+    },
+    "reflection": {
+      "en": "Hatshepsut chose trade over war. In your life, when is trading ideas better than fighting about them?",
+      "es": "Hatshepsut eligió el comercio en lugar de la guerra. En tu vida, ¿cuándo es mejor intercambiar ideas que pelear por ellas?"
+    },
+    "vocab": [
+      {
+        "term": "expedition",
+        "es": "expedición"
+      },
+      {
+        "term": "incense",
+        "es": "incienso"
+      },
+      {
+        "term": "sailors",
+        "es": "marineros"
+      },
+      {
+        "term": "gold",
+        "es": "oro"
+      }
+    ]
+  },
+  {
+    "id": "eg-027",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What did Egyptian workers often receive as part of their pay?",
+      "es": "¿Qué recibían a menudo los trabajadores egipcios como parte de su pago?"
+    },
+    "options": [
+      {
+        "en": "Bread and beer",
+        "es": "Pan y cerveza"
+      },
+      {
+        "en": "Silver coins",
+        "es": "Monedas de plata"
+      },
+      {
+        "en": "Paper money",
+        "es": "Billetes de papel"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Egypt did not use coins for most of its history. Workers received food, cloth and oil from the state. Bread and beer were the main payment. The beer was thick and not very strong, and even children drank it. Workers who built tombs also got days off.",
+      "es": "Egipto no usó monedas durante la mayor parte de su historia. Los trabajadores recibían comida, tela y aceite del Estado. El pan y la cerveza eran el pago principal. La cerveza era espesa y poco fuerte, e incluso los niños la tomaban. Los trabajadores que construían tumbas también tenían días libres."
+    },
+    "meanwhile": {
+      "en": "Around 600 BCE, the kingdom of Lydia, in what is now Turkey, made some of the first metal coins.",
+      "es": "Alrededor del 600 a. C., el reino de Lidia, en lo que hoy es Turquía, hizo algunas de las primeras monedas de metal."
+    },
+    "reflection": {
+      "en": "Today most people are paid with money. What would you like to receive for your work besides money?",
+      "es": "Hoy la mayoría de las personas cobra con dinero. ¿Qué te gustaría recibir por tu trabajo además de dinero?"
+    },
+    "vocab": [
+      {
+        "term": "coins",
+        "es": "monedas"
+      },
+      {
+        "term": "pay",
+        "es": "pago"
+      },
+      {
+        "term": "cloth",
+        "es": "tela"
+      },
+      {
+        "term": "days off",
+        "es": "días libres"
+      }
+    ]
+  },
+  {
+    "id": "eg-028",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What happened to many Egyptian obelisks after the Roman conquest?",
+      "es": "¿Qué pasó con muchos obeliscos egipcios después de la conquista romana?"
+    },
+    "options": [
+      {
+        "en": "Romans took them to Rome and other cities",
+        "es": "Los romanos los llevaron a Roma y a otras ciudades"
+      },
+      {
+        "en": "They were broken and used as building stone",
+        "es": "Se rompieron y se usaron como piedra de construcción"
+      },
+      {
+        "en": "Priests buried them in the desert",
+        "es": "Los sacerdotes los enterraron en el desierto"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "An obelisk is a tall stone pillar with a pointed top, made for the sun god Ra. After Rome took Egypt in 30 BCE, emperors had huge obelisks shipped across the sea. Today, Rome has more ancient Egyptian obelisks than any city in Egypt.",
+      "es": "Un obelisco es un alto pilar de piedra con la punta afilada, hecho para el dios sol Ra. Después de que Roma conquistara Egipto en el 30 a. C., los emperadores enviaron enormes obeliscos por mar. Hoy, Roma tiene más obeliscos del antiguo Egipto que cualquier ciudad de Egipto."
+    },
+    "meanwhile": {
+      "en": "Around 25 BCE, in the Mediterranean, the Romans were building roads and ports. Their ships carried grain from Egypt to feed Rome.",
+      "es": "Alrededor del 25 a. C., en el Mediterráneo, los romanos construían caminos y puertos. Sus barcos llevaban grano de Egipto para alimentar a Roma."
+    },
+    "reflection": {
+      "en": "Obelisks now stand far from home. Should museums return old treasures to the countries they came from?",
+      "es": "Los obeliscos ahora están lejos de su hogar. ¿Deberían los museos devolver los viejos tesoros a los países de donde vinieron?"
+    },
+    "vocab": [
+      {
+        "term": "obelisk",
+        "es": "obelisco"
+      },
+      {
+        "term": "pillar",
+        "es": "pilar"
+      },
+      {
+        "term": "pointed",
+        "es": "afilada"
+      },
+      {
+        "term": "shipped",
+        "es": "enviaron"
+      }
+    ]
+  },
+  {
+    "id": "eg-029",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did the word \"pharaoh\" originally mean?",
+      "es": "¿Qué significaba originalmente la palabra \"faraón\"?"
+    },
+    "options": [
+      {
+        "en": "\"Great house\", the royal palace",
+        "es": "\"Casa grande\", el palacio real"
+      },
+      {
+        "en": "\"Son of the sun\", the king’s title",
+        "es": "\"Hijo del sol\", el título del rey"
+      },
+      {
+        "en": "\"Lord of the river\", the god of the Nile",
+        "es": "\"Señor del río\", el dios del Nilo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The word comes from the Egyptian \"per-aa\", which means \"great house\". At first it named the king’s palace. Around 1400 BCE, people began to use it for the king himself. It is like saying \"the White House\" when you mean the president of the United States.",
+      "es": "La palabra viene del egipcio \"per-aa\", que significa \"casa grande\". Al principio nombraba el palacio del rey. Alrededor del 1400 a. C., la gente empezó a usarla para el propio rey. Es como decir \"la Casa Blanca\" cuando uno se refiere al presidente de Estados Unidos."
+    },
+    "meanwhile": {
+      "en": "Around 1400 BCE, the Minoan palaces on Crete were destroyed, and the Mycenaeans took control of the island.",
+      "es": "Alrededor del 1400 a. C., los palacios minoicos de Creta fueron destruidos y los micénicos tomaron el control de la isla."
+    },
+    "reflection": {
+      "en": "A word can change its meaning over time. Can you think of a word that means something different from what it meant for your grandparents?",
+      "es": "Una palabra puede cambiar de significado con el tiempo. ¿Se te ocurre una palabra que signifique algo distinto de lo que significaba para tus abuelos?"
+    },
+    "vocab": [
+      {
+        "term": "palace",
+        "es": "palacio"
+      },
+      {
+        "term": "great house",
+        "es": "casa grande"
+      },
+      {
+        "term": "originally",
+        "es": "originalmente"
+      },
+      {
+        "term": "president",
+        "es": "presidente"
+      }
+    ]
+  },
+  {
+    "id": "eg-030",
+    "category": "ancient-egypt",
+    "category_label": {
+      "en": "Ancient Egypt",
+      "es": "Egipto Antiguo"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why was the scarab beetle an important symbol in Egypt?",
+      "es": "¿Por qué el escarabajo era un símbolo importante en Egipto?"
+    },
+    "options": [
+      {
+        "en": "It stood for the sun and new life",
+        "es": "Representaba el sol y la nueva vida"
+      },
+      {
+        "en": "It stood for war and strength",
+        "es": "Representaba la guerra y la fuerza"
+      },
+      {
+        "en": "It stood for the river and its floods",
+        "es": "Representaba el río y sus crecidas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A scarab beetle pushes a ball of earth across the ground. Egyptians imagined the god Khepri pushing the sun across the sky in the same way. For this reason, the scarab stood for the sun and for new life. People wore scarab amulets for luck.",
+      "es": "Un escarabajo empuja una bola de tierra por el suelo. Los egipcios imaginaban que el dios Khepri empujaba el sol por el cielo de la misma manera. Por eso, el escarabajo representaba el sol y la nueva vida. La gente llevaba amuletos de escarabajo para tener suerte."
+    },
+    "meanwhile": {
+      "en": "Around 1000 BCE, King David ruled Israel and made Jerusalem his capital, according to the Bible.",
+      "es": "Alrededor del 1000 a. C., según la Biblia, el rey David gobernaba Israel y convirtió Jerusalén en su capital."
+    },
+    "reflection": {
+      "en": "Egyptians saw the sun in a small insect. What everyday thing reminds you of something bigger?",
+      "es": "Los egipcios veían el sol en un pequeño insecto. ¿Qué cosa cotidiana te recuerda algo más grande?"
+    },
+    "vocab": [
+      {
+        "term": "beetle",
+        "es": "escarabajo"
+      },
+      {
+        "term": "pushes",
+        "es": "empuja"
+      },
+      {
+        "term": "amulets",
+        "es": "amuletos"
+      },
+      {
+        "term": "luck",
+        "es": "suerte"
+      }
+    ]
   }
 ]

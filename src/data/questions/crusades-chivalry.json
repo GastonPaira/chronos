@@ -7,33 +7,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Pope Urban II launched the First Crusade in 1095 with a speech that promised what to those who fought?",
-      "es": "El Papa Urbano II lanzó la Primera Cruzada en 1095 con un discurso que prometía qué a quienes combatieran?"
+      "en": "In 1095, Pope Urban II asked European Christians to go to the Holy Land. What did he promise them?",
+      "es": "En 1095, el papa Urbano II pidió a los cristianos de Europa que fueran a Tierra Santa. ¿Qué les prometió?"
     },
     "options": [
       {
-        "en": "Full remission of sins and guaranteed salvation for all who died in the effort",
-        "es": "Plena remisión de los pecados y salvación garantizada para quienes murieran en el empeño"
+        "en": "That their sins would be forgiven",
+        "es": "Que sus pecados serían perdonados"
       },
       {
-        "en": "Political control of the Holy Land distributed among the Christian kingdoms of Europe",
-        "es": "Control político de Tierra Santa repartido entre los reinos cristianos de Europa"
+        "en": "That they would become kings",
+        "es": "Que se convertirían en reyes"
+      },
+      {
+        "en": "That they would receive land in Rome",
+        "es": "Que recibirían tierras en Roma"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "At the Council of Clermont (1095), Pope Urban II called for a military expedition to reclaim Jerusalem from Muslim control, promising full remission of sins to all who died in the effort — effectively a guaranteed place in heaven. The crowd responded with chants of 'God wills it!' (Deus vult). The speech launched three years of mobilization across Europe and began two centuries of Crusading.",
-      "es": "En el Concilio de Clermont (1095), el Papa Urbano II convocó una expedición militar para recuperar Jerusalén del control musulmán, prometiendo la remisión plena de los pecados a quienes murieran en el empeño, equivalente a un lugar garantizado en el cielo. La multitud respondió con el grito '¡Dios lo quiere!' (Deus vult). El discurso desencadenó tres años de movilización en toda Europa e inició dos siglos de cruzadas."
+      "en": "Urban II spoke to a large crowd at Clermont, in France. He said that Christians in the East needed help and that Jerusalem must be won back. People who joined would have their sins forgiven. The crowd shouted \"God wills it!\". This speech began the First Crusade, which started in 1096.",
+      "es": "Urbano II habló ante una gran multitud en Clermont, en Francia. Dijo que los cristianos de Oriente necesitaban ayuda y que había que recuperar Jerusalén. Quienes participaran serían perdonados de sus pecados. La multitud gritó \"¡Dios lo quiere!\". Este discurso dio inicio a la Primera Cruzada, que partió en 1096."
     },
     "meanwhile": {
-      "en": "In 1095 CE, in China, the Northern Song Dynasty was engaged in a sophisticated bureaucratic debate between reformers and conservatives over economic and military policy — governance by argument and precedent — while Europe's Pope was mobilizing peasants and knights to march thousands of kilometers to die for faith.",
-      "es": "En 1095 d.C., en China, la dinastía Song del Norte sostenía un sofisticado debate burocrático entre reformistas y conservadores sobre política económica y militar — gobernanza por argumento y precedente — mientras el Papa de Europa movilizaba campesinos y caballeros para marchar miles de kilómetros a morir por la fe."
+      "en": "Around 1095, the Seljuk Empire, which stretched from Persia to Anatolia, was breaking into smaller states after its ruler died.",
+      "es": "Alrededor de 1095, el Imperio selyúcida, que se extendía de Persia a Anatolia, se dividía en estados más pequeños tras la muerte de su gobernante."
     },
     "reflection": {
-      "en": "A speech promising eternal salvation mobilized hundreds of thousands of people to abandon their lives and march across a continent. Think of a message — political, religious, or personal — that convinced you to act in a way that cost you significantly. What made that message powerful enough to override caution?",
-      "es": "Un discurso que prometía salvación eterna movilizó a cientos de miles a abandonar sus vidas y marchar por un continente. Piensa en un mensaje —político, religioso o personal— que te convenció de actuar de una manera que te costó mucho. ¿Qué hizo que ese mensaje fuera lo suficientemente poderoso como para imponerse a la cautela?"
-    }
+      "en": "One speech moved thousands of people to leave their homes. What message or idea has moved you to act?",
+      "es": "Un solo discurso movió a miles de personas a dejar sus hogares. ¿Qué mensaje o idea te ha movido a actuar?"
+    },
+    "vocab": [
+      {
+        "term": "sins",
+        "es": "pecados"
+      },
+      {
+        "term": "forgiven",
+        "es": "perdonados"
+      },
+      {
+        "term": "crowd",
+        "es": "multitud"
+      },
+      {
+        "term": "speech",
+        "es": "discurso"
+      }
+    ]
   },
   {
     "id": "cr-002",
@@ -43,33 +66,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Which Muslim leader recaptured Jerusalem from the Crusaders in 1187, ending nearly 90 years of Christian rule?",
-      "es": "¿Qué líder musulmán reconquistó Jerusalén de los cruzados en 1187, poniendo fin a casi 90 años de dominio cristiano?"
+      "en": "Which Muslim leader took Jerusalem back from the Crusaders in 1187?",
+      "es": "¿Qué líder musulmán recuperó Jerusalén de manos de los cruzados en 1187?"
     },
     "options": [
       {
-        "en": "Saladin (Salah ad-Din)",
-        "es": "Saladino (Salah ad-Din)"
+        "en": "Saladin",
+        "es": "Saladino"
       },
       {
-        "en": "Mehmed II",
-        "es": "Mehmed II"
+        "en": "Harun al-Rashid",
+        "es": "Harún al-Rashid"
+      },
+      {
+        "en": "Suleiman",
+        "es": "Solimán"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Saladin (1137–1193), Sultan of Egypt and Syria, defeated the Crusader army at the Battle of Hattin in July 1187, then took Jerusalem in October. In sharp contrast to the First Crusade's massacre in 1099, Saladin allowed Christians and Jews to leave safely and prohibited reprisals — a restraint that made him, paradoxically, one of the most admired figures in medieval Europe despite being their adversary.",
-      "es": "Saladino (1137–1193), sultán de Egipto y Siria, derrotó al ejército cruzado en la batalla de los Cuernos de Hattin en julio de 1187 y tomó Jerusalén en octubre. En marcado contraste con la masacre de la Primera Cruzada en 1099, Saladino permitió que los cristianos y judíos se marcharan con seguridad y prohibió las represalias, lo que lo convirtió paradójicamente en una de las figuras más admiradas en la Europa medieval, a pesar de ser su adversario."
+      "en": "Saladin was the sultan of Egypt and Syria. In July 1187, he crushed the Crusader army at the Battle of Hattin. In October, he entered Jerusalem. He did not allow a massacre like the one in 1099. Most people could leave after paying a ransom. Even European writers praised his honor and generosity.",
+      "es": "Saladino era el sultán de Egipto y Siria. En julio de 1187 aplastó al ejército cruzado en la batalla de Hattin. En octubre entró en Jerusalén. No permitió una masacre como la de 1099. La mayoría de las personas pudo irse tras pagar un rescate. Incluso los escritores europeos elogiaron su honor y su generosidad."
     },
     "meanwhile": {
-      "en": "In 1187 CE, in Mesoamerica, the Aztec migration legend says their nomadic ancestors were still wandering in search of a divine sign — an eagle perched on a cactus. The city that would become Tenochtitlan, one of the world's largest cities, wouldn't be founded for another 138 years.",
-      "es": "En 1187 d.C., en Mesoamérica, la leyenda de la migración azteca dice que sus antepasados nómadas aún vagaban en busca de una señal divina: un águila posada en un nopal. La ciudad que sería Tenochtitlán, una de las más grandes del mundo, no se fundaría hasta 138 años después."
+      "en": "Around 1190, King Jayavarman VII of the Khmer Empire was building the great city of Angkor Thom in Cambodia.",
+      "es": "Alrededor de 1190, el rey Jayavarman VII del Imperio jemer construía la gran ciudad de Angkor Thom, en Camboya."
     },
     "reflection": {
-      "en": "Saladin showed mercy to a defeated enemy and became more admired by his enemies than many of their own heroes. When has someone's unexpected restraint or generosity toward you — or toward someone you considered an opponent — changed how you understood them?",
-      "es": "Saladino mostró misericordia hacia un enemigo derrotado y fue más admirado por sus enemigos que muchos de sus propios héroes. ¿Cuándo la inesperada moderación o generosidad de alguien hacia ti —o hacia alguien a quien considerabas adversario— cambió tu manera de comprenderlo?"
-    }
+      "en": "Saladin showed mercy to his defeated enemies. When did someone treat you kindly when they could have been harsh?",
+      "es": "Saladino mostró clemencia con sus enemigos vencidos. ¿Cuándo alguien te trató con amabilidad pudiendo haber sido duro?"
+    },
+    "vocab": [
+      {
+        "term": "sultan",
+        "es": "sultán"
+      },
+      {
+        "term": "crushed",
+        "es": "aplastó"
+      },
+      {
+        "term": "ransom",
+        "es": "rescate"
+      },
+      {
+        "term": "praised",
+        "es": "elogiaron"
+      }
+    ]
   },
   {
     "id": "cr-003",
@@ -79,33 +125,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Knights Templar were founded primarily to serve what function?",
-      "es": "Los Caballeros Templarios fueron fundados principalmente para cumplir qué función?"
+      "en": "Why were the Knights Templar founded around 1119?",
+      "es": "¿Por qué se fundaron los Caballeros Templarios alrededor de 1119?"
     },
     "options": [
       {
-        "en": "To protect Christian pilgrims traveling to Jerusalem",
-        "es": "Proteger a los peregrinos cristianos que viajaban a Jerusalén"
+        "en": "To protect pilgrims on the road to Jerusalem",
+        "es": "Para proteger a los peregrinos en el camino a Jerusalén"
       },
       {
-        "en": "To serve as the Pope's personal military bodyguard",
-        "es": "Servir como guardia personal militar del Papa"
+        "en": "To guard the Pope in his palace in Rome",
+        "es": "Para custodiar al papa en su palacio de Roma"
+      },
+      {
+        "en": "To train the young princes of Europe",
+        "es": "Para entrenar a los jóvenes príncipes de Europa"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Knights Templar (founded c. 1119) began as a small group pledging to protect pilgrimage routes to Jerusalem. They grew into a multinational military and financial organization — effectively inventing an early form of banking where travelers could deposit money in Europe and withdraw it in the Holy Land using coded receipts. At their peak they owned property across Europe and answered only to the Pope. Philip IV of France had them arrested and disbanded in 1307 to cancel his debts to them.",
-      "es": "Los Caballeros Templarios (fundados c. 1119) comenzaron como un pequeño grupo comprometido a proteger las rutas de peregrinación a Jerusalén. Crecieron hasta convertirse en una organización militar y financiera multinacional, inventando en la práctica una forma temprana de banca en la que los viajeros podían depositar dinero en Europa y retirarlo en Tierra Santa mediante recibos cifrados. En su apogeo poseían propiedades en toda Europa y respondían únicamente ante el Papa. Felipe IV de Francia los mandó arrestar y disolver en 1307 para cancelar sus deudas con ellos."
+      "en": "Pilgrims traveling to Jerusalem were often attacked on the road. A small group of knights promised to protect them. They lived like monks but fought like soldiers, and they wore a red cross on a white cloak. In time, they became rich and ran an early kind of bank. In 1307, the king of France arrested them, because he owed them a lot of money.",
+      "es": "Los peregrinos que viajaban a Jerusalén eran atacados con frecuencia en el camino. Un pequeño grupo de caballeros prometió protegerlos. Vivían como monjes pero luchaban como soldados, y llevaban una cruz roja sobre una capa blanca. Con el tiempo se hicieron ricos y manejaron una especie de banco primitivo. En 1307, el rey de Francia los arrestó porque les debía mucho dinero."
     },
     "meanwhile": {
-      "en": "Around 1100–1200 CE, Angkor Wat in Cambodia was being constructed — the largest religious monument ever built, by the Khmer Empire at its peak. This Buddhist-Hindu temple of staggering ambition rose while the Templars were building their own network of fortresses and banks across Christendom — two global civilizations at their creative peaks, completely unknown to each other.",
-      "es": "Entre 1100 y 1200 d.C., Angkor Wat en Camboya estaba siendo construido: el monumento religioso más grande jamás erigido, obra del Imperio Jemer en su apogeo. Este templo budista-hindú de ambición asombrosa se levantaba mientras los Templarios construían su propia red de fortalezas y bancos por toda la Cristiandad: dos civilizaciones en sus cimas creativas, completamente desconocidas entre sí."
+      "en": "Around 1120, in New Mexico, the Pueblo people of Chaco Canyon built huge stone buildings with hundreds of rooms.",
+      "es": "Alrededor de 1120, en Nuevo México, el pueblo de Chaco Canyon construyó enormes edificios de piedra con cientos de habitaciones."
     },
     "reflection": {
-      "en": "The Templars were destroyed not because they failed, but because they became too powerful to ignore and too wealthy for a king who owed them money. Can you think of a time when someone's success made them a target? What does that reveal about the relationship between power and safety?",
-      "es": "Los Templarios fueron destruidos no porque fracasaran, sino porque se volvieron demasiado poderosos para ignorarlos y demasiado ricos para un rey que les debía dinero. ¿Puedes pensar en una ocasión en que el éxito de alguien lo convirtió en un blanco? ¿Qué revela eso sobre la relación entre poder y seguridad?"
-    }
+      "en": "The Templars became powerful, and a king destroyed them. Why can too much success make people jealous?",
+      "es": "Los templarios se hicieron poderosos y un rey los destruyó. ¿Por qué el éxito excesivo puede despertar celos?"
+    },
+    "vocab": [
+      {
+        "term": "pilgrims",
+        "es": "peregrinos"
+      },
+      {
+        "term": "cloak",
+        "es": "capa"
+      },
+      {
+        "term": "bank",
+        "es": "banco"
+      },
+      {
+        "term": "arrested",
+        "es": "arrestó"
+      }
+    ]
   },
   {
     "id": "cr-004",
@@ -114,34 +183,57 @@
       "en": "Crusades & Chivalry",
       "es": "Cruzadas y Caballería"
     },
-    "difficulty": "medium",
+    "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Richard I of England earned his nickname 'the Lionheart' primarily through his leadership in which Crusade?",
-      "es": "Ricardo I de Inglaterra ganó su apodo 'Corazón de León' principalmente por su liderazgo en qué Cruzada?"
+      "en": "Richard I of England was nicknamed \"the Lionheart\". Which Crusade did he lead?",
+      "es": "Ricardo I de Inglaterra fue apodado \"Corazón de León\". ¿Qué cruzada dirigió?"
     },
     "options": [
       {
-        "en": "The Third Crusade (1189–1192)",
-        "es": "La Tercera Cruzada (1189–1192)"
+        "en": "The Third Crusade",
+        "es": "La Tercera Cruzada"
       },
       {
-        "en": "The Second Crusade (1147–1149)",
-        "es": "La Segunda Cruzada (1147–1149)"
+        "en": "The First Crusade",
+        "es": "La Primera Cruzada"
+      },
+      {
+        "en": "The Fifth Crusade",
+        "es": "La Quinta Cruzada"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Richard I led the Third Crusade to recapture Jerusalem after Saladin's conquest. Although he never retook the city, he won crucial victories at Arsuf and Jaffa, and negotiated a treaty with Saladin securing access for Christian pilgrims. Remarkably, Richard spent only about 6 months of his 10-year reign actually in England — seeing his kingdom largely as a revenue source for his wars — yet he became England's most celebrated medieval king.",
-      "es": "Ricardo I lideró la Tercera Cruzada para recuperar Jerusalén tras la conquista de Saladino. Aunque nunca retomó la ciudad, ganó victorias cruciales en Arsuf y Jaffa, y negoció un tratado con Saladino que garantizó el acceso a los peregrinos cristianos. Llamativamente, Ricardo pasó solo unos 6 meses de su reinado de 10 años en Inglaterra, viendo su reino básicamente como una fuente de ingresos para sus guerras, y aun así se convirtió en el rey medieval más celebrado de Inglaterra."
+      "en": "After Saladin took Jerusalem, kings in Europe launched the Third Crusade (1189–1192). Richard won important battles, such as Arsuf, but he could not take Jerusalem. He made a truce with Saladin that allowed Christian pilgrims to visit the city. Richard spent only about six months of his reign in England.",
+      "es": "Después de que Saladino tomara Jerusalén, los reyes de Europa lanzaron la Tercera Cruzada (1189–1192). Ricardo ganó importantes batallas, como la de Arsuf, pero no pudo tomar Jerusalén. Hizo una tregua con Saladino que permitía a los peregrinos cristianos visitar la ciudad. Ricardo pasó solo unos seis meses de su reinado en Inglaterra."
     },
     "meanwhile": {
-      "en": "While Richard was on Crusade (1190–1192), Minamoto no Yoritomo was establishing Japan's first shogunate at Kamakura — creating a warrior government that would define Japanese governance for 700 years. Two warrior cultures on opposite ends of Eurasia simultaneously institutionalizing martial rule.",
-      "es": "Mientras Ricardo estaba en Cruzada (1190–1192), Minamoto no Yoritomo establecía el primer shogunato de Japón en Kamakura, creando un gobierno guerrero que definiría la gobernanza japonesa durante 700 años. Dos culturas guerreras en extremos opuestos de Eurasia institucionalizando simultáneamente el gobierno marcial."
+      "en": "In 1192, in Japan, Minamoto no Yoritomo became shogun, the military ruler of the country.",
+      "es": "En 1192, en Japón, Minamoto no Yoritomo se convirtió en shogun, el gobernante militar del país."
     },
     "reflection": {
-      "en": "Richard was away from England for most of his reign yet became its most celebrated medieval king. We often judge leaders — and people — more by their story than by their actual presence or impact. Who in your own life carries a reputation that may not match their real contribution?",
-      "es": "Ricardo estuvo ausente de Inglaterra la mayor parte de su reinado y sin embargo se convirtió en el rey medieval más celebrado. A menudo juzgamos a los líderes —y a las personas— más por su historia que por su presencia o impacto real. ¿Quién en tu propia vida tiene una reputación que puede no coincidir con su contribución real?"
-    }
+      "en": "Richard was a hero, though he was almost never at home. Do we judge people more by their story than by their actions?",
+      "es": "Ricardo fue un héroe, aunque casi nunca estuvo en casa. ¿Juzgamos a las personas más por su historia que por sus acciones?"
+    },
+    "vocab": [
+      {
+        "term": "nicknamed",
+        "es": "apodado"
+      },
+      {
+        "term": "battles",
+        "es": "batallas"
+      },
+      {
+        "term": "truce",
+        "es": "tregua"
+      },
+      {
+        "term": "reign",
+        "es": "reinado"
+      }
+    ]
   },
   {
     "id": "cr-005",
@@ -151,33 +243,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "The 'Children's Crusade' of 1212 ended without reaching the Holy Land. What reportedly happened to most participants?",
-      "es": "La 'Cruzada de los Niños' de 1212 terminó sin llegar a Tierra Santa. ¿Qué les ocurrió según los relatos a la mayoría de los participantes?"
+      "en": "What do we know about the so-called \"Children’s Crusade\" of 1212?",
+      "es": "¿Qué sabemos sobre la llamada \"Cruzada de los Niños\" de 1212?"
     },
     "options": [
       {
-        "en": "The French group was sold into slavery in North Africa; the German group mostly turned back in the Alps with thousands dying of cold and starvation",
-        "es": "El grupo francés fue vendido como esclavo en el norte de África; el grupo alemán regresó en su mayoría desde los Alpes con miles de muertes por frío y hambre"
+        "en": "Groups of young people marched but never reached Jerusalem",
+        "es": "Grupos de jóvenes marcharon, pero nunca llegaron a Jerusalén"
       },
       {
-        "en": "They were stopped by a Papal decree before reaching the Mediterranean coast",
-        "es": "Fueron detenidos por un decreto papal antes de llegar a la costa mediterránea"
+        "en": "They captured Jerusalem and held it for a short time",
+        "es": "Capturaron Jerusalén y la conservaron por poco tiempo"
+      },
+      {
+        "en": "They sailed to Egypt and won a big battle there",
+        "es": "Navegaron a Egipto y allí ganaron una gran batalla"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "In 1212, two movements emerged — one in France led by a shepherd named Stephen, one in Germany led by Nicholas of Cologne — both claiming divine visions calling children to reclaim Jerusalem. The French group reached Marseilles where merchants promised free passage but reportedly delivered them to slave traders in North Africa. The German group mostly collapsed in the Alps. The events reveal how medieval religious fervor could mobilize even the most vulnerable.",
-      "es": "En 1212 surgieron dos movimientos: uno en Francia liderado por un pastor llamado Esteban, y otro en Alemania liderado por Nicolás de Colonia, ambos afirmando visiones divinas que llamaban a los niños a recuperar Jerusalén. El grupo francés llegó a Marsella, donde unos comerciantes prometieron pasaje gratuito pero supuestamente los entregaron a tratantes de esclavos en el norte de África. El grupo alemán colapsó en gran parte en los Alpes. Los hechos revelan cómo el fervor religioso medieval podía movilizar incluso a los más vulnerables."
+      "en": "In 1212, groups of young people in France and Germany set out for the Holy Land, inspired by preachers. They hoped that God would help them where the armies had failed. Most never got to the sea. Many turned back, died of hunger and cold, or were lost on the way. Historians still debate many details of the story.",
+      "es": "En 1212, grupos de jóvenes de Francia y Alemania partieron hacia Tierra Santa, inspirados por predicadores. Esperaban que Dios los ayudara donde los ejércitos habían fracasado. La mayoría nunca llegó al mar. Muchos regresaron, murieron de hambre y frío o se perdieron en el camino. Los historiadores todavía debaten muchos detalles de la historia."
     },
     "meanwhile": {
-      "en": "In 1212 CE, Genghis Khan was at the height of his campaigns, having united the Mongol tribes and begun the conquest of northern China. While European children marched toward a doomed crusade, the most devastating military force in history was assembling on the steppes — and would, within a generation, reach Poland and Hungary.",
-      "es": "En 1212 d.C., Gengis Kan estaba en el apogeo de sus campañas, habiendo unificado las tribus mongolas y comenzado la conquista del norte de China. Mientras los niños europeos marchaban hacia una cruzada condenada, la fuerza militar más devastadora de la historia se congregaba en las estepas, y en una generación llegaría a Polonia y Hungría."
+      "en": "In 1211, Genghis Khan began his attack on the Jin dynasty in northern China.",
+      "es": "En 1211, Gengis Kan comenzó su ataque contra la dinastía Jin, en el norte de China."
     },
     "reflection": {
-      "en": "Thousands of children abandoned their homes because they believed in a vision that promised divine results. When have you committed fully to something based on belief or inspiration alone — and what happened when reality didn't match the vision?",
-      "es": "Miles de niños abandonaron sus hogares porque creyeron en una visión que prometía resultados divinos. ¿Cuándo te comprometiste plenamente con algo basándote únicamente en la fe o la inspiración, y qué ocurrió cuando la realidad no coincidió con la visión?"
-    }
+      "en": "Young people followed a dream that adults could not achieve. When did a strong belief make you try something very difficult?",
+      "es": "Los jóvenes siguieron un sueño que los adultos no habían podido cumplir. ¿Cuándo una creencia fuerte te hizo intentar algo muy difícil?"
+    },
+    "vocab": [
+      {
+        "term": "preachers",
+        "es": "predicadores"
+      },
+      {
+        "term": "armies",
+        "es": "ejércitos"
+      },
+      {
+        "term": "hunger",
+        "es": "hambre"
+      },
+      {
+        "term": "debate",
+        "es": "debaten"
+      }
+    ]
   },
   {
     "id": "cr-006",
@@ -187,33 +302,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "The medieval Code of Chivalry required knights to combine which three core commitments?",
-      "es": "El Código de Caballería medieval exigía a los caballeros combinar qué tres compromisos fundamentales?"
+      "en": "Which three ideas were at the heart of the code of chivalry?",
+      "es": "¿Cuáles eran las tres ideas centrales del código de caballería?"
     },
     "options": [
       {
-        "en": "Military prowess, Christian faith, and protection of the weak",
-        "es": "Destreza militar, fe cristiana y protección de los débiles"
+        "en": "Courage, loyalty and protecting the weak",
+        "es": "Valentía, lealtad y protección de los débiles"
       },
       {
-        "en": "Personal honor, absolute loyalty to the king, and accumulation of wealth through conquest",
-        "es": "Honor personal, lealtad absoluta al rey y acumulación de riqueza mediante la conquista"
+        "en": "Wealth, power and fame above everything",
+        "es": "Riqueza, poder y fama por encima de todo"
+      },
+      {
+        "en": "Silence, poverty and constant prayer",
+        "es": "Silencio, pobreza y oración constante"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The chivalric code — formalized in the 12th–13th centuries through texts like Ramon Llull's 'Book of the Order of Chivalry' — demanded that knights be brave warriors, devoted Christians, and protectors of women, the poor, and the weak. In practice frequently violated, the code nevertheless created a cultural ideal that placed service and restraint above brute force — an ideal that shaped Western notions of masculine conduct for centuries.",
-      "es": "El código caballeresco —formalizado en los siglos XII–XIII a través de textos como el 'Libro de la Orden de Caballería' de Ramon Llull— exigía a los caballeros ser guerreros valientes, cristianos devotos y protectores de las mujeres, los pobres y los débiles. Aunque frecuentemente violado en la práctica, el código creó no obstante un ideal cultural que colocaba el servicio y la moderación por encima de la fuerza bruta, un ideal que moldeó las nociones occidentales de conducta masculina durante siglos."
+      "en": "The word \"chivalry\" comes from the French word for horse, \"cheval\". A good knight had to be brave in battle, loyal to his lord, and kind to women, children and the poor. He had to keep his word and show good manners. In real life, many knights did not follow these ideals, but they remained important in stories and songs.",
+      "es": "La palabra \"caballería\" viene del francés \"cheval\", que significa caballo. Un buen caballero debía ser valiente en la batalla, leal a su señor y amable con las mujeres, los niños y los pobres. Debía cumplir su palabra y tener buenos modales. En la vida real, muchos caballeros no cumplían estos ideales, pero siguieron siendo importantes en cuentos y canciones."
     },
     "meanwhile": {
-      "en": "Around 1200 CE, in Japan, the samurai warrior class was developing its own code — bushido — with strikingly similar demands: martial excellence, absolute loyalty, and dignified restraint. Two warrior cultures on opposite ends of Eurasia independently developed almost identical ethical frameworks for governing the use of violence.",
-      "es": "Hacia 1200 d.C., en Japón, la clase guerrera samurái desarrollaba su propio código —el bushido— con exigencias llamativamente similares: excelencia marcial, lealtad absoluta y moderación digna. Dos culturas guerreras en extremos opuestos de Eurasia desarrollaron de forma independiente marcos éticos casi idénticos para gobernar el uso de la violencia."
+      "en": "Around 1200, in Japan, the samurai gained power. They had their own code of honor, based on loyalty and courage.",
+      "es": "Alrededor de 1200, en Japón, los samuráis ganaron poder. Tenían su propio código de honor, basado en la lealtad y el coraje."
     },
     "reflection": {
-      "en": "Chivalry and bushido both tried to give warriors a moral framework — to make violence serve a purpose beyond itself. Do you have a personal code that shapes how you pursue your ambitions? What would your version of a 'knight's oath' include?",
-      "es": "La caballería y el bushido intentaban dar a los guerreros un marco moral: hacer que la violencia sirviera a un propósito más allá de sí misma. ¿Tienes un código personal que guíe cómo persigues tus ambiciones? ¿Qué incluiría tu versión de un 'juramento caballeresco'?"
-    }
+      "en": "Knights had a code to guide them. Do you have personal rules that you try to follow?",
+      "es": "Los caballeros tenían un código que los guiaba. ¿Tienes reglas personales que intentas seguir?"
+    },
+    "vocab": [
+      {
+        "term": "brave",
+        "es": "valiente"
+      },
+      {
+        "term": "loyal",
+        "es": "leal"
+      },
+      {
+        "term": "manners",
+        "es": "modales"
+      },
+      {
+        "term": "ideals",
+        "es": "ideales"
+      }
+    ]
   },
   {
     "id": "cr-007",
@@ -223,33 +361,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "The Fourth Crusade (1202–1204) is infamous for never reaching the Holy Land. What did the Crusaders do instead?",
-      "es": "La Cuarta Cruzada (1202–1204) es infame por no haber llegado a Tierra Santa. ¿Qué hicieron en cambio los cruzados?"
+      "en": "What did the soldiers of the Fourth Crusade do in 1204?",
+      "es": "¿Qué hicieron los soldados de la Cuarta Cruzada en 1204?"
     },
     "options": [
       {
-        "en": "They sacked and looted Constantinople — a Christian city — killing thousands and stealing its greatest treasures",
-        "es": "Saquearon y saquearon Constantinopla —una ciudad cristiana— matando a miles y robando sus mayores tesoros"
+        "en": "They attacked and robbed Constantinople",
+        "es": "Atacaron y saquearon Constantinopla"
       },
       {
-        "en": "They turned back after a crushing naval defeat near Cyprus",
-        "es": "Regresaron tras una aplastante derrota naval cerca de Chipre"
+        "en": "They freed Jerusalem",
+        "es": "Liberaron Jerusalén"
+      },
+      {
+        "en": "They defeated Saladin’s army",
+        "es": "Derrotaron al ejército de Saladino"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Diverted by Venetian financial interests and Byzantine political intrigue, the Fourth Crusade ended with Crusaders sacking Constantinople in April 1204. The Venetians looted its extraordinary art treasures — the famous bronze horses now at St. Mark's Basilica came from Constantinople's Hippodrome. The atrocities committed by Christian armies against a Christian city fatally weakened Byzantium and contributed directly to its vulnerability to the Ottomans 250 years later.",
-      "es": "Desviada por intereses financieros venecianos e intrigas políticas bizantinas, la Cuarta Cruzada terminó con el saqueo de Constantinopla en abril de 1204. Los venecianos robaron sus extraordinarios tesoros artísticos: los famosos caballos de bronce que hoy se encuentran en la Basílica de San Marcos proceden del Hipódromo de Constantinopla. Las atrocidades cometidas por ejércitos cristianos contra una ciudad cristiana debilitaron fatalmente a Bizancio y contribuyeron directamente a su vulnerabilidad ante los otomanos 250 años después."
+      "en": "The crusaders planned to attack Egypt, but they could not pay Venice for the ships. Venice asked them to help in other attacks first. In the end, they went to Constantinople, a Christian city, and took it in April 1204. They stole holy objects and artworks. The famous bronze horses of St. Mark’s in Venice came from there.",
+      "es": "Los cruzados planeaban atacar Egipto, pero no podían pagar a Venecia por los barcos. Venecia les pidió que ayudaran primero en otros ataques. Al final fueron a Constantinopla, una ciudad cristiana, y la tomaron en abril de 1204. Robaron objetos sagrados y obras de arte. Los famosos caballos de bronce de San Marcos, en Venecia, vienen de allí."
     },
     "meanwhile": {
-      "en": "In 1204 CE, in West Africa, the Ghana Empire had recently collapsed and the Mali Empire was beginning its rise under the Keita dynasty. Within a century, under Mansa Musa, Mali would become the wealthiest kingdom on Earth — while European knights were busy destroying the greatest Christian city in the world.",
-      "es": "En 1204 d.C., en África Occidental, el Imperio de Ghana había colapsado recientemente y el Imperio de Malí comenzaba su ascenso bajo la dinastía Keita. En un siglo, bajo Mansa Musa, Malí se convertiría en el reino más rico de la Tierra, mientras los caballeros europeos se ocupaban de destruir la mayor ciudad cristiana del mundo."
+      "en": "Around 1200, builders in southern Africa were raising the stone walls of Great Zimbabwe.",
+      "es": "Alrededor de 1200, en el sur de África se levantaban los muros de piedra del Gran Zimbabue."
     },
     "reflection": {
-      "en": "Men who marched under the banner of Christianity to protect holy cities ended up destroying the greatest Christian city in the world. Think of a time when you caused the very thing you set out to prevent. How did you make sense of that afterward?",
-      "es": "Hombres que marcharon bajo el estandarte del cristianismo para proteger ciudades sagradas terminaron destruyendo la mayor ciudad cristiana del mundo. Piensa en un momento en que provocaste exactamente lo que intentabas prevenir. ¿Cómo lo interpretaste después?"
-    }
+      "en": "The crusaders ended up doing the opposite of their goal. When did your plans change so much that the result was very different?",
+      "es": "Los cruzados terminaron haciendo lo contrario de su objetivo. ¿Cuándo cambiaron tanto tus planes que el resultado fue muy distinto?"
+    },
+    "vocab": [
+      {
+        "term": "ships",
+        "es": "barcos"
+      },
+      {
+        "term": "stole",
+        "es": "robaron"
+      },
+      {
+        "term": "holy",
+        "es": "sagrados"
+      },
+      {
+        "term": "artworks",
+        "es": "obras de arte"
+      }
+    ]
   },
   {
     "id": "cr-008",
@@ -259,33 +420,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "The Magna Carta (1215) was revolutionary because it established what principle for the first time in English history?",
-      "es": "La Carta Magna (1215) fue revolucionaria porque estableció qué principio por primera vez en la historia inglesa?"
+      "en": "The Magna Carta of 1215 said that the king must do what?",
+      "es": "La Carta Magna de 1215 decía que el rey debía hacer qué?"
     },
     "options": [
       {
-        "en": "That even the king was subject to the law and could not arbitrarily imprison free men",
-        "es": "Que incluso el rey estaba sujeto a la ley y no podía encarcelar arbitrariamente a hombres libres"
+        "en": "Obey the law like everyone else",
+        "es": "Obedecer la ley como todos los demás"
       },
       {
-        "en": "That commoners could elect representatives to a parliament with binding authority",
-        "es": "Que los hombres del pueblo podían elegir representantes a un parlamento con autoridad vinculante"
+        "en": "Give half of his land to the church",
+        "es": "Dar la mitad de sus tierras a la Iglesia"
+      },
+      {
+        "en": "Ask the Pope before every war",
+        "es": "Pedir permiso al papa antes de cada guerra"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "King John of England was forced by his barons to sign the Magna Carta ('Great Charter') in June 1215. Its key principle — that the king could not arbitrarily imprison or punish free men without due process of law — was revolutionary. While it originally protected only nobles, its language was later interpreted to protect all citizens. The U.S. Constitution and most modern democratic legal systems trace their lineage directly to this document.",
-      "es": "El rey Juan de Inglaterra fue obligado por sus barones a firmar la Carta Magna ('Gran Carta') en junio de 1215. Su principio clave —que el rey no podía encarcelar ni castigar arbitrariamente a hombres libres sin el debido proceso legal— fue revolucionario. Aunque inicialmente protegía solo a los nobles, su texto fue luego interpretado para proteger a todos los ciudadanos. La Constitución estadounidense y la mayoría de los sistemas legales democráticos modernos trazan su linaje directamente a este documento."
+      "en": "King John of England was unpopular, and he demanded high taxes. In June 1215, his barons forced him to sign the Magna Carta, or \"Great Charter\". It said that the king could not punish a free man without a fair trial. At first it protected mostly the nobles. Later, it became a symbol of the idea that nobody is above the law.",
+      "es": "El rey Juan de Inglaterra era impopular y exigía impuestos altos. En junio de 1215, sus barones lo obligaron a firmar la Carta Magna, o \"Gran Carta\". Decía que el rey no podía castigar a un hombre libre sin un juicio justo. Al principio protegía sobre todo a los nobles. Más tarde se convirtió en un símbolo de la idea de que nadie está por encima de la ley."
     },
     "meanwhile": {
-      "en": "In 1215 CE, Genghis Khan was conquering Zhongdu (modern Beijing) — one of the largest cities on Earth. While English barons forced a king to submit to law in a meadow outside London, the Mongol leader was demonstrating, on the other side of the world, what power without legal constraint looked like.",
-      "es": "En 1215 d.C., Gengis Kan conquistaba Zhongdu (la actual Pekín), una de las ciudades más grandes de la Tierra. Mientras los barones ingleses obligaban a un rey a someterse a la ley en una pradera a las afueras de Londres, el líder mongol demostraba, al otro lado del mundo, cómo era el poder sin restricciones legales."
+      "en": "In 1215, Genghis Khan’s army captured Zhongdu, today’s Beijing, one of the largest cities in the world.",
+      "es": "En 1215, el ejército de Gengis Kan capturó Zhongdu, la actual Pekín, una de las ciudades más grandes del mundo."
     },
     "reflection": {
-      "en": "The Magna Carta didn't end tyranny — it established the idea that no one is above the law, which has had to be reasserted ever since. What principle in your own life are you committed to defending even when it's inconvenient — especially when it's inconvenient?",
-      "es": "La Carta Magna no acabó con la tiranía: estableció la idea de que nadie está por encima de la ley, algo que ha tenido que reafirmarse continuamente. ¿Qué principio en tu propia vida estás comprometido a defender aunque sea inconveniente, especialmente cuando lo es?"
-    }
+      "en": "The barons made the king follow the rules. Why is it important that leaders must obey the same laws as everyone else?",
+      "es": "Los barones obligaron al rey a cumplir las reglas. ¿Por qué es importante que los líderes obedezcan las mismas leyes que todos?"
+    },
+    "vocab": [
+      {
+        "term": "taxes",
+        "es": "impuestos"
+      },
+      {
+        "term": "barons",
+        "es": "barones"
+      },
+      {
+        "term": "trial",
+        "es": "juicio"
+      },
+      {
+        "term": "symbol",
+        "es": "símbolo"
+      }
+    ]
   },
   {
     "id": "cr-009",
@@ -295,33 +479,56 @@
       "es": "Cruzadas y Caballería"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Reconquista was the centuries-long effort by Christian kingdoms to reclaim which territory from Muslim rule?",
-      "es": "La Reconquista fue el esfuerzo de siglos de los reinos cristianos por recuperar qué territorio del dominio musulmán?"
+      "en": "The Reconquista was a long struggle in which part of Europe?",
+      "es": "La Reconquista fue una larga lucha en qué parte de Europa?"
     },
     "options": [
       {
-        "en": "The Iberian Peninsula (modern Spain and Portugal)",
-        "es": "La Península Ibérica (la actual España y Portugal)"
+        "en": "The Iberian Peninsula, today’s Spain and Portugal",
+        "es": "La península ibérica, la actual España y Portugal"
       },
       {
-        "en": "Southern Italy and Sicily",
-        "es": "El sur de Italia y Sicilia"
+        "en": "The Balkans, in southeastern Europe",
+        "es": "Los Balcanes, en el sureste de Europa"
+      },
+      {
+        "en": "The British Isles, in the North Atlantic",
+        "es": "Las Islas Británicas, en el Atlántico Norte"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Reconquista began when Muslim forces conquered most of the Iberian Peninsula in 711 CE, and ended when the last Muslim kingdom of Granada fell to Ferdinand and Isabella in 1492 — the same year Columbus sailed. The 781-year process produced a uniquely multicultural medieval society: at its height, Muslim-controlled Al-Andalus was Europe's most sophisticated civilization, where Arabic, Jewish, and Christian scholars jointly preserved and advanced ancient Greek knowledge.",
-      "es": "La Reconquista comenzó cuando las fuerzas musulmanas conquistaron la mayor parte de la Península Ibérica en 711 d.C. y terminó cuando el último reino musulmán de Granada cayó ante Fernando e Isabel en 1492, el mismo año que Colón zarpó. El proceso de 781 años produjo una sociedad medieval excepcionalmente multicultural: en su apogeo, Al-Ándalus bajo dominio musulmán era la civilización más sofisticada de Europa, donde eruditos árabes, judíos y cristianos preservaron y avanzaron conjuntamente el conocimiento griego antiguo."
+      "en": "In 711 CE, Muslim armies crossed from Africa and took most of the Iberian Peninsula. Over many centuries, Christian kingdoms in the north slowly won the land back. The last Muslim kingdom, Granada, fell in 1492. During these centuries, Muslims, Christians and Jews lived side by side, and they shared science, poetry and architecture.",
+      "es": "En el 711 d. C., ejércitos musulmanes cruzaron desde África y tomaron la mayor parte de la península ibérica. A lo largo de muchos siglos, los reinos cristianos del norte fueron recuperando poco a poco las tierras. El último reino musulmán, Granada, cayó en 1492. Durante esos siglos, musulmanes, cristianos y judíos vivieron uno junto a otro y compartieron ciencia, poesía y arquitectura."
     },
     "meanwhile": {
-      "en": "Around 1000 CE, in Zimbabwe, the Kingdom of Great Zimbabwe was building its massive stone enclosures — sophisticated urban construction in sub-Saharan Africa. At the same moment, Al-Andalus in Spain was the most educated society in Europe, and both went largely unknown to each other.",
-      "es": "Hacia el año 1000 d.C., en Zimbabwe, el Reino del Gran Zimbabwe construía sus imponentes recintos de piedra: construcción urbana sofisticada en el África subsahariana. En ese mismo momento, Al-Ándalus en España era la sociedad más educada de Europa, y ambas se ignoraban mutuamente."
+      "en": "Around 1050, the Mississippian people were building Cahokia, a big city with large earth mounds near present-day St. Louis.",
+      "es": "Alrededor de 1050, el pueblo misisipiano construía Cahokia, una gran ciudad con grandes montículos de tierra cerca de la actual San Luis, en Estados Unidos."
     },
     "reflection": {
-      "en": "Al-Andalus — a Muslim-ruled civilization in Europe — preserved and advanced knowledge that Christian Europe had lost, contributing directly to the Renaissance. What do you owe, intellectually or culturally, to a tradition or people you might be conditioned to see as 'other'?",
-      "es": "Al-Ándalus —una civilización gobernada por musulmanes en Europa— preservó y avanzó el conocimiento que la Europa cristiana había perdido, contribuyendo directamente al Renacimiento. ¿Qué le debes, intelectual o culturalmente, a una tradición o a un pueblo que podrías estar condicionado a ver como 'el otro'?"
-    }
+      "en": "Different cultures lived together in Spain for centuries and learned from each other. What have you learned from a culture different from yours?",
+      "es": "Distintas culturas convivieron en España durante siglos y aprendieron unas de otras. ¿Qué has aprendido de una cultura distinta a la tuya?"
+    },
+    "vocab": [
+      {
+        "term": "peninsula",
+        "es": "península"
+      },
+      {
+        "term": "crossed",
+        "es": "cruzaron"
+      },
+      {
+        "term": "kingdoms",
+        "es": "reinos"
+      },
+      {
+        "term": "architecture",
+        "es": "arquitectura"
+      }
+    ]
   },
   {
     "id": "cr-010",
@@ -330,33 +537,1236 @@
       "en": "Crusades & Chivalry",
       "es": "Cruzadas y Caballería"
     },
-    "difficulty": "hard",
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The fall of Acre in 1291 marked what turning point in the history of the Crusades?",
-      "es": "La caída de Acre en 1291 marcó qué punto de inflexión en la historia de las Cruzadas?"
+      "en": "What did the fall of Acre in 1291 mean for the Crusaders?",
+      "es": "¿Qué significó la caída de Acre en 1291 para los cruzados?"
     },
     "options": [
       {
-        "en": "The end of the Crusader States — the last Christian military foothold in the Holy Land",
-        "es": "El fin de los Estados Cruzados: el último punto de apoyo militar cristiano en Tierra Santa"
+        "en": "They lost their last major city in the Holy Land",
+        "es": "Perdieron su última gran ciudad en Tierra Santa"
       },
       {
-        "en": "The final military defeat of the Knights Templar in open battle",
-        "es": "La derrota militar definitiva de los Caballeros Templarios en batalla abierta"
+        "en": "They won control of the whole Holy Land",
+        "es": "Ganaron el control de toda Tierra Santa"
+      },
+      {
+        "en": "They signed a lasting peace with the Mamluks",
+        "es": "Firmaron una paz duradera con los mamelucos"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Acre was the last major Crusader stronghold. When it fell to Mamluk forces on May 18, 1291, after a brutal siege, the remaining Crusader population was massacred or enslaved. The fall ended nearly 200 years of Crusader presence in the Levant. Military orders retreated to Cyprus and Malta, and no serious effort to retake the Holy Land was ever mounted again.",
-      "es": "Acre era el último gran bastión cruzado. Cuando cayó ante las fuerzas mamelucas el 18 de mayo de 1291 tras un brutal asedio, la población cruzada restante fue masacrada o esclavizada. La caída puso fin a casi 200 años de presencia cruzada en el Levante. Las órdenes militares se retiraron a Chipre y Malta, y nunca más se emprendió un esfuerzo serio por retomar Tierra Santa."
+      "en": "Acre was the last big city held by the Crusaders in the Holy Land. In May 1291, the Mamluk army from Egypt attacked it after a long siege. Many people died, and others were taken as prisoners. After that, the Crusader states were gone. Europeans made later plans for new crusades, but none recovered the lost land.",
+      "es": "Acre era la última gran ciudad en manos de los cruzados en Tierra Santa. En mayo de 1291, el ejército mameluco de Egipto la atacó tras un largo asedio. Murió mucha gente y otros fueron llevados prisioneros. Después de eso, los Estados cruzados desaparecieron. Los europeos hicieron planes posteriores para nuevas cruzadas, pero ninguna recuperó las tierras perdidas."
     },
     "meanwhile": {
-      "en": "In 1291 CE, Marco Polo was returning to Venice after his 24-year journey to China and the court of Kublai Khan. At the exact moment the Crusades ended in military failure, Europeans were receiving their first detailed glimpse of how vast, wealthy, and sophisticated the world beyond their horizon truly was.",
-      "es": "En 1291 d.C., Marco Polo regresaba a Venecia tras su viaje de 24 años a China y la corte de Kublai Kan. En el preciso momento en que las Cruzadas terminaban en fracaso militar, los europeos recibían su primera visión detallada de cuán vasto, rico y sofisticado era el mundo más allá de su horizonte."
+      "en": "In 1291, three regions in the Alps made a promise to defend each other. This is seen as the start of Switzerland.",
+      "es": "En 1291, tres regiones de los Alpes se prometieron defenderse mutuamente. Esto se considera el comienzo de Suiza."
     },
     "reflection": {
-      "en": "The Crusaders spent 200 years trying to control a place through force and ultimately failed. Meanwhile, a single traveler's journey opened more doors than all the armies combined. What have you discovered through curiosity and openness that pressure or force never could have gotten you?",
-      "es": "Los cruzados pasaron 200 años intentando controlar un lugar mediante la fuerza y finalmente fracasaron. Mientras tanto, el viaje de un solo explorador abrió más puertas que todos los ejércitos juntos. ¿Qué has descubierto mediante la curiosidad y la apertura que la presión o la fuerza nunca te habrían dado?"
-    }
+      "en": "After 200 years, the Crusaders lost everything. When did a long effort of yours end without the result you wanted?",
+      "es": "Después de 200 años, los cruzados lo perdieron todo. ¿Cuándo un largo esfuerzo tuyo terminó sin el resultado que querías?"
+    },
+    "vocab": [
+      {
+        "term": "siege",
+        "es": "asedio"
+      },
+      {
+        "term": "prisoners",
+        "es": "prisioneros"
+      },
+      {
+        "term": "Mamluk",
+        "es": "mameluco"
+      },
+      {
+        "term": "lost",
+        "es": "perdidas"
+      }
+    ]
+  },
+  {
+    "id": "cr-011",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why did knights have coats of arms on their shields?",
+      "es": "¿Por qué los caballeros tenían escudos de armas pintados en sus escudos?"
+    },
+    "options": [
+      {
+        "en": "So that people could recognize them in battle",
+        "es": "Para que la gente pudiera reconocerlos en la batalla"
+      },
+      {
+        "en": "To scare the enemy’s horses in the charge",
+        "es": "Para asustar a los caballos del enemigo en la carga"
+      },
+      {
+        "en": "To show how old the knight’s family was",
+        "es": "Para mostrar cuántos años tenía la familia del caballero"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In battle, a knight’s helmet and armor covered his whole body, so friends and enemies looked the same. Knights painted colorful symbols on their shields and cloaks: lions, eagles, crosses and stripes. Each family had its own design, and it passed from father to child. Special officials, called heralds, knew all the designs.",
+      "es": "En la batalla, el casco y la armadura de un caballero cubrían todo su cuerpo, así que amigos y enemigos se veían iguales. Los caballeros pintaban símbolos de colores en sus escudos y capas: leones, águilas, cruces y rayas. Cada familia tenía su propio diseño, que pasaba de padres a hijos. Unos funcionarios especiales, llamados heraldos, conocían todos los diseños."
+    },
+    "meanwhile": {
+      "en": "In Japan, samurai families used crests called \"mon\" to show which clan they belonged to.",
+      "es": "En Japón, las familias de samuráis usaban emblemas llamados \"mon\" para mostrar a qué clan pertenecían."
+    },
+    "reflection": {
+      "en": "Coats of arms showed who people were. What symbol or object shows who you are?",
+      "es": "Los escudos de armas mostraban quién era cada persona. ¿Qué símbolo u objeto muestra quién eres tú?"
+    },
+    "vocab": [
+      {
+        "term": "coats of arms",
+        "es": "escudos de armas"
+      },
+      {
+        "term": "helmet",
+        "es": "casco"
+      },
+      {
+        "term": "stripes",
+        "es": "rayas"
+      },
+      {
+        "term": "heralds",
+        "es": "heraldos"
+      }
+    ]
+  },
+  {
+    "id": "cr-012",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was the main purpose of a medieval castle?",
+      "es": "¿Cuál era el propósito principal de un castillo medieval?"
+    },
+    "options": [
+      {
+        "en": "To defend a place and to be a lord’s home",
+        "es": "Defender un lugar y ser el hogar de un señor"
+      },
+      {
+        "en": "To store the king’s treasure only",
+        "es": "Guardar únicamente el tesoro del rey"
+      },
+      {
+        "en": "To teach young knights",
+        "es": "Enseñar a jóvenes caballeros"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A castle was both a fortress and a home. Early castles were made of wood on a hill, but later they were built of stone. They had thick walls, high towers, a moat and a drawbridge. Narrow windows let archers shoot without being hit. In war, villagers could take shelter inside.",
+      "es": "Un castillo era a la vez una fortaleza y un hogar. Los primeros castillos eran de madera sobre una colina, pero luego se construyeron de piedra. Tenían muros gruesos, torres altas, un foso y un puente levadizo. Las ventanas estrechas permitían a los arqueros disparar sin ser alcanzados. En la guerra, los aldeanos podían refugiarse dentro."
+    },
+    "meanwhile": {
+      "en": "Around 1100, Song Chinese engineers were building warships with paddle wheels moved by pedaling sailors.",
+      "es": "Alrededor de 1100, los ingenieros chinos de la dinastía Song construían barcos de guerra con ruedas de paletas movidas por marineros que pedaleaban."
+    },
+    "reflection": {
+      "en": "A castle protected people but also kept others out. What are the \"walls\" that keep you safe, and what do they keep out?",
+      "es": "Un castillo protegía a la gente, pero también dejaba a otros afuera. ¿Cuáles son los \"muros\" que te mantienen a salvo y qué dejan afuera?"
+    },
+    "vocab": [
+      {
+        "term": "fortress",
+        "es": "fortaleza"
+      },
+      {
+        "term": "moat",
+        "es": "foso"
+      },
+      {
+        "term": "drawbridge",
+        "es": "puente levadizo"
+      },
+      {
+        "term": "archers",
+        "es": "arqueros"
+      }
+    ]
+  },
+  {
+    "id": "cr-013",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What was the usual path to become a knight?",
+      "es": "¿Cuál era el camino habitual para convertirse en caballero?"
+    },
+    "options": [
+      {
+        "en": "Page, then squire, then knight",
+        "es": "Paje, luego escudero, luego caballero"
+      },
+      {
+        "en": "Monk, then soldier, then knight",
+        "es": "Monje, luego soldado, luego caballero"
+      },
+      {
+        "en": "Farmer, then guard, then knight",
+        "es": "Granjero, luego guardia, luego caballero"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At about seven years old, a boy from a noble family became a page in another lord’s castle. He learned manners, music and how to ride. At about fourteen, he became a squire and served a knight, carrying his armor and learning to fight. At around twenty-one, he could be made a knight in a ceremony, when a lord touched his shoulder with a sword.",
+      "es": "A los siete años aproximadamente, un niño de una familia noble se convertía en paje en el castillo de otro señor. Aprendía modales, música y a montar a caballo. A los catorce años se convertía en escudero y servía a un caballero, llevando su armadura y aprendiendo a pelear. Alrededor de los veintiún años podía ser armado caballero en una ceremonia, cuando un señor le tocaba el hombro con una espada."
+    },
+    "meanwhile": {
+      "en": "Around 1200, in Egypt and Syria, Mamluk soldiers were trained from boyhood to become elite warriors.",
+      "es": "Alrededor de 1200, en Egipto y Siria, los soldados mamelucos se entrenaban desde niños para convertirse en guerreros de élite."
+    },
+    "reflection": {
+      "en": "A knight needed over ten years of training. What have you practiced for many years?",
+      "es": "Un caballero necesitaba más de diez años de entrenamiento. ¿Qué has practicado durante muchos años?"
+    },
+    "vocab": [
+      {
+        "term": "page",
+        "es": "paje"
+      },
+      {
+        "term": "squire",
+        "es": "escudero"
+      },
+      {
+        "term": "ceremony",
+        "es": "ceremonia"
+      },
+      {
+        "term": "sword",
+        "es": "espada"
+      }
+    ]
+  },
+  {
+    "id": "cr-014",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was a medieval tournament?",
+      "es": "¿Qué era un torneo medieval?"
+    },
+    "options": [
+      {
+        "en": "A contest where knights practiced fighting",
+        "es": "Una competencia donde los caballeros practicaban la lucha"
+      },
+      {
+        "en": "A trial in front of a judge",
+        "es": "Un juicio ante un juez"
+      },
+      {
+        "en": "A meeting of the king’s advisers",
+        "es": "Una reunión de los consejeros del rey"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Tournaments were big events with crowds, music and food. In the joust, two knights on horses charged at each other with long lances and tried to knock the other off. Winners got prizes and fame. Tournaments were dangerous, and sometimes a knight died. In 1559, King Henry II of France died after a joust.",
+      "es": "Los torneos eran grandes eventos con multitudes, música y comida. En la justa, dos caballeros a caballo se lanzaban uno contra otro con largas lanzas e intentaban derribar al contrario. Los ganadores recibían premios y fama. Los torneos eran peligrosos y a veces moría un caballero. En 1559, el rey Enrique II de Francia murió tras una justa."
+    },
+    "meanwhile": {
+      "en": "In 1206, in India, the Delhi Sultanate was founded. It ruled much of northern India for over 300 years.",
+      "es": "En 1206, en la India, se fundó el Sultanato de Delhi. Gobernó gran parte del norte de la India durante más de 300 años."
+    },
+    "reflection": {
+      "en": "Tournaments were practice for war but also a show. Which sports today come from fighting or war?",
+      "es": "Los torneos eran práctica para la guerra, pero también un espectáculo. ¿Qué deportes de hoy vienen de la lucha o la guerra?"
+    },
+    "vocab": [
+      {
+        "term": "joust",
+        "es": "justa"
+      },
+      {
+        "term": "lances",
+        "es": "lanzas"
+      },
+      {
+        "term": "prizes",
+        "es": "premios"
+      },
+      {
+        "term": "crowds",
+        "es": "multitudes"
+      }
+    ]
+  },
+  {
+    "id": "cr-015",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "How did a trebuchet work?",
+      "es": "¿Cómo funcionaba un trabuco?"
+    },
+    "options": [
+      {
+        "en": "A falling weight swung an arm that threw stones",
+        "es": "Un peso al caer hacía girar un brazo que lanzaba piedras"
+      },
+      {
+        "en": "Soldiers pushed it like a giant wooden wheel",
+        "es": "Los soldados lo empujaban como una rueda de madera gigante"
+      },
+      {
+        "en": "It burned and exploded with black gunpowder",
+        "es": "Ardía y explotaba con pólvora negra"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A trebuchet was a huge machine used to attack castles. At one end of a long wooden arm there was a very heavy box of stones. When it fell, the other end of the arm swung up and threw a stone from a sling. It could hurl stones of 100 kilograms or more against walls. Sometimes attackers also threw dead animals into a castle to spread disease.",
+      "es": "Un trabuco era una enorme máquina usada para atacar castillos. En un extremo de un largo brazo de madera había una caja muy pesada llena de piedras. Cuando caía, el otro extremo del brazo se elevaba y lanzaba una piedra desde una honda. Podía arrojar piedras de 100 kilos o más contra los muros. A veces los atacantes también lanzaban animales muertos dentro de un castillo para propagar enfermedades."
+    },
+    "meanwhile": {
+      "en": "Around 1250, in China, soldiers were using early gunpowder weapons such as fire lances and bombs.",
+      "es": "Alrededor de 1250, en China, los soldados usaban armas primitivas de pólvora, como lanzas de fuego y bombas."
+    },
+    "reflection": {
+      "en": "Engineers have always tried to make machines stronger. What machine or technology do you find most impressive?",
+      "es": "Los ingenieros siempre han intentado hacer máquinas más fuertes. ¿Qué máquina o tecnología te parece más impresionante?"
+    },
+    "vocab": [
+      {
+        "term": "heavy",
+        "es": "pesada"
+      },
+      {
+        "term": "arm",
+        "es": "brazo"
+      },
+      {
+        "term": "sling",
+        "es": "honda"
+      },
+      {
+        "term": "hurl",
+        "es": "arrojar"
+      }
+    ]
+  },
+  {
+    "id": "cr-016",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What happened when the First Crusade reached Jerusalem in July 1099?",
+      "es": "¿Qué pasó cuando la Primera Cruzada llegó a Jerusalén en julio de 1099?"
+    },
+    "options": [
+      {
+        "en": "The crusaders took the city, and many people died",
+        "es": "Los cruzados tomaron la ciudad y murió mucha gente"
+      },
+      {
+        "en": "The city surrendered to the crusaders without a fight",
+        "es": "La ciudad se rindió a los cruzados sin luchar"
+      },
+      {
+        "en": "The crusaders were defeated at the city gates",
+        "es": "Los cruzados fueron derrotados a las puertas de la ciudad"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "After a siege of about five weeks, the crusaders broke into Jerusalem on July 15, 1099. They killed many of the Muslim and Jewish inhabitants. Godfrey of Bouillon became the ruler, and he refused to be called king in the city where Jesus had died. The conquest created Christian states along the coast of the Holy Land.",
+      "es": "Tras un asedio de unas cinco semanas, los cruzados irrumpieron en Jerusalén el 15 de julio de 1099. Mataron a muchos de los habitantes musulmanes y judíos. Godofredo de Bouillon se convirtió en gobernante y se negó a ser llamado rey en la ciudad donde había muerto Jesús. La conquista creó Estados cristianos a lo largo de la costa de Tierra Santa."
+    },
+    "meanwhile": {
+      "en": "In July 1099, in Spain, the knight El Cid, a hero of Spanish legends, died in the city of Valencia.",
+      "es": "En julio de 1099, en España, murió en la ciudad de Valencia el caballero El Cid, un héroe de las leyendas españolas."
+    },
+    "reflection": {
+      "en": "The memory of this violence lasted for centuries. Why do some events stay in people’s memory for so long?",
+      "es": "El recuerdo de esta violencia duró siglos. ¿Por qué algunos hechos permanecen tanto tiempo en la memoria de la gente?"
+    },
+    "vocab": [
+      {
+        "term": "siege",
+        "es": "asedio"
+      },
+      {
+        "term": "inhabitants",
+        "es": "habitantes"
+      },
+      {
+        "term": "refused",
+        "es": "se negó"
+      },
+      {
+        "term": "conquest",
+        "es": "conquista"
+      }
+    ]
+  },
+  {
+    "id": "cr-017",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What was the \"People’s Crusade\" of 1096?",
+      "es": "¿Qué fue la \"Cruzada Popular\" de 1096?"
+    },
+    "options": [
+      {
+        "en": "A crowd of poorly armed peasants led by Peter",
+        "es": "Una multitud de campesinos mal armados dirigida por Pedro"
+      },
+      {
+        "en": "An army of royal knights on strong warhorses",
+        "es": "Un ejército de caballeros reales en fuertes caballos de guerra"
+      },
+      {
+        "en": "A fleet of ships that sailed from Italy",
+        "es": "Una flota de barcos que zarpó de Italia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before the knights were ready, a preacher named Peter the Hermit gathered thousands of ordinary people, including farmers, families and priests. They had little food, few weapons and no clear plan. They marched toward Constantinople. In October 1096, Turkish soldiers defeated them in Asia Minor, and most of them were killed.",
+      "es": "Antes de que los caballeros estuvieran listos, un predicador llamado Pedro el Ermitaño reunió a miles de personas comunes, entre ellas agricultores, familias y sacerdotes. Tenían poca comida, pocas armas y ningún plan claro. Marcharon hacia Constantinopla. En octubre de 1096, soldados turcos los derrotaron en Asia Menor y la mayoría murió."
+    },
+    "meanwhile": {
+      "en": "Around 1096, teaching began at Oxford in England. It grew into one of the oldest universities in the world.",
+      "es": "Alrededor de 1096, comenzó la enseñanza en Oxford, en Inglaterra. Creció hasta convertirse en una de las universidades más antiguas del mundo."
+    },
+    "reflection": {
+      "en": "The crowd followed a dream without a plan. When did you start something with a lot of enthusiasm but no plan?",
+      "es": "La multitud siguió un sueño sin plan. ¿Cuándo empezaste algo con mucho entusiasmo pero sin un plan?"
+    },
+    "vocab": [
+      {
+        "term": "preacher",
+        "es": "predicador"
+      },
+      {
+        "term": "priests",
+        "es": "sacerdotes"
+      },
+      {
+        "term": "weapons",
+        "es": "armas"
+      },
+      {
+        "term": "defeated",
+        "es": "derrotaron"
+      }
+    ]
+  },
+  {
+    "id": "cr-018",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How did the Knights Hospitaller begin?",
+      "es": "¿Cómo comenzaron los Caballeros Hospitalarios?"
+    },
+    "options": [
+      {
+        "en": "As a hospital in Jerusalem caring for pilgrims",
+        "es": "Como un hospital en Jerusalén que cuidaba a los peregrinos"
+      },
+      {
+        "en": "As a group of royal guards in Jerusalem",
+        "es": "Como un grupo de guardias reales en Jerusalén"
+      },
+      {
+        "en": "As a school that trained sailors",
+        "es": "Como una escuela que formaba marineros"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In Jerusalem, a hospital cared for sick and poor pilgrims. After the First Crusade, the group grew and also began to defend the Holy Land with weapons. They were called the Knights Hospitaller. Later they moved to Rhodes and then to Malta. Today the Order of Malta is a Catholic charity that still helps sick and poor people.",
+      "es": "En Jerusalén, un hospital cuidaba a peregrinos enfermos y pobres. Después de la Primera Cruzada, el grupo creció y también empezó a defender Tierra Santa con armas. Se los llamó Caballeros Hospitalarios. Más tarde se trasladaron a Rodas y luego a Malta. Hoy la Orden de Malta es una organización benéfica católica que todavía ayuda a enfermos y pobres."
+    },
+    "meanwhile": {
+      "en": "Around 1100, the University of Bologna in Italy was already teaching law. It is one of the oldest universities in Europe.",
+      "es": "Alrededor de 1100, la Universidad de Bolonia, en Italia, ya enseñaba derecho. Es una de las universidades más antiguas de Europa."
+    },
+    "reflection": {
+      "en": "The Hospitallers started by helping sick people. How did a small act of care in your life grow into something bigger?",
+      "es": "Los hospitalarios empezaron ayudando a enfermos. ¿Cómo creció en tu vida un pequeño acto de cuidado hasta convertirse en algo más grande?"
+    },
+    "vocab": [
+      {
+        "term": "hospital",
+        "es": "hospital"
+      },
+      {
+        "term": "pilgrims",
+        "es": "peregrinos"
+      },
+      {
+        "term": "charity",
+        "es": "organización benéfica"
+      },
+      {
+        "term": "moved",
+        "es": "trasladaron"
+      }
+    ]
+  },
+  {
+    "id": "cr-019",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The Teutonic Knights built a powerful state in which region?",
+      "es": "Los Caballeros Teutónicos construyeron un poderoso Estado en qué región?"
+    },
+    "options": [
+      {
+        "en": "Prussia, along the Baltic Sea",
+        "es": "Prusia, a orillas del mar Báltico"
+      },
+      {
+        "en": "Sicily, in the Mediterranean",
+        "es": "Sicilia, en el Mediterráneo"
+      },
+      {
+        "en": "Scotland, in the north of Britain",
+        "es": "Escocia, en el norte de Britania"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Teutonic Order began around 1190 as a hospital for German pilgrims in Acre. In the 1200s, they moved to the Baltic region to fight the local pagan peoples. There they built a state with many brick castles. Their huge castle at Marienburg was one of the largest in Europe. They were defeated at the Battle of Grunwald in 1410.",
+      "es": "La Orden Teutónica comenzó alrededor de 1190 como un hospital para peregrinos alemanes en Acre. En el siglo XIII se trasladaron a la región del Báltico para combatir a los pueblos paganos locales. Allí construyeron un Estado con muchos castillos de ladrillo. Su enorme castillo de Marienburg era uno de los más grandes de Europa. Fueron derrotados en la batalla de Grunwald en 1410."
+    },
+    "meanwhile": {
+      "en": "Around 1235, Sundiata Keita founded the Mali Empire in West Africa after defeating a rival king.",
+      "es": "Alrededor de 1235, Sundiata Keita fundó el Imperio de Malí, en África Occidental, tras derrotar a un rey rival."
+    },
+    "reflection": {
+      "en": "A group that began with a gentle goal became a military power. Can a good purpose change over time?",
+      "es": "Un grupo que comenzó con un objetivo amable se convirtió en una potencia militar. ¿Puede cambiar con el tiempo un buen propósito?"
+    },
+    "vocab": [
+      {
+        "term": "pagan",
+        "es": "paganos"
+      },
+      {
+        "term": "brick",
+        "es": "ladrillo"
+      },
+      {
+        "term": "castles",
+        "es": "castillos"
+      },
+      {
+        "term": "defeated",
+        "es": "derrotados"
+      }
+    ]
+  },
+  {
+    "id": "cr-020",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Eleanor of Aquitaine was unusual because she was queen of which two countries?",
+      "es": "Leonor de Aquitania era inusual porque fue reina de qué dos países?"
+    },
+    "options": [
+      {
+        "en": "France and England",
+        "es": "Francia e Inglaterra"
+      },
+      {
+        "en": "Spain and Portugal",
+        "es": "España y Portugal"
+      },
+      {
+        "en": "Germany and Italy",
+        "es": "Alemania e Italia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Eleanor was the ruler of Aquitaine, a large and rich region in southern France. She married King Louis VII of France and went with him on the Second Crusade in 1147. Later, her marriage ended, and she married Henry, who became King Henry II of England. Two of her sons, Richard and John, became kings of England.",
+      "es": "Leonor era la gobernante de Aquitania, una región grande y rica del sur de Francia. Se casó con el rey Luis VII de Francia y lo acompañó en la Segunda Cruzada en 1147. Más tarde, su matrimonio terminó y se casó con Enrique, quien se convirtió en el rey Enrique II de Inglaterra. Dos de sus hijos, Ricardo y Juan, fueron reyes de Inglaterra."
+    },
+    "meanwhile": {
+      "en": "Around 1150, in India, the mathematician Bhaskara II wrote a famous book, the Lilavati, full of math problems in verse.",
+      "es": "Alrededor de 1150, en la India, el matemático Bhaskara II escribió un famoso libro, el Lilavati, lleno de problemas de matemáticas en verso."
+    },
+    "reflection": {
+      "en": "Eleanor was powerful in a world ruled by men. Which women in your family or community have shown strength?",
+      "es": "Leonor fue poderosa en un mundo gobernado por hombres. ¿Qué mujeres de tu familia o comunidad han demostrado fortaleza?"
+    },
+    "vocab": [
+      {
+        "term": "ruler",
+        "es": "gobernante"
+      },
+      {
+        "term": "married",
+        "es": "se casó"
+      },
+      {
+        "term": "Second Crusade",
+        "es": "Segunda Cruzada"
+      },
+      {
+        "term": "sons",
+        "es": "hijos"
+      }
+    ]
+  },
+  {
+    "id": "cr-021",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Who were the troubadours?",
+      "es": "¿Quiénes eran los trovadores?"
+    },
+    "options": [
+      {
+        "en": "Poet-musicians who sang about love and chivalry",
+        "es": "Poetas y músicos que cantaban sobre el amor y la caballería"
+      },
+      {
+        "en": "Soldiers who guarded castles at night",
+        "es": "Soldados que custodiaban castillos por la noche"
+      },
+      {
+        "en": "Merchants who sold cloth",
+        "es": "Comerciantes que vendían tela"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Troubadours were poets and musicians from southern France who wrote songs in the Occitan language. They sang in the courts of nobles about love, beauty and brave knights. The first known troubadour was a duke, William IX of Aquitaine. Their style spread across Europe and influenced later poets.",
+      "es": "Los trovadores eran poetas y músicos del sur de Francia que escribían canciones en lengua occitana. Cantaban en las cortes de los nobles sobre el amor, la belleza y los caballeros valientes. El primer trovador conocido fue un duque, Guillermo IX de Aquitania. Su estilo se extendió por toda Europa e influyó en poetas posteriores."
+    },
+    "meanwhile": {
+      "en": "In 1207, the Persian poet Rumi was born. His poems about love are still loved all over the world.",
+      "es": "En 1207 nació el poeta persa Rumi. Sus poemas sobre el amor todavía son queridos en todo el mundo."
+    },
+    "reflection": {
+      "en": "Songs carried stories and feelings across Europe. Which song has told you something important?",
+      "es": "Las canciones llevaron historias y sentimientos por toda Europa. ¿Qué canción te ha dicho algo importante?"
+    },
+    "vocab": [
+      {
+        "term": "poets",
+        "es": "poetas"
+      },
+      {
+        "term": "songs",
+        "es": "canciones"
+      },
+      {
+        "term": "nobles",
+        "es": "nobles"
+      },
+      {
+        "term": "spread",
+        "es": "se extendió"
+      }
+    ]
+  },
+  {
+    "id": "cr-022",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How heavy was a full suit of knight’s plate armor?",
+      "es": "¿Cuánto pesaba una armadura completa de placas de un caballero?"
+    },
+    "options": [
+      {
+        "en": "About 20 to 25 kilograms",
+        "es": "Unos 20 a 25 kilogramos"
+      },
+      {
+        "en": "About 5 kilograms",
+        "es": "Unos 5 kilogramos"
+      },
+      {
+        "en": "About 60 kilograms",
+        "es": "Unos 60 kilogramos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Many people think that knights were so heavy that they needed a crane to get on a horse. This is a myth. A suit of plate armor weighed around 20 to 25 kilograms, similar to the equipment of a modern soldier. The weight was spread over the whole body, and the joints could move. A trained knight could run, climb and jump while wearing it.",
+      "es": "Mucha gente cree que los caballeros pesaban tanto que necesitaban una grúa para subir a un caballo. Es un mito. Una armadura de placas pesaba unos 20 a 25 kilogramos, parecido al equipo de un soldado moderno. El peso se repartía por todo el cuerpo y las articulaciones se movían. Un caballero entrenado podía correr, trepar y saltar con ella puesta."
+    },
+    "meanwhile": {
+      "en": "In 1405, Admiral Zheng He began his first voyage from China with a giant fleet of hundreds of ships.",
+      "es": "En 1405, el almirante Zheng He comenzó su primer viaje desde China con una gigantesca flota de cientos de barcos."
+    },
+    "reflection": {
+      "en": "Many \"facts\" about the past are myths. Which popular belief about history surprised you when you learned the truth?",
+      "es": "Muchos \"hechos\" del pasado son mitos. ¿Qué creencia popular sobre la historia te sorprendió cuando supiste la verdad?"
+    },
+    "vocab": [
+      {
+        "term": "crane",
+        "es": "grúa"
+      },
+      {
+        "term": "myth",
+        "es": "mito"
+      },
+      {
+        "term": "joints",
+        "es": "articulaciones"
+      },
+      {
+        "term": "trained",
+        "es": "entrenado"
+      }
+    ]
+  },
+  {
+    "id": "cr-023",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Which order of knights held the great castle Krak des Chevaliers in Syria?",
+      "es": "¿Qué orden de caballeros tuvo el gran castillo Krak des Chevaliers en Siria?"
+    },
+    "options": [
+      {
+        "en": "The Knights Hospitaller",
+        "es": "Los Caballeros Hospitalarios"
+      },
+      {
+        "en": "The Knights Templar",
+        "es": "Los Caballeros Templarios"
+      },
+      {
+        "en": "The Teutonic Knights",
+        "es": "Los Caballeros Teutónicos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Krak des Chevaliers stands on a hill in Syria. The Hospitallers received it in 1142 and made it much stronger, with two rings of walls and big round towers. It could hold about 2,000 soldiers. It withstood many attacks. In 1271, the Mamluk sultan Baibars took it, according to some accounts with a false letter that made the defenders surrender.",
+      "es": "Krak des Chevaliers se alza sobre una colina en Siria. Los hospitalarios lo recibieron en 1142 y lo hicieron mucho más fuerte, con dos anillos de muralla y grandes torres redondas. Podía alojar a unos 2.000 soldados. Resistió muchos ataques. En 1271, el sultán mameluco Baibars lo tomó, según algunos relatos con una carta falsa que hizo que los defensores se rindieran."
+    },
+    "meanwhile": {
+      "en": "In 1271, a young Venetian named Marco Polo left Europe with his father and uncle on a journey to China.",
+      "es": "En 1271, un joven veneciano llamado Marco Polo salió de Europa con su padre y su tío en un viaje hacia China."
+    },
+    "reflection": {
+      "en": "The strongest castle was taken by a trick, not by force. When did a clever idea work better than strength for you?",
+      "es": "El castillo más fuerte fue tomado con un engaño y no por la fuerza. ¿Cuándo una idea ingeniosa funcionó mejor que la fuerza para ti?"
+    },
+    "vocab": [
+      {
+        "term": "rings",
+        "es": "anillos"
+      },
+      {
+        "term": "withstood",
+        "es": "resistió"
+      },
+      {
+        "term": "sultan",
+        "es": "sultán"
+      },
+      {
+        "term": "surrender",
+        "es": "se rindieran"
+      }
+    ]
+  },
+  {
+    "id": "cr-024",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1260, at Ain Jalut, which army stopped the Mongols from advancing into Egypt?",
+      "es": "En 1260, en Ain Yalut, ¿qué ejército detuvo el avance de los mongoles hacia Egipto?"
+    },
+    "options": [
+      {
+        "en": "The Mamluks of Egypt",
+        "es": "Los mamelucos de Egipto"
+      },
+      {
+        "en": "The Crusaders from Acre",
+        "es": "Los cruzados de Acre"
+      },
+      {
+        "en": "The Byzantines",
+        "es": "Los bizantinos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1258, the Mongols destroyed Baghdad, the great city of the Muslim world. They continued west into Syria. In 1260, a Mamluk army from Egypt met a Mongol force at Ain Jalut, in today’s Israel. The Mamluks won. It was one of the first major defeats of the Mongols, and it protected Egypt from invasion.",
+      "es": "En 1258, los mongoles destruyeron Bagdad, la gran ciudad del mundo musulmán. Siguieron hacia el oeste, hacia Siria. En 1260, un ejército mameluco de Egipto se enfrentó a una fuerza mongola en Ain Yalut, en el actual Israel. Los mamelucos ganaron. Fue una de las primeras grandes derrotas de los mongoles y protegió a Egipto de la invasión."
+    },
+    "meanwhile": {
+      "en": "In 1260, in Pisa, Italy, the sculptor Nicola Pisano finished a famous marble pulpit, an early step toward Renaissance art.",
+      "es": "En 1260, en Pisa, Italia, el escultor Nicola Pisano terminó un famoso púlpito de mármol, un primer paso hacia el arte del Renacimiento."
+    },
+    "reflection": {
+      "en": "A battle in a distant place protected the lives of millions. How do events far from you affect your life?",
+      "es": "Una batalla en un lugar lejano protegió la vida de millones. ¿Cómo afectan tu vida los hechos que ocurren lejos de ti?"
+    },
+    "vocab": [
+      {
+        "term": "destroyed",
+        "es": "destruyeron"
+      },
+      {
+        "term": "force",
+        "es": "fuerza"
+      },
+      {
+        "term": "defeats",
+        "es": "derrotas"
+      },
+      {
+        "term": "invasion",
+        "es": "invasión"
+      }
+    ]
+  },
+  {
+    "id": "cr-025",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1229, Emperor Frederick II did something unusual in the Holy Land. What was it?",
+      "es": "En 1229, el emperador Federico II hizo algo inusual en Tierra Santa. ¿Qué fue?"
+    },
+    "options": [
+      {
+        "en": "He got Jerusalem back by a treaty, with no battle",
+        "es": "Recuperó Jerusalén mediante un tratado, sin batalla"
+      },
+      {
+        "en": "He burned the whole city down to the ground",
+        "es": "Quemó toda la ciudad hasta los cimientos"
+      },
+      {
+        "en": "He gave the city away to the Mongol army",
+        "es": "Entregó la ciudad al ejército mongol"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Frederick II was a clever ruler who spoke several languages, including Arabic. During the Sixth Crusade, he negotiated with the Egyptian sultan al-Kamil instead of fighting. In 1229, they agreed that Christians would control Jerusalem for ten years, while Muslims kept their holy places on the Temple Mount. Many people were surprised, and some church leaders were angry.",
+      "es": "Federico II era un gobernante inteligente que hablaba varios idiomas, entre ellos árabe. Durante la Sexta Cruzada, negoció con el sultán egipcio al-Kamil en lugar de luchar. En 1229 acordaron que los cristianos controlarían Jerusalén durante diez años, mientras que los musulmanes conservaban sus lugares sagrados en el Monte del Templo. Mucha gente se sorprendió y algunos líderes de la Iglesia se enojaron."
+    },
+    "meanwhile": {
+      "en": "In 1227, Genghis Khan died. His sons and grandsons would continue to expand the Mongol Empire.",
+      "es": "En 1227 murió Gengis Kan. Sus hijos y nietos seguirían ampliando el Imperio mongol."
+    },
+    "reflection": {
+      "en": "Frederick used talking where others used swords. When did a conversation solve a problem better than an argument?",
+      "es": "Federico usó la conversación donde otros usaron espadas. ¿Cuándo una conversación resolvió un problema mejor que una pelea?"
+    },
+    "vocab": [
+      {
+        "term": "agreed",
+        "es": "acordaron"
+      },
+      {
+        "term": "negotiated",
+        "es": "negoció"
+      },
+      {
+        "term": "sultan",
+        "es": "sultán"
+      },
+      {
+        "term": "angry",
+        "es": "enojaron"
+      }
+    ]
+  },
+  {
+    "id": "cr-026",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What is the \"Camino de Santiago\"?",
+      "es": "¿Qué es el \"Camino de Santiago\"?"
+    },
+    "options": [
+      {
+        "en": "A pilgrimage route that ends in northwest Spain",
+        "es": "Una ruta de peregrinación que termina en el noroeste de España"
+      },
+      {
+        "en": "A Roman road that crosses northern Italy",
+        "es": "Un camino romano que cruza el norte de Italia"
+      },
+      {
+        "en": "A river that flows through central Portugal",
+        "es": "Un río que atraviesa el centro de Portugal"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Since the Middle Ages, pilgrims have walked to the city of Santiago de Compostela, in Spain, where, according to tradition, the apostle Saint James is buried. There are several routes, and the most famous starts in France. Pilgrims carry a scallop shell as a symbol. Today, hundreds of thousands of people walk the Camino every year, not only for religious reasons.",
+      "es": "Desde la Edad Media, los peregrinos caminan hasta la ciudad de Santiago de Compostela, en España, donde, según la tradición, está enterrado el apóstol Santiago. Hay varias rutas, y la más famosa comienza en Francia. Los peregrinos llevan una concha de vieira como símbolo. Hoy, cientos de miles de personas recorren el Camino cada año, no solo por razones religiosas."
+    },
+    "meanwhile": {
+      "en": "Around 1100, Muslims from many countries traveled to Mecca for the Hajj, which is one of the five pillars of Islam.",
+      "es": "Alrededor de 1100, musulmanes de muchos países viajaban a La Meca para el Hach, uno de los cinco pilares del Islam."
+    },
+    "reflection": {
+      "en": "Walking for many days gives time to think. Where do you go to think clearly?",
+      "es": "Caminar durante muchos días da tiempo para pensar. ¿A dónde vas para pensar con claridad?"
+    },
+    "vocab": [
+      {
+        "term": "pilgrims",
+        "es": "peregrinos"
+      },
+      {
+        "term": "routes",
+        "es": "rutas"
+      },
+      {
+        "term": "scallop shell",
+        "es": "concha de vieira"
+      },
+      {
+        "term": "symbol",
+        "es": "símbolo"
+      }
+    ]
+  },
+  {
+    "id": "cr-027",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which Italian cities became rich by carrying crusaders and trading with the East?",
+      "es": "¿Qué ciudades italianas se hicieron ricas transportando cruzados y comerciando con Oriente?"
+    },
+    "options": [
+      {
+        "en": "Venice and Genoa",
+        "es": "Venecia y Génova"
+      },
+      {
+        "en": "Milan and Turin",
+        "es": "Milán y Turín"
+      },
+      {
+        "en": "Naples and Palermo",
+        "es": "Nápoles y Palermo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Crusaders needed ships to cross the sea, and Venice and Genoa had the best fleets. They charged high prices for transport and food. They also set up trading posts in the Eastern cities and brought home spices, silk, sugar and perfumes. These goods were rare in Europe and sold for a lot of money. The cities built palaces and became centers of art and banking.",
+      "es": "Los cruzados necesitaban barcos para cruzar el mar, y Venecia y Génova tenían las mejores flotas. Cobraban precios altos por el transporte y la comida. También establecieron puestos comerciales en las ciudades de Oriente y trajeron especias, seda, azúcar y perfumes. Estos productos eran raros en Europa y se vendían por mucho dinero. Las ciudades construyeron palacios y se convirtieron en centros de arte y banca."
+    },
+    "meanwhile": {
+      "en": "Around 1200, traders crossed the Sahara with camels, carrying gold and salt between West Africa and North Africa.",
+      "es": "Alrededor de 1200, los comerciantes cruzaban el Sahara con camellos, llevando oro y sal entre África Occidental y el norte de África."
+    },
+    "reflection": {
+      "en": "Some people got rich from the Crusades without fighting at all. Who benefits from a war without being in it?",
+      "es": "Algunas personas se hicieron ricas con las cruzadas sin luchar en absoluto. ¿Quién se beneficia de una guerra sin participar en ella?"
+    },
+    "vocab": [
+      {
+        "term": "fleets",
+        "es": "flotas"
+      },
+      {
+        "term": "spices",
+        "es": "especias"
+      },
+      {
+        "term": "perfumes",
+        "es": "perfumes"
+      },
+      {
+        "term": "banking",
+        "es": "banca"
+      }
+    ]
+  },
+  {
+    "id": "cr-028",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "How did the numbers 0 to 9 that we use today become common in Europe?",
+      "es": "¿Cómo se difundieron en Europa los números del 0 al 9 que usamos hoy?"
+    },
+    "options": [
+      {
+        "en": "A merchant’s book of 1202, learned from Arab traders",
+        "es": "Un libro de un comerciante de 1202, aprendido de comerciantes árabes"
+      },
+      {
+        "en": "The Romans invented them and spread them widely",
+        "es": "Los romanos los inventaron y los difundieron ampliamente"
+      },
+      {
+        "en": "Crusaders brought them back from Constantinople",
+        "es": "Los cruzados los trajeron de vuelta desde Constantinopla"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The numerals come from India. Arab mathematicians used them and improved them. Leonardo of Pisa, called Fibonacci, learned them as a boy from Arab traders in North Africa. In 1202, he wrote a book that showed how useful they were for business. It took centuries, but they slowly replaced Roman numerals, which were hard to use for calculations.",
+      "es": "Los numerales vienen de la India. Los matemáticos árabes los usaron y los mejoraron. Leonardo de Pisa, llamado Fibonacci, los aprendió de niño de comerciantes árabes en el norte de África. En 1202 escribió un libro que mostraba lo útiles que eran para los negocios. Tardaron siglos, pero poco a poco reemplazaron a los números romanos, difíciles de usar para hacer cálculos."
+    },
+    "meanwhile": {
+      "en": "In 1206, Temujin was proclaimed Genghis Khan, the \"universal ruler\" of all the Mongol tribes.",
+      "es": "En 1206, Temujin fue proclamado Gengis Kan, el \"gobernante universal\" de todas las tribus mongolas."
+    },
+    "reflection": {
+      "en": "A system from India, improved by Arabs, changed European business. Which ideas that you use every day come from other places?",
+      "es": "Un sistema de la India, mejorado por los árabes, cambió los negocios europeos. ¿Qué ideas que usas todos los días vienen de otros lugares?"
+    },
+    "vocab": [
+      {
+        "term": "numerals",
+        "es": "numerales"
+      },
+      {
+        "term": "mathematicians",
+        "es": "matemáticos"
+      },
+      {
+        "term": "business",
+        "es": "negocios"
+      },
+      {
+        "term": "calculations",
+        "es": "cálculos"
+      }
+    ]
+  },
+  {
+    "id": "cr-029",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "How did the English win the Battle of Agincourt in 1415 against a larger French army?",
+      "es": "¿Cómo ganaron los ingleses la batalla de Azincourt en 1415 contra un ejército francés más grande?"
+    },
+    "options": [
+      {
+        "en": "Longbowmen shot thousands of arrows at the French knights",
+        "es": "Arqueros con arcos largos dispararon miles de flechas contra los caballeros franceses"
+      },
+      {
+        "en": "They used big cannons against the French castle",
+        "es": "Usaron grandes cañones contra el castillo francés"
+      },
+      {
+        "en": "They attacked at night with burning ships",
+        "es": "Atacaron de noche con barcos en llamas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "King Henry V of England led about 6,000 tired men through France. A French army several times larger blocked their way at Agincourt. It had rained, and the field was deep mud. The heavy French knights had trouble moving. The English longbowmen shot clouds of arrows, and thousands of French fighters died. The battle showed that knights on horses were no longer the kings of the battlefield.",
+      "es": "El rey Enrique V de Inglaterra condujo a unos 6.000 hombres cansados por Francia. Un ejército francés varias veces mayor les bloqueó el camino en Azincourt. Había llovido y el campo era puro barro. Los pesados caballeros franceses tenían dificultad para moverse. Los arqueros ingleses dispararon nubes de flechas y murieron miles de combatientes franceses. La batalla demostró que los caballeros a caballo ya no eran los reyes del campo de batalla."
+    },
+    "meanwhile": {
+      "en": "In 1415, Portuguese ships captured the city of Ceuta in North Africa, one of the first steps of Portugal’s sea exploration.",
+      "es": "En 1415, barcos portugueses capturaron la ciudad de Ceuta, en el norte de África, uno de los primeros pasos de la exploración marítima de Portugal."
+    },
+    "reflection": {
+      "en": "Technology and terrain changed who could win. When did a simple tool or good preparation help you beat a bigger challenge?",
+      "es": "La tecnología y el terreno cambiaron quién podía ganar. ¿Cuándo una herramienta simple o una buena preparación te ayudó a superar un desafío mayor?"
+    },
+    "vocab": [
+      {
+        "term": "mud",
+        "es": "barro"
+      },
+      {
+        "term": "longbowmen",
+        "es": "arqueros con arcos largos"
+      },
+      {
+        "term": "arrows",
+        "es": "flechas"
+      },
+      {
+        "term": "battlefield",
+        "es": "campo de batalla"
+      }
+    ]
+  },
+  {
+    "id": "cr-030",
+    "category": "crusades-chivalry",
+    "category_label": {
+      "en": "Crusades & Chivalry",
+      "es": "Cruzadas y Caballería"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why is Jerusalem holy to Jews, Christians and Muslims?",
+      "es": "¿Por qué Jerusalén es sagrada para judíos, cristianos y musulmanes?"
+    },
+    "options": [
+      {
+        "en": "Each religion has important holy places there",
+        "es": "Cada religión tiene allí lugares sagrados importantes"
+      },
+      {
+        "en": "It was the birthplace of all three prophets",
+        "es": "Fue el lugar de nacimiento de los tres profetas"
+      },
+      {
+        "en": "It was the capital of the Roman Empire",
+        "es": "Fue la capital del Imperio romano"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For Jews, Jerusalem is the site of the ancient Temple, and the Western Wall is still there. For Christians, it is the city where Jesus was crucified and buried, in the Church of the Holy Sepulchre. For Muslims, the Dome of the Rock and the Al-Aqsa Mosque are holy, and they remember the Prophet Muhammad’s night journey. This is why so many people wanted to control the city.",
+      "es": "Para los judíos, Jerusalén es el lugar del antiguo Templo, y el Muro de las Lamentaciones sigue allí. Para los cristianos, es la ciudad donde Jesús fue crucificado y sepultado, en la iglesia del Santo Sepulcro. Para los musulmanes, la Cúpula de la Roca y la mezquita de Al-Aqsa son sagradas y recuerdan el viaje nocturno del profeta Mahoma. Por eso tanta gente quiso controlar la ciudad."
+    },
+    "meanwhile": {
+      "en": "Around 1000 CE, women at the Japanese court wrote famous books, such as The Pillow Book by Sei Shonagon.",
+      "es": "Alrededor del 1000 d. C., mujeres de la corte japonesa escribieron libros famosos, como El libro de la almohada, de Sei Shonagon."
+    },
+    "reflection": {
+      "en": "One city is important for three religions. How can people share a place that matters so much to different groups?",
+      "es": "Una ciudad es importante para tres religiones. ¿Cómo pueden las personas compartir un lugar que importa tanto a grupos distintos?"
+    },
+    "vocab": [
+      {
+        "term": "holy",
+        "es": "sagrada"
+      },
+      {
+        "term": "crucified",
+        "es": "crucificado"
+      },
+      {
+        "term": "Dome of the Rock",
+        "es": "Cúpula de la Roca"
+      },
+      {
+        "term": "control",
+        "es": "controlar"
+      }
+    ]
   }
 ]

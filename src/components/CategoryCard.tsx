@@ -11,11 +11,13 @@ import { getDominantDifficulty } from '@/lib/questions';
  * @property category - The category data to display.
  * @property locale - Active locale used to render the translated category label.
  * @property onClick - Called when the user taps the card.
+ * @property progress - How many of the category's questions the player has answered; shows a progress bar.
  */
 interface Props {
   category: Category;
   locale: Locale;
   onClick: () => void;
+  progress?: { seen: number; total: number; complete: boolean; fraction: number };
 }
 
 /**
@@ -26,7 +28,7 @@ interface Props {
  *
  * Used in the category selection grid on `/categories`.
  */
-export default function CategoryCard({ category, locale, onClick }: Props) {
+export default function CategoryCard({ category, locale, onClick, progress }: Props) {
   const { t } = useTranslation('common');
   const icon = getCategoryIcon(category.id);
   const dominant = getDominantDifficulty(category.difficulties);
@@ -62,9 +64,25 @@ export default function CategoryCard({ category, locale, onClick }: Props) {
           <h3 className="font-semibold text-chronos-text group-hover:text-chronos-gold transition-colors text-base leading-tight drop-shadow">
             {category.label[locale]}
           </h3>
-          <p className="text-xs text-chronos-muted mt-1">
-            {category.count} {t('categories.questions')}
-          </p>
+          {progress ? (
+            <div className="mt-2 w-36 max-w-full">
+              <div className="h-1.5 rounded-full bg-white/10 overflow-hidden">
+                <div
+                  className={`h-full rounded-full transition-all duration-700 ${progress.complete ? 'bg-emerald-400' : 'bg-chronos-gold'}`}
+                  style={{ width: `${Math.round(progress.fraction * 100)}%` }}
+                />
+              </div>
+              <p className={`text-xs mt-1 ${progress.complete ? 'text-emerald-400 font-semibold' : 'text-chronos-muted'}`}>
+                {progress.complete
+                  ? `✓ ${t('categories.completed')}`
+                  : t('categories.progress', { seen: progress.seen, total: progress.total })}
+              </p>
+            </div>
+          ) : (
+            <p className="text-xs text-chronos-muted mt-1">
+              {category.count} {t('categories.questions')}
+            </p>
+          )}
         </div>
 
         {/* Difficulty badge */}

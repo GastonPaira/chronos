@@ -9,9 +9,12 @@ import LanguageSelector from '@/components/LanguageSelector';
 import { AuthButton } from '@/components/AuthButton';
 import { ERAS, type EraDef } from '@/data/catalog';
 import { getDominantDifficulty } from '@/lib/questions';
+import { useProgress } from '@/hooks/useProgress';
 
 interface EraData extends EraDef {
   questionCount: number;
+  /** Questions of this era the player has answered; `null` until progress is loaded. */
+  seenCount: number | null;
   dominantDifficulty: string;
 }
 
@@ -70,6 +73,8 @@ function EraCard({ era, onClick }: EraCardProps) {
               <span className="text-chronos-muted/60 italic">
                 {t('eras.noQuestions')}
               </span>
+            ) : era.seenCount !== null ? (
+              <>{t('eras.progress', { seen: era.seenCount, total: era.questionCount })}</>
             ) : (
               <>{era.questionCount} {t('eras.questions')}</>
             )}
@@ -102,6 +107,8 @@ export default function EraSelection() {
   const router = useRouter();
   const [showComingSoon, setShowComingSoon] = useState(false);
 
+  const { progress } = useProgress();
+
   const eras = useMemo(() => {
     const questions = questionsData as Question[];
     return ERAS.map((era) => {
@@ -109,10 +116,13 @@ export default function EraSelection() {
       return {
         ...era,
         questionCount: eraQuestions.length,
+        seenCount: progress
+          ? era.categoryIds.reduce((sum, id) => sum + Math.min(progress.seen[id]?.length ?? 0, questions.filter(q => q.category === id).length), 0)
+          : null,
         dominantDifficulty: getDominantDifficulty(eraQuestions.map(q => q.difficulty)),
       };
     });
-  }, []);
+  }, [progress]);
 
   function handleEraClick(eraId: string, isEmpty: boolean) {
     if (isEmpty) {

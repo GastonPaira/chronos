@@ -30,6 +30,35 @@ describe('content catalog', () => {
     }
   });
 
+  it('every category has at least 30 questions, so rounds do not repeat', () => {
+    for (const id of Object.keys(CATEGORIES)) {
+      expect(questions.filter(q => q.category === id).length, id).toBeGreaterThanOrEqual(30);
+    }
+  });
+
+  it('every playable era has categories, and every era in the catalog is playable', () => {
+    for (const era of ERAS) expect(era.categoryIds.length, era.id).toBeGreaterThan(0);
+  });
+
+  it('every question has an English level, 3 options and a glossary of 3 to 5 words', () => {
+    for (const q of questions) {
+      expect(q.level, q.id).toBeDefined();
+      expect(q.options.length, q.id).toBe(3);
+      expect(q.vocab?.length ?? 0, q.id).toBeGreaterThanOrEqual(3);
+      expect(q.vocab!.length, q.id).toBeLessThanOrEqual(5);
+    }
+  });
+
+  it('every question is fully translated', () => {
+    for (const q of questions) {
+      const texts = [q.question, q.explanation, q.meanwhile, q.reflection, ...q.options];
+      for (const text of texts) {
+        expect(text.en.trim(), q.id).not.toBe('');
+        expect(text.es.trim(), q.id).not.toBe('');
+      }
+    }
+  });
+
   it('every story referenced by a question exists', () => {
     for (const q of questions.filter(q => q.story)) {
       expect(STORIES[q.story!], q.id).toBeDefined();

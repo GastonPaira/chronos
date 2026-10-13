@@ -2,271 +2,1771 @@
   {
     "id": "rn-001",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Leonardo da Vinci's private notebooks, rediscovered centuries after his death, contained designs for which types of inventions that were far ahead of his time?",
-      "es": "Los cuadernos privados de Leonardo da Vinci, redescubiertos siglos después de su muerte, contenían diseños de qué tipos de inventos que estaban muy por delante de su época?"
+      "en": "Leonardo da Vinci filled thousands of pages of notebooks. What did he draw in them?",
+      "es": "Leonardo da Vinci llenó miles de páginas de cuadernos. ¿Qué dibujaba en ellos?"
     },
     "options": [
-      { "en": "Flying machines, armored vehicles, and detailed anatomical studies from human dissections", "es": "Máquinas voladoras, vehículos blindados y detallados estudios anatómicos de disecciones humanas" },
-      { "en": "Steam-powered engines and a prototype telegraph system for long-distance communication", "es": "Motores a vapor y un prototipo de sistema de telégrafo para comunicación a larga distancia" }
+      {
+        "en": "Flying machines, weapons and the human body",
+        "es": "Máquinas voladoras, armas y el cuerpo humano"
+      },
+      {
+        "en": "Only portraits of kings and queens",
+        "es": "Solo retratos de reyes y reinas"
+      },
+      {
+        "en": "Maps of the newly found Americas",
+        "es": "Mapas de las recién descubiertas Américas"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Leonardo's notebooks — over 7,000 pages — contain designs for flying machines (ornithopters and hang gliders), armored fighting vehicles resembling tanks, hydraulic machines, and solar power concentrators. He also conducted illegal human dissections to produce anatomical drawings of unprecedented accuracy, contributing to medical knowledge centuries before modern anatomy was formalized. Most of these designs were never published in his lifetime, making their rediscovery in the 19th century all the more remarkable.",
-      "es": "Los cuadernos de Leonardo —más de 7.000 páginas— contienen diseños de máquinas voladoras (ornitópteros y planeadores), vehículos blindados similares a tanques, máquinas hidráulicas y concentradores de energía solar. También realizó disecciones humanas ilegales para producir dibujos anatómicos de una precisión sin precedentes, contribuyendo al conocimiento médico siglos antes de que se formalizara la anatomía moderna. La mayoría de estos diseños nunca fueron publicados en vida, lo que hace aún más notable su redescubrimiento en el siglo XIX."
+      "en": "More than 7,000 pages of Leonardo’s notebooks survive. They are full of ideas: flying machines, an armored vehicle, bridges, pumps and studies of water. He also drew the muscles, bones and organs of the human body, after secretly studying dead bodies. He wrote from right to left, in mirror writing. Most of his inventions were never built.",
+      "es": "Se conservan más de 7.000 páginas de los cuadernos de Leonardo. Están llenas de ideas: máquinas voladoras, un vehículo blindado, puentes, bombas y estudios del agua. También dibujó los músculos, huesos y órganos del cuerpo humano, tras estudiar en secreto cuerpos muertos. Escribía de derecha a izquierda, en escritura en espejo. La mayoría de sus inventos nunca se construyeron."
     },
     "meanwhile": {
-      "en": "While Leonardo was working in Milan and Florence, the Ming Dynasty under Emperor Hongzhi was experiencing a rare period of enlightened governance and cultural flourishing — a Chinese Renaissance of sorts, with parallel advances in painting, literature, and philosophy unknown to Europeans.",
-      "es": "Mientras Leonardo trabajaba en Milán y Florencia, la dinastía Ming bajo el emperador Hongzhi experimentaba un raro período de gobernanza ilustrada y florecimiento cultural: una especie de Renacimiento chino, con avances paralelos en pintura, literatura y filosofía desconocidos para los europeos."
+      "en": "In 1501, Shah Ismail I founded the Safavid dynasty in Persia, which made Shia Islam the state religion.",
+      "es": "En 1501, el sha Ismail I fundó la dinastía safávida en Persia, que hizo del islam chií la religión del Estado."
     },
     "reflection": {
-      "en": "Leonardo left many projects unfinished and published almost nothing in his lifetime, yet we consider him one of history's greatest geniuses. Does genius that goes unshared with the world during one's lifetime carry a different kind of value — or does impact require communication?",
-      "es": "Leonardo dejó muchos proyectos inconclusos y publicó casi nada en vida, pero lo consideramos uno de los mayores genios de la historia. ¿El genio que no se comparte con el mundo durante la vida de uno tiene un tipo diferente de valor, o el impacto requiere comunicación?"
-    }
+      "en": "Leonardo left many ideas unfinished. Is an idea valuable even if it is never completed?",
+      "es": "Leonardo dejó muchas ideas sin terminar. ¿Tiene valor una idea aunque nunca se complete?"
+    },
+    "vocab": [
+      {
+        "term": "notebooks",
+        "es": "cuadernos"
+      },
+      {
+        "term": "survive",
+        "es": "se conservan"
+      },
+      {
+        "term": "armored",
+        "es": "blindado"
+      },
+      {
+        "term": "mirror",
+        "es": "espejo"
+      }
+    ]
   },
   {
     "id": "rn-002",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "How many years did Michelangelo spend painting the ceiling of the Sistine Chapel (1508–1512)?",
-      "es": "¿Cuántos años tardó Miguel Ángel en pintar el techo de la Capilla Sixtina (1508-1512)?"
+      "en": "How long did Michelangelo take to paint the ceiling of the Sistine Chapel?",
+      "es": "¿Cuánto tardó Miguel Ángel en pintar el techo de la Capilla Sixtina?"
     },
     "options": [
-      { "en": "Approximately 4 years", "es": "Aproximadamente 4 años" },
-      { "en": "Approximately 10 years", "es": "Aproximadamente 10 años" }
+      {
+        "en": "About four years",
+        "es": "Unos cuatro años"
+      },
+      {
+        "en": "About six months",
+        "es": "Unos seis meses"
+      },
+      {
+        "en": "About fifteen years",
+        "es": "Unos quince años"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Michelangelo painted the Sistine Chapel ceiling from 1508 to 1512 — roughly four years — working largely alone, lying on scaffolding while painting above his head. He originally wanted to decline the commission, considering himself primarily a sculptor. The ceiling depicts nine scenes from Genesis along with prophets, sibyls, and ancestors of Christ, covering over 500 square meters. He later painted The Last Judgment on the altar wall between 1536 and 1541.",
-      "es": "Miguel Ángel pintó el techo de la Capilla Sixtina de 1508 a 1512 —aproximadamente cuatro años— trabajando en gran medida solo, tendido sobre un andamio mientras pintaba sobre su cabeza. Originalmente quería rechazar el encargo, pues se consideraba principalmente escultor. El techo representa nueve escenas del Génesis junto a profetas, sibilas y antepasados de Cristo, cubriendo más de 500 metros cuadrados. Posteriormente pintó El Juicio Final en la pared del altar entre 1536 y 1541."
+      "en": "Pope Julius II asked Michelangelo to paint the ceiling in 1508. Michelangelo, who was mainly a sculptor, did not want the job. He worked on a high scaffold for four years, until 1512. The ceiling is about 500 square meters and shows nine scenes from the Book of Genesis, including the famous Creation of Adam. More than 300 figures appear in it.",
+      "es": "El papa Julio II le pidió a Miguel Ángel que pintara el techo en 1508. Miguel Ángel, que era sobre todo escultor, no quería el trabajo. Trabajó en un andamio alto durante cuatro años, hasta 1512. El techo mide unos 500 metros cuadrados y muestra nueve escenas del Libro del Génesis, incluida la famosa Creación de Adán. En él aparecen más de 300 figuras."
     },
     "meanwhile": {
-      "en": "Between 1508 and 1512, the Ottoman Sultan Selim I was transforming his empire — defeating the Safavids at Chaldiran (1514) and conquering Egypt (1517), reshaping the Middle East's political order while Michelangelo was reshaping the Western idea of what art could express.",
-      "es": "Entre 1508 y 1512, el sultán otomano Selim I transformaba su imperio: derrotando a los safávidas en Chaldiran (1514) y conquistando Egipto (1517), reconfigurando el orden político de Oriente Medio mientras Miguel Ángel reconfiguraba la idea occidental de lo que el arte podía expresar."
+      "en": "In 1511, the Portuguese captured Malacca, an important trading port in Southeast Asia.",
+      "es": "En 1511, los portugueses capturaron Malaca, un importante puerto comercial del sudeste asiático."
     },
     "reflection": {
-      "en": "The Sistine Chapel ceiling was commissioned by a pope to glorify God and the institutional Church. When great art is created to serve the interests of power, how should we evaluate it — by its beauty and achievement, or by whose interests it served?",
-      "es": "El techo de la Capilla Sixtina fue encargado por un papa para glorificar a Dios y a la Iglesia institucional. Cuando el gran arte se crea para servir a los intereses del poder, ¿cómo debemos evaluarlo: por su belleza y logro, o por los intereses a los que sirvió?"
-    }
+      "en": "Michelangelo did not want this job, but it became his most famous work. Has an unwanted task ever turned out well for you?",
+      "es": "Miguel Ángel no quería este trabajo, pero se convirtió en su obra más famosa. ¿Alguna vez una tarea no deseada te salió bien?"
+    },
+    "vocab": [
+      {
+        "term": "ceiling",
+        "es": "techo"
+      },
+      {
+        "term": "sculptor",
+        "es": "escultor"
+      },
+      {
+        "term": "scaffold",
+        "es": "andamio"
+      },
+      {
+        "term": "scenes",
+        "es": "escenas"
+      }
+    ]
   },
   {
     "id": "rn-003",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "The Medici family of Florence was the most powerful patron of the Italian Renaissance. What was the primary source of their wealth and influence?",
-      "es": "La familia Medici de Florencia fue el mecenas más poderoso del Renacimiento italiano. ¿Cuál fue la fuente principal de su riqueza e influencia?"
+      "en": "The Medici family of Florence became powerful mainly through what?",
+      "es": "La familia Médici de Florencia se hizo poderosa principalmente gracias a qué?"
     },
     "options": [
-      { "en": "Banking — the Medici controlled one of Europe's largest financial networks, including a papal bank", "es": "La banca: los Medici controlaban una de las redes financieras más grandes de Europa, incluido un banco papal" },
-      { "en": "Military conquest — the Medici built their power by unifying the Italian city-states under Florentine rule", "es": "La conquista militar: los Medici construyeron su poder unificando las ciudades-estado italianas bajo el dominio florentino" }
+      {
+        "en": "Banking",
+        "es": "La banca"
+      },
+      {
+        "en": "Farming",
+        "es": "La agricultura"
+      },
+      {
+        "en": "Piracy",
+        "es": "La piratería"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Medici Bank, founded in the early 15th century, became one of the most powerful financial institutions in Europe. It invented the modern system of letters of credit and managed finances for the papacy, among other powerful clients. This extraordinary wealth allowed the Medici to fund artists including Botticelli, Leonardo da Vinci, and Michelangelo, and to commission architecture, sponsor humanist scholars, and build the libraries and academies that made Florence the intellectual center of the Renaissance.",
-      "es": "El Banco Medici, fundado a principios del siglo XV, se convirtió en una de las instituciones financieras más poderosas de Europa. Inventó el sistema moderno de letras de crédito y gestionó las finanzas para el papado, entre otros clientes poderosos. Esta extraordinaria riqueza permitió a los Medici financiar a artistas como Botticelli, Leonardo da Vinci y Miguel Ángel, y encargar arquitectura, patrocinar a eruditos humanistas y construir las bibliotecas y academias que convirtieron a Florencia en el centro intelectual del Renacimiento."
+      "en": "The Medici Bank, founded in 1397, was one of the largest in Europe. It lent money to merchants, kings and even the Pope, and it had offices in many cities. With their wealth, the Medici paid artists, scientists and architects. Botticelli, Donatello and the young Michelangelo worked for them. Without such patrons, many masterpieces of the Renaissance would not exist.",
+      "es": "El Banco Médici, fundado en 1397, era uno de los más grandes de Europa. Prestaba dinero a comerciantes, reyes e incluso al papa, y tenía oficinas en muchas ciudades. Con su riqueza, los Médici pagaron a artistas, científicos y arquitectos. Botticelli, Donatello y el joven Miguel Ángel trabajaron para ellos. Sin tales mecenas, muchas obras maestras del Renacimiento no existirían."
     },
     "meanwhile": {
-      "en": "While the Medici were funding Florentine Renaissance art, the rulers of the Kingdom of Benin in West Africa were patronizing their own artistic golden age — producing bronze plaques and ivory carvings of extraordinary sophistication, equally accomplished and entirely unknown to Europeans.",
-      "es": "Mientras los Medici financiaban el arte renacentista florentino, los gobernantes del Reino de Benín en África Occidental patrocinaban su propio siglo de oro artístico: produciendo placas de bronce y tallas de marfil de extraordinaria sofisticación, igualmente logradas y completamente desconocidas para los europeos."
+      "en": "Around 1480, artists in the Kingdom of Benin, in today’s Nigeria, made beautiful bronze plaques and heads for the king.",
+      "es": "Alrededor de 1480, los artistas del reino de Benín, en la actual Nigeria, hacían hermosas placas y cabezas de bronce para el rey."
     },
     "reflection": {
-      "en": "The Medici funded great art largely to enhance their own prestige and political legitimacy. Does knowing that great art was commissioned for reasons of self-interest and power change how you appreciate it or evaluate the art's cultural significance?",
-      "es": "Los Medici financiaron el gran arte en gran medida para realzar su propio prestigio y legitimidad política. ¿Saber que el gran arte fue encargado por razones de interés propio y poder cambia cómo lo aprecias o evalúas su significado cultural?"
-    }
+      "en": "The Medici supported art but also used it to look important. Is it wrong to support art for selfish reasons?",
+      "es": "Los Médici apoyaron el arte, pero también lo usaron para parecer importantes. ¿Está mal apoyar el arte por razones egoístas?"
+    },
+    "vocab": [
+      {
+        "term": "bank",
+        "es": "banco"
+      },
+      {
+        "term": "lent",
+        "es": "prestaba"
+      },
+      {
+        "term": "merchants",
+        "es": "comerciantes"
+      },
+      {
+        "term": "patrons",
+        "es": "mecenas"
+      }
+    ]
   },
   {
     "id": "rn-004",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
-    "difficulty": "easy",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Niccolò Machiavelli wrote 'The Prince' (c. 1513) as a guide for whom, and what was its central argument?",
-      "es": "Nicolás Maquiavelo escribió 'El Príncipe' (c. 1513) como guía para quién, y ¿cuál era su argumento central?"
+      "en": "Machiavelli’s book The Prince, written around 1513, gave what kind of advice to rulers?",
+      "es": "El libro El príncipe de Maquiavelo, escrito alrededor de 1513, daba qué tipo de consejos a los gobernantes?"
     },
     "options": [
-      { "en": "For political rulers — arguing that maintaining power sometimes requires setting aside conventional morality", "es": "Para los gobernantes políticos: argumentando que mantener el poder a veces requiere dejar de lado la moral convencional" },
-      { "en": "For Church officials — arguing that religious institutions must control secular governments to ensure justice", "es": "Para los funcionarios de la Iglesia: argumentando que las instituciones religiosas deben controlar los gobiernos seculares para garantizar la justicia" }
+      {
+        "en": "Practical advice, even if it broke moral rules",
+        "es": "Consejos prácticos, aunque rompieran reglas morales"
+      },
+      {
+        "en": "Advice only about religion and daily prayer",
+        "es": "Consejos solo sobre religión y oración diaria"
+      },
+      {
+        "en": "Advice about how to farm the land well",
+        "es": "Consejos sobre cómo cultivar bien la tierra"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Machiavelli wrote The Prince while in political exile after the Medici returned to power in Florence, dedicating it to Lorenzo de' Medici in hopes of recovering favor. The book advised rulers based on observed political reality rather than idealized virtue — a prince must be willing to use force and deception when necessary to maintain power and state stability. This pragmatic, secular approach to politics was revolutionary and shocking to contemporaries raised on Christian political philosophy.",
-      "es": "Maquiavelo escribió El Príncipe mientras estaba en el exilio político tras el regreso de los Medici al poder en Florencia, dedicándolo a Lorenzo de Medici con la esperanza de recuperar el favor. El libro asesoraba a los gobernantes basándose en la realidad política observada en lugar de la virtud idealizada: un príncipe debe estar dispuesto a usar la fuerza y el engaño cuando sea necesario para mantener el poder y la estabilidad del Estado. Este enfoque pragmático y secular de la política fue revolucionario y escandaloso para sus contemporáneos criados en la filosofía política cristiana."
+      "en": "Niccolò Machiavelli was a Florentine official who lost his job when the Medici returned to power. In The Prince, he wrote about the world \"as it is\", not as it should be. He said that a ruler sometimes has to be cruel or to deceive in order to protect the state. People were shocked. Today, the word \"Machiavellian\" describes someone who uses clever tricks to get power.",
+      "es": "Nicolás Maquiavelo era un funcionario florentino que perdió su trabajo cuando los Médici volvieron al poder. En El príncipe escribió sobre el mundo \"como es\", no como debería ser. Dijo que un gobernante a veces tiene que ser cruel o engañar para proteger al Estado. La gente quedó escandalizada. Hoy, la palabra \"maquiavélico\" describe a alguien que usa trucos astutos para conseguir poder."
     },
     "meanwhile": {
-      "en": "At roughly the same time, Korean Joseon Dynasty scholar-officials were developing sophisticated bureaucratic theory grounded in neo-Confucian ethics — a parallel intellectual tradition about governance, merit, and the moral responsibilities of rulers in a very different political culture.",
-      "es": "Aproximadamente al mismo tiempo, los funcionarios eruditos de la dinastía coreana Joseon desarrollaban una sofisticada teoría burocrática fundamentada en la ética neoconfuciana: una tradición intelectual paralela sobre la gobernanza, el mérito y las responsabilidades morales de los gobernantes en una cultura política muy diferente."
+      "en": "Around 1513, the Spanish explorer Vasco Núñez de Balboa crossed Panama and became the first European to see the Pacific from America.",
+      "es": "Alrededor de 1513, el explorador español Vasco Núñez de Balboa cruzó Panamá y fue el primer europeo en ver el Pacífico desde América."
     },
     "reflection": {
-      "en": "Machiavelli argued that a ruler must sometimes act immorally to maintain power and prevent greater harm. Do you think it is ever justified for leaders to compromise ethics for political stability — and who should decide when that threshold has been crossed?",
-      "es": "Maquiavelo argumentó que un gobernante debe a veces actuar inmoralmente para mantener el poder y prevenir un daño mayor. ¿Crees que alguna vez está justificado que los líderes comprometan la ética por la estabilidad política, y quién debería decidir cuándo se ha cruzado ese umbral?"
-    }
+      "en": "Machiavelli said that leaders must sometimes break rules. Do you think the end can ever justify the means?",
+      "es": "Maquiavelo decía que los líderes a veces deben romper las reglas. ¿Crees que el fin puede justificar los medios alguna vez?"
+    },
+    "vocab": [
+      {
+        "term": "official",
+        "es": "funcionario"
+      },
+      {
+        "term": "deceive",
+        "es": "engañar"
+      },
+      {
+        "term": "shocked",
+        "es": "escandalizada"
+      },
+      {
+        "term": "Machiavellian",
+        "es": "maquiavélico"
+      }
+    ]
   },
   {
     "id": "rn-005",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Johannes Gutenberg's printing press (c. 1440) was revolutionary primarily because of which specific innovation, distinguishing it from earlier printing methods?",
-      "es": "La imprenta de Johannes Gutenberg (c. 1440) fue revolucionaria principalmente gracias a qué innovación específica, que la distinguía de los métodos de impresión anteriores?"
+      "en": "What made Gutenberg’s printing press, around 1450, so important?",
+      "es": "¿Qué hizo tan importante la imprenta de Gutenberg, alrededor de 1450?"
     },
     "options": [
-      { "en": "Movable individual metal type pieces that could be rearranged to print different texts rapidly and cheaply", "es": "Piezas de tipo metálico individual móvil que podían reordenarse para imprimir diferentes textos de forma rápida y económica" },
-      { "en": "Paper manufactured from wood pulp instead of expensive animal-skin vellum, dramatically reducing material costs", "es": "Papel fabricado a partir de pulpa de madera en lugar de costoso pergamino de piel animal, reduciendo drásticamente los costos de materiales" }
+      {
+        "en": "It used movable metal letters that could be used again",
+        "es": "Usaba letras de metal móviles que podían reutilizarse"
+      },
+      {
+        "en": "It printed in several colors at the same time",
+        "es": "Imprimía en varios colores al mismo tiempo"
+      },
+      {
+        "en": "It was powered by the water of a river",
+        "es": "Funcionaba con el agua de un río"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Gutenberg's key innovation was combining movable metal type (individual cast letters that could be assembled, printed, and then reassembled for a new page) with an oil-based ink and a screw press adapted from winemaking. While woodblock printing existed in East Asia and Europe, it required carving a new block for every page. Movable type reduced the cost and time of printing dramatically: Gutenberg's Bible (c. 1455) could be produced in editions of hundreds of copies, compared to months of hand-copying for a single manuscript.",
-      "es": "La innovación clave de Gutenberg fue combinar el tipo metálico móvil (letras individuales fundidas que podían ensamblarse, imprimirse y luego reordenarse para una nueva página) con una tinta a base de aceite y una prensa de tornillo adaptada de la elaboración del vino. Si bien la xilografía existía en Asia Oriental y Europa, requería tallar un nuevo bloque para cada página. El tipo móvil redujo drásticamente el costo y el tiempo de impresión: la Biblia de Gutenberg (c. 1455) podía producirse en ediciones de cientos de copias, frente a meses de copia manual para un solo manuscrito."
+      "en": "Gutenberg, a goldsmith from Mainz in Germany, made small metal letters, arranged them in lines to form a page and covered them with oil-based ink. He then pressed the page onto paper with a press, an idea taken from wine presses. After printing, he could rearrange the letters for the next page. Around 1455, he printed about 180 copies of the Bible, a huge number at the time.",
+      "es": "Gutenberg, un orfebre de Maguncia, en Alemania, hizo pequeñas letras de metal, las ordenó en líneas para formar una página y las cubrió con tinta a base de aceite. Luego presionó la página sobre papel con una prensa, una idea tomada de las prensas de vino. Después de imprimir, podía reordenar las letras para la página siguiente. Hacia 1455 imprimió unas 180 copias de la Biblia, una cantidad enorme para la época."
     },
     "meanwhile": {
-      "en": "While Gutenberg was developing his press in the 1440s, Sultan Mehmed II was preparing to conquer Constantinople, which he achieved in 1453 — making it his own intellectual capital and preserving classical manuscripts that would later flow west and fuel the very humanist revival Gutenberg's press helped spread.",
-      "es": "Mientras Gutenberg desarrollaba su imprenta en la década de 1440, el sultán Mehmed II se preparaba para conquistar Constantinopla, lo que logró en 1453, convirtiéndola en su propia capital intelectual y preservando manuscritos clásicos que luego fluirían hacia el oeste y alimentarían el mismo renacimiento humanista que la imprenta de Gutenberg ayudó a difundir."
+      "en": "In 1453, the Ottomans conquered Constantinople, and the Byzantine Empire ended.",
+      "es": "En 1453, los otomanos conquistaron Constantinopla y el Imperio bizantino terminó."
     },
     "reflection": {
-      "en": "Gutenberg's press put religious and scientific texts in the hands of ordinary people within decades, but also spread misinformation and religious extremism at unprecedented speed. Does wide access to information always lead to social progress, or can it generate conflict and fragmentation as readily as enlightenment?",
-      "es": "La imprenta de Gutenberg puso textos religiosos y científicos en manos de la gente común en pocas décadas, pero también propagó desinformación y extremismo religioso a velocidades sin precedentes. ¿El amplio acceso a la información siempre conduce al progreso social, o puede generar conflictos y fragmentación con la misma facilidad que la ilustración?"
-    }
+      "en": "Cheap books changed who could learn. What is the easiest way for you to learn something new today?",
+      "es": "Los libros baratos cambiaron quién podía aprender. ¿Cuál es hoy tu manera más fácil de aprender algo nuevo?"
+    },
+    "vocab": [
+      {
+        "term": "goldsmith",
+        "es": "orfebre"
+      },
+      {
+        "term": "ink",
+        "es": "tinta"
+      },
+      {
+        "term": "paper",
+        "es": "papel"
+      },
+      {
+        "term": "copies",
+        "es": "copias"
+      }
+    ]
   },
   {
     "id": "rn-006",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Renaissance humanism differed from medieval scholasticism primarily in what intellectual focus?",
-      "es": "El humanismo renacentista se diferenciaba del escolasticismo medieval principalmente en qué enfoque intelectual?"
+      "en": "What did Renaissance humanists mainly study?",
+      "es": "¿Qué estudiaban principalmente los humanistas del Renacimiento?"
     },
     "options": [
-      { "en": "Humanists prioritized classical Greek and Roman texts and the study of human achievement in this world", "es": "Los humanistas priorizaban los textos grecolatinos clásicos y el estudio del logro humano en este mundo" },
-      { "en": "Humanists focused on direct observation of nature through controlled experiments, replacing textual authority", "es": "Los humanistas se centraban en la observación directa de la naturaleza mediante experimentos controlados, reemplazando la autoridad textual" }
+      {
+        "en": "The books of ancient Greece and Rome, and human potential",
+        "es": "Los libros de la antigua Grecia y Roma, y el potencial humano"
+      },
+      {
+        "en": "Only the lives of the Christian saints and martyrs",
+        "es": "Solo las vidas de los santos y mártires cristianos"
+      },
+      {
+        "en": "Only the laws of nature and the movements of stars",
+        "es": "Solo las leyes de la naturaleza y el movimiento de las estrellas"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Medieval scholasticism sought to reconcile classical philosophy (especially Aristotle) with Christian theology through systematic logical analysis. Renaissance humanism shifted attention toward the full range of classical literature — poetry, rhetoric, history, ethics — and emphasized human dignity, potential, and achievement in earthly life, not just preparation for the afterlife. Humanists were still Christian, but they valued eloquence, civic engagement, and worldly excellence alongside religious devotion. The scientific method of controlled experiment came later, pioneered by Galileo and Bacon.",
-      "es": "El escolasticismo medieval buscaba reconciliar la filosofía clásica (especialmente Aristóteles) con la teología cristiana a través del análisis lógico sistemático. El humanismo renacentista desplazó la atención hacia toda la gama de la literatura clásica —poesía, retórica, historia, ética— y enfatizó la dignidad, el potencial y el logro humano en la vida terrenal, no solo la preparación para la otra vida. Los humanistas seguían siendo cristianos, pero valoraban la elocuencia, el compromiso cívico y la excelencia mundana junto a la devoción religiosa. El método científico del experimento controlado llegó más tarde, impulsado por Galileo y Bacon."
+      "en": "Humanists, such as the poet Petrarch, admired the writers of ancient Greece and Rome. They searched monasteries for old manuscripts and studied grammar, history, poetry and philosophy. They believed that human beings could develop their talents in this life, not just prepare for the next. Most of them were still Christians, but they gave importance to education and to good citizens.",
+      "es": "Los humanistas, como el poeta Petrarca, admiraban a los escritores de la antigua Grecia y Roma. Buscaban manuscritos antiguos en los monasterios y estudiaban gramática, historia, poesía y filosofía. Creían que los seres humanos podían desarrollar sus talentos en esta vida, y no solo prepararse para la siguiente. La mayoría seguía siendo cristiana, pero daban importancia a la educación y a los buenos ciudadanos."
     },
     "meanwhile": {
-      "en": "While Renaissance humanists in Italy were 'rediscovering' Greek texts, many of those same texts had been preserved and studied for centuries in the Islamic world — scholars at Cairo's Al-Azhar and in Baghdad had been engaging with Aristotle long before European humanists celebrated him as newly found.",
-      "es": "Mientras los humanistas renacentistas en Italia 'redescubrían' los textos griegos, muchos de esos mismos textos habían sido preservados y estudiados durante siglos en el mundo islámico: los eruditos de Al-Azhar de El Cairo y de Bagdad habían estado trabajando con Aristóteles mucho antes de que los humanistas europeos lo celebraran como recién hallado."
+      "en": "At the same time, in Cairo, the university of al-Azhar had taught Greek philosophy and science for centuries.",
+      "es": "Al mismo tiempo, en El Cairo, la universidad de al-Azhar enseñaba filosofía y ciencia griegas desde hacía siglos."
     },
     "reflection": {
-      "en": "Renaissance humanism celebrated human potential, individual achievement, and classical learning — but this celebration was largely limited to educated, wealthy, European men. Does celebrating human greatness risk obscuring the suffering and exclusion that often accompanied it?",
-      "es": "El humanismo renacentista celebraba el potencial humano, el logro individual y el aprendizaje clásico, pero esta celebración estaba en gran medida limitada a hombres europeos educados y adinerados. ¿Celebrar la grandeza humana corre el riesgo de ocultar el sufrimiento y la exclusión que a menudo la acompañaron?"
-    }
+      "en": "Humanists believed that education makes better people. Do you agree?",
+      "es": "Los humanistas creían que la educación hace mejores personas. ¿Estás de acuerdo?"
+    },
+    "vocab": [
+      {
+        "term": "admired",
+        "es": "admiraban"
+      },
+      {
+        "term": "manuscripts",
+        "es": "manuscritos"
+      },
+      {
+        "term": "talents",
+        "es": "talentos"
+      },
+      {
+        "term": "citizens",
+        "es": "ciudadanos"
+      }
+    ]
   },
   {
     "id": "rn-007",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Galileo's telescopic observations in 1609–1610 most directly challenged which long-established belief?",
-      "es": "Las observaciones telescópicas de Galileo en 1609-1610 desafiaron más directamente qué creencia largamente establecida?"
+      "en": "In 1609–1610, Galileo used a telescope and saw four moons around which planet?",
+      "es": "En 1609–1610, Galileo usó un telescopio y vio cuatro lunas alrededor de qué planeta?"
     },
     "options": [
-      { "en": "The geocentric model placing Earth at the center of the universe, supported by Aristotle and the Church", "es": "El modelo geocéntrico que situaba a la Tierra en el centro del universo, respaldado por Aristóteles y la Iglesia" },
-      { "en": "The ancient belief that Earth was flat and surrounded by a great ocean at its edges", "es": "La creencia antigua de que la Tierra era plana y estaba rodeada por un gran océano en sus bordes" }
+      {
+        "en": "Jupiter",
+        "es": "Júpiter"
+      },
+      {
+        "en": "Mars",
+        "es": "Marte"
+      },
+      {
+        "en": "Saturn",
+        "es": "Saturno"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Galileo's telescope revealed mountains on the Moon (disproving the idea of perfect celestial spheres), four moons orbiting Jupiter (proving not everything orbited Earth), and phases of Venus (confirming it orbited the Sun). These observations provided direct evidence for the Copernican heliocentric model. The Inquisition forced Galileo to recant in 1633, and he spent his remaining years under house arrest. His case became the defining example of the conflict between empirical observation and established authority.",
-      "es": "El telescopio de Galileo reveló montañas en la Luna (desafiando la idea de esferas celestiales perfectas), cuatro lunas orbitando Júpiter (probando que no todo orbitaba la Tierra) y las fases de Venus (confirmando que orbitaba el Sol). Estas observaciones proporcionaron evidencia directa del modelo heliocéntrico copernicano. La Inquisición obligó a Galileo a retractarse en 1633, y pasó sus últimos años bajo arresto domiciliario. Su caso se convirtió en el ejemplo definitorio del conflicto entre la observación empírica y la autoridad establecida."
+      "en": "Galileo made his own telescope and pointed it at the sky. He saw mountains on the Moon, many new stars and four small moons moving around Jupiter. This showed that not everything circled the Earth. His discoveries supported Copernicus’s idea that the Earth goes around the Sun. In 1633, the Church forced him to say he was wrong, and he lived under house arrest.",
+      "es": "Galileo hizo su propio telescopio y lo apuntó al cielo. Vio montañas en la Luna, muchas estrellas nuevas y cuatro pequeñas lunas moviéndose alrededor de Júpiter. Esto mostró que no todo giraba alrededor de la Tierra. Sus descubrimientos apoyaron la idea de Copérnico de que la Tierra gira alrededor del Sol. En 1633, la Iglesia lo obligó a decir que estaba equivocado y vivió bajo arresto domiciliario."
     },
     "meanwhile": {
-      "en": "While Galileo was making his telescopic observations in 1609, the Tokugawa shogunate was consolidating power in Japan and beginning a deliberate policy of isolation from foreign trade and science — a contrasting response to new knowledge and outside influence happening simultaneously on the other side of the world.",
-      "es": "Mientras Galileo realizaba sus observaciones telescópicas en 1609, el shogunato Tokugawa consolidaba el poder en Japón y comenzaba una política deliberada de aislamiento del comercio exterior y la ciencia: una respuesta contrastante al nuevo conocimiento y la influencia exterior que ocurría simultáneamente al otro lado del mundo."
+      "en": "In 1609, the English explorer Henry Hudson sailed up the river that now has his name, in North America.",
+      "es": "En 1609, el explorador inglés Henry Hudson navegó por el río que hoy lleva su nombre, en América del Norte."
     },
     "reflection": {
-      "en": "Galileo reportedly muttered 'And yet it moves' after publicly recanting his findings under threat from the Inquisition. In what circumstances, if any, is it justifiable to publicly deny a truth you privately believe — and what does your answer depend on?",
-      "es": "Se dice que Galileo murmuró 'Y sin embargo, se mueve' después de retractarse públicamente de sus hallazgos bajo la amenaza de la Inquisición. ¿En qué circunstancias, si las hay, está justificado negar públicamente una verdad en la que se cree en privado, y de qué depende tu respuesta?"
-    }
+      "en": "Galileo showed what he saw, and he was punished. Is it ever dangerous to tell the truth?",
+      "es": "Galileo mostró lo que vio y fue castigado. ¿Es peligroso decir la verdad alguna vez?"
+    },
+    "vocab": [
+      {
+        "term": "telescope",
+        "es": "telescopio"
+      },
+      {
+        "term": "moons",
+        "es": "lunas"
+      },
+      {
+        "term": "discoveries",
+        "es": "descubrimientos"
+      },
+      {
+        "term": "house arrest",
+        "es": "arresto domiciliario"
+      }
+    ]
   },
   {
     "id": "rn-008",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Shakespeare's plays drew from a wide range of source material. Which description best characterizes his primary sources?",
-      "es": "Las obras de Shakespeare bebían de una amplia gama de fuentes. ¿Qué descripción caracteriza mejor sus fuentes principales?"
+      "en": "Where did Shakespeare get the stories for most of his plays?",
+      "es": "¿De dónde sacó Shakespeare las historias de la mayoría de sus obras?"
     },
     "options": [
-      { "en": "Classical myths, Italian novellas, and English historical chronicles — which he transformed into original dramas", "es": "Mitos clásicos, novelas italianas y crónicas históricas inglesas, que transformó en dramas originales" },
-      { "en": "His own personal diaries, contemporary news pamphlets, and conversations with courtiers at the royal palace", "es": "Sus propios diarios personales, panfletos de noticias contemporáneos y conversaciones con cortesanos en el palacio real" }
+      {
+        "en": "From older stories, histories and legends",
+        "es": "De historias, crónicas y leyendas más antiguas"
+      },
+      {
+        "en": "From his own dreams and his imagination",
+        "es": "De sus propios sueños y su imaginación"
+      },
+      {
+        "en": "From the newspapers of his own time",
+        "es": "De los periódicos de su propia época"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Shakespeare rarely invented plots from scratch — Hamlet derives from a Scandinavian legend via a French retelling, Romeo and Juliet from an Italian novella, Macbeth and the history plays from Holinshed's Chronicles, and A Midsummer Night's Dream from Ovid's Metamorphoses and English folklore. His genius lay in transforming these sources through psychological depth, poetic language, and structural innovation. This practice of adapting existing stories was standard in Renaissance literary culture, where originality of execution mattered more than novelty of subject.",
-      "es": "Shakespeare rara vez inventaba tramas desde cero: Hamlet deriva de una leyenda escandinava a través de una adaptación francesa, Romeo y Julieta de una novela italiana, Macbeth y las obras históricas de las Crónicas de Holinshed, y El sueño de una noche de verano de las Metamorfosis de Ovidio y el folclore inglés. Su genio residía en transformar estas fuentes mediante profundidad psicológica, lenguaje poético e innovación estructural. Esta práctica de adaptar historias existentes era estándar en la cultura literaria renacentista, donde la originalidad de la ejecución importaba más que la novedad del tema."
+      "en": "Shakespeare did not invent most of his plots. He borrowed them. Hamlet comes from an old Danish legend, Romeo and Juliet from an Italian story, and Macbeth and the history plays from a book of English and Scottish chronicles. This was normal at the time. His genius was to turn them into deep characters, beautiful poetry and powerful scenes.",
+      "es": "Shakespeare no inventó la mayoría de sus tramas. Las tomó prestadas. Hamlet viene de una vieja leyenda danesa, Romeo y Julieta de una historia italiana, y Macbeth y las obras históricas de un libro de crónicas inglesas y escocesas. Esto era normal en esa época. Su genialidad fue convertirlas en personajes profundos, poesía hermosa y escenas poderosas."
     },
     "meanwhile": {
-      "en": "While Shakespeare was writing in Elizabethan London in the 1590s–1610s, the Mughal Emperor Akbar commissioned the Akbarnama — a lavishly illustrated chronicle of his reign — representing a parallel tradition of storytelling, historical memory, and artistic patronage flourishing simultaneously in South Asia.",
-      "es": "Mientras Shakespeare escribía en el Londres isabelino de las décadas de 1590-1610, el emperador mogol Akbar encargó el Akbarnama —una crónica ricamente ilustrada de su reinado—, representando una tradición paralela de narración de historias, memoria histórica y mecenazgo artístico que florecía simultáneamente en el sur de Asia."
+      "en": "In 1600, the English East India Company was founded, and it would later control a large part of India.",
+      "es": "En 1600 se fundó la Compañía Inglesa de las Indias Orientales, que más tarde controlaría gran parte de la India."
     },
     "reflection": {
-      "en": "Shakespeare's plays are obsessed with characters who deceive themselves and others — Hamlet's indecision, Othello's jealousy, Lear's blindness to his daughters' true natures. What does literature's enduring obsession with self-deception reveal about something permanent in human psychology?",
-      "es": "Las obras de Shakespeare están obsesionadas con personajes que se engañan a sí mismos y a los demás: la indecisión de Hamlet, los celos de Otelo, la ceguera de Lear ante la verdadera naturaleza de sus hijas. ¿Qué revela la obsesión duradera de la literatura con el autoengaño sobre algo permanente en la psicología humana?"
-    }
+      "en": "Shakespeare took old stories and made them new. What old idea or tradition would you like to reinvent?",
+      "es": "Shakespeare tomó viejas historias y las hizo nuevas. ¿Qué vieja idea o tradición te gustaría reinventar?"
+    },
+    "vocab": [
+      {
+        "term": "plots",
+        "es": "tramas"
+      },
+      {
+        "term": "borrowed",
+        "es": "tomó prestadas"
+      },
+      {
+        "term": "legend",
+        "es": "leyenda"
+      },
+      {
+        "term": "chronicles",
+        "es": "crónicas"
+      }
+    ]
   },
   {
     "id": "rn-009",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "Linear perspective, developed by Brunelleschi and codified by Alberti in the 15th century, introduced what specific mathematical concept that transformed Western painting?",
-      "es": "La perspectiva lineal, desarrollada por Brunelleschi y codificada por Alberti en el siglo XV, introdujo qué concepto matemático específico que transformó la pintura occidental?"
+      "en": "What does a \"vanishing point\" do in a Renaissance painting?",
+      "es": "¿Qué hace un \"punto de fuga\" en una pintura del Renacimiento?"
     },
     "options": [
-      { "en": "A vanishing point where parallel lines converge, creating a mathematically consistent illusion of three-dimensional depth", "es": "Un punto de fuga donde las líneas paralelas convergen, creando una ilusión matemáticamente consistente de profundidad tridimensional" },
-      { "en": "The golden ratio as a universal proportion for calculating ideal dimensions of figures and architectural elements", "es": "La sección áurea como proporción universal para calcular las dimensiones ideales de figuras y elementos arquitectónicos" }
+      {
+        "en": "It makes parallel lines meet to create depth",
+        "es": "Hace que las líneas paralelas se junten para crear profundidad"
+      },
+      {
+        "en": "It shows the brightest light in the picture",
+        "es": "Muestra la luz más brillante del cuadro"
+      },
+      {
+        "en": "It hides the painter’s signature",
+        "es": "Esconde la firma del pintor"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Brunelleschi demonstrated linear perspective around 1415 using a mirror experiment with a painted panel of Florence's Baptistery. Leon Battista Alberti then codified the geometry in his treatise Della Pittura (1435), defining the vanishing point — the spot on the horizon where parallel lines appear to meet — as the mathematical anchor for representing three-dimensional space on a flat surface. This gave Renaissance artists a systematic, reproducible method for depicting depth and fundamentally changed Western visual culture. The golden ratio, while used by artists, is a separate mathematical concept.",
-      "es": "Brunelleschi demostró la perspectiva lineal alrededor de 1415 mediante un experimento con espejo y un panel pintado del Baptisterio de Florencia. Leon Battista Alberti codificó luego la geometría en su tratado Della Pittura (1435), definiendo el punto de fuga —el punto en el horizonte donde las líneas paralelas parecen encontrarse— como el ancla matemática para representar el espacio tridimensional en una superficie plana. Esto dio a los artistas renacentistas un método sistemático y reproducible para representar la profundidad y cambió fundamentalmente la cultura visual occidental. La sección áurea, aunque utilizada por artistas, es un concepto matemático separado."
+      "en": "Around 1415, the architect Brunelleschi discovered the rules of linear perspective. In 1435, Alberti explained them in a book. In a picture with perspective, parallel lines, like the sides of a road, seem to meet at one point on the horizon, called the vanishing point. Objects get smaller as they get farther. This trick makes a flat surface look three-dimensional.",
+      "es": "Hacia 1415, el arquitecto Brunelleschi descubrió las reglas de la perspectiva lineal. En 1435, Alberti las explicó en un libro. En un cuadro con perspectiva, las líneas paralelas, como los lados de un camino, parecen juntarse en un punto del horizonte, llamado punto de fuga. Los objetos se hacen más pequeños cuanto más lejos están. Este truco hace que una superficie plana parezca tridimensional."
     },
     "meanwhile": {
-      "en": "While Italian painters were developing linear perspective in the 15th century, Chinese painters of the Song and Ming traditions were deliberately using 'floating view' compositions — representing space from multiple elevated viewpoints simultaneously — an equally sophisticated but fundamentally different approach to depicting space on a flat surface.",
-      "es": "Mientras los pintores italianos desarrollaban la perspectiva lineal en el siglo XV, los pintores chinos de las tradiciones Song y Ming usaban deliberadamente composiciones de 'vista flotante', representando el espacio desde múltiples puntos de vista elevados simultáneamente: un enfoque igualmente sofisticado pero fundamentalmente diferente para representar el espacio en una superficie plana."
+      "en": "In 1431, in France, Joan of Arc was burned at the stake, after helping the French army win several battles.",
+      "es": "En 1431, en Francia, Juana de Arco fue quemada en la hoguera, después de ayudar al ejército francés a ganar varias batallas."
     },
     "reflection": {
-      "en": "Linear perspective makes Western painting look 'realistic,' but it is actually a mathematical convention — not a natural way of seeing. Objects in real vision don't have a single fixed vanishing point. What else that we consider 'objective' or 'realistic' might actually be a cultural or historical convention we haven't questioned?",
-      "es": "La perspectiva lineal hace que la pintura occidental parezca 'realista', pero es en realidad una convención matemática, no una forma natural de ver. Los objetos en la visión real no tienen un único punto de fuga fijo. ¿Qué más que consideramos 'objetivo' o 'realista' podría ser en realidad una convención cultural o histórica que no hemos cuestionado?"
-    }
+      "en": "Perspective is a trick that feels natural. What other \"tricks\" help us to see things in a certain way?",
+      "es": "La perspectiva es un truco que parece natural. ¿Qué otros \"trucos\" nos ayudan a ver las cosas de cierta manera?"
+    },
+    "vocab": [
+      {
+        "term": "parallel",
+        "es": "paralelas"
+      },
+      {
+        "term": "horizon",
+        "es": "horizonte"
+      },
+      {
+        "term": "farther",
+        "es": "más lejos"
+      },
+      {
+        "term": "three-dimensional",
+        "es": "tridimensional"
+      }
+    ]
   },
   {
     "id": "rn-010",
     "category": "the-renaissance",
-    "category_label": { "en": "The Renaissance", "es": "El Renacimiento" },
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "How did the Northern Renaissance (in the Low Countries, Germany, and England) differ thematically from the Italian Renaissance that preceded it?",
-      "es": "¿En qué se diferenciaba temáticamente el Renacimiento Nórdico (en los Países Bajos, Alemania e Inglaterra) del Renacimiento italiano que lo precedió?"
+      "en": "Which painting technique did Northern Renaissance artists like Jan van Eyck perfect?",
+      "es": "¿Qué técnica de pintura perfeccionaron artistas del Renacimiento del Norte como Jan van Eyck?"
     },
     "options": [
-      { "en": "Northern humanists focused more on religious reform, individual conscience, and moral questions than on classical beauty and courtly ideals", "es": "Los humanistas nórdicos se centraron más en la reforma religiosa, la conciencia individual y las cuestiones morales que en la belleza clásica y los ideales cortesanos" },
-      { "en": "Northern artists rejected oil painting in favor of fresco techniques better suited to colder climates", "es": "Los artistas nórdicos rechazaron la pintura al óleo en favor de las técnicas de fresco mejor adaptadas a los climas más fríos" }
+      {
+        "en": "Oil painting, with very fine detail",
+        "es": "La pintura al óleo, con detalles muy finos"
+      },
+      {
+        "en": "Painting on wet plaster, called fresco",
+        "es": "La pintura sobre yeso húmedo, llamada fresco"
+      },
+      {
+        "en": "Painting with colored sand",
+        "es": "La pintura con arena de colores"
+      }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Northern Renaissance absorbed Italian humanism but directed it toward religious and social reform rather than classical beauty and courtly culture. Figures like Erasmus, Thomas More, and Dürer used humanist methods (critical textual scholarship, individual reason) to examine scripture and critique Church institutions. Northern painters like Van Eyck and Bruegel focused on everyday life, morality, and religious devotion rather than classical mythology and idealized beauty. Ironically, Northern artists pioneered and perfected oil painting — the technique later used by Italian masters — not fresco.",
-      "es": "El Renacimiento Nórdico absorbió el humanismo italiano pero lo orientó hacia la reforma religiosa y social en lugar de la belleza clásica y la cultura cortesana. Figuras como Erasmo, Tomás Moro y Durero usaron métodos humanistas (erudición textual crítica, razón individual) para examinar las Escrituras y criticar las instituciones de la Iglesia. Pintores nórdicos como Van Eyck y Brueghel se centraron en la vida cotidiana, la moralidad y la devoción religiosa en lugar de la mitología clásica y la belleza idealizada. Irónicamente, los artistas nórdicos fueron pioneros y perfeccionaron la pintura al óleo —la técnica luego utilizada por los maestros italianos—, no el fresco."
+      "en": "Oil paint dries slowly, so painters could add many thin layers and fix mistakes. Jan van Eyck, from Flanders, used it in the 1430s to paint tiny details: a gem, a reflection in a mirror, the hairs on a fur. His Arnolfini Portrait is a famous example. Northern artists often painted ordinary people and daily life, not only gods and heroes.",
+      "es": "La pintura al óleo se seca despacio, así que los pintores podían añadir muchas capas finas y corregir errores. Jan van Eyck, de Flandes, la usó en la década de 1430 para pintar detalles diminutos: una joya, un reflejo en un espejo, los pelos de una piel. Su Retrato de los Arnolfini es un ejemplo famoso. Los artistas del Norte pintaban a menudo a personas comunes y la vida diaria, no solo dioses y héroes."
     },
     "meanwhile": {
-      "en": "While the Northern Renaissance flourished in the 16th century, the Ottoman Empire under Suleiman the Magnificent was experiencing its own cultural golden age — commissioning monumental architecture, patronizing poetry and law, and expanding into three continents. A parallel Renaissance that European historians rarely named as such.",
-      "es": "Mientras el Renacimiento Nórdico florecía en el siglo XVI, el Imperio Otomano bajo Solimán el Magnífico experimentaba su propio siglo de oro cultural: encargando arquitectura monumental, patrocinando la poesía y el derecho, y expandiéndose hacia tres continentes. Un Renacimiento paralelo que los historiadores europeos rara vez nombraron como tal."
+      "en": "In 1428, the Aztecs allied with two other cities to form the Triple Alliance and began to build their empire.",
+      "es": "En 1428, los aztecas se aliaron con otras dos ciudades para formar la Triple Alianza y comenzaron a construir su imperio."
     },
     "reflection": {
-      "en": "The Northern Renaissance placed more emphasis on individual conscience and moral reform, while the Italian Renaissance celebrated beauty, classical ideals, and human achievement. Does a culture's art reflect its deepest values — or does art shape those values over time?",
-      "es": "El Renacimiento Nórdico puso más énfasis en la conciencia individual y la reforma moral, mientras que el Renacimiento italiano celebraba la belleza, los ideales clásicos y el logro humano. ¿El arte de una cultura refleja sus valores más profundos, o el arte moldea esos valores con el tiempo?"
-    }
+      "en": "Van Eyck painted tiny details that most people never notice. When did a small detail make a big difference in something you did?",
+      "es": "Van Eyck pintó detalles diminutos que la mayoría nunca nota. ¿Cuándo un pequeño detalle marcó una gran diferencia en algo que hiciste?"
+    },
+    "vocab": [
+      {
+        "term": "oil",
+        "es": "óleo"
+      },
+      {
+        "term": "layers",
+        "es": "capas"
+      },
+      {
+        "term": "reflection",
+        "es": "reflejo"
+      },
+      {
+        "term": "fur",
+        "es": "piel"
+      }
+    ]
+  },
+  {
+    "id": "rn-011",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Who painted the Mona Lisa?",
+      "es": "¿Quién pintó la Mona Lisa?"
+    },
+    "options": [
+      {
+        "en": "Leonardo da Vinci",
+        "es": "Leonardo da Vinci"
+      },
+      {
+        "en": "Michelangelo",
+        "es": "Miguel Ángel"
+      },
+      {
+        "en": "Raphael",
+        "es": "Rafael"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Leonardo began the portrait around 1503. It shows Lisa Gherardini, the wife of a Florentine merchant. He kept working on it for years and took it to France. He used a soft technique called sfumato, with no hard lines, which gives the smile a mysterious look. In 1911, a thief stole the painting from the Louvre. It was found two years later, and this made it even more famous.",
+      "es": "Leonardo comenzó el retrato alrededor de 1503. Muestra a Lisa Gherardini, la esposa de un comerciante florentino. Siguió trabajando en él durante años y lo llevó a Francia. Usó una técnica suave llamada sfumato, sin líneas duras, que da a la sonrisa un aspecto misterioso. En 1911, un ladrón robó la pintura del Louvre. Se encontró dos años después, y eso la hizo aún más famosa."
+    },
+    "meanwhile": {
+      "en": "In 1505, Portuguese ships reached Sri Lanka, an island rich in cinnamon.",
+      "es": "En 1505, barcos portugueses llegaron a Sri Lanka, una isla rica en canela."
+    },
+    "reflection": {
+      "en": "People still debate what the smile means. What painting or photo has made you wonder what the person was thinking?",
+      "es": "La gente todavía debate qué significa la sonrisa. ¿Qué pintura o foto te ha hecho preguntarte qué estaba pensando la persona?"
+    },
+    "vocab": [
+      {
+        "term": "portrait",
+        "es": "retrato"
+      },
+      {
+        "term": "merchant",
+        "es": "comerciante"
+      },
+      {
+        "term": "smile",
+        "es": "sonrisa"
+      },
+      {
+        "term": "thief",
+        "es": "ladrón"
+      }
+    ]
+  },
+  {
+    "id": "rn-012",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Brunelleschi’s dome for the cathedral of Florence was special because of how it was built. What was unusual?",
+      "es": "La cúpula de Brunelleschi para la catedral de Florencia fue especial por cómo se construyó. ¿Qué tuvo de inusual?"
+    },
+    "options": [
+      {
+        "en": "It was built without a big wooden frame under it",
+        "es": "Se construyó sin un gran armazón de madera debajo"
+      },
+      {
+        "en": "It was built in only one year by a king",
+        "es": "Se construyó en un solo año por orden de un rey"
+      },
+      {
+        "en": "It was built entirely under the water",
+        "es": "Se construyó por completo bajo el agua"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The cathedral had a huge open space on top, about 45 meters wide, and nobody knew how to cover it. Brunelleschi won the competition with a clever plan. He built two shells, one inside the other, and laid the bricks in a special pattern, so that the dome could support itself while growing. It took from 1420 to 1436. It is still the largest brick dome in the world.",
+      "es": "La catedral tenía un enorme espacio abierto arriba, de unos 45 metros de ancho, y nadie sabía cómo cubrirlo. Brunelleschi ganó el concurso con un plan ingenioso. Construyó dos cáscaras, una dentro de la otra, y colocó los ladrillos en un patrón especial, de modo que la cúpula pudiera sostenerse a sí misma mientras crecía. Tardó de 1420 a 1436. Sigue siendo la cúpula de ladrillo más grande del mundo."
+    },
+    "meanwhile": {
+      "en": "In 1420, in China, the emperor opened the Forbidden City in Beijing, a huge palace with nearly 1,000 buildings.",
+      "es": "En 1420, en China, el emperador inauguró la Ciudad Prohibida de Pekín, un enorme palacio con casi 1.000 edificios."
+    },
+    "reflection": {
+      "en": "Brunelleschi solved a problem that others thought impossible. When did you solve something that looked impossible?",
+      "es": "Brunelleschi resolvió un problema que otros creían imposible. ¿Cuándo resolviste algo que parecía imposible?"
+    },
+    "vocab": [
+      {
+        "term": "dome",
+        "es": "cúpula"
+      },
+      {
+        "term": "competition",
+        "es": "concurso"
+      },
+      {
+        "term": "shells",
+        "es": "cáscaras"
+      },
+      {
+        "term": "bricks",
+        "es": "ladrillos"
+      }
+    ]
+  },
+  {
+    "id": "rn-013",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "The word \"Renaissance\" comes from French. What does it mean?",
+      "es": "La palabra \"Renacimiento\" viene del francés. ¿Qué significa?"
+    },
+    "options": [
+      {
+        "en": "Rebirth",
+        "es": "Renacer"
+      },
+      {
+        "en": "Revolution",
+        "es": "Revolución"
+      },
+      {
+        "en": "Reform",
+        "es": "Reforma"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "\"Renaissance\" means \"rebirth\". People of the time believed that the art, knowledge and ideas of ancient Greece and Rome were being born again after the Middle Ages. The movement began in Italy in the 1300s, in cities like Florence and Venice, and then spread across Europe. The name was popularized much later, by historians in the 1800s.",
+      "es": "\"Renaissance\" significa \"renacimiento\". La gente de la época creía que el arte, el conocimiento y las ideas de la antigua Grecia y Roma estaban naciendo de nuevo después de la Edad Media. El movimiento comenzó en Italia en el siglo XIV, en ciudades como Florencia y Venecia, y luego se extendió por Europa. El nombre se popularizó mucho después, por historiadores del siglo XIX."
+    },
+    "meanwhile": {
+      "en": "Around 1400, the Ming dynasty in China was repairing the Great Wall and building the huge Forbidden City.",
+      "es": "Alrededor de 1400, la dinastía Ming de China reparaba la Gran Muralla y construía la enorme Ciudad Prohibida."
+    },
+    "reflection": {
+      "en": "A time of \"rebirth\" brought new life to old ideas. Which old idea would you like to bring back?",
+      "es": "Una época de \"renacimiento\" dio nueva vida a viejas ideas. ¿Qué vieja idea te gustaría recuperar?"
+    },
+    "vocab": [
+      {
+        "term": "rebirth",
+        "es": "renacimiento"
+      },
+      {
+        "term": "ancient",
+        "es": "antigua"
+      },
+      {
+        "term": "spread",
+        "es": "extendió"
+      },
+      {
+        "term": "historians",
+        "es": "historiadores"
+      }
+    ]
+  },
+  {
+    "id": "rn-014",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In Raphael’s painting The School of Athens, who stands at the center?",
+      "es": "En la pintura La escuela de Atenas de Rafael, ¿quiénes están en el centro?"
+    },
+    "options": [
+      {
+        "en": "The philosophers Plato and Aristotle",
+        "es": "Los filósofos Platón y Aristóteles"
+      },
+      {
+        "en": "The painter and his family",
+        "es": "El pintor y su familia"
+      },
+      {
+        "en": "Pope Julius II and his cardinals",
+        "es": "El papa Julio II y sus cardenales"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Raphael painted this huge picture on a wall in the Vatican between 1509 and 1511. It shows many great thinkers of ancient Greece in a grand building. In the middle, Plato points up, to the world of ideas, while Aristotle holds out his hand flat, to the real world. Raphael gave some thinkers the faces of his friends, such as Leonardo, who is thought to be Plato.",
+      "es": "Rafael pintó este enorme cuadro en una pared del Vaticano entre 1509 y 1511. Muestra a muchos grandes pensadores de la antigua Grecia en un edificio majestuoso. En el centro, Platón señala hacia arriba, al mundo de las ideas, mientras Aristóteles extiende la mano en horizontal, hacia el mundo real. Rafael dio a algunos pensadores los rostros de sus amigos, como Leonardo, que se cree que es Platón."
+    },
+    "meanwhile": {
+      "en": "In 1510, the Portuguese captured Goa, in India, and made it the center of their power in Asia.",
+      "es": "En 1510, los portugueses capturaron Goa, en la India, y la convirtieron en el centro de su poder en Asia."
+    },
+    "reflection": {
+      "en": "Plato looks up, Aristotle looks around. Are you more like someone who thinks about ideas or about the real world?",
+      "es": "Platón mira hacia arriba, Aristóteles mira alrededor. ¿Eres más de pensar en ideas o en el mundo real?"
+    },
+    "vocab": [
+      {
+        "term": "thinkers",
+        "es": "pensadores"
+      },
+      {
+        "term": "grand",
+        "es": "majestuoso"
+      },
+      {
+        "term": "points up",
+        "es": "señala hacia arriba"
+      },
+      {
+        "term": "hand",
+        "es": "mano"
+      }
+    ]
+  },
+  {
+    "id": "rn-015",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "How tall is Michelangelo’s statue of David?",
+      "es": "¿Qué altura tiene la estatua de David de Miguel Ángel?"
+    },
+    "options": [
+      {
+        "en": "About 5 meters",
+        "es": "Unos 5 metros"
+      },
+      {
+        "en": "About 2 meters",
+        "es": "Unos 2 metros"
+      },
+      {
+        "en": "About 12 meters",
+        "es": "Unos 12 metros"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Michelangelo carved David between 1501 and 1504, when he was in his twenties. It is about five meters tall and is made from one block of marble that other sculptors had left because it was too tall and thin. David was the young hero who defeated the giant Goliath. In Florence, he became a symbol of courage and freedom. Today the statue is in a museum.",
+      "es": "Miguel Ángel talló el David entre 1501 y 1504, cuando tenía veintitantos años. Mide unos cinco metros de altura y está hecho de un solo bloque de mármol que otros escultores habían abandonado por ser demasiado alto y delgado. David era el joven héroe que derrotó al gigante Goliat. En Florencia se convirtió en un símbolo de valentía y libertad. Hoy la estatua está en un museo."
+    },
+    "meanwhile": {
+      "en": "In 1502, Moctezuma II became the ruler of the Aztec Empire, which was then at its largest.",
+      "es": "En 1502, Moctezuma II se convirtió en gobernante del Imperio azteca, que entonces estaba en su mayor extensión."
+    },
+    "reflection": {
+      "en": "Michelangelo made something great from a block that others rejected. What did you improve that others had given up on?",
+      "es": "Miguel Ángel hizo algo grandioso con un bloque que otros rechazaron. ¿Qué mejoraste que otros habían dejado de lado?"
+    },
+    "vocab": [
+      {
+        "term": "carved",
+        "es": "talló"
+      },
+      {
+        "term": "block",
+        "es": "bloque"
+      },
+      {
+        "term": "giant",
+        "es": "gigante"
+      },
+      {
+        "term": "courage",
+        "es": "valentía"
+      }
+    ]
+  },
+  {
+    "id": "rn-016",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1543, Copernicus published a book with which big idea?",
+      "es": "En 1543, Copérnico publicó un libro con qué gran idea?"
+    },
+    "options": [
+      {
+        "en": "The Earth moves around the Sun",
+        "es": "La Tierra se mueve alrededor del Sol"
+      },
+      {
+        "en": "The Earth is flat",
+        "es": "La Tierra es plana"
+      },
+      {
+        "en": "The Moon is made of metal",
+        "es": "La Luna está hecha de metal"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For 1,400 years, most people believed that the Earth was at the center of the universe and that the Sun, Moon and stars went around it. Nicolaus Copernicus, a Polish astronomer, calculated that it was simpler to put the Sun at the center. His book was published in 1543, the year he died. At first, few accepted it. Later, Galileo and Kepler gave evidence that he was right.",
+      "es": "Durante 1.400 años, la mayoría creía que la Tierra estaba en el centro del universo y que el Sol, la Luna y las estrellas giraban a su alrededor. Nicolás Copérnico, un astrónomo polaco, calculó que era más simple poner el Sol en el centro. Su libro se publicó en 1543, el año en que murió. Al principio, pocos lo aceptaron. Más tarde, Galileo y Kepler dieron pruebas de que tenía razón."
+    },
+    "meanwhile": {
+      "en": "In 1543, Portuguese sailors reached Japan for the first time and introduced guns, which changed Japanese warfare.",
+      "es": "En 1543, los marineros portugueses llegaron a Japón por primera vez e introdujeron las armas de fuego, que cambiaron la guerra japonesa."
+    },
+    "reflection": {
+      "en": "Changing the center of the universe took a long time to be accepted. Which idea took you a long time to accept?",
+      "es": "Cambiar el centro del universo tardó en aceptarse. ¿Qué idea te costó mucho aceptar?"
+    },
+    "vocab": [
+      {
+        "term": "center",
+        "es": "centro"
+      },
+      {
+        "term": "astronomer",
+        "es": "astrónomo"
+      },
+      {
+        "term": "published",
+        "es": "publicó"
+      },
+      {
+        "term": "evidence",
+        "es": "pruebas"
+      }
+    ]
+  },
+  {
+    "id": "rn-017",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Andreas Vesalius became famous in 1543 for a book that corrected old ideas about what?",
+      "es": "Andrés Vesalio se hizo famoso en 1543 por un libro que corregía antiguas ideas sobre qué?"
+    },
+    "options": [
+      {
+        "en": "The structure of the human body",
+        "es": "La estructura del cuerpo humano"
+      },
+      {
+        "en": "The movement of the planets",
+        "es": "El movimiento de los planetas"
+      },
+      {
+        "en": "The origin of languages",
+        "es": "El origen de los idiomas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "For 1,300 years, doctors trusted Galen, a Roman writer who had studied animals, not people. Vesalius, a Flemish professor, dissected human bodies himself and found many errors in Galen’s books. He published On the Fabric of the Human Body in 1543. It had beautiful, detailed drawings of bones, muscles, nerves and organs. This book started modern anatomy.",
+      "es": "Durante 1.300 años, los médicos confiaron en Galeno, un escritor romano que había estudiado animales, no personas. Vesalio, un profesor flamenco, disecó cuerpos humanos él mismo y encontró muchos errores en los libros de Galeno. Publicó Sobre la estructura del cuerpo humano en 1543. Tenía dibujos hermosos y detallados de huesos, músculos, nervios y órganos. Este libro inició la anatomía moderna."
+    },
+    "meanwhile": {
+      "en": "Around 1540, Sher Shah Suri ruled northern India and built the Grand Trunk Road, a long road that is still used today.",
+      "es": "Alrededor de 1540, Sher Shah Suri gobernaba el norte de la India y construyó la Gran Ruta Troncal, un largo camino que todavía se usa hoy."
+    },
+    "reflection": {
+      "en": "Vesalius checked the facts himself instead of trusting an old authority. When did you check something yourself instead of believing it?",
+      "es": "Vesalio comprobó los hechos él mismo en lugar de confiar en una vieja autoridad. ¿Cuándo comprobaste algo tú mismo en vez de creerlo?"
+    },
+    "vocab": [
+      {
+        "term": "dissected",
+        "es": "disecó"
+      },
+      {
+        "term": "errors",
+        "es": "errores"
+      },
+      {
+        "term": "nerves",
+        "es": "nervios"
+      },
+      {
+        "term": "anatomy",
+        "es": "anatomía"
+      }
+    ]
+  },
+  {
+    "id": "rn-018",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Aldus Manutius, a printer in Venice, invented a type of letter that we still use today. What is it?",
+      "es": "Aldus Manutius, un impresor de Venecia, inventó un tipo de letra que todavía usamos hoy. ¿Cuál es?"
+    },
+    "options": [
+      {
+        "en": "Italic",
+        "es": "Cursiva"
+      },
+      {
+        "en": "Bold",
+        "es": "Negrita"
+      },
+      {
+        "en": "Capital letters",
+        "es": "Mayúsculas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Around 1500, Aldus Manutius wanted to print books that were cheap, small and easy to carry, like today’s paperbacks. He asked an artist to design a slanted type inspired by quick handwriting, which saved space. We call it \"italic\", because it came from Italy. Aldus also printed many classic Greek and Latin books, so more readers could study them.",
+      "es": "Alrededor de 1500, Aldus Manutius quiso imprimir libros baratos, pequeños y fáciles de llevar, como los libros de bolsillo de hoy. Pidió a un artista que diseñara una letra inclinada inspirada en la escritura rápida a mano, que ahorraba espacio. La llamamos \"cursiva\" o \"itálica\", porque vino de Italia. Aldus también imprimió muchos libros clásicos griegos y latinos, para que más lectores pudieran estudiarlos."
+    },
+    "meanwhile": {
+      "en": "In 1500, the Portuguese navigator Pedro Álvares Cabral reached the coast of Brazil.",
+      "es": "En 1500, el navegante portugués Pedro Álvares Cabral llegó a la costa de Brasil."
+    },
+    "reflection": {
+      "en": "A small design change made books cheaper and more portable. What small design makes your life easier?",
+      "es": "Un pequeño cambio de diseño hizo los libros más baratos y portátiles. ¿Qué pequeño diseño te facilita la vida?"
+    },
+    "vocab": [
+      {
+        "term": "printer",
+        "es": "impresor"
+      },
+      {
+        "term": "slanted",
+        "es": "inclinada"
+      },
+      {
+        "term": "handwriting",
+        "es": "escritura a mano"
+      },
+      {
+        "term": "classic",
+        "es": "clásicos"
+      }
+    ]
+  },
+  {
+    "id": "rn-019",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What does Leonardo’s drawing \"Vitruvian Man\" show?",
+      "es": "¿Qué muestra el dibujo \"Hombre de Vitruvio\" de Leonardo?"
+    },
+    "options": [
+      {
+        "en": "The ideal proportions of the human body",
+        "es": "Las proporciones ideales del cuerpo humano"
+      },
+      {
+        "en": "The anatomy of a horse in motion",
+        "es": "La anatomía de un caballo en movimiento"
+      },
+      {
+        "en": "A flying machine with big wings",
+        "es": "Una máquina voladora con grandes alas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Around 1490, Leonardo drew a man standing in a circle and a square, with his arms and legs in two positions. The drawing comes from the writings of the Roman architect Vitruvius, who said that the proportions of the human body are perfect. Leonardo measured real bodies to check this. Today, the picture is a symbol of the Renaissance and appears on Italy’s one-euro coin.",
+      "es": "Alrededor de 1490, Leonardo dibujó a un hombre dentro de un círculo y un cuadrado, con los brazos y las piernas en dos posiciones. El dibujo viene de los escritos del arquitecto romano Vitruvio, que decía que las proporciones del cuerpo humano son perfectas. Leonardo midió cuerpos reales para comprobarlo. Hoy la imagen es un símbolo del Renacimiento y aparece en la moneda italiana de un euro."
+    },
+    "meanwhile": {
+      "en": "Around 1490, the Ming emperor Hongzhi ruled China during a period of relative peace and low taxes.",
+      "es": "Alrededor de 1490, el emperador Ming Hongzhi gobernaba China en un período de relativa paz e impuestos bajos."
+    },
+    "reflection": {
+      "en": "Leonardo measured the body to understand beauty. How do numbers or measurements help you to understand something?",
+      "es": "Leonardo midió el cuerpo para entender la belleza. ¿Cómo te ayudan los números o las medidas a entender algo?"
+    },
+    "vocab": [
+      {
+        "term": "circle",
+        "es": "círculo"
+      },
+      {
+        "term": "square",
+        "es": "cuadrado"
+      },
+      {
+        "term": "proportions",
+        "es": "proporciones"
+      },
+      {
+        "term": "coin",
+        "es": "moneda"
+      }
+    ]
+  },
+  {
+    "id": "rn-020",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What problem did Leonardo have with his painting The Last Supper?",
+      "es": "¿Qué problema tuvo Leonardo con su pintura La Última Cena?"
+    },
+    "options": [
+      {
+        "en": "The paint started to flake from the wall",
+        "es": "La pintura empezó a desprenderse de la pared"
+      },
+      {
+        "en": "The Pope did not want to pay for it",
+        "es": "El papa no quiso pagarla"
+      },
+      {
+        "en": "It was stolen right away",
+        "es": "Fue robada de inmediato"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Leonardo painted The Last Supper on a wall of a monastery in Milan between 1495 and 1498. It shows Jesus and his twelve apostles at the moment when he says that one of them will betray him. Leonardo tried a new technique, using tempera on dry plaster, instead of the usual fresco. The paint began to fall off in his lifetime. It has been restored several times, most recently in 1999.",
+      "es": "Leonardo pintó La Última Cena en la pared de un monasterio de Milán entre 1495 y 1498. Muestra a Jesús y a sus doce apóstoles en el momento en que dice que uno de ellos lo traicionará. Leonardo probó una técnica nueva, usando temple sobre yeso seco, en lugar del fresco habitual. La pintura empezó a caerse durante su vida. Ha sido restaurada varias veces, la más reciente en 1999."
+    },
+    "meanwhile": {
+      "en": "In 1498, Vasco da Gama reached the coast of India, the first European to arrive there by sea.",
+      "es": "En 1498, Vasco da Gama llegó a la costa de la India, el primer europeo en llegar allí por mar."
+    },
+    "reflection": {
+      "en": "Leonardo tried a new method, and it did not last. When did an experiment in your life fail but teach you something?",
+      "es": "Leonardo probó un método nuevo y no duró. ¿Cuándo un experimento en tu vida falló pero te enseñó algo?"
+    },
+    "vocab": [
+      {
+        "term": "wall",
+        "es": "pared"
+      },
+      {
+        "term": "apostles",
+        "es": "apóstoles"
+      },
+      {
+        "term": "betray",
+        "es": "traicionará"
+      },
+      {
+        "term": "restored",
+        "es": "restaurada"
+      }
+    ]
+  },
+  {
+    "id": "rn-021",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Why was Dante’s Divine Comedy, written around 1310–1320, important for the Italian language?",
+      "es": "¿Por qué fue importante La Divina Comedia de Dante, escrita hacia 1310–1320, para el idioma italiano?"
+    },
+    "options": [
+      {
+        "en": "He wrote it in everyday Tuscan, not in Latin",
+        "es": "La escribió en toscano cotidiano, no en latín"
+      },
+      {
+        "en": "He invented the Italian alphabet for it",
+        "es": "Inventó el alfabeto italiano para escribirla"
+      },
+      {
+        "en": "He translated it later into Latin",
+        "es": "La tradujo más tarde al latín"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Dante was a poet from Florence. At the time, serious books were written in Latin, which only educated people understood. Dante chose to write his great poem about a journey through Hell, Purgatory and Heaven in Tuscan, the language of his city. Many people could read it. Thanks to Dante, Petrarch and Boccaccio, Tuscan became the base of modern standard Italian.",
+      "es": "Dante era un poeta de Florencia. En esa época, los libros serios se escribían en latín, que solo entendían las personas instruidas. Dante eligió escribir su gran poema sobre un viaje por el Infierno, el Purgatorio y el Paraíso en toscano, el idioma de su ciudad. Mucha gente podía leerlo. Gracias a Dante, Petrarca y Boccaccio, el toscano se convirtió en la base del italiano estándar moderno."
+    },
+    "meanwhile": {
+      "en": "In 1324, Mansa Musa, the king of Mali, traveled to Mecca with so much gold that prices fell in Cairo for years.",
+      "es": "En 1324, Mansa Musa, el rey de Malí, viajó a La Meca con tanto oro que los precios cayeron en El Cairo durante años."
+    },
+    "reflection": {
+      "en": "Dante used the language of ordinary people for great literature. Why is it important to write or speak so that everybody can understand?",
+      "es": "Dante usó el idioma de la gente común para una gran literatura. ¿Por qué es importante escribir o hablar de modo que todos entiendan?"
+    },
+    "vocab": [
+      {
+        "term": "poem",
+        "es": "poema"
+      },
+      {
+        "term": "journey",
+        "es": "viaje"
+      },
+      {
+        "term": "Hell",
+        "es": "Infierno"
+      },
+      {
+        "term": "standard",
+        "es": "estándar"
+      }
+    ]
+  },
+  {
+    "id": "rn-022",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Sofonisba Anguissola was a rare woman in the Renaissance art world. What was her job?",
+      "es": "Sofonisba Anguissola fue una mujer poco común en el mundo del arte renacentista. ¿Cuál era su trabajo?"
+    },
+    "options": [
+      {
+        "en": "Painter at the Spanish royal court",
+        "es": "Pintora en la corte real española"
+      },
+      {
+        "en": "Queen of a small kingdom",
+        "es": "Reina de un pequeño reino"
+      },
+      {
+        "en": "Architect of a cathedral",
+        "es": "Arquitecta de una catedral"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Sofonisba came from a noble family in Cremona, Italy. Her father made sure she studied painting, which was unusual for girls. She became famous for her portraits and self-portraits, and even Michelangelo praised her work. In 1559, King Philip II of Spain invited her to his court, where she painted the royal family. She lived to be about 93 years old.",
+      "es": "Sofonisba venía de una familia noble de Cremona, Italia. Su padre se aseguró de que estudiara pintura, algo poco común para las niñas. Se hizo famosa por sus retratos y autorretratos, e incluso Miguel Ángel elogió su obra. En 1559, el rey Felipe II de España la invitó a su corte, donde pintó a la familia real. Vivió hasta los 93 años aproximadamente."
+    },
+    "meanwhile": {
+      "en": "In 1558, Elizabeth I became queen of England and ruled for 44 years.",
+      "es": "En 1558, Isabel I se convirtió en reina de Inglaterra y gobernó durante 44 años."
+    },
+    "reflection": {
+      "en": "Few women were allowed to be artists then. Which people in your field of study or work had to fight to be accepted?",
+      "es": "Pocas mujeres podían ser artistas entonces. ¿Qué personas de tu campo de estudio o trabajo tuvieron que luchar para ser aceptadas?"
+    },
+    "vocab": [
+      {
+        "term": "portraits",
+        "es": "retratos"
+      },
+      {
+        "term": "praised",
+        "es": "elogió"
+      },
+      {
+        "term": "court",
+        "es": "corte"
+      },
+      {
+        "term": "noble",
+        "es": "noble"
+      }
+    ]
+  },
+  {
+    "id": "rn-023",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 1494, Luca Pacioli wrote a book that explained how merchants kept their accounts. What is that method called?",
+      "es": "En 1494, Luca Pacioli escribió un libro que explicaba cómo los comerciantes llevaban sus cuentas. ¿Cómo se llama ese método?"
+    },
+    "options": [
+      {
+        "en": "Double-entry bookkeeping",
+        "es": "Contabilidad por partida doble"
+      },
+      {
+        "en": "Roman numerals",
+        "es": "Numeración romana"
+      },
+      {
+        "en": "The abacus",
+        "es": "El ábaco"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Pacioli was an Italian monk and math teacher, and a friend of Leonardo da Vinci. In a book about mathematics, he described the method used by Venetian merchants. Every deal is written twice: once as money received and once as money paid. If the two totals do not match, there is a mistake. This system is still the basis of accounting today.",
+      "es": "Pacioli era un monje y profesor de matemáticas italiano, y amigo de Leonardo da Vinci. En un libro de matemáticas describió el método usado por los comerciantes venecianos. Cada operación se anota dos veces: una como dinero recibido y otra como dinero pagado. Si los dos totales no coinciden, hay un error. Este sistema sigue siendo la base de la contabilidad actual."
+    },
+    "meanwhile": {
+      "en": "In 1494, Spain and Portugal signed the Treaty of Tordesillas to divide the lands that explorers were finding.",
+      "es": "En 1494, España y Portugal firmaron el Tratado de Tordesillas para dividirse las tierras que encontraban los exploradores."
+    },
+    "reflection": {
+      "en": "Writing each deal twice helps to find mistakes. What habit helps you check your own work?",
+      "es": "Anotar cada operación dos veces ayuda a encontrar errores. ¿Qué hábito te ayuda a revisar tu propio trabajo?"
+    },
+    "vocab": [
+      {
+        "term": "merchants",
+        "es": "comerciantes"
+      },
+      {
+        "term": "accounts",
+        "es": "cuentas"
+      },
+      {
+        "term": "mistake",
+        "es": "error"
+      },
+      {
+        "term": "accounting",
+        "es": "contabilidad"
+      }
+    ]
+  },
+  {
+    "id": "rn-024",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Albrecht Dürer made a famous print of a rhinoceros in 1515. What is unusual about it?",
+      "es": "Alberto Durero hizo un famoso grabado de un rinoceronte en 1515. ¿Qué tiene de inusual?"
+    },
+    "options": [
+      {
+        "en": "He never saw a rhinoceros, only a drawing of one",
+        "es": "Nunca vio un rinoceronte, solo un dibujo de uno"
+      },
+      {
+        "en": "It was the first color print in history",
+        "es": "Fue el primer grabado en color de la historia"
+      },
+      {
+        "en": "It shows a rhinoceros with big wings",
+        "es": "Muestra un rinoceronte con grandes alas"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 1515, a rhinoceros arrived in Lisbon as a gift from India for the king of Portugal. Dürer, in Germany, heard about it and saw a sketch and a description. From these, he made a woodcut, a print from a carved block of wood. The animal looks like it has armor, and some details are wrong. Still, people copied his picture for about 250 years.",
+      "es": "En 1515, un rinoceronte llegó a Lisboa como regalo de la India para el rey de Portugal. Durero, en Alemania, supo de él y vio un boceto y una descripción. Con ellos hizo una xilografía, una impresión de un bloque de madera tallado. El animal parece tener armadura y algunos detalles son erróneos. Aun así, la gente copió su imagen durante unos 250 años."
+    },
+    "meanwhile": {
+      "en": "In 1514, the Ottomans defeated the Persian Safavids at the Battle of Chaldiran, thanks to their cannons and guns.",
+      "es": "En 1514, los otomanos derrotaron a los persas safávidas en la batalla de Chaldirán, gracias a sus cañones y armas de fuego."
+    },
+    "reflection": {
+      "en": "A picture made from a description became the image of an animal for centuries. How do pictures shape what people believe?",
+      "es": "Una imagen hecha a partir de una descripción se convirtió en la imagen de un animal durante siglos. ¿Cómo influyen las imágenes en lo que la gente cree?"
+    },
+    "vocab": [
+      {
+        "term": "rhinoceros",
+        "es": "rinoceronte"
+      },
+      {
+        "term": "sketch",
+        "es": "boceto"
+      },
+      {
+        "term": "woodcut",
+        "es": "xilografía"
+      },
+      {
+        "term": "armor",
+        "es": "armadura"
+      }
+    ]
+  },
+  {
+    "id": "rn-025",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 1588, King Philip II of Spain sent the Armada to invade England. What happened?",
+      "es": "En 1588, el rey Felipe II de España envió la Armada para invadir Inglaterra. ¿Qué pasó?"
+    },
+    "options": [
+      {
+        "en": "The English and bad weather defeated it",
+        "es": "Los ingleses y el mal tiempo la derrotaron"
+      },
+      {
+        "en": "It conquered London in one week",
+        "es": "Conquistó Londres en una semana"
+      },
+      {
+        "en": "It was destroyed by a volcano",
+        "es": "Fue destruida por un volcán"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Spanish Armada had about 130 ships and was supposed to carry an army to England. English ships were smaller but faster, with better guns. At night near Calais, the English sent burning ships toward the Armada, and the Spanish ships scattered. Then strong storms drove them around Scotland and Ireland. Many ships were wrecked, and thousands of men died.",
+      "es": "La Armada española tenía unos 130 barcos y debía llevar un ejército a Inglaterra. Los barcos ingleses eran más pequeños pero más rápidos, con mejores cañones. De noche, cerca de Calais, los ingleses lanzaron barcos en llamas contra la Armada y los barcos españoles se dispersaron. Luego fuertes tormentas los empujaron alrededor de Escocia e Irlanda. Muchos barcos naufragaron y miles de hombres murieron."
+    },
+    "meanwhile": {
+      "en": "In 1588, Shah Abbas I became ruler of Persia. He built a magnificent new capital in Isfahan.",
+      "es": "En 1588, el sha Abás I se convirtió en gobernante de Persia. Construyó una magnífica nueva capital en Isfahán."
+    },
+    "reflection": {
+      "en": "The weather helped the English as much as their ships. How much of success is luck?",
+      "es": "El clima ayudó a los ingleses tanto como sus barcos. ¿Cuánto del éxito es suerte?"
+    },
+    "vocab": [
+      {
+        "term": "ships",
+        "es": "barcos"
+      },
+      {
+        "term": "faster",
+        "es": "más rápidos"
+      },
+      {
+        "term": "scattered",
+        "es": "dispersaron"
+      },
+      {
+        "term": "wrecked",
+        "es": "naufragaron"
+      }
+    ]
+  },
+  {
+    "id": "rn-026",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What was special about Shakespeare’s Globe Theatre in London?",
+      "es": "¿Qué tenía de especial el Teatro del Globo de Shakespeare en Londres?"
+    },
+    "options": [
+      {
+        "en": "It had no roof over the middle, and tickets were cheap",
+        "es": "No tenía techo en el centro y las entradas eran baratas"
+      },
+      {
+        "en": "It was built underground to stay warm in winter",
+        "es": "Estaba construido bajo tierra para mantenerse caliente en invierno"
+      },
+      {
+        "en": "Only nobles and rich people were allowed to enter",
+        "es": "Solo se permitía entrar a nobles y ricos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Globe opened in 1599 on the River Thames. It was round, with an open space in the middle and no roof over it. Plays were performed in the afternoon, in daylight. Poor people, called \"groundlings\", stood in front of the stage for one penny. Richer people sat in covered galleries. In 1613, a cannon fire started a fire and burned it down.",
+      "es": "El Globo abrió en 1599 junto al río Támesis. Era redondo, con un espacio abierto en el centro y sin techo encima. Las obras se representaban por la tarde, con luz del día. La gente pobre, llamada \"groundlings\", se quedaba de pie frente al escenario por un penique. Los más ricos se sentaban en galerías cubiertas. En 1613, el disparo de un cañón provocó un incendio y lo quemó."
+    },
+    "meanwhile": {
+      "en": "In 1600, in Japan, Tokugawa Ieyasu won the Battle of Sekigahara and became the most powerful man in the country.",
+      "es": "En 1600, en Japón, Tokugawa Ieyasu ganó la batalla de Sekigahara y se convirtió en el hombre más poderoso del país."
+    },
+    "reflection": {
+      "en": "Theater was for everyone, poor and rich. What kind of entertainment do all people in your community enjoy?",
+      "es": "El teatro era para todos, pobres y ricos. ¿Qué tipo de entretenimiento disfruta toda la gente de tu comunidad?"
+    },
+    "vocab": [
+      {
+        "term": "roof",
+        "es": "techo"
+      },
+      {
+        "term": "stage",
+        "es": "escenario"
+      },
+      {
+        "term": "penny",
+        "es": "penique"
+      },
+      {
+        "term": "galleries",
+        "es": "galerías"
+      }
+    ]
+  },
+  {
+    "id": "rn-027",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which of these common English words is often credited to Shakespeare?",
+      "es": "¿Cuál de estas palabras comunes del inglés se atribuye a menudo a Shakespeare?"
+    },
+    "options": [
+      {
+        "en": "Bedroom, lonely and eyeball",
+        "es": "Bedroom, lonely y eyeball"
+      },
+      {
+        "en": "Telephone, internet and computer",
+        "es": "Telephone, internet y computer"
+      },
+      {
+        "en": "Airport, camera and taxi",
+        "es": "Airport, camera y taxi"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Shakespeare used about 30,000 different words in his works. Experts say that he created or first wrote down hundreds of them, such as \"bedroom\", \"lonely\", \"eyeball\", \"assassination\" and \"swagger\". Some may have existed in speech before, but his plays spread them. We also use many of his phrases in daily life, such as \"break the ice\" and \"heart of gold\".",
+      "es": "Shakespeare usó unas 30.000 palabras distintas en sus obras. Los expertos dicen que creó o puso por escrito por primera vez cientos de ellas, como \"bedroom\", \"lonely\", \"eyeball\", \"assassination\" y \"swagger\". Algunas pueden haber existido antes en el habla, pero sus obras las difundieron. También usamos muchas de sus frases en la vida diaria, como \"break the ice\" y \"heart of gold\"."
+    },
+    "meanwhile": {
+      "en": "In 1601, the Jesuit Matteo Ricci arrived in Beijing, bringing European maps, clocks and books to the Chinese emperor.",
+      "es": "En 1601, el jesuita Mateo Ricci llegó a Pekín y llevó mapas, relojes y libros europeos al emperador chino."
+    },
+    "reflection": {
+      "en": "A writer changed the language we speak. Which phrase or word do you use every day that came from a book, a film or a song?",
+      "es": "Un escritor cambió el idioma que hablamos. ¿Qué frase o palabra usas todos los días que viene de un libro, una película o una canción?"
+    },
+    "vocab": [
+      {
+        "term": "bedroom",
+        "es": "dormitorio"
+      },
+      {
+        "term": "lonely",
+        "es": "solitario"
+      },
+      {
+        "term": "eyeball",
+        "es": "globo ocular"
+      },
+      {
+        "term": "swagger",
+        "es": "andar arrogante"
+      }
+    ]
+  },
+  {
+    "id": "rn-028",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In Cervantes’ novel Don Quixote (1605), what does the main character believe about himself?",
+      "es": "En la novela Don Quijote (1605) de Cervantes, ¿qué cree el protagonista sobre sí mismo?"
+    },
+    "options": [
+      {
+        "en": "That he is a knight who must fight injustice",
+        "es": "Que es un caballero que debe luchar contra la injusticia"
+      },
+      {
+        "en": "That he is a king in disguise",
+        "es": "Que es un rey disfrazado"
+      },
+      {
+        "en": "That he is an explorer of the sea",
+        "es": "Que es un explorador del mar"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Don Quixote is an old man who reads so many books about knights that he loses his mind. He puts on rusty armor, takes his horse, Rocinante, and his helper Sancho Panza, and goes out to fight evil. He famously attacks windmills, believing they are giants. Many people call it the first modern novel. The word \"quixotic\" describes someone with big, unrealistic dreams.",
+      "es": "Don Quijote es un anciano que lee tantos libros sobre caballeros que pierde la razón. Se pone una armadura oxidada, toma su caballo Rocinante y a su ayudante Sancho Panza, y sale a luchar contra el mal. Ataca famosamente unos molinos de viento, creyendo que son gigantes. Mucha gente la llama la primera novela moderna. La palabra \"quijotesco\" describe a alguien con sueños grandes e irreales."
+    },
+    "meanwhile": {
+      "en": "In 1605, in England, Guy Fawkes and other plotters tried to blow up Parliament, but the plan failed.",
+      "es": "En 1605, en Inglaterra, Guy Fawkes y otros conspiradores intentaron volar el Parlamento, pero el plan fracasó."
+    },
+    "reflection": {
+      "en": "Don Quixote is funny and also sad, because he sees the world as he wishes it to be. Do you prefer to be realistic or to dream big?",
+      "es": "Don Quijote es gracioso y también triste, porque ve el mundo como quisiera que fuera. ¿Prefieres ser realista o soñar en grande?"
+    },
+    "vocab": [
+      {
+        "term": "knights",
+        "es": "caballeros"
+      },
+      {
+        "term": "rusty",
+        "es": "oxidada"
+      },
+      {
+        "term": "windmills",
+        "es": "molinos de viento"
+      },
+      {
+        "term": "novel",
+        "es": "novela"
+      }
+    ]
+  },
+  {
+    "id": "rn-029",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Johannes Kepler discovered that the planets move around the Sun in what shape?",
+      "es": "Johannes Kepler descubrió que los planetas se mueven alrededor del Sol con qué forma?"
+    },
+    "options": [
+      {
+        "en": "Ellipses, like stretched circles",
+        "es": "Elipses, como círculos alargados"
+      },
+      {
+        "en": "Perfect circles, as the Greeks had said",
+        "es": "Círculos perfectos, como habían dicho los griegos"
+      },
+      {
+        "en": "Straight lines that cross each other",
+        "es": "Líneas rectas que se cruzan"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Since the Greeks, people believed that the heavens moved in perfect circles. Kepler, a German mathematician, worked with the careful observations of the Danish astronomer Tycho Brahe. He tried to fit the movement of Mars into a circle, but the numbers did not agree. After years of calculation, he found that Mars moves in an ellipse. In 1609, he published this first law of planetary motion.",
+      "es": "Desde los griegos, la gente creía que los cielos se movían en círculos perfectos. Kepler, un matemático alemán, trabajó con las cuidadosas observaciones del astrónomo danés Tycho Brahe. Intentó ajustar el movimiento de Marte a un círculo, pero los números no coincidían. Tras años de cálculos, descubrió que Marte se mueve en una elipse. En 1609 publicó esta primera ley del movimiento planetario."
+    },
+    "meanwhile": {
+      "en": "In 1608, a Dutch lens-maker, Hans Lippershey, asked for a patent for a new instrument that made far objects look closer: the telescope.",
+      "es": "En 1608, un fabricante de lentes neerlandés, Hans Lippershey, pidió una patente para un nuevo instrumento que acercaba los objetos lejanos: el telescopio."
+    },
+    "reflection": {
+      "en": "Kepler gave up a beautiful idea because the data did not agree. When did you change your mind because of the facts?",
+      "es": "Kepler abandonó una idea hermosa porque los datos no coincidían. ¿Cuándo cambiaste de opinión por los hechos?"
+    },
+    "vocab": [
+      {
+        "term": "circles",
+        "es": "círculos"
+      },
+      {
+        "term": "astronomer",
+        "es": "astrónomo"
+      },
+      {
+        "term": "ellipse",
+        "es": "elipse"
+      },
+      {
+        "term": "planetary",
+        "es": "planetario"
+      }
+    ]
+  },
+  {
+    "id": "rn-030",
+    "category": "the-renaissance",
+    "category_label": {
+      "en": "The Renaissance",
+      "es": "El Renacimiento"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What does Botticelli’s famous painting The Birth of Venus show?",
+      "es": "¿Qué muestra la famosa pintura El nacimiento de Venus de Botticelli?"
+    },
+    "options": [
+      {
+        "en": "A goddess arriving from the sea on a shell",
+        "es": "Una diosa que llega del mar sobre una concha"
+      },
+      {
+        "en": "A queen at a royal banquet in Florence",
+        "es": "Una reina en un banquete real en Florencia"
+      },
+      {
+        "en": "A baby sleeping in a cradle",
+        "es": "Un bebé durmiendo en una cuna"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Around 1485, the Florentine painter Sandro Botticelli painted Venus, the Roman goddess of love, standing on a giant shell as the winds blow her to the shore. The picture belonged to the circle of the Medici family. It was important because it showed a pagan, mythological subject, not a religious one, in a big painting. This showed the new interest in ancient culture.",
+      "es": "Alrededor de 1485, el pintor florentino Sandro Botticelli pintó a Venus, la diosa romana del amor, de pie sobre una concha gigante mientras los vientos la empujan hacia la orilla. El cuadro pertenecía al círculo de la familia Médici. Era importante porque mostraba un tema pagano y mitológico, no religioso, en una gran pintura. Esto mostraba el nuevo interés por la cultura antigua."
+    },
+    "meanwhile": {
+      "en": "In 1485, Henry VII won the Battle of Bosworth Field and began the Tudor dynasty in England.",
+      "es": "En 1485, Enrique VII ganó la batalla de Bosworth y comenzó la dinastía Tudor en Inglaterra."
+    },
+    "reflection": {
+      "en": "Art in this period began to celebrate beauty for its own sake. What do you find beautiful in everyday life?",
+      "es": "El arte de este período comenzó a celebrar la belleza por sí misma. ¿Qué encuentras hermoso en la vida cotidiana?"
+    },
+    "vocab": [
+      {
+        "term": "goddess",
+        "es": "diosa"
+      },
+      {
+        "term": "shell",
+        "es": "concha"
+      },
+      {
+        "term": "shore",
+        "es": "orilla"
+      },
+      {
+        "term": "pagan",
+        "es": "pagano"
+      }
+    ]
   }
 ]

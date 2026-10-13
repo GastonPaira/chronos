@@ -7,11 +7,57 @@ import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
 import StreakDisplay from '@/components/StreakDisplay';
 import { AuthButton } from '@/components/AuthButton';
+import DailyGoalCard from '@/components/DailyGoalCard';
+import Onboarding from '@/components/Onboarding';
 import { BLOG_URL } from '@/data/catalog';
+import { useProgress } from '@/hooks/useProgress';
+import { useWords } from '@/hooks/useWords';
+import { toLocalDateKey } from '@/lib/dates';
+import { dueCount } from '@/lib/words';
+
+interface TileProps {
+  icon: string;
+  label: string;
+  badge?: number;
+  onClick: () => void;
+}
+
+function Tile({ icon, label, badge, onClick }: TileProps) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="relative flex flex-col items-center gap-1 rounded-2xl border border-chronos-border bg-black/30 px-2 py-3 text-xs font-medium uppercase tracking-wider text-chronos-text transition-all hover:border-chronos-gold/50 hover:text-chronos-gold active:scale-[0.97]"
+    >
+      <span className="text-xl">{icon}</span>
+      {label}
+      {badge ? (
+        <span className="absolute -top-1.5 -right-1.5 min-w-[20px] h-5 px-1 rounded-full bg-chronos-gold text-chronos-bg text-[11px] font-bold flex items-center justify-center">
+          {badge}
+        </span>
+      ) : null}
+    </button>
+  );
+}
 
 export default function Home() {
   const { t } = useTranslation('common');
   const router = useRouter();
+  const { progress, markOnboarded } = useProgress();
+  const { store } = useWords();
+  const wordsDue = store ? dueCount(store, toLocalDateKey()) : 0;
+
+  // First visit: three welcome screens, then straight into the first lesson.
+  if (progress && !progress.onboarded) {
+    return (
+      <Onboarding
+        onDone={play => {
+          markOnboarded();
+          if (play) router.push('/eras');
+        }}
+      />
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">
@@ -41,7 +87,7 @@ export default function Home() {
       </div>
 
       {/* Main content */}
-      <div className="flex flex-col items-center gap-10 animate-fade-in relative z-10 max-w-sm w-full">
+      <div className="flex flex-col items-center gap-6 animate-fade-in relative z-10 max-w-sm w-full">
         <ChronosLogo size="lg" />
 
         <p className="text-chronos-muted text-center text-base tracking-wide">
@@ -57,6 +103,8 @@ export default function Home() {
 
         <InstallBanner />
 
+        <DailyGoalCard />
+
         {/* Play button */}
         <button
           onClick={() => router.push('/eras')}
@@ -68,24 +116,12 @@ export default function Home() {
           </span>
         </button>
 
-        {/* Multiplayer button */}
-        <button
-          onClick={() => router.push('/multiplayer')}
-          className="w-full rounded-2xl border border-chronos-gold/40 bg-chronos-gold/5 px-8 py-4 text-chronos-gold text-sm font-medium tracking-widest uppercase transition-all duration-200 hover:bg-chronos-gold/10 hover:border-chronos-gold active:scale-[0.97]"
-        >
-          <span className="flex items-center justify-center gap-2">
-            <span>⚔️</span>
-            {t('home.multiplayerButton')}
-          </span>
-        </button>
-
-        {/* View Stats button */}
-        <button
-          onClick={() => router.push('/stats')}
-          className="w-full rounded-2xl border border-chronos-border bg-transparent px-8 py-3 text-chronos-muted text-sm font-medium tracking-widest uppercase transition-all duration-200 hover:border-chronos-gold/40 hover:text-chronos-text active:scale-[0.97]"
-        >
-          {t('stats.viewStats')}
-        </button>
+        {/* Secondary destinations */}
+        <div className="grid grid-cols-3 gap-3 w-full">
+          <Tile icon="⚔️" label={t('home.multiplayerButton')} onClick={() => router.push('/multiplayer')} />
+          <Tile icon="📚" label={t('home.words')} badge={wordsDue} onClick={() => router.push('/words')} />
+          <Tile icon="🏆" label={t('home.progress')} onClick={() => router.push('/progress')} />
+        </div>
 
         <StreakDisplay context="home" />
       </div>
@@ -95,9 +131,9 @@ export default function Home() {
         href={`${BLOG_URL}?utm_source=chronos&utm_medium=app&utm_campaign=home_footer`}
         target="_blank"
         rel="noopener"
-        className="absolute bottom-6 z-10 text-xs text-chronos-muted/70 tracking-widest uppercase hover:text-chronos-gold transition-colors"
+        className="absolute bottom-6 left-6 right-20 z-10 text-center text-xs text-chronos-muted/70 tracking-widest uppercase hover:text-chronos-gold transition-colors"
       >
-        Learn English through history · by History with Accent
+        {t('home.blogLink')}
       </a>
     </div>
   );

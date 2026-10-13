@@ -7,33 +7,56 @@
       "es": "Imperio Romano"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "Who was Julius Caesar's closest ally who later participated in his assassination?",
-      "es": "¿Quién fue el aliado más cercano de Julio César que luego participó en su asesinato?"
+      "en": "Which close friend of Julius Caesar helped to kill him on the Ides of March in 44 BCE?",
+      "es": "¿Qué amigo cercano de Julio César ayudó a matarlo en los idus de marzo del 44 a. C.?"
     },
     "options": [
       {
-        "en": "Marcus Brutus",
-        "es": "Marco Bruto"
+        "en": "Brutus",
+        "es": "Bruto"
       },
       {
         "en": "Mark Antony",
         "es": "Marco Antonio"
+      },
+      {
+        "en": "Augustus",
+        "es": "Augusto"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Marcus Junius Brutus (85–42 BCE) was one of Caesar's most trusted friends and a leading senator. On the Ides of March (March 15, 44 BCE), he joined 22 other senators in stabbing Caesar 23 times. Brutus believed he was saving the Republic from tyranny — but the assassination triggered a civil war that ended the Republic forever.",
-      "es": "Marco Junio Bruto (85–42 a.C.) era uno de los amigos más confiables de César y senador prominente. En los Idus de Marzo (15 de marzo del 44 a.C.), se unió a otros 22 senadores para apuñalar a César 23 veces. Bruto creía salvar la República de la tiranía, pero el asesinato desencadenó la guerra civil que acabó con ella para siempre."
+      "en": "About 60 senators planned the attack. They feared that Caesar wanted to become a king. Brutus, who was like a son to Caesar, joined them. They stabbed him about 23 times. The killers believed they were saving the Republic, but the murder led to new civil wars, and the Republic ended.",
+      "es": "Unos 60 senadores planearon el ataque. Temían que César quisiera convertirse en rey. Bruto, que era como un hijo para César, se unió a ellos. Lo apuñalaron unas 23 veces. Los asesinos creían que salvaban la República, pero el crimen llevó a nuevas guerras civiles y la República terminó."
     },
     "meanwhile": {
-      "en": "On March 15, 44 BCE, in China, the Han Dynasty under Emperor Wu was governing 60 million people through a powerful imperial bureaucracy — the very kind of centralized system that Caesar's assassins feared Rome was about to become.",
-      "es": "El 15 de marzo del 44 a.C., en China, la dinastía Han bajo el emperador Wu gobernaba a 60 millones de personas a través de una poderosa burocracia imperial: exactamente el tipo de sistema centralizado que los asesinos de César temían que Roma estuviera a punto de convertirse."
+      "en": "In 44 BCE, in China, the Han dynasty ruled tens of millions of people with the help of trained officials.",
+      "es": "En el 44 a. C., en China, la dinastía Han gobernaba a decenas de millones de personas con la ayuda de funcionarios capacitados."
     },
     "reflection": {
-      "en": "Brutus killed Caesar to save the Republic — and instead destroyed it. Think of a time when a well-intentioned action produced the opposite of what you hoped. What did that experience teach you?",
-      "es": "Bruto mató a César para salvar la República, y en cambio la destruyó. Piensa en un momento en que una acción bien intencionada produjo lo contrario de lo que esperabas. ¿Qué te enseñó esa experiencia?"
-    }
+      "en": "Brutus wanted to protect the Republic and made things worse. When did a good intention have a bad result for you?",
+      "es": "Bruto quería proteger la República y empeoró las cosas. ¿Cuándo una buena intención tuvo un mal resultado para ti?"
+    },
+    "vocab": [
+      {
+        "term": "senators",
+        "es": "senadores"
+      },
+      {
+        "term": "stabbed",
+        "es": "apuñalaron"
+      },
+      {
+        "term": "murder",
+        "es": "crimen"
+      },
+      {
+        "term": "civil wars",
+        "es": "guerras civiles"
+      }
+    ]
   },
   {
     "id": "ro-002",
@@ -43,33 +66,56 @@
       "es": "Imperio Romano"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "Which Roman emperor issued the Edict of Milan, legalizing Christianity?",
-      "es": "¿Qué emperador romano emitió el Edicto de Milán, legalizando el cristianismo?"
+      "en": "Which Roman emperor allowed Christians to practice their religion freely in 313 CE?",
+      "es": "¿Qué emperador romano permitió a los cristianos practicar su religión libremente en el 313 d. C.?"
     },
     "options": [
       {
-        "en": "Constantine I",
-        "es": "Constantino I"
+        "en": "Constantine",
+        "es": "Constantino"
       },
       {
         "en": "Nero",
         "es": "Nerón"
+      },
+      {
+        "en": "Augustus",
+        "es": "Augusto"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Emperor Constantine I (reigned 306–337 CE) issued the Edict of Milan in 313 CE, granting religious tolerance throughout the empire and ending the persecution of Christians. Constantine also convened the First Council of Nicaea (325 CE), which defined Christian orthodoxy — decisions that shaped the next 2,000 years of Western history.",
-      "es": "El emperador Constantino I (reinó 306–337 d.C.) emitió el Edicto de Milán en 313 d.C., concediendo tolerancia religiosa en todo el Imperio y poniendo fin a la persecución de los cristianos. Constantino también convocó el Primer Concilio de Nicea (325 d.C.), que definió la ortodoxia cristiana, moldearando los siguientes 2.000 años de historia occidental."
+      "en": "Before Constantine, Christians were sometimes punished for their faith. In 313 CE, Constantine and another emperor signed the Edict of Milan, which gave freedom of religion to everyone in the empire. Constantine himself later became a Christian. Over time, Christianity became the main religion of Europe.",
+      "es": "Antes de Constantino, los cristianos eran castigados a veces por su fe. En el 313 d. C., Constantino y otro emperador firmaron el Edicto de Milán, que daba libertad de religión a todos en el imperio. El propio Constantino se hizo cristiano más tarde. Con el tiempo, el cristianismo se convirtió en la religión principal de Europa."
     },
     "meanwhile": {
-      "en": "In 313 CE, in India, the Gupta Empire was beginning its golden age — producing extraordinary advances in mathematics, astronomy, and art — while, on the other side of the world, Constantine was reshaping the spiritual foundations of the Western world.",
-      "es": "En 313 d.C., en India, el Imperio Gupta comenzaba su edad de oro, produciendo avances extraordinarios en matemáticas, astronomía y arte, mientras que, al otro lado del mundo, Constantino reformulaba los cimientos espirituales de Occidente."
+      "en": "Around 320 CE, in India, the Gupta Empire began. It became famous for its advances in mathematics and art.",
+      "es": "Alrededor del 320 d. C., en la India, comenzó el Imperio Gupta. Se hizo famoso por sus avances en matemáticas y arte."
     },
     "reflection": {
-      "en": "One emperor's personal conversion reshaped Western civilization for 2,000 years. Whose faith, beliefs, or worldview has shaped your own life most — even if you never chose to adopt it?",
-      "es": "La conversión personal de un solo emperador reformuló la civilización occidental durante 2.000 años. ¿La fe, las creencias o la visión del mundo de quién ha moldeado más tu propia vida, aunque nunca hayas elegido adoptarla?"
-    }
+      "en": "One decision by one emperor changed the religion of millions. Which law or rule has shaped your life?",
+      "es": "Una decisión de un emperador cambió la religión de millones de personas. ¿Qué ley o regla ha marcado tu vida?"
+    },
+    "vocab": [
+      {
+        "term": "punished",
+        "es": "castigados"
+      },
+      {
+        "term": "faith",
+        "es": "fe"
+      },
+      {
+        "term": "freedom",
+        "es": "libertad"
+      },
+      {
+        "term": "main",
+        "es": "principal"
+      }
+    ]
   },
   {
     "id": "ro-003",
@@ -79,33 +125,56 @@
       "es": "Imperio Romano"
     },
     "difficulty": "medium",
+    "level": "B1",
     "question": {
-      "en": "What was 'Pax Romana'?",
-      "es": "¿Qué fue la 'Pax Romana'?"
+      "en": "What was the \"Pax Romana\"?",
+      "es": "¿Qué fue la \"Pax Romana\"?"
     },
     "options": [
       {
-        "en": "A roughly 200-year period of relative peace across the Roman Empire",
-        "es": "Un período de aproximadamente 200 años de paz relativa en el Imperio Romano"
+        "en": "About 200 years of peace and order across the empire",
+        "es": "Unos 200 años de paz y orden en todo el imperio"
       },
       {
-        "en": "The peace treaty Rome signed with Carthage after the Punic Wars",
-        "es": "El tratado de paz que Roma firmó con Cartago tras las Guerras Púnicas"
+        "en": "A peace treaty that Rome signed with Carthage",
+        "es": "Un tratado de paz que Roma firmó con Cartago"
+      },
+      {
+        "en": "A Roman holiday in honor of the gods",
+        "es": "Una fiesta romana en honor de los dioses"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Pax Romana ('Roman Peace', 27 BCE – 180 CE) was a period of relative stability and minimal military expansion. Under this umbrella, trade flourished, infrastructure expanded (including 400,000 km of roads), and diverse cultures were united under Roman law. However, it also meant Roman domination over conquered peoples who had no say in the matter.",
-      "es": "La Pax Romana ('Paz romana', 27 a.C. – 180 d.C.) fue un período de estabilidad relativa y mínima expansión militar. Bajo ella, el comercio floreció, la infraestructura se expandió (incluyendo 400.000 km de calzadas) y culturas diversas se unificaron bajo la ley romana. Sin embargo, también significó dominación romana sobre pueblos conquistados sin voz en el asunto."
+      "en": "Pax Romana means \"Roman Peace\". It lasted from about 27 BCE to 180 CE. There were few big wars inside the empire. Trade grew, new roads were built, and people used the same laws and coins. But the peace came from Roman power, and conquered peoples had little choice.",
+      "es": "Pax Romana significa \"Paz romana\". Duró desde alrededor del 27 a. C. hasta el 180 d. C. Había pocas guerras grandes dentro del imperio. El comercio creció, se construyeron nuevos caminos y todos usaban las mismas leyes y monedas. Pero la paz venía del poder romano, y los pueblos conquistados tenían poca opción."
     },
     "meanwhile": {
-      "en": "Around 100 CE, in China, the Han Dynasty was experiencing its own 'Pax Sinica' — a parallel era of imperial stability, expanding trade, and cultural prosperity on the other side of the Silk Road, almost entirely unknown to Rome.",
-      "es": "Hacia el 100 d.C., en China, la dinastía Han vivía su propia 'Pax Sinica': una era paralela de estabilidad imperial, comercio en expansión y prosperidad cultural al otro lado de la Ruta de la Seda, casi completamente desconocida para Roma."
+      "en": "Around 100 CE, China’s Han dynasty also enjoyed a long period of order. Silk traveled from China toward Rome along the Silk Road.",
+      "es": "Alrededor del 100 d. C., la dinastía Han de China también disfrutaba de un largo período de orden. La seda viajaba desde China hacia Roma por la Ruta de la Seda."
     },
     "reflection": {
-      "en": "Two hundred years of Roman 'peace' rested on peoples who had no say in it. Think of a stability or comfort in your own life that might depend on someone else's lack of choice. Does that awareness change anything for you?",
-      "es": "Doscientos años de 'paz' romana descansaban sobre pueblos que no tuvieron voz en ello. Piensa en una estabilidad o comodidad en tu propia vida que pueda depender de la falta de elección de otra persona. ¿Ese reconocimiento cambia algo en vos?"
-    }
+      "en": "The Roman peace depended on strong control. Is peace without freedom really peace?",
+      "es": "La paz romana dependía de un control fuerte. ¿Es la paz sin libertad una verdadera paz?"
+    },
+    "vocab": [
+      {
+        "term": "peace",
+        "es": "paz"
+      },
+      {
+        "term": "trade",
+        "es": "comercio"
+      },
+      {
+        "term": "laws",
+        "es": "leyes"
+      },
+      {
+        "term": "conquered",
+        "es": "conquistados"
+      }
+    ]
   },
   {
     "id": "ro-004",
@@ -115,33 +184,56 @@
       "es": "Imperio Romano"
     },
     "difficulty": "easy",
+    "level": "A2",
     "question": {
-      "en": "What was the Roman Colosseum primarily built for?",
-      "es": "¿Para qué fue construido principalmente el Coliseo romano?"
+      "en": "What was the Colosseum in Rome mainly used for?",
+      "es": "¿Para qué se usaba principalmente el Coliseo de Roma?"
     },
     "options": [
       {
-        "en": "Gladiatorial combat and public spectacles",
+        "en": "Gladiator fights and public shows",
         "es": "Combates de gladiadores y espectáculos públicos"
       },
       {
-        "en": "Religious ceremonies and imperial worship",
-        "es": "Ceremonias religiosas y culto imperial"
+        "en": "Meetings of the Senate",
+        "es": "Reuniones del Senado"
+      },
+      {
+        "en": "Selling food and goods",
+        "es": "Vender comida y mercancías"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "The Colosseum (completed 80 CE under Emperor Titus) could hold 50,000–80,000 spectators. It hosted gladiatorial combats, animal hunts (venationes), public executions, and even mock sea battles. Admission was free — Roman emperors used these spectacles as political tools to gain popular favor.",
-      "es": "El Coliseo (completado en el 80 d.C. bajo el emperador Tito) podía albergar entre 50.000 y 80.000 espectadores. Albergaba combates de gladiadores, cacerías de animales (venationes), ejecuciones públicas e incluso batallas navales simuladas. La entrada era gratuita: los emperadores usaban estos espectáculos como herramientas políticas."
+      "en": "The Colosseum opened in 80 CE. It could hold about 50,000 people. Gladiators fought each other, and hunters fought wild animals. Entry was free. Emperors paid for the shows because a happy crowd was easier to control. The building is still standing today.",
+      "es": "El Coliseo se inauguró en el 80 d. C. Tenía capacidad para unas 50.000 personas. Los gladiadores peleaban entre sí y los cazadores luchaban contra animales salvajes. La entrada era gratis. Los emperadores pagaban los espectáculos porque una multitud feliz era más fácil de controlar. El edificio sigue en pie hoy."
     },
     "meanwhile": {
-      "en": "Around 80 CE, in Mesoamerica, the Maya were building Tikal — a city of 100,000 people with monumental pyramids, astronomical observatories, and sophisticated writing — entirely unknown to the Romans who filled the Colosseum each week.",
-      "es": "Hacia el 80 d.C., en Mesoamérica, los mayas construían Tikal: una ciudad de 100.000 habitantes con pirámides monumentales, observatorios astronómicos y escritura sofisticada, completamente desconocida para los romanos que llenaban el Coliseo cada semana."
+      "en": "Around 80 CE, in Mexico, the city of Teotihuacan was growing. It had huge pyramids and wide streets.",
+      "es": "Alrededor del 80 d. C., en México, la ciudad de Teotihuacán crecía. Tenía enormes pirámides y amplias avenidas."
     },
     "reflection": {
-      "en": "Roman emperors gave citizens free bread and violent spectacle to keep them satisfied and distracted. Think about what you consume most for entertainment — what does it make you less likely to notice or question?",
-      "es": "Los emperadores romanos daban a los ciudadanos pan gratis y espectáculos violentos para mantenerlos satisfechos y distraídos. Piensa en lo que más consumís como entretenimiento: ¿qué te hace menos propenso a notar o cuestionar?"
-    }
+      "en": "Emperors gave free shows to keep people busy. What do you watch or do to relax, and does it make you think?",
+      "es": "Los emperadores daban espectáculos gratuitos para entretener al pueblo. ¿Qué miras o haces para relajarte, y te hace pensar?"
+    },
+    "vocab": [
+      {
+        "term": "gladiators",
+        "es": "gladiadores"
+      },
+      {
+        "term": "hunters",
+        "es": "cazadores"
+      },
+      {
+        "term": "crowd",
+        "es": "multitud"
+      },
+      {
+        "term": "standing",
+        "es": "en pie"
+      }
+    ]
   },
   {
     "id": "ro-005",
@@ -151,32 +243,1530 @@
       "es": "Imperio Romano"
     },
     "difficulty": "hard",
+    "level": "B1",
     "question": {
-      "en": "What language survived as the official language of European scholarship and the Church for over 1,000 years after Rome's fall?",
-      "es": "¿Qué idioma sobrevivió como lengua oficial de la erudición europea y la Iglesia durante más de 1.000 años tras la caída de Roma?"
+      "en": "Why did Latin stay important in Europe for 1,000 years after the Roman Empire ended?",
+      "es": "¿Por qué el latín siguió siendo importante en Europa durante 1.000 años después del fin del Imperio romano?"
     },
     "options": [
       {
-        "en": "Latin",
-        "es": "Latín"
+        "en": "It was the language of the Church, law and science",
+        "es": "Era la lengua de la Iglesia, la ley y la ciencia"
       },
       {
-        "en": "Greek",
-        "es": "Griego"
+        "en": "It was the only language used for trade",
+        "es": "Era el único idioma usado para el comercio"
+      },
+      {
+        "en": "It was taught to every child in Europe",
+        "es": "Se enseñaba a todos los niños de Europa"
       }
     ],
     "correctIndex": 0,
     "explanation": {
-      "en": "Latin died as a spoken vernacular language by around 700 CE, but survived for over a millennium as the language of the Church, law, science, medicine, and philosophy across Europe. Newton wrote in Latin. The Catholic Church used Latin in its liturgy until 1965. Modern scientific nomenclature still relies on Latin today.",
-      "es": "El latín murió como lengua vernácula hablada hacia el 700 d.C., pero sobrevivió durante más de un milenio como idioma de la Iglesia, el derecho, la ciencia, la medicina y la filosofía en Europa. Newton escribía en latín. La Iglesia católica usó el latín en la liturgia hasta 1965. La nomenclatura científica moderna sigue basándose en el latín."
+      "en": "By about 700 CE, ordinary people no longer spoke Latin. Their speech was changing into languages like Spanish, French and Italian. But scholars, priests and lawyers kept writing in Latin, so people from different countries could understand each other. Isaac Newton wrote his great science book in Latin in 1687.",
+      "es": "Hacia el 700 d. C., la gente común ya no hablaba latín. Su habla se transformaba en idiomas como el español, el francés y el italiano. Pero los eruditos, los sacerdotes y los abogados siguieron escribiendo en latín, de modo que personas de distintos países podían entenderse. Isaac Newton escribió su gran libro de ciencia en latín en 1687."
     },
     "meanwhile": {
-      "en": "As Latin faded as a spoken language around 700 CE, Arabic was spreading explosively with Islam across Arabia, Persia, and North Africa — about to become the dominant global language of science, medicine, and philosophy for the next five centuries.",
-      "es": "Mientras el latín se extinguía como lengua hablada hacia el 700 d.C., el árabe se expandía explosivamente con el islam por Arabia, Persia y el norte de África, a punto de convertirse en el idioma global dominante de la ciencia, la medicina y la filosofía durante los siguientes cinco siglos."
+      "en": "Around 700 CE, Arabic was spreading across North Africa and, from 711, into Spain, bringing new ideas and a new culture.",
+      "es": "Alrededor del 700 d. C., el árabe se extendía por el norte de África y, desde el 711, por España, trayendo nuevas ideas y una nueva cultura."
     },
     "reflection": {
-      "en": "Latin outlived the civilization that created it by more than a thousand years. What idea, tradition, or way of seeing the world in your own life has survived far longer than the context that originally created it?",
-      "es": "El latín sobrevivió a la civilización que lo creó por más de mil años. ¿Qué idea, tradición o forma de ver el mundo en tu propia vida ha sobrevivido mucho más tiempo que el contexto que originalmente la creó?"
-    }
+      "en": "A shared language helped scholars across Europe work together. Which language helps you connect with people from other countries?",
+      "es": "Un idioma compartido ayudó a los eruditos de toda Europa a trabajar juntos. ¿Qué idioma te ayuda a conectar con gente de otros países?"
+    },
+    "vocab": [
+      {
+        "term": "scholars",
+        "es": "eruditos"
+      },
+      {
+        "term": "priests",
+        "es": "sacerdotes"
+      },
+      {
+        "term": "lawyers",
+        "es": "abogados"
+      },
+      {
+        "term": "understand",
+        "es": "entenderse"
+      }
+    ]
+  },
+  {
+    "id": "ro-006",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "According to legend, who founded the city of Rome in 753 BCE?",
+      "es": "Según la leyenda, ¿quién fundó la ciudad de Roma en el 753 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Romulus",
+        "es": "Rómulo"
+      },
+      {
+        "en": "Julius Caesar",
+        "es": "Julio César"
+      },
+      {
+        "en": "Hannibal",
+        "es": "Aníbal"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The legend says that the twin brothers Romulus and Remus were left as babies near the river Tiber. A she-wolf found them and fed them. When they grew up, they decided to build a city. They quarreled, and Romulus killed Remus. Romulus became the first king, and the city was named after him.",
+      "es": "La leyenda dice que los hermanos gemelos Rómulo y Remo fueron abandonados de bebés cerca del río Tíber. Una loba los encontró y los alimentó. Cuando crecieron, decidieron construir una ciudad. Se pelearon y Rómulo mató a Remo. Rómulo fue el primer rey, y la ciudad recibió su nombre."
+    },
+    "meanwhile": {
+      "en": "Around 750 BCE, Greek settlers began to found new cities in southern Italy and Sicily.",
+      "es": "Alrededor del 750 a. C., colonos griegos comenzaron a fundar nuevas ciudades en el sur de Italia y en Sicilia."
+    },
+    "reflection": {
+      "en": "Many cities have a founding story. What story do people tell about the place where you live?",
+      "es": "Muchas ciudades tienen una historia de fundación. ¿Qué historia cuenta la gente sobre el lugar donde vives?"
+    },
+    "vocab": [
+      {
+        "term": "twin",
+        "es": "gemelos"
+      },
+      {
+        "term": "she-wolf",
+        "es": "loba"
+      },
+      {
+        "term": "quarreled",
+        "es": "se pelearon"
+      },
+      {
+        "term": "legend",
+        "es": "leyenda"
+      }
+    ]
+  },
+  {
+    "id": "ro-007",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "How was the Roman Republic governed?",
+      "es": "¿Cómo se gobernaba la República romana?"
+    },
+    "options": [
+      {
+        "en": "By two consuls and a Senate",
+        "es": "Por dos cónsules y un Senado"
+      },
+      {
+        "en": "By one king for life",
+        "es": "Por un rey vitalicio"
+      },
+      {
+        "en": "By a council of priests",
+        "es": "Por un consejo de sacerdotes"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Around 509 BCE, the Romans removed their last king. They did not want one person to have too much power. Every year, citizens elected two consuls to lead the state. The Senate, a group of experienced men, gave advice and managed money and foreign policy. This system lasted almost 500 years.",
+      "es": "Alrededor del 509 a. C., los romanos expulsaron a su último rey. No querían que una sola persona tuviera demasiado poder. Cada año, los ciudadanos elegían a dos cónsules para dirigir el Estado. El Senado, un grupo de hombres con experiencia, daba consejos y manejaba el dinero y la política exterior. Este sistema duró casi 500 años."
+    },
+    "meanwhile": {
+      "en": "Around 508 BCE, in Athens, Cleisthenes created the first democracy. Two different experiments in sharing power began at the same time.",
+      "es": "Alrededor del 508 a. C., en Atenas, Clístenes creó la primera democracia. Dos experimentos distintos de reparto del poder comenzaron al mismo tiempo."
+    },
+    "reflection": {
+      "en": "The Romans divided power so that nobody had too much. Why can it be dangerous to give one person all the power?",
+      "es": "Los romanos dividieron el poder para que nadie tuviera demasiado. ¿Por qué puede ser peligroso dar todo el poder a una sola persona?"
+    },
+    "vocab": [
+      {
+        "term": "consuls",
+        "es": "cónsules"
+      },
+      {
+        "term": "Senate",
+        "es": "Senado"
+      },
+      {
+        "term": "elected",
+        "es": "elegían"
+      },
+      {
+        "term": "foreign policy",
+        "es": "política exterior"
+      }
+    ]
+  },
+  {
+    "id": "ro-008",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "In 218 BCE, the general Hannibal surprised Rome by doing what?",
+      "es": "En el 218 a. C., el general Aníbal sorprendió a Roma al hacer qué?"
+    },
+    "options": [
+      {
+        "en": "He crossed the Alps with elephants",
+        "es": "Cruzó los Alpes con elefantes"
+      },
+      {
+        "en": "He sailed up the Tiber River",
+        "es": "Navegó por el río Tíber"
+      },
+      {
+        "en": "He burned the Roman fleet",
+        "es": "Quemó la flota romana"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Hannibal was a general from Carthage, a rival city of Rome. He left Spain with an army and about 37 war elephants. His men crossed the snowy Alps in autumn and many died on the way. He then won several big battles in Italy. But he never took Rome, and in the end Rome won the war.",
+      "es": "Aníbal era un general de Cartago, una ciudad rival de Roma. Salió de España con un ejército y unos 37 elefantes de guerra. Sus hombres cruzaron los nevados Alpes en otoño y muchos murieron en el camino. Después ganó varias grandes batallas en Italia. Pero nunca tomó Roma y, al final, Roma ganó la guerra."
+    },
+    "meanwhile": {
+      "en": "In 221 BCE, three years before Hannibal’s march, Qin Shi Huang united China and became its first emperor.",
+      "es": "En el 221 a. C., tres años antes de la marcha de Aníbal, Qin Shi Huang unificó China y se convirtió en su primer emperador."
+    },
+    "reflection": {
+      "en": "Hannibal chose a route nobody expected. When did an unexpected choice help you?",
+      "es": "Aníbal eligió una ruta que nadie esperaba. ¿Cuándo te ayudó una elección inesperada?"
+    },
+    "vocab": [
+      {
+        "term": "rival",
+        "es": "rival"
+      },
+      {
+        "term": "elephants",
+        "es": "elefantes"
+      },
+      {
+        "term": "snowy",
+        "es": "nevados"
+      },
+      {
+        "term": "march",
+        "es": "marcha"
+      }
+    ]
+  },
+  {
+    "id": "ro-009",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "In 49 BCE, Julius Caesar crossed a small river with his army and started a civil war. What was its name?",
+      "es": "En el 49 a. C., Julio César cruzó con su ejército un pequeño río y comenzó una guerra civil. ¿Cómo se llamaba?"
+    },
+    "options": [
+      {
+        "en": "The Rubicon",
+        "es": "El Rubicón"
+      },
+      {
+        "en": "The Tiber",
+        "es": "El Tíber"
+      },
+      {
+        "en": "The Danube",
+        "es": "El Danubio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Roman law said that a general could not enter Italy with his army. The Rubicon was the border. Caesar crossed it anyway and is said to have declared, \"The die is cast\". That meant there was no way back. He won the war and became the most powerful man in Rome. Today, \"crossing the Rubicon\" means making a decision that you cannot undo.",
+      "es": "La ley romana decía que un general no podía entrar en Italia con su ejército. El Rubicón era la frontera. César lo cruzó de todos modos y se dice que declaró: \"La suerte está echada\". Eso significaba que no había vuelta atrás. Ganó la guerra y se convirtió en el hombre más poderoso de Roma. Hoy, \"cruzar el Rubicón\" significa tomar una decisión que no se puede deshacer."
+    },
+    "meanwhile": {
+      "en": "Around 50 BCE, the Maya in Central America were building large ceremonial cities such as El Mirador.",
+      "es": "Alrededor del 50 a. C., los mayas de América Central construían grandes ciudades ceremoniales como El Mirador."
+    },
+    "reflection": {
+      "en": "Caesar made a choice with no way back. What was the biggest decision you made that you could not undo?",
+      "es": "César tomó una decisión sin vuelta atrás. ¿Cuál fue la decisión más grande que tomaste y que no podías deshacer?"
+    },
+    "vocab": [
+      {
+        "term": "border",
+        "es": "frontera"
+      },
+      {
+        "term": "declared",
+        "es": "declaró"
+      },
+      {
+        "term": "powerful",
+        "es": "poderoso"
+      },
+      {
+        "term": "undo",
+        "es": "deshacer"
+      }
+    ]
+  },
+  {
+    "id": "ro-010",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Who became the first Roman emperor in 27 BCE?",
+      "es": "¿Quién se convirtió en el primer emperador romano en el 27 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Augustus",
+        "es": "Augusto"
+      },
+      {
+        "en": "Julius Caesar",
+        "es": "Julio César"
+      },
+      {
+        "en": "Nero",
+        "es": "Nerón"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Augustus, born Octavian, was Caesar’s adopted son. After years of civil war, he defeated all his rivals. In 27 BCE, the Senate gave him the name \"Augustus\", which means \"respected one\". He kept the old institutions, but he held the real power. He ruled for more than 40 years and brought peace.",
+      "es": "Augusto, nacido Octavio, era el hijo adoptivo de César. Después de años de guerra civil, derrotó a todos sus rivales. En el 27 a. C., el Senado le dio el nombre de \"Augusto\", que significa \"el venerable\". Mantuvo las viejas instituciones, pero él tenía el poder real. Gobernó más de 40 años y trajo la paz."
+    },
+    "meanwhile": {
+      "en": "Around 20 BCE, the Nabataeans in Arabia were carving the rock city of Petra and growing rich from the incense trade.",
+      "es": "Alrededor del 20 a. C., los nabateos de Arabia tallaban la ciudad de roca de Petra y se hacían ricos con el comercio de incienso."
+    },
+    "reflection": {
+      "en": "Augustus kept the old rules, but he held all the power. How can you tell when power is hidden behind a nice name?",
+      "es": "Augusto mantuvo las viejas reglas, pero tenía todo el poder. ¿Cómo se nota cuando el poder se esconde detrás de un nombre bonito?"
+    },
+    "vocab": [
+      {
+        "term": "adopted",
+        "es": "adoptivo"
+      },
+      {
+        "term": "rivals",
+        "es": "rivales"
+      },
+      {
+        "term": "institutions",
+        "es": "instituciones"
+      },
+      {
+        "term": "power",
+        "es": "poder"
+      }
+    ]
+  },
+  {
+    "id": "ro-011",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why were Roman roads so important to the empire?",
+      "es": "¿Por qué eran tan importantes los caminos romanos para el imperio?"
+    },
+    "options": [
+      {
+        "en": "Soldiers, messages and goods could travel fast",
+        "es": "Los soldados, los mensajes y las mercancías podían viajar rápido"
+      },
+      {
+        "en": "They were only used for religious parades",
+        "es": "Solo se usaban para desfiles religiosos"
+      },
+      {
+        "en": "They kept enemies out of the cities",
+        "es": "Mantenían a los enemigos fuera de las ciudades"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Roman engineers built straight roads with layers of stone, so they lasted a long time. The empire had more than 80,000 kilometers of paved roads. Soldiers could march quickly to any border. Merchants and travelers used the roads too. This is where the saying \"All roads lead to Rome\" comes from.",
+      "es": "Los ingenieros romanos construyeron caminos rectos con capas de piedra, para que duraran mucho. El imperio tenía más de 80.000 kilómetros de caminos pavimentados. Los soldados podían marchar rápido a cualquier frontera. Los comerciantes y viajeros también usaban los caminos. De ahí viene el dicho \"Todos los caminos llevan a Roma\"."
+    },
+    "meanwhile": {
+      "en": "Around 100 CE, in Peru, the Nazca people were drawing giant animals on the desert floor. They can only be seen well from the air.",
+      "es": "Alrededor del 100 d. C., en Perú, el pueblo nazca dibujaba animales gigantes en el suelo del desierto. Solo pueden verse bien desde el aire."
+    },
+    "reflection": {
+      "en": "Good roads connected the whole empire. What \"road\", real or not, connects you to other people?",
+      "es": "Los buenos caminos conectaban todo el imperio. ¿Qué \"camino\", real o no, te conecta con otras personas?"
+    },
+    "vocab": [
+      {
+        "term": "engineers",
+        "es": "ingenieros"
+      },
+      {
+        "term": "layers",
+        "es": "capas"
+      },
+      {
+        "term": "paved",
+        "es": "pavimentados"
+      },
+      {
+        "term": "merchants",
+        "es": "comerciantes"
+      }
+    ]
+  },
+  {
+    "id": "ro-012",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What did Roman aqueducts do?",
+      "es": "¿Qué hacían los acueductos romanos?"
+    },
+    "options": [
+      {
+        "en": "They carried fresh water into cities",
+        "es": "Llevaban agua fresca a las ciudades"
+      },
+      {
+        "en": "They protected cities from floods",
+        "es": "Protegían las ciudades de las inundaciones"
+      },
+      {
+        "en": "They were bridges for armies",
+        "es": "Eran puentes para los ejércitos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Aqueducts brought clean water from mountains and springs to Roman towns, sometimes over a distance of many kilometers. The water flowed downhill very gently, and tall stone arches carried it across valleys. Rome had eleven aqueducts. The Pont du Gard in France is about 2,000 years old and still stands.",
+      "es": "Los acueductos llevaban agua limpia desde las montañas y los manantiales hasta las ciudades romanas, a veces a muchos kilómetros de distancia. El agua bajaba muy suavemente y altos arcos de piedra la cruzaban sobre los valles. Roma tenía once acueductos. El Pont du Gard, en Francia, tiene unos 2.000 años y todavía está en pie."
+    },
+    "meanwhile": {
+      "en": "Around 50 CE, the Kushan Empire controlled the trade between Rome, India and China.",
+      "es": "Alrededor del 50 d. C., el Imperio kushán controlaba el comercio entre Roma, la India y China."
+    },
+    "reflection": {
+      "en": "Clean water changed the lives of millions of people. What everyday service do you take for granted?",
+      "es": "El agua limpia cambió la vida de millones de personas. ¿Qué servicio cotidiano das por sentado?"
+    },
+    "vocab": [
+      {
+        "term": "aqueducts",
+        "es": "acueductos"
+      },
+      {
+        "term": "springs",
+        "es": "manantiales"
+      },
+      {
+        "term": "arches",
+        "es": "arcos"
+      },
+      {
+        "term": "valleys",
+        "es": "valles"
+      }
+    ]
+  },
+  {
+    "id": "ro-013",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "The dome of the Pantheon in Rome is still standing after almost 1,900 years. What is it made of?",
+      "es": "La cúpula del Panteón de Roma sigue en pie después de casi 1.900 años. ¿De qué está hecha?"
+    },
+    "options": [
+      {
+        "en": "Concrete",
+        "es": "Hormigón"
+      },
+      {
+        "en": "Marble blocks",
+        "es": "Bloques de mármol"
+      },
+      {
+        "en": "Wood and bronze",
+        "es": "Madera y bronce"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Romans invented a strong concrete using lime, water, small stones and volcanic ash. It could harden even under water. The Pantheon, finished around 126 CE, has a dome 43 meters wide. It is still the largest dome of unreinforced concrete in the world. The builders made the dome thinner and lighter toward the top.",
+      "es": "Los romanos inventaron un hormigón resistente con cal, agua, piedras pequeñas y ceniza volcánica. Podía endurecerse incluso bajo el agua. El Panteón, terminado alrededor del 126 d. C., tiene una cúpula de 43 metros de ancho. Sigue siendo la cúpula de hormigón sin armar más grande del mundo. Los constructores hicieron la cúpula más delgada y liviana hacia arriba."
+    },
+    "meanwhile": {
+      "en": "In 105 CE, a Chinese court official named Cai Lun showed a new kind of paper to the emperor.",
+      "es": "En el 105 d. C., un funcionario de la corte china llamado Cai Lun presentó al emperador un nuevo tipo de papel."
+    },
+    "reflection": {
+      "en": "A Roman recipe is still holding up buildings. What skill or knowledge from the past is still useful today?",
+      "es": "Una receta romana todavía sostiene edificios. ¿Qué habilidad o conocimiento del pasado sigue siendo útil hoy?"
+    },
+    "vocab": [
+      {
+        "term": "dome",
+        "es": "cúpula"
+      },
+      {
+        "term": "lime",
+        "es": "cal"
+      },
+      {
+        "term": "volcanic ash",
+        "es": "ceniza volcánica"
+      },
+      {
+        "term": "lighter",
+        "es": "más liviana"
+      }
+    ]
+  },
+  {
+    "id": "ro-014",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What happened to the Roman city of Pompeii in 79 CE?",
+      "es": "¿Qué le pasó a la ciudad romana de Pompeya en el 79 d. C.?"
+    },
+    "options": [
+      {
+        "en": "A volcano buried it under ash",
+        "es": "Un volcán la enterró bajo cenizas"
+      },
+      {
+        "en": "An earthquake destroyed it",
+        "es": "Un terremoto la destruyó"
+      },
+      {
+        "en": "An enemy army burned it",
+        "es": "Un ejército enemigo la quemó"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Mount Vesuvius erupted suddenly in 79 CE. Hot ash and gas covered Pompeii and nearby towns. Many people escaped, but about 2,000 died in Pompeii. The ash preserved houses, paintings, food and even the shapes of the bodies. Today, visitors can walk through the streets as they were 2,000 years ago.",
+      "es": "El monte Vesubio entró en erupción de repente en el 79 d. C. Ceniza caliente y gas cubrieron Pompeya y los pueblos cercanos. Mucha gente escapó, pero unas 2.000 personas murieron en Pompeya. La ceniza conservó casas, pinturas, comida e incluso la forma de los cuerpos. Hoy los visitantes pueden caminar por las calles como eran hace 2.000 años."
+    },
+    "meanwhile": {
+      "en": "Around 79 CE, the great city of Teotihuacan in Mexico was growing, with its huge Pyramid of the Sun.",
+      "es": "Alrededor del 79 d. C., la gran ciudad de Teotihuacán, en México, crecía con su enorme Pirámide del Sol."
+    },
+    "reflection": {
+      "en": "Pompeii shows us one ordinary day frozen in time. If someone found your home in 2,000 years, what would they learn about you?",
+      "es": "Pompeya nos muestra un día común congelado en el tiempo. Si alguien encontrara tu casa dentro de 2.000 años, ¿qué aprendería sobre ti?"
+    },
+    "vocab": [
+      {
+        "term": "erupted",
+        "es": "entró en erupción"
+      },
+      {
+        "term": "ash",
+        "es": "ceniza"
+      },
+      {
+        "term": "escaped",
+        "es": "escapó"
+      },
+      {
+        "term": "preserved",
+        "es": "conservó"
+      }
+    ]
+  },
+  {
+    "id": "ro-015",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Spartacus led a famous revolt in 73 BCE. Who was he?",
+      "es": "Espartaco lideró una famosa rebelión en el 73 a. C. ¿Quién era?"
+    },
+    "options": [
+      {
+        "en": "A gladiator who had been a slave",
+        "es": "Un gladiador que había sido esclavo"
+      },
+      {
+        "en": "A general in the Roman army",
+        "es": "Un general del ejército romano"
+      },
+      {
+        "en": "A senator who opposed Caesar",
+        "es": "Un senador que se oponía a César"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Spartacus escaped from a gladiator school with about 70 other fighters. Thousands of slaves joined him, and his army defeated several Roman forces. After two years, the general Crassus crushed the revolt. The revolt ended, but the story of a man who fought for freedom is still famous.",
+      "es": "Espartaco escapó de una escuela de gladiadores con unos 70 luchadores más. Miles de esclavos se unieron a él, y su ejército derrotó a varias fuerzas romanas. Después de dos años, el general Craso aplastó la revuelta. La rebelión terminó, pero la historia de un hombre que luchó por la libertad sigue siendo famosa."
+    },
+    "meanwhile": {
+      "en": "In 69 BCE, in Egypt, the future queen Cleopatra VII was born.",
+      "es": "En el 69 a. C., en Egipto, nació la futura reina Cleopatra VII."
+    },
+    "reflection": {
+      "en": "Spartacus fought against slavery thousands of years ago. What kinds of unfairness do people still fight against today?",
+      "es": "Espartaco luchó contra la esclavitud hace miles de años. ¿Contra qué tipos de injusticia sigue luchando la gente hoy?"
+    },
+    "vocab": [
+      {
+        "term": "revolt",
+        "es": "rebelión"
+      },
+      {
+        "term": "escaped",
+        "es": "escapó"
+      },
+      {
+        "term": "slaves",
+        "es": "esclavos"
+      },
+      {
+        "term": "crushed",
+        "es": "aplastó"
+      }
+    ]
+  },
+  {
+    "id": "ro-016",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "About how many soldiers were in a Roman legion?",
+      "es": "¿Cuántos soldados había aproximadamente en una legión romana?"
+    },
+    "options": [
+      {
+        "en": "About 5,000",
+        "es": "Unos 5.000"
+      },
+      {
+        "en": "About 500",
+        "es": "Unos 500"
+      },
+      {
+        "en": "About 50,000",
+        "es": "Unos 50.000"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "A legion had around 5,000 soldiers, divided into smaller groups of about 80 men. Legionaries trained hard, marched about 30 kilometers a day and served for 25 years. They were also builders: they made roads, bridges and forts. When they retired, many received land.",
+      "es": "Una legión tenía alrededor de 5.000 soldados, divididos en grupos más pequeños de unos 80 hombres. Los legionarios se entrenaban duro, marchaban unos 30 kilómetros por día y servían durante 25 años. También eran constructores: hacían caminos, puentes y fuertes. Al retirarse, muchos recibían tierras."
+    },
+    "meanwhile": {
+      "en": "Around 100 CE, Han Chinese soldiers guarded the Silk Road with forts and watchtowers in the western desert.",
+      "es": "Alrededor del 100 d. C., los soldados chinos de la dinastía Han custodiaban la Ruta de la Seda con fuertes y torres de vigilancia en el desierto del oeste."
+    },
+    "reflection": {
+      "en": "Roman soldiers fought, but they also built. In your work or study, what do you build for the future?",
+      "es": "Los soldados romanos luchaban, pero también construían. En tu trabajo o estudio, ¿qué construyes para el futuro?"
+    },
+    "vocab": [
+      {
+        "term": "legion",
+        "es": "legión"
+      },
+      {
+        "term": "trained",
+        "es": "se entrenaban"
+      },
+      {
+        "term": "forts",
+        "es": "fuertes"
+      },
+      {
+        "term": "retired",
+        "es": "retiraban"
+      }
+    ]
+  },
+  {
+    "id": "ro-017",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Why did the Romans build Hadrian’s Wall in northern Britain?",
+      "es": "¿Por qué construyeron los romanos el Muro de Adriano en el norte de Britania?"
+    },
+    "options": [
+      {
+        "en": "To mark and defend the edge of the empire",
+        "es": "Para marcar y defender el límite del imperio"
+      },
+      {
+        "en": "To keep sheep inside",
+        "es": "Para mantener dentro a las ovejas"
+      },
+      {
+        "en": "To honor the emperor’s victory",
+        "es": "Para honrar la victoria del emperador"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Emperor Hadrian visited Britain in 122 CE and ordered a long wall. It was about 117 kilometers long, with forts, towers and gates. Soldiers lived along it and controlled who crossed the border. Parts of the wall are still there today and many tourists walk along it.",
+      "es": "El emperador Adriano visitó Britania en el 122 d. C. y ordenó construir un largo muro. Medía unos 117 kilómetros, con fuertes, torres y puertas. Los soldados vivían a lo largo de él y controlaban quién cruzaba la frontera. Partes del muro siguen allí y muchos turistas caminan junto a él."
+    },
+    "meanwhile": {
+      "en": "Around 120 CE, the Kingdom of Aksum in East Africa was starting to trade with Rome and India through its Red Sea port.",
+      "es": "Alrededor del 120 d. C., el reino de Aksum, en África Oriental, comenzaba a comerciar con Roma y la India a través de su puerto en el mar Rojo."
+    },
+    "reflection": {
+      "en": "A wall can protect people, but it can also separate them. Do you think walls are good or bad?",
+      "es": "Un muro puede proteger a las personas, pero también separarlas. ¿Crees que los muros son buenos o malos?"
+    },
+    "vocab": [
+      {
+        "term": "wall",
+        "es": "muro"
+      },
+      {
+        "term": "towers",
+        "es": "torres"
+      },
+      {
+        "term": "gates",
+        "es": "puertas"
+      },
+      {
+        "term": "border",
+        "es": "frontera"
+      }
+    ]
+  },
+  {
+    "id": "ro-018",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "What did Romans do at the public baths?",
+      "es": "¿Qué hacían los romanos en los baños públicos?"
+    },
+    "options": [
+      {
+        "en": "They washed, exercised and met friends",
+        "es": "Se lavaban, hacían ejercicio y se reunían con amigos"
+      },
+      {
+        "en": "They only prayed to the gods",
+        "es": "Solo rezaban a los dioses"
+      },
+      {
+        "en": "They trained as soldiers",
+        "es": "Se entrenaban como soldados"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Roman baths were large, warm and cheap to enter. People went there to wash, swim and exercise. They also talked about business and politics, read in libraries and ate snacks. The floors were heated with hot air from a furnace. The Baths of Caracalla could hold about 1,600 people.",
+      "es": "Los baños romanos eran grandes, cálidos y baratos. La gente iba a lavarse, nadar y hacer ejercicio. También hablaban de negocios y política, leían en bibliotecas y comían bocadillos. Los suelos se calentaban con aire caliente de un horno. Las Termas de Caracalla podían albergar a unas 1.600 personas."
+    },
+    "meanwhile": {
+      "en": "Around 200 CE, the Han dynasty in China was weakening. It ended in 220 CE after four centuries.",
+      "es": "Alrededor del 200 d. C., la dinastía Han de China se debilitaba. Terminó en el 220 d. C., después de cuatro siglos."
+    },
+    "reflection": {
+      "en": "The baths were a place to meet people from every class. Where do people from different groups meet in your town?",
+      "es": "Los baños eran un lugar para encontrarse con gente de todas las clases. ¿Dónde se encuentran personas de distintos grupos en tu ciudad?"
+    },
+    "vocab": [
+      {
+        "term": "baths",
+        "es": "baños"
+      },
+      {
+        "term": "swim",
+        "es": "nadar"
+      },
+      {
+        "term": "heated",
+        "es": "calentaban"
+      },
+      {
+        "term": "furnace",
+        "es": "horno"
+      }
+    ]
+  },
+  {
+    "id": "ro-019",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which two months of our calendar are named after Roman leaders?",
+      "es": "¿Qué dos meses de nuestro calendario llevan el nombre de líderes romanos?"
+    },
+    "options": [
+      {
+        "en": "July and August",
+        "es": "Julio y agosto"
+      },
+      {
+        "en": "March and April",
+        "es": "Marzo y abril"
+      },
+      {
+        "en": "May and June",
+        "es": "Mayo y junio"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In 46 BCE, Julius Caesar introduced a new calendar with 365 days and an extra day every four years. It is called the Julian calendar. Later, the month Quintilis was renamed July in his honor, and Sextilis became August, after Augustus. Our modern calendar is a small improvement on the Julian one.",
+      "es": "En el 46 a. C., Julio César introdujo un nuevo calendario con 365 días y un día extra cada cuatro años. Se llama calendario juliano. Más tarde, el mes Quintilis fue renombrado julio en su honor, y Sextilis pasó a ser agosto, por Augusto. Nuestro calendario moderno es una pequeña mejora del juliano."
+    },
+    "meanwhile": {
+      "en": "In 46 BCE, Queen Cleopatra of Egypt visited Rome as a guest of Caesar.",
+      "es": "En el 46 a. C., la reina Cleopatra de Egipto visitó Roma como invitada de César."
+    },
+    "reflection": {
+      "en": "We still use names from Rome every day. Which words in your language come from Latin?",
+      "es": "Todavía usamos nombres de Roma todos los días. ¿Qué palabras de tu idioma vienen del latín?"
+    },
+    "vocab": [
+      {
+        "term": "calendar",
+        "es": "calendario"
+      },
+      {
+        "term": "extra",
+        "es": "extra"
+      },
+      {
+        "term": "renamed",
+        "es": "renombrado"
+      },
+      {
+        "term": "improvement",
+        "es": "mejora"
+      }
+    ]
+  },
+  {
+    "id": "ro-020",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "After the Great Fire of Rome in 64 CE, who did Emperor Nero blame for it?",
+      "es": "Después del Gran Incendio de Roma en el 64 d. C., ¿a quién culpó el emperador Nerón?"
+    },
+    "options": [
+      {
+        "en": "The Christians",
+        "es": "A los cristianos"
+      },
+      {
+        "en": "The Senate",
+        "es": "Al Senado"
+      },
+      {
+        "en": "The Greeks",
+        "es": "A los griegos"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The fire burned for six days and destroyed a large part of Rome. Many Romans suspected that Nero himself was responsible. To stop the rumors, Nero blamed the Christians, a small religious group, and punished them cruelly. Later, he rebuilt the city with wider streets and more stone buildings, which were safer from fire.",
+      "es": "El fuego ardió durante seis días y destruyó gran parte de Roma. Muchos romanos sospechaban que el propio Nerón era responsable. Para detener los rumores, Nerón culpó a los cristianos, un pequeño grupo religioso, y los castigó con crueldad. Más tarde reconstruyó la ciudad con calles más anchas y más edificios de piedra, más seguros contra el fuego."
+    },
+    "meanwhile": {
+      "en": "According to tradition, around 67 CE, Buddhism reached China when envoys of the Han emperor brought Buddhist texts from India.",
+      "es": "Según la tradición, alrededor del 67 d. C., el budismo llegó a China cuando enviados del emperador Han trajeron textos budistas desde la India."
+    },
+    "reflection": {
+      "en": "Leaders sometimes blame a small group for their own problems. How can we notice when this happens?",
+      "es": "A veces los líderes culpan a un grupo pequeño de sus propios problemas. ¿Cómo podemos notar cuándo ocurre?"
+    },
+    "vocab": [
+      {
+        "term": "fire",
+        "es": "incendio"
+      },
+      {
+        "term": "rumors",
+        "es": "rumores"
+      },
+      {
+        "term": "blamed",
+        "es": "culpó"
+      },
+      {
+        "term": "rebuilt",
+        "es": "reconstruyó"
+      }
+    ]
+  },
+  {
+    "id": "ro-021",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Under Emperor Trajan, around 117 CE, the Roman Empire reached what moment in its history?",
+      "es": "Bajo el emperador Trajano, alrededor del 117 d. C., ¿qué momento alcanzó el Imperio romano en su historia?"
+    },
+    "options": [
+      {
+        "en": "Its greatest size",
+        "es": "Su mayor extensión"
+      },
+      {
+        "en": "Its first civil war",
+        "es": "Su primera guerra civil"
+      },
+      {
+        "en": "Its move to a new capital",
+        "es": "Su traslado a una nueva capital"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Trajan was a soldier-emperor who conquered Dacia, today’s Romania, and fought in Mesopotamia. By 117 CE, the empire stretched from Britain to the Persian Gulf and from Spain to the Black Sea. About one in five people in the world lived inside its borders. Soon after, the next emperor gave up some of these lands.",
+      "es": "Trajano era un emperador soldado que conquistó Dacia, la actual Rumania, y combatió en Mesopotamia. Hacia el 117 d. C., el imperio se extendía desde Britania hasta el golfo Pérsico y desde España hasta el mar Negro. Aproximadamente una de cada cinco personas del mundo vivía dentro de sus fronteras. Poco después, el siguiente emperador abandonó algunas de estas tierras."
+    },
+    "meanwhile": {
+      "en": "In 97 CE, the Chinese envoy Gan Ying traveled west toward the Roman Empire but turned back at the Persian Gulf.",
+      "es": "En el 97 d. C., el enviado chino Gan Ying viajó hacia el oeste en dirección al Imperio romano, pero regresó al llegar al golfo Pérsico."
+    },
+    "reflection": {
+      "en": "The empire became so big that it was hard to defend. When has doing more become too much for you?",
+      "es": "El imperio se hizo tan grande que era difícil defenderlo. ¿Cuándo hacer más se volvió demasiado para ti?"
+    },
+    "vocab": [
+      {
+        "term": "stretched",
+        "es": "se extendía"
+      },
+      {
+        "term": "borders",
+        "es": "fronteras"
+      },
+      {
+        "term": "conquered",
+        "es": "conquistó"
+      },
+      {
+        "term": "envoy",
+        "es": "enviado"
+      }
+    ]
+  },
+  {
+    "id": "ro-022",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why were the Twelve Tables, written around 450 BCE, important?",
+      "es": "¿Por qué fueron importantes las Doce Tablas, escritas alrededor del 450 a. C.?"
+    },
+    "options": [
+      {
+        "en": "They were the first written laws of Rome",
+        "es": "Fueron las primeras leyes escritas de Roma"
+      },
+      {
+        "en": "They listed the names of all senators",
+        "es": "Enumeraban los nombres de todos los senadores"
+      },
+      {
+        "en": "They described the rules of the army",
+        "es": "Describían las reglas del ejército"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Before the Twelve Tables, only a few powerful men knew the law, so they could change it as they wished. Ordinary Romans asked for written laws. The rules were carved on bronze or wooden tablets and put in the Forum, where everybody could read them. This idea of public, written law became a basis of many legal systems.",
+      "es": "Antes de las Doce Tablas, solo unos pocos hombres poderosos conocían la ley, así que podían cambiarla a su gusto. Los romanos comunes pidieron leyes escritas. Las normas se grabaron en tablas de bronce o madera y se colocaron en el Foro, donde todos podían leerlas. Esta idea de una ley pública y escrita se convirtió en la base de muchos sistemas legales."
+    },
+    "meanwhile": {
+      "en": "Around 447 BCE, Athens began to build the Parthenon on the Acropolis.",
+      "es": "Alrededor del 447 a. C., Atenas comenzó a construir el Partenón en la Acrópolis."
+    },
+    "reflection": {
+      "en": "Written laws protect people because everyone can read them. Why is it important to know the rules that apply to you?",
+      "es": "Las leyes escritas protegen a las personas porque todos pueden leerlas. ¿Por qué es importante conocer las reglas que te afectan?"
+    },
+    "vocab": [
+      {
+        "term": "laws",
+        "es": "leyes"
+      },
+      {
+        "term": "carved",
+        "es": "grabaron"
+      },
+      {
+        "term": "tablets",
+        "es": "tablas"
+      },
+      {
+        "term": "legal",
+        "es": "legales"
+      }
+    ]
+  },
+  {
+    "id": "ro-023",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "In 476 CE, what happened to the last emperor of the Western Roman Empire?",
+      "es": "En el 476 d. C., ¿qué le pasó al último emperador del Imperio romano de Occidente?"
+    },
+    "options": [
+      {
+        "en": "A Germanic general removed him from power",
+        "es": "Un general germánico lo destituyó"
+      },
+      {
+        "en": "He died fighting in a great battle",
+        "es": "Murió luchando en una gran batalla"
+      },
+      {
+        "en": "He moved to Constantinople",
+        "es": "Se mudó a Constantinopla"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "By 476 CE, the Western empire was weak. The emperor, Romulus Augustulus, was only a teenager. A Germanic general named Odoacer removed him and ruled Italy himself. Historians often use this date as the end of the Western Roman Empire. The eastern half of the empire continued for almost 1,000 years more.",
+      "es": "Hacia el 476 d. C., el Imperio de Occidente estaba débil. El emperador, Rómulo Augústulo, era solo un adolescente. Un general germánico llamado Odoacro lo destituyó y gobernó Italia él mismo. Los historiadores suelen usar esta fecha como el fin del Imperio romano de Occidente. La mitad oriental del imperio continuó casi 1.000 años más."
+    },
+    "meanwhile": {
+      "en": "In 476 CE, in India, the mathematician Aryabhata was born. He later wrote about the Earth’s rotation and calculated pi very accurately.",
+      "es": "En el 476 d. C., en la India, nació el matemático Aryabhata. Más tarde escribió sobre la rotación de la Tierra y calculó pi con gran precisión."
+    },
+    "reflection": {
+      "en": "The end of Rome came slowly, not in one day. What changes in your life happened slowly, without you noticing?",
+      "es": "El fin de Roma llegó lentamente, no en un solo día. ¿Qué cambios en tu vida ocurrieron despacio, sin que lo notaras?"
+    },
+    "vocab": [
+      {
+        "term": "removed",
+        "es": "destituyó"
+      },
+      {
+        "term": "teenager",
+        "es": "adolescente"
+      },
+      {
+        "term": "ruled",
+        "es": "gobernó"
+      },
+      {
+        "term": "continued",
+        "es": "continuó"
+      }
+    ]
+  },
+  {
+    "id": "ro-024",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which modern languages come mainly from Latin?",
+      "es": "¿Qué idiomas modernos vienen principalmente del latín?"
+    },
+    "options": [
+      {
+        "en": "Spanish, French and Italian",
+        "es": "Español, francés e italiano"
+      },
+      {
+        "en": "German, Dutch and Swedish",
+        "es": "Alemán, neerlandés y sueco"
+      },
+      {
+        "en": "Arabic, Hebrew and Turkish",
+        "es": "Árabe, hebreo y turco"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "When the Romans conquered new lands, they brought Latin with them. Over many centuries, the Latin spoken in different places changed in different ways. In this way Spanish, French, Italian, Portuguese and Romanian were born. They are called Romance languages. Even English has thousands of words from Latin.",
+      "es": "Cuando los romanos conquistaron nuevas tierras, llevaron el latín con ellos. Durante muchos siglos, el latín hablado en distintos lugares cambió de distintas maneras. Así nacieron el español, el francés, el italiano, el portugués y el rumano. Se llaman lenguas romances. Incluso el inglés tiene miles de palabras que vienen del latín."
+    },
+    "meanwhile": {
+      "en": "Around 500 CE, in the Americas, the Maya were writing with hieroglyphs on stone monuments and in books.",
+      "es": "Alrededor del 500 d. C., en América, los mayas escribían con jeroglíficos en monumentos de piedra y en libros."
+    },
+    "reflection": {
+      "en": "If you speak Spanish, you already know many Latin words. Which English words look similar to Spanish ones?",
+      "es": "Si hablas español, ya conoces muchas palabras latinas. ¿Qué palabras en inglés se parecen a las del español?"
+    },
+    "vocab": [
+      {
+        "term": "conquered",
+        "es": "conquistaron"
+      },
+      {
+        "term": "changed",
+        "es": "cambió"
+      },
+      {
+        "term": "Romance languages",
+        "es": "lenguas romances"
+      },
+      {
+        "term": "thousands",
+        "es": "miles"
+      }
+    ]
+  },
+  {
+    "id": "ro-025",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "Emperor Marcus Aurelius wrote a book of private notes about how to live well. What is it called?",
+      "es": "El emperador Marco Aurelio escribió un libro de notas privadas sobre cómo vivir bien. ¿Cómo se llama?"
+    },
+    "options": [
+      {
+        "en": "Meditations",
+        "es": "Meditaciones"
+      },
+      {
+        "en": "The Aeneid",
+        "es": "La Eneida"
+      },
+      {
+        "en": "The Republic",
+        "es": "La República"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Marcus Aurelius ruled from 161 to 180 CE. He faced wars on the northern border and a terrible plague. At night, in his tent, he wrote notes to himself in Greek, following the ideas of the Stoics. He reminded himself to stay calm, to accept what he cannot control and to be fair. We call these notes Meditations.",
+      "es": "Marco Aurelio gobernó de 161 a 180 d. C. Enfrentó guerras en la frontera norte y una terrible peste. De noche, en su tienda, escribía notas para sí mismo en griego, siguiendo las ideas de los estoicos. Se recordaba mantener la calma, aceptar lo que no puede controlar y ser justo. Llamamos a estas notas Meditaciones."
+    },
+    "meanwhile": {
+      "en": "In 166 CE, some men who said they were envoys of a Roman emperor, called \"Andun\" in Chinese, reached the Han court by sea.",
+      "es": "En el 166 d. C., unos hombres que decían ser enviados de un emperador romano, llamado \"Andun\" en chino, llegaron por mar a la corte Han."
+    },
+    "reflection": {
+      "en": "A powerful emperor wrote to remind himself to be calm. What would you write in your own notes to stay calm?",
+      "es": "Un poderoso emperador escribía para recordarse mantener la calma. ¿Qué escribirías en tus propias notas para mantener la calma?"
+    },
+    "vocab": [
+      {
+        "term": "plague",
+        "es": "peste"
+      },
+      {
+        "term": "tent",
+        "es": "tienda"
+      },
+      {
+        "term": "calm",
+        "es": "calma"
+      },
+      {
+        "term": "fair",
+        "es": "justo"
+      }
+    ]
+  },
+  {
+    "id": "ro-026",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Why did Emperor Diocletian divide the empire’s government around 293 CE?",
+      "es": "¿Por qué dividió el emperador Diocleciano el gobierno del imperio alrededor del 293 d. C.?"
+    },
+    "options": [
+      {
+        "en": "The empire was too big for one ruler to control",
+        "es": "El imperio era demasiado grande para que lo controlara un solo gobernante"
+      },
+      {
+        "en": "The Senate had asked for it",
+        "es": "El Senado lo había pedido"
+      },
+      {
+        "en": "He wanted to give the East to his enemy",
+        "es": "Quería darle el Este a su enemigo"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "In the 200s CE, the empire faced invasions, civil wars and weak emperors. Diocletian decided that one man could not rule such a huge territory. He shared power with three other rulers, two senior and two junior, and each looked after a region. This system, called the Tetrarchy, made the empire more stable for a time.",
+      "es": "En el siglo III d. C., el imperio enfrentaba invasiones, guerras civiles y emperadores débiles. Diocleciano decidió que un solo hombre no podía gobernar un territorio tan enorme. Compartió el poder con otros tres gobernantes, dos superiores y dos subordinados, y cada uno se ocupaba de una región. Este sistema, llamado Tetrarquía, hizo al imperio más estable por un tiempo."
+    },
+    "meanwhile": {
+      "en": "Around 300 CE, the Maya entered their Classic period and built tall stone temples in cities like Tikal.",
+      "es": "Alrededor del 300 d. C., los mayas entraron en su período clásico y construyeron altos templos de piedra en ciudades como Tikal."
+    },
+    "reflection": {
+      "en": "Diocletian shared his power to solve a big problem. When did asking for help make a task easier?",
+      "es": "Diocleciano compartió su poder para resolver un gran problema. ¿Cuándo pedir ayuda hizo más fácil una tarea?"
+    },
+    "vocab": [
+      {
+        "term": "invasions",
+        "es": "invasiones"
+      },
+      {
+        "term": "rule",
+        "es": "gobernar"
+      },
+      {
+        "term": "region",
+        "es": "región"
+      },
+      {
+        "term": "stable",
+        "es": "estable"
+      }
+    ]
+  },
+  {
+    "id": "ro-027",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "easy",
+    "level": "A2",
+    "question": {
+      "en": "Which Roman god was the same as the Greek god Zeus?",
+      "es": "¿Qué dios romano era el equivalente del dios griego Zeus?"
+    },
+    "options": [
+      {
+        "en": "Jupiter",
+        "es": "Júpiter"
+      },
+      {
+        "en": "Mars",
+        "es": "Marte"
+      },
+      {
+        "en": "Neptune",
+        "es": "Neptuno"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Romans admired Greek culture and borrowed many of its gods. They gave them Latin names. Zeus became Jupiter, king of the gods. Ares became Mars, god of war, and Poseidon became Neptune, god of the sea. Many planets in our solar system still have Roman god names.",
+      "es": "Los romanos admiraban la cultura griega y tomaron prestados muchos de sus dioses. Les pusieron nombres latinos. Zeus se convirtió en Júpiter, rey de los dioses. Ares fue Marte, dios de la guerra, y Poseidón fue Neptuno, dios del mar. Muchos planetas de nuestro sistema solar todavía tienen nombres de dioses romanos."
+    },
+    "meanwhile": {
+      "en": "Around 200 BCE, Greek art and ideas were spreading across the Mediterranean, and Rome was learning from them.",
+      "es": "Alrededor del 200 a. C., el arte y las ideas griegas se extendían por el Mediterráneo, y Roma aprendía de ellas."
+    },
+    "reflection": {
+      "en": "Romans borrowed ideas from the Greeks and made them their own. What have you borrowed from other cultures?",
+      "es": "Los romanos tomaron ideas de los griegos y las hicieron suyas. ¿Qué has tomado tú de otras culturas?"
+    },
+    "vocab": [
+      {
+        "term": "gods",
+        "es": "dioses"
+      },
+      {
+        "term": "borrowed",
+        "es": "tomaron prestados"
+      },
+      {
+        "term": "planets",
+        "es": "planetas"
+      },
+      {
+        "term": "solar system",
+        "es": "sistema solar"
+      }
+    ]
+  },
+  {
+    "id": "ro-028",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "What kind of event took place at the Circus Maximus in Rome?",
+      "es": "¿Qué tipo de evento se realizaba en el Circo Máximo de Roma?"
+    },
+    "options": [
+      {
+        "en": "Chariot races",
+        "es": "Carreras de carros"
+      },
+      {
+        "en": "Theater plays",
+        "es": "Obras de teatro"
+      },
+      {
+        "en": "Sea battles",
+        "es": "Batallas navales"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Circus Maximus was a huge stadium that could seat around 150,000 people. Chariots pulled by four horses raced around the track seven times. Drivers belonged to teams with colors: red, white, blue and green. Fans were passionate about their team, and the races could be very dangerous.",
+      "es": "El Circo Máximo era un enorme estadio con capacidad para unas 150.000 personas. Carros tirados por cuatro caballos daban siete vueltas a la pista. Los conductores pertenecían a equipos con colores: rojo, blanco, azul y verde. Los aficionados eran apasionados por su equipo, y las carreras podían ser muy peligrosas."
+    },
+    "meanwhile": {
+      "en": "At about the same time, people in Mesoamerica played a ball game with a heavy rubber ball, often in stone courts.",
+      "es": "Casi al mismo tiempo, en Mesoamérica se jugaba un juego de pelota con una pesada pelota de goma, a menudo en canchas de piedra."
+    },
+    "reflection": {
+      "en": "Roman fans loved their teams like we do today. Which team or group makes you feel part of something?",
+      "es": "Los aficionados romanos amaban a sus equipos como lo hacemos hoy. ¿Qué equipo o grupo te hace sentir parte de algo?"
+    },
+    "vocab": [
+      {
+        "term": "stadium",
+        "es": "estadio"
+      },
+      {
+        "term": "chariots",
+        "es": "carros"
+      },
+      {
+        "term": "track",
+        "es": "pista"
+      },
+      {
+        "term": "fans",
+        "es": "aficionados"
+      }
+    ]
+  },
+  {
+    "id": "ro-029",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "medium",
+    "level": "B1",
+    "question": {
+      "en": "Which land did Julius Caesar conquer between 58 and 50 BCE?",
+      "es": "¿Qué territorio conquistó Julio César entre el 58 y el 50 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Gaul, today’s France and Belgium",
+        "es": "La Galia, la actual Francia y Bélgica"
+      },
+      {
+        "en": "Egypt, with its great river and pyramids",
+        "es": "Egipto, con su gran río y sus pirámides"
+      },
+      {
+        "en": "Spain, with its mines of silver and gold",
+        "es": "España, con sus minas de plata y oro"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Caesar led his legions into Gaul and fought many tribes. In 52 BCE, he defeated a Gallic leader, Vercingetorix, at the siege of Alesia. Caesar wrote a book about the campaign, which is still read in Latin classes. The conquest made him rich, famous and powerful, and worried his enemies in Rome.",
+      "es": "César llevó sus legiones a la Galia y luchó contra muchas tribus. En el 52 a. C., derrotó al líder galo Vercingétorix en el sitio de Alesia. César escribió un libro sobre la campaña, que todavía se lee en las clases de latín. La conquista lo hizo rico, famoso y poderoso, y preocupó a sus enemigos en Roma."
+    },
+    "meanwhile": {
+      "en": "In 53 BCE, the Parthians defeated a large Roman army at Carrhae, in Mesopotamia.",
+      "es": "En el 53 a. C., los partos derrotaron a un gran ejército romano en Carras, en Mesopotamia."
+    },
+    "reflection": {
+      "en": "Caesar told the story of his own campaign. Why does it matter who tells the story of history?",
+      "es": "César contó la historia de su propia campaña. ¿Por qué importa quién cuenta la historia?"
+    },
+    "vocab": [
+      {
+        "term": "tribes",
+        "es": "tribus"
+      },
+      {
+        "term": "siege",
+        "es": "sitio"
+      },
+      {
+        "term": "campaign",
+        "es": "campaña"
+      },
+      {
+        "term": "enemies",
+        "es": "enemigos"
+      }
+    ]
+  },
+  {
+    "id": "ro-030",
+    "category": "roman-empire",
+    "category_label": {
+      "en": "Roman Empire",
+      "es": "Imperio Romano"
+    },
+    "difficulty": "hard",
+    "level": "B1",
+    "question": {
+      "en": "What happened to the city of Carthage at the end of the Third Punic War in 146 BCE?",
+      "es": "¿Qué le pasó a la ciudad de Cartago al final de la Tercera Guerra Púnica en el 146 a. C.?"
+    },
+    "options": [
+      {
+        "en": "Rome destroyed it",
+        "es": "Roma la destruyó"
+      },
+      {
+        "en": "Rome and Carthage became allies",
+        "es": "Roma y Cartago se hicieron aliadas"
+      },
+      {
+        "en": "Carthage moved to Sicily",
+        "es": "Cartago se trasladó a Sicilia"
+      }
+    ],
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Carthage had once been Rome’s greatest rival. After the Second Punic War, it lost its empire and its fleet, but it became rich again. Some Romans feared it. The senator Cato often ended his speeches with \"Carthage must be destroyed\". In 146 BCE, Roman soldiers took the city after a long siege, burned it and sold survivors as slaves.",
+      "es": "Cartago había sido el mayor rival de Roma. Después de la Segunda Guerra Púnica perdió su imperio y su flota, pero volvió a hacerse rica. Algunos romanos le temían. El senador Catón terminaba a menudo sus discursos diciendo \"Cartago debe ser destruida\". En el 146 a. C., los soldados romanos tomaron la ciudad después de un largo sitio, la quemaron y vendieron a los sobrevivientes como esclavos."
+    },
+    "meanwhile": {
+      "en": "Around 140 BCE, Emperor Wu of the Han dynasty ruled China. He expanded his empire and sent envoys to explore the lands to the west.",
+      "es": "Alrededor del 140 a. C., el emperador Wu de la dinastía Han gobernaba China. Expandió su imperio y envió enviados a explorar las tierras del oeste."
+    },
+    "reflection": {
+      "en": "Fear of a rival led Rome to destroy a whole city. When has fear made you act harshly?",
+      "es": "El miedo a un rival llevó a Roma a destruir toda una ciudad. ¿Cuándo el miedo te hizo actuar con dureza?"
+    },
+    "vocab": [
+      {
+        "term": "rival",
+        "es": "rival"
+      },
+      {
+        "term": "fleet",
+        "es": "flota"
+      },
+      {
+        "term": "speeches",
+        "es": "discursos"
+      },
+      {
+        "term": "survivors",
+        "es": "sobrevivientes"
+      }
+    ]
   }
 ]

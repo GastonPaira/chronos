@@ -1,11 +1,12 @@
-// Genera src/data/audio-manifest.json con la lista de mp3 que existen en public/audio.
+// Genera src/data/audio-manifest.json con la lista de mp3 que existen en public/audio/v2.
+// (Los mp3 de public/audio/ sin v2 son de los textos anteriores a la reescritura y ya no se usan.)
 // Corre solo antes de `npm run dev` y `npm run build` (scripts predev / prebuild).
 // Así la app sabe qué textos tienen mp3 y cuáles usan la voz del navegador, sin pedir archivos que no existen.
 
 const fs = require('fs');
 const path = require('path');
 
-const audioDir = path.join(__dirname, '../public/audio');
+const audioDir = path.join(__dirname, '../public/audio/v2');
 const outFile = path.join(__dirname, '../src/data/audio-manifest.json');
 
 const ids = fs.existsSync(audioDir)

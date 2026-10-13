@@ -10,12 +10,15 @@ import CategoryCard from '@/components/CategoryCard';
 import { AuthButton } from '@/components/AuthButton';
 import { getEra } from '@/data/catalog';
 import { buildCategories } from '@/lib/questions';
+import { categoryProgress } from '@/lib/progress';
+import { useProgress } from '@/hooks/useProgress';
 
 
 export default function Categories() {
   const { t, i18n } = useTranslation('common');
   const router = useRouter();
   const locale = (i18n.language as Locale) ?? 'en';
+  const { progress } = useProgress();
   const eraId = router.isReady ? (router.query.era as string | undefined) : undefined;
 
   const categories = useMemo(() => {
@@ -82,6 +85,7 @@ export default function Categories() {
               key={cat.id}
               category={cat}
               locale={locale}
+              progress={progress ? categoryProgress(progress, cat.id, cat.count) : undefined}
               onClick={() => router.push(eraId ? `/game/${cat.id}?era=${eraId}` : `/game/${cat.id}`)}
             />
           ))}
