@@ -7,6 +7,8 @@ export const XP_LESSON = 20;
 export const XP_PERFECT = 10;
 export const XP_WORD = 5;
 export const XP_GOAL = 30;
+/** Extra XP for a right answer given in listening mode without looking at the text. */
+export const XP_LISTEN = 5;
 
 /** Daily goal: finish this many lessons and review this many words. */
 export const GOAL_LESSONS = 1;
@@ -35,6 +37,8 @@ export interface Progress {
   /** Achievement id → local date it was unlocked. */
   achievements: Record<string, string>;
   onboarded: boolean;
+  /** Category of the last answered question, to offer "continue" on the home screen. */
+  lastCategory?: string;
 }
 
 export function makeEmptyProgress(today: string): Progress {
@@ -117,9 +121,11 @@ export interface AnsweredQuestion {
   questionId: string;
   categoryId: string;
   correct: boolean;
+  /** The question was answered by ear: listening mode, text never shown. */
+  listened?: boolean;
 }
 
-/** Records one answer: marks the question as seen, remembers misses, and pays XP. */
+/** Records one answer: marks the question as seen, remembers misses, and pays XP (plus the ear bonus). */
 export function applyAnswer(progress: Progress, answer: AnsweredQuestion): Progress {
   const seenInCategory = progress.seen[answer.categoryId] ?? [];
   const seen = seenInCategory.includes(answer.questionId)
@@ -130,11 +136,12 @@ export function applyAnswer(progress: Progress, answer: AnsweredQuestion): Progr
     : progress.missed.includes(answer.questionId)
       ? progress.missed
       : [...progress.missed, answer.questionId];
-  const gained = answer.correct ? XP_CORRECT : XP_WRONG;
+  const gained = answer.correct ? XP_CORRECT + (answer.listened ? XP_LISTEN : 0) : XP_WRONG;
   return {
     ...progress,
     seen,
     missed,
+    lastCategory: answer.categoryId,
     xp: progress.xp + gained,
     daily: { ...progress.daily, xp: progress.daily.xp + gained },
   };

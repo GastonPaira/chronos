@@ -4,6 +4,7 @@ import { describe, expect, it } from 'vitest';
 import type { Question } from '@/types';
 import questionsData from '@/data/questions';
 import { CATEGORIES, ERAS } from '@/data/catalog';
+import { SCENES, pickScene } from '@/data/scenes';
 
 const questions = questionsData as Question[];
 const publicDir = path.resolve(process.cwd(), 'public');
@@ -57,6 +58,28 @@ describe('content catalog', () => {
         expect(text.es.trim(), q.id).not.toBe('');
       }
     }
+  });
+
+  it('every category has at least 4 scenes, in both languages', () => {
+    for (const id of Object.keys(CATEGORIES)) {
+      const scenes = SCENES[id] ?? [];
+      expect(scenes.length, id).toBeGreaterThanOrEqual(4);
+      for (const scene of scenes) {
+        expect(scene.en.trim(), id).not.toBe('');
+        expect(scene.es.trim(), id).not.toBe('');
+      }
+    }
+  });
+
+  it('a question always gets the same scene', () => {
+    for (const q of questions.slice(0, 40)) {
+      expect(pickScene(q.category, q.id), q.id).toEqual(pickScene(q.category, q.id));
+      expect(pickScene(q.category, q.id), q.id).toBeDefined();
+    }
+  });
+
+  it('the eras follow each other in time', () => {
+    for (let i = 1; i < ERAS.length; i++) expect(ERAS[i].startYear).toBe(ERAS[i - 1].endYear);
   });
 
   it('every era and category image exists in public/', () => {

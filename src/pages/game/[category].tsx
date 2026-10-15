@@ -5,11 +5,13 @@ import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
 import type { Question, VocabEntry } from '@/types';
 import questionsData from '@/data/questions';
-import { getCategoryImage } from '@/data/catalog';
+import { getCategoryImage, getEraOfCategory } from '@/data/catalog';
+import { useFlag } from '@/hooks/useFlag';
+import { canSpeak } from '@/lib/speakWord';
 import { useGame } from '@/hooks/useGame';
 import { useWords } from '@/hooks/useWords';
 import { getProgress, useProgress, type LessonRewards } from '@/hooks/useProgress';
-import { XP_CORRECT, levelFor } from '@/lib/progress';
+import { levelFor } from '@/lib/progress';
 import { playComplete, playLevelUp } from '@/lib/sounds';
 import { buildReview, type ReviewItem } from '@/lib/vocab';
 import { wordKey, type ReviewResult } from '@/lib/words';
@@ -25,6 +27,8 @@ import StreakDisplay from '@/components/StreakDisplay';
 import { AuthButton } from '@/components/AuthButton';
 import Celebration from '@/components/Celebration';
 import SoundToggle from '@/components/SoundToggle';
+import HeaderToggle from '@/components/HeaderToggle';
+import AmbientLayer from '@/components/AmbientLayer';
 
 /** Words in the review that follows a lesson (the daily review has more). */
 const LESSON_REVIEW_SIZE = 3;
@@ -37,6 +41,10 @@ interface Props {
 export default function GamePage({ categoryQuestions, categoryId }: Props) {
   const { t } = useTranslation('common');
   const router = useRouter();
+  const [listening] = useFlag('chronos_listen');
+  // Only offer listening mode where the browser can speak; in the browser it is decided after mount (SSR has no voice).
+  const [canListen, setCanListen] = useState(false);
+  useEffect(() => setCanListen(canSpeak()), []);
 
   const {
     questions,
@@ -51,10 +59,12 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
     nextQuestion,
     finishGame,
     resetGame,
+    revealText,
+    xpForCorrect,
     playResult,
     lesson,
     streak: currentStreak,
-  } = useGame(categoryQuestions, { ready: router.isReady });
+  } = useGame(categoryQuestions, { ready: router.isReady, listening: listening && canListen });
 
   // End-of-round vocabulary review: built once when the round finishes (null = not built yet).
   const { store: wordStore, learned: learnedWords, recordReview } = useWords();
@@ -150,11 +160,17 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
           </svg>
         </button>
         <div className="flex items-center gap-1.5 ml-auto">
+          {canListen && (
+            <HeaderToggle flag="chronos_listen" icon="🎧" labelOn={t('listen.modeOn')} labelOff={t('listen.modeOff')} />
+          )}
+          <HeaderToggle flag="chronos_ambience" icon="🎵" labelOn={t('ambience.on')} labelOff={t('ambience.off')} />
           <SoundToggle />
           <LanguageSelector />
           <AuthButton />
         </div>
       </header>
+
+      <AmbientLayer eraId={getEraOfCategory(categoryId)?.id} />
 
       {rewards && (rewards.levelUp || rewards.goalCompleted || rewards.achievements.length > 0) && (
         <Celebration burstKey={`${rewards.xp}-${rewards.achievements.join()}`} />
@@ -197,13 +213,15 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
                   selectedAnswer={selectedAnswer}
                   onAnswer={selectAnswer}
                   onWordTap={handleWordTap}
+                  listening={listening && canListen}
+                  onReveal={revealText}
                 />
               )}
 
               {phase === 'reflecting' && currentQuestion && (() => {
                 const bgImage = getCategoryImage(currentQuestion.category);
                 return (
-                  <div className="relative rounded-2xl overflow-hidden flex flex-col gap-4">
+                  <div className="relative rounded-2xl overflow-hidden flex flex-col gap-4 animate-fade-in">
                     {/* Category background image — same as QuestionCard */}
                     {bgImage && (
                       <div
@@ -236,7 +254,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
                             : `✗ ${t('game.incorrect')}`}
                           {selectedAnswer === currentQuestion.correctIndex && (
                             <span className="ml-2 inline-block text-xs font-bold text-chronos-gold animate-float-up">
-                              +{XP_CORRECT} XP
+                              +{xpForCorrect} XP
                             </span>
                           )}
                         </p>

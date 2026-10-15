@@ -42,6 +42,12 @@
 | Los logros                                           | `src/lib/achievements.ts` + textos en `public/locales/*/common.json` → `achievements.<id>` |
 | El repaso diario de palabras y cuándo vuelve una palabra | `src/lib/vocab.ts` (`buildDailyReview`) y `src/lib/words.ts` (`isDue`) |
 | Sonidos y vibración                                  | `src/lib/sounds.ts` |
+| El ambiente sonoro de cada era (viento, mar, zumbido)  | `src/lib/ambience.ts` → `RECIPES` (una receta por id de era) |
+| Las preferencias de audio (sonido, ambiente, lectura automática, modo escucha) | `src/lib/prefs.ts` y `src/hooks/useFlag.ts` |
+| Las escenas que abren cada pregunta ("Athens, 430 BC…") | `src/data/scenes.ts` (≥ 4 por categoría; las revisa `catalog.test.ts`) |
+| El viaje por la historia (línea de tiempo y años explorados) | `src/pages/eras.tsx`, `src/lib/journey.ts` y `startYear`/`endYear` en `src/data/catalog.ts` → `ERAS` |
+| La tarjeta "Sigue tu viaje" de la home               | `src/components/ContinueCard.tsx` y `continueTarget` en `src/lib/journey.ts` |
+| El modo escucha (pregunta hablada y bonus de oído)   | `src/components/QuestionCard.tsx` (`listening`), `src/hooks/useGame.ts` y `XP_LISTEN` en `src/lib/progress.ts` |
 | La bienvenida de la primera vez                      | `src/components/Onboarding.tsx` |
 | Los tests                                            | `src/lib/__tests__/` (correr `npm test`) |
 | El número de preguntas por ronda                     | `src/hooks/useGame.ts` → constante `QUESTIONS_PER_ROUND`                                            |
@@ -57,7 +63,7 @@ Es la pantalla de bienvenida de la aplicación. Muestra el logo grande de Chrono
 
 ### `src/pages/eras.tsx` — Selección de era
 
-Es el primer paso del flujo de juego. Presenta una grilla de cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una sale de `ERAS` en `src/data/catalog.ts`. Hoy las cuatro eras tienen preguntas (12 categorías, 30 preguntas cada una): **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`), **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`) y **Era Moderna** (`industrial-revolution`, `world-wars`, `cold-war-space-race`). Las tres de la Era Moderna comparten la imagen `modern-era.jpg` hasta que tengan una propia.
+Es el primer paso del flujo de juego. Arriba muestra **tu viaje a través del tiempo** (barra de 3000 a. C. a hoy y los años de historia explorados, calculados en `src/lib/journey.ts`) y debajo una **línea de tiempo vertical**: un nodo por era, el camino se va llenando de dorado a medida que respondés preguntas y una marca "Estás aquí" señala la era en la que estás. Presenta cuatro eras históricas (Edad Antigua, Edad Media, Temprano Moderno, Era Moderna), cada una con imagen de fondo, ícono, nombre, rango de años, descripción y conteo de preguntas. Las eras que todavía no tienen preguntas muestran un badge "Próximamente" y al tocarse despliegan un aviso en vez de navegar. Las que sí tienen preguntas llevan al usuario a `/categories?era=<id>`. La lista de eras y qué categorías pertenecen a cada una sale de `ERAS` en `src/data/catalog.ts`. Hoy las cuatro eras tienen preguntas (12 categorías, 30 preguntas cada una): **Edad Antigua** (`ancient-egypt`, `ancient-greece`, `roman-empire`), **Edad Media** (`byzantine-empire`, `crusades-chivalry`, `vikings`), **Temprano Moderno** (`age-of-exploration`, `the-reformation`, `the-renaissance`) y **Era Moderna** (`industrial-revolution`, `world-wars`, `cold-war-space-race`). Las tres de la Era Moderna comparten la imagen `modern-era.jpg` hasta que tengan una propia.
 
 ### `src/pages/categories.tsx` — Selección de categoría
 
@@ -101,11 +107,11 @@ Renderiza el logo de la marca: un ícono SVG dorado con forma de reloj de arena 
 
 ### `src/components/QuestionCard.tsx`
 
-Muestra una pregunta con entre 2 y 4 opciones. El contenido se muestra **siempre en inglés**; la pastilla "ES" muestra el español debajo de la pregunta y de cada opción (red de seguridad). Muestra la dificultad y, si la pregunta lo tiene, el nivel de inglés (`A2`/`B1`/`B2`). Después de responder, la correcta se pone verde, la elegida incorrecta roja y las demás se desvanecen. La imagen de fondo sale de `getCategoryImage` (catálogo).
+Muestra una pregunta con entre 2 y 4 opciones. El contenido se muestra **siempre en inglés**; la pastilla "ES" muestra el español debajo de la pregunta y de cada opción (red de seguridad). Muestra la dificultad y, si la pregunta lo tiene, el nivel de inglés (`A2`/`B1`/`B2`). Después de responder, la correcta se pone verde, la elegida incorrecta roja y las demás se desvanecen. La imagen de fondo sale de `getCategoryImage` (catálogo). Arriba de la pregunta aparece una **escena** (`src/data/scenes.ts`) que ubica al jugador en la época; siempre es la misma para la misma pregunta. En **modo escucha** (botón 🎧 de la cabecera) la pregunta se lee sola, el texto queda oculto hasta tocar "Mostrar el texto" y una respuesta correcta sin haber mirado el texto da +5 XP (`XP_LISTEN`). La opción incorrecta elegida tiembla.
 
 ### `src/components/ReflectionPanel.tsx`
 
-Panel educativo que aparece después de responder. Tiene tres secciones (Contexto histórico, Meanwhile y Reflexión) definidas en el array `PANELS`, todas en inglés con su pastilla "ES". El audio usa `useNarration`: si existe el mp3 (`audio-manifest.json`) suena el mp3 con play/pausa/reinicio; si no, la voz del navegador frase por frase, solo con play/stop; si el dispositivo no tiene voz en inglés, el botón no aparece. Tocar o seleccionar una palabra la lee en voz alta (en inglés, o en español si está en un bloque `lang="es"`). Al final, el botón para seguir.
+Panel educativo que aparece después de responder. Tiene tres **tarjetas** que se deslizan (Contexto histórico, Meanwhile y Reflexión), definidas en el array `PANELS`: se cambia con las pestañas, las flechas o deslizando el dedo, todas en inglés con su pastilla "ES". Con **lectura automática** (botón 🎧, se recuerda) cada tarjeta se lee sola, resalta la frase que suena y pasa a la siguiente; mientras alguien habla el ambiente baja de volumen. El audio usa `useNarration`: si existe el mp3 (`audio-manifest.json`) suena el mp3 con play/pausa/reinicio; si no, la voz del navegador frase por frase, solo con play/stop; si el dispositivo no tiene voz en inglés, el botón no aparece. Tocar o seleccionar una palabra la lee en voz alta (en inglés, o en español si está en un bloque `lang="es"`). Al final, el botón para seguir.
 
 ### `src/components/ResultScreen.tsx`
 
@@ -184,6 +190,13 @@ Escucha el evento `beforeinstallprompt` del navegador (Chrome/Edge en Android), 
 Reproduce un texto por vez. `modeFor(mp3Id)` devuelve `'mp3'` si el archivo está en `src/data/audio-manifest.json`, `'voice'` si el dispositivo tiene una voz en inglés, o `null` (sin audio). El manifiesto se genera solo con `scripts/build-audio-manifest.js` antes de `npm run dev` y `npm run build`. Los mp3 vigentes están en `public/audio/v2/`; hoy no hay ninguno, así que se usa la voz del navegador. (Los mp3 anteriores a la reescritura a nivel B1 se borraron; siguen en el historial de git.) Si un mp3 falla al cargar, cae a la voz del navegador. La voz del navegador lee frase por frase (`splitSentences`) para que no se corte en Android.
 
 ---
+
+## Inmersión: ambiente, escenas y modo escucha
+
+- **Ambiente sonoro** (`src/lib/ambience.ts`): se genera con Web Audio (sin archivos), una receta por era, con fundido de entrada y salida. Lo reproduce `AmbientLayer` en la pantalla de juego y se apaga con 🎵 o con el botón de sonido. Para cambiar cómo suena una era, editá su receta en `RECIPES`.
+- **Imágenes de la era moderna**: `industrial-revolution`, `world-wars` y `cold-war-space-race` usan ilustraciones SVG propias (`public/images/*.svg`). Para usar una foto, copiala a `public/images/` y cambiá la ruta en `CATEGORIES`.
+- **Preferencias**: todas las casillas on/off de audio viven en `src/lib/prefs.ts`; en un componente se usan con `useFlag('chronos_…')` y quedan sincronizadas.
+- **Qué falta probar a oído**: el ambiente y la voz dependen del dispositivo; conviene escucharlos en el celular.
 
 ## Cómo agregar preguntas a una categoría existente
 

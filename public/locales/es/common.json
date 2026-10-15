@@ -6,7 +6,9 @@
     "multiplayerButton": "Multijugador",
     "languageLabel": "Idioma",
     "words": "Palabras",
-    "progress": "Progreso"
+    "progress": "Progreso",
+    "continueLabel": "Sigue tu viaje",
+    "chooseEra": "Elegir otra era"
   },
   "eras": {
     "title": "Elige una Era",
@@ -65,7 +67,11 @@
     "reflectionTitle": "Reflexiona sobre esto…",
     "continue": "Siguiente Pregunta",
     "finish": "Ver Resultados",
-    "seeMore": "Ver más"
+    "autoRead": "Lectura automática",
+    "on": "Sí",
+    "off": "No",
+    "prev": "Tarjeta anterior",
+    "next": "Tarjeta siguiente"
   },
   "results": {
     "title": "Puntaje Final",
@@ -359,5 +365,26 @@
   "userMenu": {
     "stats": "Mis estadísticas",
     "signOut": "Cerrar sesión"
+  },
+  "listen": {
+    "modeOn": "El modo escucha está activado (toca para desactivarlo)",
+    "modeOff": "El modo escucha está desactivado (toca para oír las preguntas)",
+    "prompt": "Escucha la pregunta y elige tu respuesta",
+    "playing": "Escuchando…",
+    "showText": "Mostrar el texto",
+    "replay": "Escuchar otra vez"
+  },
+  "ambience": {
+    "on": "Quitar el sonido ambiente",
+    "off": "Poner el sonido ambiente"
+  },
+  "journey": {
+    "title": "Tu viaje a través del tiempo",
+    "explored": "Ya exploraste unos {{years}} años de historia.",
+    "begin": "Responde tu primera pregunta para empezar el viaje.",
+    "startLabel": "3000 a. C.",
+    "todayLabel": "Hoy",
+    "here": "Estás aquí",
+    "startHere": "Empieza aquí"
   }
 }

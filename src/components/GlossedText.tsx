@@ -4,6 +4,7 @@ import { useMemo, useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import type { VocabEntry } from '@/types';
 import { splitByVocab } from '@/lib/vocab';
+import { splitByRange, type TextSpan } from '@/lib/speech';
 import { speakWord } from '@/lib/speakWord';
 
 interface Props {
@@ -12,6 +13,8 @@ interface Props {
   /** Called with the glossary entry each time the player taps one of its words. */
   onWordTap?: (entry: VocabEntry) => void;
   className?: string;
+  /** Part of `text` to highlight (the sentence being read aloud). */
+  highlight?: TextSpan | null;
 }
 
 /**
@@ -19,10 +22,19 @@ interface Props {
  * tapping one speaks it and shows its Spanish translation under the paragraph.
  * Without a glossary it renders plain text, so it can replace any `<p lang="en">`.
  */
-export default function GlossedText({ text, vocab, onWordTap, className = '' }: Props) {
+export default function GlossedText({ text, vocab, onWordTap, className = '', highlight }: Props) {
   const { t } = useTranslation('common');
   const [active, setActive] = useState<VocabEntry | null>(null);
   const segments = useMemo(() => splitByVocab(text, vocab), [text, vocab]);
+  // Where each segment starts inside `text`, to place the highlight.
+  const offsets = useMemo(() => {
+    let position = 0;
+    return segments.map(segment => {
+      const start = position;
+      position += segment.text.length;
+      return start;
+    });
+  }, [segments]);
 
   const handleTap = (entry: VocabEntry) => {
     const same = active?.term === entry.term;
@@ -34,8 +46,18 @@ export default function GlossedText({ text, vocab, onWordTap, className = '' }: 
   return (
     <div className="flex flex-col gap-2">
       <p lang="en" className={className}>
-        {segments.map((segment, index) =>
-          segment.entry ? (
+        {segments.map((segment, index) => {
+          const parts = splitByRange(segment.text, offsets[index], highlight);
+          const content = parts.map((part, i) =>
+            part.inside ? (
+              <span key={i} className="rounded bg-chronos-gold/20 text-chronos-gold-light box-decoration-clone transition-colors">
+                {part.text}
+              </span>
+            ) : (
+              <span key={i}>{part.text}</span>
+            ),
+          );
+          return segment.entry ? (
             <button
               key={index}
               type="button"
@@ -45,12 +67,12 @@ export default function GlossedText({ text, vocab, onWordTap, className = '' }: 
                 active?.term === segment.entry.term ? 'text-chronos-gold' : ''
               }`}
             >
-              {segment.text}
+              {content}
             </button>
           ) : (
-            <span key={index}>{segment.text}</span>
-          ),
-        )}
+            <span key={index}>{content}</span>
+          );
+        })}
       </p>
 
       {active && (

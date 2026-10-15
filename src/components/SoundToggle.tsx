@@ -1,20 +1,16 @@
 // Botón para silenciar o activar los sonidos del juego.
 
-import { useEffect, useState } from 'react';
 import { useTranslation } from 'next-i18next';
-import { isSoundOn, playCorrect, setSoundOn } from '@/lib/sounds';
+import { useFlag } from '@/hooks/useFlag';
+import { playCorrect } from '@/lib/sounds';
 
 export default function SoundToggle({ className = '' }: { className?: string }) {
   const { t } = useTranslation('common');
-  const [on, setOn] = useState(true);
-
-  useEffect(() => setOn(isSoundOn()), []);
+  const [on, setOn] = useFlag('chronos_sound');
 
   const toggle = () => {
-    const next = !on;
-    setOn(next);
-    setSoundOn(next);
-    if (next) playCorrect();
+    setOn(!on);
+    if (!on) playCorrect();
   };
 
   const label = on ? t('sound.mute') : t('sound.unmute');

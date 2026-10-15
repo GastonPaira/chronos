@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import type { Question, GameState, GamePhase } from '@/types';
 import { buildRound } from '@/lib/questions';
-import { seenSet } from '@/lib/progress';
+import { seenSet, XP_CORRECT, XP_LISTEN } from '@/lib/progress';
 import { playCorrect, playWrong } from '@/lib/sounds';
 import { useStreak, type PlayResult } from './useStreak';
 import { useStats } from './useStats';
@@ -30,6 +30,8 @@ export interface LessonSummary {
 
 /** Options for `useGame`. */
 export interface UseGameOptions {
+  /** Listening mode: right answers given without looking at the question text earn the ear bonus. */
+  listening?: boolean;
   /** `false` until the router query is available; the round is built after that. */
   ready?: boolean;
 }
@@ -58,16 +60,20 @@ export interface UseGameOptions {
  * - `nextQuestion()` – advances to the next question or transitions to `'finished'`.
  * - `finishGame()` – immediately transitions to `'finished'` (used by the skip button).
  * - `resetGame()` – resets to a fresh shuffled round without unmounting the component.
+ * - `revealText()` – the player asked to see a question's text in listening mode (no ear bonus for that question).
+ * - `xpForCorrect` – XP a right answer is worth right now, ear bonus included.
  * - `playResult` – the streak outcome returned by `registerPlay` once the game finishes; `null` while playing.
  * - `streak` – the daily streak, already updated once the lesson finishes.
  * - `lesson` – XP before and after the lesson and whether it completed the daily goal; `null` until it finishes.
  */
-export function useGame(allQuestions: Question[], { ready = true }: UseGameOptions = {}) {
+export function useGame(allQuestions: Question[], { ready = true, listening = false }: UseGameOptions = {}) {
   const { registerPlay, currentStreak } = useStreak();
   const { recordAnswer, recordSessionEnd } = useStats();
   const { recordAnswer: recordProgressAnswer, completeLesson } = useProgress();
   const [playResult, setPlayResult] = useState<PlayResult | null>(null);
   const [lesson, setLesson] = useState<LessonSummary | null>(null);
+  // The player asked to see the text of the current question while in listening mode.
+  const [revealed, setRevealed] = useState(false);
   const startXp = useRef(0);
   const hasRegistered = useRef(false);
   const lastRecordedIndex = useRef(-1);
@@ -79,6 +85,7 @@ export function useGame(allQuestions: Question[], { ready = true }: UseGameOptio
     lastRecordedIndex.current = -1;
     setPlayResult(null);
     setLesson(null);
+    setRevealed(false);
     // Questions the player has not answered yet come first, then the ones they missed.
     const progress = getProgress();
     const history = progress ? { seen: seenSet(progress), missed: new Set(progress.missed) } : undefined;
@@ -110,12 +117,12 @@ export function useGame(allQuestions: Question[], { ready = true }: UseGameOptio
           difficulty: q.difficulty,
           isCorrect: state.isCorrect,
         });
-        recordProgressAnswer({ questionId: q.id, categoryId: q.category, correct: state.isCorrect });
+        recordProgressAnswer({ questionId: q.id, categoryId: q.category, correct: state.isCorrect, listened: listening && !revealed });
         if (state.isCorrect) playCorrect();
         else playWrong();
       }
     }
-  }, [state.phase, state.currentIndex, state.isCorrect, state.questions, recordAnswer, recordProgressAnswer]);
+  }, [state.phase, state.currentIndex, state.isCorrect, state.questions, recordAnswer, recordProgressAnswer, listening, revealed]);
 
   // Register streak and session stats exactly once when the game finishes.
   useEffect(() => {
@@ -154,6 +161,7 @@ export function useGame(allQuestions: Question[], { ready = true }: UseGameOptio
    * No-ops if the phase is not `'reflecting'`.
    */
   const nextQuestion = useCallback(() => {
+    setRevealed(false);
     setState((prev) => {
       if (prev.phase !== 'reflecting') return prev;
       const nextIndex = prev.currentIndex + 1;
@@ -184,6 +192,12 @@ export function useGame(allQuestions: Question[], { ready = true }: UseGameOptio
    */
   const resetGame = startRound;
 
+  /** The player asked to see the text of a question in listening mode: no ear bonus this time. */
+  const revealText = useCallback(() => setRevealed(true), []);
+
+  /** XP the answer on screen is worth when right (the ear bonus included). */
+  const xpForCorrect = XP_CORRECT + (listening && !revealed ? XP_LISTEN : 0);
+
   return {
     ...state,
     currentQuestion,
@@ -193,6 +207,8 @@ export function useGame(allQuestions: Question[], { ready = true }: UseGameOptio
     nextQuestion,
     finishGame,
     resetGame,
+    revealText,
+    xpForCorrect,
     playResult,
     lesson,
     streak: currentStreak,

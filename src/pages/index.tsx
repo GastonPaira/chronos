@@ -2,6 +2,13 @@ import type { GetStaticProps } from 'next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
 import { useRouter } from 'next/router';
+import { useMemo } from 'react';
+import type { Locale, Question } from '@/types';
+import questionsData from '@/data/questions';
+import { ERAS } from '@/data/catalog';
+import ContinueCard from '@/components/ContinueCard';
+import { continueTarget } from '@/lib/journey';
+import { buildCategories } from '@/lib/questions';
 import ChronosLogo from '@/components/ChronosLogo';
 import InstallBanner from '@/components/InstallBanner';
 import LanguageSelector from '@/components/LanguageSelector';
@@ -40,9 +47,16 @@ function Tile({ icon, label, badge, onClick }: TileProps) {
 }
 
 export default function Home() {
-  const { t } = useTranslation('common');
+  const { t, i18n } = useTranslation('common');
   const router = useRouter();
   const { progress, markOnboarded } = useProgress();
+  const locale = (i18n.language as Locale) ?? 'en';
+  const categories = useMemo(() => buildCategories(questionsData as Question[]), []);
+  const target = useMemo(() => {
+    const totals = Object.fromEntries(categories.map(cat => [cat.id, cat.count]));
+    return continueTarget(ERAS, progress, totals);
+  }, [categories, progress]);
+  const targetLabel = categories.find(cat => cat.id === target?.categoryId)?.label[locale] ?? '';
   const { store } = useWords();
   const wordsDue = store ? dueCount(store, toLocalDateKey()) : 0;
 
@@ -59,7 +73,7 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 py-12 relative overflow-hidden">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-chronos-bg px-6 pt-20 pb-12 relative overflow-hidden">
       {/* Background image */}
       <div
         className="pointer-events-none absolute inset-0 bg-cover bg-center"
@@ -104,13 +118,18 @@ export default function Home() {
 
         <DailyGoalCard />
 
-        {/* Play button */}
+        {/* Continue where you left off, or start playing */}
+        {target && <ContinueCard target={target} label={targetLabel} />}
         <button
           onClick={() => router.push('/eras')}
-          className="group w-full rounded-2xl bg-chronos-gold px-8 py-5 text-chronos-bg font-bold text-lg tracking-widest uppercase transition-all duration-200 hover:bg-chronos-gold-light hover:shadow-lg hover:shadow-chronos-gold/20 active:scale-[0.97]"
+          className={`group w-full rounded-2xl font-bold tracking-widest uppercase transition-all duration-200 active:scale-[0.97] ${
+            target
+              ? 'border border-chronos-gold/40 bg-black/30 px-6 py-3 text-sm text-chronos-gold hover:bg-chronos-gold/10'
+              : 'bg-chronos-gold px-8 py-5 text-lg text-chronos-bg hover:bg-chronos-gold-light hover:shadow-lg hover:shadow-chronos-gold/20'
+          }`}
         >
           <span className="flex items-center justify-center gap-3">
-            {t('home.playButton')}
+            {target ? t('home.chooseEra') : t('home.playButton')}
             <span className="transition-transform duration-200 group-hover:translate-x-1">→</span>
           </span>
         </button>

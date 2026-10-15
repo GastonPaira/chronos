@@ -8,6 +8,7 @@ import {
   XP_CORRECT,
   XP_GOAL,
   XP_LESSON,
+  XP_LISTEN,
   XP_PERFECT,
   XP_WORD,
   XP_WRONG,
@@ -170,6 +171,23 @@ describe('achievements', () => {
     const fresh = newAchievements(ctx(saved));
     expect(fresh).toContain('perfect_lesson');
     expect(fresh).not.toContain('first_lesson');
+  });
+});
+
+describe('listening mode and continue', () => {
+  const answer = { questionId: 'q1', categoryId: 'vikings', correct: true };
+
+  it('adds the ear bonus only to right answers given by ear', () => {
+    const start = makeEmptyProgress('2026-10-15');
+    expect(applyAnswer(start, answer).xp).toBe(XP_CORRECT);
+    expect(applyAnswer(start, { ...answer, listened: true }).xp).toBe(XP_CORRECT + XP_LISTEN);
+    expect(applyAnswer(start, { ...answer, correct: false, listened: true }).xp).toBe(XP_WRONG);
+  });
+
+  it('remembers the category of the last answer', () => {
+    const start = makeEmptyProgress('2026-10-15');
+    expect(start.lastCategory).toBeUndefined();
+    expect(applyAnswer(start, answer).lastCategory).toBe('vikings');
   });
 });
 

@@ -32,8 +32,8 @@ export function AuthButton() {
   return (
     <button
       onClick={signInWithGoogle}
-      className="flex items-center gap-2 px-4 py-2 rounded-lg border border-chronos-border
-                 text-sm text-chronos-text hover:border-chronos-gold transition-colors"
+      className="flex items-center gap-2 whitespace-nowrap px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg border border-chronos-border
+                 text-xs sm:text-sm text-chronos-text hover:border-chronos-gold transition-colors"
     >
       <svg width="18" height="18" viewBox="0 0 48 48">
         <path fill="#FFC107" d="M43.6 20H24v8h11.3C33.6 33.1 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3 0 5.8 1.1 7.9 3l5.7-5.7C34.1 6.5 29.3 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20c11 0 20-8 20-20 0-1.3-.1-2.7-.4-4z"/>

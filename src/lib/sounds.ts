@@ -1,27 +1,20 @@
 // Sonidos y vibración del juego. Se generan con la Web Audio API (no hay archivos de audio) y se pueden silenciar.
 
-const SOUND_KEY = 'chronos_sound';
+import { readFlag, writeFlag } from '@/lib/prefs';
 
 let audioContext: AudioContext | null = null;
 
 export function isSoundOn(): boolean {
   if (typeof window === 'undefined') return false;
-  try {
-    return window.localStorage.getItem(SOUND_KEY) !== 'off';
-  } catch {
-    return true;
-  }
+  return readFlag('chronos_sound');
 }
 
 export function setSoundOn(on: boolean): void {
-  try {
-    window.localStorage.setItem(SOUND_KEY, on ? 'on' : 'off');
-  } catch {
-    // Storage blocked: the choice just won't be remembered.
-  }
+  writeFlag('chronos_sound', on);
 }
 
-function context(): AudioContext | null {
+/** The shared Web Audio context (created on first use, resumed if the browser suspended it). */
+export function context(): AudioContext | null {
   if (typeof window === 'undefined') return null;
   const Ctor = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
   if (!Ctor) return null;

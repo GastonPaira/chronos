@@ -78,8 +78,8 @@ export function getDominantDifficulty(difficulties: readonly string[]): string {
   return Object.entries(counts).sort((a, b) => b[1] - a[1])[0]?.[0] ?? 'medium';
 }
 
-/** Small, stable string hash (FNV-1a) used to pick the daily question. */
-function hashString(value: string): number {
+/** Small, stable string hash (FNV-1a) used to pick the daily question and the scene of a question. */
+export function hashString(value: string): number {
   let hash = 0x811c9dc5;
   for (let i = 0; i < value.length; i++) {
     hash ^= value.charCodeAt(i);

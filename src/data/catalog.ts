@@ -8,6 +8,10 @@ export interface EraDef {
   image: string;
   /** Category slugs that belong to this era, in display order. */
   categoryIds: string[];
+  /** First year of the era (negative = BC). */
+  startYear: number;
+  /** Last year of the era; `null` means "until today". */
+  endYear: number | null;
 }
 
 /** Visual metadata for a question category. Labels come from the questions' `category_label`. */
@@ -23,24 +27,32 @@ export const ERAS: EraDef[] = [
     icon: '𓂀',
     image: '/images/ancient-age.jpg',
     categoryIds: ['ancient-egypt', 'ancient-greece', 'roman-empire'],
+    startYear: -3000,
+    endYear: 500,
   },
   {
     id: 'middle-ages',
     icon: '⚜️',
     image: '/images/middle-ages.jpg',
     categoryIds: ['byzantine-empire', 'crusades-chivalry', 'vikings'],
+    startYear: 500,
+    endYear: 1500,
   },
   {
     id: 'early-modern',
     icon: '🗺️',
     image: '/images/early-modern.jpg',
     categoryIds: ['age-of-exploration', 'the-reformation', 'the-renaissance'],
+    startYear: 1500,
+    endYear: 1800,
   },
   {
     id: 'modern-era',
     icon: '🌐',
     image: '/images/modern-era.jpg',
     categoryIds: ['industrial-revolution', 'world-wars', 'cold-war-space-race'],
+    startYear: 1800,
+    endYear: null,
   },
 ];
 
@@ -54,10 +66,10 @@ export const CATEGORIES: Record<string, CategoryDef> = {
   'age-of-exploration': { id: 'age-of-exploration', icon: '🧭', image: '/images/age-of-exploration.jpg' },
   'the-reformation':    { id: 'the-reformation',    icon: '📜', image: '/images/the-reformation.jpg' },
   'the-renaissance':    { id: 'the-renaissance',    icon: '🎨', image: '/images/the-renaissance.jpg' },
-  // The three modern-era categories share the era image until each gets its own picture.
-  'industrial-revolution': { id: 'industrial-revolution', icon: '🏭', image: '/images/modern-era.jpg' },
-  'world-wars':         { id: 'world-wars',         icon: '🪖', image: '/images/modern-era.jpg' },
-  'cold-war-space-race': { id: 'cold-war-space-race', icon: '🚀', image: '/images/modern-era.jpg' },
+  // The three modern-era categories use drawn illustrations (SVG). To use a photo instead, drop a .jpg in public/images/ and change the path.
+  'industrial-revolution': { id: 'industrial-revolution', icon: '🏭', image: '/images/industrial-revolution.svg' },
+  'world-wars':         { id: 'world-wars',         icon: '🪖', image: '/images/world-wars.svg' },
+  'cold-war-space-race': { id: 'cold-war-space-race', icon: '🚀', image: '/images/cold-war-space-race.svg' },
 };
 
 const DEFAULT_ICON = '📜';
@@ -72,6 +84,11 @@ export function getCategoryImage(categoryId: string): string | undefined {
 
 export function getEra(eraId: string | undefined): EraDef | undefined {
   return ERAS.find(era => era.id === eraId);
+}
+
+/** The era a category belongs to. */
+export function getEraOfCategory(categoryId: string | undefined): EraDef | undefined {
+  return ERAS.find(era => categoryId !== undefined && era.categoryIds.includes(categoryId));
 }
 
 /** Eras that have at least one category, i.e. that can be played. */

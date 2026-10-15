@@ -6,7 +6,9 @@
     "multiplayerButton": "Multiplayer",
     "languageLabel": "Language",
     "words": "Words",
-    "progress": "Progress"
+    "progress": "Progress",
+    "continueLabel": "Continue your journey",
+    "chooseEra": "Choose another era"
   },
   "eras": {
     "title": "Choose an Era",
@@ -65,7 +67,11 @@
     "reflectionTitle": "Reflect on this…",
     "continue": "Next Question",
     "finish": "See Results",
-    "seeMore": "See more"
+    "autoRead": "Auto-read",
+    "on": "On",
+    "off": "Off",
+    "prev": "Previous card",
+    "next": "Next card"
   },
   "results": {
     "title": "Final Score",
@@ -359,5 +365,26 @@
   "userMenu": {
     "stats": "My stats",
     "signOut": "Sign out"
+  },
+  "listen": {
+    "modeOn": "Listening mode is on (tap to turn it off)",
+    "modeOff": "Listening mode is off (tap to hear the questions)",
+    "prompt": "Listen to the question, then choose your answer",
+    "playing": "Listening…",
+    "showText": "Show the text",
+    "replay": "Listen again"
+  },
+  "ambience": {
+    "on": "Turn ambient sound off",
+    "off": "Turn ambient sound on"
+  },
+  "journey": {
+    "title": "Your journey through time",
+    "explored": "You have explored about {{years}} years of history.",
+    "begin": "Answer your first question to start your journey.",
+    "startLabel": "3000 BC",
+    "todayLabel": "Today",
+    "here": "You are here",
+    "startHere": "Start here"
   }
 }
