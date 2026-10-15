@@ -37,8 +37,6 @@ interface Props {
 export default function GamePage({ categoryQuestions, categoryId }: Props) {
   const { t } = useTranslation('common');
   const router = useRouter();
-  // ?story=antikythera → the round opens with that blog story's questions.
-  const storyId = typeof router.query.story === 'string' ? router.query.story : undefined;
 
   const {
     questions,
@@ -56,7 +54,7 @@ export default function GamePage({ categoryQuestions, categoryId }: Props) {
     playResult,
     lesson,
     streak: currentStreak,
-  } = useGame(categoryQuestions, { storyId, ready: router.isReady });
+  } = useGame(categoryQuestions, { ready: router.isReady });
 
   // End-of-round vocabulary review: built once when the round finishes (null = not built yet).
   const { store: wordStore, learned: learnedWords, recordReview } = useWords();

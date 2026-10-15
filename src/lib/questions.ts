@@ -30,29 +30,23 @@ export function shuffleOptions(question: Question, random: RandomFn = Math.rando
 
 /**
  * Builds a single-player round.
- * When `storyId` is given, that story's questions come first (in random order),
- * followed by the rest of the pool, so a reader arriving from a blog article
- * starts with what they just read.
  * With `history`, questions the player has not answered yet come first, then the ones they got
  * wrong last time, then the rest, so a category is covered before anything repeats.
  */
 export function buildRound(
   pool: readonly Question[],
   size: number,
-  storyId?: string,
   random: RandomFn = Math.random,
   history?: { seen: ReadonlySet<string>; missed: ReadonlySet<string> },
 ): Question[] {
-  const fromStory = storyId ? pool.filter(q => q.story === storyId) : [];
-  const rest = storyId ? pool.filter(q => q.story !== storyId) : [...pool];
-  const orderedRest = history
+  const ordered = history
     ? [
-        ...shuffle(rest.filter(q => !history.seen.has(q.id)), random),
-        ...shuffle(rest.filter(q => history.seen.has(q.id) && history.missed.has(q.id)), random),
-        ...shuffle(rest.filter(q => history.seen.has(q.id) && !history.missed.has(q.id)), random),
+        ...shuffle(pool.filter(q => !history.seen.has(q.id)), random),
+        ...shuffle(pool.filter(q => history.seen.has(q.id) && history.missed.has(q.id)), random),
+        ...shuffle(pool.filter(q => history.seen.has(q.id) && !history.missed.has(q.id)), random),
       ]
-    : shuffle(rest, random);
-  return [...shuffle(fromStory, random), ...orderedRest]
+    : shuffle(pool, random);
+  return ordered
     .slice(0, size)
     .map(q => shuffleOptions(q, random));
 }
@@ -96,16 +90,10 @@ function hashString(value: string): number {
 
 /**
  * Picks the question of the day: everyone sees the same question on the same date.
- * With `storyId`, it only picks among that story's questions (used inside a blog article).
  * Returns `null` when there is nothing to pick from.
  */
-export function pickDailyQuestion(
-  questions: readonly Question[],
-  dateKey: string,
-  storyId?: string,
-): Question | null {
-  const pool = storyId ? questions.filter(q => q.story === storyId) : questions;
-  if (pool.length === 0) return null;
-  const sorted = [...pool].sort((a, b) => a.id.localeCompare(b.id));
-  return sorted[hashString(`${dateKey}:${storyId ?? 'all'}`) % sorted.length];
+export function pickDailyQuestion(questions: readonly Question[], dateKey: string): Question | null {
+  if (questions.length === 0) return null;
+  const sorted = [...questions].sort((a, b) => a.id.localeCompare(b.id));
+  return sorted[hashString(`${dateKey}:all`) % sorted.length];
 }

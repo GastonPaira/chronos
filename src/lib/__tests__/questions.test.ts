@@ -13,7 +13,7 @@ function seeded(seed: number) {
 
 const ls = (text: string) => ({ en: text, es: text });
 
-function question(id: string, story?: string, optionCount = 3): Question {
+function question(id: string, optionCount = 3): Question {
   return {
     id,
     category: 'ancient-greece',
@@ -25,7 +25,6 @@ function question(id: string, story?: string, optionCount = 3): Question {
     explanation: ls(''),
     meanwhile: ls(''),
     reflection: ls(''),
-    story,
   };
 }
 
@@ -33,7 +32,7 @@ describe('shuffleOptions', () => {
   it('keeps pointing at the right answer after shuffling 2 to 4 options', () => {
     for (const count of [2, 3, 4]) {
       for (let seed = 1; seed <= 20; seed++) {
-        const original = question('q', undefined, count);
+        const original = question('q', count);
         const shuffled = shuffleOptions(original, seeded(seed));
         expect(shuffled.options).toHaveLength(count);
         expect(shuffled.options[shuffled.correctIndex]).toEqual(original.options[0]);
@@ -43,26 +42,21 @@ describe('shuffleOptions', () => {
 });
 
 describe('buildRound', () => {
-  const pool = [
-    question('gr-001'), question('gr-002'), question('gr-003'),
-    question('gr-006', 'antikythera'), question('gr-007', 'antikythera'),
-  ];
+  const pool = [question('gr-001'), question('gr-002'), question('gr-003'), question('gr-006'), question('gr-007')];
 
-  it('opens the round with the story questions when a story is given', () => {
-    const round = buildRound(pool, 10, 'antikythera', seeded(3));
-    expect(round.slice(0, 2).every(q => q.story === 'antikythera')).toBe(true);
-    expect(round).toHaveLength(5);
+  it('uses the whole pool when it is smaller than the round', () => {
+    expect(buildRound(pool, 10, seeded(3))).toHaveLength(5);
   });
 
   it('caps the round size and never repeats a question', () => {
-    const round = buildRound(pool, 3, undefined, seeded(7));
+    const round = buildRound(pool, 3, seeded(7));
     expect(round).toHaveLength(3);
     expect(new Set(round.map(q => q.id)).size).toBe(3);
   });
 });
 
 describe('pickDailyQuestion', () => {
-  const pool = [question('a'), question('b'), question('c', 'antikythera'), question('d', 'antikythera')];
+  const pool = [question('a'), question('b'), question('c'), question('d')];
 
   it('gives everyone the same question on the same date', () => {
     const first = pickDailyQuestion(pool, '2026-10-09');
@@ -70,13 +64,7 @@ describe('pickDailyQuestion', () => {
     expect(again?.id).toBe(first?.id);
   });
 
-  it('only picks from the story inside an article', () => {
-    for (const day of ['2026-10-09', '2026-10-10', '2026-10-11', '2026-10-12']) {
-      expect(pickDailyQuestion(pool, day, 'antikythera')?.story).toBe('antikythera');
-    }
-  });
-
-  it('returns null when the story has no questions', () => {
-    expect(pickDailyQuestion(pool, '2026-10-09', 'unknown')).toBeNull();
+  it('returns null when there are no questions', () => {
+    expect(pickDailyQuestion([], '2026-10-09')).toBeNull();
   });
 });

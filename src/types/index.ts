@@ -23,7 +23,6 @@ export interface LocalizedString {
  * @property meanwhile - "Meanwhile in the world" sidebar shown post-answer.
  * @property reflection - Open-ended reflection prompt shown post-answer.
  * @property level - Optional CEFR English level of the text (A2, B1, B2).
- * @property story - Optional id of a blog story in `STORIES` (src/data/catalog.ts).
  * @property vocab - Optional glossary of 3–5 key English words used in the question's texts.
  */
 export interface Question {
@@ -38,7 +37,6 @@ export interface Question {
   meanwhile: LocalizedString;
   reflection: LocalizedString;
   level?: EnglishLevel;
-  story?: string;
   vocab?: VocabEntry[];
 }
 

@@ -34,8 +34,6 @@
 | Los metadatos del manifest (nombre, tema, íconos)    | `src/pages/_document.tsx` y `public/manifest.json`                                                  |
 | Cómo se construye el cliente de Supabase             | `src/lib/supabase.ts`                                                                                |
 | El audio (mp3 o voz del navegador)                   | `src/hooks/useNarration.ts` y `src/lib/speech.ts` (`pickEnglishVoice`, `splitSentences`) |
-| Vincular preguntas con un artículo del blog          | `src/data/catalog.ts` → `STORIES` + campo `"story"` en cada pregunta (ver **Cómo vincular un artículo del blog**) |
-| La pregunta del día embebible en el blog             | `src/pages/embed/daily.tsx` y `blog/snippets-wordpress.html` |
 | El glosario de una pregunta (palabras que se traducen al tocar y entran al repaso) | Campo `"vocab"` en el JSON de la pregunta (ver **Cómo agregar vocabulario**) |
 | El repaso de palabras al final de la ronda           | `src/lib/vocab.ts` (`buildReview`) y `src/components/VocabReview.tsx` |
 | Cuándo una palabra cuenta como aprendida             | `src/lib/words.ts` → `LEARNED_STREAK` |
@@ -87,7 +85,7 @@ Página transitoria que solo se visita automáticamente después de que Google r
 
 ### `src/pages/_app.tsx` — Wrapper global
 
-Envuelve toda la aplicación con `AuthProvider` y con la configuración de i18n de `next-i18next`. **Ya no hay login obligatorio**: cualquiera puede jugar sin cuenta (el progreso queda en el dispositivo). Google solo se pide para el versus, en `/multiplayer` y `/vs/[matchId]`. Las rutas `/auth/callback` y `/embed/daily` se renderizan sin el botón del mapa. También registra el service worker de la PWA en producción.
+Envuelve toda la aplicación con `AuthProvider` y con la configuración de i18n de `next-i18next`. **Ya no hay login obligatorio**: cualquiera puede jugar sin cuenta (el progreso queda en el dispositivo). Google solo se pide para el versus, en `/multiplayer` y `/vs/[matchId]`. También registra el service worker de la PWA en producción.
 
 ### `src/pages/_document.tsx` — Document HTML
 
@@ -103,11 +101,11 @@ Renderiza el logo de la marca: un ícono SVG dorado con forma de reloj de arena 
 
 ### `src/components/QuestionCard.tsx`
 
-Muestra una pregunta con entre 2 y 4 opciones. El contenido se muestra **siempre en inglés**; la pastilla "ES" muestra el español debajo de la pregunta y de cada opción (red de seguridad). Muestra la dificultad y, si la pregunta lo tiene, el nivel de inglés (`A2`/`B1`/`B2`). Después de responder, la correcta se pone verde, la elegida incorrecta roja y las demás se desvanecen. La imagen de fondo sale de `getCategoryImage` (catálogo). Con `compact` se usa en el embed del blog.
+Muestra una pregunta con entre 2 y 4 opciones. El contenido se muestra **siempre en inglés**; la pastilla "ES" muestra el español debajo de la pregunta y de cada opción (red de seguridad). Muestra la dificultad y, si la pregunta lo tiene, el nivel de inglés (`A2`/`B1`/`B2`). Después de responder, la correcta se pone verde, la elegida incorrecta roja y las demás se desvanecen. La imagen de fondo sale de `getCategoryImage` (catálogo).
 
 ### `src/components/ReflectionPanel.tsx`
 
-Panel educativo que aparece después de responder. Tiene tres secciones (Contexto histórico, Meanwhile y Reflexión) definidas en el array `PANELS`, todas en inglés con su pastilla "ES". El audio usa `useNarration`: si existe el mp3 (`audio-manifest.json`) suena el mp3 con play/pausa/reinicio; si no, la voz del navegador frase por frase, solo con play/stop; si el dispositivo no tiene voz en inglés, el botón no aparece. Tocar o seleccionar una palabra la lee en voz alta (en inglés, o en español si está en un bloque `lang="es"`). Si la pregunta tiene `story`, muestra el botón **"Read the full story"** con link al artículo (con UTM). Al final, el botón para seguir.
+Panel educativo que aparece después de responder. Tiene tres secciones (Contexto histórico, Meanwhile y Reflexión) definidas en el array `PANELS`, todas en inglés con su pastilla "ES". El audio usa `useNarration`: si existe el mp3 (`audio-manifest.json`) suena el mp3 con play/pausa/reinicio; si no, la voz del navegador frase por frase, solo con play/stop; si el dispositivo no tiene voz en inglés, el botón no aparece. Tocar o seleccionar una palabra la lee en voz alta (en inglés, o en español si está en un bloque `lang="es"`). Al final, el botón para seguir.
 
 ### `src/components/ResultScreen.tsx`
 
@@ -237,7 +235,7 @@ Reproduce un texto por vez. `modeFor(mp3Id)` devuelve `'mp3'` si el archivo est�
    - El `category` y `category_label` deben ser **idénticos** a los de las otras preguntas del mismo archivo.
    - `options` puede tener entre 2 y 4 opciones (las 360 preguntas actuales tienen 3). `correctIndex` es la posición de la correcta (0 = la primera). En el juego se mezclan solas.
    - Todas las preguntas actuales tienen `"level"` (`A2` las fáciles, `B1` el resto) y `"vocab"` (ver **Cómo agregar vocabulario**); el test `catalog.test.ts` lo exige.
-   - Opcional: `"level": "B1"` (nivel de inglés: `A2`, `B1` o `B2`) y `"story": "antikythera"` (id de una historia del blog en `STORIES`).
+   - Opcional: `"level": "B1"` (nivel de inglés: `A2`, `B1` o `B2`).
    - El audio es opcional: si no hay mp3, se usa la voz del navegador.
    - Los textos de `explanation`, `meanwhile` y `reflection` deben estar en ambos idiomas.
 
@@ -313,24 +311,6 @@ Sin embargo, **si la era también es nueva** (no existe todavía en la app), sí
 No hace falta generar mp3: si una pregunta no tiene, se lee con la voz del navegador. Si algún día querés generarlos, `node scripts/generate-audio.js` crea los de todas las preguntas en `public/audio/v2/` (`{id}_{explanation|meanwhile|reflection}_en.mp3`, unos 125 KB cada uno; con 360 preguntas serían unos 135 MB, así que conviene generar solo los de las historias más importantes pasando sus ids: `node scripts/generate-audio.js gr-006 gr-007`).
 
 ---
-
-## Cómo vincular un artículo del blog (historia)
-
-Cada artículo de historywithaccent.com puede tener su pack de preguntas en Chronos. Ejemplo real: Antikythera.
-
-1. **Registrar la historia** en `src/data/catalog.ts` → `STORIES`:
-
-```ts
-antikythera: {
-  id: 'antikythera',
-  title: 'The Antikythera Mechanism: The 2,000-Year-Old Greek Computer',
-  url: 'https://historywithaccent.com/antikythera-mechanism-greek-computer/',
-},
-```
-
-2. **Escribir 5 preguntas** sacadas del artículo en el JSON de la categoría que corresponda, con `"story": "antikythera"` y `"level": "B1"`. Conviene reusar el vocabulario del glosario del artículo.
-3. **En Chronos** aparece solo el botón "Read the full story" después de cada una de esas preguntas.
-4. **En el blog** pegar los bloques de `blog/snippets-wordpress.html`: la pregunta del día de esa historia (`/embed/daily?story=antikythera`) y el botón final que abre `/game/<categoria>?story=antikythera` (la ronda arranca con las preguntas de esa historia).
 
 ## Cómo agregar vocabulario a una pregunta
 

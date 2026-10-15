@@ -30,8 +30,6 @@ export interface LessonSummary {
 
 /** Options for `useGame`. */
 export interface UseGameOptions {
-  /** Blog story whose questions should open the round (from `?story=`). */
-  storyId?: string;
   /** `false` until the router query is available; the round is built after that. */
   ready?: boolean;
 }
@@ -40,7 +38,7 @@ export interface UseGameOptions {
  * Manages all state for a single-player trivia game session.
  *
  * Once `ready`, the hook picks `QUESTIONS_PER_ROUND` questions at random from
- * `allQuestions` (the `storyId` questions first) and shuffles their options.
+ * `allQuestions` and shuffles their options.
  * The round is built on the client only, so the static HTML and the first
  * client render match (no hydration mismatch from `Math.random`).
  *
@@ -49,7 +47,7 @@ export interface UseGameOptions {
  * - Streak and session stats are recorded once when the phase reaches `'finished'`.
  *
  * @param allQuestions - The full pool of questions for the selected category.
- * @param options - `storyId` and `ready`; see `UseGameOptions`.
+ * @param options - `ready`; see `UseGameOptions`.
  *
  * @returns
  * - All fields from `GameState` spread directly.
@@ -64,7 +62,7 @@ export interface UseGameOptions {
  * - `streak` – the daily streak, already updated once the lesson finishes.
  * - `lesson` – XP before and after the lesson and whether it completed the daily goal; `null` until it finishes.
  */
-export function useGame(allQuestions: Question[], { storyId, ready = true }: UseGameOptions = {}) {
+export function useGame(allQuestions: Question[], { ready = true }: UseGameOptions = {}) {
   const { registerPlay, currentStreak } = useStreak();
   const { recordAnswer, recordSessionEnd } = useStats();
   const { recordAnswer: recordProgressAnswer, completeLesson } = useProgress();
@@ -85,8 +83,8 @@ export function useGame(allQuestions: Question[], { storyId, ready = true }: Use
     const progress = getProgress();
     const history = progress ? { seen: seenSet(progress), missed: new Set(progress.missed) } : undefined;
     startXp.current = progress?.xp ?? 0;
-    setState(emptyState(buildRound(allQuestions, QUESTIONS_PER_ROUND, storyId, Math.random, history)));
-  }, [allQuestions, storyId]);
+    setState(emptyState(buildRound(allQuestions, QUESTIONS_PER_ROUND, Math.random, history)));
+  }, [allQuestions]);
 
   // Build the first round on the client once the query string is known.
   useEffect(() => {

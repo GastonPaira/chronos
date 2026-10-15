@@ -1,4 +1,4 @@
-// Catálogo único de eras, categorías e historias del blog.
+// Catálogo único de eras y categorías.
 // Para sumar contenido: agregá la categoría acá, su JSON en src/data/questions/ y la imagen en public/images/.
 
 /** A historical era shown on the era-selection screen. */
@@ -16,15 +16,6 @@ export interface CategoryDef {
   icon: string;
   image: string;
 }
-
-/** An article on historywithaccent.com that has questions in Chronos. */
-export interface StoryDef {
-  id: string;
-  title: string;
-  url: string;
-}
-
-export const BLOG_URL = 'https://historywithaccent.com/';
 
 export const ERAS: EraDef[] = [
   {
@@ -69,14 +60,6 @@ export const CATEGORIES: Record<string, CategoryDef> = {
   'cold-war-space-race': { id: 'cold-war-space-race', icon: '🚀', image: '/images/modern-era.jpg' },
 };
 
-export const STORIES: Record<string, StoryDef> = {
-  antikythera: {
-    id: 'antikythera',
-    title: 'The Antikythera Mechanism: The 2,000-Year-Old Greek Computer',
-    url: 'https://historywithaccent.com/antikythera-mechanism-greek-computer/',
-  },
-};
-
 const DEFAULT_ICON = '📜';
 
 export function getCategoryIcon(categoryId: string): string {
@@ -94,22 +77,4 @@ export function getEra(eraId: string | undefined): EraDef | undefined {
 /** Eras that have at least one category, i.e. that can be played. */
 export function getPlayableEras(): EraDef[] {
   return ERAS.filter(era => era.categoryIds.length > 0);
-}
-
-export function getStory(storyId: string | undefined): StoryDef | undefined {
-  return storyId ? STORIES[storyId] : undefined;
-}
-
-/**
- * Builds a link to a blog story tagged with UTM parameters,
- * so the blog's analytics can tell how many readers Chronos sends.
- */
-export function getStoryLink(storyId: string, campaign: string): string | undefined {
-  const story = STORIES[storyId];
-  if (!story) return undefined;
-  const url = new URL(story.url);
-  url.searchParams.set('utm_source', 'chronos');
-  url.searchParams.set('utm_medium', 'app');
-  url.searchParams.set('utm_campaign', campaign);
-  return url.toString();
 }

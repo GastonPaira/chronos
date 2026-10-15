@@ -303,7 +303,6 @@
     },
     "difficulty": "easy",
     "level": "B1",
-    "story": "antikythera",
     "question": {
       "en": "In 1900, a storm forced a crew of Greek sponge divers to shelter near the island of Antikythera. What did one of the divers find about 45 meters under the sea?",
       "es": "En 1900, una tormenta obligó a un grupo de buzos de esponjas griegos a refugiarse cerca de la isla de Anticitera. ¿Qué encontró uno de los buzos a unos 45 metros bajo el mar?"
@@ -367,7 +366,6 @@
     },
     "difficulty": "easy",
     "level": "B1",
-    "story": "antikythera",
     "question": {
       "en": "The ship that sank near Antikythera in the first century BC was carrying Greek treasures. Where was it most likely heading?",
       "es": "El barco que se hundió cerca de Anticitera en el siglo I a. C. llevaba tesoros griegos. ¿Hacia dónde se dirigía, muy probablemente?"
@@ -431,7 +429,6 @@
     },
     "difficulty": "easy",
     "level": "B1",
-    "story": "antikythera",
     "question": {
       "en": "When scientists finally figured out the gears inside that corroded lump of bronze, what did they discover it could do?",
       "es": "Cuando los científicos por fin entendieron los engranajes de ese trozo de bronce corroído, ¿qué descubrieron que podía hacer?"
@@ -495,7 +492,6 @@
     },
     "difficulty": "hard",
     "level": "B1",
-    "story": "antikythera",
     "question": {
       "en": "The Moon moves faster across the sky at some times of the month than at others. How did the Antikythera Mechanism copy this uneven speed?",
       "es": "La Luna se mueve más rápido por el cielo en algunos momentos del mes que en otros. ¿Cómo imitaba el Mecanismo de Anticitera esa velocidad desigual?"
@@ -559,7 +555,6 @@
     },
     "difficulty": "medium",
     "level": "B1",
-    "story": "antikythera",
     "question": {
       "en": "After the Antikythera Mechanism, when do we find another machine with gears this complex?",
       "es": "Después del Mecanismo de Anticitera, ¿cuándo aparece otra máquina con engranajes así de complejos?"

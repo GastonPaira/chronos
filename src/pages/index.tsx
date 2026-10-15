@@ -9,7 +9,6 @@ import StreakDisplay from '@/components/StreakDisplay';
 import { AuthButton } from '@/components/AuthButton';
 import DailyGoalCard from '@/components/DailyGoalCard';
 import Onboarding from '@/components/Onboarding';
-import { BLOG_URL } from '@/data/catalog';
 import { useProgress } from '@/hooks/useProgress';
 import { useWords } from '@/hooks/useWords';
 import { toLocalDateKey } from '@/lib/dates';
@@ -80,8 +79,8 @@ export default function Home() {
         }}
       />
 
-      {/* Top bar */}
-      <div className="absolute top-6 left-6 right-6 z-10 flex items-center justify-between">
+      {/* Top bar — above the main content so the user menu dropdown is clickable */}
+      <div className="absolute top-6 left-6 right-6 z-20 flex items-center justify-between">
         <AuthButton />
         <LanguageSelector />
       </div>
@@ -125,16 +124,6 @@ export default function Home() {
 
         <StreakDisplay context="home" />
       </div>
-
-      {/* Bottom tagline: bridge back to the blog */}
-      <a
-        href={`${BLOG_URL}?utm_source=chronos&utm_medium=app&utm_campaign=home_footer`}
-        target="_blank"
-        rel="noopener"
-        className="absolute bottom-6 left-6 right-20 z-10 text-center text-xs text-chronos-muted/70 tracking-widest uppercase hover:text-chronos-gold transition-colors"
-      >
-        {t('home.blogLink')}
-      </a>
     </div>
   );
 }

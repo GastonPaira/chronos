@@ -2,6 +2,7 @@
 
 import { useRef, useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
+import { useTranslation } from 'next-i18next';
 
 /**
  * Props for `UserMenu`.
@@ -37,6 +38,7 @@ export default function UserMenu({ name, fullName, email, onSignOut }: UserMenuP
   const [dropdownSide, setDropdownSide] = useState<'left' | 'right'>('right');
   const containerRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
+  const { t } = useTranslation('common');
 
   useEffect(() => {
     const handleOutside = (e: MouseEvent) => {
@@ -125,7 +127,7 @@ export default function UserMenu({ name, fullName, email, onSignOut }: UserMenuP
                 <rect x="9" y="1" width="2" height="10" rx="0.5" />
               </svg>
             </span>
-            Mis estadísticas
+            {t('userMenu.stats')}
           </div>
 
           {/* Sign out */}
@@ -138,7 +140,7 @@ export default function UserMenu({ name, fullName, email, onSignOut }: UserMenuP
                 <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9" />
               </svg>
             </span>
-            Cerrar sesión
+            {t('userMenu.signOut')}
           </div>
         </div>
       )}

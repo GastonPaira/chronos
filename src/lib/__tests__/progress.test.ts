@@ -179,7 +179,7 @@ describe('lessons prefer questions the player has not seen', () => {
   it('serves unseen questions before seen ones', () => {
     const seen = new Set(questions.slice(0, 25).map(q => q.id));
     for (let seed = 1; seed <= 10; seed++) {
-      const round = buildRound(questions, 5, undefined, seeded(seed), { seen, missed: new Set() });
+      const round = buildRound(questions, 5, seeded(seed), { seen, missed: new Set() });
       expect(round.every(q => !seen.has(q.id)), `seed ${seed}`).toBe(true);
     }
   });
@@ -187,15 +187,9 @@ describe('lessons prefer questions the player has not seen', () => {
   it('brings back missed questions before ones answered correctly', () => {
     const seen = new Set(questions.map(q => q.id));
     const missed = new Set(questions.slice(0, 3).map(q => q.id));
-    const round = buildRound(questions, 5, undefined, seeded(4), { seen, missed });
+    const round = buildRound(questions, 5, seeded(4), { seen, missed });
     const ids = round.map(q => q.id);
     for (const id of missed) expect(ids).toContain(id);
-  });
-
-  it('still puts the story questions first', () => {
-    const greece = (questionsData as Question[]).filter(q => q.category === 'ancient-greece');
-    const round = buildRound(greece, 5, 'antikythera', seeded(2), { seen: new Set(), missed: new Set() });
-    expect(round.every(q => q.story === 'antikythera')).toBe(true);
   });
 });
 

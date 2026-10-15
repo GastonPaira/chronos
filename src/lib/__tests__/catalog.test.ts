@@ -3,7 +3,7 @@ import path from 'path';
 import { describe, expect, it } from 'vitest';
 import type { Question } from '@/types';
 import questionsData from '@/data/questions';
-import { CATEGORIES, ERAS, STORIES } from '@/data/catalog';
+import { CATEGORIES, ERAS } from '@/data/catalog';
 
 const questions = questionsData as Question[];
 const publicDir = path.resolve(process.cwd(), 'public');
@@ -56,12 +56,6 @@ describe('content catalog', () => {
         expect(text.en.trim(), q.id).not.toBe('');
         expect(text.es.trim(), q.id).not.toBe('');
       }
-    }
-  });
-
-  it('every story referenced by a question exists', () => {
-    for (const q of questions.filter(q => q.story)) {
-      expect(STORIES[q.story!], q.id).toBeDefined();
     }
   });
 

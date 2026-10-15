@@ -5,7 +5,6 @@
     "playButton": "Jugar",
     "multiplayerButton": "Multijugador",
     "languageLabel": "Idioma",
-    "blogLink": "Más historias en History with Accent",
     "words": "Palabras",
     "progress": "Progreso"
   },
@@ -196,10 +195,6 @@
       "alreadyToday": "Ya jugaste hoy. ¡Vuelve mañana!"
     }
   },
-  "story": {
-    "readFull": "Leé la historia completa",
-    "from": "En History with Accent"
-  },
   "safetyNet": {
     "show": "Ver en español",
     "hide": "Ocultar español"
@@ -208,11 +203,6 @@
     "subtitle": "Iniciá sesión para guardar tu progreso y tu racha",
     "versus": "Iniciá sesión con Google para jugar un versus con un amigo",
     "back": "Volver a Chronos"
-  },
-  "embed": {
-    "title": "Pregunta del día",
-    "playMore": "Jugá 10 más en Chronos",
-    "answerToSee": "Respondé para ver la historia detrás"
   },
   "vocab": {
     "reviewTitle": "Repaso de palabras",
@@ -365,5 +355,9 @@
       "title": "{{category}} completada",
       "desc": "Responde todas las preguntas de {{category}}."
     }
+  },
+  "userMenu": {
+    "stats": "Mis estadísticas",
+    "signOut": "Cerrar sesión"
   }
 }

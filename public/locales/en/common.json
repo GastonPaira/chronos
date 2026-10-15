@@ -5,7 +5,6 @@
     "playButton": "Play",
     "multiplayerButton": "Multiplayer",
     "languageLabel": "Language",
-    "blogLink": "More stories on History with Accent",
     "words": "Words",
     "progress": "Progress"
   },
@@ -196,10 +195,6 @@
       "alreadyToday": "Already played today. Come back tomorrow!"
     }
   },
-  "story": {
-    "readFull": "Read the full story",
-    "from": "On History with Accent"
-  },
   "safetyNet": {
     "show": "Show in Spanish",
     "hide": "Hide Spanish"
@@ -208,11 +203,6 @@
     "subtitle": "Sign in to save your progress and streak",
     "versus": "Sign in with Google to play a versus with a friend",
     "back": "Back to Chronos"
-  },
-  "embed": {
-    "title": "Question of the day",
-    "playMore": "Play 10 more in Chronos",
-    "answerToSee": "Answer to see the story behind it"
   },
   "vocab": {
     "reviewTitle": "Word review",
@@ -365,5 +355,9 @@
       "title": "{{category}} complete",
       "desc": "Answer every question in {{category}}."
     }
+  },
+  "userMenu": {
+    "stats": "My stats",
+    "signOut": "Sign out"
   }
 }

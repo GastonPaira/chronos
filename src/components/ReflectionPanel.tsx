@@ -1,10 +1,9 @@
 // Panel de reflexión: contexto histórico, "Meanwhile" y reflexión, en inglés con español a un toque,
-// audio (mp3 o voz del navegador) y el puente al artículo del blog ("Read the full story").
+// y audio (mp3 o voz del navegador).
 
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'next-i18next';
 import type { LocalizedString, Question, VocabEntry } from '@/types';
-import { getStory, getStoryLink } from '@/data/catalog';
 import { useNarration, type NarrationMode, type NarrationStatus } from '@/hooks/useNarration';
 import { SpanishText, SpanishToggle } from '@/components/SpanishToggle';
 import GlossedText from '@/components/GlossedText';
@@ -93,9 +92,6 @@ export default function ReflectionPanel({ question, isLast, onContinue, onWordTa
   const [spanish, setSpanish] = useState<Record<PanelKey, boolean>>({
     explanation: false, meanwhile: false, reflection: false,
   });
-
-  const story = getStory(question.story);
-  const storyLink = story ? getStoryLink(story.id, 'read_full_story') : undefined;
 
   // Reset panels and stop audio when the question changes.
   const { stop } = narration;
@@ -199,22 +195,6 @@ export default function ReflectionPanel({ question, isLast, onContinue, onWordTa
           </div>
         );
       })}
-
-      {/* Bridge to the blog */}
-      {story && storyLink && (
-        <a
-          href={storyLink}
-          target="_blank"
-          rel="noopener"
-          className="group flex items-center justify-between gap-3 rounded-xl border border-chronos-gold/40 bg-chronos-gold/5 px-4 py-3 mt-1 hover:border-chronos-gold hover:bg-chronos-gold/10 transition-colors"
-        >
-          <span className="flex flex-col">
-            <span className="text-[13px] font-semibold text-chronos-gold">{t('story.readFull')}</span>
-            <span className="text-[12px] text-chronos-muted">{story.title} · {t('story.from')}</span>
-          </span>
-          <span className="text-chronos-gold transition-transform group-hover:translate-x-1">→</span>
-        </a>
-      )}
 
       <button
         onClick={onContinue}
