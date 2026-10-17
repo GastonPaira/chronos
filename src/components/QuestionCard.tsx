@@ -63,7 +63,7 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer, onWor
   const listen = () => {
     cancelSpeech.current?.();
     setSpeaking(true);
-    cancelSpeech.current = speakSentence(question.question.en, () => setSpeaking(false));
+    cancelSpeech.current = speakSentence(question.question.en, () => setSpeaking(false), `${question.id}_question_en`);
   };
 
   // In listening mode the question reads itself when it appears.
@@ -72,7 +72,7 @@ export default function QuestionCard({ question, selectedAnswer, onAnswer, onWor
     if (!listening) return;
     const timer = setTimeout(() => {
       setSpeaking(true);
-      cancelSpeech.current = speakSentence(questionText, () => setSpeaking(false));
+      cancelSpeech.current = speakSentence(questionText, () => setSpeaking(false), `${question.id}_question_en`);
     }, 500);
     return () => {
       clearTimeout(timer);
